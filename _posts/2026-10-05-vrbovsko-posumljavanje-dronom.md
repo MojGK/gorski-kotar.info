@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Vrbovsko sadi šumu dronom – i nastavlja
-date: 2026-10-05 10:54:47 +0200
+date: 2026-10-05
+show_time: false
 location: Vrbovsko
 type: Priroda
 categories: [Vrbovsko, Priroda]

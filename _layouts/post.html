@@ -16,7 +16,7 @@ layout: default
     {% include oznake.html post=page %}
     <h1>{{ page.title }}</h1>
     <div class="meta">
-      {% include datum.html date=page.date %} · {{ site.author.name | default: "Moj Gorski Kotar" }}
+      {% include datum.html date=page.date show_time=page.show_time %} · {{ site.author.name | default: "Moj Gorski Kotar" }}
     </div>
     {%- assign lede = page.excerpt | strip_html | strip -%}
     {%- assign first_para = content | split: '</p>' | first | strip_html | strip -%}

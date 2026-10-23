@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mrkopalj, prijestolnica kravate – gotovo 1.000 primjeraka na jednom mjestu
-date: 2026-10-18 10:54:47 +0200
+date: 2026-10-18
+show_time: false
 location: Mrkopalj
 type: Kultura
 categories: [Mrkopalj, Kultura]

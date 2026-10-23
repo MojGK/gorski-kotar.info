@@ -4,7 +4,7 @@
     <ol class="latest-list">
       {%- for p in site.posts limit: 8 %}
       <li{% if p.url == page.url %} class="current"{% endif %}>
-        <span class="latest-time">{% include datum.html date=p.date short=true %}</span>
+        <span class="latest-time">{% include datum.html date=p.date show_time=p.show_time short=true %}</span>
         <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
       </li>
       {%- endfor %}

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Švicarska u Gorskom kotaru – voda, cijevi i 25 milijuna franaka
-date: 2026-10-07 10:54:47 +0200
+date: 2026-10-07
+show_time: false
 location: Gorski kotar
 type: Zanimljivosti
 categories: [Gorski kotar, Zanimljivosti]

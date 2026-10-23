@@ -1,7 +1,8 @@
 ---
 layout: post
 title: 240 godina škole u Ravnoj Gori – uz mjuzikl o Branimiru Markoviću
-date: 2026-10-16 10:54:47 +0200
+date: 2026-10-16
+show_time: false
 location: Ravna Gora
 type: Kultura
 categories: [Ravna Gora, Kultura]

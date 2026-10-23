@@ -18,7 +18,7 @@ sidebar: true
     </div>
   </a>
   <div class="lead-body">
-    <div class="lead-meta">{% include oznake.html post=lead %}<span class="meta">{% include datum.html date=lead.date %}</span></div>
+    <div class="lead-meta">{% include oznake.html post=lead %}<span class="meta">{% include datum.html date=lead.date show_time=lead.show_time %}</span></div>
     <p>{{ lead.excerpt | strip_html | strip }}</p>
     {% if lead.image_credit %}<p class="lead-credit">{{ lead.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
   </div>
@@ -54,7 +54,7 @@ sidebar: true
     <div class="content">
       {% include oznake.html post=post %}
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <div class="meta">{% include datum.html date=post.date %}</div>
+      <div class="meta">{% include datum.html date=post.date show_time=post.show_time %}</div>
       <p>{{ post.excerpt | strip_html | truncate: 95 }}</p>
     </div>
   </article>

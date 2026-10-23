@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Sunger dobio Goransku kuću, Mrkopalj šetnicu „Stara Karolina“
-date: 2026-10-04 10:54:47 +0200
+date: 2026-10-04
+show_time: false
 location: Mrkopalj
 type: Događanja
 categories: [Mrkopalj, Događanja]

@@ -11,7 +11,8 @@ sitemap: false
   "title": {{ post.title | jsonify }},
   "url": {{ post.url | relative_url | jsonify }},
   "date": {{ post.date | date_to_xmlschema | jsonify }},
-  "date_text": {{ post.date | date: "%d. %m. %Y. u %H:%M" | jsonify }},
+  {%- assign hms = post.date | date: "%H:%M:%S" %}
+  "date_text": {% if post.show_time == false or hms == "00:00:00" %}{{ post.date | date: "%d. %m. %Y." | jsonify }}{% else %}{{ post.date | date: "%d. %m. %Y. u %H:%M" | jsonify }}{% endif %},
   "excerpt": {{ post.excerpt | default: post.description | strip_html | strip_newlines | strip | jsonify }},
   "location": {{ post.location | jsonify }},
   "location_slug": {{ s_loc.slug | jsonify }},
