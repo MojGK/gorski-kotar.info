@@ -25,7 +25,7 @@ Za 50. rođendan 2019. izašla je monografija **„Radio Delnice – Radio Gorsk
 
 ## Kad je radio bio prozor u svijet
 
-Ovakva fotografija podsjeća na vrijeme kad je lokalni radio bio jedan od glavnih izvora vijesti za Gorane. Pogotovo je to bio u ratnim godinama, kad se pozorno slušalo što se događa u kraju. Radio je desetljećima bio i jedini elektronički medij u Gorskom kotaru. Danas se njegov program može slušati i preko interneta. A meni je uvijek drago vidjeti mikser i magnetofone iz doba prije računala.
+Ovakva fotografija podsjeća na vrijeme kad je lokalni radio bio jedan od glavnih izvora vijesti za Gorane. Posebno u ratnim godinama, kad se pozorno slušalo što se događa u kraju. Riječ je o najstarijem, a dugo i jedinom elektroničkom mediju u Gorskom kotaru. Danas se njegov program može slušati i preko interneta. A meni je uvijek drago vidjeti mikser i magnetofone iz doba prije računala.
 
 ---
 
