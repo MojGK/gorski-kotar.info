@@ -461,7 +461,14 @@ mark { background: #fff1a8; color: inherit; padding: 0 1px; border-radius: 2px; 
   .hit-thumb img { width: 100%; }
   .site-header { position: static; }
 }
-@media (max-width: 420px) {
-  .posts-grid { grid-template-columns: 1fr; }
-  .post-card p { display: block; }
+@media (max-width: 480px) {
+  /* na mobitelu kompaktne vodoravne kartice: sličica lijevo, tekst desno */
+  .posts-grid { grid-template-columns: 1fr; gap: 8px; }
+  .post-card { flex-direction: row; align-items: stretch; }
+  .post-card:hover { transform: none; }
+  .post-card .card-thumb { flex: 0 0 116px; }
+  .post-card .card-thumb img { height: 100%; aspect-ratio: auto; min-height: 92px; }
+  .post-card .content { padding: 8px 10px; min-width: 0; }
+  .post-card .tags { margin-bottom: 3px; }
+  .post-card h3 { font-size: 0.9rem; }
 }
