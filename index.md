@@ -3,13 +3,19 @@ layout: default
 title: Početna
 ---
 
+{% assign hero = site.posts.first %}
 <div class="hero">
   <div class="hero-content">
-    <h1>Jesen na Bajeru – mir koji ostaje</h1>
-    <p>Jezero Bajer jedno je od onih mjesta koja me uvijek iznova podsjete zašto volim Gorski kotar. Jesen ovdje nije samo boja – ona je osjećaj.</p>
-    <p><a href="{{ '/jesen-na-bajeru/' | relative_url }}" style="color: var(--green); font-weight: 600;">Pročitaj više →</a></p>
+    <h1>{{ hero.title }}</h1>
+    <p>{{ hero.excerpt | strip_html }}</p>
+    <p><a href="{{ hero.url | relative_url }}" style="color: var(--green); font-weight: 600;">Pročitaj više →</a></p>
   </div>
-  <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Jezero Bajer">
+  {% if hero.image %}
+  <figure class="hero-figure">
+    <img src="{{ hero.image | relative_url }}" alt="{{ hero.image_alt | default: hero.title | escape }}">
+    {% if hero.image_credit %}<figcaption>{{ hero.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
 </div>
 
 <h2>Nedavni objavi</h2>
@@ -17,10 +23,10 @@ title: Početna
   {% for post in site.posts limit: 12 %}
   <article class="post-card">
     {% if post.image %}
-      <img src="{{ post.image }}" alt="{{ post.title }}">
+      <a href="{{ post.url | relative_url }}" class="card-thumb"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>
     {% endif %}
     <div class="content">
-      <div class="meta">{{ post.date | date: "%d. %B %Y." }} · {{ post.category | default: "Događaji" }}</div>
+      <div class="meta">{{ post.date | date: "%d. %m. %Y." }} · {{ post.category | default: "Događaji" }}</div>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
     </div>

@@ -4,9 +4,10 @@ title: Švicarska u Gorskom kotaru – voda, cijevi i 25 milijuna franaka
 date: 2026-10-07
 category: Zajednica
 excerpt: Kroz prvu švicarsku darovnicu u goransku vodoopskrbu i odvodnju uloženo je više od 25 milijuna franaka, a stiže i druga, od oko 27 milijuna.
+image: /assets/images/kupa-brod-na-kupi.jpg
+image_alt: "Rijeka Kupa kod Broda na Kupi"
+image_credit: "Fotografija (rijeka Kupa kod Broda na Kupi): Modzzak / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kupa,_Brod_na_Kupi.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
-
-# Švicarska u Gorskom kotaru – voda, cijevi i 25 milijuna franaka
 
 Neke investicije ne vidiš jer su zakopane pod zemljom – a upravo o njima ovisi čista voda iz slavine. Zato mi je drago pročitati da je 7. listopada Gorski kotar posjetio Stefan Engler, predsjednik Vijeća država Švicarske, i obišao pročišćivač otpadnih voda u Donjoj Dobri, koji služi općinama Brod Moravice i Skrad.
 

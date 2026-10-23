@@ -3,11 +3,11 @@ layout: default
 title: Jesen na Bajeru – mir koji ostaje
 date: 2026-10-20
 category: Priroda
-image: https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80
 excerpt: Jezero Bajer jedno je od onih mjesta koja me uvijek iznova podsjete zašto volim Gorski kotar.
+image: /assets/images/jezero-bajer.jpg
+image_alt: "Jezero Bajer u Fužinama"
+image_credit: "Fotografija (jezero Bajer u Fužinama): Reklam-net (Panoramio) / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fu%C5%BEine_Bajer_lake_Croatia_-_panoramio.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
-
-![Jezero Bajer]({{ page.image }})
 
 Volim takve trenutke kad ne moraš ići daleko da bi vidio nešto posebno. Jezero Bajer je jedno od onih mjesta koja me uvijek iznova iznenade – bilo da je sunce, magla ili kiša, uvijek ima neka nova nijansa zelene i neki novi detalj koji prije nisam primijetio.
 
@@ -23,4 +23,4 @@ Ponekad je to dovoljno.
 
 ---
 
-*Ovo je osobni zapis. Sve fotografije i dojmovi su moji.*
+*Ovo je osobni zapis i dojmovi su moji. Fotografija: Reklam-net / Wikimedia Commons, CC BY-SA 3.0.*

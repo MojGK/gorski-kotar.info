@@ -25,7 +25,23 @@
   </header>
 
   <main class="container">
+    {% if page.collection == "posts" %}
+    <article class="post">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <div class="post-meta">{{ page.date | date: "%d. %m. %Y." }} · {{ page.category | default: "Događaji" }} · {{ site.author.name }}</div>
+      {% if page.image %}
+      <figure class="post-figure">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="eager">
+        {% if page.image_credit %}<figcaption>{{ page.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+      <div class="post-body">
+        {{ content }}
+      </div>
+    </article>
+    {% else %}
     {{ content }}
+    {% endif %}
   </main>
 
   <footer>

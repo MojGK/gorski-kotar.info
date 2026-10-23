@@ -4,9 +4,10 @@ title: Vrbovsko sadi šumu dronom – i nastavlja
 date: 2026-10-05
 category: Priroda
 excerpt: U Velikom Jadrču šuma se sadila dronom i ručno, a Grad Vrbovsko najavljuje još dvije takve akcije s osnovcima.
+image: /assets/images/posumljavanje-dronom-ai.jpg
+image_alt: "Ilustracija: sadnice i dron iznad šumske čistine"
+image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
-
-# Vrbovsko sadi šumu dronom – i nastavlja
 
 Sadnja šume dronom zvuči kao nešto iz budućnosti, ali u Velikom Jadrču to je već stvarnost. Povodom Međunarodnog dana sadnje stabala Grad Vrbovsko s partnerima organizirao je pošumljavanje dronom na gradskoj čestici na kojoj je ranije bila sječa za ogrjev. Novi list Vrbovsko naziva pionirom takvog pošumljavanja u Gorskom kotaru.
 

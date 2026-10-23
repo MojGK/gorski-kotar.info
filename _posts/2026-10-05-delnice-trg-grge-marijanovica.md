@@ -4,9 +4,10 @@ title: Delnicama 760.000 eura za Trg Grge Marijanovića – ali gdje parkirati?
 date: 2026-10-05
 category: Zajednica
 excerpt: Prostor ispred Radničkog doma postat će novi trg, a radovi bi trebali početi iduće godine. Otvara se i pitanje parkiranja.
+image: /assets/images/delnice-ulica.jpg
+image_alt: "Ulica u Delnicama"
+image_credit: "Fotografija (ulica u Delnicama): Modzzak / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice,_Croatia.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
-
-# Delnicama 760.000 eura za Trg Grge Marijanovića – ali gdje parkirati?
 
 Delnice su dobile 760.000 eura državnog novca za uređenje Trga Grge Marijanovića, na prostoru ispred Radničkog doma. Gradonačelnik Igor Pleše kaže da je grad dobio gotovo maksimalan iznos i da bi radovi trebali krenuti iduće godine.
 
