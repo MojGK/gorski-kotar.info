@@ -10,7 +10,7 @@ svaki dan premješta draft s najnižim brojem u `_posts/`:
 
 | Br. | Draft | Slug (URL) | Mjesto | Vrsta | Slika |
 |---|---|---|---|---|---|
-| 1 | `1-kako-je-nastalo-jezero-bajer.md` | `/kako-je-nastalo-jezero-bajer/` | Fužine | Povijest | `bajer-most-autoceste.jpg` |
+| 1 | `1-kako-je-nastalo-jezero-bajer.md` | `/kako-je-nastalo-jezero-bajer/` | Fužine | Povijest | `bajer-most-autoceste.jpg` | (objavljeno 23. 10.)
 | 2 | `2-delnice-prvi-spomen-1481.md` | `/delnice-prvi-spomen-1481/` | Delnice | Povijest | `delnice-pogled-japlenski-vrh.jpg` |
 | 3 | `3-ime-fuzine-kovacnica.md` | `/ime-fuzine-kovacnica/` | Fužine | Povijest | `fuzine-1929-razglednica.jpg` |
 | 4 | `4-dvorac-stara-susica.md` | `/dvorac-stara-susica/` | Ravna Gora | Povijest | `dvorac-stara-susica.jpg` |

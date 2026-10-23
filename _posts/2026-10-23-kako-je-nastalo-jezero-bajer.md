@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kako je nastalo jezero koje je promijenilo Fužine
-date: 2026-10-24 # PLACEHOLDER: dnevni posao pri objavi upisuje stvarno vrijeme (YYYY-MM-DD HH:MM:SS +ZONA; 24. 10. = +0200, od 25. 10. = +0100)
+date: 2026-10-23 13:12:58 +0200
 location: Fužine
 type: Povijest
 categories: [Fužine, Povijest, POVIJEST GK]
