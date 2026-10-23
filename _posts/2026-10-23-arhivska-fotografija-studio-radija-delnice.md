@@ -17,7 +17,7 @@ Izvornu fotografiju možete pogledati u grupi. Ovdje je ne prenosim jer ne znamo
 
 ## Pola stoljeća goranskog radija
 
-Delnički radio prvi se put javio u eteru **29. studenoga 1969.**, kao Radio Delnice. Među njegovim pokretačima bio je novinar i sportski komentator **Ivica Kovačević**. Grad Delnice mu je 2018. dodijelio nagradu za životno djelo, među ostalim za doprinos osnivanju prve radijske postaje u Gorskom kotaru.
+Delnički radio prvi se put javio u eteru **29. studenoga 1969.**, kao Radio Delnice. Među njegovim pokretačima bio je **Ivica Kovačević**. Grad Delnice mu je 2018. dodijelio nagradu za životno djelo, među ostalim za doprinos osnivanju prve radijske postaje u Gorskom kotaru.
 
 Ime Radio Gorski kotar postaja je dobila tek sredinom devedesetih. U Domovinskom ratu radio je bio otuđen od dotadašnjih vlasnika, devastiran i ugašen, a zatim obnovljen pod novim imenom. Tvrtka Radio Gorski kotar registrirana je u lipnju 1995. Ako je datacija iz grupe točna, fotografija je dakle nastala prije preimenovanja.
 
