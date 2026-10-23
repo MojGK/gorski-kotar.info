@@ -11,7 +11,7 @@ image_alt: "Pogled na Ravnu Goru s okolnog brda"
 image_credit: "Fotografija (pogled na Ravnu Goru): Martinarg / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pogled_na_Ravnu_Goru.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
 
-Ravnogorci će uskoro moći oprati auto bez vožnje u susjedna mjesta. U centru Ravne Gore, pored SPC-a Goranka, sagrađena je nova autopraonica, a otvorenje je u planu još tijekom listopada.
+Ravna Gora uskoro dobiva novu autopraonicu. Smještena je u centru mjesta, pored SPC-a Goranka, a otvorenje je u planu još tijekom listopada.
 
 ## Što se još čeka
 
