@@ -6,14 +6,12 @@ location: Delnice
 type: Povijest
 categories: [Delnice, Povijest]
 excerpt: "U grupi Goranske Šanse osvanula je stara crno-bijela fotografija radijskog studija. Članovi ga prepoznaju kao studio delničkog radija s početka devedesetih, današnjeg Radija Gorski kotar."
-image: /assets/images/radio-studio-90-ih-ai.jpg
-image_alt: "Ilustracija: crno-bijeli prizor malog radijskog studija s početka devedesetih, s mikrofonom, mikserom i magnetofonima"
-image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI). Nije izvorna arhivska fotografija."
+image: /assets/images/radio-delnice-studio-arhiva.jpg
+image_alt: "Crno-bijela arhivska fotografija – žena i muškarac za mikserskom konzolom u studiju Radija Delnice"
+image_credit: "Foto: arhiva, objavio Pero Lovrović u Facebook grupi Goranske Šanse"
 ---
 
-U Facebook grupi Goranske Šanse nedavno je objavljena stara crno-bijela fotografija radijskog studija. Prema komentarima članova grupe, riječ je o studiju delničkog radija, današnjeg Radija Gorski kotar, a snimljena je 1992. ili 1993. godine. To je njihovo sjećanje, a ne potvrđen podatak. Ako netko zna više, rado ću dopuniti.
-
-Izvornu fotografiju možete pogledati u grupi. Ovdje je ne prenosim jer ne znamo tko je autor, a nismo ga mogli pitati za dopuštenje. Gore je samo ilustracija.
+U Facebook grupi Goranske Šanse Pero Lovrović nedavno je podijelio staru crno-bijelu fotografiju radijskog studija. Uz nju je napisao da je pod fotografijom bilo zapisano „Radio Delnice“ (arhiva). U komentarima su je članovi grupe smjestili u 1992. ili 1993. godinu. To je njihovo sjećanje, a ne potvrđen podatak, pa ako netko zna više, rado ću dopuniti.
 
 ## Pola stoljeća goranskog radija
 
@@ -25,13 +23,13 @@ Za 50. rođendan 2019. izašla je monografija **„Radio Delnice – Radio Gorsk
 
 ## Kad je radio bio prozor u svijet
 
-Ovakva fotografija podsjeća na vrijeme kad je lokalni radio bio jedan od glavnih izvora vijesti za Gorane. Posebno u ratnim godinama, kad se pozorno slušalo što se događa u kraju. Riječ je o najstarijem, a dugo i jedinom elektroničkom mediju u Gorskom kotaru. Danas se njegov program može slušati i preko interneta. A meni je uvijek drago vidjeti mikser i magnetofone iz doba prije računala.
+Ovakva fotografija podsjeća na vrijeme kad je lokalni radio bio jedan od glavnih izvora vijesti za Gorane. Posebno u ratnim godinama, kad se pozorno slušalo što se događa u kraju. Riječ je o najstarijem, a dugo i jedinom elektroničkom mediju u Gorskom kotaru. Danas se njegov program može slušati i preko interneta. A meni je uvijek drago vidjeti onakav mikser i stare uređaje iz doba prije računala.
 
 ---
 
 *Izvori:*
 
-- *Goranske Šanse (Facebook grupa), objava i komentari članova*
+- *Pero Lovrović, objava s arhivskom fotografijom i komentari članova, Goranske Šanse (Facebook grupa)*
 - *Ogranak Matice hrvatske u Čabru, podaci o monografiji ([matica.hr](https://www.matica.hr/ogranci/ogranak-matice-hrvatske-u-cabru/knjiga/radio-delnice-radio-gorski-kotar-355/)) i izvješće s predstavljanja knjige ([matica.hr](https://www.matica.hr/ogranci/%C4%8CABAR/izvjesce/1629/))*
 - *Novi list, „Dva koncerta u povodu pola stoljeća Radija Gorski kotar“, 2019. ([link](https://www.novilist.hr/regija/dva-koncerta-u-povodu-pola-stoljeca-radija-gorski-kotar/))*
 - *Grad Delnice, odluka o nagradi za životno djelo Ivici Kovačeviću, 2018. ([PDF](http://www.delnice.hr/DOKUMENTI_ODLUKE/sluzbene_novine/2018_sn04_web/4.-10.%20Javna%20priznanja%20NAGRADE%202018.pdf))*
