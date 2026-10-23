@@ -1,4 +1,15 @@
 <aside class="site-sidebar">
+  <div class="sidebar-box latest">
+    <h3>Najnovije</h3>
+    <ol class="latest-list">
+      {%- for p in site.posts limit: 8 %}
+      <li{% if p.url == page.url %} class="current"{% endif %}>
+        <span class="latest-time">{% include datum.html date=p.date short=true %}</span>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </li>
+      {%- endfor %}
+    </ol>
+  </div>
   <div class="sidebar-box">
     <h3>Mjesta</h3>
     <ul class="cat-list">

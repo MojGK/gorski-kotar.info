@@ -1,0 +1,6 @@
+{%- comment -%} Datum i vrijeme objave. {% include datum.html date=post.date short=true %} {%- endcomment -%}
+{%- if include.short -%}
+<time datetime="{{ include.date | date_to_xmlschema }}" data-short>{{ include.date | date: "%d. %m. u %H:%M" }}</time>
+{%- else -%}
+<time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%d. %m. %Y. u %H:%M" }}</time>
+{%- endif -%}

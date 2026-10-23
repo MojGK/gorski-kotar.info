@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jesen na Bajeru – mir koji ostaje
-date: 2026-10-20
+date: 2026-10-20 10:37:39 +0200
 location: Fužine
 type: Priroda
 categories: [Fužine, Priroda]

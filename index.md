@@ -4,56 +4,58 @@ title: Početna
 sidebar: true
 ---
 
-{% assign hero = site.posts.first %}
-<div class="hero">
-  <div class="hero-inner">
-  <div class="hero-content">
-    <h1>{{ hero.title }}</h1>
-    <p>{{ hero.excerpt | strip_html }}</p>
-    <a href="{{ hero.url | relative_url }}" class="btn">Pročitaj više →</a>
-  </div>
-  {% if hero.image %}
-  <figure class="hero-figure">
-    <img src="{{ hero.image | relative_url }}" alt="{{ hero.image_alt | default: hero.title | escape }}">
-    {% if hero.image_credit %}<figcaption>{{ hero.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
-  </figure>
-  {% endif %}
-  </div>
-</div>
+{%- assign featured = site.posts | where: "featured", true | first -%}
+{%- if featured -%}{%- assign lead = featured -%}{%- else -%}{%- assign lead = site.posts.first -%}{%- endif -%}
+{%- assign lead_loc = site.data.kategorije.lokacije | where: "name", lead.location | first -%}
+{%- assign lead_type = site.data.kategorije.vrste | where: "name", lead.type | first -%}
 
-<h2>Najnoviji članci</h2>
+<section class="lead" id="lead" data-location="{{ lead_loc.slug }}" data-type="{{ lead_type.slug }}">
+  <a href="{{ lead.url | relative_url }}" class="lead-link">
+    {% if lead.image %}<img src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}">{% endif %}
+    <div class="lead-overlay">
+      <span class="lead-kicker">{% if featured %}Izdvojeno{% else %}Najnovije{% endif %}</span>
+      <h1>{{ lead.title }}</h1>
+    </div>
+  </a>
+  <div class="lead-body">
+    <div class="lead-meta">{% include oznake.html post=lead %}<span class="meta">{% include datum.html date=lead.date %}</span></div>
+    <p>{{ lead.excerpt | strip_html | strip }}</p>
+    {% if lead.image_credit %}<p class="lead-credit">{{ lead.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
+  </div>
+</section>
 
 <div class="filters" id="filteri">
-  <div class="filter-row">
-    <span class="filter-label">Mjesto:</span>
-    <button type="button" class="filter-btn active" data-reset>Sve</button>
+  <button type="button" class="filter-btn active" data-reset>Sve</button>
+  <span class="filter-group">
+    <span class="filter-label">Mjesto</span>
     {%- for k in site.data.kategorije.lokacije %}
     {%- assign n = site.posts | where: "location", k.name | size %}
     <button type="button" class="filter-btn{% if n == 0 %} empty{% endif %}" data-group="location" data-filter="{{ k.slug }}">{{ k.name }} <span class="count">{{ n }}</span></button>
     {%- endfor %}
-  </div>
-  <div class="filter-row">
-    <span class="filter-label">Vrsta:</span>
+  </span>
+  <span class="filter-group">
+    <span class="filter-label">Vrsta</span>
     {%- for k in site.data.kategorije.vrste %}
     {%- assign n = site.posts | where: "type", k.name | size %}
     <button type="button" class="filter-btn{% if n == 0 %} empty{% endif %}" data-group="type" data-filter="{{ k.slug }}">{{ k.name }} <span class="count">{{ n }}</span></button>
     {%- endfor %}
-  </div>
+  </span>
 </div>
 
+<h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
   {% for post in site.posts %}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
-  <article class="post-card" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}">
+  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}">
     {% if post.image %}
       <a href="{{ post.url | relative_url }}" class="card-thumb"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>
     {% endif %}
     <div class="content">
-      <div class="meta">{{ post.date | date: "%d. %m. %Y." }}</div>
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 110 }}</p>
       {% include oznake.html post=post %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <div class="meta">{% include datum.html date=post.date %}</div>
+      <p>{{ post.excerpt | strip_html | truncate: 95 }}</p>
     </div>
   </article>
   {% endfor %}
@@ -67,29 +69,41 @@ sidebar: true
   var resets = document.querySelectorAll('[data-reset]');
   var cards = document.querySelectorAll('#clanci .post-card');
   var empty = document.getElementById('nema-clanaka');
+  var lead = document.getElementById('lead');
+  var title = document.getElementById('naslov-clanaka');
+  var names = {};
   var groupOf = {};
-  buttons.forEach(function (b) { groupOf[b.dataset.filter] = b.dataset.group; });
+  buttons.forEach(function (b) {
+    groupOf[b.dataset.filter] = b.dataset.group;
+    names[b.dataset.filter] = b.firstChild.textContent.trim();
+  });
 
   function apply(updateUrl) {
+    var filtering = !!(state.location || state.type);
     var shown = 0;
     cards.forEach(function (c) {
       var ok = (!state.location || c.dataset.location === state.location) &&
                (!state.type || c.dataset.type === state.type);
+      // bez filtera vodeći članak je već gore, pa ga ne ponavljamo u mreži
+      if (!filtering && c.classList.contains('is-lead')) ok = false;
       c.hidden = !ok;
       if (ok) shown++;
     });
+    lead.hidden = filtering;
+    document.body.classList.toggle('filtering', filtering);
+    title.textContent = filtering
+      ? [state.location, state.type].filter(Boolean).map(function (s) { return names[s]; }).join(' · ')
+      : 'Najnoviji članci';
     buttons.forEach(function (b) {
       b.classList.toggle('active', state[b.dataset.group] === b.dataset.filter);
     });
-    var none = !state.location && !state.type;
-    resets.forEach(function (r) { if (r.classList.contains('filter-btn')) r.classList.toggle('active', none); });
+    resets.forEach(function (r) { if (r.classList.contains('filter-btn')) r.classList.toggle('active', !filtering); });
     empty.hidden = shown > 0;
     if (updateUrl && window.history && history.replaceState) {
       var p = [];
       if (state.location) p.push(state.location);
       if (state.type) p.push(state.type);
-      var url = location.pathname + (p.length ? '?kategorija=' + p.join(',') : '');
-      history.replaceState(null, '', url);
+      history.replaceState(null, '', location.pathname + (p.length ? '?kategorija=' + p.join(',') : ''));
     }
   }
 
@@ -104,10 +118,11 @@ sidebar: true
     r.addEventListener('click', function () { state.location = null; state.type = null; apply(true); });
   });
 
-  function fromUrl() {
+  function fromUrl(e) {
     var q = new URLSearchParams(location.search).get('kategorija') || '';
     var h = decodeURIComponent(location.hash.replace(/^#/, ''));
     var vals = (q ? q.split(',') : []).concat(h ? [h] : []);
+    if (e && h && groupOf[h]) { state.location = null; state.type = null; }
     var found = false;
     vals.forEach(function (v) {
       v = v.trim().toLowerCase();

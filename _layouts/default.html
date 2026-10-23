@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="container header-inner">
       <a href="{{ '/' | relative_url }}" class="logo">
         <span class="logo-icon">🌲</span>
@@ -16,11 +16,28 @@
           <p class="tagline">Osobni blog · Priroda · Događaji · Priče</p>
         </div>
       </a>
-      <nav>
-        {% for item in site.nav %}
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
-        {% endfor %}
-      </nav>
+      <form class="search" action="{{ '/pretraga/' | relative_url }}" method="get" role="search" autocomplete="off">
+        <label for="search-input" class="visually-hidden">Pretraži članke</label>
+        <input id="search-input" type="search" name="q" placeholder="Pretraži članke…" aria-autocomplete="list" aria-controls="search-results">
+        <button type="submit" aria-label="Traži">🔍</button>
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
+      </form>
+    </div>
+    <div class="nav-bar">
+      <div class="container">
+        <nav class="main-nav">
+          {% for item in site.nav %}
+            <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="current"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </div>
+    <div class="cat-bar">
+      <div class="container cat-bar-inner">
+        {% for k in site.data.kategorije.lokacije %}<a href="{{ '/' | relative_url }}#{{ k.slug }}" class="cat-link loc">{{ k.name }}</a>{% endfor %}
+        <span class="cat-sep" aria-hidden="true">|</span>
+        {% for k in site.data.kategorije.vrste %}<a href="{{ '/' | relative_url }}#{{ k.slug }}" class="cat-link">{{ k.name }}</a>{% endfor %}
+      </div>
     </div>
   </header>
 
@@ -42,5 +59,7 @@
       <p>&copy; {{ 'now' | date: '%Y' }} Moj Gorski Kotar · Osobni blog</p>
     </div>
   </footer>
+  <script>window.SITE_BASE = {{ site.baseurl | jsonify }};</script>
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
 </body>
 </html>

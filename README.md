@@ -23,7 +23,7 @@ Primjer:
 ---
 layout: post
 title: Naslov članka
-date: 2026-10-22
+date: 2026-10-22 11:40:00 +0200
 location: Delnice
 type: Događanja
 categories: [Delnice, Događanja]
@@ -36,6 +36,13 @@ source: "[Naziv izvora](https://...)"
 
 Tekst članka...
 ```
+
+### Datum i vrijeme
+
+- `date` uvijek s vremenom objave i zonom: `YYYY-MM-DD HH:MM:SS +0200` (ljeti, CEST) ili `+0100` (zimi, CET). Dan mora odgovarati datumu u nazivu datoteke.
+- Na stranici se prikazuje kao „22. 10. 2026. u 11:40“, a u traci „Najnovije“ samo „11:40“ ako je objavljeno danas.
+- Vrijeme ne smije biti u budućnosti – Jekyll inače preskače članak dok to vrijeme ne prođe.
+- Glavni članak na naslovnici je najnoviji; za ručni odabir dodaj `featured: true` (samo jednom članku).
 
 ### Kategorije
 

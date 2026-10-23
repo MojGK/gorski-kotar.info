@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delnice protiv demografskog trenda – više đaka i plan za medicinski smjer
-date: 2026-10-05
+date: 2026-10-05 10:54:47 +0200
 location: Delnice
 type: Zanimljivosti
 categories: [Delnice, Zanimljivosti]

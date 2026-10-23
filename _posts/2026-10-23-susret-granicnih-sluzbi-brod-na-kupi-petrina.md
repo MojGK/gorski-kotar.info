@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dvadeseti susret graničnih službi na Kupi – Brod na Kupi i Petrina
-date: 2026-10-23
+date: 2026-10-23 11:39:24 +0200
 location: Delnice
 type: Događanja
 categories: [Delnice, Događanja]

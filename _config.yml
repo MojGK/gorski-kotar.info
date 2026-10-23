@@ -5,6 +5,7 @@ url: "https://mojgk.github.io"
 theme: null
 markdown: kramdown
 permalink: /:title/
+timezone: Europe/Zagreb
 
 # Navigation
 nav:

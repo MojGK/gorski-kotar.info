@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delnicama 760.000 eura za Trg Grge Marijanovića – ali gdje parkirati?
-date: 2026-10-05
+date: 2026-10-05 10:54:47 +0200
 location: Delnice
 type: Promet
 categories: [Delnice, Promet]
