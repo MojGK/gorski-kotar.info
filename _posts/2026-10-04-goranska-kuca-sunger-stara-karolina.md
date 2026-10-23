@@ -2,7 +2,9 @@
 layout: post
 title: Sunger dobio Goransku kuću, Mrkopalj šetnicu „Stara Karolina“
 date: 2026-10-04
-category: Događaji
+location: Mrkopalj
+type: Događanja
+categories: [Mrkopalj, Događanja]
 excerpt: Drvena Goranska kuća u Sungeru, nova šetnica do mrkopaljske Kalvarije i prva „Šuma okusa – Dan sira i krumpira“ – jedan vikend, puno razloga za izlet.
 image: /assets/images/sunger-centar.jpg
 image_alt: "Središte Sungera"

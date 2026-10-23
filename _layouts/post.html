@@ -6,9 +6,9 @@ layout: default
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <div class="meta">
-      {{ page.date | date: "%d. %m. %Y." }}
-      {% if page.category %} · {{ page.category }}{% endif %} · {{ site.author.name | default: "Moj Gorski Kotar" }}
+      {{ page.date | date: "%d. %m. %Y." }} · {{ site.author.name | default: "Moj Gorski Kotar" }}
     </div>
+    {% include oznake.html post=page %}
   </header>
 
   {% if page.image %}

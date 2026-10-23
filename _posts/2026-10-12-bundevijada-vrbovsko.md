@@ -2,7 +2,9 @@
 layout: post
 title: Rekordna Bundevijada u Vrbovskom – 130 izlagača i bundeva od 260 kila
 date: 2026-10-12
-category: Događaji
+location: Vrbovsko
+type: Događanja
+categories: [Vrbovsko, Događanja]
 excerpt: 22. Bundevijada okupila je rekordnih 130 izlagača, a najtežu bundevu, od 260 kilograma, ponovno je uzgojio Stjepan Juričić iz Ravnica.
 image: /assets/images/divovske-bundeve.jpg
 image_alt: "Divovske bundeve"

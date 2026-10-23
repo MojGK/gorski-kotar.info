@@ -2,7 +2,9 @@
 layout: post
 title: Mrkopalj, prijestolnica kravate – gotovo 1.000 primjeraka na jednom mjestu
 date: 2026-10-18
-category: Događaji
+location: Mrkopalj
+type: Kultura
+categories: [Mrkopalj, Kultura]
 excerpt: Za Svjetski dan kravate Mrkopalj je ponovno ugostio najveću izložbu kravata u Hrvatskoj – s gotovo 1.000 izložaka.
 image: /assets/images/kravate.jpg
 image_alt: "Kravate"

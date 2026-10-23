@@ -2,7 +2,9 @@
 layout: post
 title: Švicarska u Gorskom kotaru – voda, cijevi i 25 milijuna franaka
 date: 2026-10-07
-category: Zajednica
+location: Gorski kotar
+type: Zanimljivosti
+categories: [Gorski kotar, Zanimljivosti]
 excerpt: Kroz prvu švicarsku darovnicu u goransku vodoopskrbu i odvodnju uloženo je više od 25 milijuna franaka, a stiže i druga, od oko 27 milijuna.
 image: /assets/images/kupa-brod-na-kupi.jpg
 image_alt: "Rijeka Kupa kod Broda na Kupi"

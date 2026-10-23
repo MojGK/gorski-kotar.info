@@ -2,7 +2,9 @@
 layout: post
 title: Vrbovsko sadi šumu dronom – i nastavlja
 date: 2026-10-05
-category: Priroda
+location: Vrbovsko
+type: Priroda
+categories: [Vrbovsko, Priroda]
 excerpt: U Velikom Jadrču šuma se sadila dronom i ručno, a Grad Vrbovsko najavljuje još dvije takve akcije s osnovcima.
 image: /assets/images/posumljavanje-dronom-ai.jpg
 image_alt: "Ilustracija: sadnice i dron iznad šumske čistine"

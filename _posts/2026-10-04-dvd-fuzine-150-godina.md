@@ -2,7 +2,9 @@
 layout: post
 title: 150 godina DVD-a Fužine – i prvi put žena na čelu postrojbe
 date: 2026-10-04
-category: Zajednica
+location: Fužine
+type: Događanja
+categories: [Fužine, Događanja]
 excerpt: DVD Fužine, jedno od najstarijih vatrogasnih društava u Hrvatskoj, proslavio je stoljeće i pol, a prvi put u povijesti zapovijeda mu žena.
 image: /assets/images/fuzine-bajer-pogled.jpg
 image_alt: "Pogled na Fužine i jezero Bajer"

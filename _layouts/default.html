@@ -25,7 +25,16 @@
   </header>
 
   <main class="container">
+    {% if page.layout == 'post' or page.sidebar %}
+    <div class="with-sidebar">
+      <div class="main-col">
+        {{ content }}
+      </div>
+      {% include sidebar.html %}
+    </div>
+    {% else %}
     {{ content }}
+    {% endif %}
   </main>
 
   <footer>

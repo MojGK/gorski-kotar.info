@@ -1,0 +1,43 @@
+# Popis kategorija portala Moj Gorski Kotar.
+# Novu kategoriju dodaj ovdje (name = točan naziv koji se piše u front matter, slug = sidro/filter bez dijakritika).
+# U članku koristi:
+#   location: Delnice
+#   type: Crna kronika
+#   categories: [Delnice, Crna kronika]
+
+lokacije:
+  - name: Delnice
+    slug: delnice
+  - name: Fužine
+    slug: fuzine
+  - name: Lokve
+    slug: lokve
+  - name: Mrkopalj
+    slug: mrkopalj
+  - name: Čabar
+    slug: cabar
+  - name: Skrad
+    slug: skrad
+  - name: Ravna Gora
+    slug: ravna-gora
+  # dodatne lokacije
+  - name: Vrbovsko
+    slug: vrbovsko
+  - name: Gorski kotar
+    slug: gorski-kotar
+
+vrste:
+  - name: Događanja
+    slug: dogadanja
+  - name: Crna kronika
+    slug: crna-kronika
+  - name: Sport
+    slug: sport
+  - name: Priroda
+    slug: priroda
+  - name: Promet
+    slug: promet
+  - name: Kultura
+    slug: kultura
+  - name: Zanimljivosti
+    slug: zanimljivosti

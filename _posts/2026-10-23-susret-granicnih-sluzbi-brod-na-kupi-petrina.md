@@ -2,7 +2,9 @@
 layout: post
 title: Dvadeseti susret graničnih službi na Kupi – Brod na Kupi i Petrina
 date: 2026-10-23
-category: Zajednica
+location: Delnice
+type: Događanja
+categories: [Delnice, Događanja]
 excerpt: Na graničnom prijelazu Brod na Kupi – Petrina krajem 2025. održan je 20. prednovogodišnji susret hrvatske i slovenske granične policije i lokalnih vlasti s obje strane Kupe.
 image: /assets/images/granicni-prijelaz-petrina.jpg
 image_alt: "Granični prijelaz Petrina – Brod na Kupi, snimljen s mosta preko Kupe"

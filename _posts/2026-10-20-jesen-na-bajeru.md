@@ -2,7 +2,9 @@
 layout: post
 title: Jesen na Bajeru – mir koji ostaje
 date: 2026-10-20
-category: Priroda
+location: Fužine
+type: Priroda
+categories: [Fužine, Priroda]
 excerpt: Jezero Bajer jedno je od onih mjesta koja me uvijek iznova podsjete zašto volim Gorski kotar.
 source: Osobni zapis
 image: /assets/images/jezero-bajer.jpg

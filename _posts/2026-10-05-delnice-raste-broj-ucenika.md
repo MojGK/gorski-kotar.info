@@ -2,7 +2,9 @@
 layout: post
 title: Delnice protiv demografskog trenda – više đaka i plan za medicinski smjer
 date: 2026-10-05
-category: Obrazovanje
+location: Delnice
+type: Zanimljivosti
+categories: [Delnice, Zanimljivosti]
 excerpt: U delničku osnovnu školu upisana su 54 prvašića, raste i broj srednjoškolaca, a Srednja škola Delnice traži odobrenje medicinskog smjera.
 image: /assets/images/delnice-panorama.jpg
 image_alt: "Pogled na Delnice"

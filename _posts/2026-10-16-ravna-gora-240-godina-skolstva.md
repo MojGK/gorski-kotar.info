@@ -2,7 +2,9 @@
 layout: post
 title: 240 godina škole u Ravnoj Gori – uz mjuzikl o Branimiru Markoviću
 date: 2026-10-16
-category: Obrazovanje
+location: Ravna Gora
+type: Kultura
+categories: [Ravna Gora, Kultura]
 excerpt: Ravna Gora obilježila je 240 godina školstva, a najveći pljesak dobili su učenici i njihov mjuzikl „I bi svijetlosti“.
 image: /assets/images/ravna-gora-potok.jpg
 image_alt: "Potok u Ravnoj Gori"

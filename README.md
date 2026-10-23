@@ -21,14 +21,27 @@ Primjer:
 
 ```markdown
 ---
-layout: default
+layout: post
 title: Naslov članka
 date: 2026-10-22
-category: Događaji
+location: Delnice
+type: Događanja
+categories: [Delnice, Događanja]
 excerpt: Kratki opis...
+image: /assets/images/naziv-slike.jpg
+image_alt: "Opis slike"
+image_credit: "Fotografija: Autor / [Izvor](https://...), licenca"
+source: "[Naziv izvora](https://...)"
 ---
 
 Tekst članka...
 ```
+
+### Kategorije
+
+- `location` – jedno mjesto: Delnice, Fužine, Lokve, Mrkopalj, Čabar, Skrad, Ravna Gora, Vrbovsko ili Gorski kotar (za cijelu regiju).
+- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura ili Zanimljivosti.
+- `categories` – uvijek `[location, type]`, istim redom i istim nazivima.
+- Nazivi moraju točno odgovarati popisu u `_data/kategorije.yml` (s dijakriticima). Novo mjesto ili vrstu dodaj u tu datoteku (`name` + `slug` bez dijakritika) i odmah će se pojaviti u filterima, bočnoj traci i na stranici `/kategorije/`.
 
 Nakon pusha na GitHub, stranica se automatski ažurira.

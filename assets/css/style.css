@@ -226,3 +226,85 @@ footer {
 .post-card .card-thumb img {
   display: block; width: 100%; aspect-ratio: 16 / 10; height: auto; object-fit: cover;
 }
+
+/* ===== Kategorije: oznake, filteri, bočna traka ===== */
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+.tag {
+  display: inline-block; font-size: 0.74rem; font-weight: 600; line-height: 1.2;
+  padding: 4px 9px; border-radius: 999px; text-decoration: none; white-space: nowrap;
+}
+.tag-location { background: #e8f3ec; color: var(--green-dark); border: 1px solid #cfe5d7; }
+.tag-type { background: #fff; color: var(--green); border: 1px solid var(--green-light); }
+.tag:hover { background: var(--green); color: #fff; border-color: var(--green); }
+.post-header .tags { margin-top: 10px; }
+
+.with-sidebar {
+  display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 32px; align-items: start;
+}
+.main-col { min-width: 0; }
+.site-sidebar { position: sticky; top: 96px; margin-top: 24px; }
+.sidebar-box {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 16px 18px; margin-bottom: 18px;
+}
+.sidebar-box h3 { margin: 0 0 10px; font-size: 1rem; color: var(--green-dark); }
+.sidebar-box p { margin: 0; font-size: 0.9rem; color: var(--muted); }
+.cat-list { list-style: none; margin: 0; padding: 0; }
+.cat-list li {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 5px 0; border-bottom: 1px solid #f0f0f0; font-size: 0.92rem;
+}
+.cat-list li:last-child { border-bottom: 0; }
+.cat-list a { color: var(--text); text-decoration: none; }
+.cat-list a:hover { color: var(--green); }
+.count {
+  display: inline-block; min-width: 22px; text-align: center; font-size: 0.72rem; font-weight: 600;
+  background: #f0f7f3; color: var(--green-dark); border-radius: 999px; padding: 1px 7px;
+}
+.sidebar-box .sidebar-more { margin-top: 10px; font-size: 0.88rem; }
+.sidebar-more a { color: var(--green); font-weight: 600; text-decoration: none; }
+
+.filters {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 14px; margin: 0 0 20px; scroll-margin-top: 90px;
+}
+.filter-row { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; padding: 4px 0; }
+.filter-label { font-size: 0.8rem; font-weight: 700; color: var(--muted); min-width: 56px; }
+.filter-btn {
+  font: inherit; font-size: 0.85rem; cursor: pointer; padding: 5px 11px; border-radius: 999px;
+  border: 1px solid var(--border); background: #fff; color: var(--text);
+}
+.filter-btn:hover { border-color: var(--green-light); color: var(--green); }
+.filter-btn.active { background: var(--green); border-color: var(--green); color: #fff; }
+.filter-btn.active .count { background: rgba(255,255,255,0.25); color: #fff; }
+.filter-btn.empty { opacity: 0.55; }
+.post-card[hidden] { display: none; }
+.no-results { color: var(--muted); text-align: center; padding: 20px; }
+.link-btn { font: inherit; background: none; border: 0; color: var(--green); cursor: pointer; text-decoration: underline; padding: 0; }
+
+.categories-page { max-width: 820px; }
+.categories-page h1 { color: var(--green-dark); margin: 24px 0 8px; }
+.categories-page .intro { color: var(--muted); }
+.categories-page .intro a, .cat-filter-link { color: var(--green); }
+.cat-jump { display: block; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; margin: 16px 0 28px; line-height: 2; }
+.cat-jump a { display: inline-block; margin: 0 4px; color: var(--green); text-decoration: none; font-size: 0.92rem; }
+.cat-jump a:hover { text-decoration: underline; }
+.categories-page > h2 { margin-top: 32px; }
+.cat-section {
+  background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 18px; margin-bottom: 14px; scroll-margin-top: 90px;
+}
+.cat-section:target { border-color: var(--green-light); box-shadow: 0 0 0 3px #e8f3ec; }
+.cat-section h3 { margin: 0 0 8px; font-size: 1.1rem; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.cat-filter-link { font-size: 0.8rem; font-weight: 500; margin-left: auto; }
+.cat-section ul { list-style: none; margin: 0; padding: 0; }
+.cat-section li { padding: 8px 0; border-top: 1px solid #f0f0f0; }
+.cat-section li .meta { display: block; margin: 0; }
+.cat-section li > a { color: var(--text); font-weight: 600; text-decoration: none; }
+.cat-section li > a:hover { color: var(--green); }
+.empty-cat { margin: 0; color: var(--muted); font-style: italic; font-size: 0.92rem; }
+
+@media (max-width: 900px) {
+  .with-sidebar { grid-template-columns: 1fr; gap: 0; }
+  .site-sidebar { position: static; margin-top: 8px; }
+}
