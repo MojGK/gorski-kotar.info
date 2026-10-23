@@ -7,32 +7,25 @@ type: Događanja
 categories: [Delnice, Događanja]
 event_date: 2026-11-28 10:00:00 +0100
 event_place: Sportska dvorana Delnice
-excerpt: "Klub mladih i Crveni križ Delnice 28. studenoga organiziraju 2. humanitarni turnir u odbojci „Svi za djecu“. Prijave ekipa otvaraju se 28. listopada, a broj mjesta je ograničen."
+excerpt: "Odbojka za dobru stvar: 28. studenoga u delničkoj sportskoj dvorani igra se drugi turnir „Svi za djecu“. Ekipe se mogu prijaviti od 28. listopada, a mjesta nema puno."
 image: /assets/images/odbojka-humanitarni-turnir-ai.jpg
 image_alt: "Ilustracija: rekreativna odbojkaška utakmica u školskoj sportskoj dvorani"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI). Nije fotografija s turnira."
 ---
 
-Sviđa mi se kad sport ima i dobar razlog. Klub mladih Crvenog križa Delnice i Gradsko društvo Crvenog križa Delnice pozivaju na **2. humanitarni turnir u odbojci „Svi za djecu“**.
+Zadnja subota u studenom u Delnicama bit će u znaku odbojke i to s dobrim razlogom. Drugi humanitarni turnir „Svi za djecu“ okupit će rekreativne ekipe u sportskoj dvorani, a sve što se skupi namijenjeno je djeci i mladima s teškoćama u razvoju.
 
-- **Datum:** subota, 28. studenoga 2026.
-- **Sat:** početak u 10:00
-- **Mjesto:** Sportska dvorana Delnice
-- **Prijave ekipa:** od 28. listopada 2026.
-- **Organizatori:** Klub mladih Crvenog križa Delnice i Gradsko društvo Crvenog križa Delnice
+- **Kada:** subota, 28. studenoga 2026., od 10 sati
+- **Gdje:** Sportska dvorana Delnice
+- **Prijave:** otvaraju se 28. listopada 2026.
+- **Tko organizira:** Klub mladih Crvenog križa Delnice i GDCK Delnice
 
-## Za koga se igra
+## Igra se za pomoć
 
-Turnir se održava kako bi se prikupila sredstva za pomoć djeci i mladima s teškoćama u razvoju. U tu svrhu ide kotizacija ekipa, a na dan turnira bit će postavljena i kutija za donacije. Tko ne igra, može doći navijati i ubaciti nešto u kutiju.
+Novac od kotizacija ide u humanitarnu svrhu, a u dvorani će cijeli dan stajati i kutija za donacije. Znači, i oni koji ne znaju servirati mogu pomoći: dovoljno je doći, navijati i ostaviti prilog.
 
-## Kako se prijaviti
+## Prijava ekipe
 
-Raspis turnira objavljen je na službenim Facebook stranicama Kluba mladih i GDCK-a Delnice. Ekipe se prijavljuju putem obrasca do kojeg vodi QR kod s plakata ili poveznica u objavi organizatora. Broj mjesta je ograničen, pa organizatori savjetuju da ekipe ne čekaju s prijavom. Iznos kotizacije i pravila turnira navedeni su u raspisu.
+Pravila i ostale pojedinosti turnira bit će u raspisu na Facebook stranicama Kluba mladih i GDCK-a Delnice. Ondje je i poveznica na obrazac za prijavu, a do obrasca vodi i QR kod s plakata. Mjesta su ograničena, pa ako skupljate ekipu, bolje to riješite čim se prijave otvore.
 
-## Prošle godine
-
-Prvi turnir „Svi za djecu“ održan je u svibnju 2025. u istoj dvorani. Igralo je 13 ekipa, a od kotizacija je prikupljeno 780 eura. Novac je potrošen na didaktičku opremu za jednog malog Delničanina. Ideja je potekla od mlade volonterke Kluba mladih, a sad turnir, kako se i nadala, postaje tradicija.
-
----
-
-*Izvori: Klub mladih Crvenog križa Delnice (Facebook), najava 2. turnira; o prvom turniru: Gradsko društvo Crvenog križa Delnice, izvješće o radu za 2025. ([PDF](https://crveni-kriz-delnice.hr/wp-content/uploads/2026/03/Izvjesce-o-radu-za_2025.pdf)) i Gorske novosti ([link](https://gorskenovosti.net/2025/05/18/svi-za-djecu-dan-pun-zajednistva-sporta-i-velikog-srca/))*
+Vidimo se u dvorani!
