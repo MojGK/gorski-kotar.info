@@ -7,14 +7,14 @@ title: Početna
   <div class="hero-content">
     <h1>Jesen na Bajeru – mir koji ostaje</h1>
     <p>Jezero Bajer jedno je od onih mjesta koja me uvijek iznova podsjete zašto volim Gorski kotar. Jesen ovdje nije samo boja – ona je osjećaj.</p>
-    <p><a href="/jesen-na-bajeru" style="color: var(--green); font-weight: 600;">Pročitaj više →</a></p>
+    <p><a href="{{ '/jesen-na-bajeru/' | relative_url }}" style="color: var(--green); font-weight: 600;">Pročitaj više →</a></p>
   </div>
   <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Jezero Bajer">
 </div>
 
 <h2>Nedavni objavi</h2>
 <div class="posts-grid">
-  {% for post in site.posts limit: 6 %}
+  {% for post in site.posts limit: 12 %}
   <article class="post-card">
     {% if post.image %}
       <img src="{{ post.image }}" alt="{{ post.title }}">
