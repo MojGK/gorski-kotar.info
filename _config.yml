@@ -1,0 +1,23 @@
+title: Moj Gorski Kotar
+description: Osobni blog o ljepoti, životu i događajima u Gorskom kotaru
+baseurl: "/moj-gorski-kotar"
+url: "https://mojgk.github.io"
+theme: null
+markdown: kramdown
+permalink: /:title/
+
+# Navigation
+nav:
+  - title: Početna
+    url: /
+  - title: Događaji
+    url: /dogadaji
+  - title: Povijest
+    url: /povijest
+  - title: O meni
+    url: /o-meni
+
+# Author
+author:
+  name: Moj Gorski Kotar
+  bio: Osobni blog o ljepoti, životu i tajnama našeg kraja.
