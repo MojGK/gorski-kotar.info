@@ -308,3 +308,6 @@ footer {
   .with-sidebar { grid-template-columns: 1fr; gap: 0; }
   .site-sidebar { position: static; margin-top: 8px; }
 }
+/* naslov članka nije dio zaglavlja stranice (globalni "header" stil ga je činio ljepljivim) */
+.post-header { position: static; background: none; border-bottom: 0; padding: 0; margin-top: 24px; z-index: auto; }
+.categories-page { margin: 0 auto; }
