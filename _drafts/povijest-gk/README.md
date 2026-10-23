@@ -1,6 +1,6 @@
 # Serijal POVIJEST GK – pripremljeni članci
 
-Ovi članci **nisu objavljeni** (Jekyll ne objavljuje `_drafts/`). Dnevni posao (8:00, Europe/Zagreb, 24.–29. 10. 2026.)
+Ovi članci **nisu objavljeni** (Jekyll ne objavljuje `_drafts/`). Dnevni posao (8:00, Europe/Zagreb, 24.–28. 10. 2026.)
 svaki dan premješta draft s najnižim brojem u `_posts/`:
 
 1. iz naziva makne broj: `N-<slug>.md` → `_posts/YYYY-MM-DD-<slug>.md` (današnji datum),
@@ -15,7 +15,6 @@ svaki dan premješta draft s najnižim brojem u `_posts/`:
 | 3 | `3-ime-fuzine-kovacnica.md` | `/ime-fuzine-kovacnica/` | Fužine | Povijest | `fuzine-1929-razglednica.jpg` |
 | 4 | `4-dvorac-stara-susica.md` | `/dvorac-stara-susica/` | Ravna Gora | Povijest | `dvorac-stara-susica.jpg` |
 | 5 | `5-franjo-racki-fuzine.md` | `/franjo-racki-fuzine/` | Fužine | Povijest | `franjo-racki-portret.jpg` |
-| 6 | `6-kuglanje-gorski-kotar.md` | `/kuglanje-gorski-kotar/` | Gorski kotar | Sport (+ Zanimljivosti) | `kuglana-zapresic.jpg` |
 
 Svi članci imaju `POVIJEST GK` u `categories` (serijal iz `_data/kategorije.yml`, slug `povijest-gk`).
 Ovu datoteku (README.md) ne premještati u `_posts/`.
