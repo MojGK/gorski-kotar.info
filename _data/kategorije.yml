@@ -41,3 +41,13 @@ vrste:
     slug: kultura
   - name: Zanimljivosti
     slug: zanimljivosti
+  - name: Povijest
+    slug: povijest
+
+# Serijali – tematske serije članaka koje idu uz mjesto i vrstu.
+# Članak je u serijalu ako mu `categories` sadrži točan naziv, npr.
+#   categories: [Fužine, Povijest, POVIJEST GK]
+serijali:
+  - name: POVIJEST GK
+    slug: povijest-gk
+    opis: Serijal o povijesti Gorskog kotara – mjesta, ljudi i priče iz prošlosti.

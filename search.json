@@ -18,6 +18,7 @@ sitemap: false
   "location_slug": {{ s_loc.slug | jsonify }},
   "type": {{ post.type | jsonify }},
   "type_slug": {{ s_type.slug | jsonify }},
+  "categories": {{ post.categories | jsonify }},
   "image": {% if post.image %}{{ post.image | relative_url | jsonify }}{% else %}null{% endif %}
 }{% unless forloop.last %},{% endunless %}
 {%- endfor -%}

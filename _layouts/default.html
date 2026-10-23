@@ -37,6 +37,8 @@
         {% for k in site.data.kategorije.lokacije %}<a href="{{ '/' | relative_url }}#{{ k.slug }}" class="cat-link loc">{{ k.name }}</a>{% endfor %}
         <span class="cat-sep" aria-hidden="true">|</span>
         {% for k in site.data.kategorije.vrste %}<a href="{{ '/' | relative_url }}#{{ k.slug }}" class="cat-link">{{ k.name }}</a>{% endfor %}
+        {% if site.data.kategorije.serijali %}<span class="cat-sep" aria-hidden="true">|</span>
+        {% for k in site.data.kategorije.serijali %}<a href="{{ '/' | relative_url }}#{{ k.slug }}" class="cat-link series">{{ k.name }}</a>{% endfor %}{% endif %}
       </div>
     </div>
   </header>

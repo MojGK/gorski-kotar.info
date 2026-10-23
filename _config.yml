@@ -16,7 +16,7 @@ nav:
   - title: Kategorije
     url: /kategorije/
   - title: Povijest
-    url: /povijest
+    url: /?kategorija=povijest-gk
   - title: O meni
     url: /o-meni
 

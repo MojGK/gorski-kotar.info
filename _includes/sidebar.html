@@ -14,7 +14,7 @@
     <h3>Mjesta</h3>
     <ul class="cat-list">
       {%- for k in site.data.kategorije.lokacije %}
-      {%- assign n = site.posts | where: "location", k.name | size %}
+      {%- include kat-broj.html name=k.name %}{% assign n = kat_n %}
       <li><a href="{{ '/kategorije/' | relative_url }}#{{ k.slug }}">{{ k.name }}</a> <span class="count">{{ n }}</span></li>
       {%- endfor %}
     </ul>
@@ -23,12 +23,23 @@
     <h3>Vrste</h3>
     <ul class="cat-list">
       {%- for k in site.data.kategorije.vrste %}
-      {%- assign n = site.posts | where: "type", k.name | size %}
+      {%- include kat-broj.html name=k.name %}{% assign n = kat_n %}
       <li><a href="{{ '/kategorije/' | relative_url }}#{{ k.slug }}">{{ k.name }}</a> <span class="count">{{ n }}</span></li>
       {%- endfor %}
     </ul>
     <p class="sidebar-more"><a href="{{ '/kategorije/' | relative_url }}">Sve kategorije →</a></p>
   </div>
+  {%- if site.data.kategorije.serijali %}
+  <div class="sidebar-box">
+    <h3>Serijali</h3>
+    <ul class="cat-list">
+      {%- for k in site.data.kategorije.serijali %}
+      {%- include kat-broj.html name=k.name %}
+      <li><a href="{{ '/kategorije/' | relative_url }}#{{ k.slug }}">{{ k.name }}</a> <span class="count">{{ kat_n }}</span></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  {%- endif %}
   <div class="sidebar-box">
     <h3>O blogu</h3>
     <p>Osobni blog o ljepoti, životu i događajima u Gorskom kotaru. Pišem o onome što vidim, čujem i doživim u našem kraju.</p>

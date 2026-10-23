@@ -472,3 +472,11 @@ mark { background: #fff1a8; color: inherit; padding: 0 1px; border-radius: 2px; 
   .post-card .tags { margin-bottom: 3px; }
   .post-card h3 { font-size: 0.9rem; }
 }
+
+/* ===== Serijali (npr. POVIJEST GK) ===== */
+.tag-series { background: #f6efe1; color: #6b4a16; border: 1px solid #e2cfa6; letter-spacing: 0.3px; }
+.tag-series:hover { background: #6b4a16; color: #fff; border-color: #6b4a16; }
+.filter-btn.series { border-color: #e2cfa6; color: #6b4a16; }
+.filter-btn.series.active { background: #6b4a16; border-color: #6b4a16; color: #fff; }
+.cat-link.series { font-weight: 700; color: #6b4a16; letter-spacing: 0.3px; }
+.cat-desc { margin: 0 0 8px; color: var(--muted); font-size: 0.92rem; }

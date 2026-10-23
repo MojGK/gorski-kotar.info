@@ -37,7 +37,7 @@
       indexPromise = fetch(BASE + '/search.json').then(function (r) { return r.json(); }).then(function (posts) {
         posts.forEach(function (p) {
           p._t = norm(p.title);
-          p._all = norm([p.title, p.excerpt, p.location, p.type].join(' '));
+          p._all = norm([p.title, p.excerpt, p.location, p.type].concat(p.categories || []).join(' '));
         });
         return posts;
       }).catch(function () { indexPromise = null; return []; });

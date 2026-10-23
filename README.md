@@ -48,8 +48,10 @@ Tekst članka...
 ### Kategorije
 
 - `location` – jedno mjesto: Delnice, Fužine, Lokve, Mrkopalj, Čabar, Skrad, Ravna Gora, Vrbovsko ili Gorski kotar (za cijelu regiju).
-- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura ili Zanimljivosti.
+- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura, Zanimljivosti ili Povijest.
 - `categories` – uvijek `[location, type]`, istim redom i istim nazivima.
+- Serijal: članak ulazi u serijal (npr. `POVIJEST GK`) ako mu `categories` sadrži naziv serijala, npr. `categories: [Fužine, Povijest, POVIJEST GK]`. Članak se broji i u svakoj dodatnoj vrsti/mjestu navedenom u `categories`.
+- Pripremljeni, još neobjavljeni članci serijala su u `_drafts/povijest-gk/` (vidi tamošnji README).
 - Nazivi moraju točno odgovarati popisu u `_data/kategorije.yml` (s dijakriticima). Novo mjesto ili vrstu dodaj u tu datoteku (`name` + `slug` bez dijakritika) i odmah će se pojaviti u filterima, bočnoj traci i na stranici `/kategorije/`.
 
 Nakon pusha na GitHub, stranica se automatski ažurira.
