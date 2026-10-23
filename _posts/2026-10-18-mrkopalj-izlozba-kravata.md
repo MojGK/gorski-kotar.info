@@ -7,9 +7,9 @@ location: Mrkopalj
 type: Kultura
 categories: [Mrkopalj, Kultura]
 excerpt: Za Svjetski dan kravate Mrkopalj je ponovno ugostio najveću izložbu kravata u Hrvatskoj – s gotovo 1.000 izložaka.
-image: /assets/images/kravate.jpg
-image_alt: "Kravate"
-image_credit: "Fotografija (ilustrativno – kravate, nije izložba u Mrkoplju): Chris Brown / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ties_(519506694).jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)"
+image: /assets/images/mrkopalj-izlozba-kravata-2021.jpg
+image_alt: "Starinske kravate na prvoj izložbi u Mrkoplju 2021."
+image_credit: "Foto (prva izložba starinskih kravata, rujan 2021.): Općina Mrkopalj ([mrkopalj.hr](https://mrkopalj.hr/izlozba-starinskih-kravata-povodom-250-godisnjice-osnutka-zupe-mrkopalj/))"
 ---
 
 Znate li da najveću izložbu kravata u Hrvatskoj možete vidjeti u Mrkoplju – ali samo jedan dan u godini? Povodom Svjetskog dana kravate, 18. listopada, u Domu kulture izloženo je gotovo 1.000 kravata raznih oblika, boja i materijala.

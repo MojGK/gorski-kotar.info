@@ -7,9 +7,9 @@ location: Delnice
 type: Zanimljivosti
 categories: [Delnice, Zanimljivosti]
 excerpt: U delničku osnovnu školu upisana su 54 prvašića, raste i broj srednjoškolaca, a Srednja škola Delnice traži odobrenje medicinskog smjera.
-image: /assets/images/delnice-panorama.jpg
-image_alt: "Pogled na Delnice"
-image_credit: "Fotografija (pogled na Delnice): Lan Glad / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+image: /assets/images/os-igk-delnice.jpg
+image_alt: "Zgrada Osnovne škole Ivana Gorana Kovačića u Delnicama"
+image_credit: "Foto: OŠ Ivana Gorana Kovačića Delnice ([osigk-delnice.hr](https://osigk-delnice.hr/))"
 ---
 
 Navikli smo da vijesti o Gorskom kotaru i demografiji budu tmurne, pa je ova baš osvježenje.
