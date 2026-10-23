@@ -14,7 +14,7 @@ image_alt: "Ilustracija: stariji posjetitelji u dvorani doma kulture prate preds
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
 
-Kraj listopada u Gorskom kotaru donosi nekoliko lijepih prilika za izlazak, druženje i kulturu. Nijedno od ovih događanja nije organizirano posebno za umirovljenike, ali sva su prikladna i za starije posjetitelje: održavaju se u popodnevnim ili večernjim satima, u domovima kulture i knjižnicama, a većina je besplatna ili ulaz nije naplaćen.
+Kraj listopada u Gorskom kotaru donosi nekoliko lijepih prilika za izlazak, druženje i kulturu. Nijedno od ovih događanja nije organizirano posebno za umirovljenike, ali sva su prikladna i za starije posjetitelje: održavaju se popodne ili navečer, u domovima kulture i knjižnicama. Gdje izvori ne navode cijenu ulaza, u tablici piše „nije naveden“, pa je najsigurnije provjeriti kod organizatora.
 
 ## Kalendar
 
@@ -42,7 +42,7 @@ Kraj listopada u Gorskom kotaru donosi nekoliko lijepih prilika za izlazak, dru�
 
 U Delnicama je ovog mjeseca počeo projekt HNK Ivana pl. Zajca „Zajc u vašem gradu – budimo zajedno“. Na dramskim radionicama zajedno rade članovi Udruge umirovljenika Delnice i učenici Srednje škole Delnice, a ono što stvore izvest će pred publikom u Delnicama. Datum izvedbe još nije objavljen, pa ću ga dodati kad bude poznat.
 
-A tko je danas bio u delničkoj knjižnici: predstavljanje knjige Marka Smolea održano je danas, u petak, pa o tome više u [ranijoj objavi]({{ '/delnice-predstavljanje-knjige-marko-smole/' | relative_url }}).
+Predstavljanje knjige Marka Smolea u delničkoj knjižnici održano je danas, pa ga nema u kalendaru. Više o njemu pročitajte u [ranijoj objavi]({{ '/delnice-predstavljanje-knjige-marko-smole/' | relative_url }}).
 
 Ako znate još neko druženje za starije u Gorskom kotaru, javite mi, rado ću ga dodati.
 
