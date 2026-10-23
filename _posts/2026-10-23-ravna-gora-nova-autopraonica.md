@@ -1,0 +1,24 @@
+---
+layout: post
+title: Ravna Gora uskoro dobiva autopraonicu u centru mjesta
+date: 2026-10-23 12:26:06 +0200
+location: Ravna Gora
+type: Zanimljivosti
+categories: [Ravna Gora, Zanimljivosti]
+excerpt: U centru Ravne Gore, pored SPC-a Goranka, uskoro bi trebala proraditi nova autopraonica. Projekt vrijedan oko 200.000 eura čeka još samo uporabnu dozvolu.
+image: /assets/images/ravna-gora-pogled.jpg
+image_alt: "Pogled na Ravnu Goru s okolnog brda"
+image_credit: "Fotografija (pogled na Ravnu Goru): Martinarg / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pogled_na_Ravnu_Goru.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
+---
+
+Ravnogorci će uskoro moći oprati auto bez vožnje u susjedna mjesta. U centru Ravne Gore, pored SPC-a Goranka, sagrađena je nova autopraonica, a otvorenje je u planu još tijekom listopada.
+
+## Što se još čeka
+
+Kako je za Radio Gorski kotar potvrdio načelnik Mišel Šćuka, svi preduvjeti za početak rada su stvoreni. Čeka se još samo uporabna dozvola. Vrijednost projekta je oko 200.000 eura.
+
+Prema RGK-u, na ovaj su projekt Ravnogorci poduže čekali, a cilj mu je podići standard mjesta. Točan datum otvorenja zasad nije objavljen, pa ću ga dodati kad bude poznat.
+
+---
+
+*Izvor: RGK portal (rgk.hr), 20. 10. 2026. ([link](https://rgk.hr/nova-autopraonica-u-ravnoj-gori-uskoro-krece-s-radom/))*
