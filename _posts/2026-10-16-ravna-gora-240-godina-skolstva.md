@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 240 godina škole u Ravnoj Gori – uz mjuzikl o Branimiru Markoviću
 date: 2026-10-16
 category: Obrazovanje

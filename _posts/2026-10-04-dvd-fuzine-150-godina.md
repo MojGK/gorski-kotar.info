@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 150 godina DVD-a Fužine – i prvi put žena na čelu postrojbe
 date: 2026-10-04
 category: Zajednica

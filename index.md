@@ -5,10 +5,11 @@ title: Početna
 
 {% assign hero = site.posts.first %}
 <div class="hero">
+  <div class="hero-inner">
   <div class="hero-content">
     <h1>{{ hero.title }}</h1>
     <p>{{ hero.excerpt | strip_html }}</p>
-    <p><a href="{{ hero.url | relative_url }}" style="color: var(--green); font-weight: 600;">Pročitaj više →</a></p>
+    <a href="{{ hero.url | relative_url }}" class="btn">Pročitaj više →</a>
   </div>
   {% if hero.image %}
   <figure class="hero-figure">
@@ -16,9 +17,10 @@ title: Početna
     {% if hero.image_credit %}<figcaption>{{ hero.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
   </figure>
   {% endif %}
+  </div>
 </div>
 
-<h2>Nedavni objavi</h2>
+<h2>Najnoviji članci</h2>
 <div class="posts-grid">
   {% for post in site.posts limit: 12 %}
   <article class="post-card">
@@ -28,7 +30,7 @@ title: Početna
     <div class="content">
       <div class="meta">{{ post.date | date: "%d. %m. %Y." }} · {{ post.category | default: "Događaji" }}</div>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      <p>{{ post.excerpt | strip_html | truncate: 110 }}</p>
     </div>
   </article>
   {% endfor %}
@@ -37,6 +39,5 @@ title: Početna
 <div class="sidebar">
   <h3>O blogu</h3>
   <p>Osobni blog o ljepoti, životu i događajima u Gorskom kotaru. Pišem o onome što vidim, čujem i doživim u našem kraju.</p>
-  <div class="ad-placeholder">Prostor za oglas</div>
   <div class="ad-placeholder">Prostor za oglas</div>
 </div>

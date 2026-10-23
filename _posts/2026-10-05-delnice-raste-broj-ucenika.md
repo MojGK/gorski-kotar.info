@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Delnice protiv demografskog trenda – više đaka i plan za medicinski smjer
 date: 2026-10-05
 category: Obrazovanje

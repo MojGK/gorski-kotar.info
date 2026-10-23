@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Švicarska u Gorskom kotaru – voda, cijevi i 25 milijuna franaka
 date: 2026-10-07
 category: Zajednica

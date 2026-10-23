@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Rekordna Bundevijada u Vrbovskom – 130 izlagača i bundeva od 260 kila
 date: 2026-10-12
 category: Događaji

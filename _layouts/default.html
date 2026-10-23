@@ -9,13 +9,13 @@
 <body>
   <header>
     <div class="container header-inner">
-      <div class="logo">
+      <a href="{{ '/' | relative_url }}" class="logo">
         <span class="logo-icon">🌲</span>
         <div>
-          <a href="{{ '/' | relative_url }}" class="site-title">Moj Gorski Kotar</a>
-          <p class="tagline">Osobni blog o ljepoti, životu i događajima našeg kraja</p>
+          <div class="site-title">MOJ GORSKI KOTAR</div>
+          <p class="tagline">Osobni blog · Priroda · Događaji · Priče</p>
         </div>
-      </div>
+      </a>
       <nav>
         {% for item in site.nav %}
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
@@ -25,23 +25,7 @@
   </header>
 
   <main class="container">
-    {% if page.collection == "posts" %}
-    <article class="post">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <div class="post-meta">{{ page.date | date: "%d. %m. %Y." }} · {{ page.category | default: "Događaji" }} · {{ site.author.name }}</div>
-      {% if page.image %}
-      <figure class="post-figure">
-        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="eager">
-        {% if page.image_credit %}<figcaption>{{ page.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
-      </figure>
-      {% endif %}
-      <div class="post-body">
-        {{ content }}
-      </div>
-    </article>
-    {% else %}
     {{ content }}
-    {% endif %}
   </main>
 
   <footer>
