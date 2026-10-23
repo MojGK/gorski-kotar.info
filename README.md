@@ -37,6 +37,30 @@ source: "[Naziv izvora](https://...)"
 Tekst članka...
 ```
 
+### Najave događaja (stranica Događaji)
+
+Najava događaja koji tek slijedi dobiva i polja s datumom događaja:
+
+```markdown
+---
+layout: post
+title: Predstavljanje knjige u Delnicama
+date: 2026-10-23 13:28:56 +0200
+location: Delnice
+type: Događanja
+categories: [Delnice, Događanja]
+event_date: 2026-10-23 17:00:00 +0200   # početak događaja (obavezno za najavu)
+event_end: 2026-10-23 19:00:00 +0200    # kraj (neobavezno)
+event_place: Gradska knjižnica Janet Majnarich, Delnice   # mjesto (neobavezno)
+excerpt: ...
+---
+```
+
+- Stranica `/dogadaji/` (izbornik **Događaji**) prikazuje samo najave koje još nisu prošle, najbliža prva. Događaj je prošao kad prođe `event_end`, a ako njega nema, 3 sata nakon `event_date`. Provjera se radi pri izradi stranice i u pregledniku, pa prošli događaji nestaju i bez novog pusha. Na samoj najavi tada piše „Ovaj događaj je prošao.“
+- Izvještaji s već održanih događaja **nemaju** `event_date`.
+- Kategorija Događanja (filteri, bočna traka, `/kategorije/`) i dalje prikazuje sve članke te vrste, i prošle i buduće.
+- Stranica `/povijest/` (izbornik **Povijest**) prikazuje sve članke vrste Povijest i serijala POVIJEST GK, najnoviji prvi.
+
 ### Datum i vrijeme
 
 - Za svaki novi članak **uvijek upiši stvarno vrijeme objave** sa zonom: `date: YYYY-MM-DD HH:MM:SS +0200` (ljeti, CEST) ili `+0100` (zimi, CET). Dan mora odgovarati datumu u nazivu datoteke. Ne izmišljaj vrijeme.

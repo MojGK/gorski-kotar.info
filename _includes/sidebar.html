@@ -1,4 +1,29 @@
 <aside class="site-sidebar">
+  {%- if page.url == "/" -%}
+  {%- assign sb_now = site.time | date: "%s" | plus: 0 -%}
+  {%- assign sb_najave = site.posts | where_exp: "p", "p.event_date" | sort: "event_date" -%}
+  {%- capture sb_items -%}
+    {%- for p in sb_najave -%}
+      {%- assign sb_s = p.event_date | date: "%s" | plus: 0 -%}
+      {%- if p.event_end -%}{%- assign sb_e = p.event_end | date: "%s" | plus: 0 -%}{%- else -%}{%- assign sb_e = sb_s | plus: 10800 -%}{%- endif -%}
+      {%- if sb_e < sb_now -%}{%- continue -%}{%- endif %}
+      <li data-event-end="{{ sb_e }}" data-hide-when-past>
+        <span class="latest-time"><time datetime="{{ p.event_date | date_to_xmlschema }}">{{ p.event_date | date: "%-d. %-m. u %H:%M" }}</time></span>
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </li>
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- assign sb_items = sb_items | strip -%}
+  {%- if sb_items != "" %}
+  <div class="sidebar-box upcoming" data-event-list data-hide-if-empty>
+    <h3>Nadolazeći događaji</h3>
+    <ol class="latest-list">
+      {{ sb_items }}
+    </ol>
+    <p class="sidebar-more"><a href="{{ '/dogadaji/' | relative_url }}">Svi događaji →</a></p>
+  </div>
+  {%- endif -%}
+  {%- endif %}
   <div class="sidebar-box latest">
     <h3>Najnovije</h3>
     <ol class="latest-list">

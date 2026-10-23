@@ -5,6 +5,8 @@ date: 2026-10-23 13:28:56 +0200
 location: Delnice
 type: Događanja
 categories: [Delnice, Događanja]
+event_date: 2026-10-23 17:00:00 +0200
+event_place: Gradska knjižnica Janet Majnarich, Delnice
 excerpt: "Danas, u petak 23. listopada, u 17 sati Gradska knjižnica Janet Majnarich u Delnicama predstavlja knjigu Marka Smolea „Dolina gornje Kupe i Čabranke u starim novinama“. Ulaz je slobodan."
 image: /assets/images/kupa-cabranka-utok.jpg
 image_alt: "Utok Čabranke u Kupu, pogled s cestovnog mosta između Zamosta i Hrvatskog"

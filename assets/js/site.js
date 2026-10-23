@@ -153,3 +153,21 @@
     });
   }
 })();
+
+/* ---------- Najave događaja: skrivanje prošlih (stranica se gradi samo pri pushu) ---------- */
+(function () {
+  var now = Date.now() / 1000;
+  document.querySelectorAll('[data-event-end]').forEach(function (el) {
+    var past = Number(el.getAttribute('data-event-end')) < now;
+    el.classList.toggle('is-past', past);
+    if (past && el.hasAttribute('data-hide-when-past')) el.hidden = true;
+    var note = el.querySelector('.event-past-note');
+    if (note) note.hidden = !past;
+  });
+  document.querySelectorAll('[data-event-list]').forEach(function (list) {
+    var left = list.querySelectorAll('[data-event-end]:not([hidden])').length;
+    if (list.hasAttribute('data-hide-if-empty')) list.hidden = left === 0;
+    var emptyEl = list.parentNode.querySelector('[data-event-empty]');
+    if (emptyEl) emptyEl.hidden = left > 0;
+  });
+})();

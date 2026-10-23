@@ -12,11 +12,11 @@ nav:
   - title: Početna
     url: /
   - title: Događaji
-    url: /dogadaji
+    url: /dogadaji/
   - title: Kategorije
     url: /kategorije/
   - title: Povijest
-    url: /?kategorija=povijest-gk
+    url: /povijest/
   - title: O meni
     url: /o-meni
 

@@ -18,6 +18,7 @@ layout: default
     <div class="meta">
       {% include datum.html date=page.date show_time=page.show_time %} · {{ site.author.name | default: "Moj Gorski Kotar" }}
     </div>
+    {% if page.event_date %}{% include dogadaj-info.html post=page note=true %}{% endif %}
     {%- assign lede = page.excerpt | strip_html | strip -%}
     {%- assign first_para = content | split: '</p>' | first | strip_html | strip -%}
     {% if lede != "" and lede != first_para %}<p class="lede">{{ lede }}</p>{% endif %}

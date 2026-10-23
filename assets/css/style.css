@@ -480,3 +480,26 @@ mark { background: #fff1a8; color: inherit; padding: 0 1px; border-radius: 2px; 
 .filter-btn.series.active { background: #6b4a16; border-color: #6b4a16; color: #fff; }
 .cat-link.series { font-weight: 700; color: #6b4a16; letter-spacing: 0.3px; }
 .cat-desc { margin: 0 0 8px; color: var(--muted); font-size: 0.92rem; }
+
+/* ---------- Događaji (najave) i Povijest ---------- */
+.events-page h1, .history-page h1 { margin: 0 0 6px; }
+.events-page .intro, .history-page .intro { color: var(--muted); margin: 0 0 18px; }
+.event-list { display: flex; flex-direction: column; gap: 16px; margin-bottom: 16px; }
+.event-card { flex-direction: row; }
+.event-card .card-thumb { flex: 0 0 38%; }
+.event-card .card-thumb img { height: 100%; min-height: 160px; aspect-ratio: auto; }
+.event-card .content { padding: 14px 16px; }
+.event-card h3 { font-size: 1.15rem; }
+.event-info { background: var(--green-light); border-left: 4px solid var(--green); border-radius: 6px; padding: 8px 12px; margin: 0 0 10px; font-weight: 600; font-size: 0.95rem; line-height: 1.5; }
+.event-card .event-info { font-size: 0.92rem; }
+.post-header .event-info { margin-top: 10px; }
+.event-info.is-past { background: #f1f1f1; border-left-color: #999; color: var(--muted); }
+.event-past-note { display: block; font-weight: 700; color: #a33; font-size: 0.88rem; }
+.event-past-note[hidden] { display: none; }
+.events-past-link { font-size: 0.9rem; }
+.sidebar-box.upcoming h3 { border-bottom: 3px solid var(--green); padding-bottom: 6px; text-transform: uppercase; font-size: 0.92rem; letter-spacing: 0.5px; }
+.sidebar-box[hidden], .latest-list li[hidden] { display: none; }
+@media (max-width: 640px) {
+  .event-card { flex-direction: column; }
+  .event-card .card-thumb img { min-height: 0; aspect-ratio: 16 / 10; }
+}
