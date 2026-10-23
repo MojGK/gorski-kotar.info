@@ -7,9 +7,9 @@ location: Vrbovsko
 type: Priroda
 categories: [Vrbovsko, Priroda]
 excerpt: U Velikom Jadrču šuma se sadila dronom i ručno, a Grad Vrbovsko najavljuje još dvije takve akcije s osnovcima.
-image: /assets/images/posumljavanje-dronom-ai.jpg
-image_alt: "Ilustracija: sadnice i dron iznad šumske čistine"
-image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
+image: /assets/images/posumljavanje-vrbovsko-projecto2.jpg
+image_alt: "Sudionici akcije pošumljavanja na šumskoj površini kod Vrbovskog"
+image_credit: "Foto: Project O2 – organizator akcije ([project-o2.org](https://project-o2.org/hr/blog/582/medunarodni-dan-sadnje-stabala-vrbovsko))"
 ---
 
 Sadnja šume dronom zvuči kao nešto iz budućnosti, ali u Velikom Jadrču to je već stvarnost. Povodom Međunarodnog dana sadnje stabala Grad Vrbovsko s partnerima organizirao je pošumljavanje dronom na gradskoj čestici na kojoj je ranije bila sječa za ogrjev. Novi list Vrbovsko naziva pionirom takvog pošumljavanja u Gorskom kotaru.

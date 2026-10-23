@@ -7,9 +7,9 @@ location: Fužine
 type: Događanja
 categories: [Fužine, Događanja]
 excerpt: DVD Fužine, jedno od najstarijih vatrogasnih društava u Hrvatskoj, proslavio je stoljeće i pol, a prvi put u povijesti zapovijeda mu žena.
-image: /assets/images/fuzine-bajer-pogled.jpg
-image_alt: "Pogled na Fužine i jezero Bajer"
-image_credit: "Fotografija (Fužine i jezero Bajer s Preradovićeva vrha): Lan Glad / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fu%C5%BEine_s_Preradovi%C4%87evog_vrha.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+image: /assets/images/dvd-povijesna-vatrogasna-zaprega.jpg
+image_alt: "Povijesna vatrogasna konjska zaprega"
+image_credit: "Fotografija (ilustrativno – povijesna vatrogasna konjska zaprega DVD-a Odra na Bundeku u Zagrebu, nije DVD Fužine): Ex13 / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Vatrogasna_zaprega_DVD_Odra.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
 
 Stoljeće i pol – to se ne slavi često. DVD Fužine, jedno od najstarijih vatrogasnih društava u Hrvatskoj, obilježio je 4. listopada 150 godina rada velikim mimohodom, vatrogasnom vježbom i svečanom sjednicom.

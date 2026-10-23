@@ -6,9 +6,9 @@ location: Ravna Gora
 type: Zanimljivosti
 categories: [Ravna Gora, Zanimljivosti]
 excerpt: U centru Ravne Gore, pored SPC-a Goranka, uskoro bi trebala proraditi nova autopraonica. Projekt vrijedan oko 200.000 eura čeka još samo uporabnu dozvolu.
-image: /assets/images/ravna-gora-pogled.jpg
-image_alt: "Pogled na Ravnu Goru s okolnog brda"
-image_credit: "Fotografija (pogled na Ravnu Goru): Martinarg / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pogled_na_Ravnu_Goru.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
+image: /assets/images/autopraonica-ilustracija.jpg
+image_alt: "Pranje automobila u samouslužnoj autopraonici"
+image_credit: "Fotografija (ilustrativno – samouslužna autopraonica u Kłodzku, Poljska, nije Ravna Gora): Jacek Halicki / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:2015_K%C5%82odzko,_ul._Dusznicka,_myjnia_samochodowa_02.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 
 Ravna Gora uskoro dobiva novu autopraonicu. Smještena je u centru mjesta, pored SPC-a Goranka, a otvorenje je u planu još tijekom listopada.

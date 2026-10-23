@@ -6,9 +6,9 @@ location: Fužine
 type: Povijest
 categories: [Fužine, Povijest, POVIJEST GK]
 excerpt: Bajer izgleda kao da je oduvijek tu, a zapravo je umjetno jezero, dovršeno 1952. za potrebe HE Vinodol. Dok se gradilo, slučajno je otkrivena i špilja Vrelo.
-image: /assets/images/bajer-most-autoceste.jpg
-image_alt: "Jezero Bajer okruženo šumom, u pozadini most autoceste"
-image_credit: "Fotografija (jezero Bajer): Modzzak / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Bajer_lake,_Gorsko_Kotar,_Croatia.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
+image: /assets/images/fuzine-1929-prije-bajera.jpg
+image_alt: "Fužine i crkva sv. Antuna Padovanskog 1929., više od dva desetljeća prije nastanka jezera Bajer"
+image_credit: "Fotografija (Fužine i crkva sv. Antuna Padovanskog, 18. 8. 1929. – prije nastanka jezera Bajer): nepoznati autor / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Fu%C5%BEine_i_Crkva_sv._Antona_Padovanskog.18._kolovoza_1929..jpg), javno dobro (public domain)"
 ---
 
 Kad sjedim uz Bajer, teško mi je zamisliti Fužine bez njega. Jezero izgleda kao da je ovdje oduvijek, a zapravo postoji tek nešto više od sedamdeset godina.

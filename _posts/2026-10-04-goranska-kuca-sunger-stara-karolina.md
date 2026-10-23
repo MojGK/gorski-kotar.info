@@ -7,9 +7,9 @@ location: Mrkopalj
 type: Događanja
 categories: [Mrkopalj, Događanja]
 excerpt: Drvena Goranska kuća u Sungeru, nova šetnica do mrkopaljske Kalvarije i prva „Šuma okusa – Dan sira i krumpira“ – jedan vikend, puno razloga za izlet.
-image: /assets/images/sunger-centar.jpg
-image_alt: "Središte Sungera"
-image_credit: "Fotografija (središte Sungera): Ivan Butković / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Centar_Sungera.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+image: /assets/images/goranska-kuca-sunger.jpg
+image_alt: "Nova Goranska kuća u Sungeru"
+image_credit: "Foto: Primorsko-goranska županija ([pgz.hr](https://www.pgz.hr/objave/otvorena-goranska-kuca-u-sungeru/))"
 ---
 
 Početkom listopada Sunger i Mrkopalj imali su baš lijep, pun vikend.

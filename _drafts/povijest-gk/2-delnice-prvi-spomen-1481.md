@@ -6,9 +6,9 @@ location: Delnice
 type: Povijest
 categories: [Delnice, Povijest, POVIJEST GK]
 excerpt: Prvi spomen Delnica vezan je uz Frankopane i trgovački put prema moru. Turske provale opustošile su naselje, Zrinski su ga ponovno naselili, a pravi zamah donijela je Lujzijana.
-image: /assets/images/delnice-pogled-japlenski-vrh.jpg
-image_alt: "Pogled na Delnice i crkvu s vidikovca ispod Japlenškog vrha"
-image_credit: "Fotografija (Delnice s vidikovca ispod Japlenškog vrha): Lan Glad / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice_2024_2.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+image: /assets/images/delnice-srednjovjekovni-put-ai.jpg
+image_alt: "Ilustracija: trgovački put kroz goransku šumu i malo naselje krajem 15. stoljeća"
+image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
 
 Delnice su danas najveće mjesto Gorskog kotara, ali njihova pisana povijest počinje jednom sudskom odlukom iz 15. stoljeća.

@@ -7,9 +7,9 @@ location: Vrbovsko
 type: Događanja
 categories: [Vrbovsko, Događanja]
 excerpt: 22. Bundevijada okupila je rekordnih 130 izlagača, a najtežu bundevu, od 260 kilograma, ponovno je uzgojio Stjepan Juričić iz Ravnica.
-image: /assets/images/divovske-bundeve.jpg
-image_alt: "Divovske bundeve"
-image_credit: "Fotografija (ilustrativno – divovske bundeve na vaganju u Kaliforniji, nije Bundevijada): Nick Ares / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Giant_Pumpkin_Festival_10.20.07_007.jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
+image: /assets/images/bundevijada-2026-bundeve.jpg
+image_alt: "Bundeve izložene na 22. Bundevijadi u Vrbovskom"
+image_credit: "Foto: Grad Vrbovsko ([vrbovsko.hr](https://www.vrbovsko.hr/79-aktualno/5392-22-bundevijada-u-fotografijama))"
 ---
 
 Ako postoji nešto što miriše na goransku jesen, to je Bundevijada. Ovogodišnja, 22. po redu, održana je proteklog vikenda u Vrbovskom i okupila rekordnih 130 izlagača.

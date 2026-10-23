@@ -7,9 +7,9 @@ location: Ravna Gora
 type: Kultura
 categories: [Ravna Gora, Kultura]
 excerpt: Ravna Gora obilježila je 240 godina školstva, a najveći pljesak dobili su učenici i njihov mjuzikl „I bi svijetlosti“.
-image: /assets/images/ravna-gora-potok.jpg
-image_alt: "Potok u Ravnoj Gori"
-image_credit: "Fotografija (potok u Ravnoj Gori): Andy4304 / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ravna_Gora_2.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+image: /assets/images/ravna-gora-240-skola-mjuzikl.jpg
+image_alt: "Učenici na pozornici tijekom proslave 240 godina školstva u Ravnoj Gori"
+image_credit: "Foto: Primorsko-goranska županija ([pgz.hr](https://www.pgz.hr/objave/ravna-gora-obiljezila-240-godina-skolstva-velika-obljetnica-u-znaku-ucenika-bastine-i-ljudi-koji-su-gradili-skolu/))"
 ---
 
 Dvjesto četrdeset godina – toliko dugo u Ravnoj Gori postoji škola. Obljetnica je proslavljena svečanošću u Domu kulture, a najglasniji pljesak, kako i treba, dobili su učenici.
