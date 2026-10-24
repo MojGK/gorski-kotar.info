@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Pilot iz Gorskog kotara i zagrebačka influencerica vjenčali su se u Motovunu"
+date: 2026-10-24 19:32:31 +0200
+location: Gorski kotar
+type: Zanimljivosti
+categories: [Gorski kotar, Zanimljivosti]
+excerpt: "Nije svježa vijest, ali je lijepa: u travnju 2026. pilot Vlado Mance iz Gorskog kotara i Veronika Rosandić vjenčali su se u crkvi sv. Stjepana u Motovunu."
+image: /assets/images/motovun-sv-stjepan.jpg
+image_alt: "Žuta fasada crkve sv. Stjepana i kameni zvonik na trgu u Motovunu"
+image_credit: "Foto: Georg Karl Ell, Wikimedia Commons, CC BY-SA 4.0"
+---
+
+Malo zakašnjele, ali iskrene čestitke. Ovo nije nova vijest: vjenčanje je bilo u **travnju 2026.**, a Gloria je o njemu pisala 12. travnja. Ipak, nije na odmet zabilježiti da jedan Goranin sada ima i istarsku svadbenu priču.
+
+Pilot **Vlado Mance** (30), koji je iz Gorskog kotara, i zagrebačka influencerica i magistra novinarstva **Veronika Rosandić** (32) rekli su si „da“ u crkvi **sv. Stjepana u Motovunu**. Upoznali su se na Uskrs 2024. na rođendanu zajedničkog prijatelja. Vjenčanje su organizirali u pola godine i smjestili ga u prvi vikend nakon Uskrsa.
+
+Zašto baš Istra? Mlada je to Glorii objasnila jednostavno: „Vlado je iz Gorskog kotara, a ja sam Zagrepčanka. Morali smo naći kompromis.“ Zato su odabrali krajolik koji oboje vole.
+
+Slavlje je trajalo tri dana u vinariji i hotelu ROXANICH, sa sedamdesetak gostiju, a mlada je promijenila dvije vjenčanice.
+
+Sretno vam, i da vas putevi što češće vode i natrag u Gorski kotar!
+
+---
+
+*Izvori:*
+
+- *Gloria, Nikolina Kranjec, 12. 4. 2026. ([gloria.hr](https://www.gloria.hr/scena/price/vjencanje-magistrice-novinarstva-i-pilota-u-srcu-istre-za-goste-zakupili-hotel-mlada-je-nosila-dvije-vjencanice-a-prvi-je-ples-otplesan-na-neocekivanu-pjesmu/480633))*
+- *HypeTV, 13. 4. 2026. ([hypetv.hr](https://hypetv.hr/2026/04/13/nakon-dvije-godine-veze-poznata-influencerica-izrekla-da-podijelila-i-vodic-za-buduce-mladenke/))*
+- *Showbuzz / DNEVNIK.hr ([showbuzz.dnevnik.hr](https://showbuzz.dnevnik.hr/celebrity/vjencali-su-se-veronika-rosandic-i-vlado-mance---974947.html))*
+- *Fotografija: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kroatien_Motovun_St._Stephanskirche.jpg)*
