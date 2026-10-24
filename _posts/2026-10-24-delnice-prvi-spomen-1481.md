@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Delnice su se prvi put spomenule još 1481. godine
-date: 2026-10-25 # PLACEHOLDER: dnevni posao pri objavi upisuje stvarno vrijeme (YYYY-MM-DD HH:MM:SS +ZONA; 24. 10. = +0200, od 25. 10. = +0100)
+date: 2026-10-24 08:16:49 +0200
 location: Delnice
 type: Povijest
 categories: [Delnice, Povijest, POVIJEST GK]
