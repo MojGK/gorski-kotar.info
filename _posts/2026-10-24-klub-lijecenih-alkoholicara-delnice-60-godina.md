@@ -6,7 +6,7 @@ location: Delnice
 type: Događanja
 categories: [Delnice, Događanja]
 excerpt: "Šest desetljeća podrške ljudima u oporavku i njihovim obiteljima. Svečanost je danas u 10 sati u Radničkom domu."
-event_date: 2026-10-24 10:00 +0200
+event_date: 2026-10-24 10:00:00 +0200
 event_place: "Radnički dom, Delnice"
 image: /assets/images/kla-delnice-60-dvorana-ai.jpg
 image_alt: "Ilustracija: prazna dvorana sa stolicama i stolom s cvijećem pripremljena za svečanost"
