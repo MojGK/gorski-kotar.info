@@ -13,7 +13,7 @@ image_alt: "Ilustracija: prazna dvorana sa stolicama i stolom s cvijećem pripre
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
 
-Delnički Klub liječenih alkoholičara ove godine puni 60 godina. Osnivačka skupština održana je još u veljači 1966., pa je riječ o jednoj od najdugovječnijih udruga u gradu.
+Delnički Klub liječenih alkoholičara ove godine puni 60 godina. Osnivačka skupština održana je još u veljači 1966.. Šest desetljeća kontinuiranog rada nije mala stvar.
 
 **Svečanost povodom obljetnice je danas, u subotu 24. listopada, u 10 sati u Radničkom domu u Delnicama.**
 
