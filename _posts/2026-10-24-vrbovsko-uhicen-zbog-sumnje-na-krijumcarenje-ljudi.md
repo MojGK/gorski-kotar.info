@@ -23,5 +23,5 @@ Do pravomoćne presude za osumnjičenog vrijedi pretpostavka nedužnosti.
 
 *Izvori:*
 
-- *PU primorsko-goranska, priopćenje od 23. 10. 2026. „Kazneno prijavljen zbog krijumčarenja migranata na području Vrbovskog“, preneseno na [obavijesti.hr](https://www.obavijesti.hr/primorsko-goranska-policija-gov-hr/2026-10-23/-vijesti-kazneno-prijavljen-zbog-krijumcarenja-migranata-na-podrucju-vrbovskog-36071-4022229) (izvorna stranica [primorsko-goranska.policija.gov.hr](https://primorsko-goranska.policija.gov.hr/) u trenutku pisanja nije bila dostupna)*
+- *PU primorsko-goranska, „Kazneno prijavljen zbog krijumčarenja migranata na području Vrbovskog“, 23. 10. 2026. ([primorsko-goranska-policija.gov.hr](https://primorsko-goranska-policija.gov.hr/vijesti/kazneno-prijavljen-zbog-krijumcarenja-migranata-na-podrucju-vrbovskog/36071)); preneseno i na [obavijesti.hr](https://www.obavijesti.hr/primorsko-goranska-policija-gov-hr/2026-10-23/-vijesti-kazneno-prijavljen-zbog-krijumcarenja-migranata-na-podrucju-vrbovskog-36071-4022229)*
 - *Fotografija: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:A6_13_Javorova_Kosa_130109.jpg)*
