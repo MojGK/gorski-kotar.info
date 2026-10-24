@@ -1,25 +1,25 @@
 ---
 layout: post
-title: "Pilot iz Gorskog kotara i zagrebačka influencerica vjenčali su se u Motovunu"
+title: "Ravnogorac Vlado Mance oženio se influencericom Veronikom Rosandić"
 date: 2026-10-24 19:32:31 +0200
-location: Gorski kotar
+location: Ravna Gora
 type: Zanimljivosti
-categories: [Gorski kotar, Zanimljivosti]
-excerpt: "Nije svježa vijest, ali je lijepa: u travnju 2026. pilot Vlado Mance iz Gorskog kotara i Veronika Rosandić vjenčali su se u crkvi sv. Stjepana u Motovunu."
+categories: [Ravna Gora, Zanimljivosti]
+excerpt: "Nije svježa vijest, ali je lijepa: početkom travnja 2026. Ravnogorac Vlado Mance i Veronika Rosandić vjenčali su se u crkvi sv. Stjepana u Motovunu."
 image: /assets/images/mance-rosandic-vjencanje.jpg
 image_alt: "Mladenci Vlado Mance i Veronika Rosandić na kamenom zidu iznad istarskih brežuljaka"
 image_credit: "Foto: @martaandviktor / Gloria"
 ---
 
-Malo zakašnjele, ali iskrene čestitke. Ovo nije nova vijest: vjenčanje je bilo u **travnju 2026.**, a Gloria je o njemu pisala 12. travnja. Ipak, nije na odmet zabilježiti da jedan Goranin sada ima i istarsku svadbenu priču.
+Malo zakašnjele, ali iskrene čestitke. Ovo nije nova vijest: vjenčanje je bilo **početkom travnja 2026.**, prvi vikend nakon Uskrsa, a Gloria je o njemu pisala 12. travnja. Ipak, nije na odmet zabilježiti da jedan Ravnogorac sada ima i istarsku svadbenu priču.
 
-Pilot **Vlado Mance** (30), koji je iz Gorskog kotara, i zagrebačka influencerica i magistra novinarstva **Veronika Rosandić** (32) rekli su si „da“ u crkvi **sv. Stjepana u Motovunu**. Upoznali su se na Uskrs 2024. na rođendanu zajedničkog prijatelja. Vjenčanje su organizirali u pola godine i smjestili ga u prvi vikend nakon Uskrsa.
+Pilot **Vlado Mance** (30) iz Ravne Gore i zagrebačka influencerica i magistra novinarstva **Veronika Rosandić** (32) rekli su si „da“ u crkvi **sv. Stjepana u Motovunu**. Upoznali su se na Uskrs 2024. na rođendanu zajedničkog prijatelja. Vjenčanje su organizirali u pola godine i smjestili ga u prvi vikend nakon Uskrsa.
 
-Zašto baš Istra? Mlada je to Glorii objasnila jednostavno: „Vlado je iz Gorskog kotara, a ja sam Zagrepčanka. Morali smo naći kompromis.“ Zato su odabrali krajolik koji oboje vole.
+Zašto baš Istra? Mlada je to za Gloriju objasnila ovako: „Vlado je iz Gorskog kotara, a ja sam Zagrepčanka. Morali smo naći kompromis koji bi obje strane zadovoljio i mogu reći da smo uspjeli u tome.“ Istru, kaže, oboje obožavaju.
 
 Slavlje je trajalo tri dana u vinariji i hotelu ROXANICH, sa sedamdesetak gostiju, a mlada je promijenila dvije vjenčanice.
 
-Sretno vam, i da vas putevi što češće vode i natrag u Gorski kotar!
+Sretno vam, i da vas putevi što češće vode i natrag u Ravnu Goru!
 
 ---
 
