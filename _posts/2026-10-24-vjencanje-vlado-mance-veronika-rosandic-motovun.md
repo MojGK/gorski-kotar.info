@@ -6,9 +6,9 @@ location: Gorski kotar
 type: Zanimljivosti
 categories: [Gorski kotar, Zanimljivosti]
 excerpt: "Nije svježa vijest, ali je lijepa: u travnju 2026. pilot Vlado Mance iz Gorskog kotara i Veronika Rosandić vjenčali su se u crkvi sv. Stjepana u Motovunu."
-image: /assets/images/motovun-sv-stjepan.jpg
-image_alt: "Žuta fasada crkve sv. Stjepana i kameni zvonik na trgu u Motovunu"
-image_credit: "Foto: Georg Karl Ell, Wikimedia Commons, CC BY-SA 4.0"
+image: /assets/images/mance-rosandic-vjencanje.jpg
+image_alt: "Mladenci Vlado Mance i Veronika Rosandić na kamenom zidu iznad istarskih brežuljaka"
+image_credit: "Foto: @martaandviktor / Gloria"
 ---
 
 Malo zakašnjele, ali iskrene čestitke. Ovo nije nova vijest: vjenčanje je bilo u **travnju 2026.**, a Gloria je o njemu pisala 12. travnja. Ipak, nije na odmet zabilježiti da jedan Goranin sada ima i istarsku svadbenu priču.
@@ -28,4 +28,4 @@ Sretno vam, i da vas putevi što češće vode i natrag u Gorski kotar!
 - *Gloria, Nikolina Kranjec, 12. 4. 2026. ([gloria.hr](https://www.gloria.hr/scena/price/vjencanje-magistrice-novinarstva-i-pilota-u-srcu-istre-za-goste-zakupili-hotel-mlada-je-nosila-dvije-vjencanice-a-prvi-je-ples-otplesan-na-neocekivanu-pjesmu/480633))*
 - *HypeTV, 13. 4. 2026. ([hypetv.hr](https://hypetv.hr/2026/04/13/nakon-dvije-godine-veze-poznata-influencerica-izrekla-da-podijelila-i-vodic-za-buduce-mladenke/))*
 - *Showbuzz / DNEVNIK.hr ([showbuzz.dnevnik.hr](https://showbuzz.dnevnik.hr/celebrity/vjencali-su-se-veronika-rosandic-i-vlado-mance---974947.html))*
-- *Fotografija: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kroatien_Motovun_St._Stephanskirche.jpg)*
+- *Fotografija: @martaandviktor, preuzeto iz članka Glorie (poveznica gore)*
