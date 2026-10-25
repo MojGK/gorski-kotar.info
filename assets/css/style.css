@@ -508,3 +508,28 @@ mark { background: #fff1a8; color: inherit; padding: 0 1px; border-radius: 2px; 
   .event-card { flex-direction: column; }
   .event-card .card-thumb img { min-height: 0; aspect-ratio: 16 / 10; }
 }
+
+/* Oglasi (sidebar) */
+.sidebar-box.oglas { position: relative; text-align: center; padding-top: 26px; }
+.oglas-tag {
+  position: absolute; top: 8px; left: 10px;
+  font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px;
+  color: var(--muted); background: #f1f1f1; border: 1px solid var(--border);
+  border-radius: 3px; padding: 1px 6px; line-height: 1.4;
+}
+.oglas-logo { display: block; margin: 0 auto 8px; }
+.oglas-logo img { display: block; margin: 0 auto; width: 120px; max-width: 60%; height: auto; }
+.sidebar-box.oglas .oglas-name { margin: 0 0 4px; font-weight: 800; font-size: 1.02rem; color: var(--text); }
+.oglas-name span { font-weight: 600; color: var(--muted); font-size: 0.9rem; }
+.sidebar-box.oglas .oglas-desc { margin: 0 0 6px; color: var(--text); }
+.sidebar-box.oglas .oglas-slogan { margin: 0 0 8px; font-style: italic; font-size: 0.85rem; }
+.sidebar-box.oglas .oglas-contact { margin: 0 0 12px; font-size: 0.85rem; }
+.oglas-contact a { color: var(--green); text-decoration: none; }
+.oglas-btn {
+  display: inline-block; background: #f5a300; color: #1a1a1a; font-weight: 700; font-size: 0.9rem;
+  text-decoration: none; padding: 8px 16px; border-radius: 6px;
+}
+.oglas-btn:hover, .oglas-btn:focus { background: #e09400; }
+@media (max-width: 900px) {
+  .sidebar-box.oglas { max-width: 420px; margin-left: auto; margin-right: auto; }
+}

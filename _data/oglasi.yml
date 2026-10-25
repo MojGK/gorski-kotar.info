@@ -1,0 +1,14 @@
+# Oglasi u bočnoj traci (sidebar).
+# active: false privremeno skriva oglas. Podaci su preuzeti sa stranice oglašivača.
+goring:
+  active: true
+  name: "Goring d.o.o."
+  place: "Ravna Gora"
+  logo: /assets/images/oglasi/goring-logo.svg
+  logo_alt: "Logo Goring d.o.o. Ravna Gora"
+  description: "Projektiranje, niskogradnja i nadzor za stambene i infrastrukturne projekte."
+  slogan: "Vrhunska kvaliteta, stručnost i pravovremena realizacija."
+  phone: "+385 98 257 065"
+  email: "goringinfo@gmail.com"
+  url: "https://goringdoo.eu/"
+  button: "Posjetite stranicu"

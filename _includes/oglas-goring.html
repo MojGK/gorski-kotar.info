@@ -1,0 +1,20 @@
+{%- assign oglas = site.data.oglasi.goring -%}
+{%- if oglas and oglas.active -%}
+<div class="sidebar-box oglas" role="complementary" aria-label="Oglas: {{ oglas.name }}">
+  <span class="oglas-tag">Oglas</span>
+  <a class="oglas-logo" href="{{ oglas.url }}" target="_blank" rel="sponsored noopener">
+    <img src="{{ oglas.logo | relative_url }}" alt="{{ oglas.logo_alt }}" width="120" height="136" loading="lazy">
+  </a>
+  <p class="oglas-name">{{ oglas.name }}{% if oglas.place %} <span>· {{ oglas.place }}</span>{% endif %}</p>
+  <p class="oglas-desc">{{ oglas.description }}</p>
+  {%- if oglas.slogan %}<p class="oglas-slogan">{{ oglas.slogan }}</p>{% endif %}
+  {%- if oglas.phone or oglas.email %}
+  <p class="oglas-contact">
+    {%- if oglas.phone %}<a href="tel:{{ oglas.phone | remove: ' ' }}">{{ oglas.phone }}</a>{% endif %}
+    {%- if oglas.phone and oglas.email %}<br>{% endif %}
+    {%- if oglas.email %}<a href="mailto:{{ oglas.email }}">{{ oglas.email }}</a>{% endif %}
+  </p>
+  {%- endif %}
+  <a class="oglas-btn" href="{{ oglas.url }}" target="_blank" rel="sponsored noopener">{{ oglas.button | default: "Posjetite stranicu" }} →</a>
+</div>
+{%- endif -%}
