@@ -1,0 +1,89 @@
+{%- comment -%}
+  Anketa (poll) za objave. Koristi se iz front mattera:
+    anketa:
+      id: kratki-jedinstveni-id   # 3–50 znakova: slova, brojke, - _
+      pitanje: "Pitanje?"
+      opcije:
+        - "Prvi odgovor"
+        - "Drugi odgovor"
+  U tekstu objave: include anketa.html (Liquid include tag) na željenom mjestu.
+  Glasovi se broje anonimno preko besplatnog javnog brojača Abacus
+  (abacus.jasoncameron.dev), bez prijave, kolačića i oglasnih trackera.
+  Ponovljeno glasanje s istog preglednika sprječava se preko localStorage.
+{%- endcomment -%}
+{%- assign a = include.anketa | default: page.anketa -%}
+{%- if a and a.pitanje and a.opcije -%}
+{%- assign a_id = a.id | default: page.slug | slugify -%}
+<section class="anketa" data-anketa="{{ a_id }}" data-ns="mojgk.github.io" aria-labelledby="anketa-{{ a_id }}-q">
+  <span class="anketa-tag">Anketa</span>
+  <h3 id="anketa-{{ a_id }}-q" class="anketa-q">{{ a.pitanje }}</h3>
+  <ol class="anketa-opcije">
+    {%- for o in a.opcije %}
+    <li data-i="{{ forloop.index }}">
+      <button type="button" class="anketa-btn" disabled>{{ o }}</button>
+      <div class="anketa-rez" hidden>
+        <span class="anketa-label">{{ o }}</span>
+        <span class="anketa-bar"><span style="width:0%"></span></span>
+        <span class="anketa-pct">0 %</span>
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  <p class="anketa-info" aria-live="polite">Učitavam rezultate…</p>
+  <noscript><p class="anketa-info">Za glasanje je potreban JavaScript. Svoj odgovor možete napisati i u komentarima ispod.</p></noscript>
+</section>
+<script>
+(function () {
+  var box = document.querySelector('.anketa[data-anketa="{{ a_id }}"]');
+  if (!box || box.dataset.ready) return; box.dataset.ready = '1';
+  var base = 'https://abacus.jasoncameron.dev', ns = box.dataset.ns, id = box.dataset.anketa;
+  var items = box.querySelectorAll('.anketa-opcije li'), info = box.querySelector('.anketa-info');
+  var store = 'anketa:' + id, voted = null;
+  try { voted = localStorage.getItem(store); } catch (e) {}
+  function key(i) { return id + '-o' + i; }
+  function get(i) {
+    return fetch(base + '/get/' + ns + '/' + key(i)).then(function (r) {
+      if (r.status === 404) return 0;
+      if (!r.ok) throw new Error(r.status);
+      return r.json().then(function (j) { return j.value || 0; });
+    });
+  }
+  function show(counts) {
+    var total = counts.reduce(function (s, n) { return s + n; }, 0);
+    items.forEach(function (li, k) {
+      var n = counts[k], pct = total ? Math.round(n * 100 / total) : 0;
+      li.querySelector('.anketa-btn').hidden = true;
+      var r = li.querySelector('.anketa-rez'); r.hidden = false;
+      r.querySelector('.anketa-bar span').style.width = pct + '%';
+      r.querySelector('.anketa-pct').textContent = pct + ' % (' + n + ')';
+      li.classList.toggle('moj-glas', String(k + 1) === voted);
+    });
+    info.textContent = 'Ukupno glasova: ' + total + (voted ? '. Hvala na glasu!' : '');
+  }
+  function load() {
+    return Promise.all(Array.prototype.map.call(items, function (li) { return get(li.dataset.i); }));
+  }
+  function fail() {
+    info.textContent = 'Glasanje trenutačno ne radi. Svoj odgovor napišite u komentarima ispod.';
+  }
+  if (voted) { load().then(show).catch(fail); return; }
+  items.forEach(function (li) {
+    var b = li.querySelector('.anketa-btn'); b.disabled = false;
+    b.addEventListener('click', function () {
+      items.forEach(function (x) { x.querySelector('.anketa-btn').disabled = true; });
+      info.textContent = 'Šaljem glas…';
+      fetch(base + '/hit/' + ns + '/' + key(li.dataset.i)).then(function (r) {
+        if (!r.ok) throw new Error(r.status);
+        voted = li.dataset.i;
+        try { localStorage.setItem(store, voted); } catch (e) {}
+        return load();
+      }).then(show).catch(function () {
+        items.forEach(function (x) { x.querySelector('.anketa-btn').disabled = false; });
+        fail();
+      });
+    });
+  });
+  info.textContent = 'Odaberite odgovor. Glasanje je anonimno, bez prijave.';
+})();
+</script>
+{%- endif -%}
