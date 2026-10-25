@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ime Fužine dolazi od riječi za kovačnicu
-date: 2026-10-26 # PLACEHOLDER: dnevni posao pri objavi upisuje stvarno vrijeme (YYYY-MM-DD HH:MM:SS +ZONA; 24. 10. = +0200, od 25. 10. = +0100)
+date: 2026-10-25 08:14:00 +0100
 location: Fužine
 type: Povijest
 categories: [Fužine, Povijest, POVIJEST GK]
