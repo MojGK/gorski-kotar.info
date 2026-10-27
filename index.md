@@ -9,20 +9,24 @@ sidebar: true
 {%- assign lead_loc = site.data.kategorije.lokacije | where: "name", lead.location | first -%}
 {%- assign lead_type = site.data.kategorije.vrste | where: "name", lead.type | first -%}
 
-<section class="lead" id="lead" data-location="{{ lead_loc.slug }}" data-type="{{ lead_type.slug }}" data-cats="{% include kat-slugovi.html post=lead %}">
-  <a href="{{ lead.url | relative_url }}" class="lead-link">
-    {% if lead.image %}<img src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}">{% endif %}
+<section class="lead hero" id="lead" data-location="{{ lead_loc.slug }}" data-type="{{ lead_type.slug }}" data-cats="{% include kat-slugovi.html post=lead %}">
+  <a href="{{ lead.url | relative_url }}" class="lead-link{% unless lead.image %} no-img{% endunless %}">
+    {% if lead.image %}<img src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}" fetchpriority="high">{% endif %}
     <div class="lead-overlay">
       <span class="lead-kicker">{% if featured %}Izdvojeno{% else %}Najnovije{% endif %}</span>
       <h1>{{ lead.title }}</h1>
+      {%- assign lead_ex = lead.excerpt | strip_html | strip -%}
+      {% if lead_ex != "" %}<p class="lead-excerpt">{{ lead_ex | truncate: 230 }}</p>{% endif %}
+      <span class="lead-cta">Pročitaj članak <span aria-hidden="true">→</span></span>
     </div>
   </a>
   <div class="lead-body">
     <div class="lead-meta">{% include oznake.html post=lead %}<span class="meta">{% include datum.html date=lead.date show_time=lead.show_time %}</span></div>
-    <p>{{ lead.excerpt | strip_html | strip }}</p>
     {% if lead.image_credit %}<p class="lead-credit">{{ lead.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
   </div>
 </section>
+
+{% include oglas-banner.html %}
 
 <div class="filters" id="filteri">
   <button type="button" class="filter-btn active" data-reset>Sve</button>
@@ -57,14 +61,19 @@ sidebar: true
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
   <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
-    {% if post.image %}
-      <a href="{{ post.url | relative_url }}" class="card-thumb"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>
-    {% endif %}
+    {%- assign c_ser = nil -%}
+    {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
+    <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
+      {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
+      <span class="card-badges">{% if c_type %}<span class="card-badge">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
+    </a>
     <div class="content">
-      {% include oznake.html post=post %}
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <div class="meta">{% include datum.html date=post.date show_time=post.show_time %}</div>
-      <p>{{ post.excerpt | strip_html | truncate: 95 }}</p>
+      <div class="card-meta">
+        {%- if c_loc %}<a class="card-loc" href="{{ '/kategorije/' | relative_url }}#{{ c_loc.slug }}">📍 {{ c_loc.name }}</a>{% endif -%}
+        <span class="card-date">{% include datum.html date=post.date show_time=post.show_time %}</span>
+      </div>
+      <p>{{ post.excerpt | strip_html | strip | truncate: 120 }}</p>
     </div>
   </article>
   {% endfor %}

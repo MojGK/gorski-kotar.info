@@ -23,3 +23,15 @@ nav:
 author:
   name: Gorski Kotar Info
   bio: Gorski Kotar Info – vijesti iz srca prirode.
+
+# Komentari bez registracije (vidi _includes/komentari.html)
+komentari:
+  sustav: htmlcommentbox   # htmlcommentbox | cusdis | giscus
+  hcb_mod: ""              # moderatorski ključ s htmlcommentbox.com (vrijednost iza mod= u njihovom kodu)
+  hcb_opts: 16404          # 16 filtar psovki + 4 datum + 16384 odgovori
+  giscus_rezerva: true     # stari Giscus (GitHub prijava) ostaje kao sklopiva rezerva
+cusdis_app_id: ""          # App ID s cusdis.com (kad se postavi, promijeni sustav u: cusdis)
+cusdis_host: "https://cusdis.com"
+
+# Kontakt za oglašavanje (placeholder bannera kad nema aktivnog oglasa); prazno = bez gumba
+oglasi_kontakt: ""

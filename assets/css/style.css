@@ -766,3 +766,134 @@ main.container { padding-top: 4px; padding-bottom: 24px; }
 @media (min-width: 1100px) {
   .posts-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
+
+/* =====================================================================
+   DORADA (2026-10-27): jači hero, prave kartice, banner, vrijeme, komentari
+   ===================================================================== */
+:root { --primary-2: #2e7d32; --accent-soft: #c8e6c9; }
+a { color: var(--accent); }
+a:hover { color: var(--primary); }
+
+/* jača zelena tema u zaglavlju */
+.site-header, .site-header[class] { background: linear-gradient(100deg, #143d24 0%, var(--primary) 45%, #22603a 100%); border-bottom: 3px solid var(--accent); }
+.cat-bar { background: rgba(0,0,0,0.18); }
+.main-nav a.current { background: var(--accent); box-shadow: inset 0 -2px 0 rgba(255,255,255,0.35); }
+.btn, .oglas-btn { border-radius: 999px; }
+.btn { background: var(--accent); }
+.btn:hover { background: var(--primary); }
+
+/* ---------- Hero ---------- */
+.lead.hero, .lead.hero[class] { display: block; position: relative; margin: 18px 0 16px; border-radius: 18px; overflow: hidden; box-shadow: 0 12px 34px rgba(16, 40, 24, 0.22); background: var(--primary); }
+.lead.hero .lead-link { position: relative; display: block; min-height: 420px; color: #fff; }
+.lead.hero .lead-link img, .lead.hero .lead-link img[src] { position: absolute; inset: 0; width: 100%; height: 100%; min-height: 0; aspect-ratio: auto; object-fit: cover; transition: transform 0.6s ease; }
+.lead.hero .lead-link:hover img { transform: scale(1.03); }
+.lead.hero .lead-link.no-img { background: linear-gradient(135deg, var(--primary), var(--accent)); }
+.lead.hero .lead-overlay { position: absolute; left: 0; right: 0; bottom: 0; padding: 120px 18px 20px; background: linear-gradient(to top, rgba(8, 26, 15, 0.95) 0%, rgba(8, 26, 15, 0.75) 45%, rgba(8, 26, 15, 0) 100%); }
+.lead.hero .lead-kicker { background: #fff; color: var(--primary); font-size: 0.72rem; padding: 4px 11px; margin-bottom: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); }
+.lead.hero h1 { font-size: 1.6rem; line-height: 1.15; font-weight: 850; margin: 0 0 10px; text-shadow: 0 2px 10px rgba(0,0,0,0.45); }
+.lead.hero .lead-link:hover h1 { text-decoration: none; }
+.lead-excerpt { margin: 0 0 14px; color: #e6f2e8; font-size: 0.98rem; line-height: 1.5; max-width: 62ch; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.lead-cta { display: inline-flex; align-items: center; gap: 6px; background: var(--accent); color: #fff; font-weight: 700; font-size: 0.9rem; padding: 9px 18px; border-radius: 999px; box-shadow: 0 4px 12px rgba(0,0,0,0.25); transition: background 0.2s; }
+.lead.hero .lead-link:hover .lead-cta { background: #388e3c; }
+.lead.hero .lead-body, .lead.hero .lead-body[class] { display: block; background: #fff; padding: 12px 18px; }
+.lead.hero .lead-meta { gap: 8px 12px; }
+.lead.hero .lead-credit { margin: 6px 0 0; }
+
+/* ---------- Banner ---------- */
+.ad-banner { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 18px; margin: 0 0 18px; padding: 26px 18px 16px; background: linear-gradient(100deg, #fffaf0 0%, #fff 55%, #f1f8f2 100%); border: 1px solid #f0d9a8; border-left: 6px solid #f5a300; border-radius: var(--radius); box-shadow: var(--shadow-sm); }
+.ad-banner .oglas-tag { position: absolute; top: 8px; left: 12px; }
+.ad-banner-logo img { display: block; width: 64px; height: auto; }
+.ad-banner-text { flex: 1 1 220px; min-width: 0; }
+.ad-banner p { margin: 0; }
+.ad-banner-name { font-weight: 800; font-size: 1.1rem; color: #1d2420; }
+.ad-banner-name span { font-weight: 600; color: var(--muted); font-size: 0.92rem; }
+.ad-banner-desc { color: #39443d; font-size: 0.93rem; margin-top: 2px !important; }
+.ad-banner-contact { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 6px !important; font-size: 0.86rem; }
+.ad-banner-contact a { color: var(--primary); text-decoration: none; font-weight: 600; }
+.ad-banner-btn { flex: 0 0 auto; }
+.ad-banner-empty { border: 2px dashed #b9d6c4; border-left-width: 2px; background: repeating-linear-gradient(135deg, #f7fbf8, #f7fbf8 12px, #eef6f0 12px, #eef6f0 24px); justify-content: center; text-align: center; }
+.ad-banner-empty .ad-banner-name { color: var(--primary); }
+
+/* ---------- Kartice ---------- */
+.post-card .card-thumb { position: relative; display: block; }
+.post-card .card-thumb.no-img { aspect-ratio: 16 / 9; background: linear-gradient(135deg, var(--primary), var(--accent)); display: flex; align-items: center; justify-content: center; }
+.card-ph { font-size: 2.6rem; opacity: 0.85; }
+.card-badges { position: absolute; top: 10px; left: 10px; display: flex; flex-wrap: wrap; gap: 5px; }
+.card-badge { display: inline-block; background: var(--accent); color: #fff; font-size: 0.68rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; padding: 4px 9px; border-radius: 999px; box-shadow: 0 2px 6px rgba(0,0,0,0.25); }
+.card-badge.series { background: #6b4a16; }
+.post-card h3 { margin-top: 2px; }
+.card-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 0.78rem; color: #66736a; margin: 0 0 6px; }
+.card-loc { color: var(--primary); font-weight: 700; text-decoration: none; }
+.card-loc:hover { color: var(--accent); text-decoration: underline; }
+.card-date::before { content: "🕒 "; }
+.post-card { border-top: 3px solid transparent; }
+.post-card:hover { border-top-color: var(--accent); }
+
+/* ---------- Vrijeme ---------- */
+.sidebar-box.weather { background: linear-gradient(160deg, #f1f8f2 0%, #fff 70%); }
+.wx-now { display: flex; align-items: center; gap: 10px; }
+.wx-icon { font-size: 2.4rem; line-height: 1; }
+.wx-temp { font-size: 2.2rem; font-weight: 800; color: var(--primary); line-height: 1; }
+.wx-temp small { font-size: 1rem; font-weight: 700; }
+.wx-desc { display: flex; flex-direction: column; font-size: 0.8rem; color: #4d5a52; line-height: 1.35; margin-left: 4px; }
+.wx-desc strong { color: #1d2420; font-size: 0.9rem; }
+.wx-days { list-style: none; margin: 10px 0 0; padding: 8px 0 0; border-top: 1px solid #e3ece5; }
+.wx-days li { display: flex; align-items: center; justify-content: space-between; padding: 3px 0; font-size: 0.84rem; }
+.wx-day { text-transform: capitalize; font-weight: 600; min-width: 74px; }
+.wx-range { font-weight: 700; color: var(--primary); }
+.wx-loading, .wx-error { font-size: 0.85rem; color: var(--muted); }
+.sidebar-box .wx-credit { margin-top: 8px; font-size: 0.72rem; }
+.wx-credit a { color: var(--muted); }
+
+/* ---------- Komentari ---------- */
+.komentari-note { font-size: 0.9rem; color: #4d5a52; margin: 0 0 12px; }
+#HCB_comment_box { font-family: var(--font) !important; }
+#HCB_comment_box h3 { font-size: 1rem; color: var(--primary); margin: 0 0 8px; }
+#HCB_comment_box input[type=text], #HCB_comment_box input[type=email], #HCB_comment_box textarea {
+  display: block; width: 100% !important; max-width: 100%; font: inherit !important; font-size: 0.95rem !important;
+  padding: 10px 12px !important; margin: 0 0 10px !important; border: 1px solid #cfdcd3 !important; border-radius: 10px !important; background: #fff !important; box-sizing: border-box;
+}
+#HCB_comment_box textarea { min-height: 110px; }
+#HCB_comment_box input:focus, #HCB_comment_box textarea:focus { outline: none; border-color: var(--accent) !important; box-shadow: 0 0 0 3px var(--accent-soft); }
+#HCB_comment_box .submit, #HCB_comment_box input[type=submit], #HCB_comment_box button {
+  font: inherit !important; font-weight: 700 !important; background: var(--accent) !important; color: #fff !important; border: 0 !important;
+  border-radius: 999px !important; padding: 9px 20px !important; cursor: pointer; width: auto !important;
+}
+#HCB_comment_box .comment { border-top: 1px solid #e6eee8; padding: 10px 0; }
+#HCB_comment_box .hcb-comment-tb { font-size: 0.82rem; }
+#HCB_comment_box a { color: var(--accent); }
+.giscus-rezerva { margin-top: 18px; border-top: 1px solid #e6eee8; padding-top: 12px; }
+.giscus-rezerva summary { cursor: pointer; font-size: 0.88rem; font-weight: 600; color: var(--muted); }
+.giscus-rezerva[open] summary { margin-bottom: 10px; }
+
+@media (min-width: 600px) {
+  .lead.hero .lead-link { min-height: 460px; }
+  .lead.hero h1 { font-size: 2.1rem; }
+  .lead.hero .lead-overlay { padding: 140px 28px 26px; }
+  .lead.hero .lead-body { padding: 12px 28px; }
+  .ad-banner { padding: 18px 22px 18px 22px; flex-wrap: nowrap; }
+  .ad-banner .oglas-tag { top: 8px; left: auto; right: 12px; }
+}
+@media (min-width: 900px) {
+  .lead.hero .lead-link { min-height: 500px; }
+  .lead.hero h1 { font-size: 2.6rem; max-width: 22ch; }
+  .lead-excerpt { font-size: 1.08rem; }
+}
+.lead.hero[hidden], .ad-banner[hidden], .post-card[hidden] { display: none !important; }
+body.filtering .ad-banner { display: none; }
+.lead.hero .lead-excerpt { color: #eef7ef; }
+#HCB_comment_box #hcb_file_label, #HCB_comment_box #hcb_file { display: none !important; }
+#HCB_comment_box .home-desc { font-size: 0.72rem; color: #8a958d; margin-top: 10px; }
+#HCB_comment_box .home-desc a { color: #8a958d !important; }
+#HCB_comment_box .comment { margin-bottom: 0 !important; }
+#HCB_comment_box .hcb-comment-body { font-size: 0.95rem !important; }
+#HCB_comment_box .date { font-size: 0.78rem !important; }
+#HCB_comment_box .hcb-comment-tb button { color: var(--accent) !important; background: none !important; padding: 0 !important; font-size: 0.82rem !important; border-radius: 0 !important; }
+#HCB_comment_box #no_comments { color: var(--muted); font-size: 0.92rem; }
+@media (max-width: 599px) {
+  .ad-banner { flex-wrap: wrap; }
+  .ad-banner-logo img { width: 44px; }
+  .ad-banner-text { flex: 1 1 0; }
+  .ad-banner-btn { flex: 1 1 100%; text-align: center; }
+}
+#HCB_comment_box #hcb_msg:empty { display: none; }

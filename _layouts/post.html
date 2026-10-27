@@ -40,8 +40,12 @@ layout: default
   {% endif %}
 </article>
 
-<section class="comments">
+<section class="comments" id="komentari">
   <h2>Komentari</h2>
+  {%- assign k_sys = site.komentari.sustav | default: "htmlcommentbox" %}
+  {% if k_sys != "giscus" %}{% include komentari.html %}{% endif %}
+  {%- if k_sys == "giscus" or site.komentari.giscus_rezerva %}
+  {% if k_sys != "giscus" %}<details class="giscus-rezerva"><summary>Imate GitHub račun? Komentirajte preko GitHuba</summary>{% endif %}
   <script src="https://giscus.app/client.js"
           data-repo="MojGK/moj-gorski-kotar"
           data-repo-id="R_kgDOVUbURg"
@@ -57,4 +61,6 @@ layout: default
           crossorigin="anonymous"
           async>
   </script>
+  {% if k_sys != "giscus" %}</details>{% endif %}
+  {%- endif %}
 </section>
