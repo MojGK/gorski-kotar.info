@@ -902,7 +902,7 @@ body.filtering .ad-banner { display: none; }
    MOBILNA NASLOVNICA + IZDVOJENO + OPĆINSKE VIJESTI (2026-10-27)
    ===================================================================== */
 :root { --primary: #14482a; --accent: #2e7d32; --green-deep: #0e3520; --bg: #eef4ef; }
-html, body { overflow-x: hidden; }
+html, body { overflow-x: clip; } /* clip (ne hidden) – ne kvari sticky zaglavlje */
 body { background: var(--bg); }
 img { max-width: 100%; }
 h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
