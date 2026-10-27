@@ -3,8 +3,8 @@ layout: post
 title: "Deseta sjednica Gradskog vijeća Vrbovskog: usvojeni izvještaj gradonačelnika i polugodišnji proračun"
 date: 2026-10-24 19:18:31 +0200
 location: Vrbovsko
-type: Zanimljivosti
-categories: [Vrbovsko, Zanimljivosti]
+type: Općinske vijesti
+categories: [Vrbovsko, Općinske vijesti]
 excerpt: "Vijećnici su raspravljali o roku za polugodišnji izvještaj gradonačelnika, o radu zamjenika iz redova srpske manjine i o Domu kulture u Gomirju. Izvještaj i polugodišnje izvršenje proračuna su usvojeni."
 image: /assets/images/vrbovsko-crkva.jpg
 image_alt: "Crkva u Vrbovskom s visokim zvonikom i zelenilom ispred"

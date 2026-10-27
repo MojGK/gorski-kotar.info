@@ -43,6 +43,10 @@ vrste:
     slug: zanimljivosti
   - name: Povijest
     slug: povijest
+  # natječaji, javni pozivi, savjetovanja, prodaja/zakup čestica, komunalne naknade,
+  # prostorni planovi, proračun, odluke vijeća i slične obavijesti općina i gradova
+  - name: Općinske vijesti
+    slug: opcinske-vijesti
 
 # Serijali – tematske serije članaka koje idu uz mjesto i vrstu.
 # Članak je u serijalu ako mu `categories` sadrži točan naziv, npr.
@@ -51,3 +55,14 @@ serijali:
   - name: POVIJEST GK
     slug: povijest-gk
     opis: Serijal o povijesti Gorskog kotara – mjesta, ljudi i priče iz prošlosti.
+
+# Rubrika "Izdvojeno" na naslovnici: 1 udarna vijest + po jedna vijest iz svake grupe mjesta
+# (svaka iz drugog mjesta). Udarna je najnoviji članak s `istaknuto: true` u front matteru,
+# a ako takvog nema, najnoviji članak koji nije u heroju. Ako grupa nema članak, uzima se
+# najnoviji članak iz nekog drugog, još neiskorištenog mjesta.
+izdvojeno_grupe:
+  - [Delnice]
+  - [Fužine]
+  - [Lokve, Čabar]
+  - [Mrkopalj, Ravna Gora]
+  - [Vrbovsko, Gorski kotar]

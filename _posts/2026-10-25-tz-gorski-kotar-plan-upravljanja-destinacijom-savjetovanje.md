@@ -3,8 +3,8 @@ layout: post
 title: "Kakav turizam želimo? TZ Gorskog kotara traži mišljenje o planu do 2029."
 date: 2026-10-25 08:01:34 +0100
 location: Gorski kotar
-type: Zanimljivosti
-categories: [Gorski kotar, Zanimljivosti]
+type: Općinske vijesti
+categories: [Gorski kotar, Općinske vijesti]
 excerpt: "Do 20. studenoga može se komentirati prijedlog Plana upravljanja destinacijom za 2027.–2029. Zanimljivi su i brojevi iz njega: 138.535 noćenja u 2024. i prosječan boravak od samo 2,9 dana."
 image: /assets/images/jezero-bajer.jpg
 image_alt: "Jezero Bajer u Fužinama"

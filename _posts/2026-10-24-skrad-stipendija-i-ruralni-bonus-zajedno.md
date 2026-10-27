@@ -3,8 +3,8 @@ layout: post
 title: "Skradski stipendisti moći će uz općinsku stipendiju primati i županijski ruralni bonus"
 date: 2026-10-24 19:22:31 +0200
 location: Skrad
-type: Zanimljivosti
-categories: [Skrad, Zanimljivosti]
+type: Općinske vijesti
+categories: [Skrad, Općinske vijesti]
 excerpt: "Općinsko vijeće Skrada jednoglasno je promijenilo pravila: učenici i studenti više ne moraju birati između općinske stipendije i ruralnog bonusa Primorsko-goranske županije. Natječaj je najavljen uskoro."
 image: /assets/images/skrad-stipendije-knjige.jpg
 image_alt: "Hrpa knjiga i olovka na drvenom stolu uz prozor"

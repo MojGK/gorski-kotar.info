@@ -3,8 +3,8 @@ layout: post
 title: "Vrbovsko: primjedbe na izmjene prostornog plana još do 2. studenoga"
 date: 2026-10-27 07:56:00 +0100
 location: Vrbovsko
-type: Zanimljivosti
-categories: [Vrbovsko, Zanimljivosti]
+type: Općinske vijesti
+categories: [Vrbovsko, Općinske vijesti]
 excerpt: "Traje druga ponovna javna rasprava o izmjenama Prostornog plana uređenja Grada Vrbovskog. Uvid je u gradskoj upravi od 7 do 15 sati, a primjedbe se primaju zaključno s 2. studenoga."
 image: /assets/images/vrbovsko-crkva.jpg
 image_alt: "Crkva u Vrbovskom"

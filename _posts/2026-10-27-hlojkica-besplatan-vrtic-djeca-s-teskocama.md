@@ -3,8 +3,8 @@ layout: post
 title: "Delnice: vrtić Hlojkica besplatan za djecu s teškoćama u razvoju? Savjetovanje do 26. studenoga"
 date: 2026-10-27 08:10:00 +0100
 location: Delnice
-type: Zanimljivosti
-categories: [Delnice, Zanimljivosti]
+type: Općinske vijesti
+categories: [Delnice, Općinske vijesti]
 excerpt: "Prema nacrtu odluke, roditelji djece s teškoćama u razvoju od 2027. ne bi plaćali Dječji vrtić Hlojkica. Primjedbe se primaju do 26. studenoga u 12 sati."
 image: /assets/images/vrtic-igraonica-ai.jpg
 image_alt: "Ilustracija: svijetla vrtićka igraonica s policama igračaka i malim stolom"

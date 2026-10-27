@@ -3,8 +3,8 @@ layout: post
 title: "Delnička adventska bajka traži ugostitelje za tri drvene kućice"
 date: 2026-10-25 08:06:45 +0100
 location: Delnice
-type: Zanimljivosti
-categories: [Delnice, Zanimljivosti]
+type: Općinske vijesti
+categories: [Delnice, Općinske vijesti]
 excerpt: "Advent u Delnicama trajat će od 28. studenoga do 31. prosinca. Za tri kućice u selu Bake Mraz početna je cijena najma 1.875 eura s PDV-om, a ponude se primaju do 30. listopada u 10 sati."
 image: /assets/images/delnice-advent-kucice-ai.jpg
 image_alt: "Ilustracija: tri drvene adventske kućice s lampicama u snijegom prekrivenom parku"

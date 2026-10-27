@@ -3,8 +3,8 @@ layout: post
 title: "Vrbovsko dobiva novu katastarsku izmjeru vrijednu oko 470.000 eura"
 date: 2026-10-25 08:02:51 +0100
 location: Vrbovsko
-type: Zanimljivosti
-categories: [Vrbovsko, Zanimljivosti]
+type: Općinske vijesti
+categories: [Vrbovsko, Općinske vijesti]
 excerpt: "Država financira novu izmjeru dijelova katastarskih općina Vrbovsko i Gomirsko Vrbovsko. Cilj je uskladiti katastar i zemljišne knjige sa stanjem na terenu, a radovi bi trebali biti gotovi iduće godine."
 image: /assets/images/vrbovsko-katastar-ai.jpg
 image_alt: "Ilustracija: geodetski instrumenti na livadi iznad malog planinskog grada"

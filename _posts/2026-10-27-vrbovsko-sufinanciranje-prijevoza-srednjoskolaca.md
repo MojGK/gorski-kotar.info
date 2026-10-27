@@ -3,8 +3,8 @@ layout: post
 title: "Vrbovsko sufinancira prijevoz srednjoškolaca: zahtjev do 10. studenoga donosi i rujan i listopad"
 date: 2026-10-27 08:04:00 +0100
 location: Vrbovsko
-type: Zanimljivosti
-categories: [Vrbovsko, Zanimljivosti]
+type: Općinske vijesti
+categories: [Vrbovsko, Općinske vijesti]
 excerpt: "Od danas se u gradskoj upravi predaju zahtjevi za sufinanciranje prijevoza srednjoškolaca. Tko ga preda do 10. studenoga, dobit će troškove i za rujan i listopad."
 image: /assets/images/vrbovsko-crkva.jpg
 image_alt: "Crkva u Vrbovskom"

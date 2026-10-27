@@ -897,3 +897,101 @@ body.filtering .ad-banner { display: none; }
   .ad-banner-btn { flex: 1 1 100%; text-align: center; }
 }
 #HCB_comment_box #hcb_msg:empty { display: none; }
+
+/* =====================================================================
+   MOBILNA NASLOVNICA + IZDVOJENO + OPĆINSKE VIJESTI (2026-10-27)
+   ===================================================================== */
+:root { --primary: #14482a; --accent: #2e7d32; --green-deep: #0e3520; --bg: #eef4ef; }
+html, body { overflow-x: hidden; }
+body { background: var(--bg); }
+img { max-width: 100%; }
+h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
+
+/* boje vrsta (badgevi i oznake) */
+.card-badge.t-crna-kronika, .tag-type.t-crna-kronika { background: #b3261e; border-color: #b3261e; }
+.card-badge.t-povijest, .tag-type.t-povijest { background: #6b4a16; border-color: #6b4a16; }
+.card-badge.t-dogadanja, .tag-type.t-dogadanja { background: #c25e00; border-color: #c25e00; }
+.card-badge.t-sport, .tag-type.t-sport { background: #1d6fa5; border-color: #1d6fa5; }
+.card-badge.t-opcinske-vijesti, .tag-type.t-opcinske-vijesti { background: #0b5d5e; border-color: #0b5d5e; }
+.card-badge.t-opcinske-vijesti::before, .tag-type.t-opcinske-vijesti::before { content: "🏛 "; }
+.izd-type.t-opcinske-vijesti { color: #0b5d5e; }
+.card-badge.udarno { background: #f5a300; color: #1d1600; }
+
+/* jača zelena: naslovi rubrika, filteri, donja navigacija, podnožje */
+.section-title { font-size: 1.15rem; font-weight: 850; letter-spacing: 0.01em; color: var(--primary); margin: 22px 0 12px; }
+.section-title::before { width: 6px; background: linear-gradient(var(--accent), #66bb6a); }
+.filters { background: #fff; border: 1px solid #d5e6da; border-radius: 14px; padding: 10px 12px; box-shadow: 0 2px 8px rgba(20,72,42,0.06); }
+.filter-btn { border-color: #cfe2d5; }
+.filter-btn.active { background: var(--primary); border-color: var(--primary); }
+.bottom-nav { border-top: 3px solid var(--accent); }
+.site-footer { background: linear-gradient(160deg, var(--green-deep), var(--primary)); }
+.post-card { box-shadow: 0 2px 10px rgba(20, 72, 42, 0.08); }
+.sidebar-box { border-top: 3px solid var(--accent); }
+
+/* ---------- Hero: dorada ---------- */
+.lead-badges { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 10px; }
+.lead-badges .lead-kicker { margin-bottom: 0; }
+.lead.hero .lead-overlay { background: linear-gradient(to top, rgba(8,26,15,0.96) 0%, rgba(8,26,15,0.78) 42%, rgba(8,26,15,0.15) 80%, rgba(8,26,15,0) 100%); }
+
+/* ---------- Izdvojeno ---------- */
+.izdvojeno { margin: 4px 0 8px; }
+.izdvojeno[hidden] { display: none !important; }
+.izd-grid { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.izd-card { min-width: 0; }
+.izd-link { display: block; color: inherit; text-decoration: none; }
+.izd-udarna .izd-link { position: relative; border-radius: 16px; overflow: hidden; aspect-ratio: 4 / 3; background: linear-gradient(135deg, var(--primary), var(--accent)); box-shadow: 0 8px 22px rgba(16,40,24,0.2); }
+.izd-udarna img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+.izd-udarna .izd-link:hover img { transform: scale(1.03); }
+.izd-udarna .izd-link.no-img { display: flex; align-items: center; justify-content: center; }
+.izd-udarna .izd-overlay { position: absolute; left: 0; right: 0; bottom: 0; display: flex; flex-direction: column; gap: 6px; padding: 60px 14px 14px; color: #fff; background: linear-gradient(to top, rgba(8,26,15,0.95), rgba(8,26,15,0.6) 55%, rgba(8,26,15,0)); }
+.izd-udarna .card-badges { position: static; }
+.izd-udarna .izd-title { font-size: 1.2rem; font-weight: 850; line-height: 1.2; text-shadow: 0 2px 8px rgba(0,0,0,0.4); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.izd-meta { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 0.78rem; color: #dcefe0; font-weight: 600; }
+.izd-mala .izd-link { display: flex; gap: 12px; align-items: stretch; background: #fff; border-radius: 12px; padding: 8px; box-shadow: 0 2px 8px rgba(20,72,42,0.08); border-left: 4px solid var(--accent); transition: box-shadow 0.2s, transform 0.2s; }
+.izd-mala .izd-link:hover { box-shadow: 0 6px 16px rgba(20,72,42,0.16); transform: translateY(-1px); }
+.izd-thumb { flex: 0 0 96px; width: 96px; aspect-ratio: 1 / 1; border-radius: 9px; overflow: hidden; background: linear-gradient(135deg, var(--primary), var(--accent)); display: flex; align-items: center; justify-content: center; }
+.izd-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.izd-thumb .card-ph { font-size: 1.8rem; }
+.izd-body { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 3px; }
+.izd-kicker { font-size: 0.72rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.izd-mala .izd-title { font-size: 0.95rem; font-weight: 750; line-height: 1.28; color: #17211b; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.izd-mala .izd-link:hover .izd-title { color: var(--accent); }
+.izd-date { font-size: 0.74rem; color: #6a776e; }
+
+@media (min-width: 600px) {
+  .izd-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .izd-udarna { grid-column: 1 / -1; }
+  .izd-udarna .izd-link { aspect-ratio: 16 / 9; }
+  .izd-udarna .izd-title { font-size: 1.5rem; }
+  .izd-udarna .izd-overlay { padding: 80px 20px 18px; }
+}
+@media (min-width: 1100px) {
+  .izd-grid { grid-template-columns: 1.25fr 1fr; grid-template-rows: repeat(4, auto); }
+  .izd-udarna { grid-column: 1; grid-row: 1 / span 4; }
+  .izd-udarna .izd-link { aspect-ratio: auto; height: 100%; min-height: 380px; }
+  .izd-mala .izd-thumb { flex-basis: 84px; width: 84px; }
+}
+
+/* ---------- Mobitel (≤599px): hero i kartice ---------- */
+@media (max-width: 599px) {
+  main { padding-top: 10px; }
+  .lead.hero, .lead.hero[class] { margin: 6px 0 14px; border-radius: 16px; }
+  .lead.hero .lead-link { min-height: 0; aspect-ratio: 4 / 5; max-height: 72vh; }
+  .lead.hero .lead-overlay { padding: 80px 16px 16px; }
+  .lead.hero h1 { font-size: 1.42rem; line-height: 1.18; margin-bottom: 8px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .lead.hero .lead-excerpt { font-size: 0.92rem; line-height: 1.45; -webkit-line-clamp: 2; margin-bottom: 0; }
+  .lead-cta { display: none; }
+  .lead.hero .lead-body, .lead.hero .lead-body[class] { padding: 10px 14px 12px; }
+  .lead.hero .lead-meta { gap: 6px 10px; }
+  .lead.hero .lead-meta .tags { margin: 0; }
+  .lead.hero .lead-credit { font-size: 0.7rem; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .ad-banner { margin-bottom: 10px; }
+  .posts-grid { gap: 12px; }
+  .post-card .card-thumb img, .post-card .card-thumb img[src], .post-card .card-thumb.no-img { aspect-ratio: 16 / 9; }
+  .post-card .content { padding: 11px 14px 13px; }
+  .post-card h3 { font-size: 1.04rem; line-height: 1.3; }
+  .post-card p, .post-card[class] p { font-size: 0.86rem; line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; margin: 0; }
+  .card-badge { font-size: 0.64rem; padding: 3px 8px; }
+  .filters { padding: 8px 10px; }
+}
+.izd-date time.today::before { content: "Danas u "; }

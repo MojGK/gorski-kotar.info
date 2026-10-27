@@ -13,7 +13,7 @@ sidebar: true
   <a href="{{ lead.url | relative_url }}" class="lead-link{% unless lead.image %} no-img{% endunless %}">
     {% if lead.image %}<img src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}" fetchpriority="high">{% endif %}
     <div class="lead-overlay">
-      <span class="lead-kicker">{% if featured %}Izdvojeno{% else %}Najnovije{% endif %}</span>
+      <span class="lead-badges"><span class="lead-kicker">{% if featured %}Glavna vijest{% else %}Najnovije{% endif %}</span>{% if lead_type %}<span class="card-badge t-{{ lead_type.slug }}">{{ lead_type.name }}</span>{% endif %}</span>
       <h1>{{ lead.title }}</h1>
       {%- assign lead_ex = lead.excerpt | strip_html | strip -%}
       {% if lead_ex != "" %}<p class="lead-excerpt">{{ lead_ex | truncate: 230 }}</p>{% endif %}
@@ -27,6 +27,8 @@ sidebar: true
 </section>
 
 {% include oglas-banner.html %}
+
+{% include izdvojeno.html lead=lead %}
 
 <div class="filters" id="filteri">
   <button type="button" class="filter-btn active" data-reset>Sve</button>
@@ -60,12 +62,13 @@ sidebar: true
   {% for post in site.posts %}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
-  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
+  {%- assign c_key = "|" | append: post.url | append: "|" -%}
+  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}{% if izd_urls contains c_key %} is-izd{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
       {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
-      <span class="card-badges">{% if c_type %}<span class="card-badge">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
+      <span class="card-badges">{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
     </a>
     <div class="content">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -88,6 +91,7 @@ sidebar: true
   var cards = document.querySelectorAll('#clanci .post-card');
   var empty = document.getElementById('nema-clanaka');
   var lead = document.getElementById('lead');
+  var izd = document.getElementById('izdvojeno');
   var title = document.getElementById('naslov-clanaka');
   var names = {};
   var groupOf = {};
@@ -105,11 +109,12 @@ sidebar: true
                (!state.type || has(c, state.type)) &&
                (!state.series || has(c, state.series));
       // bez filtera vodeći članak je već gore, pa ga ne ponavljamo u mreži
-      if (!filtering && c.classList.contains('is-lead')) ok = false;
+      if (!filtering && (c.classList.contains('is-lead') || c.classList.contains('is-izd'))) ok = false;
       c.hidden = !ok;
       if (ok) shown++;
     });
     lead.hidden = filtering;
+    if (izd) izd.hidden = filtering;
     document.body.classList.toggle('filtering', filtering);
     title.textContent = filtering
       ? [state.location, state.type, state.series].filter(Boolean).map(function (s) { return names[s]; }).join(' · ')

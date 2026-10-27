@@ -3,8 +3,8 @@ layout: post
 title: "Lokve prodaju tri općinske čestice: ponude do 10. studenoga"
 date: 2026-10-27 08:15:00 +0100
 location: Lokve
-type: Zanimljivosti
-categories: [Lokve, Zanimljivosti]
+type: Općinske vijesti
+categories: [Lokve, Općinske vijesti]
 excerpt: "Općina Lokve prodaje tri manje nekretnine u k.o. Lokve, s početnim cijenama od 476,90 do 7.152 eura. Ponude se otvaraju 12. studenoga."
 image: /assets/images/lokve-cestice-prodaja-ai.jpg
 image_alt: "Ilustracija: livada na rubu sela označena kolčićima, uz makadamski put"

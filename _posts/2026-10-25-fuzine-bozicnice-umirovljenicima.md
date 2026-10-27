@@ -3,8 +3,8 @@ layout: post
 title: "Fužine dijele božićnice umirovljenicima s mirovinom do 700 eura"
 date: 2026-10-25 08:05:22 +0100
 location: Fužine
-type: Zanimljivosti
-categories: [Fužine, Zanimljivosti]
+type: Općinske vijesti
+categories: [Fužine, Općinske vijesti]
 excerpt: "Općina Fužine isplatit će jednokratnu blagdansku naknadu od 70 do 90 eura umirovljenicima s prihodima do 700 eura. Zahtjev treba predati do 25. studenoga."
 image: /assets/images/fuzine-bozicnice-ai.jpg
 image_alt: "Ilustracija: starije ruke drže šalicu čaja uz svijeću i borove grančice"

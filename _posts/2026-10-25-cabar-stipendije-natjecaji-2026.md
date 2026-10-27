@@ -3,8 +3,8 @@ layout: post
 title: "Čabar raspisao četiri natječaja za stipendije, prijave do 16. studenoga"
 date: 2026-10-25 08:04:07 +0100
 location: Čabar
-type: Zanimljivosti
-categories: [Čabar, Zanimljivosti]
+type: Općinske vijesti
+categories: [Čabar, Općinske vijesti]
 excerpt: "Stipendije za izvrsnost, deficitarna zanimanja, socijalne i sportske: Grad Čabar ove godine nudi ukupno 54 stipendije, od 50 do 150 eura mjesečno. Rok za prijavu je 16. studenoga u 12 sati."
 image: /assets/images/cabar-stipendije-ai.jpg
 image_alt: "Ilustracija: radni stol s bilježnicom, knjigama, stetoskopom i ključem uz prozor s pogledom na jesenske šume"

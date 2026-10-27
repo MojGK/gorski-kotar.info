@@ -3,8 +3,8 @@ layout: post
 title: "Delnice predlažu veću komunalnu naknadu od 2027.: savjetovanje traje do 19. studenoga"
 date: 2026-10-25 08:00:12 +0100
 location: Delnice
-type: Zanimljivosti
-categories: [Delnice, Zanimljivosti]
+type: Općinske vijesti
+categories: [Delnice, Općinske vijesti]
 excerpt: "Vrijednost boda komunalne naknade u Delnicama mogla bi s 0,9556 narasti na 1,25 eura po m², oko 31 posto više. Za stan od 100 m² u prvoj zoni to je oko 2,45 eura mjesečno. Primjedbe se mogu slati do 19. studenoga."
 image: /assets/images/delnice-ulica.jpg
 image_alt: "Ulica u Delnicama"

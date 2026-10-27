@@ -3,8 +3,8 @@ layout: post
 title: "Skrad dijeli sadnice malina domaćim OPG-ovima"
 date: 2026-10-24 07:46:46 +0200
 location: Skrad
-type: Zanimljivosti
-categories: [Skrad, Zanimljivosti]
+type: Općinske vijesti
+categories: [Skrad, Općinske vijesti]
 excerpt: "Općina Skrad javnim pozivom dijeli lokalnim OPG-ovima oko 500 sadnica malina, najviše 100 po gospodarstvu. Zauzvrat se nasad mora održavati barem tri godine, a maline pokazati na Festivalu malina."
 image: /assets/images/maline-skrad.jpg
 image_alt: "Zrele crvene maline izbliza"
