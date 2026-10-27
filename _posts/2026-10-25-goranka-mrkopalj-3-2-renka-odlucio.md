@@ -25,13 +25,15 @@ Domaći su poveli već u četvrtoj minuti, ali Mrkopalj se brzo vratio. Ilić je
 
 ## Što to znači za ljestvicu
 
-Goranka sada ima **16 bodova** i sam je vrh ljestvice. Prema Sofascoreu dva boda zaostaje za vodećim Gomirjem, čija pobjeda nad Snježnikom (3:0) još nije službeno potvrđena. Na Semaforu, gdje taj rezultat još nije upisan, Goranka je trenutačno prva. Mrkopalj je s 12 bodova treći i ima utakmicu manje.
+> **Ažurirano 27. 10.:** HNS Semafor je službeno upisao rezultat Gomirje – Snježnik, pa je odlomak o ljestvici usklađen sa službenim podacima.
 
-Ilić je ovim dvama golovima prema Sofascoreu stigao do **9 pogodaka** i vodi na listi strijelaca, a Božić ih ima 7.
+Goranka sada ima **16 bodova** i **druga je**, dva boda iza vodećeg Gomirja. Gomirju je utakmica protiv Snježnika registrirana 3:0 (oznaka BB, što obično znači bez borbe). Mrkopalj je s 12 bodova treći i ima utakmicu manje.
+
+Ilić je ovim dvama golovima prema HNS Semaforu stigao do **9 pogodaka** i vodi na listi strijelaca, a Božić ih ima 7.
 
 ## Dalje
 
-Goranka 8. studenoga u 14 sati dočekuje Polet iz Skrada, a Mrkopalj istog dana kod kuće igra protiv Gomirja. Pregled cijelog kola i ljestvicu potražite u [osvrtu na 8. kolo](/moj-gorski-kotar/2-znl-pgz-8-kolo/).
+Goranka 8. studenoga u 14 sati dočekuje Polet iz Skrada, a Mrkopalj istog dana kod kuće igra protiv Gomirja. U 10. kolu, 15. studenoga u 14 sati, Goranka gostuje upravo kod Gomirja, a Mrkopalj kod Željezničara. Pregled cijelog kola i ljestvicu potražite u [osvrtu na 8. kolo](/moj-gorski-kotar/2-znl-pgz-8-kolo/).
 
 ---
 
