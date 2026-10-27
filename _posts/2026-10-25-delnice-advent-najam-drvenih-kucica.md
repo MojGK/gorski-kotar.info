@@ -21,7 +21,7 @@ Iako je tek listopad, u Delnicama se već misli na Advent. **Delnička adventska
 - **Početna cijena** najma za cijelo razdoblje je **1.500 eura + PDV (1.875 eura)** po kućici, s režijama. Pobjeđuje najviša ponuda.
 - Branitelji iz Domovinskog rata i članovi njihovih obitelji imaju prvenstveno pravo ako prihvate najvišu ponuđenu cijenu.
 
-**Rok za ponude je kratak: petak, 30. listopada 2026. u 10 sati.** Cijeli poziv i skica kućica nalaze se na stranicama Grada. Istodobno je raspisan i poziv za zakup javnih površina za ugostiteljske pokretne radnje tijekom Adventa.
+**Rok za ponude je kratak: petak, 30. listopada 2026. u 10 sati.** Ponude se šalju preporučeno poštom ili predaju osobno u zatvorenoj omotnici na adresu Risnjak-Delnice d.o.o., Školska 24, 51300 Delnice, s naznakom „Natječaj za najam drvenih kućica – NE OTVARATI“. Otvaranje ponuda je javno, **u srijedu, 4. studenoga, u 12 sati u Radničkom domu**. Cijeli poziv i skica kućica nalaze se na stranicama Grada. Istodobno je raspisan i poziv za zakup javnih površina za ugostiteljske pokretne radnje tijekom Adventa.
 
 Ako netko od vas planira ove zime kuhati kuhano vino ili peći fritule u Delnicama, sad je trenutak.
 
