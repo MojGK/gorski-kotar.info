@@ -1,4 +1,5 @@
 <aside class="site-sidebar">
+  {% include vrijeme-delnice.html %}
   {%- if page.url == "/" -%}
   {%- assign sb_now = site.time | date: "%s" | plus: 0 -%}
   {%- assign sb_najave = site.posts | where_exp: "p", "p.event_date" | sort: "event_date" -%}
@@ -35,7 +36,6 @@
       {%- endfor %}
     </ol>
   </div>
-  {% include vrijeme-delnice.html %}
   {% include oglas-goring.html %}
   <div class="sidebar-box">
     <h3>Mjesta</h3>
