@@ -1030,3 +1030,38 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .zap-latest-img img { height: 100%; aspect-ratio: auto; min-height: 260px; }
   .zap-latest-body { justify-content: center; padding: 20px 24px; }
 }
+
+/* =====================================================================
+   ZAPOSLENJE kao zasebna rubrika: blok na naslovnici + izdvojeni oglasi
+   ===================================================================== */
+.zaposlenje-blok { margin: 18px 0 14px; padding: 14px 14px 12px; border-radius: 16px; background: linear-gradient(160deg, #fff6e0 0%, #fffbf2 60%, #fff 100%); border: 1px solid #f0d59a; border-top: 5px solid #e09b00; box-shadow: 0 6px 18px rgba(138, 90, 0, 0.12); }
+.zaposlenje-blok[hidden] { display: none !important; }
+.zb-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.zb-head h2 { margin: 0; font-size: 1.15rem; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; color: #6b4400; display: flex; align-items: center; gap: 8px; }
+.zb-all { flex: 0 0 auto; font-size: 0.85rem; font-weight: 800; color: #fff; background: #8a5a00; padding: 6px 12px; border-radius: 999px; text-decoration: none; }
+.zb-all:hover { background: #6b4400; color: #fff; }
+.zb-post { display: block; margin-top: 10px; padding: 10px 12px; border-radius: 10px; background: #fff; border: 1px dashed #e7c77d; text-decoration: none; color: inherit; }
+.zb-post:hover { border-style: solid; }
+.zb-post-label { display: block; font-size: 0.74rem; font-weight: 700; color: #8a5a00; text-transform: uppercase; letter-spacing: 0.03em; }
+.zb-post-title { display: block; font-weight: 750; font-size: 0.95rem; line-height: 1.3; color: #2a2112; margin-top: 2px; }
+.zb-empty { margin: 0; color: #6b4400; }
+.job-highlights { margin: 0; }
+.post .job-highlights, .zaposlenje-page .job-highlights { margin: 0 0 22px; padding: 14px; border-radius: 14px; background: #fff6e0; border: 1px solid #f0d59a; border-left: 6px solid #e09b00; }
+.job-hl-title { margin: 0 0 10px; font-weight: 900; text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.9rem; color: #6b4400; }
+.job-hl-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr; gap: 10px; }
+.job-hl { min-width: 0; }
+.job-hl-link { display: flex; flex-direction: column; gap: 4px; height: 100%; padding: 12px 14px; background: #fff; border-radius: 12px; border: 1px solid #f0d59a; text-decoration: none; color: inherit; box-shadow: 0 2px 8px rgba(138,90,0,0.08); transition: box-shadow 0.2s, transform 0.2s; }
+.job-hl-link:hover { box-shadow: 0 6px 16px rgba(138,90,0,0.18); transform: translateY(-1px); }
+.job-hl-pos { font-weight: 850; font-size: 1.02rem; line-height: 1.28; color: #2a2112; overflow-wrap: break-word; }
+.job-hl-emp { font-weight: 700; font-size: 0.9rem; color: var(--primary); }
+.job-hl-meta { display: flex; flex-wrap: wrap; gap: 2px 14px; font-size: 0.82rem; color: #5a4a2a; font-weight: 600; }
+.job-hl-rok { color: #9a3d00; }
+.job-hl-desc { font-size: 0.86rem; color: #4d4436; line-height: 1.45; }
+.job-hl-cta { margin-top: 4px; font-size: 0.82rem; font-weight: 800; color: #8a5a00; }
+.job-hl.isteklo { opacity: 0.55; }
+.job-hl.isteklo .job-hl-rok::after { content: " (istekao)"; }
+@media (min-width: 600px) {
+  .job-hl-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .zaposlenje-blok { padding: 16px 18px 14px; }
+}
+@media (max-width: 599px) { .zaposlenje-blok .job-hl-desc { display: none; } .zaposlenje-blok .job-hl-link { padding: 10px 12px; } .zaposlenje-blok .job-hl-pos { font-size: 0.98rem; } }

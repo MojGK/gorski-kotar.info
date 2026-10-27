@@ -60,8 +60,10 @@ excerpt: ...
 - Izvještaji s već održanih događaja **nemaju** `event_date`.
 - Kategorija Događanja (filteri, bočna traka, `/kategorije/`) i dalje prikazuje sve članke te vrste, i prošle i buduće.
 - Stranica `/povijest/` (izbornik **Povijest**) prikazuje sve članke vrste Povijest i serijala POVIJEST GK, najnoviji prvi.
-- Stranica `/zaposlenje/` (izbornik **Zaposlenje**) prikazuje tjedne preglede oglasa za posao (`type: Zaposlenje`): najnoviji istaknut na vrhu, zatim raniji. Dok pregleda nema, prikazuje „Prvi tjedni pregled uskoro“.
-  Predložak za novi pregled je `_drafts/predlozak-zaposlenje.md` (naslov „Poslovi u Gorskom kotaru – tjedni pregled [datum]“, `location: Gorski kotar`, `type: Zaposlenje`, `categories: [Gorski kotar, Zaposlenje]`, zajednička slika `/assets/images/zaposlenje-naslovna.jpg` – AI ilustracija, `image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"`). Tablica: Radno mjesto | Poslodavac | Mjesto | Rok prijave | Izvor (poveznica); ispod popis izvora i napomena da se istekli oglasi uklanjaju.
+- **ZAPOSLENJE** je zasebna rubrika (`type: Zaposlenje`, stranica `/zaposlenje/`, izbornik **Zaposlenje**). Ti članci **ne ulaze** u opći tok vijesti (hero, Izdvojeno, mreža članaka bez filtera, Najnovije u bočnoj traci); na naslovnici ih zamjenjuje poseban blok **💼 Zaposlenje** s 1–2 izdvojena oglasa iz najnovijeg članka. Filter Zaposlenje i stranica `/kategorije/` i dalje ih prikazuju.
+  - Naslov: „ZAPOSLENJE: <poslodavac> traži <istaknuto radno mjesto> u <mjesto> i još N oglasa u Gorskom kotaru“.
+  - Front matter: `location: Gorski kotar`, `type: Zaposlenje`, `categories: [Gorski kotar, Zaposlenje]`, `broj_oglasa: N`, zajednička slika `/assets/images/zaposlenje-naslovna.jpg` (AI ilustracija, `image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"`) i `istaknuti_oglasi:` – popis (1–2) s poljima `pozicija`, `poslodavac`, `mjesto`, `rok` (GGGG-MM-DD ili tekst), `link`, neobavezno `opis`. Iz toga se rade blok na naslovnici, okvir na vrhu članka i istaknuti oglasi na `/zaposlenje/`; oglas s prošlim rokom automatski se zasivi.
+  - Tijelo: tablica Radno mjesto | Poslodavac | Mjesto | Rok prijave | Izvor (poveznica), popis izvora i napomena da se istekli oglasi uklanjaju. Predložak: `_drafts/predlozak-zaposlenje.md`.
 
 ### Datum i vrijeme
 
@@ -74,7 +76,7 @@ excerpt: ...
 ### Kategorije
 
 - `location` – jedno mjesto: Delnice, Fužine, Lokve, Mrkopalj, Čabar, Skrad, Ravna Gora, Vrbovsko ili Gorski kotar (za cijelu regiju).
-- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura, Zanimljivosti, Povijest, Općinske vijesti (natječaji, javni pozivi, savjetovanja, prodaja/zakup čestica, komunalne naknade, prostorni planovi, proračun, odluke vijeća) Društvo (stanovništvo, demografija, iseljavanje, socijalne teme i analize) ili Zaposlenje (tjedni pregled oglasa za posao).
+- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura, Zanimljivosti, Povijest, Općinske vijesti (natječaji, javni pozivi, savjetovanja, prodaja/zakup čestica, komunalne naknade, prostorni planovi, proračun, odluke vijeća), Društvo (stanovništvo, demografija, iseljavanje, socijalne teme i analize) ili Zaposlenje (oglasi za posao – zasebna rubrika, vidi gore).
 - `istaknuto: true` – (neobavezno) članak postaje **udarna vijest** u rubrici Izdvojeno na naslovnici (vrijedi najnoviji takav članak).
 - `categories` – uvijek `[location, type]`, istim redom i istim nazivima.
 - Serijal: članak ulazi u serijal (npr. `POVIJEST GK`) ako mu `categories` sadrži naziv serijala, npr. `categories: [Fužine, Povijest, POVIJEST GK]`. Članak se broji i u svakoj dodatnoj vrsti/mjestu navedenom u `categories`.

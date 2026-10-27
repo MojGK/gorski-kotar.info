@@ -24,6 +24,8 @@ layout: default
     {% if lede != "" and lede != first_para %}<p class="lede">{{ lede }}</p>{% endif %}
   </header>
 
+  {% if page.istaknuti_oglasi %}{% include istaknuti-oglasi.html post=page naslov="Izdvojeni oglasi" %}{% endif %}
+
   {% if page.image %}
   <figure class="post-figure">
     <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" class="post-image">

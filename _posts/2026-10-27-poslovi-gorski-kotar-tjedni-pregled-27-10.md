@@ -1,11 +1,25 @@
 ---
 layout: post
-title: "Poslovi u Gorskom kotaru – tjedni pregled 27. 10. 2026."
+title: "ZAPOSLENJE: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 27 oglasa u Gorskom kotaru"
 date: 2026-10-27 12:45:00 +0100
 location: Gorski kotar
 type: Zaposlenje
 categories: [Gorski kotar, Zaposlenje]
 excerpt: "28 aktualnih oglasa za posao u Gorskom kotaru ovaj tjedan: odgojitelji u Fužinama i Vrbovskom, nastavnici u Moravicama, radnici u pilanama u Lokvama, prodavači, vozači autobusa i knjigovođe. Rokovi prijave i poveznice na izvorne oglase."
+broj_oglasa: 28
+istaknuti_oglasi:
+  - pozicija: "Viši referent / viša referentica u Ispostavi u Delnicama (pripravnik, neodređeno)"
+    poslodavac: "Hrvatski zavod za mirovinsko osiguranje (HZMO)"
+    mjesto: Delnice
+    rok: 2026-11-02
+    link: https://www.mirovinsko.hr/hr/otvoreni-natjecaji/312
+    opis: "Za pripravnike s prvostupanjskim studijem javne uprave ili ekonomije; puno radno vrijeme, probni rad tri mjeseca. Pisane prijave šalju se HZMO-u."
+  - pozicija: "Radnici u proizvodnji drvenih prozora (2) i u pilani (1)"
+    poslodavac: "Lokve d.o.o."
+    mjesto: Lokve
+    rok: 2026-11-15
+    link: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167533661
+    opis: "Određeno, puno radno vrijeme, plaćen putni trošak, radno iskustvo nije važno."
 image: /assets/images/zaposlenje-naslovna.jpg
 image_alt: "Radni stol uz prozor s pogledom na šumovita brda i goransko mjesto: torba, zaštitna kaciga, laptop, novine s oglasima i radne rukavice"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"

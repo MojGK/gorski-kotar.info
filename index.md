@@ -4,8 +4,10 @@ title: Početna
 sidebar: true
 ---
 
-{%- assign featured = site.posts | where: "featured", true | first -%}
-{%- if featured -%}{%- assign lead = featured -%}{%- else -%}{%- assign lead = site.posts.first -%}{%- endif -%}
+{%- comment -%} Zaposlenje je zasebna rubrika: ne ide u hero, Izdvojeno ni u mrežu bez filtera (ima svoj blok ispod) {%- endcomment -%}
+{%- assign vijesti = site.posts | where_exp: "p", "p.type != 'Zaposlenje'" -%}
+{%- assign featured = vijesti | where: "featured", true | first -%}
+{%- if featured -%}{%- assign lead = featured -%}{%- else -%}{%- assign lead = vijesti.first -%}{%- endif -%}
 {%- assign lead_loc = site.data.kategorije.lokacije | where: "name", lead.location | first -%}
 {%- assign lead_type = site.data.kategorije.vrste | where: "name", lead.type | first -%}
 
@@ -30,12 +32,14 @@ sidebar: true
 
 {% include izdvojeno.html lead=lead %}
 
+{% include zaposlenje-blok.html %}
+
 <div class="filters" id="filteri">
   <button type="button" class="filter-btn active" data-reset>Sve</button>
   <span class="filter-group">
     <span class="filter-label">Mjesto</span>
     {%- for k in site.data.kategorije.lokacije %}
-    {%- include kat-broj.html name=k.name %}{% assign n = kat_n %}
+    {%- include kat-broj.html name=k.name bez_vrste="Zaposlenje" %}{% assign n = kat_n %}
     <button type="button" class="filter-btn{% if n == 0 %} empty{% endif %}" data-group="location" data-filter="{{ k.slug }}">{{ k.name }} <span class="count">{{ n }}</span></button>
     {%- endfor %}
   </span>
@@ -63,7 +67,7 @@ sidebar: true
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
   {%- assign c_key = "|" | append: post.url | append: "|" -%}
-  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}{% if izd_urls contains c_key %} is-izd{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
+  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}{% if izd_urls contains c_key %} is-izd{% endif %}{% if post.type == "Zaposlenje" %} is-job{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
@@ -92,6 +96,7 @@ sidebar: true
   var empty = document.getElementById('nema-clanaka');
   var lead = document.getElementById('lead');
   var izd = document.getElementById('izdvojeno');
+  var zapBlok = document.getElementById('zaposlenje-blok');
   var title = document.getElementById('naslov-clanaka');
   var names = {};
   var groupOf = {};
@@ -110,11 +115,14 @@ sidebar: true
                (!state.series || has(c, state.series));
       // bez filtera vodeći članak je već gore, pa ga ne ponavljamo u mreži
       if (!filtering && (c.classList.contains('is-lead') || c.classList.contains('is-izd'))) ok = false;
+      // oglasi za posao (Zaposlenje) prikazuju se u mreži samo uz filter Zaposlenje
+      if (c.classList.contains('is-job') && state.type !== 'zaposlenje') ok = false;
       c.hidden = !ok;
       if (ok) shown++;
     });
     lead.hidden = filtering;
     if (izd) izd.hidden = filtering;
+    if (zapBlok) zapBlok.hidden = filtering;
     document.body.classList.toggle('filtering', filtering);
     title.textContent = filtering
       ? [state.location, state.type, state.series].filter(Boolean).map(function (s) { return names[s]; }).join(' · ')

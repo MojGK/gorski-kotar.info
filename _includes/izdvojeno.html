@@ -5,20 +5,22 @@ Udarna = najnoviji članak s `istaknuto: true` (osim hero članka), inače najno
 Grupe mjesta su u _data/kategorije.yml (izdvojeno_grupe).
 {%- endcomment -%}
 {%- assign izd_lead = include.lead -%}
+{%- comment -%} Zaposlenje je zasebna rubrika i ne ulazi u Izdvojeno {%- endcomment -%}
+{%- assign izd_posts = site.posts | where_exp: "p", "p.type != 'Zaposlenje'" -%}
 {%- assign izd_udarna = nil -%}
 {%- assign izd_flag = false -%}
-{%- for p in site.posts -%}
+{%- for p in izd_posts -%}
   {%- if p.istaknuto == true and p.url != izd_lead.url -%}{%- assign izd_udarna = p -%}{%- assign izd_flag = true -%}{%- break -%}{%- endif -%}
 {%- endfor -%}
 {%- unless izd_udarna -%}
-  {%- for p in site.posts -%}{%- if p.url != izd_lead.url -%}{%- assign izd_udarna = p -%}{%- break -%}{%- endif -%}{%- endfor -%}
+  {%- for p in izd_posts -%}{%- if p.url != izd_lead.url -%}{%- assign izd_udarna = p -%}{%- break -%}{%- endif -%}{%- endfor -%}
 {%- endunless -%}
 {%- assign izd_urls = "|" | append: izd_udarna.url | append: "|" -%}
 {%- assign izd_used = "|" | append: izd_udarna.location | append: "|" -%}
 {%- assign izd_n = 0 -%}
 {%- for g in site.data.kategorije.izdvojeno_grupe -%}
   {%- if izd_n >= 4 -%}{%- break -%}{%- endif -%}
-  {%- for p in site.posts -%}
+  {%- for p in izd_posts -%}
     {%- assign k_loc = "|" | append: p.location | append: "|" -%}
     {%- assign k_url = "|" | append: p.url | append: "|" -%}
     {%- if p.url == izd_lead.url or izd_urls contains k_url or izd_used contains k_loc -%}{%- continue -%}{%- endif -%}
@@ -32,7 +34,7 @@ Grupe mjesta su u _data/kategorije.yml (izdvojeno_grupe).
 {%- endfor -%}
 {%- comment -%} rezerva: najnoviji članci iz još neiskorištenih mjesta {%- endcomment -%}
 {%- if izd_n < 4 -%}
-  {%- for p in site.posts -%}
+  {%- for p in izd_posts -%}
     {%- if izd_n >= 4 -%}{%- break -%}{%- endif -%}
     {%- assign k_loc = "|" | append: p.location | append: "|" -%}
     {%- assign k_url = "|" | append: p.url | append: "|" -%}
