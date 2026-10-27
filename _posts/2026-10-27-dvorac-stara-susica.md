@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dvorac Stara Sušica – utvrda koju Turci, kažu, nisu uspjeli osvojiti
-date: 2026-10-27 # PLACEHOLDER: dnevni posao pri objavi upisuje stvarno vrijeme (YYYY-MM-DD HH:MM:SS +ZONA; 24. 10. = +0200, od 25. 10. = +0100)
+date: 2026-10-27 08:10:04 +0100
 location: Ravna Gora
 type: Povijest
 categories: [Ravna Gora, Povijest, POVIJEST GK]
