@@ -50,6 +50,9 @@ vrste:
   # stanovništvo, demografija, iseljavanje, obitelj, socijalne teme i analize
   - name: Društvo
     slug: drustvo
+  # tjedni pregled oglasa za posao u Gorskom kotaru (stranica /zaposlenje/)
+  - name: Zaposlenje
+    slug: zaposlenje
 
 # Serijali – tematske serije članaka koje idu uz mjesto i vrstu.
 # Članak je u serijalu ako mu `categories` sadrži točan naziv, npr.

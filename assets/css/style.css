@@ -998,3 +998,35 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .filters { padding: 8px 10px; }
 }
 .izd-date time.today::before { content: "Danas u "; }
+
+/* =====================================================================
+   ZAPOSLENJE (2026-10-27): vrsta, badge, stranica /zaposlenje/
+   ===================================================================== */
+.card-badge.t-zaposlenje, .tag-type.t-zaposlenje { background: #8a5a00; border-color: #8a5a00; color: #fff; }
+.card-badge.t-zaposlenje::before, .tag-type.t-zaposlenje::before { content: "💼 "; }
+.izd-type.t-zaposlenje { color: #8a5a00; }
+.zaposlenje-page h1 { display: flex; align-items: center; gap: 10px; }
+.zap-latest { margin: 8px 0 22px; }
+.zap-latest-link { display: grid; grid-template-columns: 1fr; background: #fff; border-radius: 16px; overflow: hidden; text-decoration: none; color: inherit; box-shadow: 0 8px 24px rgba(16,40,24,0.14); border: 2px solid var(--accent); }
+.zap-latest-img img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.zap-latest-body { display: flex; flex-direction: column; gap: 8px; padding: 14px 16px 18px; }
+.zap-latest-body .card-badges { position: static; }
+.zap-latest-title { font-size: 1.3rem; font-weight: 850; line-height: 1.22; color: var(--primary); }
+.zap-latest-link:hover .zap-latest-title { color: var(--accent); }
+.zap-latest-date { font-size: 0.82rem; color: #66736a; }
+.zap-latest-ex { font-size: 0.95rem; color: #39443d; }
+.zap-latest-body .lead-cta { align-self: flex-start; }
+.zap-older { list-style: none; margin: 0 0 24px; padding: 0; }
+.zap-older li { background: #fff; border-left: 4px solid var(--accent); border-radius: 10px; padding: 10px 14px; margin-bottom: 8px; box-shadow: 0 2px 8px rgba(20,72,42,0.08); }
+.zap-older a { font-weight: 700; color: #17211b; text-decoration: none; }
+.zap-older a:hover { color: var(--accent); }
+.zap-older .meta { display: block; margin: 2px 0 0; }
+.zap-empty { text-align: center; background: #fff; border: 2px dashed #b9d6c4; border-radius: 16px; padding: 28px 20px; margin: 10px 0 24px; }
+.zap-empty-icon { font-size: 2.6rem; display: block; margin-bottom: 6px; }
+.zap-empty p { margin: 6px auto; max-width: 52ch; color: #39443d; }
+.zap-empty strong { color: var(--primary); font-size: 1.15rem; }
+@media (min-width: 760px) {
+  .zap-latest-link { grid-template-columns: 1.1fr 1fr; }
+  .zap-latest-img img { height: 100%; aspect-ratio: auto; min-height: 260px; }
+  .zap-latest-body { justify-content: center; padding: 20px 24px; }
+}

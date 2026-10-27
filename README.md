@@ -60,6 +60,8 @@ excerpt: ...
 - Izvještaji s već održanih događaja **nemaju** `event_date`.
 - Kategorija Događanja (filteri, bočna traka, `/kategorije/`) i dalje prikazuje sve članke te vrste, i prošle i buduće.
 - Stranica `/povijest/` (izbornik **Povijest**) prikazuje sve članke vrste Povijest i serijala POVIJEST GK, najnoviji prvi.
+- Stranica `/zaposlenje/` (izbornik **Zaposlenje**) prikazuje tjedne preglede oglasa za posao (`type: Zaposlenje`): najnoviji istaknut na vrhu, zatim raniji. Dok pregleda nema, prikazuje „Prvi tjedni pregled uskoro“.
+  Predložak za novi pregled je `_drafts/predlozak-zaposlenje.md` (naslov „Poslovi u Gorskom kotaru – tjedni pregled [datum]“, `location: Gorski kotar`, `type: Zaposlenje`, `categories: [Gorski kotar, Zaposlenje]`, zajednička slika `/assets/images/zaposlenje-naslovna.jpg` – AI ilustracija, `image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"`). Tablica: Radno mjesto | Poslodavac | Mjesto | Rok prijave | Izvor (poveznica); ispod popis izvora i napomena da se istekli oglasi uklanjaju.
 
 ### Datum i vrijeme
 
@@ -72,7 +74,7 @@ excerpt: ...
 ### Kategorije
 
 - `location` – jedno mjesto: Delnice, Fužine, Lokve, Mrkopalj, Čabar, Skrad, Ravna Gora, Vrbovsko ili Gorski kotar (za cijelu regiju).
-- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura, Zanimljivosti, Povijest, Općinske vijesti (natječaji, javni pozivi, savjetovanja, prodaja/zakup čestica, komunalne naknade, prostorni planovi, proračun, odluke vijeća) ili Društvo (stanovništvo, demografija, iseljavanje, socijalne teme i analize).
+- `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura, Zanimljivosti, Povijest, Općinske vijesti (natječaji, javni pozivi, savjetovanja, prodaja/zakup čestica, komunalne naknade, prostorni planovi, proračun, odluke vijeća) Društvo (stanovništvo, demografija, iseljavanje, socijalne teme i analize) ili Zaposlenje (tjedni pregled oglasa za posao).
 - `istaknuto: true` – (neobavezno) članak postaje **udarna vijest** u rubrici Izdvojeno na naslovnici (vrijedi najnoviji takav članak).
 - `categories` – uvijek `[location, type]`, istim redom i istim nazivima.
 - Serijal: članak ulazi u serijal (npr. `POVIJEST GK`) ako mu `categories` sadrži naziv serijala, npr. `categories: [Fužine, Povijest, POVIJEST GK]`. Članak se broji i u svakoj dodatnoj vrsti/mjestu navedenom u `categories`.
