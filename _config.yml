@@ -1,5 +1,6 @@
-title: Moj Gorski Kotar
-description: Osobni blog o ljepoti, životu i događajima u Gorskom kotaru
+title: Gorski Kotar Info
+description: Vijesti iz srca prirode
+tagline: Vijesti iz srca prirode
 baseurl: "/moj-gorski-kotar"
 url: "https://mojgk.github.io"
 theme: null
@@ -17,10 +18,8 @@ nav:
     url: /kategorije/
   - title: Povijest
     url: /povijest/
-  - title: O meni
-    url: /o-meni
 
 # Author
 author:
-  name: Moj Gorski Kotar
-  bio: Osobni blog o ljepoti, životu i tajnama našeg kraja.
+  name: Gorski Kotar Info
+  bio: Gorski Kotar Info – vijesti iz srca prirode.

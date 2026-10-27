@@ -1,4 +1,4 @@
-# Moj Gorski Kotar
+# Gorski Kotar Info
 
 Osobni blog o ljepoti, životu i događajima u Gorskom kotaru.
 

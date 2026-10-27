@@ -1,4 +1,4 @@
-/* Moj Gorski Kotar – vrijeme objave i pretraga (bez vanjskih biblioteka) */
+/* Gorski Kotar Info – vrijeme objave i pretraga (bez vanjskih biblioteka) */
 (function () {
   var BASE = window.SITE_BASE || '';
   var TZ = 'Europe/Zagreb';
