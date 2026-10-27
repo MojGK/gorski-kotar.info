@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Novak Đoković po majčinoj liniji iz Lokava? Goranska veza najboljeg tenisača svijeta"
+title: "Novak Đoković po majčinoj liniji iz Lokava? Goranska veza najvećeg tenisača ikada"
 date: 2026-10-29 12:30:00 +0100
 location: Lokve
 type: Sport
@@ -11,7 +11,7 @@ image_alt: "Novak Đoković udara backhand na Roland Garrosu 2024. (Foto: Kuberz
 image_credit: "Foto: Kuberzog, Wikimedia Commons, CC BY 4.0"
 ---
 
-Novak Đoković ima 24 Grand Slam naslova, što je muški rekord, i olimpijsko zlato iz Pariza 2024. Odavno se zna da ga s Hrvatskom veže majčina strana obitelji, a većina izvora pritom spominje Vinkovce. Postoji ipak i jedna goranska nit, a vodi u Lokve.
+Novak Đoković, najbolji tenisač svih vremena, ima 24 Grand Slam naslova, što je muški rekord, i olimpijsko zlato iz Pariza 2024. Odavno se zna da ga s Hrvatskom veže majčina strana obitelji, a većina izvora pritom spominje Vinkovce. Postoji ipak i jedna goranska nit, a vodi u Lokve.
 
 U studenom 2021. u Delnicama je predstavljen *Sportski biografski leksikon Primorsko-goranske županije*. Autor Eduard Heman, kojemu je baka bila iz Lokava, na kraju je predstavljanja govorio o goranskom podrijetlu poznatih sportaša. Prema izvještaju Novog lista, tada je rekao:
 
