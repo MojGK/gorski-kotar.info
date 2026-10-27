@@ -915,6 +915,9 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .card-badge.t-opcinske-vijesti, .tag-type.t-opcinske-vijesti { background: #0b5d5e; border-color: #0b5d5e; }
 .card-badge.t-opcinske-vijesti::before, .tag-type.t-opcinske-vijesti::before { content: "🏛 "; }
 .izd-type.t-opcinske-vijesti { color: #0b5d5e; }
+.card-badge.t-drustvo, .tag-type.t-drustvo { background: #5b3f8c; border-color: #5b3f8c; }
+.card-badge.t-drustvo::before, .tag-type.t-drustvo::before { content: "👥 "; }
+.izd-type.t-drustvo { color: #5b3f8c; }
 .card-badge.udarno { background: #f5a300; color: #1d1600; }
 
 /* jača zelena: naslovi rubrika, filteri, donja navigacija, podnožje */

@@ -47,6 +47,9 @@ vrste:
   # prostorni planovi, proračun, odluke vijeća i slične obavijesti općina i gradova
   - name: Općinske vijesti
     slug: opcinske-vijesti
+  # stanovništvo, demografija, iseljavanje, obitelj, socijalne teme i analize
+  - name: Društvo
+    slug: drustvo
 
 # Serijali – tematske serije članaka koje idu uz mjesto i vrstu.
 # Članak je u serijalu ako mu `categories` sadrži točan naziv, npr.
