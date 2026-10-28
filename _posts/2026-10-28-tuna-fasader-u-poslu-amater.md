@@ -19,6 +19,8 @@ Iako živi i radi u Rijeci, Gerovo naziva domom. „Uvijek je najljepše kod ku�
 
 Za In magazin 2024. rekao je da ga ljudi ili beskrajno vole ili ih neizmjerno živcira. Na negativne komentare ne obazire se, ali mu smeta kad mu netko krivo shvati šalu. Na pitanje Novog lista 2023. što želi biti kad odraste, odgovorio je u svom stilu: „Tuna kad odraste želi biti visok 170 cm, ali čini se da od toga ništa.”
 
+**Pročitajte i:** [Tuna Fasader u svom prvom podcastu: o ovisnosti, skeli, TikToku i Gerovu]({{ '/tuna-fasader-prvi-podcast/' | relative_url }})
+
 **Izvori:**
 - Novi list, Marko Dobrecović, 7. 2. 2023. – [Tuna Fasader je TikTok lice godine](https://www.novilist.hr/mozaik/tuna-fasader-je-naj-tiktok-lice-godine/)
 - In magazin (dnevnik.hr), 8. 2. 2024. – [Vodimo vas na gradilište najpoznatijeg bauštelca u Hrvata](https://showbuzz.dnevnik.hr/inmagazin/vodimo-vas-na-gradiliste-najpoznatijeg-baustelca-u-hrvata---827407.html)
