@@ -1,7 +1,7 @@
 title: Gorski Kotar Info
 description: Vijesti iz srca prirode
 tagline: Vijesti iz srca prirode
-baseurl: "/moj-gorski-kotar"
+baseurl: "/gorski-kotar.info"
 url: "https://mojgk.github.io"
 theme: null
 markdown: kramdown
@@ -31,6 +31,7 @@ komentari:
   sustav: htmlcommentbox   # htmlcommentbox | cusdis | giscus
   hcb_mod: ""              # moderatorski ključ s htmlcommentbox.com (vrijednost iza mod= u njihovom kodu)
   hcb_opts: 16404          # 16 filtar psovki + 4 datum + 16384 odgovori
+  hcb_url_baza: "https://mojgk.github.io/moj-gorski-kotar"  # stara adresa: komentari ostaju vezani uz nju nakon preimenovanja
   giscus_rezerva: true     # stari Giscus (GitHub prijava) ostaje kao sklopiva rezerva
 cusdis_app_id: ""          # App ID s cusdis.com (kad se postavi, promijeni sustav u: cusdis)
 cusdis_host: "https://cusdis.com"

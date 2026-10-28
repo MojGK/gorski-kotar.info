@@ -11,7 +11,7 @@ image_alt: "Ilustracija: dvorana pripremljena za svečanost"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
 
-[Najavio sam to prošli tjedan](/moj-gorski-kotar/klub-lijecenih-alkoholicara-delnice-60-godina/), a sad je tu i kratko izvješće. **Klub liječenih alkoholičara Delnice** obilježio je **60 godina rada** druženjem u Radničkom domu.
+[Najavio sam to prošli tjedan](/gorski-kotar.info/klub-lijecenih-alkoholicara-delnice-60-godina/), a sad je tu i kratko izvješće. **Klub liječenih alkoholičara Delnice** obilježio je **60 godina rada** druženjem u Radničkom domu.
 
 ## Malo povijesti
 

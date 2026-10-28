@@ -21,7 +21,7 @@ Noć vještica ove godine nije samo delnička priča. **Društvo Naša djeca Fu�
 
 Najavljeni su glazba i tematska iznenađenja, a jedino „pravilo“ je doći u kostimu ili s maskom po vlastitom izboru. Termin od 17 do 21 sat dobro paše obiteljima s djecom.
 
-Ako vam je Lič daleko, iste večeri u Delnicama je [Drugačiji Halloween](/moj-gorski-kotar/delnice-drugaciji-halloween/).
+Ako vam je Lič daleko, iste večeri u Delnicama je [Drugačiji Halloween](/gorski-kotar.info/delnice-drugaciji-halloween/).
 
 ---
 

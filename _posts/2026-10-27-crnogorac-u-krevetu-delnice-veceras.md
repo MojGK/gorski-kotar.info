@@ -22,7 +22,7 @@ Tekst je napisao Peđa Šuškavčević, a na pozornici su on i Ana Šimundža Se
 - **Ulaznice:** 16 €, prodaja preko Eventima
 - **Organizator:** ShowTime – Music & Theatre
 
-Predstavu sam već spomenuo u [pregledu listopadskih događanja za umirovljenike](/moj-gorski-kotar/aktivnosti-za-umirovljenike-gorski-kotar-listopad/), ali komedija u Delnicama zaslužuje i vlastitu najavu.
+Predstavu sam već spomenuo u [pregledu listopadskih događanja za umirovljenike](/gorski-kotar.info/aktivnosti-za-umirovljenike-gorski-kotar-listopad/), ali komedija u Delnicama zaslužuje i vlastitu najavu.
 
 ---
 

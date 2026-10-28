@@ -8,7 +8,7 @@ Komentari su vezani uz stalnu adresu članka (site.url + baseurl + page.url), ne
 {%- endcomment -%}
 {%- assign k_cfg = site.komentari -%}
 {%- assign k_sys = k_cfg.sustav | default: "htmlcommentbox" -%}
-{%- assign k_url = page.url | absolute_url -%}
+{%- if site.komentari.hcb_url_baza -%}{%- assign k_url = site.komentari.hcb_url_baza | append: page.url -%}{%- else -%}{%- assign k_url = page.url | absolute_url -%}{%- endif -%}
 {%- if k_sys == "cusdis" and site.cusdis_app_id and site.cusdis_app_id != "" %}
 <div class="komentari-box komentari-cusdis">
   <div id="cusdis_thread"

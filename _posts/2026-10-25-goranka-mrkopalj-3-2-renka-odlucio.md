@@ -33,7 +33,7 @@ Ilić je ovim dvama golovima prema HNS Semaforu stigao do **9 pogodaka** i vodi 
 
 ## Dalje
 
-Goranka 8. studenoga u 14 sati dočekuje Polet iz Skrada, a Mrkopalj istog dana kod kuće igra protiv Gomirja. U 10. kolu, 15. studenoga u 14 sati, Goranka gostuje upravo kod Gomirja, a Mrkopalj kod Željezničara. Pregled cijelog kola i ljestvicu potražite u [osvrtu na 8. kolo](/moj-gorski-kotar/2-znl-pgz-8-kolo/).
+Goranka 8. studenoga u 14 sati dočekuje Polet iz Skrada, a Mrkopalj istog dana kod kuće igra protiv Gomirja. U 10. kolu, 15. studenoga u 14 sati, Goranka gostuje upravo kod Gomirja, a Mrkopalj kod Željezničara. Pregled cijelog kola i ljestvicu potražite u [osvrtu na 8. kolo](/gorski-kotar.info/2-znl-pgz-8-kolo/).
 
 ---
 
