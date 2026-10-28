@@ -75,7 +75,7 @@ excerpt: ...
 
 ### Kategorije
 
-- `location` – jedno mjesto: Delnice, Fužine, Lokve, Mrkopalj, Čabar, Skrad, Ravna Gora, Vrbovsko ili Gorski kotar (za cijelu regiju).
+- `location` – jedno mjesto: Delnice, Fužine, Lokve, Mrkopalj, Čabar, Skrad, Ravna Gora, Vrbovsko, Brod Moravice ili Gorski kotar (za cijelu regiju).
 - `type` – jedna vrsta: Događanja, Crna kronika, Sport, Priroda, Promet, Kultura, Zanimljivosti, Povijest, Općinske vijesti (natječaji, javni pozivi, savjetovanja, prodaja/zakup čestica, komunalne naknade, prostorni planovi, proračun, odluke vijeća), Društvo (stanovništvo, demografija, iseljavanje, socijalne teme i analize) ili Zaposlenje (oglasi za posao – zasebna rubrika, vidi gore).
 - `istaknuto: true` – (neobavezno) članak postaje **udarna vijest** u rubrici Izdvojeno na naslovnici (vrijedi najnoviji takav članak).
 - `categories` – uvijek `[location, type]`, istim redom i istim nazivima.

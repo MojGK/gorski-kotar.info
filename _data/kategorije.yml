@@ -23,6 +23,8 @@ lokacije:
   # dodatne lokacije
   - name: Vrbovsko
     slug: vrbovsko
+  - name: Brod Moravice
+    slug: brod-moravice
   - name: Gorski kotar
     slug: gorski-kotar
 
