@@ -9,7 +9,6 @@ excerpt: "Vodi prijevozničku tvrtku i Vijeće MO Podvežica, izabran je s nezav
 image: /assets/images/valentino-sarson-portret.jpg
 image_alt: "Valentino Saršon u sivoj jakni sjedi u kafiću i smiješi se"
 image_credit: "Foto: gorskikotarinfo"
-featured: true
 ---
 
 Valentino Saršon riječki je poduzetnik i lokalni političar. Prema podacima iz poslovnih registara koje prenose CompanyWall i Tvrtko.ai, vlasnik je i direktor tvrtke PROTOURS j.d.o.o. iz Rijeke, osnovane u svibnju 2019., čija je pretežna djelatnost prijevoz putnika vozilom s vozačem. Tvrtka je prema podacima FINA-e u 2025. ostvarila oko 112 tisuća eura prihoda uz dobit od 566 eura te je imala šest zaposlenih.

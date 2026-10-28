@@ -9,6 +9,7 @@ excerpt: "U više od dva sata razgovora u Ril Tok Podcastu Antonio Milošević i
 image: /assets/images/tuna-fasader-podcast.jpg
 image_alt: "Antonio Milošević – Tuna Fasader u bijeloj radnoj trenirci, nasmiješen, sjedi u kafiću"
 image_credit: "Foto: gorskikotarinfo"
+featured: true
 ---
 
 Antonio Milošević, kojeg stotine tisuća pratitelja znaju kao **Tunu Fasadera**, gostovao je u 197. epizodi Ril Tok Podcasta koji vode Khan i Doktor Oga. Epizoda je na YouTubeu objavljena 31. svibnja 2026. i traje nešto manje od dva sata i 18 minuta. Na početku je rekao da mu je to prvi podcast u životu i da mu se malo znoje dlanovi. Razgovor je ipak brzo krenuo u smjeru kakav se od čovjeka poznatog po kratkim šalama sa skele nije očekivao.
