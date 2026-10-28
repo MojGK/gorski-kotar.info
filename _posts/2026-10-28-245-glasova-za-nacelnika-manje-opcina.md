@@ -15,7 +15,7 @@ image_credit: "Fotografija: Lan Glad / [Wikimedia Commons](https://commons.wikim
 
 **Slučaj Brod Moravica otvara pitanje smisla prevelikog broja malih lokalnih jedinica**
 
-**Pročitajte i:** [Tko je načelnik Općine Brod Moravice i koje su mu kompetencije?]({{ '/nacelnik-brod-moravice-kompetencije/' | relative_url }})
+**Pročitajte i:** [Izbori u Skradu s jednim kandidatom: je li to totalitarizam? (komentar)]({{ '/izbori-skrad-jedan-kandidat-totalitarizam/' | relative_url }}) · [Tko je načelnik Općine Brod Moravice i koje su mu kompetencije?]({{ '/nacelnik-brod-moravice-kompetencije/' | relative_url }})
 
 ## Brojke
 
