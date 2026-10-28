@@ -37,7 +37,7 @@
       {%- endfor %}
     </ol>
   </div>
-  {% include oglas-goring.html %}
+  {% include oglas-veliki.html %}
   {%- if page.url == '/' %}{% include oglas-mali.html klasa="sb-naslovnica" %}{% else %}{% include oglas-mali.html %}{% endif %}
   <div class="sidebar-box">
     <h3>Mjesta</h3>
@@ -48,6 +48,7 @@
       {%- endfor %}
     </ul>
   </div>
+  {%- if page.url == '/' %}{% include oglas-mali.html mjesto="dolje" klasa="sb-naslovnica" %}{% else %}{% include oglas-mali.html mjesto="dolje" %}{% endif %}
   <div class="sidebar-box">
     <h3>Vrste</h3>
     <ul class="cat-list">

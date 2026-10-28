@@ -1,17 +1,24 @@
 {%- comment -%}
-Vodoravni oglasni banner (naslovnica). Prikazuje prvi oglas iz _data/oglasi.yml koji ima
+Vodoravni oglasni banner (naslovnica). Bez parametra prikazuje prvi oglas iz _data/oglasi.yml koji ima
 active: true i banner različit od false. Ako takvog nema, prikazuje se placeholder „Ovdje može biti vaš oglas“.
+S id="breza" prikazuje točno taj oglas (npr. veliki oglas među mobilnim blokovima, preko oglas-mali.html);
+klasa= dodaje CSS klasu. Ako oglas ima foto, na mobitelu se prikazuje kao traka na vrhu bannera.
 {%- endcomment -%}
 {%- assign bn = nil -%}
 {%- for bn_par in site.data.oglasi -%}
   {%- assign bn_o = bn_par[1] -%}
-  {%- if bn_o.active and bn_o.banner != false -%}{%- assign bn = bn_o -%}{%- break -%}{%- endif -%}
+  {%- if include.id -%}
+    {%- if bn_par[0] == include.id and bn_o.active -%}{%- assign bn = bn_o -%}{%- break -%}{%- endif -%}
+  {%- elsif bn_o.active and bn_o.banner != false -%}{%- assign bn = bn_o -%}{%- break -%}{%- endif -%}
 {%- endfor -%}
 {%- if bn %}
-<aside class="ad-banner" aria-label="Oglas: {{ bn.name }}">
+<aside class="ad-banner{% if bn.foto %} ad-banner-s-fotom{% endif %}{% if include.klasa %} {{ include.klasa }}{% endif %}" aria-label="Oglas: {{ bn.name }}">
   <span class="oglas-tag">Oglas</span>
+  {%- if bn.foto %}
+  <a class="ad-banner-foto" href="{{ bn.url }}" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="{{ bn.foto | relative_url }}" alt="" width="800" height="533" loading="lazy"></a>
+  {%- endif %}
   {%- if bn.logo %}
-  <a class="ad-banner-logo" href="{{ bn.url }}" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="{{ bn.logo | relative_url }}" alt="" width="72" height="82" loading="lazy"></a>
+  <a class="ad-banner-logo{% if bn.logo_sirok %} sirok{% endif %}" href="{{ bn.url }}" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="{{ bn.logo | relative_url }}" alt=""{% if bn.logo_sirok %} width="480" height="236"{% else %} width="72" height="82"{% endif %} loading="lazy"></a>
   {%- endif %}
   <div class="ad-banner-text">
     <p class="ad-banner-name">{{ bn.name }}{% if bn.place %} <span>· {{ bn.place }}</span>{% endif %}</p>

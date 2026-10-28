@@ -1306,3 +1306,23 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .kat-chips { flex-wrap: wrap; overflow: visible; }
   .kl-prvi .kl-body { padding: 16px 18px; }
 }
+
+/* Veliki oglas s fotografijom i širokim logom (npr. Breza): bočna traka + banner među mobilnim blokovima */
+.sidebar-box.oglas.oglas-s-fotom { padding-top: 0; overflow: hidden; }
+.sidebar-box.oglas.oglas-s-fotom .oglas-tag { z-index: 1; background: rgba(255,255,255,.92); }
+.oglas-foto { display: block; margin: 0 -18px 10px; }
+.oglas-foto img { display: block; width: 100%; height: 150px; object-fit: cover; }
+.oglas-logo.sirok img { width: 170px; max-width: 80%; }
+.ad-banner-logo.sirok img { width: 120px; }
+.ad-banner-foto { display: none; }
+.ad-banner.ad-banner-blok { margin: 4px 0 18px; }
+@media (max-width: 899.98px) {
+  .sidebar-box.oglas.sb-naslovnica { display: none; } /* na mobilnoj naslovnici veliki oglas je među blokovima */
+  .ad-banner-s-fotom { padding-top: 0; overflow: hidden; flex-wrap: wrap !important; }
+  .ad-banner-s-fotom .ad-banner-foto { display: block; flex: 1 1 100%; margin: 0 -18px 2px; }
+  .ad-banner-s-fotom .ad-banner-foto img { display: block; width: 100%; height: 130px; object-fit: cover; }
+  .ad-banner-s-fotom .oglas-tag { top: 8px; left: 12px; right: auto; background: rgba(255,255,255,.92); }
+}
+@media (max-width: 599px) {
+  .ad-banner-logo.sirok img { width: 96px; }
+}
