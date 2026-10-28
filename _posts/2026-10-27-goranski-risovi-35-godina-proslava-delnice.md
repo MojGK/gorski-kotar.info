@@ -28,7 +28,7 @@ Uz obljetnicu je snimljen i dokumentarni film **„Goranski risovi: priča o 138
 
 ## Nastavak u studenome
 
-Obilježavanje se nastavlja i u studenome, uz 35. obljetnicu zauzimanja vojarne u Delnicama 5. studenoga 1991.: **4. studenoga** otvara se izložba ratnih fotografija, uz predavanje generala Miljenka Balena i svjedočanstva sudionika operacije. Više u [najavi]({% post_url 2026-10-28-goranski-risovi-izlozba-ratnih-fotografija-4-studenoga %}).
+Obilježavanje se nastavlja i u studenome, uz 35. obljetnicu zauzimanja vojarne u Delnicama 5. studenoga 1991.: **4. studenoga** otvara se izložba ratnih fotografija, uz predavanje generala Miljenka Balena i svjedočanstva sudionika operacije. Više u [najavi]({{ site.baseurl }}{% post_url 2026-10-28-goranski-risovi-izlozba-ratnih-fotografija-4-studenoga %}).
 
 Tko može, neka sutra svrati u Delnice i oda počast goranskim braniteljima. Trideset i pet godina nije malo.
 

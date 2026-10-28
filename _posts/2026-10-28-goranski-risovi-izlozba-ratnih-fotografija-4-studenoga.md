@@ -13,7 +13,7 @@ image_alt: "Ulica u Delnicama"
 image_credit: "Fotografija (ulica u Delnicama): Modzzak / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice,_Croatia.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
 
-Obilježavanje 35. obljetnice 138. brigade HV-a „Goranski risovi“ ne završava [današnjom proslavom]({% post_url 2026-10-27-goranski-risovi-35-godina-proslava-delnice %}). Poseban dio programa posvećen je **prvoj borbenoj zadaći brigade** – zauzimanju vojarne i vojnih objekata u Delnicama **5. studenoga 1991.**
+Obilježavanje 35. obljetnice 138. brigade HV-a „Goranski risovi“ ne završava [današnjom proslavom]({{ site.baseurl }}{% post_url 2026-10-27-goranski-risovi-35-godina-proslava-delnice %}). Poseban dio programa posvećen je **prvoj borbenoj zadaći brigade** – zauzimanju vojarne i vojnih objekata u Delnicama **5. studenoga 1991.**
 
 ## Što je na programu
 
