@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Franjo Rački – povjesničar rođen u Fužinama
-date: 2026-10-28 # PLACEHOLDER: dnevni posao pri objavi upisuje stvarno vrijeme (YYYY-MM-DD HH:MM:SS +ZONA; 24. 10. = +0200, od 25. 10. = +0100)
+date: 2026-10-28 07:50:00 +0100
 location: Fužine
 type: Povijest
 categories: [Fužine, Povijest, POVIJEST GK]
