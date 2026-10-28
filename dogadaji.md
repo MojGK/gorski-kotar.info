@@ -14,7 +14,7 @@ Svi članci vrste Događanja (i prošli) i dalje su u kategoriji Događanja.
 <div class="events-page">
   <h1>Nadolazeći događaji</h1>
   <p class="intro">Najave događaja u Gorskom kotaru, najbliži prvi. Izvještaji s prošlih događaja su u kategoriji
-  <a href="{{ '/kategorije/' | relative_url }}#dogadanja">Događanja</a>.</p>
+  <a href="{{ '/kategorije/dogadanja/' | relative_url }}">Događanja</a>.</p>
 
   <div class="event-list" data-event-list>
   {%- assign d_count = 0 -%}
@@ -35,6 +35,6 @@ Svi članci vrste Događanja (i prošli) i dalje su u kategoriji Događanja.
   {%- endfor %}
   </div>
   <p class="no-results" data-event-empty{% if d_count > 0 %} hidden{% endif %}>Trenutno nema najavljenih događaja.
-    Prošle događaje pogledaj u kategoriji <a href="{{ '/kategorije/' | relative_url }}#dogadanja">Događanja</a>.</p>
-  <p class="events-past-link"><a href="{{ '/kategorije/' | relative_url }}#dogadanja">Prošli događaji →</a></p>
+    Prošle događaje pogledaj u kategoriji <a href="{{ '/kategorije/dogadanja/' | relative_url }}">Događanja</a>.</p>
+  <p class="events-past-link"><a href="{{ '/kategorije/dogadanja/' | relative_url }}">Prošli događaji →</a></p>
 </div>
