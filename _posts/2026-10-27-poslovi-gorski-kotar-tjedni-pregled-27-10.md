@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "ZAPOSLENJE: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 27 oglasa u Gorskom kotaru"
+title: "ZAPOSLENJE: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 28 oglasa u Gorskom kotaru"
 date: 2026-10-27 12:45:00 +0100
 location: Gorski kotar
 type: Zaposlenje
 categories: [Gorski kotar, Zaposlenje]
-excerpt: "28 aktualnih oglasa za posao u Gorskom kotaru ovaj tjedan: odgojitelji u Fužinama i Vrbovskom, nastavnici u Moravicama, radnici u pilanama u Lokvama, prodavači, vozači autobusa i knjigovođe. Rokovi prijave i poveznice na izvorne oglase."
-broj_oglasa: 28
+excerpt: "29 aktualnih oglasa za posao u Gorskom kotaru ovaj tjedan: odgojitelji u Fužinama i Vrbovskom, nastavnici u Moravicama, radnici u pilanama u Lokvama, prodavači, vozači autobusa i knjigovođe. Rokovi prijave i poveznice na izvorne oglase."
+broj_oglasa: 29
 istaknuti_oglasi:
   - pozicija: "Viši referent / viša referentica u Ispostavi u Delnicama (pripravnik, neodređeno)"
     poslodavac: "Hrvatski zavod za mirovinsko osiguranje (HZMO)"
@@ -25,7 +25,7 @@ image_alt: "Radni stol uz prozor s pogledom na šumovita brda i goransko mjesto:
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
 
-Ovo je prvi tjedni pregled oglasa za posao u Gorskom kotaru. Ovaj tjedan izdvojili smo **28 otvorenih oglasa**. Najviše ih je u trgovini i drvnoj industriji: traže se prodavači, radnici u pilanama i drvnoj proizvodnji u Lokvama, šumski sjekači, vozači autobusa i knjigovođe. Natječaje su raspisale i javne ustanove i službe u Delnicama, Fužinama, Moravicama, Ravnoj Gori i Vrbovskom, među njima dva vrtića, škola, HZMO i Grad Vrbovsko.
+Ovo je prvi tjedni pregled oglasa za posao u Gorskom kotaru. Ovaj tjedan izdvojili smo **29 otvorenih oglasa**. Najviše ih je u trgovini i drvnoj industriji: traže se prodavači, radnici u pilanama i drvnoj proizvodnji u Lokvama, šumski sjekači, vozači autobusa i knjigovođe. Natječaje su raspisale i javne ustanove i službe u Delnicama, Fužinama, Moravicama, Ravnoj Gori i Vrbovskom, među njima dva vrtića, škola, HZMO i Grad Vrbovsko.
 
 U pregledu su samo oglasi kojima rok prijave nije istekao do 28. listopada 2026. Oglasi koji su istjecali 27. listopada nisu uvršteni. Oglasi su provjereni na dan objave; uvjeti i kontakti poslodavaca nalaze se u izvornim oglasima, pa ih prije prijave svakako pročitajte.
 
@@ -53,6 +53,7 @@ U pregledu su samo oglasi kojima rok prijave nije istekao do 28. listopada 2026.
 | Knjigovođa – administrator / administratorica (1) | Stenavert d.o.o. | Kupjak | 31. 10. 2026. | [HZZ](https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167318744) |
 | Prodavač / prodavačica | Lidl Hrvatska d.o.o. k.d. | Delnice (među više lokacija) | 1. 11. 2026. | [MojPosao](https://mojposao.hr/posao/739d6536-ce1e-11f1-8b88-0280a8fb46bd/prodavac-m-z) |
 | Viši referent / viša referentica u ispostavi u Delnicama (1, neodređeno, pripravnik) | Hrvatski zavod za mirovinsko osiguranje | Delnice | 2. 11. 2026. | [HZZ](https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167681369) |
+| Radnik / radnica za potporu starijim osobama i osobama s invaliditetom, program Zaželi (1, određeno, puno radno vrijeme) | Hrvatski Crveni križ – Gradsko društvo Crvenog križa Delnice | Delnice | 3. 11. 2026.\*\* | [Grad Delnice](https://delnice.hr/javni-poziv-za-zaposljavanje-u-sklopu-projekta-pruzimo-ruke-ii-zazeli-prevencija-institucionalizacije-sf-3-4-11-01-0056-delnice/); [poziv, PDF](https://www.crveni-kriz-delnice.hr/dokumenti/03_javni%20poziv%20za%20zaposljavanje_Delnice.pdf) |
 | Pomoćni radnik / radnica u pilani (1, neodređeno) | Sunger Trade d.o.o. | Lokve | 4. 11. 2026. | [HZZ](https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=166212936) |
 | Komunalni radnik / radnica (1, određeno) | Vox Terrae j.d.o.o. (pogrebne usluge) | Brod Moravice | 5. 11. 2026. | [HZZ](https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167634616) |
 | Njegovatelj / njegovateljica starih i nemoćnih (1, zamjena) | Obiteljski dom za stare i nemoćne osobe | Fužine | 7. 11. 2026. | [HZZ](https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=166196721) |
@@ -66,6 +67,8 @@ Broj u zagradi je broj traženih radnika, ako ga oglas navodi.
 
 \* Grad Vrbovsko objavio je natječaj na svojoj stranici 21. 10. 2026. Prijave se podnose u roku od 8 dana od objave u Narodnim novinama, a datum objave u NN nismo uspjeli potvrditi. Ako je natječaj u NN izašao istoga dana, rok istječe 29. 10. 2026. Točan rok provjerite u izvornom natječaju.
 
+\*\* Javni poziv GDCK Delnice (projekt „Pružimo ruke II – Zaželi”, sufinancira EU iz Europskog socijalnog fonda plus) traži prijave u roku od 8 dana od objave na stranicama HZZ-a, a u pozivu je kao datum naveden 3. studenoga 2026. Radno iskustvo nije potrebno, plaća je u visini minimalne, uz naknadu za prijevoz. Prijave se predaju poštom ili osobno u zatvorenoj omotnici na adresu Crvenog križa Delnice, Školska 25; obrazac i popis dokumentacije nalaze se u pozivu.
+
 Oglasi s rokom 28. listopada istječu već sutra, pa se s prijavom ne isplati čekati.
 
 ## Izvori
@@ -73,6 +76,7 @@ Oglasi s rokom 28. listopada istječu već sutra, pa se s prijavom ne isplati č
 - [HZZ – Burza rada](https://burzarada.hzz.hr/) (pretraga po mjestu rada)
 - [MojPosao](https://mojposao.hr/) (oglasi trgovačkih lanaca i većih poslodavaca s više lokacija)
 - Službene stranice gradova i općina: [Grad Vrbovsko – natječaji](https://vrbovsko.hr/natjecaji), [Općina Ravna Gora](https://www.ravnagora.hr/)
+- [Hrvatski Crveni križ – GDCK Delnice](https://www.crveni-kriz-delnice.hr/) i [Grad Delnice](https://delnice.hr/javni-poziv-za-zaposljavanje-u-sklopu-projekta-pruzimo-ruke-ii-zazeli-prevencija-institucionalizacije-sf-3-4-11-01-0056-delnice/) (javni poziv Zaželi, 27. 10. 2026.)
 - [Narodne novine – oglasni dio](https://narodne-novine.nn.hr/) (javne službe)
 
 *Istekli oglasi uklanjaju se iz pregleda. Imate oglas za posao u Gorskom kotaru? Javite nam se.*
