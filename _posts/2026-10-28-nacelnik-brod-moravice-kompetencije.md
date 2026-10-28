@@ -50,7 +50,7 @@ Načelnik Šutej za HRT je rekao da je općinska uprava prva posumnjala u neprav
 
 Mario Šutej aktualni je načelnik Općine Brod Moravice, u drugom mandatu. Ovlasti su mu iste kao i svakom općinskom načelniku u Hrvatskoj, a glavni posao u idućem razdoblju bit će provedba naloga i preporuka iz revizije, koje je Općina prihvatila.
 
-**Pročitajte i:** [Revizija za 2024. i dio 2025.: Općina Brod Moravice dobila dva nepovoljna mišljenja]({{ '/brod-moravice-revizija-nepovoljno-misljenje-2024/' | relative_url }}) · [Revizija u Brodu Moravicama: agenciji 16.000 eura mjesečno bez specifikacije usluga, sanjkalište od 138.003 eura ne radi]({{ '/brod-moravice-revizija-razvojna-agencija-sanjkaliste/' | relative_url }}) · [Revizija: prijava pročelnice u Brodu Moravicama nije ispunjavala uvjet iz natječaja, Općina tvrdi da je sve zakonito]({{ '/brod-moravice-revizija-zaposljavanje-procelnice/' | relative_url }})
+**Pročitajte i:** [245 glasova za načelnika: je li to dovoljno i treba li Hrvatskoj manje općina? (komentar)]({{ '/245-glasova-za-nacelnika-manje-opcina/' | relative_url }}) · [Revizija za 2024. i dio 2025.: Općina Brod Moravice dobila dva nepovoljna mišljenja]({{ '/brod-moravice-revizija-nepovoljno-misljenje-2024/' | relative_url }}) · [Revizija u Brodu Moravicama: agenciji 16.000 eura mjesečno bez specifikacije usluga, sanjkalište od 138.003 eura ne radi]({{ '/brod-moravice-revizija-razvojna-agencija-sanjkaliste/' | relative_url }}) · [Revizija: prijava pročelnice u Brodu Moravicama nije ispunjavala uvjet iz natječaja, Općina tvrdi da je sve zakonito]({{ '/brod-moravice-revizija-zaposljavanje-procelnice/' | relative_url }})
 
 ---
 
