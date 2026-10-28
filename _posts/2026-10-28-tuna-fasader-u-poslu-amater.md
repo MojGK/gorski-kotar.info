@@ -9,7 +9,6 @@ excerpt: "Antonio Milošević iz Gerova po zanimanju je fasader, a na društveni
 image: /assets/images/tuna-fasader-gerovo.jpg
 image_alt: "Antonio Milošević – Tuna Fasader u radnoj odjeći, sjedi u kafiću i smiješi se"
 image_credit: "Foto: gorskikotarinfo"
-featured: true
 ---
 
 Najpoznatiji Gerovčanin na društvenim mrežama zove se Antonio Milošević, no gotovo ga svi znaju kao **Tunu Fasadera**. Umjetničko ime nije izmišljeno: Antonio za život radi kao fasader, odnosno na skeli gleta i farba, a u pauzama i nakon posla snima kratke vicove i pošalice koje gledaju stotine tisuća ljudi. Za Novi list ispričao je 2023. da je TikTok profil otvorio početkom svibnja 2022. na nagovor kolega s posla, koje je do tada zbog TikToka zafrkavao. Već u siječnju 2023. osvojio je Zlatni studio u kategoriji **Naj TikTok lice godine**. Nagradu je ovjekovječio i tetovažom na ruci, doznajemo iz priloga In magazina.
