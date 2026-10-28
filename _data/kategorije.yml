@@ -74,3 +74,37 @@ izdvojeno_grupe:
   - [Lokve, Čabar]
   - [Mrkopalj, Ravna Gora]
   - [Vrbovsko, Gorski kotar]
+
+# Kategorijski blokovi na MOBILNOJ naslovnici (redoslijed = redoslijed na stranici).
+# vrste: popis vrsta (type) koje idu u blok; ostale: true = sve vrste koje nisu ni u jednom
+# drugom bloku (osim Zaposlenja, koje ima svoj blok). Blok bez članaka se ne prikazuje.
+# Svaki blok: 1 veća vijest + do 3 kompaktne; glavna vijest (hero) se ne ponavlja.
+naslovnica_blokovi:
+  - naslov: Vijesti
+    id: vijesti
+    ostale: true          # trenutno: Društvo, Kultura, Promet, Priroda
+    vise: /vijesti/
+  - naslov: Poslovi općine
+    id: poslovi-opcine
+    vrste: [Općinske vijesti]
+    vise: /?kategorija=opcinske-vijesti
+  - naslov: Zanimljivosti
+    id: zanimljivosti
+    vrste: [Zanimljivosti]
+    vise: /?kategorija=zanimljivosti
+  - naslov: Događanja
+    id: dogadanja
+    vrste: [Događanja]
+    vise: /dogadaji/
+  - naslov: Sport
+    id: sport
+    vrste: [Sport]
+    vise: /?kategorija=sport
+  - naslov: Crna kronika
+    id: crna-kronika
+    vrste: [Crna kronika]
+    vise: /?kategorija=crna-kronika
+  - naslov: Povijest GK
+    id: povijest-gk
+    vrste: [Povijest]
+    vise: /povijest/

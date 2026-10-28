@@ -28,9 +28,14 @@ sidebar: true
   </div>
 </section>
 
+{%- comment -%} Mobilno (< 900 px): Najnovije, banner, Izdvojeno, kategorijski blokovi, Zaposlenje, filteri; mreža članaka tek uz filter ili "Svi članci". Na desktopu m-only blokovi su skriveni. {%- endcomment %}
+{% include m-najnovije.html lead=lead %}
+
 {% include oglas-banner.html %}
 
 {% include izdvojeno.html lead=lead %}
+
+{% include m-blokovi.html lead=lead %}
 
 {% include zaposlenje-blok.html %}
 
@@ -61,6 +66,7 @@ sidebar: true
   {%- endif %}
 </div>
 
+<p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
   {% for post in site.posts %}
@@ -123,6 +129,7 @@ sidebar: true
     lead.hidden = filtering;
     if (izd) izd.hidden = filtering;
     if (zapBlok) zapBlok.hidden = filtering;
+    document.querySelectorAll('[data-hide-filter]').forEach(function (el) { el.hidden = filtering; });
     document.body.classList.toggle('filtering', filtering);
     title.textContent = filtering
       ? [state.location, state.type, state.series].filter(Boolean).map(function (s) { return names[s]; }).join(' · ')
@@ -156,7 +163,13 @@ sidebar: true
     var q = new URLSearchParams(location.search).get('kategorija') || '';
     var h = decodeURIComponent(location.hash.replace(/^#/, ''));
     var vals = (q ? q.split(',') : []).concat(h ? [h] : []);
+    var blok = /^blok-|^m-najnovije$/.test(h);
     if (e && h && groupOf[h]) { state.location = null; state.type = null; state.series = null; }
+    if (blok) {
+      // poveznica na mobilni kategorijski blok: bez filtera, pa skok na blok
+      state.location = null; state.type = null; state.series = null; vals = [];
+      if (q && window.history && history.replaceState) history.replaceState(null, '', location.pathname + location.hash);
+    }
     var found = false;
     vals.forEach(function (v) {
       v = v.trim().toLowerCase();
@@ -164,7 +177,16 @@ sidebar: true
     });
     apply(false);
     if (found) document.getElementById('filteri').scrollIntoView();
+    else if (blok && document.getElementById(h)) document.getElementById(h).scrollIntoView();
   }
+  var sviBtn = document.getElementById('m-svi-btn');
+  if (sviBtn) sviBtn.addEventListener('click', function () {
+    var on = !document.body.classList.contains('m-show-all');
+    document.body.classList.toggle('m-show-all', on);
+    sviBtn.setAttribute('aria-expanded', on ? 'true' : 'false');
+    sviBtn.textContent = on ? 'Sakrij popis članaka ↑' : 'Prikaži sve članke ↓';
+    if (on) document.getElementById('naslov-clanaka').scrollIntoView();
+  });
   window.addEventListener('hashchange', fromUrl);
   fromUrl();
 })();

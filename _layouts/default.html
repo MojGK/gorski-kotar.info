@@ -53,6 +53,18 @@
         <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
       </button>
     </div>
+    <nav class="m-chips" aria-label="Rubrike">
+      <div class="container m-chips-inner">
+        {%- for b in site.data.kategorije.naslovnica_blokovi %}
+        <a class="m-chip" href="{{ '/' | relative_url }}#blok-{{ b.id }}">{{ b.naslov }}</a>
+        {%- endfor %}
+        <a class="m-chip m-chip-zap" href="{{ '/zaposlenje/' | relative_url }}">💼 Zaposlenje</a>
+        <span class="m-chip-sep" aria-hidden="true"></span>
+        {%- for k in site.data.kategorije.lokacije %}
+        <a class="m-chip m-chip-loc" href="{{ '/' | relative_url }}?kategorija={{ k.slug }}">{{ k.name }}</a>
+        {%- endfor %}
+      </div>
+    </nav>
     <div class="cat-bar">
       <div class="container cat-bar-inner">
         {% for k in site.data.kategorije.lokacije %}<a href="{{ '/' | relative_url }}#{{ k.slug }}" class="cat-link loc">{{ k.name }}</a>{% endfor %}
