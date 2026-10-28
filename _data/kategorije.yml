@@ -55,6 +55,9 @@ vrste:
   # tjedni pregled oglasa za posao u Gorskom kotaru (stranica /zaposlenje/)
   - name: Zaposlenje
     slug: zaposlenje
+  # aktualne vijesti koje ne spadaju u druge rubrike (npr. revizije, istrage, veće javne teme); ide u blok VIJESTI
+  - name: Aktualno
+    slug: aktualno
 
 # Serijali – tematske serije članaka koje idu uz mjesto i vrstu.
 # Članak je u serijalu ako mu `categories` sadrži točan naziv, npr.
@@ -82,7 +85,7 @@ izdvojeno_grupe:
 naslovnica_blokovi:
   - naslov: Vijesti
     id: vijesti
-    ostale: true          # sve vrste koje nisu u drugim blokovima (trenutno: Promet, Priroda)
+    ostale: true          # sve vrste koje nisu u drugim blokovima (trenutno: Aktualno, Promet, Priroda)
     vise: /vijesti/
   - naslov: Poslovi općine
     id: poslovi-opcine

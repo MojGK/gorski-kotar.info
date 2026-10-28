@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Revizija za 2024.: Općina Brod Moravice dobila dva nepovoljna mišljenja"
+title: "Revizija za 2024. i dio 2025.: Općina Brod Moravice dobila dva nepovoljna mišljenja"
 date: 2026-10-28 07:00:00 +0100
 location: Brod Moravice
 type: Općinske vijesti
@@ -8,13 +8,14 @@ categories: [Brod Moravice, Općinske vijesti]
 istaknuto: true
 prijelomna: true
 prijelomna_do: 2026-10-28 19:00:00 +0100
-excerpt: "Državni ured za reviziju izrazio je nepovoljno mišljenje i o financijskim izvještajima i o usklađenosti poslovanja Općine Brod Moravice za 2024. Dokumentacija je dostavljena Državnom odvjetništvu, a Općina ističe da je nadzor sama zatražila."
+serija: "Revizija Brod Moravice"
+excerpt: "Državni ured za reviziju izrazio je nepovoljno mišljenje i o financijskim izvještajima i o usklađenosti poslovanja Općine Brod Moravice za 2024. i dio 2025. Dokumentacija je dostavljena Državnom odvjetništvu, a Općina ističe da je nadzor sama zatražila."
 image: /assets/images/brod-moravice-pogled.jpg
 image_alt: "Pogled na Brod Moravice"
 image_credit: "Fotografija: Lan Glad / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pogled_na_Brod_Moravice.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 
-Državni ured za reviziju (Područni ured Rijeka) objavio je izvješće o financijskoj reviziji **Općine Brod Moravice za 2024. godinu**. Izvješće nosi datum 7. srpnja 2026., a ovih je dana dospjelo u javnost.
+Državni ured za reviziju (Područni ured Rijeka) objavio je izvješće o financijskoj reviziji **Općine Brod Moravice za 2024. godinu**, a dio nalaza obuhvaća i 2025. Izvješće nosi datum 7. srpnja 2026., a ovih je dana dospjelo u javnost.
 
 ## Što piše u izvješću
 
@@ -40,6 +41,8 @@ Općina poručuje da je nepravilnosti sama uočila i prijavila. Kako navodi, dvo
 Načelnik Mario Šutej za HRT je rekao da je općinska uprava prva posumnjala u nepravilnosti i sama pozvala nadležne institucije. Iz Općine navode i da su u međuvremenu donijeli nove opće akte (za HRT – uskladili više od 90 posto internih akata) te zaposlili novu osobu na računovodstvu. Ističu i da se nalaz odnosi na razdoblje 2022. – 2024. te da su pojedini navodi objavljeni na portalima netočni.
 
 Za malu općinu ovo je ozbiljno izvješće, ali i prilika da se poslovanje dovede u red. Pratit ćemo što će biti dalje.
+
+**Nastavak:** [Revizija u Brodu Moravicama: agenciji 16.000 eura mjesečno bez specifikacije usluga, sanjkalište od 138.003 eura ne radi]({{ '/brod-moravice-revizija-razvojna-agencija-sanjkaliste/' | relative_url }})
 
 ---
 

@@ -1204,3 +1204,11 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 @media (min-width: 700px) {
   .post-content .oglasi-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 }
+
+/* Serija članaka (front matter `serija`) – okvir ispod članka */
+.serija-box { margin: 1.75rem 0 1rem; padding: .9rem 1.1rem; background: var(--green-soft); border-left: 4px solid var(--green); border-radius: 6px; }
+.serija-box .serija-naslov { margin: 0 0 .5rem; font-size: 1rem; color: var(--green-dark); }
+.serija-box .serija-lista { margin: 0; padding-left: 1.25rem; }
+.serija-box .serija-lista li { margin: .3rem 0; line-height: 1.4; }
+.serija-box .serija-trenutni { font-weight: 600; }
+.serija-box .serija-datum { color: #666; font-size: .85em; white-space: nowrap; }
