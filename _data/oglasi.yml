@@ -12,3 +12,18 @@ goring:
   email: "goringinfo@gmail.com"
   url: "https://goringdoo.eu/"
   button: "Posjetite stranicu"
+
+# Mali oglas (kompaktna traka): na mobilnoj naslovnici između kategorijskih blokova
+# (iza bloka iz `mobilno_iza`), na desktopu u bočnoj traci ispod oglasa Goring.
+# banner: false = ne ide u veliki vodoravni banner na naslovnici.
+shamrock:
+  active: true
+  mali: true
+  banner: false
+  name: "Shamrock Pub"
+  place: "Ravna Gora"
+  logo: /assets/images/oglasi/shamrock-pub-ravna-gora.jpg
+  logo_alt: "Logo Shamrock Pub Ravna Gora"
+  text: "Prati nas na Instagramu"
+  url: "https://www.instagram.com/pub_ravnagora/"
+  mobilno_iza: sport

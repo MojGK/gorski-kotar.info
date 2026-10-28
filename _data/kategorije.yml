@@ -82,7 +82,7 @@ izdvojeno_grupe:
 naslovnica_blokovi:
   - naslov: Vijesti
     id: vijesti
-    ostale: true          # trenutno: Društvo, Kultura, Promet, Priroda
+    ostale: true          # sve vrste koje nisu u drugim blokovima (trenutno: Promet, Priroda)
     vise: /vijesti/
   - naslov: Poslovi općine
     id: poslovi-opcine
@@ -104,6 +104,14 @@ naslovnica_blokovi:
     id: crna-kronika
     vrste: [Crna kronika]
     vise: /?kategorija=crna-kronika
+  - naslov: Kultura
+    id: kultura
+    vrste: [Kultura]
+    vise: /?kategorija=kultura
+  - naslov: Društvo
+    id: drustvo
+    vrste: [Društvo]
+    vise: /?kategorija=drustvo
   - naslov: Povijest GK
     id: povijest-gk
     vrste: [Povijest]

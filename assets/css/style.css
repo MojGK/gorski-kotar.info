@@ -1163,3 +1163,22 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .lead.hero h1 { font-size: 1.55rem; }
   .lead.hero .lead-excerpt { -webkit-line-clamp: 2; font-size: 0.95rem; margin-bottom: 10px; }
 }
+
+/* =========================================================
+   MALI OGLAS (kompaktna traka, npr. Shamrock Pub)
+   ========================================================= */
+.oglas-mali { position: relative; background: #fff; border: 1px solid var(--border, #dfe7df); border-radius: 12px; margin: 0 0 16px; box-shadow: 0 1px 3px rgba(0,0,0,.05); }
+.oglas-mali .om-link { display: flex; align-items: center; gap: 12px; padding: 10px 34px 10px 10px; text-decoration: none; color: var(--text); min-height: 56px; }
+.oglas-mali .om-logo { flex: 0 0 56px; width: 56px; height: 56px; border-radius: 50%; object-fit: cover; display: block; background: #000; }
+.oglas-mali .om-body { display: flex; flex-direction: column; min-width: 0; gap: 2px; }
+.oglas-mali .om-name { font-weight: 800; font-size: .98rem; line-height: 1.25; }
+.oglas-mali .om-name span { font-weight: 600; color: var(--muted); font-size: .88rem; }
+.oglas-mali .om-text { font-size: .85rem; color: var(--green); font-weight: 600; }
+.oglas-mali .om-arrow { margin-left: auto; font-size: 1.5rem; color: var(--muted); line-height: 1; }
+.oglas-mali .om-tag { position: absolute; top: 6px; right: 8px; font-size: .62rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+.oglas-mali .om-link:hover .om-name, .oglas-mali .om-link:focus .om-name { color: var(--green); }
+.site-sidebar .oglas-mali { margin-top: -4px; }
+@media (max-width: 899.98px) {
+  .oglas-mali.sb-naslovnica { display: none; } /* na mobilnoj naslovnici oglas je među blokovima */
+  .site-sidebar .oglas-mali { max-width: 420px; margin-left: auto; margin-right: auto; }
+}
