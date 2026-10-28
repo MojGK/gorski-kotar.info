@@ -10,7 +10,7 @@ date: 2026-11-03 08:00:00 +0100
 location: Gorski kotar
 type: Zaposlenje
 categories: [Gorski kotar, Zaposlenje]
-broj_oglasa: 0            # ukupan broj oglasa u tablici
+broj_oglasa: 0            # ukupan broj oglasa u popisu `oglasi` (mora odgovarati broju u naslovu + 1)
 # 1–2 izdvojena oglasa (prikazuju se na naslovnici, na /zaposlenje/ i na vrhu članka).
 # Svaki provjeri na izvoru (HZZ, stranica poslodavca) – rok ne smije biti istekao. Bez osobnih podataka.
 istaknuti_oglasi:
@@ -25,6 +25,29 @@ istaknuti_oglasi:
     mjesto: "[Vrbovsko]"
     rok: 2026-11-15
     link: https://primjer.hr/oglas
+# SVI oglasi (kartice u članku, include oglasi-lista.html). Redoslijed = redoslijed prikaza (npr. po roku).
+# Obavezno: poslodavac, pozicija, mjesto, rok, izvori (barem jedan; prvi je gumb „Više / prijava”).
+# Neobavezno: broj (broj radnika), vrsta (ugovor/uvjeti), oznaka (fusnota uz rok, npr. "*"), opis.
+oglasi:
+  - poslodavac: "[Poslodavac]"
+    pozicija: "[Naziv radnog mjesta]"
+    broj: 1
+    vrsta: "[neodređeno, puno radno vrijeme]"
+    mjesto: "[Delnice]"
+    rok: 2026-11-10       # GGGG-MM-DD; ili tekst u navodnicima, npr. "do popune"
+    izvori:
+      - naziv: HZZ
+        url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=000000000
+  - poslodavac: "[Poslodavac]"
+    pozicija: "[Naziv radnog mjesta]"
+    mjesto: "[Vrbovsko]"
+    rok: "8 dana od objave u NN"
+    oznaka: "*"
+    izvori:
+      - naziv: "[Grad Vrbovsko]"
+        url: https://primjer.hr/oglas
+      - naziv: HZZ
+        url: https://burzarada.hzz.hr/
 excerpt: "[Istaknuti oglas] i još [N] aktualnih oglasa za posao u Gorskom kotaru: [2–3 vrste poslova]. Rokovi prijave i poveznice na izvorne oglase."
 image: /assets/images/zaposlenje-naslovna.jpg
 image_alt: "Radni stol uz prozor s pogledom na šumovita brda i goransko mjesto: torba, zaštitna kaciga, laptop, novine s oglasima i radne rukavice"
@@ -35,12 +58,11 @@ Aktualni oglasi za posao u Gorskom kotaru, provjereni **[DD. MM. GGGG.]** Izdvoj
 
 ## Aktualni oglasi
 
-| Radno mjesto | Poslodavac | Mjesto | Rok prijave | Izvor |
-|--------------|------------|--------|-------------|-------|
-| [Naziv radnog mjesta] | [Poslodavac] | [Delnice] | [DD. MM. GGGG.] | [HZZ](https://burzarada.hzz.hr/) |
-| [Naziv radnog mjesta] | [Poslodavac] | [Vrbovsko] | [do popune] | [Izvor](https://primjer.hr/oglas) |
+{% include oglasi-lista.html %}
 
-Broj u zagradi je broj traženih radnika, ako ga oglas navodi.
+Broj traženih radnika naveden je samo ako ga oglas navodi.
+
+\* [Fusnota uz oglas s oznakom "*", npr. kako se računa rok.]
 
 ## Izvori
 

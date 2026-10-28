@@ -1182,3 +1182,25 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .oglas-mali.sb-naslovnica { display: none; } /* na mobilnoj naslovnici oglas je među blokovima */
   .site-sidebar .oglas-mali { max-width: 420px; margin-left: auto; margin-right: auto; }
 }
+
+/* ZAPOSLENJE – popis oglasa kao kartice (_includes/oglasi-lista.html) */
+.post-content .oglasi-lista { list-style: none; margin: 0 0 22px; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; }
+.post-content .oglas-k { margin: 0; min-width: 0; display: flex; flex-direction: column; padding: 14px 16px 14px; background: #fff; border: 1px solid #f0d59a; border-left: 5px solid #c98a00; border-radius: 12px; box-shadow: 0 2px 8px rgba(138,90,0,0.08); overflow-wrap: anywhere; }
+.post-content .ok-posl { margin: 0 0 2px; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: #8a5a00; line-height: 1.35; }
+.post-content .ok-poz { margin: 0 0 8px; font-size: 1.05rem; font-weight: 800; line-height: 1.3; color: #2a2112; }
+.post-content .ok-det { list-style: none; margin: 0 0 10px; padding: 8px 0 0; border-top: 1px dashed #ecd9ad; display: grid; gap: 3px; font-size: 0.9rem; line-height: 1.4; }
+.post-content .ok-det li { margin: 0; display: flex; flex-wrap: wrap; gap: 0 6px; }
+.post-content .ok-lbl { color: var(--muted); min-width: 9.2em; }
+.post-content .ok-val { font-weight: 600; color: var(--text); }
+.post-content .ok-ozn { font-weight: 700; color: #8a5a00; }
+.post-content .ok-opis { margin: 0 0 10px; font-size: 0.9rem; color: #444; }
+.post-content .ok-linkovi { margin: auto 0 0; display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.post-content .ok-btn { display: inline-block; padding: 7px 14px; border-radius: 999px; background: #8a5a00; color: #fff; font-weight: 800; font-size: 0.88rem; text-decoration: none; line-height: 1.3; }
+.post-content .ok-btn:hover { background: #6b4400; color: #fff; }
+.post-content .ok-izv { font-weight: 600; opacity: 0.85; }
+.post-content .ok-alt { font-size: 0.88rem; font-weight: 700; color: #8a5a00; }
+.post-content .oglas-k.isteklo { opacity: 0.6; border-left-color: #999; }
+.post-content .ok-ist { display: inline-block; margin-left: 4px; padding: 0 7px; border-radius: 999px; background: #eee; color: #a00; font-size: 0.75rem; font-weight: 800; }
+@media (min-width: 700px) {
+  .post-content .oglasi-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+}
