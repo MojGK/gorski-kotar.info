@@ -1065,3 +1065,24 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .zaposlenje-blok { padding: 16px 18px 14px; }
 }
 @media (max-width: 599px) { .zaposlenje-blok .job-hl-desc { display: none; } .zaposlenje-blok .job-hl-link { padding: 10px 12px; } .zaposlenje-blok .job-hl-pos { font-size: 0.98rem; } }
+
+/* =====================================================================
+   PRIJELOMNA VIJEST (front matter `prijelomna: true`)
+   ===================================================================== */
+.prijelomna-traka { background: #c40000; background: linear-gradient(90deg, #a30000, #d60000); color: #fff; border-bottom: 3px solid #6e0000; box-shadow: 0 4px 14px rgba(160, 0, 0, 0.3); }
+.prijelomna-traka[hidden], [data-prijelomna-do][hidden] { display: none !important; }
+.pt-inner { display: flex; align-items: center; gap: 8px 12px; flex-wrap: wrap; padding-top: 10px; padding-bottom: 10px; color: #fff; text-decoration: none; }
+.pt-inner:hover, .pt-inner:focus { color: #fff; }
+.pt-inner:hover .pt-title { text-decoration: underline; }
+.pt-label { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 6px; background: #fff; color: #c40000; font-weight: 900; font-size: 0.78rem; letter-spacing: 0.08em; padding: 4px 9px; border-radius: 4px; animation: pt-puls 1.6s ease-in-out infinite; }
+.pt-title { flex: 1 1 220px; min-width: 0; font-weight: 800; font-size: 1rem; line-height: 1.3; overflow-wrap: break-word; }
+.pt-cta { flex: 0 0 auto; font-weight: 900; font-size: 1.2rem; margin-left: auto; }
+@keyframes pt-puls { 50% { box-shadow: 0 0 0 4px rgba(255,255,255,0.35); } }
+@media (prefers-reduced-motion: reduce) { .pt-label { animation: none; } }
+@media (min-width: 768px) { .pt-title { font-size: 1.08rem; } .pt-inner { flex-wrap: nowrap; } }
+.card-badge.prijelomno { background: #d00000; color: #fff; font-weight: 900; text-transform: uppercase; letter-spacing: 0.04em; }
+.card-badge.prijelomno-velika { display: inline-flex; gap: 6px; font-size: 0.85rem; padding: 6px 12px; border-radius: 4px; box-shadow: 0 2px 8px rgba(200,0,0,0.3); }
+.post-prijelomna { margin: 0 0 10px; }
+.izd-prijelomna { display: block; margin-bottom: 4px; }
+.izd-prijelomna .card-badge { font-size: 0.66rem; }
+.sb-prijelomno { display: inline-block; background: #d00000; color: #fff; font-size: 0.66rem; font-weight: 900; padding: 1px 5px; border-radius: 3px; letter-spacing: 0.03em; vertical-align: 1px; }

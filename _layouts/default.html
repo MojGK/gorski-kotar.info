@@ -63,6 +63,7 @@
       </div>
     </div>
   </header>
+  {% if page.url == "/" %}{% include prijelomna-traka.html %}{% endif %}
 
   <main class="container" id="sadrzaj">
     {% if page.layout == 'post' or page.sidebar %}
@@ -139,5 +140,9 @@
   </script>
   <script>window.SITE_BASE = {{ site.baseurl | jsonify }};</script>
   <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+<script>
+  /* prijelomna vijest: sakrij traku/oznake nakon `prijelomna_do` */
+  (function () { var now = Date.now() / 1000; document.querySelectorAll('[data-prijelomna-do]').forEach(function (e) { if (now > +e.dataset.prijelomnaDo) e.hidden = true; }); })();
+</script>
 </body>
 </html>

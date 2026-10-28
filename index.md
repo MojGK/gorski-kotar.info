@@ -15,7 +15,7 @@ sidebar: true
   <a href="{{ lead.url | relative_url }}" class="lead-link{% unless lead.image %} no-img{% endunless %}">
     {% if lead.image %}<img src="{{ lead.image | relative_url }}" alt="{{ lead.image_alt | default: lead.title | escape }}" fetchpriority="high">{% endif %}
     <div class="lead-overlay">
-      <span class="lead-badges"><span class="lead-kicker">{% if featured %}Glavna vijest{% else %}Najnovije{% endif %}</span>{% if lead_type %}<span class="card-badge t-{{ lead_type.slug }}">{{ lead_type.name }}</span>{% endif %}</span>
+      <span class="lead-badges">{% include prijelomna-oznaka.html post=lead %}<span class="lead-kicker">{% if featured %}Glavna vijest{% else %}Najnovije{% endif %}</span>{% if lead_type %}<span class="card-badge t-{{ lead_type.slug }}">{{ lead_type.name }}</span>{% endif %}</span>
       <h1>{{ lead.title }}</h1>
       {%- assign lead_ex = lead.excerpt | strip_html | strip -%}
       {% if lead_ex != "" %}<p class="lead-excerpt">{{ lead_ex | truncate: 230 }}</p>{% endif %}
@@ -72,7 +72,7 @@ sidebar: true
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
       {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
-      <span class="card-badges">{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
+      <span class="card-badges">{% include prijelomna-oznaka.html post=post %}{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
     </a>
     <div class="content">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
