@@ -1086,3 +1086,6 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .izd-prijelomna { display: block; margin-bottom: 4px; }
 .izd-prijelomna .card-badge { font-size: 0.66rem; }
 .sb-prijelomno { display: inline-block; background: #d00000; color: #fff; font-size: 0.66rem; font-weight: 900; padding: 1px 5px; border-radius: 3px; letter-spacing: 0.03em; vertical-align: 1px; }
+
+/* Anketa: poruka kad brojač nije dostupan */
+.anketa.anketa-greska .anketa-info { color: #8a3b00; background: #fff4e5; border: 1px solid #f3c98b; border-radius: 6px; padding: 8px 10px; font-weight: 600; }
