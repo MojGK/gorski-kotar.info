@@ -119,7 +119,16 @@ Goranski osamnaestogodišnjaci imaju pravo na istih 100 eura kao i njihovi vršn
 
 **Brod Moravice, Fužine, Lokve, Mrkopalj, Ravna Gora i Skrad**
 - Prema Gradskoj knjižnici Rijeka, ovih šest općina nema vlastitu knjižnicu, a jedini oblik narodne knjižnice za njih je Županijski bibliobus. Javni poziv bibliobusnu mrežu izričito spominje među ciljevima.
-- U Lokvama, Ravnoj Gori, Skradu i Brod Moravicama nisam našao ustanovu s plaćenim kulturnim sadržajem koja bi danas ispunjavala uvjete. Za njih je realnija zajednička prijava preko Županije ili u suradnji sa susjednim gradovima.
+- U Lokvama, Ravnoj Gori, Skradu i Brod Moravicama nisam našao ustanovu s plaćenim kulturnim sadržajem koja bi danas ispunjavala uvjete (špilja Lokvarka naplaćuje ulaz, ali nije kulturno dobro, vidi niže). Za njih je realnija zajednička prijava preko Županije ili u suradnji sa susjednim gradovima.
+
+**Špilje: Fužine i Lokve**
+
+Dvije najposjećenije goranske špilje naplaćuju ulaz, pa sam provjerio mogu li u program. Kratki odgovor: kao špilje ne mogu. Javni poziv kod baštine priznaje samo kulturna dobra upisana u Registar kulturnih dobara RH, a obje su špilje dio prirodne, ne kulturne baštine. U Registru nema ni jedne ni druge. Za Fužine su ondje upisane kulturno-povijesna cjelina i crkva sv. Antona Padovanskog, a za Lokve nisam našao nijedan upis.
+
+- **Fužine – špilja Vrelo:** posjetitelje uz koncesijsko odobrenje Javne ustanove „Priroda” vodi KTD Fužine d.o.o., čiji je Ured za turizam Fužine i prodaja. Špilja radi cijele godine, samo uz vodiča, a termini se mijenjaju po mjesecima. U listopadu se ulazi petkom u 14 i 15 sati te vikendom u 11, 12, 14 i 15 sati, a u studenom i prosincu vikendom u istim terminima. Ulaznica se plaća samo gotovinom na ulazu. Prema KTD-ovoj Odluci o cijenama za 2026. odrasli plaćaju 6,50 eura do 30. lipnja i 7 eura od 1. srpnja, a djeca od 4 do 18 godina 5, odnosno 5,50 eura. Stranica Ureda za turizam višu cijenu navodi samo za srpanj i kolovoz, pa točan iznos za ostatak godine vrijedi provjeriti na blagajni. Javna ustanova „Priroda” za špilju navodi *predloženu* kategoriju zaštite „spomenik prirode”, dakle ni zaštita prirode još nije formalno provedena.
+- **Lokve – Lokvarka:** špilja je od 1961. zaštićena kao geomorfološki spomenik prirode, a njome upravlja Javna ustanova „Priroda”. Prihvat i vođenje posjetitelja ta je ustanova u travnju 2025. na pet godina povjerila tvrtki Lokvarka d.o.o., komunalnom poduzeću Općine Lokve. Prema stranici Lokvarke, špilja je otvorena subotom, nedjeljom i blagdanima od 9 do 15 sati, s ulazima u 9, 11, 13 i 15 sati, a ostalim danima po dogovoru. Ulaznica stoji 12 eura, za djecu 10 eura. Sezonu ni zimsko radno vrijeme stranica ne navodi.
+- **Na popisu partnera** Kulturne iskaznice nema ni KTD Fužine, ni Lokvarke d.o.o., ni Javne ustanove „Priroda”.
+- **Prijedlog:** ulaznice za sam obilazak špilje, po mom čitanju poziva, ne mogu se platiti iskaznicom. Otvorena je druga mogućnost. Kad bi općina ili turistička zajednica u špilji ili uz nju organizirala plaćeni sadržaj iz prihvatljive djelatnosti, recimo koncert ili izložbu, organizator bi taj sadržaj mogao prijaviti. Hoće li to proći, odlučuje Ministarstvo.
 
 **Zaključak:** najbrži korak bila bi prijava kina koja već prodaju ulaznice (Delnice te kina KINO.hr u Vrbovskom, Mrkoplju i Liču) i muzejskih prostora s ulaznicom (Čabar, Brod na Kupi, Lukovdol). Prijave su otvorene do kraja projekta, a odgovor stiže u roku od 10 radnih dana. Generacija 2008. ima vremena za potrošnju do svog 19. rođendana, pa se još isplati pokušati.
 
@@ -158,3 +167,11 @@ Goranski osamnaestogodišnjaci imaju pravo na istih 100 eura kao i njihovi vršn
 - Gradska knjižnica „Ivana Gorana Kovačića” Vrbovsko: [vrbovsko.hr](https://www.vrbovsko.hr/ostalo/kultura/gradska-knjiznica-ivana-gorana-kovacica)
 - Cinehill, ulaznice: [cinehill.eu](https://cinehill.eu/en/tickets/)
 - Gradska knjižnica Rijeka, narodne knjižnice PGŽ i Županijski bibliobus: [gkr.hr](https://gkr.hr/o-nama/o-nama/maticna-sluzba/narodne-knjiznice--p-134)
+- Ured za turizam Fužine (KTD Fužine), špilja Vrelo – radno vrijeme i cijene 2026.: [tz-fuzine.hr](https://www.tz-fuzine.hr/hr/spilja_vrelo/148/14)
+- KTD Fužine, Odluka o cijenama turističkih sadržaja za 2026. godinu (23. 10. 2025.): [ktd-fuzine.hr (PDF)](https://ktd-fuzine.hr/wp-content/uploads/2026/01/ODLUKA-O-CIJENAMA-TURISTICKIH-SADRZAJA-ZA-2026.-GODINU-1-3.pdf)
+- Javna ustanova „Priroda”, špilja Vrelo: [ju-priroda.hr](https://ju-priroda.hr/speleoloski-objekti/spilja-vrelo/)
+- Javna ustanova „Priroda”, koncesijsko odobrenje za špilju Lokvarka (24. 4. 2025.): [ju-priroda.hr (PDF)](https://ju-priroda.hr/wp-content/uploads/2025/05/13_Odluka-o-dodjeli-koncesijskog-odobrenja-za-spilju-Lokvarka.pdf)
+- Lokvarka d.o.o., špilja Lokvarka – radno vrijeme i cijene: [lokvarka.hr](https://lokvarka.hr/spilja-lokvarka)
+- Općina Lokve, špilja Lokvarka: [lokve.hr](https://lokve.hr/opcina-lokve/zemljopis/spilja-lokvarka)
+- Općina Lokve, komunalno poduzeće Lokvarka d.o.o.: [lokve.hr](https://lokve.hr/informacije/komunalno-poduzece/komunalno-poduzece)
+- Registar kulturnih dobara RH, pretraga 28. 10. 2026.: [registar.kulturnadobra.hr](https://registar.kulturnadobra.hr/)
