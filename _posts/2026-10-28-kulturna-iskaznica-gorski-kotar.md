@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Kulturna iskaznica: goranski osamnaestogodišnjaci imaju 100 eura za kulturu, a u Gorskom kotaru nema nijednog prodajnog mjesta"
-# DATUM: placeholder – kod objave postaviti 15+ min u prošlost (+0100)
-date: 2026-10-28 19:15:00 +0100
+date: 2026-10-28 18:45:00 +0100
 location: Gorski kotar
 type: Kultura
 categories: [Gorski kotar, Kultura]

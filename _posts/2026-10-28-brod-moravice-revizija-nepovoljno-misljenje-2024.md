@@ -5,9 +5,6 @@ date: 2026-10-28 07:00:00 +0100
 location: Brod Moravice
 type: Općinske vijesti
 categories: [Brod Moravice, Općinske vijesti]
-istaknuto: true
-prijelomna: true
-prijelomna_do: 2026-10-28 19:00:00 +0100
 serija: "Revizija Brod Moravice"
 excerpt: "Državni ured za reviziju izrazio je nepovoljno mišljenje i o financijskim izvještajima i o usklađenosti poslovanja Općine Brod Moravice za 2024. i dio 2025. Dokumentacija je dostavljena Državnom odvjetništvu, a Općina ističe da je nadzor sama zatražila."
 image: /assets/images/brod-moravice-pogled.jpg
