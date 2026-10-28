@@ -44,6 +44,8 @@ Za malu općinu ovo je ozbiljno izvješće, ali i prilika da se poslovanje doved
 
 **Nastavak:** [Revizija u Brodu Moravicama: agenciji 16.000 eura mjesečno bez specifikacije usluga, sanjkalište od 138.003 eura ne radi]({{ '/brod-moravice-revizija-razvojna-agencija-sanjkaliste/' | relative_url }})
 
+**Pročitajte i:** [Revizija: prijava pročelnice u Brodu Moravicama nije ispunjavala uvjet iz natječaja, Općina tvrdi da je sve zakonito]({{ '/brod-moravice-revizija-zaposljavanje-procelnice/' | relative_url }})
+
 ---
 
 *Izvori:*

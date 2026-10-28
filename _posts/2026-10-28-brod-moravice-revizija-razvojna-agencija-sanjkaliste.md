@@ -42,6 +42,8 @@ Za uređenje Vatrogasnog doma knjiženo je 72.112,78 eura. Radovi su počeli 11.
 
 Revizija je utvrdila da je poslove pročelnice Jedinstvenog upravnog odjela od ožujka 2023. obavljala osoba koja nije ispunjavala formalne uvjete iz oglasa. Riječ je o uvjetu radnog iskustva na odgovarajućim poslovima. Općina u očitovanju odgovara da je postupak imenovanja proveden zakonito i da kandidatkinja ispunjava uvjete. Državni ured za reviziju ostao je pri svom nalogu.
 
+**Više o tome:** [Revizija: prijava pročelnice u Brodu Moravicama nije ispunjavala uvjet iz natječaja, Općina tvrdi da je sve zakonito]({{ '/brod-moravice-revizija-zaposljavanje-procelnice/' | relative_url }})
+
 ## Što kaže Općina
 
 Općina Brod Moravice tvrdi da je nepravilnosti sama uočila. Dvoje službenika udaljeno je iz službe, a krajem 2024. Općina je sama zatražila financijski nadzor, koji je trajao 14 mjeseci. Prema Općini, nalaz se odnosi na razdoblje od 2022. do 2024. U međuvremenu su donijeli nove akte i zaposlili referenta za računovodstvo. Napise na portalima smatraju netočnima i zamjeraju što ih nitko prije objave nije pitao za obrazloženje. Prema izvješću, Općina je prihvatila naloge i preporuke revizije, ali osporava nalaz o zapošljavanju pročelnice.
