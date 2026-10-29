@@ -5,7 +5,7 @@ date: 2026-10-29 08:30:00 +0100
 location: Vrbovsko
 type: Crna kronika
 categories: [Vrbovsko, Crna kronika]
-featured: true
+istaknuto: true
 excerpt: "22-godišnjak priznao prekršaje iz Zakona o prekršajima protiv javnog reda i mira – pod šatorom na Bundevijadi se razodjenuo, a zatim fizički napao drugog posjetitelja. Prekršajni sud u Rijeci kaznio ga je s 500 eura."
 image: /assets/images/bundevijada-sator-noc-ai.jpg
 image_alt: "Ilustracija: prazan sajamski šator noću, s klupama i bundevama kod ulaza"

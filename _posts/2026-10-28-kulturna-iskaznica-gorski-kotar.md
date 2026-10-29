@@ -5,7 +5,7 @@ date: 2026-10-28 18:45:00 +0100
 location: Gorski kotar
 type: Kultura
 categories: [Gorski kotar, Kultura]
-istaknuto: true
+featured: true
 excerpt: "Svi koji ove godine navršavaju 18 godina mogu dobiti Kulturnu iskaznicu sa 100 eura za knjige, kino, kazalište i muzeje. Na popisu partnera programa je 83 pružatelja i 134 fizička prodajna mjesta, ali nijedno u Gorskom kotaru. Najbliža su u Rijeci i Karlovcu."
 image: /assets/images/kulturna-iskaznica-gk-ai.jpg
 image_alt: "Ilustracija: mladić na klupi u goranskom mjestu u jesen gleda u mobitel, pokraj njega knjige i ulaznica, iza stara kamena zgrada doma kulture"
