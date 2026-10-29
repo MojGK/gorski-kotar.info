@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Novak Đoković po majčinoj liniji iz Lokava? Goranska veza najvećeg tenisača ikada"
-date: 2026-10-29 12:30:00 +0100
+date: 2026-10-29 12:15:00 +0100
 location: Lokve
 type: Sport
 categories: [Lokve, Sport]
