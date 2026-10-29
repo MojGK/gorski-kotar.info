@@ -58,6 +58,9 @@ vrste:
   # aktualne vijesti koje ne spadaju u druge rubrike (npr. revizije, istrage, veće javne teme); ide u blok VIJESTI
   - name: Aktualno
     slug: aktualno
+  # tjedni sažetak 5 najvažnijih vijesti s poveznicama na naše članke (predložak: _drafts/predlozak-pregled-tjedna.md)
+  - name: Pregled tjedna
+    slug: pregled-tjedna
 
 # Serijali – tematske serije članaka koje idu uz mjesto i vrstu.
 # Članak je u serijalu ako mu `categories` sadrži točan naziv, npr.

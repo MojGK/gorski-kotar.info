@@ -159,5 +159,6 @@
   /* prijelomna vijest: sakrij traku/oznake nakon `prijelomna_do` */
   (function () { var now = Date.now() / 1000; document.querySelectorAll('[data-prijelomna-do]').forEach(function (e) { if (now > +e.dataset.prijelomnaDo) e.hidden = true; }); })();
 </script>
+  {% include goatcounter.html %}
 </body>
 </html>

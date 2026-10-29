@@ -36,5 +36,5 @@ Svi članci vrste Događanja (i prošli) i dalje su u kategoriji Događanja.
   </div>
   <p class="no-results" data-event-empty{% if d_count > 0 %} hidden{% endif %}>Trenutno nema najavljenih događaja.
     Prošle događaje pogledaj u kategoriji <a href="{{ '/kategorije/dogadanja/' | relative_url }}">Događanja</a>.</p>
-  <p class="events-past-link"><a href="{{ '/kategorije/dogadanja/' | relative_url }}">Prošli događaji →</a></p>
+  <p class="events-past-link"><a href="{{ '/kategorije/dogadanja/' | relative_url }}">Prošli događaji →</a> · <a href="{{ '/kalendar/' | relative_url }}">Kalendar događanja →</a></p>
 </div>

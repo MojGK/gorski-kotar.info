@@ -14,6 +14,8 @@ nav:
     url: /
   - title: Događaji
     url: /dogadaji/
+  - title: Kalendar
+    url: /kalendar/
   - title: Kategorije
     url: /kategorije/
   - title: Povijest
@@ -54,3 +56,7 @@ ankete:
 
 # Kontakt za oglašavanje (placeholder bannera kad nema aktivnog oglasa); prazno = bez gumba
 oglasi_kontakt: ""
+
+# Brojač posjeta GoatCounter (_includes/goatcounter.html). Upiši kod računa, npr. goatcounter: mojgk
+# (→ https://mojgk.goatcounter.com/count). Prazno = brojač isključen.
+goatcounter: ""
