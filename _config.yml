@@ -59,4 +59,4 @@ oglasi_kontakt: ""
 
 # Brojač posjeta GoatCounter (_includes/goatcounter.html). Upiši kod računa, npr. goatcounter: mojgk
 # (→ https://mojgk.goatcounter.com/count). Prazno = brojač isključen.
-goatcounter: ""
+goatcounter: mojgk
