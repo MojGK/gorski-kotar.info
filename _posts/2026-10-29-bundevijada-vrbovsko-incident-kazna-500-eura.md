@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Incident na Bundevijadi u Vrbovskom: mladić kažnjen s 500 eura zbog nedoličnog ponašanja i tučnje"
+title: "Incident na Bundevijadi u Vrbovskom: mladić kažnjen s 500 eura zbog nedoličnog ponašanja i tučnjave"
 date: 2026-10-29 08:30:00 +0100
 location: Vrbovsko
 type: Crna kronika
