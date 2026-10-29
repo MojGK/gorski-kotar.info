@@ -5,8 +5,6 @@ date: 2026-10-27 12:00:00 +0100
 location: Gorski kotar
 type: Društvo
 categories: [Gorski kotar, Društvo]
-featured: true
-istaknuto: true
 excerpt: "Gorski kotar je s 39.396 stanovnika 1953. pao na 18.954 na popisu 2021. U deset godina izgubio je 17,6 % stanovnika, Mrkopalj i Vrbovsko gotovo četvrtinu. Prošle godine rođeno je 90 djece, a umrle su 344 osobe. Od 256 naselja njih 45 nema nijednog stanovnika."
 image: /assets/images/demografija-gk-2011-2021-graf.png
 image_alt: "Stupčasti grafikon: broj stanovnika gradova i općina Gorskog kotara na popisima 2011. i 2021."
