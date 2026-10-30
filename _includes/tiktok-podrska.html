@@ -1,0 +1,19 @@
+{%- comment -%}
+Kartica preporuke TikTok kanala koji portal podupire. Poziv: {% include tiktok-podrska.html %}
+Avatar je spremljen lokalno (assets/images/tunafasader-tiktok.jpg) jer TikTokove CDN poveznice istječu.
+{%- endcomment -%}
+<aside class="tiktok-podrska" aria-label="Preporuka: TikTok kanal Tuna Fasader">
+  <span class="tt-oznaka">Preporuka portala</span>
+  <div class="tt-red">
+    <img class="tt-avatar" src="{{ '/assets/images/tunafasader-tiktok.jpg' | relative_url }}" alt="Profilna slika TikTok kanala Tuna Fasader" width="64" height="64" loading="lazy">
+    <div class="tt-tekst">
+      <p class="tt-ime">Tuna Fasader</p>
+      <p class="tt-handle">@tunafasader</p>
+      <p class="tt-opis">Portal podupire – pratite na TikToku</p>
+    </div>
+  </div>
+  <a class="tt-btn" href="https://www.tiktok.com/@tunafasader" target="_blank" rel="noopener">
+    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.04-2.82h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.59c.27 0 .53.04.77.12V9.77a5.7 5.7 0 0 0-.77-.05 5.68 5.68 0 1 0 5.68 5.68V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.3 4.3 0 0 1-3.26-1.48z"/></svg>
+    Pogledaj na TikToku <span aria-hidden="true">↗</span>
+  </a>
+</aside>

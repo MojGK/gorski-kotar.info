@@ -37,7 +37,11 @@ sidebar: true
 
 {% include m-blokovi.html lead=lead %}
 
+{% include dogadjanja-blok.html %}
+
 {% include zaposlenje-blok.html %}
+
+{% include tiktok-podrska.html %}
 
 <div class="filters" id="filteri">
   <button type="button" class="filter-btn active" data-reset>Sve</button>

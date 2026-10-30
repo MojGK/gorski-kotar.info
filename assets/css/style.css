@@ -1337,3 +1337,36 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .kal-broj { display: block; font-size: 1.25rem; font-weight: 700; }
 .kal-opis a { font-weight: 600; display: block; }
 .kal-opis .meta { display: block; font-size: .85rem; margin-top: .2rem; }
+
+/* DOGAĐANJA – blok na naslovnici i kartice događanja (kao Zaposlenje, zelena šumska varijanta) */
+.dogadjanja-blok { background: linear-gradient(160deg, #e6f4ea 0%, #f3faf5 60%, #fff 100%); border-color: #a9d5b5; border-top-color: #2f7d4f; box-shadow: 0 6px 18px rgba(26, 77, 46, 0.12); }
+.dogadjanja-blok .zb-head h2 { color: #1a4d2e; }
+.dogadjanja-blok .zb-all { background: #2f7d4f; }
+.dogadjanja-blok .zb-all:hover { background: #1a4d2e; }
+.dogadjanja-blok .job-hl-link { border-color: #a9d5b5; box-shadow: 0 2px 8px rgba(26,77,46,0.08); }
+.dogadjanja-blok .job-hl-rok { color: #1a6b3a; }
+.dogadjanja-blok .job-hl-meta { color: #3d5446; }
+.dogadjanja-blok .zb-post { border-color: #a9d5b5; }
+.dogadjanja-blok .zb-post-label { color: #1a6b3a; }
+.dogadjanja-blok .job-highlights[hidden] { display: none; }
+.post-content .dog-k { border-color: #a9d5b5; border-left-color: #2f7d4f; box-shadow: 0 2px 8px rgba(26,77,46,0.08); }
+.post-content .dog-k .ok-posl { color: #1a6b3a; }
+.post-content .dog-k .ok-det { border-top-color: #cfe6d6; }
+.post-content .dog-k .ok-btn { background: #2f7d4f; }
+.post-content .dog-k .ok-btn:hover { background: #1a4d2e; }
+.post-content .dog-k .ok-lbl { min-width: 7.5em; }
+.post-content .dk-slika { width: calc(100% + 32px); margin: -14px -16px 10px; max-width: none; aspect-ratio: 16/9; object-fit: cover; border-radius: 11px 11px 0 0; display: block; }
+.post-content .dog-k.isteklo { border-left-color: #999; }
+
+/* TikTok preporuka (_includes/tiktok-podrska.html) */
+.tiktok-podrska { margin: 18px 0 14px; padding: 14px 16px; border-radius: 16px; background: #111; color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,0.18); display: flex; flex-direction: column; gap: 10px; max-width: 520px; }
+.tt-oznaka { font-size: 0.7rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #9be7e4; }
+.tt-red { display: flex; align-items: center; gap: 12px; }
+.tt-avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; background: #fff; border: 3px solid #fe2c55; box-shadow: -3px 0 0 #25f4ee; flex: 0 0 auto; }
+.tt-tekst p { margin: 0; line-height: 1.3; }
+.tt-ime { font-weight: 850; font-size: 1.05rem; }
+.tt-handle { color: #bbb; font-size: 0.88rem; }
+.tt-opis { font-size: 0.88rem; color: #eee; margin-top: 2px !important; }
+.tt-btn { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 999px; background: #fe2c55; color: #fff !important; font-weight: 800; font-size: 0.9rem; text-decoration: none; }
+.tt-btn:hover { background: #e0193f; }
+.post-content .tiktok-podrska { margin-top: 26px; }
