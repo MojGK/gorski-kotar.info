@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Početna | Gorski Kotar Info</title>
+  <meta name="description" content="Vijesti iz srca prirode">
+  <meta name="theme-color" content="#1a4d2e">
+  <link rel="stylesheet" href="/gorski-kotar.info/assets/css/style.css">
+</head><body class="has-bottom-nav">
+  <a class="skip-link" href="#sadrzaj">Preskoči na sadržaj</a>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="/gorski-kotar.info/" class="logo" aria-label="Gorski Kotar Info – naslovnica">
+        <span class="logo-icon" aria-hidden="true">🌲</span>
+        <span class="logo-text">
+          <span class="site-title">Gorski Kotar Info</span>
+          <span class="tagline">Vijesti iz srca prirode</span>
+        </span>
+      </a>
+      <nav class="main-nav" id="glavni-izbornik" aria-label="Glavna navigacija">
+        <a href="/gorski-kotar.info/" class="current" aria-current="page">Početna</a>
+        <a href="/gorski-kotar.info/dogadaji/">Događaji</a>
+        <a href="/gorski-kotar.info/kalendar/">Kalendar</a>
+        <a href="/gorski-kotar.info/kategorije/">Kategorije</a>
+        <a href="/gorski-kotar.info/povijest/">Povijest</a>
+        <a href="/gorski-kotar.info/zaposlenje/">Zaposlenje</a>
+      </nav>
+      <form class="search" id="header-search" action="/gorski-kotar.info/pretraga/" method="get" role="search" autocomplete="off">
+        <label for="search-input" class="visually-hidden">Pretraži članke</label>
+        <input id="search-input" type="search" name="q" placeholder="Pretraži članke…" aria-autocomplete="list" aria-controls="search-results">
+        <button type="submit" aria-label="Traži">🔍</button>
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
+      </form>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="glavni-izbornik" aria-label="Otvori izbornik">
+        <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+    <nav class="m-chips" aria-label="Rubrike">
+      <div class="container m-chips-inner">
+        <a class="m-chip" href="/gorski-kotar.info/#blok-vijesti">Vijesti</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-poslovi-opcine">Poslovi općine</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-zanimljivosti">Zanimljivosti</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-dogadanja">Događanja</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-sport">Sport</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-crna-kronika">Crna kronika</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-kultura">Kultura</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-drustvo">Društvo</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-povijest-gk">Povijest GK</a>
+        <a class="m-chip m-chip-zap" href="/gorski-kotar.info/zaposlenje/">💼 Zaposlenje</a>
+        <span class="m-chip-sep" aria-hidden="true"></span>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=delnice">Delnice</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=fuzine">Fužine</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=lokve">Lokve</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=mrkopalj">Mrkopalj</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=cabar">Čabar</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=skrad">Skrad</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=ravna-gora">Ravna Gora</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=vrbovsko">Vrbovsko</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=brod-moravice">Brod Moravice</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=gorski-kotar">Gorski kotar</a>
+      </div>
+    </nav>
+    <div class="cat-bar">
+      <div class="container cat-bar-inner">
+        <a href="/gorski-kotar.info/#delnice" class="cat-link loc">Delnice</a><a href="/gorski-kotar.info/#fuzine" class="cat-link loc">Fužine</a><a href="/gorski-kotar.info/#lokve" class="cat-link loc">Lokve</a><a href="/gorski-kotar.info/#mrkopalj" class="cat-link loc">Mrkopalj</a><a href="/gorski-kotar.info/#cabar" class="cat-link loc">Čabar</a><a href="/gorski-kotar.info/#skrad" class="cat-link loc">Skrad</a><a href="/gorski-kotar.info/#ravna-gora" class="cat-link loc">Ravna Gora</a><a href="/gorski-kotar.info/#vrbovsko" class="cat-link loc">Vrbovsko</a><a href="/gorski-kotar.info/#brod-moravice" class="cat-link loc">Brod Moravice</a><a href="/gorski-kotar.info/#gorski-kotar" class="cat-link loc">Gorski kotar</a>
+        <span class="cat-sep" aria-hidden="true">|</span>
+        <a href="/gorski-kotar.info/#dogadanja" class="cat-link">Događanja</a><a href="/gorski-kotar.info/#crna-kronika" class="cat-link">Crna kronika</a><a href="/gorski-kotar.info/#sport" class="cat-link">Sport</a><a href="/gorski-kotar.info/#priroda" class="cat-link">Priroda</a><a href="/gorski-kotar.info/#promet" class="cat-link">Promet</a><a href="/gorski-kotar.info/#kultura" class="cat-link">Kultura</a><a href="/gorski-kotar.info/#zanimljivosti" class="cat-link">Zanimljivosti</a><a href="/gorski-kotar.info/#povijest" class="cat-link">Povijest</a><a href="/gorski-kotar.info/#opcinske-vijesti" class="cat-link">Općinske vijesti</a><a href="/gorski-kotar.info/#drustvo" class="cat-link">Društvo</a><a href="/gorski-kotar.info/#zaposlenje" class="cat-link">Zaposlenje</a><a href="/gorski-kotar.info/#aktualno" class="cat-link">Aktualno</a><a href="/gorski-kotar.info/#pregled-tjedna" class="cat-link">Pregled tjedna</a>
+        <span class="cat-sep" aria-hidden="true">|</span>
+        <a href="/gorski-kotar.info/#povijest-gk" class="cat-link series">POVIJEST GK</a>
+      </div>
+    </div>
+  </header>
+  
+
+  <main class="container" id="sadrzaj">
+    
+    <div class="with-sidebar">
+      <div class="main-col">
+        <section class="lead hero" id="lead" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+  <a href="/gorski-kotar.info/delnice-rebalans-proracuna-vrtic-hlojkica/" class="lead-link">
+    <img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="Pogled na Delnice s crvenim krovovima i šumovitim brdima u pozadini" fetchpriority="high" />
+    <div class="lead-overlay">
+      <span class="lead-badges"><span class="lead-kicker">Glavna vijest</span><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+      <h1>Delnice: prijedlog rebalansa zbog vrtića Hlojkica – stepenice prema kolodvoru sele u 2027., igralište otpada</h1><p class="lead-excerpt">Grad Delnice predlaže treće izmjene proračuna za 2026. jer vrtiću Hlojkica nedostaje novca za plaće. Prijedlog je na savjetovanju do 2. studenoga, a Gradsko vijeće ga još nije usvojilo.</p>
+      <span class="lead-cta">Pročitaj članak <span aria-hidden="true">→</span></span>
+    </div>
+  </a>
+  <div class="lead-body">
+    <div class="lead-meta"><div class="tags"><a class="tag tag-location" href="/gorski-kotar.info/kategorije/delnice/">📍 Delnice</a><a class="tag tag-type t-opcinske-vijesti" href="/gorski-kotar.info/kategorije/opcinske-vijesti/">Općinske vijesti</a></div><span class="meta"><time datetime="2026-10-30T07:15:00+01:00">30. 10. 2026. u 07:15</time></span></div>
+    <p class="lead-credit">Foto: Lan Glad, Wikimedia Commons, CC BY-SA 4.0</p>
+  </div>
+</section>
+<section class="m-najnovije m-only" id="m-najnovije" data-hide-filter="" aria-labelledby="m-najnovije-naslov">
+  <div class="mb-head"><h2 id="m-najnovije-naslov">Najnovije</h2></div>
+  <ol class="mn-lista">
+    <li class="mn-item"><a href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/">
+      <span class="mn-thumb"><img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="" loading="lazy" /></span>
+      <span class="mn-body">
+        <span class="mn-title">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</span>
+        <span class="mn-meta"><time datetime="2026-10-30T10:40:00+01:00" data-short="">30. 10. u 10:40</time> · Gorski kotar</span>
+      </span>
+    </a></li>
+    <li class="mn-item"><a href="/gorski-kotar.info/kastel-zrinskih-brod-na-kupi/">
+      <span class="mn-thumb"><img src="/gorski-kotar.info/assets/images/brod-na-kupi-kastel-zrinskih.jpg" alt="" loading="lazy" /></span>
+      <span class="mn-body">
+        <span class="mn-title">Kaštel Zrinskih u Brodu na Kupi – dvor Petra Zrinskog uz Kupu</span>
+        <span class="mn-meta"><time datetime="2026-10-30T08:50:00+01:00" data-short="">30. 10. u 08:50</time> · Delnice</span>
+      </span>
+    </a></li>
+    <li class="mn-item"><a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">
+      <span class="mn-thumb"><img src="/gorski-kotar.info/assets/images/nogometna-lopta-travnjak.jpg" alt="" loading="lazy" /></span>
+      <span class="mn-body">
+        <span class="mn-title">Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!</span>
+        <span class="mn-meta"><time datetime="2026-10-30T07:45:00+01:00" data-short="">30. 10. u 07:45</time> · Delnice</span>
+      </span>
+    </a></li>
+    <li class="mn-item"><a href="/gorski-kotar.info/vrbovsko-obrt-noemi-svijece-lampioni/">
+      <span class="mn-thumb"><img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="" loading="lazy" /></span>
+      <span class="mn-body">
+        <span class="mn-title">Iz okolice Bjelovara u Vrbovsko: nova obitelj donijela obrt za ručno rađene svijeće</span>
+        <span class="mn-meta"><time datetime="2026-10-30T07:25:00+01:00" data-short="">30. 10. u 07:25</time> · Vrbovsko</span>
+      </span>
+    </a></li>
+    <li class="mn-item"><a href="/gorski-kotar.info/cabar-dimnjacari-prijave/">
+      <span class="mn-thumb"><img src="/gorski-kotar.info/assets/images/dimnjacar-krov.jpg" alt="" loading="lazy" /></span>
+      <span class="mn-body">
+        <span class="mn-title">Dimnjačari uskoro dolaze u Čabar – Grad prikuplja prijave</span>
+        <span class="mn-meta"><time datetime="2026-10-29T21:40:00+01:00" data-short="">29. 10. u 21:40</time> · Čabar</span>
+      </span>
+    </a></li>
+  </ol>
+</section>
+
+<aside class="ad-banner" aria-label="Oglas: Goring d.o.o.">
+  <span class="oglas-tag">Oglas</span>
+  <a class="ad-banner-logo" href="https://goringdoo.eu/" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="/gorski-kotar.info/assets/images/oglasi/goring-logo.svg" alt="" width="72" height="82" loading="lazy" /></a>
+  <div class="ad-banner-text">
+    <p class="ad-banner-name">Goring d.o.o. <span>· Ravna Gora</span></p>
+    <p class="ad-banner-desc">Projektiranje, niskogradnja i nadzor za stambene i infrastrukturne projekte.</p>
+    <p class="ad-banner-contact"><a href="tel:+38598257065">📞 +385 98 257 065</a><a href="mailto:goringinfo@gmail.com">✉️ goringinfo@gmail.com</a></p>
+  </div>
+  <a class="oglas-btn ad-banner-btn" href="https://goringdoo.eu/" target="_blank" rel="sponsored noopener">Posjetite stranicu →</a>
+</aside>
+
+<section class="izdvojeno" id="izdvojeno" aria-labelledby="izdvojeno-naslov">
+  <h2 class="section-title" id="izdvojeno-naslov">Izdvojeno</h2>
+  <div class="izd-grid">
+    <article class="izd-card izd-udarna" data-location="delnice">
+      <a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/" class="izd-link">
+        <img src="/gorski-kotar.info/assets/images/nogometna-lopta-travnjak.jpg" alt="Nogometna lopta na travnjaku – ilustracija" loading="lazy" />
+        <span class="izd-overlay">
+          <span class="card-badges"><span class="card-badge udarno">⚡ Udarno</span><span class="card-badge t-sport">Sport</span></span>
+          <span class="izd-title">Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!</span>
+          <span class="izd-meta"><span>📍 Delnice</span><span><time datetime="2026-10-30T07:45:00+01:00">30. 10. 2026. u 07:45</time></span></span>
+        </span>
+      </a>
+    </article>
+    <article class="izd-card izd-mala" data-location="fuzine">
+      <a href="/gorski-kotar.info/fuzine-javni-poziv-potpore-poduzetnicima-2026/" class="izd-link">
+        <span class="izd-thumb"><img src="/gorski-kotar.info/assets/images/jezero-bajer.jpg" alt="" loading="lazy" /></span>
+        <span class="izd-body">
+          <span class="izd-kicker">📍 Fužine · <span class="izd-type t-opcinske-vijesti">Općinske vijesti</span></span>
+          <span class="izd-title">Fužine: javni poziv za potpore poduzetnicima – rok 26. studenoga</span>
+          <span class="izd-date"><time datetime="2026-10-28T15:09:00+01:00" data-short="">28. 10. u 15:09</time></span>
+        </span>
+      </a>
+    </article>
+    <article class="izd-card izd-mala" data-location="cabar">
+      <a href="/gorski-kotar.info/cabar-dimnjacari-prijave/" class="izd-link">
+        <span class="izd-thumb"><img src="/gorski-kotar.info/assets/images/dimnjacar-krov.jpg" alt="" loading="lazy" /></span>
+        <span class="izd-body">
+          <span class="izd-kicker">📍 Čabar · <span class="izd-type t-opcinske-vijesti">Općinske vijesti</span></span>
+          <span class="izd-title">Dimnjačari uskoro dolaze u Čabar – Grad prikuplja prijave</span>
+          <span class="izd-date"><time datetime="2026-10-29T21:40:00+01:00" data-short="">29. 10. u 21:40</time></span>
+        </span>
+      </a>
+    </article>
+    <article class="izd-card izd-mala" data-location="mrkopalj">
+      <a href="/gorski-kotar.info/mrkopalj-najam-stana-mlade-obitelji/" class="izd-link">
+        <span class="izd-thumb"><img src="/gorski-kotar.info/assets/images/mrkopalj-stan-potkrovlje-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="izd-body">
+          <span class="izd-kicker">📍 Mrkopalj · <span class="izd-type t-opcinske-vijesti">Općinske vijesti</span></span>
+          <span class="izd-title">Mrkopalj daje mladoj obitelji u najam stan od 103 m² za 88,68 eura mjesečno</span>
+          <span class="izd-date"><time datetime="2026-10-28T15:11:00+01:00" data-short="">28. 10. u 15:11</time></span>
+        </span>
+      </a>
+    </article>
+    <article class="izd-card izd-mala" data-location="gorski-kotar">
+      <a href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/" class="izd-link">
+        <span class="izd-thumb"><img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="" loading="lazy" /></span>
+        <span class="izd-body">
+          <span class="izd-kicker">📍 Gorski kotar · <span class="izd-type t-dogadanja">Događanja</span></span>
+          <span class="izd-title">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</span>
+          <span class="izd-date"><time datetime="2026-10-30T10:40:00+01:00" data-short="">30. 10. u 10:40</time></span>
+        </span>
+      </a>
+    </article>
+  </div>
+</section>
+
+<div class="m-blokovi m-only" id="m-blokovi" data-hide-filter="">
+  <section class="m-blok" id="blok-vijesti" aria-labelledby="blok-vijesti-naslov">
+    <div class="mb-head"><h2 id="blok-vijesti-naslov">Vijesti</h2><a class="mb-vise" href="/gorski-kotar.info/vijesti/">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/most-delnice-gradski-odbor-klobucar-zagar/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="Panorama Delnica" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-aktualno">Aktualno</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Most Delnice predstavio novi gradski odbor: predsjednik Davorin Klobučar, tajnik Marino Žagar</span>
+        <span class="mb-meta">📍 Delnice · <time datetime="2026-10-29T17:05:00+01:00" data-short="">29. 10. u 17:05</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/gorski-kotar-destination-experience-award/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/risnjak-schlosserov-dom.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Gorski kotar prva hrvatska destinacija s nagradom Destination Experience Award</span><span class="mb-meta"><time datetime="2026-10-29T14:05:00+01:00" data-short="">29. 10. u 14:05</time> · Gorski kotar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/valentino-sarson-ispunit-cu-potencijal-gorskog-kotara/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/valentino-sarson-portret.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Valentino Saršon, riječki poduzetnik i predsjednik mjesnog odbora: „Ispunit ću potencijal Gorskog kotara”</span><span class="mb-meta"><time datetime="2026-10-28T17:45:00+01:00" data-short="">28. 10. u 17:45</time> · Gorski kotar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/brod-moravice-revizija-zaposljavanje-procelnice/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/brod-moravice-pogled-parag.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Revizija: prijava pročelnice u Brodu Moravicama nije ispunjavala uvjet iz natječaja, Općina tvrdi da je sve zakonito</span><span class="mb-meta"><time datetime="2026-10-28T17:00:00+01:00" data-short="">28. 10. u 17:00</time> · Brod Moravice</span></span>
+      </a></li>
+    </ul>
+  </section>
+  <section class="m-blok" id="blok-poslovi-opcine" aria-labelledby="blok-poslovi-opcine-naslov">
+    <div class="mb-head"><h2 id="blok-poslovi-opcine-naslov">Poslovi općine</h2><a class="mb-vise" href="/gorski-kotar.info/?kategorija=opcinske-vijesti">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/cabar-dimnjacari-prijave/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/dimnjacar-krov.jpg" alt="Dimnjačar s četkom i užetom stoji na dimnjaku iznad crijepa" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Dimnjačari uskoro dolaze u Čabar – Grad prikuplja prijave</span>
+        <span class="mb-meta">📍 Čabar · <time datetime="2026-10-29T21:40:00+01:00" data-short="">29. 10. u 21:40</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/cabar-bozicni-pokloni-djeca-do-3-godine/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/bozicni-pokloni-bor.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Grad Čabar priprema božićne poklone za djecu do 3 godine – roditelji se javljaju do 2. studenoga</span><span class="mb-meta"><time datetime="2026-10-29T21:30:00+01:00" data-short="">29. 10. u 21:30</time> · Čabar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/delnice-savjetovanje-smjernice-civilna-zastita-2027-2031/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/civilna-zastita-plan-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Delnice: savjetovanje o smjernicama za civilnu zaštitu 2027.–2031. – rok 12. studenoga u 12 sati</span><span class="mb-meta"><time datetime="2026-10-28T15:13:00+01:00" data-short="">28. 10. u 15:13</time> · Delnice</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/mrkopalj-najam-stana-mlade-obitelji/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/mrkopalj-stan-potkrovlje-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Mrkopalj daje mladoj obitelji u najam stan od 103 m² za 88,68 eura mjesečno</span><span class="mb-meta"><time datetime="2026-10-28T15:11:00+01:00" data-short="">28. 10. u 15:11</time> · Mrkopalj</span></span>
+      </a></li>
+    </ul>
+  </section>
+<aside class="oglas-mali om-naslovnica" aria-label="Oglas: Caffe bar Tiffany">
+  <a class="om-link" href="https://www.instagram.com/cb_tiffany_delnice/" target="_blank" rel="noopener sponsored">
+    <img class="om-logo" src="/gorski-kotar.info/assets/images/oglasi/tiffany-delnice.jpg" alt="Logo Caffe bar Tiffany Delnice" width="56" height="56" loading="lazy" />
+    <span class="om-body">
+      <span class="om-name">Caffe bar Tiffany <span>· Delnice</span></span><span class="om-text">Prati nas na Instagramu</span>
+    </span>
+    <span class="om-arrow" aria-hidden="true">›</span>
+  </a>
+  <span class="om-tag">Oglas</span>
+</aside>
+  <section class="m-blok" id="blok-zanimljivosti" aria-labelledby="blok-zanimljivosti-naslov">
+    <div class="mb-head"><h2 id="blok-zanimljivosti-naslov">Zanimljivosti</h2><a class="mb-vise" href="/gorski-kotar.info/?kategorija=zanimljivosti">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/vrbovsko-obrt-noemi-svijece-lampioni/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="Upaljeni lampioni na grobovima u sumrak – ilustracija" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Iz okolice Bjelovara u Vrbovsko: nova obitelj donijela obrt za ručno rađene svijeće</span>
+        <span class="mb-meta">📍 Vrbovsko · <time datetime="2026-10-30T07:25:00+01:00" data-short="">30. 10. u 07:25</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/tuna-fasader-prvi-podcast/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/tuna-fasader-podcast.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Tuna Fasader u svom prvom podcastu: o ovisnosti, skeli, TikToku i Gerovu</span><span class="mb-meta"><time datetime="2026-10-28T18:10:00+01:00" data-short="">28. 10. u 18:10</time> · Čabar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/tuna-fasader-u-poslu-amater/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/tuna-fasader-gerovo.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">TUNA FASADER – U POSLU AMATER</span><span class="mb-meta"><time datetime="2026-10-28T17:15:00+01:00" data-short="">28. 10. u 17:15</time> · Čabar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/skrad-prvi-planinarski-kup-zeleni-vir/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/zeleni-vir-skrad.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Prvi planinarski kup Zeleni vir okupio četrdesetak planinara</span><span class="mb-meta"><time datetime="2026-10-28T07:05:00+01:00" data-short="">28. 10. u 07:05</time> · Skrad</span></span>
+      </a></li>
+    </ul>
+  </section>
+  <section class="m-blok" id="blok-dogadanja" aria-labelledby="blok-dogadanja-naslov">
+    <div class="mb-head"><h2 id="blok-dogadanja-naslov">Događanja</h2><a class="mb-vise" href="/gorski-kotar.info/dogadaji/">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="Lampioni gore u večernjem mraku" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</span>
+        <span class="mb-meta">📍 Gorski kotar · <time datetime="2026-10-30T10:40:00+01:00" data-short="">30. 10. u 10:40</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/postolar-i-vrag-kotar-teatar-delnice/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/delnice-skolska-ulica.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Kotar Teatar u Noći kazališta dovodi „Postolara i vraga” u Radnički dom</span><span class="mb-meta"><time datetime="2026-10-29T07:45:00+01:00" data-short="">29. 10. u 07:45</time> · Delnice</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/goranski-risovi-obiljezili-35-godina-delnice/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Goranski risovi obilježili 35 godina od osnutka 138. brigade HV-a</span><span class="mb-meta"><time datetime="2026-10-29T07:15:00+01:00" data-short="">29. 10. u 07:15</time> · Delnice</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/martinjski-sajam-vrbovsko-2026/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/martinjski-sajam-vrbovsko-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Martinjski sajam u Vrbovskom u srijedu, 11. studenoga</span><span class="mb-meta"><time datetime="2026-10-28T15:22:00+01:00" data-short="">28. 10. u 15:22</time> · Vrbovsko</span></span>
+      </a></li>
+    </ul>
+  </section>
+<aside class="ad-banner ad-banner-s-fotom ad-banner-blok" aria-label="Oglas: Restoran &amp; smještaj Breza">
+  <span class="oglas-tag">Oglas</span>
+  <a class="ad-banner-foto" href="https://breza-rg.hr/" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="/gorski-kotar.info/assets/images/oglasi/breza-ravna-gora.jpg" alt="" width="800" height="533" loading="lazy" /></a>
+  <a class="ad-banner-logo sirok" href="https://breza-rg.hr/" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="/gorski-kotar.info/assets/images/oglasi/breza-logo.png" alt="" width="480" height="236" loading="lazy" /></a>
+  <div class="ad-banner-text">
+    <p class="ad-banner-name">Restoran &amp; smještaj Breza <span>· Ravna Gora</span></p>
+    <p class="ad-banner-desc">Goranska kuhinja od 1976. – divljač, šumske gljive i domaće borovnice – te 30 soba za odmor i događanja.</p>
+    <p class="ad-banner-contact"><a href="tel:+385955105129">📞 +385 95 510 5129</a></p>
+  </div>
+  <a class="oglas-btn ad-banner-btn" href="https://breza-rg.hr/" target="_blank" rel="sponsored noopener">Posjetite stranicu →</a>
+</aside>
+  <section class="m-blok" id="blok-sport" aria-labelledby="blok-sport-naslov">
+    <div class="mb-head"><h2 id="blok-sport-naslov">Sport</h2><a class="mb-vise" href="/gorski-kotar.info/?kategorija=sport">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/nogometna-lopta-travnjak.jpg" alt="Nogometna lopta na travnjaku – ilustracija" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-sport">Sport</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!</span>
+        <span class="mb-meta">📍 Delnice · <time datetime="2026-10-30T07:45:00+01:00" data-short="">30. 10. u 07:45</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/dokovic-lokve-goranska-veza/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/novak-djokovic-roland-garros-2024.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Novak Đoković po majčinoj liniji iz Lokava? Goranska veza najvećeg tenisača ikada</span><span class="mb-meta"><time datetime="2026-10-29T12:15:00+01:00" data-short="">29. 10. u 12:15</time> · Lokve</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/delnicke-plesacice-medalje-porec/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/plesacice-pozornica-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Delničke plesačice s dvije pobjede i još tri medalje s turnira u Poreču</span><span class="mb-meta"><time datetime="2026-10-28T15:20:00+01:00" data-short="">28. 10. u 15:20</time> · Delnice</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/dominik-jakovac-srebro-kuglanje-pgz/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/kuglana-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Kuglač Goranina Dominik Jakovac drugi na županijskom prvenstvu</span><span class="mb-meta"><time datetime="2026-10-28T07:15:00+01:00" data-short="">28. 10. u 07:15</time> · Delnice</span></span>
+      </a></li>
+    </ul>
+  </section>
+<aside class="oglas-mali om-naslovnica" aria-label="Oglas: Shamrock Pub">
+  <a class="om-link" href="https://www.instagram.com/pub_ravnagora/" target="_blank" rel="noopener sponsored">
+    <img class="om-logo" src="/gorski-kotar.info/assets/images/oglasi/shamrock-pub-ravna-gora.jpg" alt="Logo Shamrock Pub Ravna Gora" width="56" height="56" loading="lazy" />
+    <span class="om-body">
+      <span class="om-name">Shamrock Pub <span>· Ravna Gora</span></span><span class="om-text">Prati nas na Instagramu</span>
+    </span>
+    <span class="om-arrow" aria-hidden="true">›</span>
+  </a>
+  <span class="om-tag">Oglas</span>
+</aside>
+  <section class="m-blok" id="blok-crna-kronika" aria-labelledby="blok-crna-kronika-naslov">
+    <div class="mb-head"><h2 id="blok-crna-kronika-naslov">Crna kronika</h2><a class="mb-vise" href="/gorski-kotar.info/?kategorija=crna-kronika">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/bundevijada-vrbovsko-incident-kazna-500-eura/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/bundevijada-sator-noc-ai.jpg" alt="Ilustracija: prazan sajamski šator noću, s klupama i bundevama kod ulaza" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-crna-kronika">Crna kronika</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Incident na Bundevijadi u Vrbovskom: mladić kažnjen s 500 eura zbog nedoličnog ponašanja i tučnjave</span>
+        <span class="mb-meta">📍 Vrbovsko · <time datetime="2026-10-29T08:30:00+01:00" data-short="">29. 10. u 08:30</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/ravna-gora-kradja-s-gradilista-kuce-za-odmor/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/policija-natpis-pu-pgz.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Ravna Gora: s gradilišta kuće za odmor nestala oprema vrijedna više od 30.000 eura</span><span class="mb-meta"><time datetime="2026-10-24T19:16:31+02:00" data-short="">24. 10. u 19:16</time> · Ravna Gora</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/vrbovsko-uhicen-zbog-sumnje-na-krijumcarenje-ljudi/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/a6-javorova-kosa.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Kod čvora Vrbovsko uhićen vozač osumnjičen za krijumčarenje ljudi</span><span class="mb-meta"><time datetime="2026-10-24T07:45:45+02:00" data-short="">24. 10. u 07:45</time> · Vrbovsko</span></span>
+      </a></li>
+    </ul>
+  </section>
+  <section class="m-blok" id="blok-kultura" aria-labelledby="blok-kultura-naslov">
+    <div class="mb-head"><h2 id="blok-kultura-naslov">Kultura</h2><a class="mb-vise" href="/gorski-kotar.info/?kategorija=kultura">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/pochobradsky-zbasnik-bajke-vrbovsko/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/vrbovsko-panorama.jpg" alt="Pogled na Vrbovsko i okolne šume" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Zlatko Pochobradsky i Andrej Zbašnik u Vrbovskom predstavili zbirku „Bajke”</span>
+        <span class="mb-meta">📍 Vrbovsko · <time datetime="2026-10-29T17:10:00+01:00" data-short="">29. 10. u 17:10</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/medijski-detektivi-knjizevni-susreti-vrbovsko/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Medijski detektivi: književni susreti za učenike na području Vrbovskog i u Brod Moravicama</span><span class="mb-meta"><time datetime="2026-10-29T14:10:00+01:00" data-short="">29. 10. u 14:10</time> · Vrbovsko</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/kulturna-iskaznica-gorski-kotar/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/kulturna-iskaznica-gk-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Kulturna iskaznica: goranski osamnaestogodišnjaci imaju 100 eura za kulturu, a u Gorskom kotaru nema nijednog prodajnog mjesta</span><span class="mb-meta"><time datetime="2026-10-28T18:45:00+01:00" data-short="">28. 10. u 18:45</time> · Gorski kotar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/vrata-140-godina-skole-film/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/vrata-skola-filmska-vecer-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Vrata: film o 140 godina škole probudio sjećanja na „neka drugačija vremena“</span><span class="mb-meta"><time datetime="2026-10-27T08:13:00+01:00" data-short="">27. 10. u 08:13</time> · Fužine</span></span>
+      </a></li>
+    </ul>
+  </section>
+  <section class="m-blok" id="blok-drustvo" aria-labelledby="blok-drustvo-naslov">
+    <div class="mb-head"><h2 id="blok-drustvo-naslov">Društvo</h2><a class="mb-vise" href="/gorski-kotar.info/?kategorija=drustvo">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/cabar-baka-djed-servis-ugovori/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/cabar-baka-djed-servis-ai.jpg" alt="Ilustracija: baka i djed šeću s djetetom seoskim putem" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-drustvo">Društvo</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Čabar: potpisani ugovori za Baka-djed servis, ove godine uključeni i prabake i pradjedovi</span>
+        <span class="mb-meta">📍 Čabar · <time datetime="2026-10-28T15:18:00+01:00" data-short="">28. 10. u 15:18</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/udruga-hvidr-a-gorski-kotar-aktivnosti/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/hvidr-branitelji-zastava-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Udruga HVIDR-a Gorski kotar: u prosjeku tri aktivnosti tjedno i humanitarne akcije za branitelje</span><span class="mb-meta"><time datetime="2026-10-28T15:16:00+01:00" data-short="">28. 10. u 15:16</time> · Gorski kotar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/lra-pins-30-godina-zeleni-vir/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/zeleni-vir-skrad.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Lokalna razvojna agencija PINS slavi 30 godina, proslava krajem studenoga</span><span class="mb-meta"><time datetime="2026-10-28T15:14:00+01:00" data-short="">28. 10. u 15:14</time> · Skrad</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/sven-maricic-srednja-skola-delnice-predavanje/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/ss-delnice-predavanje-znanost-ai.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Znanstvenik Sven Maričić delničkim srednjoškolcima o putu u znanost</span><span class="mb-meta"><time datetime="2026-10-28T07:10:00+01:00" data-short="">28. 10. u 07:10</time> · Delnice</span></span>
+      </a></li>
+    </ul>
+  </section>
+  <section class="m-blok" id="blok-povijest-gk" aria-labelledby="blok-povijest-gk-naslov">
+    <div class="mb-head"><h2 id="blok-povijest-gk-naslov">Povijest GK</h2><a class="mb-vise" href="/gorski-kotar.info/povijest/">Više <span aria-hidden="true">›</span></a></div>
+    
+    <a class="mb-veliki" href="/gorski-kotar.info/kastel-zrinskih-brod-na-kupi/">
+      <span class="mb-img"><img src="/gorski-kotar.info/assets/images/brod-na-kupi-kastel-zrinskih.jpg" alt="Bijela trokatna zgrada Kaštela Zrinskih s krovom na četiri vode u Brodu na Kupi" loading="lazy" />
+        <span class="card-badges"><span class="card-badge t-povijest">Povijest</span></span></span>
+      <span class="mb-veliki-body">
+        <span class="mb-veliki-title">Kaštel Zrinskih u Brodu na Kupi – dvor Petra Zrinskog uz Kupu</span>
+        <span class="mb-meta">📍 Delnice · <time datetime="2026-10-30T08:50:00+01:00" data-short="">30. 10. u 08:50</time></span>
+      </span>
+    </a>
+    <ul class="mb-lista">
+      <li class="mb-mala"><a href="/gorski-kotar.info/franjo-racki-fuzine/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/franjo-racki-portret.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Franjo Rački – povjesničar rođen u Fužinama</span><span class="mb-meta"><time datetime="2026-10-28T07:50:00+01:00" data-short="">28. 10. u 07:50</time> · Fužine</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/lujzijana-carska-cesta-gorski-kotar/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/lujzijana-miljokaz-skrad.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Lujzijana: carska cesta kroz Gorski kotar čiji je dio potopilo Lokvarsko jezero</span><span class="mb-meta"><time datetime="2026-10-27T08:45:00+01:00" data-short="">27. 10. u 08:45</time> · Gorski kotar</span></span>
+      </a></li>
+      <li class="mb-mala"><a href="/gorski-kotar.info/vrbovsko-1941-svjedok-pavelicev-prolazak/">
+        <span class="mb-thumb"><img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" /></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">Vrbovsko, travanj 1941.: svjedok opovrgava propagandni opis Pavelićeva prolaska</span><span class="mb-meta"><time datetime="2026-10-27T08:16:00+01:00" data-short="">27. 10. u 08:16</time> · Vrbovsko</span></span>
+      </a></li>
+    </ul>
+  </section>
+</div>
+
+<section class="zaposlenje-blok dogadjanja-blok" id="dogadjanja-blok" aria-labelledby="dogadjanja-blok-naslov">
+  <div class="zb-head">
+    <h2 id="dogadjanja-blok-naslov"><span aria-hidden="true">📅</span> Događanja</h2>
+    <a class="zb-all" href="/gorski-kotar.info/kalendar/">Kalendar →</a>
+  </div>
+  <div class="job-highlights" data-dog-blok="">
+    <ul class="job-hl-list"><li class="job-hl" data-do="2026-10-31" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/delnice-prodaja-cvijeca-svi-sveti/">
+          <span class="job-hl-pos">Prodaja cvijeća i svijeća za Svi svete</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sri 28. 10. – 31. 10.</span><span>🕒 7:30 – 19:00</span><span>📍 Klizalište, Delnice</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-10-31" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/delnice-drugaciji-halloween/">
+          <span class="job-hl-pos">Drugačiji Halloween u Delnicama</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sub 31. 10.</span><span>🕒 16:00 – 22:00</span><span>📍 Park kralja Tomislava i Japlenški vrh, Delnice</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-10-31" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/halloween-party-lic-dom-kulture/">
+          <span class="job-hl-pos">Halloween party u Domu kulture Lič</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sub 31. 10.</span><span>🕒 17:00 – 21:00</span><span>📍 Dom kulture Lič, Vicićeva 31</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-10-31" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">
+          <span class="job-hl-pos">Goranin – Rikard Benčić (9. kolo 1. ŽNL PGŽ)</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sub 31. 10.</span><span>🕒 17:30</span><span>📍 Omladinsko igralište, Rijeka</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-10-31" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/mk-mountain-riders-clubhouse-satir-delnice/">
+          <span class="job-hl-pos">Otvorenje kluba MK Mountain Riders</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sub 31. 10.</span><span>🕒 18:00</span><span>📍 Bivša diskoteka Satir, Školska 24, Delnice</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-11-04" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/">
+          <span class="job-hl-pos">Izložba ratnih fotografija Goranskih risova</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sri 4. 11.</span><span>📍 Delnice (točno mjesto bit će naknadno objavljeno)</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-11-07" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/noc-spilja-lokve-2026/">
+          <span class="job-hl-pos">Noć špilja u Lokvama</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sub 7. 11.</span><span>🕒 17:00</span><span>📍 DKC „Žaba”, Lokve</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-11-08" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/pcelarski-sajam-skrad/">
+          <span class="job-hl-pos">Pčelarski sajam u Skradu</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 sub 7. 11. – 8. 11.</span><span>🕒 sub od 15:00, ned do 17:00</span><span>📍 Dom kulture Skrad, Josipa Blaževića Blaža 8</span></span>
+        </a>
+      </li><li class="job-hl" data-do="2026-11-08" hidden="">
+        <a class="job-hl-link" href="/gorski-kotar.info/zimska-liga-kvarnera-fuzine-1-kolo/">
+          <span class="job-hl-pos">Zimska liga Kvarnera – 1. kolo</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">📅 ned 8. 11.</span><span>🕒 10:00</span><span>📍 Jezero Bajer, Fužine</span></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <a class="zb-post" href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/">
+    <span class="zb-post-label">9 događanja u pregledu · <time datetime="2026-10-30">30. 10. 2026.</time></span>
+    <span class="zb-post-title">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</span>
+  </a>
+  <script>
+  (function () {
+    var box = document.querySelector('[data-dog-blok]'); if (!box) return;
+    var d = new Date(), t = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2), n = 0;
+    box.querySelectorAll('[data-do]').forEach(function (li) { if (li.getAttribute('data-do') >= t && n < 3) { li.hidden = false; n++; } });
+    if (!n) box.hidden = true;
+  })();
+  </script>
+</section>
+
+<section class="zaposlenje-blok" id="zaposlenje-blok" aria-labelledby="zaposlenje-blok-naslov">
+  <div class="zb-head">
+    <h2 id="zaposlenje-blok-naslov"><span aria-hidden="true">💼</span> Zaposlenje</h2>
+    <a class="zb-all" href="/gorski-kotar.info/zaposlenje/">Svi oglasi →</a>
+  </div>
+      <div class="job-highlights" data-job-list="">
+  
+  <ul class="job-hl-list">
+    <li class="job-hl" data-rok="2026-11-02">
+      <a class="job-hl-link" href="https://www.mirovinsko.hr/hr/otvoreni-natjecaji/312" target="_blank" rel="noopener">
+        <span class="job-hl-pos">Viši referent / viša referentica u Ispostavi u Delnicama (pripravnik, neodređeno)</span>
+        <span class="job-hl-emp">Hrvatski zavod za mirovinsko osiguranje (HZMO)</span>
+        <span class="job-hl-meta"><span>📍 Delnice</span><span class="job-hl-rok">⏳ Rok: 2. 11. 2026.</span></span>
+        <span class="job-hl-desc">Za pripravnike s prvostupanjskim studijem javne uprave ili ekonomije; puno radno vrijeme, probni rad tri mjeseca. Pisane prijave šalju se HZMO-u.</span>
+        <span class="job-hl-cta">Izvorni oglas <span aria-hidden="true">↗</span></span>
+      </a>
+    </li>
+    <li class="job-hl" data-rok="2026-11-15">
+      <a class="job-hl-link" href="https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167533661" target="_blank" rel="noopener">
+        <span class="job-hl-pos">Radnici u proizvodnji drvenih prozora (2) i u pilani (1)</span>
+        <span class="job-hl-emp">Lokve d.o.o.</span>
+        <span class="job-hl-meta"><span>📍 Lokve</span><span class="job-hl-rok">⏳ Rok: 15. 11. 2026.</span></span>
+        <span class="job-hl-desc">Određeno, puno radno vrijeme, plaćen putni trošak, radno iskustvo nije važno.</span>
+        <span class="job-hl-cta">Izvorni oglas <span aria-hidden="true">↗</span></span>
+      </a>
+    </li>
+  </ul>
+</div>
+<script>
+(function () {
+  var s = document.currentScript, box = s && s.previousElementSibling;
+  if (!box) return;
+  var d = new Date(), t = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  box.querySelectorAll('[data-rok]').forEach(function (li) { if (li.getAttribute('data-rok') < t) li.classList.add('isteklo'); });
+})();
+</script>
+
+    <a class="zb-post" href="/gorski-kotar.info/poslovi-gorski-kotar-tjedni-pregled-27-10/">
+      <span class="zb-post-label">29 aktualnih oglasa u Gorskom kotaru · <time datetime="2026-10-27">27. 10. 2026.</time></span>
+      <span class="zb-post-title">ZAPOSLENJE: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 28 oglasa u Gorskom kotaru</span>
+    </a>
+</section>
+
+<aside class="tiktok-podrska" aria-label="Preporuka: TikTok kanal Tuna Fasader">
+  <span class="tt-oznaka">Preporuka portala</span>
+  <div class="tt-red">
+    <img class="tt-avatar" src="/gorski-kotar.info/assets/images/tunafasader-tiktok.jpg" alt="Profilna slika TikTok kanala Tuna Fasader" width="64" height="64" loading="lazy" />
+    <div class="tt-tekst">
+      <p class="tt-ime">Tuna Fasader</p>
+      <p class="tt-handle">@tunafasader</p>
+      <p class="tt-opis">Portal podupire – pratite na TikToku</p>
+    </div>
+  </div>
+  <a class="tt-btn" href="https://www.tiktok.com/@tunafasader" target="_blank" rel="noopener">
+    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16.6 5.82a4.28 4.28 0 0 1-1.04-2.82h-3.09v12.4a2.59 2.59 0 1 1-2.59-2.59c.27 0 .53.04.77.12V9.77a5.7 5.7 0 0 0-.77-.05 5.68 5.68 0 1 0 5.68 5.68V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3a4.3 4.3 0 0 1-3.26-1.48z" /></svg>
+    Pogledaj na TikToku <span aria-hidden="true">↗</span>
+  </a>
+</aside>
+
+<div class="filters" id="filteri">
+  <button type="button" class="filter-btn active" data-reset="">Sve</button>
+  <span class="filter-group">
+    <span class="filter-label">Mjesto</span>
+    <button type="button" class="filter-btn" data-group="location" data-filter="delnice">Delnice <span class="count">31</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="fuzine">Fužine <span class="count">11</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="lokve">Lokve <span class="count">5</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="mrkopalj">Mrkopalj <span class="count">5</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="cabar">Čabar <span class="count">8</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="skrad">Skrad <span class="count">5</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="ravna-gora">Ravna Gora <span class="count">7</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="vrbovsko">Vrbovsko <span class="count">13</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="brod-moravice">Brod Moravice <span class="count">3</span></button>
+    <button type="button" class="filter-btn" data-group="location" data-filter="gorski-kotar">Gorski kotar <span class="count">16</span></button>
+  </span>
+  <span class="filter-group">
+    <span class="filter-label">Vrsta</span>
+    <button type="button" class="filter-btn" data-group="type" data-filter="dogadanja">Događanja <span class="count">24</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="crna-kronika">Crna kronika <span class="count">3</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="sport">Sport <span class="count">11</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="priroda">Priroda <span class="count">2</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="promet">Promet <span class="count">2</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="kultura">Kultura <span class="count">9</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="zanimljivosti">Zanimljivosti <span class="count">12</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="povijest">Povijest <span class="count">9</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="opcinske-vijesti">Općinske vijesti <span class="count">22</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="drustvo">Društvo <span class="count">5</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="zaposlenje">Zaposlenje <span class="count">1</span></button>
+    <button type="button" class="filter-btn" data-group="type" data-filter="aktualno">Aktualno <span class="count">5</span></button>
+    <button type="button" class="filter-btn empty" data-group="type" data-filter="pregled-tjedna">Pregled tjedna <span class="count">0</span></button>
+  </span>
+  <span class="filter-group">
+    <span class="filter-label">Serijal</span>
+    <button type="button" class="filter-btn series" data-group="series" data-filter="povijest-gk">POVIJEST GK <span class="count">7</span></button>
+  </span>
+</div>
+
+<p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
+<h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
+<div class="posts-grid" id="clanci">
+  <article class="post-card is-izd" data-location="gorski-kotar" data-type="dogadanja" data-cats="gorski-kotar dogadanja">
+    <a href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-30T10:40:00+01:00">30. 10. 2026. u 10:40</time></span>
+      </div>
+      <p>Noć vještica u Delnicama i Liču, otvorenje kluba MK Mountain Riders, izložba Goranskih risova, Noć špilja u Lokvama, ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="povijest" data-cats="delnice povijest povijest-gk">
+    <a href="/gorski-kotar.info/kastel-zrinskih-brod-na-kupi/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/brod-na-kupi-kastel-zrinskih.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kastel-zrinskih-brod-na-kupi/">Kaštel Zrinskih u Brodu na Kupi – dvor Petra Zrinskog uz Kupu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-30T08:50:00+01:00">30. 10. 2026. u 08:50</time></span>
+      </div>
+      <p>Petar Zrinski je 1651. u Brodu na Kupi podigao dvor koji je spajao obranu i stanovanje. Danas je kaštel spomenik prve...</p>
+    </div>
+  </article>
+  <article class="post-card is-izd" data-location="delnice" data-type="sport" data-cats="delnice sport">
+    <a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/nogometna-lopta-travnjak.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-30T07:45:00+01:00">30. 10. 2026. u 07:45</time></span>
+      </div>
+      <p>U 9. kolu 1. ŽNL PGŽ Goranin u subotu, 31. listopada, gostuje kod posljednjeg Rikarda Benčića na Omladinskom igrališt...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="zanimljivosti" data-cats="vrbovsko zanimljivosti">
+    <a href="/gorski-kotar.info/vrbovsko-obrt-noemi-svijece-lampioni/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/lampioni-svi-sveti.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-obrt-noemi-svijece-lampioni/">Iz okolice Bjelovara u Vrbovsko: nova obitelj donijela obrt za ručno rađene svijeće</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-30T07:25:00+01:00">30. 10. 2026. u 07:25</time></span>
+      </div>
+      <p>Obitelj iz okolice Bjelovara doselila se u Vrbovsko i otvorila obrt Noemi za ručnu izradu svijeća i lampiona. Priča i...</p>
+    </div>
+  </article>
+  <article class="post-card is-lead" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+    <a href="/gorski-kotar.info/delnice-rebalans-proracuna-vrtic-hlojkica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-rebalans-proracuna-vrtic-hlojkica/">Delnice: prijedlog rebalansa zbog vrtića Hlojkica – stepenice prema kolodvoru sele u 2027., igralište otpada</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-30T07:15:00+01:00">30. 10. 2026. u 07:15</time></span>
+      </div>
+      <p>Grad Delnice predlaže treće izmjene proračuna za 2026. jer vrtiću Hlojkica nedostaje novca za plaće. Prijedlog je na ...</p>
+    </div>
+  </article>
+  <article class="post-card is-izd" data-location="cabar" data-type="opcinske-vijesti" data-cats="cabar opcinske-vijesti">
+    <a href="/gorski-kotar.info/cabar-dimnjacari-prijave/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/dimnjacar-krov.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/cabar-dimnjacari-prijave/">Dimnjačari uskoro dolaze u Čabar – Grad prikuplja prijave</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-29T21:40:00+01:00">29. 10. 2026. u 21:40</time></span>
+      </div>
+      <p>Na području Grada Čabra uskoro se očekuju dimnjačari. Zainteresirani se mogu prijaviti Gradu e-mailom ili telefonom, ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="opcinske-vijesti" data-cats="cabar opcinske-vijesti">
+    <a href="/gorski-kotar.info/cabar-bozicni-pokloni-djeca-do-3-godine/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/bozicni-pokloni-bor.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/cabar-bozicni-pokloni-djeca-do-3-godine/">Grad Čabar priprema božićne poklone za djecu do 3 godine – roditelji se javljaju do 2. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-29T21:30:00+01:00">29. 10. 2026. u 21:30</time></span>
+      </div>
+      <p>Grad Čabar kreće s pripremama božićnih poklona za djecu od 0 do 3 godine s prebivalištem na području Grada. Roditelji...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="kultura" data-cats="vrbovsko kultura">
+    <a href="/gorski-kotar.info/pochobradsky-zbasnik-bajke-vrbovsko/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-panorama.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/pochobradsky-zbasnik-bajke-vrbovsko/">Zlatko Pochobradsky i Andrej Zbašnik u Vrbovskom predstavili zbirku „Bajke”</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-29T17:10:00+01:00">29. 10. 2026. u 17:10</time></span>
+      </div>
+      <p>U Gradskoj knjižnici Vrbovsko nedavno su gostovali književnik Zlatko Pochobradsky i umjetnik Andrej Zbašnik, koji je ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="aktualno" data-cats="delnice aktualno">
+    <a href="/gorski-kotar.info/most-delnice-gradski-odbor-klobucar-zagar/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-aktualno">Aktualno</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/most-delnice-gradski-odbor-klobucar-zagar/">Most Delnice predstavio novi gradski odbor: predsjednik Davorin Klobučar, tajnik Marino Žagar</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-29T17:05:00+01:00">29. 10. 2026. u 17:05</time></span>
+      </div>
+      <p>Na konferenciji za medije u Lovačkom domu u Delnicama predstavljeni su novoizabrani članovi Gradskog odbora Mosta Del...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="kultura" data-cats="vrbovsko kultura">
+    <a href="/gorski-kotar.info/medijski-detektivi-knjizevni-susreti-vrbovsko/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/medijski-detektivi-knjizevni-susreti-vrbovsko/">Medijski detektivi: književni susreti za učenike na području Vrbovskog i u Brod Moravicama</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-29T14:10:00+01:00">29. 10. 2026. u 14:10</time></span>
+      </div>
+      <p>Književnica Natalija Mitrić prošlog je tjedna s osnovnoškolcima iz Severina na Kupi, Moravica, Brod Moravica i Vrbovs...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="aktualno" data-cats="gorski-kotar aktualno">
+    <a href="/gorski-kotar.info/gorski-kotar-destination-experience-award/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/risnjak-schlosserov-dom.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-aktualno">Aktualno</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/gorski-kotar-destination-experience-award/">Gorski kotar prva hrvatska destinacija s nagradom Destination Experience Award</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-29T14:05:00+01:00">29. 10. 2026. u 14:05</time></span>
+      </div>
+      <p>Turistička zajednica Gorskog kotara u Kranju je dobila Destination Experience Award za održivi turizam. Gorski kotar ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="lokve" data-type="sport" data-cats="lokve sport">
+    <a href="/gorski-kotar.info/dokovic-lokve-goranska-veza/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/novak-djokovic-roland-garros-2024.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/dokovic-lokve-goranska-veza/">Novak Đoković po majčinoj liniji iz Lokava? Goranska veza najvećeg tenisača ikada</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#lokve">📍 Lokve</a><span class="card-date"><time datetime="2026-10-29T12:15:00+01:00">29. 10. 2026. u 12:15</time></span>
+      </div>
+      <p>Prema riječima Eduarda Hemana, autora Sportskog biografskog leksikona PGŽ-a, obitelj Đokovićeve majke u Vinkovce je d...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="crna-kronika" data-cats="vrbovsko crna-kronika">
+    <a href="/gorski-kotar.info/bundevijada-vrbovsko-incident-kazna-500-eura/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/bundevijada-sator-noc-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-crna-kronika">Crna kronika</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/bundevijada-vrbovsko-incident-kazna-500-eura/">Incident na Bundevijadi u Vrbovskom: mladić kažnjen s 500 eura zbog nedoličnog ponašanja i tučnjave</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-29T08:30:00+01:00">29. 10. 2026. u 08:30</time></span>
+      </div>
+      <p>22-godišnjak priznao prekršaje iz Zakona o prekršajima protiv javnog reda i mira – pod šatorom na Bundevijadi se razo...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/postolar-i-vrag-kotar-teatar-delnice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-skolska-ulica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/postolar-i-vrag-kotar-teatar-delnice/">Kotar Teatar u Noći kazališta dovodi „Postolara i vraga” u Radnički dom</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-29T07:45:00+01:00">29. 10. 2026. u 07:45</time></span>
+      </div>
+      <p>Prema najavi na Dogadanja.com, Kotar Teatar u petak 20. studenoga u 20 sati u delničkom Radničkom domu gostuje s pred...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/goranski-risovi-obiljezili-35-godina-delnice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranski-risovi-obiljezili-35-godina-delnice/">Goranski risovi obilježili 35 godina od osnutka 138. brigade HV-a</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-29T07:15:00+01:00">29. 10. 2026. u 07:15</time></span>
+      </div>
+      <p>Misom, odavanjem počasti poginulima i svečanim okupljanjem u Radničkom domu Delnice su u srijedu obilježile 35. oblje...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="kultura" data-cats="gorski-kotar kultura">
+    <a href="/gorski-kotar.info/kulturna-iskaznica-gorski-kotar/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kulturna-iskaznica-gk-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kulturna-iskaznica-gorski-kotar/">Kulturna iskaznica: goranski osamnaestogodišnjaci imaju 100 eura za kulturu, a u Gorskom kotaru nema nijednog prodajnog mjesta</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-28T18:45:00+01:00">28. 10. 2026. u 18:45</time></span>
+      </div>
+      <p>Svi koji ove godine navršavaju 18 godina mogu dobiti Kulturnu iskaznicu sa 100 eura za knjige, kino, kazalište i muze...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="zanimljivosti" data-cats="cabar zanimljivosti">
+    <a href="/gorski-kotar.info/tuna-fasader-prvi-podcast/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/tuna-fasader-podcast.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/tuna-fasader-prvi-podcast/">Tuna Fasader u svom prvom podcastu: o ovisnosti, skeli, TikToku i Gerovu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-28T18:10:00+01:00">28. 10. 2026. u 18:10</time></span>
+      </div>
+      <p>U više od dva sata razgovora u Ril Tok Podcastu Antonio Milošević iz Gerova otvoreno je govorio o padu i oporavku, o ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="aktualno" data-cats="gorski-kotar aktualno">
+    <a href="/gorski-kotar.info/valentino-sarson-ispunit-cu-potencijal-gorskog-kotara/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/valentino-sarson-portret.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-aktualno">Aktualno</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/valentino-sarson-ispunit-cu-potencijal-gorskog-kotara/">Valentino Saršon, riječki poduzetnik i predsjednik mjesnog odbora: „Ispunit ću potencijal Gorskog kotara”</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-28T17:45:00+01:00">28. 10. 2026. u 17:45</time></span>
+      </div>
+      <p>Vodi prijevozničku tvrtku i Vijeće MO Podvežica, izabran je s nezavisne liste grupe birača, a konkretni planovi za Go...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="zanimljivosti" data-cats="cabar zanimljivosti">
+    <a href="/gorski-kotar.info/tuna-fasader-u-poslu-amater/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/tuna-fasader-gerovo.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/tuna-fasader-u-poslu-amater/">TUNA FASADER – U POSLU AMATER</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-28T17:15:00+01:00">28. 10. 2026. u 17:15</time></span>
+      </div>
+      <p>Antonio Milošević iz Gerova po zanimanju je fasader, a na društvenim mrežama zabavljač koji se i dalje ne želi naziva...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="brod-moravice" data-type="aktualno" data-cats="brod-moravice aktualno">
+    <a href="/gorski-kotar.info/brod-moravice-revizija-zaposljavanje-procelnice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/brod-moravice-pogled-parag.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-aktualno">Aktualno</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/brod-moravice-revizija-zaposljavanje-procelnice/">Revizija: prijava pročelnice u Brodu Moravicama nije ispunjavala uvjet iz natječaja, Općina tvrdi da je sve zakonito</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#brod-moravice">📍 Brod Moravice</a><span class="card-date"><time datetime="2026-10-28T17:00:00+01:00">28. 10. 2026. u 17:00</time></span>
+      </div>
+      <p>Državni ured za reviziju utvrdio je da prijava osobe koja od 2023. obavlja poslove pročelnice Jedinstvenog upravnog o...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="brod-moravice" data-type="aktualno" data-cats="brod-moravice aktualno">
+    <a href="/gorski-kotar.info/brod-moravice-revizija-razvojna-agencija-sanjkaliste/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/brod-moravice-kolodvorska.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-aktualno">Aktualno</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/brod-moravice-revizija-razvojna-agencija-sanjkaliste/">Revizija u Brodu Moravicama: agenciji 16.000 eura mjesečno bez specifikacije usluga, sanjkalište od 138.003 eura ne radi</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#brod-moravice">📍 Brod Moravice</a><span class="card-date"><time datetime="2026-10-28T16:20:00+01:00">28. 10. 2026. u 16:20</time></span>
+      </div>
+      <p>Detalji iz izvješća Državnog ureda za reviziju: općinska Razvojna agencija naplatila je 185.291,25 eura na temelju ra...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="dogadanja" data-cats="vrbovsko dogadanja">
+    <a href="/gorski-kotar.info/martinjski-sajam-vrbovsko-2026/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/martinjski-sajam-vrbovsko-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/martinjski-sajam-vrbovsko-2026/">Martinjski sajam u Vrbovskom u srijedu, 11. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-28T15:22:00+01:00">28. 10. 2026. u 15:22</time></span>
+      </div>
+      <p>Tradicionalni Martinjski sajam u Vrbovskom održava se u srijedu, 11. studenoga, na gradskoj tržnici – topla zimska od...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="sport" data-cats="delnice sport">
+    <a href="/gorski-kotar.info/delnicke-plesacice-medalje-porec/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/plesacice-pozornica-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnicke-plesacice-medalje-porec/">Delničke plesačice s dvije pobjede i još tri medalje s turnira u Poreču</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-28T15:20:00+01:00">28. 10. 2026. u 15:20</time></span>
+      </div>
+      <p>Na bodovnom turniru Hrvatskog sportskog plesnog saveza u Poreču plesačice iz Delnica osvojile su dva prva mjesta, dva...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="drustvo" data-cats="cabar drustvo">
+    <a href="/gorski-kotar.info/cabar-baka-djed-servis-ugovori/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/cabar-baka-djed-servis-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-drustvo">Društvo</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/cabar-baka-djed-servis-ugovori/">Čabar: potpisani ugovori za Baka-djed servis, ove godine uključeni i prabake i pradjedovi</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-28T15:18:00+01:00">28. 10. 2026. u 15:18</time></span>
+      </div>
+      <p>Grad Čabar potpisao je ugovore za ovogodišnji Baka-djed servis. Novost je da su uz bake i djedove uključeni i prabake...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="drustvo" data-cats="gorski-kotar drustvo">
+    <a href="/gorski-kotar.info/udruga-hvidr-a-gorski-kotar-aktivnosti/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/hvidr-branitelji-zastava-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-drustvo">Društvo</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/udruga-hvidr-a-gorski-kotar-aktivnosti/">Udruga HVIDR-a Gorski kotar: u prosjeku tri aktivnosti tjedno i humanitarne akcije za branitelje</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-28T15:16:00+01:00">28. 10. 2026. u 15:16</time></span>
+      </div>
+      <p>Udruga HVIDR-a Gorski kotar sa 42 člana tjedno u prosjeku odradi tri aktivnosti, a najponosnija je na humanitarne akc...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="skrad" data-type="drustvo" data-cats="skrad drustvo">
+    <a href="/gorski-kotar.info/lra-pins-30-godina-zeleni-vir/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/zeleni-vir-skrad.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-drustvo">Društvo</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/lra-pins-30-godina-zeleni-vir/">Lokalna razvojna agencija PINS slavi 30 godina, proslava krajem studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#skrad">📍 Skrad</a><span class="card-date"><time datetime="2026-10-28T15:14:00+01:00">28. 10. 2026. u 15:14</time></span>
+      </div>
+      <p>Lokalna razvojna agencija PINS u studenome obilježava 30 godina rada u Gorskom kotaru. Koncesionari Zelenog vira zado...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+    <a href="/gorski-kotar.info/delnice-savjetovanje-smjernice-civilna-zastita-2027-2031/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/civilna-zastita-plan-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-savjetovanje-smjernice-civilna-zastita-2027-2031/">Delnice: savjetovanje o smjernicama za civilnu zaštitu 2027.–2031. – rok 12. studenoga u 12 sati</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-28T15:13:00+01:00">28. 10. 2026. u 15:13</time></span>
+      </div>
+      <p>Grad Delnice otvorio je savjetovanje s javnošću o Smjernicama za organizaciju i razvoj sustava civilne zaštite za 202...</p>
+    </div>
+  </article>
+  <article class="post-card is-izd" data-location="mrkopalj" data-type="opcinske-vijesti" data-cats="mrkopalj opcinske-vijesti">
+    <a href="/gorski-kotar.info/mrkopalj-najam-stana-mlade-obitelji/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/mrkopalj-stan-potkrovlje-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/mrkopalj-najam-stana-mlade-obitelji/">Mrkopalj daje mladoj obitelji u najam stan od 103 m² za 88,68 eura mjesečno</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#mrkopalj">📍 Mrkopalj</a><span class="card-date"><time datetime="2026-10-28T15:11:00+01:00">28. 10. 2026. u 15:11</time></span>
+      </div>
+      <p>Općina Mrkopalj raspisala je javni poziv za najam stana od 103,12 m² u Novom varošu na 15 godina, uz najamninu od 88,...</p>
+    </div>
+  </article>
+  <article class="post-card is-izd" data-location="fuzine" data-type="opcinske-vijesti" data-cats="fuzine opcinske-vijesti">
+    <a href="/gorski-kotar.info/fuzine-javni-poziv-potpore-poduzetnicima-2026/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/jezero-bajer.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/fuzine-javni-poziv-potpore-poduzetnicima-2026/">Fužine: javni poziv za potpore poduzetnicima – rok 26. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-28T15:09:00+01:00">28. 10. 2026. u 15:09</time></span>
+      </div>
+      <p>Općina Fužine raspisala je javni poziv za subvencije mikropoduzetnicima: za strojeve i opremu te za kušaonice, izleti...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="lokve" data-type="opcinske-vijesti" data-cats="lokve opcinske-vijesti">
+    <a href="/gorski-kotar.info/lokve-dodatni-prijevoz-umirovljenika-delnice-30-listopada/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/lokve-prijevoz-umirovljenika-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/lokve-dodatni-prijevoz-umirovljenika-delnice-30-listopada/">Lokve: dodatni prijevoz umirovljenika u Delnice u petak, 30. listopada</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#lokve">📍 Lokve</a><span class="card-date"><time datetime="2026-10-28T15:07:00+01:00">28. 10. 2026. u 15:07</time></span>
+      </div>
+      <p>Uoči Svih svetih Općina Lokve uz redovnu četvrtkovu vožnju organizira i dodatni prijevoz umirovljenika u Delnice u pe...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+    <a href="/gorski-kotar.info/delnice-gradsko-vijece-12-sjednica-kamenolom-ciganska-drazica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-gradsko-vijece-12-sjednica-kamenolom-ciganska-drazica/">Delnice: Gradsko vijeće 3. studenoga o peticiji protiv kamenoloma „Ciganska dražica” i izboru nove predsjednice</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-28T15:05:00+01:00">28. 10. 2026. u 15:05</time></span>
+      </div>
+      <p>Na 12. sjednici Gradskog vijeća, u utorak 3. studenoga u 17 sati, među ostalim je i prijedlog zaključka o peticiji 13...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="povijest" data-cats="fuzine povijest povijest-gk">
+    <a href="/gorski-kotar.info/franjo-racki-fuzine/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/franjo-racki-portret.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/franjo-racki-fuzine/">Franjo Rački – povjesničar rođen u Fužinama</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-28T07:50:00+01:00">28. 10. 2026. u 07:50</time></span>
+      </div>
+      <p>Franjo Rački, rođen u Fužinama 1828., bio je svećenik, povjesničar i prvi predsjednik JAZU, današnje HAZU. Smatra se ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-ulica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/">Goranski risovi: izložba ratnih fotografija i predavanje generala Balena 4. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-28T07:20:00+01:00">28. 10. 2026. u 07:20</time></span>
+      </div>
+      <p>Uz 35. obljetnicu zauzimanja vojarne u Delnicama 5. studenoga 1991., 4. studenoga otvara se izložba ratnih fotografij...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="sport" data-cats="delnice sport">
+    <a href="/gorski-kotar.info/dominik-jakovac-srebro-kuglanje-pgz/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kuglana-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/dominik-jakovac-srebro-kuglanje-pgz/">Kuglač Goranina Dominik Jakovac drugi na županijskom prvenstvu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-28T07:15:00+01:00">28. 10. 2026. u 07:15</time></span>
+      </div>
+      <p>Dominik Jakovac iz KK Goranin osvojio je srebro na pojedinačnom prvenstvu Kuglačkog saveza PGŽ-a za seniore i plasira...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="drustvo" data-cats="delnice drustvo">
+    <a href="/gorski-kotar.info/sven-maricic-srednja-skola-delnice-predavanje/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/ss-delnice-predavanje-znanost-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-drustvo">Društvo</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/sven-maricic-srednja-skola-delnice-predavanje/">Znanstvenik Sven Maričić delničkim srednjoškolcima o putu u znanost</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-28T07:10:00+01:00">28. 10. 2026. u 07:10</time></span>
+      </div>
+      <p>U sklopu Mjeseca hrvatske knjige, pod temom „Od priča do otkrića“, izv. prof. dr. sc. Sven Maričić održao je predavan...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="skrad" data-type="zanimljivosti" data-cats="skrad zanimljivosti">
+    <a href="/gorski-kotar.info/skrad-prvi-planinarski-kup-zeleni-vir/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/zeleni-vir-skrad.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/skrad-prvi-planinarski-kup-zeleni-vir/">Prvi planinarski kup Zeleni vir okupio četrdesetak planinara</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#skrad">📍 Skrad</a><span class="card-date"><time datetime="2026-10-28T07:05:00+01:00">28. 10. 2026. u 07:05</time></span>
+      </div>
+      <p>U Skradu je održan prvi planinarski kup Zeleni vir – druženje kojim su planinari zaključili sezonu. Iduće godine naja...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="brod-moravice" data-type="opcinske-vijesti" data-cats="brod-moravice opcinske-vijesti">
+    <a href="/gorski-kotar.info/brod-moravice-revizija-nepovoljno-misljenje-2024/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/brod-moravice-pogled.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/brod-moravice-revizija-nepovoljno-misljenje-2024/">Revizija za 2024. i dio 2025.: Općina Brod Moravice dobila dva nepovoljna mišljenja</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#brod-moravice">📍 Brod Moravice</a><span class="card-date"><time datetime="2026-10-28T07:00:00+01:00">28. 10. 2026. u 07:00</time></span>
+      </div>
+      <p>Državni ured za reviziju izrazio je nepovoljno mišljenje i o financijskim izvještajima i o usklađenosti poslovanja Op...</p>
+    </div>
+  </article>
+  <article class="post-card is-job" data-location="gorski-kotar" data-type="zaposlenje" data-cats="gorski-kotar zaposlenje">
+    <a href="/gorski-kotar.info/poslovi-gorski-kotar-tjedni-pregled-27-10/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/zaposlenje-naslovna.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zaposlenje">Zaposlenje</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/poslovi-gorski-kotar-tjedni-pregled-27-10/">ZAPOSLENJE: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 28 oglasa u Gorskom kotaru</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-27T12:45:00+01:00">27. 10. 2026. u 12:45</time></span>
+      </div>
+      <p>29 aktualnih oglasa za posao u Gorskom kotaru ovaj tjedan: odgojitelji u Fužinama i Vrbovskom, nastavnici u Moravicam...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="drustvo" data-cats="gorski-kotar drustvo">
+    <a href="/gorski-kotar.info/gorski-kotar-demografija-prepolovljen-broj-stanovnika/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/demografija-gk-2011-2021-graf.png" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-drustvo">Društvo</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/gorski-kotar-demografija-prepolovljen-broj-stanovnika/">Gorski kotar: Prepolovljen broj stanovnika, na 100 umrlih samo 26 rođenih – a strani radnici i dalje rijetki</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-27T12:00:00+01:00">27. 10. 2026. u 12:00</time></span>
+      </div>
+      <p>Gorski kotar je s 39.396 stanovnika 1953. pao na 18.954 na popisu 2021. U deset godina izgubio je 17,6 % stanovnika, ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="povijest" data-cats="gorski-kotar povijest povijest-gk">
+    <a href="/gorski-kotar.info/lujzijana-carska-cesta-gorski-kotar/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/lujzijana-miljokaz-skrad.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/lujzijana-carska-cesta-gorski-kotar/">Lujzijana: carska cesta kroz Gorski kotar čiji je dio potopilo Lokvarsko jezero</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-27T08:45:00+01:00">27. 10. 2026. u 08:45</time></span>
+      </div>
+      <p>Lujzijana je od Rijeke do Karlovca građena od 1803. do 1811. i prolazi kroz Lokve, Delnice, Skrad i Vrbovsko. Bila je...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="povijest" data-cats="vrbovsko povijest">
+    <a href="/gorski-kotar.info/vrbovsko-1941-svjedok-pavelicev-prolazak/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-1941-svjedok-pavelicev-prolazak/">Vrbovsko, travanj 1941.: svjedok opovrgava propagandni opis Pavelićeva prolaska</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-27T08:16:00+01:00">27. 10. 2026. u 08:16</time></span>
+      </div>
+      <p>Ustaški propagandist opisao je u Vrbovskom veličanstven doček, suze i cvijeće. Čovjek koji je kao dječak bio ondje pa...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="lokve" data-type="opcinske-vijesti" data-cats="lokve opcinske-vijesti">
+    <a href="/gorski-kotar.info/lokve-prodaja-tri-cestice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/lokve-cestice-prodaja-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/lokve-prodaja-tri-cestice/">Lokve prodaju tri općinske čestice: ponude do 10. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#lokve">📍 Lokve</a><span class="card-date"><time datetime="2026-10-27T08:15:00+01:00">27. 10. 2026. u 08:15</time></span>
+      </div>
+      <p>Općina Lokve prodaje tri manje nekretnine u k.o. Lokve, s početnim cijenama od 476,90 do 7.152 eura. Ponude se otvara...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="zanimljivosti" data-cats="gorski-kotar zanimljivosti">
+    <a href="/gorski-kotar.info/zene-za-gorski-kotar-radionica-umjetna-inteligencija/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/zene-gk-ai-radionica-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/zene-za-gorski-kotar-radionica-umjetna-inteligencija/">Žene za Gorski kotar učile kako im umjetna inteligencija može uštedjeti vrijeme</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-27T08:14:00+01:00">27. 10. 2026. u 08:14</time></span>
+      </div>
+      <p>Na radionici koju je vodila Beatrice Noel članice udruge vidjele su kako im AI može pomoći s objavama, e-mailovima i ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="kultura" data-cats="fuzine kultura">
+    <a href="/gorski-kotar.info/vrata-140-godina-skole-film/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrata-skola-filmska-vecer-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrata-140-godina-skole-film/">Vrata: film o 140 godina škole probudio sjećanja na „neka drugačija vremena“</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-27T08:13:00+01:00">27. 10. 2026. u 08:13</time></span>
+      </div>
+      <p>U staroj školi na Vratima prikazan je dokumentarac „Bila su to neka drugačija vremena“, u kojem bivši učitelji i učen...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="kultura" data-cats="ravna-gora kultura">
+    <a href="/gorski-kotar.info/39-ravnogorska-vecer/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/ravnogorska-vecer-pozornica-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/39-ravnogorska-vecer/">39. Ravnogorska večer zaključila Dane Općine i proslavu 240 godina škole</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-27T08:12:00+01:00">27. 10. 2026. u 08:12</time></span>
+      </div>
+      <p>Puhački orkestar KUD-a „Sloga“, zbor „Gimpl“, tamburaši i školski mjuzikl napunili su Dom kulture. Proglašeni su i po...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="zanimljivosti" data-cats="delnice zanimljivosti">
+    <a href="/gorski-kotar.info/kla-delnice-proslavio-60-godina/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kla-delnice-60-dvorana-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kla-delnice-proslavio-60-godina/">KLA Delnice proslavio 60 godina: najduži apstinent u klubu ima 47 godina</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-27T08:11:00+01:00">27. 10. 2026. u 08:11</time></span>
+      </div>
+      <p>Najstariji klub liječenih alkoholičara u PGŽ-u obilježio je šest desetljeća rada u Radničkom domu. Članovima su uruče...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="povijest" data-cats="ravna-gora povijest povijest-gk">
+    <a href="/gorski-kotar.info/dvorac-stara-susica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/dvorac-stara-susica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/dvorac-stara-susica/">Dvorac Stara Sušica – utvrda koju Turci, kažu, nisu uspjeli osvojiti</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-27T08:10:04+01:00">27. 10. 2026. u 08:10</time></span>
+      </div>
+      <p>Kod Ravne Gore, na oko 800 metara visine, stoji dvorac Stara Sušica. Prema nekim izvorima, frankopanski grad na tom m...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+    <a href="/gorski-kotar.info/hlojkica-besplatan-vrtic-djeca-s-teskocama/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrtic-igraonica-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/hlojkica-besplatan-vrtic-djeca-s-teskocama/">Delnice: vrtić Hlojkica besplatan za djecu s teškoćama u razvoju? Savjetovanje do 26. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-27T08:10:00+01:00">27. 10. 2026. u 08:10</time></span>
+      </div>
+      <p>Prema nacrtu odluke, roditelji djece s teškoćama u razvoju od 2027. ne bi plaćali Dječji vrtić Hlojkica. Primjedbe se...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/goranski-risovi-35-godina-proslava-delnice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-ulica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranski-risovi-35-godina-proslava-delnice/">Goranski risovi slave 35 godina: središnja proslava sutra u Delnicama</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-27T08:10:00+01:00">27. 10. 2026. u 08:10</time></span>
+      </div>
+      <p>138. brigada HV-a „Goranski risovi“ osnovana je 28. listopada 1991. Na 35. obljetnicu, u srijedu, Delnice imaju misu,...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/crnogorac-u-krevetu-delnice-veceras/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/crnogorac-u-krevetu-pozornica-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/crnogorac-u-krevetu-delnice-veceras/">Večeras u Radničkom domu: komedija „Crnogorac u krevetu“</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-27T08:08:00+01:00">27. 10. 2026. u 08:08</time></span>
+      </div>
+      <p>Peđa Šuškavčević i Ana Šimundža Selski večeras u 20 sati u delničkom Radničkom domu igraju komediju o bračnom životu ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="dogadanja" data-cats="fuzine dogadanja">
+    <a href="/gorski-kotar.info/advent-na-jezeru-lepenica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/advent-lepenica-brod-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/advent-na-jezeru-lepenica/">Advent na Lepenici: kino na brodu, Djed Mraz i doček Nove godine na jezeru</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-27T08:06:00+01:00">27. 10. 2026. u 08:06</time></span>
+      </div>
+      <p>Od 27. studenoga do 31. prosinca brod na jezeru Lepenica postaje kino, mjesto za božićni party i doček Nove godine. Z...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="opcinske-vijesti" data-cats="vrbovsko opcinske-vijesti">
+    <a href="/gorski-kotar.info/vrbovsko-sufinanciranje-prijevoza-srednjoskolaca/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-sufinanciranje-prijevoza-srednjoskolaca/">Vrbovsko sufinancira prijevoz srednjoškolaca: zahtjev do 10. studenoga donosi i rujan i listopad</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-27T08:04:00+01:00">27. 10. 2026. u 08:04</time></span>
+      </div>
+      <p>Od danas se u gradskoj upravi predaju zahtjevi za sufinanciranje prijevoza srednjoškolaca. Tko ga preda do 10. studen...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="skrad" data-type="dogadanja" data-cats="skrad dogadanja">
+    <a href="/gorski-kotar.info/pcelarski-sajam-skrad/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/pcelarski-sajam-skrad-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/pcelarski-sajam-skrad/">Prvi pčelarski sajam u Skradu: dva dana goranskog meda</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#skrad">📍 Skrad</a><span class="card-date"><time datetime="2026-10-27T08:02:00+01:00">27. 10. 2026. u 08:02</time></span>
+      </div>
+      <p>Općina Skrad i Udruga pčelara „Medun“ 7. i 8. studenoga u Domu kulture organiziraju 1. pčelarski sajam. Subota je za ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="lokve" data-type="dogadanja" data-cats="lokve dogadanja">
+    <a href="/gorski-kotar.info/noc-spilja-lokve-2026/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/noc-spilja-lokve-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/noc-spilja-lokve-2026/">Noć špilja u Lokvama: večernja šetnja do Golubinje polušpilje i Lokvarke</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#lokve">📍 Lokve</a><span class="card-date"><time datetime="2026-10-27T07:59:00+01:00">27. 10. 2026. u 07:59</time></span>
+      </div>
+      <p>U subotu, 7. studenoga, Lokve ponovno organiziraju Noć špilja: okupljanje u 17 sati u DKC-u „Žaba“, vođena šetnja u 1...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="opcinske-vijesti" data-cats="vrbovsko opcinske-vijesti">
+    <a href="/gorski-kotar.info/vrbovsko-prostorni-plan-javna-rasprava/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-prostorni-plan-javna-rasprava/">Vrbovsko: primjedbe na izmjene prostornog plana još do 2. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-27T07:56:00+01:00">27. 10. 2026. u 07:56</time></span>
+      </div>
+      <p>Traje druga ponovna javna rasprava o izmjenama Prostornog plana uređenja Grada Vrbovskog. Uvid je u gradskoj upravi o...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/mk-mountain-riders-clubhouse-satir-delnice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/mk-mountain-riders-clubhouse-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/mk-mountain-riders-clubhouse-satir-delnice/">MK Mountain Riders otvaraju klupski prostor u bivšem Satiru</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-27T07:53:00+01:00">27. 10. 2026. u 07:53</time></span>
+      </div>
+      <p>Delnički motoristi u subotu od 18 sati otvaraju vrata novog kluba u nekadašnjoj diskoteci Satir. Svira Old School Ben...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="dogadanja" data-cats="fuzine dogadanja">
+    <a href="/gorski-kotar.info/halloween-party-lic-dom-kulture/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/halloween-lic-dom-kulture-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/halloween-party-lic-dom-kulture/">Halloween party u Liču: maske, glazba i iznenađenja u Domu kulture</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-27T07:50:00+01:00">27. 10. 2026. u 07:50</time></span>
+      </div>
+      <p>Društvo Naša djeca Fužine u subotu od 17 do 21 sat poziva na halloweensku zabavu u Dom kulture u Liču. Dođite u kosti...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="sport" data-cats="ravna-gora sport">
+    <a href="/gorski-kotar.info/kristijan-grgic-povratak-goranka/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kristijan-grgic-goranka.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kristijan-grgic-povratak-goranka/">Legenda Goranke se vratila: Kristijan Grgić ponovno u dresu svog kluba</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-25T18:00:00+01:00">25. 10. 2026. u 18:00</time></span>
+      </div>
+      <p>Nakon mjesec i pol mirovine Kristijan Grgić ponovno je zaigrao za NK Goranku. Ima oko 150 ligaških utakmica za klub, ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="sport" data-cats="ravna-gora sport">
+    <a href="/gorski-kotar.info/goranka-mrkopalj-3-2-renka-odlucio/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/goranka-mrkopalj-gol-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranka-mrkopalj-3-2-renka-odlucio/">Goranka preokretom svladala Mrkopalj, Renka odlučio u 85. minuti</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-25T17:16:30+01:00">25. 10. 2026. u 17:16</time></span>
+      </div>
+      <p>Goranka je na poluvremenu gubila 1:2 nakon dva gola Aleksandra Ilića, a onda su Mauro Golik i kapetan Dražen Renka ok...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="sport" data-cats="gorski-kotar sport">
+    <a href="/gorski-kotar.info/2-znl-pgz-8-kolo/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/znl-8-kolo-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/2-znl-pgz-8-kolo/">2. ŽNL, 8. kolo: Goranka preokretom svladala Mrkopalj, Gomirje ostaje na vrhu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-25T17:15:00+01:00">25. 10. 2026. u 17:15</time></span>
+      </div>
+      <p>Goranka je u Ravnoj Gori okrenula Mrkopalj za 3:2, a Polet i Željezničar podijelili su bodove u Skradu. Gomirje je s ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="dogadanja" data-cats="fuzine dogadanja">
+    <a href="/gorski-kotar.info/zimska-liga-kvarnera-fuzine-1-kolo/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/zimska-liga-bajer-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/zimska-liga-kvarnera-fuzine-1-kolo/">Zimska liga Kvarnera „Igor Malešević“ kreće 8. studenoga s Bajera</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-25T08:14:49+01:00">25. 10. 2026. u 08:14</time></span>
+      </div>
+      <p>Prvo kolo nove sezone Zimske lige Kvarnera trči se oko jezera Bajer u Fužinama u nedjelju, 8. studenoga, u 10 sati. Z...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="povijest" data-cats="fuzine povijest povijest-gk">
+    <a href="/gorski-kotar.info/ime-fuzine-kovacnica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/fuzine-1929-razglednica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/ime-fuzine-kovacnica/">Ime Fužine dolazi od riječi za kovačnicu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-25T08:14:00+01:00">25. 10. 2026. u 08:14</time></span>
+      </div>
+      <p>Fužine se prvi put spominju 1648. Ime im vjerojatno dolazi od talijanske riječi fucina, kovačnica. Velik zamah donije...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/delnice-prodaja-cvijeca-svi-sveti/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-cvijece-svi-sveti-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-prodaja-cvijeca-svi-sveti/">Prodaja cvijeća za Svi svete na delničkom klizalištu od 28. do 31. listopada</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-25T08:13:27+01:00">25. 10. 2026. u 08:13</time></span>
+      </div>
+      <p>KTD Risnjak-Delnice i ove godine organizira prigodnu prodaju cvijeća uoči Svih svetih, od srijede do subote, svaki da...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/delnice-drugaciji-halloween/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/halloween-delnice-lynxandfox.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-drugaciji-halloween/">Drugačiji Halloween u Delnicama: lov na blago, noćna šetnja i fireshow</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-25T08:12:05+01:00">25. 10. 2026. u 08:12</time></span>
+      </div>
+      <p>U subotu, 31. listopada, Delnice imaju obiteljski Halloween: od 16 sati lov na blago za djecu, od 18 sati šetnja s la...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="dogadanja" data-cats="cabar dogadanja">
+    <a href="/gorski-kotar.info/trsce-meteootkrica-zoran-vakula/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vakula-trsce-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/trsce-meteootkrica-zoran-vakula/">Zoran Vakula u Tršću: „Meteootkrića“ u srijedu u Domu kulture</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-25T08:10:40+01:00">25. 10. 2026. u 08:10</time></span>
+      </div>
+      <p>Najpoznatiji hrvatski meteorolog dolazi u Tršće u sklopu Mjeseca hrvatske knjige. Predavanje je u srijedu, 28. listop...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="promet" data-cats="gorski-kotar promet">
+    <a href="/gorski-kotar.info/kuzelj-cesta-zatvorena-do-kraja-godine/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kuzelj-cesta-zatvorena-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-promet">Promet</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kuzelj-cesta-zatvorena-do-kraja-godine/">Podsjetnik: cesta kroz Kuželj zatvorena je do kraja godine</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-25T08:09:18+01:00">25. 10. 2026. u 08:09</time></span>
+      </div>
+      <p>Županijska cesta 5033 kroz Kuželj zatvorena je zbog radova do kraja 2026. Obilazi se preko Delnica. Od 1. studenoga, ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="mrkopalj" data-type="kultura" data-cats="mrkopalj kultura">
+    <a href="/gorski-kotar.info/goran-rock-festival-mrkopalj-2026/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/goran-rock-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goran-rock-festival-mrkopalj-2026/">Mrkopalj je dva dana svirao za Gorana: održan 6. Goran Rock festival</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#mrkopalj">📍 Mrkopalj</a><span class="card-date"><time datetime="2026-10-25T08:08:03+01:00">25. 10. 2026. u 08:08</time></span>
+      </div>
+      <p>Dom kulture u Mrkoplju 16. i 17. listopada ponovno je pripao rocku. Nastupila su četiri benda, a Sušilo Band predstav...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+    <a href="/gorski-kotar.info/delnice-advent-najam-drvenih-kucica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-advent-kucice-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-advent-najam-drvenih-kucica/">Delnička adventska bajka traži ugostitelje za tri drvene kućice</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-25T08:06:45+01:00">25. 10. 2026. u 08:06</time></span>
+      </div>
+      <p>Advent u Delnicama trajat će od 28. studenoga do 31. prosinca. Za tri kućice u selu Bake Mraz početna je cijena najma...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="opcinske-vijesti" data-cats="fuzine opcinske-vijesti">
+    <a href="/gorski-kotar.info/fuzine-bozicnice-umirovljenicima/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/fuzine-bozicnice-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/fuzine-bozicnice-umirovljenicima/">Fužine dijele božićnice umirovljenicima s mirovinom do 700 eura</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-25T08:05:22+01:00">25. 10. 2026. u 08:05</time></span>
+      </div>
+      <p>Općina Fužine isplatit će jednokratnu blagdansku naknadu od 70 do 90 eura umirovljenicima s prihodima do 700 eura. Za...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="opcinske-vijesti" data-cats="cabar opcinske-vijesti">
+    <a href="/gorski-kotar.info/cabar-stipendije-natjecaji-2026/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/cabar-stipendije-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/cabar-stipendije-natjecaji-2026/">Čabar raspisao četiri natječaja za stipendije, prijave do 16. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-25T08:04:07+01:00">25. 10. 2026. u 08:04</time></span>
+      </div>
+      <p>Stipendije za izvrsnost, deficitarna zanimanja, socijalne i sportske: Grad Čabar ove godine nudi ukupno 54 stipendije...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="opcinske-vijesti" data-cats="vrbovsko opcinske-vijesti">
+    <a href="/gorski-kotar.info/vrbovsko-katastarska-izmjera-470-000-eura/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-katastar-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-katastarska-izmjera-470-000-eura/">Vrbovsko dobiva novu katastarsku izmjeru vrijednu oko 470.000 eura</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-25T08:02:51+01:00">25. 10. 2026. u 08:02</time></span>
+      </div>
+      <p>Država financira novu izmjeru dijelova katastarskih općina Vrbovsko i Gomirsko Vrbovsko. Cilj je uskladiti katastar i...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="opcinske-vijesti" data-cats="gorski-kotar opcinske-vijesti">
+    <a href="/gorski-kotar.info/tz-gorski-kotar-plan-upravljanja-destinacijom-savjetovanje/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/jezero-bajer.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/tz-gorski-kotar-plan-upravljanja-destinacijom-savjetovanje/">Kakav turizam želimo? TZ Gorskog kotara traži mišljenje o planu do 2029.</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-25T08:01:34+01:00">25. 10. 2026. u 08:01</time></span>
+      </div>
+      <p>Do 20. studenoga može se komentirati prijedlog Plana upravljanja destinacijom za 2027.–2029. Zanimljivi su i brojevi ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="opcinske-vijesti" data-cats="delnice opcinske-vijesti">
+    <a href="/gorski-kotar.info/delnice-komunalna-naknada-povecanje-savjetovanje/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-ulica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-komunalna-naknada-povecanje-savjetovanje/">Delnice predlažu veću komunalnu naknadu od 2027.: savjetovanje traje do 19. studenoga</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-25T08:00:12+01:00">25. 10. 2026. u 08:00</time></span>
+      </div>
+      <p>Vrijednost boda komunalne naknade u Delnicama mogla bi s 0,9556 narasti na 1,25 eura po m², oko 31 posto više. Za sta...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="zanimljivosti" data-cats="delnice zanimljivosti">
+    <a href="/gorski-kotar.info/delnice-sastanak-o-turizmu-u-vijecnici/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-panorama-2024.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-sastanak-o-turizmu-u-vijecnici/">U delničkoj vijećnici održan sastanak o turizmu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-24T19:30:31+02:00">24. 10. 2026. u 19:30</time></span>
+      </div>
+      <p>Grad Delnice i TZ Gorskog kotara okupili su turističke dionike i predstavili projekte za iduće tri godine. Sljedeći s...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="sport" data-cats="gorski-kotar sport">
+    <a href="/gorski-kotar.info/goranski-vatrogasci-zupanijsko-natjecanje-rab/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vatrogasna-oprema-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranski-vatrogasci-zupanijsko-natjecanje-rab/">Goranski vatrogasci na županijskom natjecanju na Rabu, Delničanke prve u svojoj kategoriji</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-24T19:28:31+02:00">24. 10. 2026. u 19:28</time></span>
+      </div>
+      <p>Osam goranskih DVD-ova nastupilo je na 31. županijskom natjecanju vatrogasaca na Rabu. Prema riječima predsjednika DV...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="lokve" data-type="sport" data-cats="lokve sport">
+    <a href="/gorski-kotar.info/lokvarac-ivo-grguric-svjetsko-prvenstvo-bass/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/bass-riba.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/lokvarac-ivo-grguric-svjetsko-prvenstvo-bass/">Lokvarac Ivo Grgurić s hrvatskom reprezentacijom na Svjetskom prvenstvu u bass ribolovu u SAD-u</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#lokve">📍 Lokve</a><span class="card-date"><time datetime="2026-10-24T19:26:31+02:00">24. 10. 2026. u 19:26</time></span>
+      </div>
+      <p>Na 20. Svjetskom prvenstvu u bass ribolovu na jezeru Hamilton u Arkansasu par Ivo Grgurić i Ivan Terzić završio je 22...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="sport" data-cats="delnice sport">
+    <a href="/gorski-kotar.info/kuglanje-delnice-regionalni-turnir-mladih/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kuglana-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kuglanje-delnice-regionalni-turnir-mladih/">Kuglačice Goranina pobijedile na regionalnom turniru mladih u Delnicama</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-24T19:24:31+02:00">24. 10. 2026. u 19:24</time></span>
+      </div>
+      <p>Na prvom od tri regionalna kvalifikacijska turnira mladih (Regija Jug) u Delnicama, Elin Briški i Emili Branjušić iz ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="skrad" data-type="opcinske-vijesti" data-cats="skrad opcinske-vijesti">
+    <a href="/gorski-kotar.info/skrad-stipendija-i-ruralni-bonus-zajedno/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/skrad-stipendije-knjige.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/skrad-stipendija-i-ruralni-bonus-zajedno/">Skradski stipendisti moći će uz općinsku stipendiju primati i županijski ruralni bonus</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#skrad">📍 Skrad</a><span class="card-date"><time datetime="2026-10-24T19:22:31+02:00">24. 10. 2026. u 19:22</time></span>
+      </div>
+      <p>Općinsko vijeće Skrada jednoglasno je promijenilo pravila: učenici i studenti više ne moraju birati između općinske s...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="zanimljivosti" data-cats="gorski-kotar zanimljivosti">
+    <a href="/gorski-kotar.info/mobilne-ambulante-gorski-kotar/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/mobilna-ambulanta-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/mobilne-ambulante-gorski-kotar/">Mobilne ambulante u Gorskom kotaru: kritika liječnika, odgovor Doma zdravlja i stav načelnika</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-24T19:20:31+02:00">24. 10. 2026. u 19:20</time></span>
+      </div>
+      <p>Jedna od dvije mobilne ambulante u PGŽ-u radi u čabarskom kraju. Iskusni goranski liječnik smatra da je projekt proma...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="opcinske-vijesti" data-cats="vrbovsko opcinske-vijesti">
+    <a href="/gorski-kotar.info/vrbovsko-deseta-sjednica-gradskog-vijeca/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/vrbovsko-crkva.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-deseta-sjednica-gradskog-vijeca/">Deseta sjednica Gradskog vijeća Vrbovskog: usvojeni izvještaj gradonačelnika i polugodišnji proračun</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-24T19:18:31+02:00">24. 10. 2026. u 19:18</time></span>
+      </div>
+      <p>Vijećnici su raspravljali o roku za polugodišnji izvještaj gradonačelnika, o radu zamjenika iz redova srpske manjine ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="crna-kronika" data-cats="ravna-gora crna-kronika">
+    <a href="/gorski-kotar.info/ravna-gora-kradja-s-gradilista-kuce-za-odmor/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/policija-natpis-pu-pgz.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-crna-kronika">Crna kronika</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/ravna-gora-kradja-s-gradilista-kuce-za-odmor/">Ravna Gora: s gradilišta kuće za odmor nestala oprema vrijedna više od 30.000 eura</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-24T19:16:31+02:00">24. 10. 2026. u 19:16</time></span>
+      </div>
+      <p>Policija traga za nepoznatim počiniteljem koji je, kako se sumnja, sredinom listopada s gradilišta kuće za odmor kod ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="povijest" data-cats="delnice povijest povijest-gk">
+    <a href="/gorski-kotar.info/delnice-prvi-spomen-1481/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-srednjovjekovni-put-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-prvi-spomen-1481/">Delnice su se prvi put spomenule još 1481. godine</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-24T08:16:49+02:00">24. 10. 2026. u 08:16</time></span>
+      </div>
+      <p>Prvi spomen Delnica vezan je uz Frankopane i trgovački put prema moru. Turske provale opustošile su naselje, Zrinski ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="cabar" data-type="zanimljivosti" data-cats="cabar zanimljivosti">
+    <a href="/gorski-kotar.info/lovacko-drustvo-tetrijeb-gerovo-80-godina/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/sveta-gora-gerovo.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/lovacko-drustvo-tetrijeb-gerovo-80-godina/">Lovačko društvo „Tetrijeb” Gerovo proslavilo 80. rođendan</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#cabar">📍 Čabar</a><span class="card-date"><time datetime="2026-10-24T07:48:18+02:00">24. 10. 2026. u 07:48</time></span>
+      </div>
+      <p>Gerovski lovci obljetnicu su obilježili hodočašćem na Svetu Goru, priznanjima i druženjem.</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="kultura" data-cats="gorski-kotar kultura">
+    <a href="/gorski-kotar.info/od-mora-do-gora-15-knjizevni-susret/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/od-mora-do-gora-knjige-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/od-mora-do-gora-15-knjizevni-susret/">„Od mora do gora”: književnici petnaesti put obišli goranske škole</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-24T07:47:17+02:00">24. 10. 2026. u 07:47</time></span>
+      </div>
+      <p>Tri pisca gostovala su u šest goranskih osnovnih škola, dvije knjižnice i na riječkom Korzu. Organizator je delnička ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="skrad" data-type="opcinske-vijesti" data-cats="skrad opcinske-vijesti">
+    <a href="/gorski-kotar.info/skrad-sadnice-malina-za-opg-ove/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/maline-skrad.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-opcinske-vijesti">Općinske vijesti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/skrad-sadnice-malina-za-opg-ove/">Skrad dijeli sadnice malina domaćim OPG-ovima</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#skrad">📍 Skrad</a><span class="card-date"><time datetime="2026-10-24T07:46:46+02:00">24. 10. 2026. u 07:46</time></span>
+      </div>
+      <p>Općina Skrad javnim pozivom dijeli lokalnim OPG-ovima oko 500 sadnica malina, najviše 100 po gospodarstvu. Zauzvrat s...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="crna-kronika" data-cats="vrbovsko crna-kronika">
+    <a href="/gorski-kotar.info/vrbovsko-uhicen-zbog-sumnje-na-krijumcarenje-ljudi/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/a6-javorova-kosa.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-crna-kronika">Crna kronika</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-uhicen-zbog-sumnje-na-krijumcarenje-ljudi/">Kod čvora Vrbovsko uhićen vozač osumnjičen za krijumčarenje ljudi</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-24T07:45:45+02:00">24. 10. 2026. u 07:45</time></span>
+      </div>
+      <p>Policija je na autocesti A6 zaustavila automobil u kojem su bili strani državljani. Vozač, 42-godišnji državljanin It...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/klub-lijecenih-alkoholicara-delnice-60-godina/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kla-delnice-60-dvorana-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/klub-lijecenih-alkoholicara-delnice-60-godina/">Klub liječenih alkoholičara Delnice slavi 60 godina rada</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-24T07:43:06+02:00">24. 10. 2026. u 07:43</time></span>
+      </div>
+      <p>Šest desetljeća podrške ljudima u oporavku i njihovim obiteljima. Svečanost je danas u 10 sati u Radničkom domu.</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="povijest" data-cats="delnice povijest">
+    <a href="/gorski-kotar.info/arhivska-fotografija-studio-radija-delnice/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/radio-delnice-studio-arhiva.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/arhivska-fotografija-studio-radija-delnice/">Arhivska fotografija iz studija delničkog radija (1992./1993.)</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-23T18:44:38+02:00">23. 10. 2026. u 18:44</time></span>
+      </div>
+      <p>U grupi Goranske Šanse osvanula je stara crno-bijela fotografija radijskog studija. Članovi ga prepoznaju kao studio ...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/delnice-humanitarni-turnir-odbojka-svi-za-djecu/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/odbojka-humanitarni-turnir-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-humanitarni-turnir-odbojka-svi-za-djecu/">„Svi za djecu“: 2. humanitarni turnir u odbojci u Delnicama</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-23T18:27:27+02:00">23. 10. 2026. u 18:27</time></span>
+      </div>
+      <p>Odbojka za dobru stvar: 28. studenoga u delničkoj sportskoj dvorani igra se drugi turnir „Svi za djecu“. Ekipe se mog...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="dogadanja" data-cats="gorski-kotar dogadanja">
+    <a href="/gorski-kotar.info/aktivnosti-za-umirovljenike-gorski-kotar-listopad/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kulturna-vecer-umirovljenici-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/aktivnosti-za-umirovljenike-gorski-kotar-listopad/">Aktivnosti za umirovljenike u Gorskom kotaru do kraja listopada</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-23T18:15:32+02:00">23. 10. 2026. u 18:15</time></span>
+      </div>
+      <p>Predstavljanja knjiga, Ravnogorska večer, čitateljski klub i kazališna komedija. Od 24. do 27. listopada u Gorskom ko...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="mrkopalj" data-type="sport" data-cats="mrkopalj sport">
+    <a href="/gorski-kotar.info/nk-mrkopalj-polet-skrad-4-1/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/mrkopalj-nogomet-ilustracija-ai.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-sport">Sport</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/nk-mrkopalj-polet-skrad-4-1/">NK Mrkopalj uvjerljivo pobijedio Polet iz Skrada 4:1</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#mrkopalj">📍 Mrkopalj</a><span class="card-date"><time datetime="2026-10-23T17:56:42+02:00">23. 10. 2026. u 17:56</time></span>
+      </div>
+      <p>Pod Čelimbašom je NK Mrkopalj u 7. kolu 2. ŽNL svladao NK Polet iz Skrada 4:1. Nakon sporijeg početka domaćini su gol...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/delnice-predstavljanje-knjige-marko-smole/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/kupa-cabranka-utok.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-predstavljanje-knjige-marko-smole/">U Delnicama predstavljanje knjige Marka Smolea o dolini gornje Kupe</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-23T13:28:56+02:00">23. 10. 2026. u 13:28</time></span>
+      </div>
+      <p>Danas, u petak 23. listopada, u 17 sati Gradska knjižnica Janet Majnarich u Delnicama predstavlja knjigu Marka Smolea...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="povijest" data-cats="fuzine povijest povijest-gk">
+    <a href="/gorski-kotar.info/kako-je-nastalo-jezero-bajer/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/fuzine-1929-prije-bajera.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-povijest">Povijest</span><span class="card-badge series">POVIJEST GK</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/kako-je-nastalo-jezero-bajer/">Kako je nastalo jezero koje je promijenilo Fužine</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-23T13:12:58+02:00">23. 10. 2026. u 13:12</time></span>
+      </div>
+      <p>Bajer izgleda kao da je oduvijek tu, a zapravo je umjetno jezero, dovršeno 1952. za potrebe HE Vinodol. Dok se gradil...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="zanimljivosti" data-cats="ravna-gora zanimljivosti">
+    <a href="/gorski-kotar.info/ravna-gora-nova-autopraonica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/autopraonica-ilustracija.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/ravna-gora-nova-autopraonica/">Ravna Gora uskoro dobiva autopraonicu u centru mjesta</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-23T12:26:06+02:00">23. 10. 2026. u 12:26</time></span>
+      </div>
+      <p>U centru Ravne Gore, pored SPC-a Goranka, uskoro bi trebala proraditi nova autopraonica. Projekt vrijedan oko 200.000...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="dogadanja" data-cats="delnice dogadanja">
+    <a href="/gorski-kotar.info/susret-granicnih-sluzbi-brod-na-kupi-petrina/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/susret-granicnih-sluzbi-2025.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/susret-granicnih-sluzbi-brod-na-kupi-petrina/">Dvadeseti susret graničnih službi na Kupi – Brod na Kupi i Petrina</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-23T11:39:24+02:00">23. 10. 2026. u 11:39</time></span>
+      </div>
+      <p>Na graničnom prijelazu Brod na Kupi – Petrina krajem 2025. održan je 20. prednovogodišnji susret hrvatske i slovenske...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="priroda" data-cats="fuzine priroda">
+    <a href="/gorski-kotar.info/jesen-na-bajeru/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/jezero-bajer.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-priroda">Priroda</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/jesen-na-bajeru/">Jesen na Bajeru – mir koji ostaje</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-20">20. 10. 2026.</time></span>
+      </div>
+      <p>Jezero Bajer jedno je od onih mjesta koja me uvijek iznova podsjete zašto volim Gorski kotar.</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="mrkopalj" data-type="kultura" data-cats="mrkopalj kultura">
+    <a href="/gorski-kotar.info/mrkopalj-izlozba-kravata/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/mrkopalj-izlozba-kravata-2021.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/mrkopalj-izlozba-kravata/">Mrkopalj, prijestolnica kravate – gotovo 1.000 primjeraka na jednom mjestu</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#mrkopalj">📍 Mrkopalj</a><span class="card-date"><time datetime="2026-10-18">18. 10. 2026.</time></span>
+      </div>
+      <p>Za Svjetski dan kravate Mrkopalj je ponovno ugostio najveću izložbu kravata u Hrvatskoj – s gotovo 1.000 izložaka.</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="ravna-gora" data-type="kultura" data-cats="ravna-gora kultura">
+    <a href="/gorski-kotar.info/ravna-gora-240-godina-skolstva/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/ravna-gora-240-skola-mjuzikl.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-kultura">Kultura</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/ravna-gora-240-godina-skolstva/">240 godina škole u Ravnoj Gori – uz mjuzikl o Branimiru Markoviću</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#ravna-gora">📍 Ravna Gora</a><span class="card-date"><time datetime="2026-10-16">16. 10. 2026.</time></span>
+      </div>
+      <p>Ravna Gora obilježila je 240 godina školstva, a najveći pljesak dobili su učenici i njihov mjuzikl „I bi svijetlosti“.</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="dogadanja" data-cats="vrbovsko dogadanja">
+    <a href="/gorski-kotar.info/bundevijada-vrbovsko/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/bundevijada-2026-bundeve.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/bundevijada-vrbovsko/">Rekordna Bundevijada u Vrbovskom – 130 izlagača i bundeva od 260 kila</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-12">12. 10. 2026.</time></span>
+      </div>
+      <p>22. Bundevijada okupila je rekordnih 130 izlagača, a najtežu bundevu, od 260 kilograma, ponovno je uzgojio Stjepan Ju...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="gorski-kotar" data-type="zanimljivosti" data-cats="gorski-kotar zanimljivosti">
+    <a href="/gorski-kotar.info/svicarska-darovnica-gorski-kotar/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/svicarski-doprinos-ugovor.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/svicarska-darovnica-gorski-kotar/">Švicarska u Gorskom kotaru – voda, cijevi i 25 milijuna franaka</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#gorski-kotar">📍 Gorski kotar</a><span class="card-date"><time datetime="2026-10-07">07. 10. 2026.</time></span>
+      </div>
+      <p>Kroz prvu švicarsku darovnicu u goransku vodoopskrbu i odvodnju uloženo je više od 25 milijuna franaka, a stiže i dru...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="vrbovsko" data-type="priroda" data-cats="vrbovsko priroda">
+    <a href="/gorski-kotar.info/vrbovsko-posumljavanje-dronom/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/posumljavanje-vrbovsko-projecto2.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-priroda">Priroda</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/vrbovsko-posumljavanje-dronom/">Vrbovsko sadi šumu dronom – i nastavlja</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#vrbovsko">📍 Vrbovsko</a><span class="card-date"><time datetime="2026-10-05">05. 10. 2026.</time></span>
+      </div>
+      <p>U Velikom Jadrču šuma se sadila dronom i ručno, a Grad Vrbovsko najavljuje još dvije takve akcije s osnovcima.</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="promet" data-cats="delnice promet">
+    <a href="/gorski-kotar.info/delnice-trg-grge-marijanovica/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/delnice-ulica.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-promet">Promet</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-trg-grge-marijanovica/">Delnicama 760.000 eura za Trg Grge Marijanovića – ali gdje parkirati?</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-05">05. 10. 2026.</time></span>
+      </div>
+      <p>Prostor ispred Radničkog doma postat će novi trg, a radovi bi trebali početi iduće godine. Otvara se i pitanje parkir...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="delnice" data-type="zanimljivosti" data-cats="delnice zanimljivosti">
+    <a href="/gorski-kotar.info/delnice-raste-broj-ucenika/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/os-igk-delnice.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-zanimljivosti">Zanimljivosti</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/delnice-raste-broj-ucenika/">Delnice protiv demografskog trenda – više đaka i plan za medicinski smjer</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#delnice">📍 Delnice</a><span class="card-date"><time datetime="2026-10-05">05. 10. 2026.</time></span>
+      </div>
+      <p>U delničku osnovnu školu upisana su 54 prvašića, raste i broj srednjoškolaca, a Srednja škola Delnice traži odobrenje...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="mrkopalj" data-type="dogadanja" data-cats="mrkopalj dogadanja">
+    <a href="/gorski-kotar.info/goranska-kuca-sunger-stara-karolina/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/goranska-kuca-sunger.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/goranska-kuca-sunger-stara-karolina/">Sunger dobio Goransku kuću, Mrkopalj šetnicu „Stara Karolina“</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#mrkopalj">📍 Mrkopalj</a><span class="card-date"><time datetime="2026-10-04">04. 10. 2026.</time></span>
+      </div>
+      <p>Drvena Goranska kuća u Sungeru, nova šetnica do mrkopaljske Kalvarije i prva „Šuma okusa – Dan sira i krumpira“ – jed...</p>
+    </div>
+  </article>
+  <article class="post-card" data-location="fuzine" data-type="dogadanja" data-cats="fuzine dogadanja">
+    <a href="/gorski-kotar.info/dvd-fuzine-150-godina/" class="card-thumb" tabindex="-1" aria-hidden="true">
+      <img src="/gorski-kotar.info/assets/images/dvd-povijesna-vatrogasna-zaprega.jpg" alt="" loading="lazy" />
+      <span class="card-badges"><span class="card-badge t-dogadanja">Događanja</span></span>
+    </a>
+    <div class="content">
+      <h3><a href="/gorski-kotar.info/dvd-fuzine-150-godina/">150 godina DVD-a Fužine – i prvi put žena na čelu postrojbe</a></h3>
+      <div class="card-meta"><a class="card-loc" href="/gorski-kotar.info/kategorije/#fuzine">📍 Fužine</a><span class="card-date"><time datetime="2026-10-04">04. 10. 2026.</time></span>
+      </div>
+      <p>DVD Fužine, jedno od najstarijih vatrogasnih društava u Hrvatskoj, proslavio je stoljeće i pol, a prvi put u povijest...</p>
+    </div>
+  </article>
+  
+</div>
+<p class="no-results" id="nema-clanaka" hidden="">Još nema članaka za odabrani filter. <button type="button" class="link-btn" data-reset="">Prikaži sve</button></p>
+
+<script>
+(function () {
+  var state = { location: null, type: null, series: null };
+  var buttons = document.querySelectorAll('.filter-btn[data-filter]');
+  var resets = document.querySelectorAll('[data-reset]');
+  var cards = document.querySelectorAll('#clanci .post-card');
+  var empty = document.getElementById('nema-clanaka');
+  var lead = document.getElementById('lead');
+  var izd = document.getElementById('izdvojeno');
+  var zapBlok = document.getElementById('zaposlenje-blok');
+  var title = document.getElementById('naslov-clanaka');
+  var names = {};
+  var groupOf = {};
+  buttons.forEach(function (b) {
+    groupOf[b.dataset.filter] = b.dataset.group;
+    names[b.dataset.filter] = b.firstChild.textContent.trim();
+  });
+
+  function apply(updateUrl) {
+    var filtering = !!(state.location || state.type || state.series);
+    function has(c, slug) { return (' ' + (c.dataset.cats || '') + ' ').indexOf(' ' + slug + ' ') !== -1; }
+    var shown = 0;
+    cards.forEach(function (c) {
+      var ok = (!state.location || has(c, state.location)) &&
+               (!state.type || has(c, state.type)) &&
+               (!state.series || has(c, state.series));
+      // bez filtera vodeći članak je već gore, pa ga ne ponavljamo u mreži
+      if (!filtering && (c.classList.contains('is-lead') || c.classList.contains('is-izd'))) ok = false;
+      // oglasi za posao (Zaposlenje) prikazuju se u mreži samo uz filter Zaposlenje
+      if (c.classList.contains('is-job') && state.type !== 'zaposlenje') ok = false;
+      c.hidden = !ok;
+      if (ok) shown++;
+    });
+    lead.hidden = filtering;
+    if (izd) izd.hidden = filtering;
+    if (zapBlok) zapBlok.hidden = filtering;
+    document.querySelectorAll('[data-hide-filter]').forEach(function (el) { el.hidden = filtering; });
+    document.body.classList.toggle('filtering', filtering);
+    title.textContent = filtering
+      ? [state.location, state.type, state.series].filter(Boolean).map(function (s) { return names[s]; }).join(' · ')
+      : 'Najnoviji članci';
+    buttons.forEach(function (b) {
+      b.classList.toggle('active', state[b.dataset.group] === b.dataset.filter);
+    });
+    resets.forEach(function (r) { if (r.classList.contains('filter-btn')) r.classList.toggle('active', !filtering); });
+    empty.hidden = shown > 0;
+    if (updateUrl && window.history && history.replaceState) {
+      var p = [];
+      if (state.location) p.push(state.location);
+      if (state.type) p.push(state.type);
+      if (state.series) p.push(state.series);
+      history.replaceState(null, '', location.pathname + (p.length ? '?kategorija=' + p.join(',') : ''));
+    }
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      var g = b.dataset.group, f = b.dataset.filter;
+      state[g] = state[g] === f ? null : f;
+      apply(true);
+    });
+  });
+  resets.forEach(function (r) {
+    r.addEventListener('click', function () { state.location = null; state.type = null; state.series = null; apply(true); });
+  });
+
+  function fromUrl(e) {
+    var q = new URLSearchParams(location.search).get('kategorija') || '';
+    var h = decodeURIComponent(location.hash.replace(/^#/, ''));
+    var vals = (q ? q.split(',') : []).concat(h ? [h] : []);
+    var blok = /^blok-|^m-najnovije$/.test(h);
+    if (e && h && groupOf[h]) { state.location = null; state.type = null; state.series = null; }
+    if (blok) {
+      // poveznica na mobilni kategorijski blok: bez filtera, pa skok na blok
+      state.location = null; state.type = null; state.series = null; vals = [];
+      if (q && window.history && history.replaceState) history.replaceState(null, '', location.pathname + location.hash);
+    }
+    var found = false;
+    vals.forEach(function (v) {
+      v = v.trim().toLowerCase();
+      if (groupOf[v]) { state[groupOf[v]] = v; found = true; }
+    });
+    apply(false);
+    if (found) document.getElementById('filteri').scrollIntoView();
+    else if (blok && document.getElementById(h)) document.getElementById(h).scrollIntoView();
+  }
+  var sviBtn = document.getElementById('m-svi-btn');
+  if (sviBtn) sviBtn.addEventListener('click', function () {
+    var on = !document.body.classList.contains('m-show-all');
+    document.body.classList.toggle('m-show-all', on);
+    sviBtn.setAttribute('aria-expanded', on ? 'true' : 'false');
+    sviBtn.textContent = on ? 'Sakrij popis članaka ↑' : 'Prikaži sve članke ↓';
+    if (on) document.getElementById('naslov-clanaka').scrollIntoView();
+  });
+  window.addEventListener('hashchange', fromUrl);
+  fromUrl();
+})();
+</script>
+
+
+      </div>
+      <aside class="site-sidebar">
+  <div class="sidebar-box weather" id="vrijeme-delnice" aria-live="polite">
+  <h3>Vrijeme · Delnice</h3>
+  <div class="wx-body" data-wx-body>
+    <p class="wx-loading">Učitavam prognozu…</p>
+  </div>
+  <p class="wx-credit">Podaci: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
+</div>
+<script>
+(function () {
+  var box = document.getElementById('vrijeme-delnice');
+  if (!box || box.dataset.ready) return; box.dataset.ready = '1';
+  var body = box.querySelector('[data-wx-body]');
+  var URL_ = 'https://api.open-meteo.com/v1/forecast?latitude=45.40&longitude=14.80&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=Europe/Zagreb&forecast_days=3';
+  var W = {
+    0: ['Vedro', '☀️'], 1: ['Pretežno vedro', '🌤️'], 2: ['Djelomično oblačno', '⛅'], 3: ['Oblačno', '☁️'],
+    45: ['Magla', '🌫️'], 48: ['Magla s injem', '🌫️'],
+    51: ['Slaba rosulja', '🌦️'], 53: ['Rosulja', '🌦️'], 55: ['Jaka rosulja', '🌧️'],
+    56: ['Ledena rosulja', '🌧️'], 57: ['Jaka ledena rosulja', '🌧️'],
+    61: ['Slaba kiša', '🌦️'], 63: ['Kiša', '🌧️'], 65: ['Jaka kiša', '🌧️'],
+    66: ['Ledena kiša', '🌧️'], 67: ['Jaka ledena kiša', '🌧️'],
+    71: ['Slab snijeg', '🌨️'], 73: ['Snijeg', '🌨️'], 75: ['Jak snijeg', '❄️'], 77: ['Zrnati snijeg', '🌨️'],
+    80: ['Slabi pljuskovi', '🌦️'], 81: ['Pljuskovi', '🌧️'], 82: ['Jaki pljuskovi', '⛈️'],
+    85: ['Snježni pljuskovi', '🌨️'], 86: ['Jaki snježni pljuskovi', '❄️'],
+    95: ['Grmljavina', '⛈️'], 96: ['Grmljavina s tučom', '⛈️'], 99: ['Jaka grmljavina s tučom', '⛈️']
+  };
+  var DANI = ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'];
+  function w(c) { return W[c] || ['Nepoznato', '🌡️']; }
+  function t(x) { return Math.round(x) + '°'; }
+  function fail() {
+    body.innerHTML = '<p class="wx-error">Prognoza trenutačno nije dostupna. <a href="https://open-meteo.com/en/docs#latitude=45.40&longitude=14.80" target="_blank" rel="noopener">Open-Meteo</a></p>';
+  }
+  var ctl = window.AbortController ? new AbortController() : null;
+  var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 8000);
+  fetch(URL_, ctl ? { signal: ctl.signal } : {}).then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then(function (d) {
+    clearTimeout(timer);
+    var c = d.current, dl = d.daily;
+    if (!c || !dl || !dl.time) throw new Error('format');
+    var now = w(c.weather_code);
+    var html = '<div class="wx-now">' +
+      '<span class="wx-icon" aria-hidden="true">' + now[1] + '</span>' +
+      '<span class="wx-temp">' + t(c.temperature_2m) + '<small>C</small></span>' +
+      '<span class="wx-desc"><strong>' + now[0] + '</strong><span>💨 Vjetar ' + Math.round(c.wind_speed_10m) + ' km/h</span>' +
+      '<span>Danas ' + t(dl.temperature_2m_min[0]) + ' / ' + t(dl.temperature_2m_max[0]) + '</span></span></div>';
+    if (dl.time.length > 1) {
+      html += '<ul class="wx-days">';
+      for (var i = 1; i < Math.min(3, dl.time.length); i++) {
+        var p = dl.time[i].split('-'), dt = new Date(+p[0], +p[1] - 1, +p[2]), dw = w(dl.weather_code[i]);
+        html += '<li><span class="wx-day">' + DANI[dt.getDay()] + ' ' + (+p[2]) + '. ' + (+p[1]) + '.</span>' +
+          '<span class="wx-dicon" title="' + dw[0] + '">' + dw[1] + '</span>' +
+          '<span class="wx-range">' + t(dl.temperature_2m_min[i]) + ' / ' + t(dl.temperature_2m_max[i]) + '</span></li>';
+      }
+      html += '</ul>';
+    }
+    body.innerHTML = html;
+    box.classList.add('loaded');
+  }).catch(function () { clearTimeout(timer); fail(); });
+})();
+</script>
+
+  <div class="sidebar-box upcoming" data-event-list data-hide-if-empty>
+    <h3>Nadolazeći događaji</h3>
+    <ol class="latest-list">
+      <li data-event-end="1793469600" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-10-28T07:30:00+01:00">28. 10. u 07:30</time></span>
+        <a href="/gorski-kotar.info/delnice-prodaja-cvijeca-svi-sveti/">Prodaja cvijeća za Svi svete na delničkom klizalištu od 28. do 31. listopada</a>
+      </li>
+      <li data-event-end="1793480400" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-10-31T16:00:00+01:00">31. 10. u 16:00</time></span>
+        <a href="/gorski-kotar.info/delnice-drugaciji-halloween/">Drugačiji Halloween u Delnicama: lov na blago, noćna šetnja i fireshow</a>
+      </li>
+      <li data-event-end="1793476800" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-10-31T17:00:00+01:00">31. 10. u 17:00</time></span>
+        <a href="/gorski-kotar.info/halloween-party-lic-dom-kulture/">Halloween party u Liču: maske, glazba i iznenađenja u Domu kulture</a>
+      </li>
+      <li data-event-end="1793476800" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-10-31T18:00:00+01:00">31. 10. u 18:00</time></span>
+        <a href="/gorski-kotar.info/mk-mountain-riders-clubhouse-satir-delnice/">MK Mountain Riders otvaraju klupski prostor u bivšem Satiru</a>
+      </li>
+      <li data-event-end="1793833200" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-04T00:00:00+01:00">4. 11.</time></span>
+        <a href="/gorski-kotar.info/goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/">Goranski risovi: izložba ratnih fotografija i predavanje generala Balena 4. studenoga</a>
+      </li>
+      <li data-event-end="1794153600" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-07T15:00:00+01:00">7. 11. u 15:00</time></span>
+        <a href="/gorski-kotar.info/pcelarski-sajam-skrad/">Prvi pčelarski sajam u Skradu: dva dana goranskog meda</a>
+      </li>
+      <li data-event-end="1794078000" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-07T17:00:00+01:00">7. 11. u 17:00</time></span>
+        <a href="/gorski-kotar.info/noc-spilja-lokve-2026/">Noć špilja u Lokvama: večernja šetnja do Golubinje polušpilje i Lokvarke</a>
+      </li>
+      <li data-event-end="1794139200" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-08T10:00:00+01:00">8. 11. u 10:00</time></span>
+        <a href="/gorski-kotar.info/zimska-liga-kvarnera-fuzine-1-kolo/">Zimska liga Kvarnera „Igor Malešević“ kreće 8. studenoga s Bajera</a>
+      </li>
+      <li data-event-end="1794438000" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-11T00:00:00+01:00">11. 11.</time></span>
+        <a href="/gorski-kotar.info/martinjski-sajam-vrbovsko-2026/">Martinjski sajam u Vrbovskom u srijedu, 11. studenoga</a>
+      </li>
+      <li data-event-end="1795212000" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-20T20:00:00+01:00">20. 11. u 20:00</time></span>
+        <a href="/gorski-kotar.info/postolar-i-vrag-kotar-teatar-delnice/">Kotar Teatar u Noći kazališta dovodi „Postolara i vraga” u Radnički dom</a>
+      </li>
+      <li data-event-end="1798757940" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-27T18:30:00+01:00">27. 11. u 18:30</time></span>
+        <a href="/gorski-kotar.info/advent-na-jezeru-lepenica/">Advent na Lepenici: kino na brodu, Djed Mraz i doček Nove godine na jezeru</a>
+      </li>
+      <li data-event-end="1795867200" data-hide-when-past>
+        <span class="latest-time"><time datetime="2026-11-28T10:00:00+01:00">28. 11. u 10:00</time></span>
+        <a href="/gorski-kotar.info/delnice-humanitarni-turnir-odbojka-svi-za-djecu/">„Svi za djecu“: 2. humanitarni turnir u odbojci u Delnicama</a>
+      </li>
+    </ol>
+    <p class="sidebar-more"><a href="/gorski-kotar.info/dogadaji/">Svi događaji →</a></p>
+  </div>
+  <div class="sidebar-box latest">
+    <h3>Najnovije</h3>
+    <ol class="latest-list">
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T10:40:00+01:00" data-short>30. 10. u 10:40</time></span>
+        <a href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T08:50:00+01:00" data-short>30. 10. u 08:50</time></span>
+        <a href="/gorski-kotar.info/kastel-zrinskih-brod-na-kupi/">Kaštel Zrinskih u Brodu na Kupi – dvor Petra Zrinskog uz Kupu</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T07:45:00+01:00" data-short>30. 10. u 07:45</time></span>
+        <a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T07:25:00+01:00" data-short>30. 10. u 07:25</time></span>
+        <a href="/gorski-kotar.info/vrbovsko-obrt-noemi-svijece-lampioni/">Iz okolice Bjelovara u Vrbovsko: nova obitelj donijela obrt za ručno rađene svijeće</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T07:15:00+01:00" data-short>30. 10. u 07:15</time></span>
+        <a href="/gorski-kotar.info/delnice-rebalans-proracuna-vrtic-hlojkica/">Delnice: prijedlog rebalansa zbog vrtića Hlojkica – stepenice prema kolodvoru sele u 2027., igralište otpada</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-29T21:40:00+01:00" data-short>29. 10. u 21:40</time></span>
+        <a href="/gorski-kotar.info/cabar-dimnjacari-prijave/">Dimnjačari uskoro dolaze u Čabar – Grad prikuplja prijave</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-29T21:30:00+01:00" data-short>29. 10. u 21:30</time></span>
+        <a href="/gorski-kotar.info/cabar-bozicni-pokloni-djeca-do-3-godine/">Grad Čabar priprema božićne poklone za djecu do 3 godine – roditelji se javljaju do 2. studenoga</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-29T17:10:00+01:00" data-short>29. 10. u 17:10</time></span>
+        <a href="/gorski-kotar.info/pochobradsky-zbasnik-bajke-vrbovsko/">Zlatko Pochobradsky i Andrej Zbašnik u Vrbovskom predstavili zbirku „Bajke”</a>
+      </li>
+    </ol>
+  </div>
+  
+<div class="sidebar-box oglas oglas-s-fotom sb-naslovnica" role="complementary" aria-label="Oglas: Restoran & smještaj Breza">
+  <span class="oglas-tag">Oglas</span>
+  <a class="oglas-foto" href="https://breza-rg.hr/" target="_blank" rel="sponsored noopener" tabindex="-1"><img src="/gorski-kotar.info/assets/images/oglasi/breza-ravna-gora.jpg" alt="Restoran i smještaj Breza u Ravnoj Gori, pogled iz zraka" width="800" height="533" loading="lazy"></a>
+  <a class="oglas-logo sirok" href="https://breza-rg.hr/" target="_blank" rel="sponsored noopener">
+    <img src="/gorski-kotar.info/assets/images/oglasi/breza-logo.png" alt="Logo Breza – goranska kuhinja, Ravna Gora" width="480" height="236" loading="lazy">
+  </a>
+  <p class="oglas-name">Restoran & smještaj Breza <span>· Ravna Gora</span></p>
+  <p class="oglas-desc">Autentična goranska kuhinja – divljač, šumske gljive, umak od domaćih borovnica – i 30 soba za odmor, poslovni boravak i sportske pripreme.</p><p class="oglas-slogan">Radno vrijeme: svaki dan 8 – 22 h</p>
+  <p class="oglas-contact"><a href="tel:+385955105129">+385 95 510 5129</a>
+  </p>
+  <a class="oglas-btn" href="https://breza-rg.hr/" target="_blank" rel="sponsored noopener">Posjetite stranicu →</a>
+</div>
+<aside class="oglas-mali sb-naslovnica" aria-label="Oglas: Shamrock Pub">
+  <a class="om-link" href="https://www.instagram.com/pub_ravnagora/" target="_blank" rel="noopener sponsored">
+    <img class="om-logo" src="/gorski-kotar.info/assets/images/oglasi/shamrock-pub-ravna-gora.jpg" alt="Logo Shamrock Pub Ravna Gora" width="56" height="56" loading="lazy">
+    <span class="om-body">
+      <span class="om-name">Shamrock Pub <span>· Ravna Gora</span></span><span class="om-text">Prati nas na Instagramu</span>
+    </span>
+    <span class="om-arrow" aria-hidden="true">›</span>
+  </a>
+  <span class="om-tag">Oglas</span>
+</aside>
+  <div class="sidebar-box">
+    <h3>Mjesta</h3>
+    <ul class="cat-list">
+      <li><a href="/gorski-kotar.info/kategorije/#delnice">Delnice</a> <span class="count">31</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#fuzine">Fužine</a> <span class="count">11</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#lokve">Lokve</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#mrkopalj">Mrkopalj</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#cabar">Čabar</a> <span class="count">8</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#skrad">Skrad</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#ravna-gora">Ravna Gora</a> <span class="count">7</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#vrbovsko">Vrbovsko</a> <span class="count">13</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#brod-moravice">Brod Moravice</a> <span class="count">3</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#gorski-kotar">Gorski kotar</a> <span class="count">17</span></li>
+    </ul>
+  </div>
+<aside class="oglas-mali sb-naslovnica" aria-label="Oglas: Caffe bar Tiffany">
+  <a class="om-link" href="https://www.instagram.com/cb_tiffany_delnice/" target="_blank" rel="noopener sponsored">
+    <img class="om-logo" src="/gorski-kotar.info/assets/images/oglasi/tiffany-delnice.jpg" alt="Logo Caffe bar Tiffany Delnice" width="56" height="56" loading="lazy">
+    <span class="om-body">
+      <span class="om-name">Caffe bar Tiffany <span>· Delnice</span></span><span class="om-text">Prati nas na Instagramu</span>
+    </span>
+    <span class="om-arrow" aria-hidden="true">›</span>
+  </a>
+  <span class="om-tag">Oglas</span>
+</aside>
+  <div class="sidebar-box">
+    <h3>Vrste</h3>
+    <ul class="cat-list">
+      <li><a href="/gorski-kotar.info/kategorije/#dogadanja">Događanja</a> <span class="count">24</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#crna-kronika">Crna kronika</a> <span class="count">3</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#sport">Sport</a> <span class="count">11</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#priroda">Priroda</a> <span class="count">2</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#promet">Promet</a> <span class="count">2</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#kultura">Kultura</a> <span class="count">9</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#zanimljivosti">Zanimljivosti</a> <span class="count">12</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#povijest">Povijest</a> <span class="count">9</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#opcinske-vijesti">Općinske vijesti</a> <span class="count">22</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#drustvo">Društvo</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#zaposlenje">Zaposlenje</a> <span class="count">1</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#aktualno">Aktualno</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#pregled-tjedna">Pregled tjedna</a> <span class="count">0</span></li>
+    </ul>
+    <p class="sidebar-more"><a href="/gorski-kotar.info/kategorije/">Sve kategorije →</a></p>
+  </div>
+  <div class="sidebar-box">
+    <h3>Serijali</h3>
+    <ul class="cat-list">
+      <li><a href="/gorski-kotar.info/kategorije/#povijest-gk">POVIJEST GK</a> <span class="count">7</span></li>
+    </ul>
+  </div>
+  <div class="sidebar-box">
+    <h3>O portalu</h3>
+    <p><strong>Gorski Kotar Info</strong> – vijesti iz srca prirode. Novosti, događanja i priče iz svih mjesta Gorskog kotara.</p>
+  </div>
+</aside>
+
+    </div>
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon" aria-hidden="true">🌲</span>
+        <div>
+          <strong>Gorski Kotar Info</strong>
+          <p>Vijesti iz srca prirode</p>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Podnožje"><a href="/gorski-kotar.info/">Početna</a><a href="/gorski-kotar.info/dogadaji/">Događaji</a><a href="/gorski-kotar.info/kalendar/">Kalendar</a><a href="/gorski-kotar.info/kategorije/">Kategorije</a><a href="/gorski-kotar.info/povijest/">Povijest</a><a href="/gorski-kotar.info/zaposlenje/">Zaposlenje</a>
+        <a href="/gorski-kotar.info/pretraga/">Pretraga</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Gorski Kotar Info · Vijesti iz srca prirode</p>
+    </div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Brza navigacija">
+    <a href="/gorski-kotar.info/" class="active" aria-current="page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 12.5h7M7 16h4"/></svg>
+      <span>Vijesti</span>
+    </a>
+    <a href="/gorski-kotar.info/dogadaji/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      <span>Događanja</span>
+    </a>
+    <a href="/gorski-kotar.info/kategorije/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg>
+      <span>Kategorije</span>
+    </a>
+    <a href="/gorski-kotar.info/pretraga/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <span>Traži</span>
+    </a>
+    <a href="/gorski-kotar.info/povijest/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/><path d="M12 8v4.5l3 2"/></svg>
+      <span>Povijest</span>
+    </a>
+  </nav>
+
+  <script>
+  (function () {
+    var header = document.getElementById('site-header');
+    var btn = document.getElementById('menu-toggle');
+    if (!header || !btn) return;
+    function setOpen(open) {
+      header.classList.toggle('menu-open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Zatvori izbornik' : 'Otvori izbornik');
+    }
+    btn.addEventListener('click', function () { setOpen(!header.classList.contains('menu-open')); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && header.classList.contains('menu-open')) { setOpen(false); btn.focus(); }
+    });
+    header.querySelectorAll('.main-nav a, .cat-link').forEach(function (a) {
+      a.addEventListener('click', function () { setOpen(false); });
+    });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 900) setOpen(false); });
+  })();
+  </script>
+  <script>window.SITE_BASE = "/gorski-kotar.info";</script>
+  <script src="/gorski-kotar.info/assets/js/site.js" defer></script>
+  <script src="/gorski-kotar.info/assets/js/kategorije.js" defer></script>
+<script>
+  /* prijelomna vijest: sakrij traku/oznake nakon `prijelomna_do` */
+  (function () { var now = Date.now() / 1000; document.querySelectorAll('[data-prijelomna-do]').forEach(function (e) { if (now > +e.dataset.prijelomnaDo) e.hidden = true; }); })();
+</script>
+  <script data-goatcounter="https://mojgk.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

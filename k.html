@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Kalendar događanja | Gorski Kotar Info</title>
+  <meta name="description" content="Vijesti iz srca prirode">
+  <meta name="theme-color" content="#1a4d2e">
+  <link rel="stylesheet" href="/gorski-kotar.info/assets/css/style.css">
+</head><body class="has-bottom-nav">
+  <a class="skip-link" href="#sadrzaj">Preskoči na sadržaj</a>
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="/gorski-kotar.info/" class="logo" aria-label="Gorski Kotar Info – naslovnica">
+        <span class="logo-icon" aria-hidden="true">🌲</span>
+        <span class="logo-text">
+          <span class="site-title">Gorski Kotar Info</span>
+          <span class="tagline">Vijesti iz srca prirode</span>
+        </span>
+      </a>
+      <nav class="main-nav" id="glavni-izbornik" aria-label="Glavna navigacija">
+        <a href="/gorski-kotar.info/">Početna</a>
+        <a href="/gorski-kotar.info/dogadaji/">Događaji</a>
+        <a href="/gorski-kotar.info/kalendar/" class="current" aria-current="page">Kalendar</a>
+        <a href="/gorski-kotar.info/kategorije/">Kategorije</a>
+        <a href="/gorski-kotar.info/povijest/">Povijest</a>
+        <a href="/gorski-kotar.info/zaposlenje/">Zaposlenje</a>
+      </nav>
+      <form class="search" id="header-search" action="/gorski-kotar.info/pretraga/" method="get" role="search" autocomplete="off">
+        <label for="search-input" class="visually-hidden">Pretraži članke</label>
+        <input id="search-input" type="search" name="q" placeholder="Pretraži članke…" aria-autocomplete="list" aria-controls="search-results">
+        <button type="submit" aria-label="Traži">🔍</button>
+        <div id="search-results" class="search-results" role="listbox" hidden></div>
+      </form>
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="glavni-izbornik" aria-label="Otvori izbornik">
+        <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+    <nav class="m-chips" aria-label="Rubrike">
+      <div class="container m-chips-inner">
+        <a class="m-chip" href="/gorski-kotar.info/#blok-vijesti">Vijesti</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-poslovi-opcine">Poslovi općine</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-zanimljivosti">Zanimljivosti</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-dogadanja">Događanja</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-sport">Sport</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-crna-kronika">Crna kronika</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-kultura">Kultura</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-drustvo">Društvo</a>
+        <a class="m-chip" href="/gorski-kotar.info/#blok-povijest-gk">Povijest GK</a>
+        <a class="m-chip m-chip-zap" href="/gorski-kotar.info/zaposlenje/">💼 Zaposlenje</a>
+        <span class="m-chip-sep" aria-hidden="true"></span>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=delnice">Delnice</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=fuzine">Fužine</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=lokve">Lokve</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=mrkopalj">Mrkopalj</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=cabar">Čabar</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=skrad">Skrad</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=ravna-gora">Ravna Gora</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=vrbovsko">Vrbovsko</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=brod-moravice">Brod Moravice</a>
+        <a class="m-chip m-chip-loc" href="/gorski-kotar.info/?kategorija=gorski-kotar">Gorski kotar</a>
+      </div>
+    </nav>
+    <div class="cat-bar">
+      <div class="container cat-bar-inner">
+        <a href="/gorski-kotar.info/#delnice" class="cat-link loc">Delnice</a><a href="/gorski-kotar.info/#fuzine" class="cat-link loc">Fužine</a><a href="/gorski-kotar.info/#lokve" class="cat-link loc">Lokve</a><a href="/gorski-kotar.info/#mrkopalj" class="cat-link loc">Mrkopalj</a><a href="/gorski-kotar.info/#cabar" class="cat-link loc">Čabar</a><a href="/gorski-kotar.info/#skrad" class="cat-link loc">Skrad</a><a href="/gorski-kotar.info/#ravna-gora" class="cat-link loc">Ravna Gora</a><a href="/gorski-kotar.info/#vrbovsko" class="cat-link loc">Vrbovsko</a><a href="/gorski-kotar.info/#brod-moravice" class="cat-link loc">Brod Moravice</a><a href="/gorski-kotar.info/#gorski-kotar" class="cat-link loc">Gorski kotar</a>
+        <span class="cat-sep" aria-hidden="true">|</span>
+        <a href="/gorski-kotar.info/#dogadanja" class="cat-link">Događanja</a><a href="/gorski-kotar.info/#crna-kronika" class="cat-link">Crna kronika</a><a href="/gorski-kotar.info/#sport" class="cat-link">Sport</a><a href="/gorski-kotar.info/#priroda" class="cat-link">Priroda</a><a href="/gorski-kotar.info/#promet" class="cat-link">Promet</a><a href="/gorski-kotar.info/#kultura" class="cat-link">Kultura</a><a href="/gorski-kotar.info/#zanimljivosti" class="cat-link">Zanimljivosti</a><a href="/gorski-kotar.info/#povijest" class="cat-link">Povijest</a><a href="/gorski-kotar.info/#opcinske-vijesti" class="cat-link">Općinske vijesti</a><a href="/gorski-kotar.info/#drustvo" class="cat-link">Društvo</a><a href="/gorski-kotar.info/#zaposlenje" class="cat-link">Zaposlenje</a><a href="/gorski-kotar.info/#aktualno" class="cat-link">Aktualno</a><a href="/gorski-kotar.info/#pregled-tjedna" class="cat-link">Pregled tjedna</a>
+        <span class="cat-sep" aria-hidden="true">|</span>
+        <a href="/gorski-kotar.info/#povijest-gk" class="cat-link series">POVIJEST GK</a>
+      </div>
+    </div>
+  </header>
+  
+
+  <main class="container" id="sadrzaj">
+    
+    <div class="with-sidebar">
+      <div class="main-col">
+        <div class="events-page kalendar-page">
+  <h1>Kalendar događanja</h1>
+  <p class="intro">Svi najavljeni događaji u Gorskom kotaru po datumu. Popis s karticama je na stranici
+  <a href="/gorski-kotar.info/dogadaji/">Događaji</a>.</p>
+  <p><button type="button" class="filter-btn" id="kal-prosli" aria-pressed="false">Prikaži prošla događanja</button></p>
+  <div class="kalendar" id="kalendar">
+    <section class="kal-mjesec" data-kal-mjesec="">
+      <h2>Listopad 2026.</h2>
+      <ul class="kal-lista">
+        <li class="kal-stavka" data-kal-end="1792778400">
+          <div class="kal-datum"><span class="kal-dan">pet</span><span class="kal-broj">23.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/delnice-predstavljanje-knjige-marko-smole/">U Delnicama predstavljanje knjige Marka Smolea o dolini gornje Kupe</a>
+            <span class="meta">🕔 17:00 · 📍 Gradska knjižnica Janet Majnarich, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1792839600">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">24.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/klub-lijecenih-alkoholicara-delnice-60-godina/">Klub liječenih alkoholičara Delnice slavi 60 godina rada</a>
+            <span class="meta">🕔 10:00 · 📍 Radnički dom, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793138400">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">24.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/aktivnosti-za-umirovljenike-gorski-kotar-listopad/">Aktivnosti za umirovljenike u Gorskom kotaru do kraja listopada</a>
+            <span class="meta">🕔 17:00 · 📍 Gorski kotar (više lokacija) · Gorski kotar</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793138400">
+          <div class="kal-datum"><span class="kal-dan">uto</span><span class="kal-broj">27.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/crnogorac-u-krevetu-delnice-veceras/">Večeras u Radničkom domu: komedija „Crnogorac u krevetu“</a>
+            <span class="meta">🕔 20:00 · 📍 Radnički dom, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793469600">
+          <div class="kal-datum"><span class="kal-dan">sri</span><span class="kal-broj">28.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/delnice-prodaja-cvijeca-svi-sveti/">Prodaja cvijeća za Svi svete na delničkom klizalištu od 28. do 31. listopada</a>
+            <span class="meta">🕔 07:30 · 📍 Klizalište, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793192400">
+          <div class="kal-datum"><span class="kal-dan">sri</span><span class="kal-broj">28.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/goranski-risovi-35-godina-proslava-delnice/">Goranski risovi slave 35 godina: središnja proslava sutra u Delnicama</a>
+            <span class="meta">🕔 11:00 · 📍 Crkva sv. Ivana Krstitelja, Gradsko groblje, Trg 138. brigade HV-a i Radnički dom, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793214000">
+          <div class="kal-datum"><span class="kal-dan">sri</span><span class="kal-broj">28.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/trsce-meteootkrica-zoran-vakula/">Zoran Vakula u Tršću: „Meteootkrića“ u srijedu u Domu kulture</a>
+            <span class="meta">🕔 17:00 · 📍 Dom kulture Tršće · Čabar</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793480400">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">31.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/delnice-drugaciji-halloween/">Drugačiji Halloween u Delnicama: lov na blago, noćna šetnja i fireshow</a>
+            <span class="meta">🕔 16:00 · 📍 Park kralja Tomislava i Japlenški vrh, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793476800">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">31.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/halloween-party-lic-dom-kulture/">Halloween party u Liču: maske, glazba i iznenađenja u Domu kulture</a>
+            <span class="meta">🕔 17:00 · 📍 Dom kulture Lič, Vicićeva 31 · Fužine</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793491200">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">31.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">Goranin – Rikard Benčić (9. kolo 1. ŽNL PGŽ)</a>
+            <span class="meta">🕔 17:30 · 📍 Omladinsko igralište, Rijeka</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1793476800">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">31.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/mk-mountain-riders-clubhouse-satir-delnice/">MK Mountain Riders otvaraju klupski prostor u bivšem Satiru</a>
+            <span class="meta">🕔 18:00 · 📍 Bivša diskoteka Satir, Školska 24, Delnice · Delnice</span>
+          </div>
+        </li></ul></section>
+    <section class="kal-mjesec" data-kal-mjesec="">
+      <h2>Studeni 2026.</h2>
+      <ul class="kal-lista">
+        <li class="kal-stavka" data-kal-end="1793833200">
+          <div class="kal-datum"><span class="kal-dan">sri</span><span class="kal-broj">4.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/">Goranski risovi: izložba ratnih fotografija i predavanje generala Balena 4. studenoga</a>
+            <span class="meta">🕔 vrijeme nije objavljeno · 📍 Delnice (točno mjesto bit će naknadno objavljeno) · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1794153600">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">7.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/pcelarski-sajam-skrad/">Prvi pčelarski sajam u Skradu: dva dana goranskog meda</a>
+            <span class="meta">🕔 15:00 · 📍 Dom kulture Skrad, Josipa Blaževića Blaža 8 · Skrad</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1794078000">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">7.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/noc-spilja-lokve-2026/">Noć špilja u Lokvama: večernja šetnja do Golubinje polušpilje i Lokvarke</a>
+            <span class="meta">🕔 17:00 · 📍 DKC „Žaba“, Lokve · Lokve</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1794139200">
+          <div class="kal-datum"><span class="kal-dan">ned</span><span class="kal-broj">8.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/zimska-liga-kvarnera-fuzine-1-kolo/">Zimska liga Kvarnera „Igor Malešević“ kreće 8. studenoga s Bajera</a>
+            <span class="meta">🕔 10:00 · 📍 Jezero Bajer, Fužine · Fužine</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1794438000">
+          <div class="kal-datum"><span class="kal-dan">sri</span><span class="kal-broj">11.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/martinjski-sajam-vrbovsko-2026/">Martinjski sajam u Vrbovskom u srijedu, 11. studenoga</a>
+            <span class="meta">🕔 vrijeme nije objavljeno · 📍 Gradska tržnica, Vrbovsko · Vrbovsko</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1795212000">
+          <div class="kal-datum"><span class="kal-dan">pet</span><span class="kal-broj">20.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/postolar-i-vrag-kotar-teatar-delnice/">Kotar Teatar u Noći kazališta dovodi „Postolara i vraga” u Radnički dom</a>
+            <span class="meta">🕔 20:00 · 📍 Radnički dom, Školska ulica, Delnice · Delnice</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1798757940">
+          <div class="kal-datum"><span class="kal-dan">pet</span><span class="kal-broj">27.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/advent-na-jezeru-lepenica/">Advent na Lepenici: kino na brodu, Djed Mraz i doček Nove godine na jezeru</a>
+            <span class="meta">🕔 18:30 · 📍 Jezero Lepenica, Fužine · Fužine</span>
+          </div>
+        </li>
+        <li class="kal-stavka" data-kal-end="1795867200">
+          <div class="kal-datum"><span class="kal-dan">sub</span><span class="kal-broj">28.</span></div>
+          <div class="kal-opis">
+            <a href="/gorski-kotar.info/delnice-humanitarni-turnir-odbojka-svi-za-djecu/">„Svi za djecu“: 2. humanitarni turnir u odbojci u Delnicama</a>
+            <span class="meta">🕔 10:00 · 📍 Sportska dvorana Delnice · Delnice</span>
+          </div>
+        </li></ul></section>
+  </div>
+  <p class="no-results" id="kal-prazno" hidden="">Trenutno nema najavljenih događaja.</p>
+</div>
+<script>
+(function () {
+  var now = Date.now() / 1000, btn = document.getElementById('kal-prosli'), show = false;
+  function apply() {
+    var any = 0;
+    document.querySelectorAll('[data-kal-mjesec]').forEach(function (sec) {
+      var vis = 0;
+      sec.querySelectorAll('[data-kal-end]').forEach(function (li) {
+        var past = Number(li.getAttribute('data-kal-end')) < now;
+        li.classList.toggle('is-past', past);
+        li.hidden = past && !show;
+        if (!li.hidden) vis++;
+      });
+      sec.hidden = vis === 0; any += vis;
+    });
+    document.getElementById('kal-prazno').hidden = any > 0;
+    btn.textContent = show ? 'Sakrij prošla događanja' : 'Prikaži prošla događanja';
+    btn.setAttribute('aria-pressed', show);
+  }
+  btn.addEventListener('click', function () { show = !show; apply(); });
+  apply();
+})();
+</script>
+
+
+      </div>
+      <aside class="site-sidebar">
+  <div class="sidebar-box weather" id="vrijeme-delnice" aria-live="polite">
+  <h3>Vrijeme · Delnice</h3>
+  <div class="wx-body" data-wx-body>
+    <p class="wx-loading">Učitavam prognozu…</p>
+  </div>
+  <p class="wx-credit">Podaci: <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
+</div>
+<script>
+(function () {
+  var box = document.getElementById('vrijeme-delnice');
+  if (!box || box.dataset.ready) return; box.dataset.ready = '1';
+  var body = box.querySelector('[data-wx-body]');
+  var URL_ = 'https://api.open-meteo.com/v1/forecast?latitude=45.40&longitude=14.80&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=Europe/Zagreb&forecast_days=3';
+  var W = {
+    0: ['Vedro', '☀️'], 1: ['Pretežno vedro', '🌤️'], 2: ['Djelomično oblačno', '⛅'], 3: ['Oblačno', '☁️'],
+    45: ['Magla', '🌫️'], 48: ['Magla s injem', '🌫️'],
+    51: ['Slaba rosulja', '🌦️'], 53: ['Rosulja', '🌦️'], 55: ['Jaka rosulja', '🌧️'],
+    56: ['Ledena rosulja', '🌧️'], 57: ['Jaka ledena rosulja', '🌧️'],
+    61: ['Slaba kiša', '🌦️'], 63: ['Kiša', '🌧️'], 65: ['Jaka kiša', '🌧️'],
+    66: ['Ledena kiša', '🌧️'], 67: ['Jaka ledena kiša', '🌧️'],
+    71: ['Slab snijeg', '🌨️'], 73: ['Snijeg', '🌨️'], 75: ['Jak snijeg', '❄️'], 77: ['Zrnati snijeg', '🌨️'],
+    80: ['Slabi pljuskovi', '🌦️'], 81: ['Pljuskovi', '🌧️'], 82: ['Jaki pljuskovi', '⛈️'],
+    85: ['Snježni pljuskovi', '🌨️'], 86: ['Jaki snježni pljuskovi', '❄️'],
+    95: ['Grmljavina', '⛈️'], 96: ['Grmljavina s tučom', '⛈️'], 99: ['Jaka grmljavina s tučom', '⛈️']
+  };
+  var DANI = ['ned', 'pon', 'uto', 'sri', 'čet', 'pet', 'sub'];
+  function w(c) { return W[c] || ['Nepoznato', '🌡️']; }
+  function t(x) { return Math.round(x) + '°'; }
+  function fail() {
+    body.innerHTML = '<p class="wx-error">Prognoza trenutačno nije dostupna. <a href="https://open-meteo.com/en/docs#latitude=45.40&longitude=14.80" target="_blank" rel="noopener">Open-Meteo</a></p>';
+  }
+  var ctl = window.AbortController ? new AbortController() : null;
+  var timer = setTimeout(function () { if (ctl) ctl.abort(); }, 8000);
+  fetch(URL_, ctl ? { signal: ctl.signal } : {}).then(function (r) {
+    if (!r.ok) throw new Error(r.status);
+    return r.json();
+  }).then(function (d) {
+    clearTimeout(timer);
+    var c = d.current, dl = d.daily;
+    if (!c || !dl || !dl.time) throw new Error('format');
+    var now = w(c.weather_code);
+    var html = '<div class="wx-now">' +
+      '<span class="wx-icon" aria-hidden="true">' + now[1] + '</span>' +
+      '<span class="wx-temp">' + t(c.temperature_2m) + '<small>C</small></span>' +
+      '<span class="wx-desc"><strong>' + now[0] + '</strong><span>💨 Vjetar ' + Math.round(c.wind_speed_10m) + ' km/h</span>' +
+      '<span>Danas ' + t(dl.temperature_2m_min[0]) + ' / ' + t(dl.temperature_2m_max[0]) + '</span></span></div>';
+    if (dl.time.length > 1) {
+      html += '<ul class="wx-days">';
+      for (var i = 1; i < Math.min(3, dl.time.length); i++) {
+        var p = dl.time[i].split('-'), dt = new Date(+p[0], +p[1] - 1, +p[2]), dw = w(dl.weather_code[i]);
+        html += '<li><span class="wx-day">' + DANI[dt.getDay()] + ' ' + (+p[2]) + '. ' + (+p[1]) + '.</span>' +
+          '<span class="wx-dicon" title="' + dw[0] + '">' + dw[1] + '</span>' +
+          '<span class="wx-range">' + t(dl.temperature_2m_min[i]) + ' / ' + t(dl.temperature_2m_max[i]) + '</span></li>';
+      }
+      html += '</ul>';
+    }
+    body.innerHTML = html;
+    box.classList.add('loaded');
+  }).catch(function () { clearTimeout(timer); fail(); });
+})();
+</script>
+
+  <div class="sidebar-box latest">
+    <h3>Najnovije</h3>
+    <ol class="latest-list">
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T10:40:00+01:00" data-short>30. 10. u 10:40</time></span>
+        <a href="/gorski-kotar.info/dogadanja-gorski-kotar-tjedan-30-10-8-11/">Događanja u Gorskom kotaru – tjedan 30. 10. – 8. 11. 2026.</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T08:50:00+01:00" data-short>30. 10. u 08:50</time></span>
+        <a href="/gorski-kotar.info/kastel-zrinskih-brod-na-kupi/">Kaštel Zrinskih u Brodu na Kupi – dvor Petra Zrinskog uz Kupu</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T07:45:00+01:00" data-short>30. 10. u 07:45</time></span>
+        <a href="/gorski-kotar.info/goranin-rikard-bencic-najava-9-kolo/">Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T07:25:00+01:00" data-short>30. 10. u 07:25</time></span>
+        <a href="/gorski-kotar.info/vrbovsko-obrt-noemi-svijece-lampioni/">Iz okolice Bjelovara u Vrbovsko: nova obitelj donijela obrt za ručno rađene svijeće</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-30T07:15:00+01:00" data-short>30. 10. u 07:15</time></span>
+        <a href="/gorski-kotar.info/delnice-rebalans-proracuna-vrtic-hlojkica/">Delnice: prijedlog rebalansa zbog vrtića Hlojkica – stepenice prema kolodvoru sele u 2027., igralište otpada</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-29T21:40:00+01:00" data-short>29. 10. u 21:40</time></span>
+        <a href="/gorski-kotar.info/cabar-dimnjacari-prijave/">Dimnjačari uskoro dolaze u Čabar – Grad prikuplja prijave</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-29T21:30:00+01:00" data-short>29. 10. u 21:30</time></span>
+        <a href="/gorski-kotar.info/cabar-bozicni-pokloni-djeca-do-3-godine/">Grad Čabar priprema božićne poklone za djecu do 3 godine – roditelji se javljaju do 2. studenoga</a>
+      </li>
+      <li>
+        <span class="latest-time"><time datetime="2026-10-29T17:10:00+01:00" data-short>29. 10. u 17:10</time></span>
+        <a href="/gorski-kotar.info/pochobradsky-zbasnik-bajke-vrbovsko/">Zlatko Pochobradsky i Andrej Zbašnik u Vrbovskom predstavili zbirku „Bajke”</a>
+      </li>
+    </ol>
+  </div>
+  
+<div class="sidebar-box oglas" role="complementary" aria-label="Oglas: Goring d.o.o.">
+  <span class="oglas-tag">Oglas</span>
+  <a class="oglas-logo" href="https://goringdoo.eu/" target="_blank" rel="sponsored noopener">
+    <img src="/gorski-kotar.info/assets/images/oglasi/goring-logo.svg" alt="Logo Goring d.o.o. Ravna Gora" width="120" height="136" loading="lazy">
+  </a>
+  <p class="oglas-name">Goring d.o.o. <span>· Ravna Gora</span></p>
+  <p class="oglas-desc">Projektiranje, niskogradnja i nadzor za stambene i infrastrukturne projekte.</p><p class="oglas-slogan">Vrhunska kvaliteta, stručnost i pravovremena realizacija.</p>
+  <p class="oglas-contact"><a href="tel:+38598257065">+385 98 257 065</a><br><a href="mailto:goringinfo@gmail.com">goringinfo@gmail.com</a>
+  </p>
+  <a class="oglas-btn" href="https://goringdoo.eu/" target="_blank" rel="sponsored noopener">Posjetite stranicu →</a>
+</div>
+<aside class="oglas-mali" aria-label="Oglas: Shamrock Pub">
+  <a class="om-link" href="https://www.instagram.com/pub_ravnagora/" target="_blank" rel="noopener sponsored">
+    <img class="om-logo" src="/gorski-kotar.info/assets/images/oglasi/shamrock-pub-ravna-gora.jpg" alt="Logo Shamrock Pub Ravna Gora" width="56" height="56" loading="lazy">
+    <span class="om-body">
+      <span class="om-name">Shamrock Pub <span>· Ravna Gora</span></span><span class="om-text">Prati nas na Instagramu</span>
+    </span>
+    <span class="om-arrow" aria-hidden="true">›</span>
+  </a>
+  <span class="om-tag">Oglas</span>
+</aside>
+  <div class="sidebar-box">
+    <h3>Mjesta</h3>
+    <ul class="cat-list">
+      <li><a href="/gorski-kotar.info/kategorije/#delnice">Delnice</a> <span class="count">31</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#fuzine">Fužine</a> <span class="count">11</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#lokve">Lokve</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#mrkopalj">Mrkopalj</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#cabar">Čabar</a> <span class="count">8</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#skrad">Skrad</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#ravna-gora">Ravna Gora</a> <span class="count">7</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#vrbovsko">Vrbovsko</a> <span class="count">13</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#brod-moravice">Brod Moravice</a> <span class="count">3</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#gorski-kotar">Gorski kotar</a> <span class="count">17</span></li>
+    </ul>
+  </div>
+<aside class="oglas-mali" aria-label="Oglas: Caffe bar Tiffany">
+  <a class="om-link" href="https://www.instagram.com/cb_tiffany_delnice/" target="_blank" rel="noopener sponsored">
+    <img class="om-logo" src="/gorski-kotar.info/assets/images/oglasi/tiffany-delnice.jpg" alt="Logo Caffe bar Tiffany Delnice" width="56" height="56" loading="lazy">
+    <span class="om-body">
+      <span class="om-name">Caffe bar Tiffany <span>· Delnice</span></span><span class="om-text">Prati nas na Instagramu</span>
+    </span>
+    <span class="om-arrow" aria-hidden="true">›</span>
+  </a>
+  <span class="om-tag">Oglas</span>
+</aside>
+  <div class="sidebar-box">
+    <h3>Vrste</h3>
+    <ul class="cat-list">
+      <li><a href="/gorski-kotar.info/kategorije/#dogadanja">Događanja</a> <span class="count">24</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#crna-kronika">Crna kronika</a> <span class="count">3</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#sport">Sport</a> <span class="count">11</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#priroda">Priroda</a> <span class="count">2</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#promet">Promet</a> <span class="count">2</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#kultura">Kultura</a> <span class="count">9</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#zanimljivosti">Zanimljivosti</a> <span class="count">12</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#povijest">Povijest</a> <span class="count">9</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#opcinske-vijesti">Općinske vijesti</a> <span class="count">22</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#drustvo">Društvo</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#zaposlenje">Zaposlenje</a> <span class="count">1</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#aktualno">Aktualno</a> <span class="count">5</span></li>
+      <li><a href="/gorski-kotar.info/kategorije/#pregled-tjedna">Pregled tjedna</a> <span class="count">0</span></li>
+    </ul>
+    <p class="sidebar-more"><a href="/gorski-kotar.info/kategorije/">Sve kategorije →</a></p>
+  </div>
+  <div class="sidebar-box">
+    <h3>Serijali</h3>
+    <ul class="cat-list">
+      <li><a href="/gorski-kotar.info/kategorije/#povijest-gk">POVIJEST GK</a> <span class="count">7</span></li>
+    </ul>
+  </div>
+  <div class="sidebar-box">
+    <h3>O portalu</h3>
+    <p><strong>Gorski Kotar Info</strong> – vijesti iz srca prirode. Novosti, događanja i priče iz svih mjesta Gorskog kotara.</p>
+  </div>
+</aside>
+
+    </div>
+    
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon" aria-hidden="true">🌲</span>
+        <div>
+          <strong>Gorski Kotar Info</strong>
+          <p>Vijesti iz srca prirode</p>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Podnožje"><a href="/gorski-kotar.info/">Početna</a><a href="/gorski-kotar.info/dogadaji/">Događaji</a><a href="/gorski-kotar.info/kalendar/">Kalendar</a><a href="/gorski-kotar.info/kategorije/">Kategorije</a><a href="/gorski-kotar.info/povijest/">Povijest</a><a href="/gorski-kotar.info/zaposlenje/">Zaposlenje</a>
+        <a href="/gorski-kotar.info/pretraga/">Pretraga</a>
+      </nav>
+      <p class="footer-copy">&copy; 2026 Gorski Kotar Info · Vijesti iz srca prirode</p>
+    </div>
+  </footer>
+
+  <nav class="bottom-nav" aria-label="Brza navigacija">
+    <a href="/gorski-kotar.info/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5z"/><path d="M17 9h3v8a2 2 0 0 1-2 2"/><path d="M7 9h7M7 12.5h7M7 16h4"/></svg>
+      <span>Vijesti</span>
+    </a>
+    <a href="/gorski-kotar.info/dogadaji/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+      <span>Događanja</span>
+    </a>
+    <a href="/gorski-kotar.info/kategorije/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></svg>
+      <span>Kategorije</span>
+    </a>
+    <a href="/gorski-kotar.info/pretraga/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <span>Traži</span>
+    </a>
+    <a href="/gorski-kotar.info/povijest/">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/><path d="M12 8v4.5l3 2"/></svg>
+      <span>Povijest</span>
+    </a>
+  </nav>
+
+  <script>
+  (function () {
+    var header = document.getElementById('site-header');
+    var btn = document.getElementById('menu-toggle');
+    if (!header || !btn) return;
+    function setOpen(open) {
+      header.classList.toggle('menu-open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Zatvori izbornik' : 'Otvori izbornik');
+    }
+    btn.addEventListener('click', function () { setOpen(!header.classList.contains('menu-open')); });
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && header.classList.contains('menu-open')) { setOpen(false); btn.focus(); }
+    });
+    header.querySelectorAll('.main-nav a, .cat-link').forEach(function (a) {
+      a.addEventListener('click', function () { setOpen(false); });
+    });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 900) setOpen(false); });
+  })();
+  </script>
+  <script>window.SITE_BASE = "/gorski-kotar.info";</script>
+  <script src="/gorski-kotar.info/assets/js/site.js" defer></script>
+  <script src="/gorski-kotar.info/assets/js/kategorije.js" defer></script>
+<script>
+  /* prijelomna vijest: sakrij traku/oznake nakon `prijelomna_do` */
+  (function () { var now = Date.now() / 1000; document.querySelectorAll('[data-prijelomna-do]').forEach(function (e) { if (now > +e.dataset.prijelomnaDo) e.hidden = true; }); })();
+</script>
+  <script data-goatcounter="https://mojgk.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
