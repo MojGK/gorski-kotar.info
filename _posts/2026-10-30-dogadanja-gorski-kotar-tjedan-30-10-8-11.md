@@ -29,7 +29,7 @@ dogadjaji:
     vrijeme: "17:00 – 21:00"
     mjesto: "Dom kulture Lič, Vicićeva 31"
     organizator: "Društvo Naša djeca Fužine"
-    opis: "Maškare, druženje i zabava za djecu."
+    opis: "Glazba i tematska iznenađenja – dođite u kostimu ili pod maskom."
     link: /halloween-party-lic-dom-kulture/
   - naziv: "Goranin – Rikard Benčić (9. kolo 1. ŽNL PGŽ)"
     datum: 2026-10-31
