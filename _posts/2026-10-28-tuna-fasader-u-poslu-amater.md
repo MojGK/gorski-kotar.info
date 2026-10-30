@@ -1,4 +1,5 @@
 ---
+tiktok: true            # TikTok kartica ispod Povezanih članaka
 layout: post
 title: "TUNA FASADER – U POSLU AMATER"
 date: 2026-10-28 17:15:00 +0100
@@ -27,5 +28,3 @@ Za In magazin 2024. rekao je da ga ljudi ili beskrajno vole ili ih neizmjerno ž
 - Jutarnji list, 28. 1. 2023. – [Dobitnici nagrade Zlatni studio](https://www.jutarnji.hr/news/najveci-medijski-spektakl-godine-ovo-su-svi-dobitnici-nagrade-zlatni-studio-15300204)
 - [YouTube kanal Tuna Fasader](https://www.youtube.com/@tunafasader) i statistika kanala ([ReachRanking](https://reachranking.com/youtube/UC2CdLMi-yevC8F3HwONsupQ)), stanje 28. 10. 2026.
 - Video [„Muž od Mire”](https://www.youtube.com/watch?v=Y5ey0ASAgDI) (YouTube)
-
-{% include tiktok-podrska.html %}

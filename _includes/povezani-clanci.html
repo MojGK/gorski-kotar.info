@@ -1,0 +1,59 @@
+{%- comment -%}
+POVEZANI ČLANCI – 3 članka ispod teksta, iznad komentara (bez plugina, Jekyll 3.10 / GitHub Pages).
+Redoslijed odabira (svaka razina popunjava do 3, bez duplikata, najnoviji prvi):
+  0) isti serijal (site.data.kategorije.serijali, npr. POVIJEST GK) – samo ako ga članak ima
+  1) ista lokacija I ista vrsta   2) ista lokacija   3) ista vrsta   4) najnoviji članci
+Preskaču se: trenutni članak, budući članci, te oni s hidden / draft / uklonjeno / removed / povezani_skriveno: true.
+Članak može isključiti blok s `povezani: false`.
+{%- endcomment -%}
+{%- if page.povezani != false -%}
+{%- assign pc_ser = "" -%}
+{%- for s in site.data.kategorije.serijali -%}{%- if page.categories contains s.name -%}{%- assign pc_ser = s.name -%}{%- endif -%}{%- endfor -%}
+{%- assign pc_now = site.time | date: "%s" | plus: 0 -%}
+{%- assign pc_picked = "" | split: "" -%}
+{%- assign pc_seen = "|" | append: page.url | append: "|" -%}
+{%- for pc_tier in (0..4) -%}
+  {%- if pc_picked.size >= 3 -%}{%- break -%}{%- endif -%}
+  {%- if pc_tier == 0 and pc_ser == "" -%}{%- continue -%}{%- endif -%}
+  {%- for p in site.posts -%}
+    {%- if pc_picked.size >= 3 -%}{%- break -%}{%- endif -%}
+    {%- assign pc_key = "|" | append: p.url | append: "|" -%}
+    {%- if pc_seen contains pc_key -%}{%- continue -%}{%- endif -%}
+    {%- if p.hidden or p.draft or p.uklonjeno or p.removed or p.povezani_skriveno -%}{%- continue -%}{%- endif -%}
+    {%- assign pc_d = p.date | date: "%s" | plus: 0 -%}{%- if pc_d > pc_now -%}{%- continue -%}{%- endif -%}
+    {%- assign pc_ok = false -%}
+    {%- case pc_tier -%}
+      {%- when 0 -%}{%- if p.categories contains pc_ser -%}{%- assign pc_ok = true -%}{%- endif -%}
+      {%- when 1 -%}{%- if page.location and p.location == page.location and page.type and p.type == page.type -%}{%- assign pc_ok = true -%}{%- endif -%}
+      {%- when 2 -%}{%- if page.location and p.location == page.location -%}{%- assign pc_ok = true -%}{%- endif -%}
+      {%- when 3 -%}{%- if page.type and p.type == page.type -%}{%- assign pc_ok = true -%}{%- endif -%}
+      {%- else -%}{%- assign pc_ok = true -%}
+    {%- endcase -%}
+    {%- if pc_ok -%}{%- assign pc_picked = pc_picked | push: p -%}{%- assign pc_seen = pc_seen | append: p.url | append: "|" -%}{%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- if pc_picked.size > 0 %}
+<section class="povezani-clanci" aria-labelledby="povezani-naslov">
+  <h2 class="section-title" id="povezani-naslov">Povezani članci</h2>
+  <div class="posts-grid">
+  {%- for post in pc_picked %}
+    {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
+    {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first %}
+    <article class="post-card">
+      <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
+        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
+        <span class="card-badges">{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if pc_ser != "" and post.categories contains pc_ser %}<span class="card-badge series">{{ pc_ser }}</span>{% endif %}</span>
+      </a>
+      <div class="content">
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="card-meta">
+          {%- if c_loc %}<a class="card-loc" href="{{ '/kategorije/' | relative_url }}#{{ c_loc.slug }}">📍 {{ c_loc.name }}</a>{% endif -%}
+          <span class="card-date">{% include datum.html date=post.date show_time=false %}</span>
+        </div>
+      </div>
+    </article>
+  {%- endfor %}
+  </div>
+</section>
+{%- endif -%}
+{%- endif -%}

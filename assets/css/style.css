@@ -1370,3 +1370,10 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .tt-btn { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: 999px; background: #fe2c55; color: #fff !important; font-weight: 800; font-size: 0.9rem; text-decoration: none; }
 .tt-btn:hover { background: #e0193f; }
 .post-content .tiktok-podrska { margin-top: 26px; }
+
+/* POVEZANI ČLANCI (_includes/povezani-clanci.html) – iznad komentara */
+.povezani-clanci { margin: 28px 0 8px; padding-top: 18px; border-top: 2px solid var(--border, #e3e7e3); }
+.povezani-clanci .section-title { margin-top: 0; }
+.povezani-clanci .posts-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; margin-bottom: 8px; }
+@media (min-width: 768px) { .povezani-clanci .posts-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.post-tiktok { margin: 8px 0 18px; }

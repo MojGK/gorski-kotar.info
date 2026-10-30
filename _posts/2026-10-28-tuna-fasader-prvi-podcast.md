@@ -1,4 +1,5 @@
 ---
+tiktok: true            # TikTok kartica ispod Povezanih članaka
 layout: post
 title: "Tuna Fasader u svom prvom podcastu: o ovisnosti, skeli, TikToku i Gerovu"
 date: 2026-10-28 18:10:00 +0100
@@ -62,5 +63,3 @@ Cijelu epizodu možete pogledati na [YouTubeu](https://www.youtube.com/watch?v=E
 **Izvori:**
 - Ril Tok Podcast #197 – TUNA FASADER, YouTube kanal Ril Tok Podcast, objavljeno 31. 5. 2026. – [YouTube](https://www.youtube.com/watch?v=ElPKLQgJmig)
 - Naš raniji članak [„TUNA FASADER – U POSLU AMATER”]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}) (28. 10. 2026.)
-
-{% include tiktok-podrska.html %}

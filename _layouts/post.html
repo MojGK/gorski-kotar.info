@@ -45,6 +45,10 @@ layout: default
   {% endif %}
 </article>
 
+{% include povezani-clanci.html %}
+
+{% if page.tiktok %}<div class="post-tiktok">{% include tiktok-podrska.html %}</div>{% endif %}
+
 <section class="comments" id="komentari">
   <h2>Komentari</h2>
   {%- assign k_sys = site.komentari.sustav | default: "htmlcommentbox" %}
