@@ -290,7 +290,7 @@ Broj traženih radnika naveden je samo ako ga oglas navodi.
 
 \* Grad Vrbovsko objavio je natječaj na svojoj stranici 21. 10. 2026. Prijave se podnose u roku od 8 dana od objave u Narodnim novinama, a datum objave u NN nismo uspjeli potvrditi. Ako je natječaj u NN izašao istoga dana, rok istječe 29. 10. 2026. Točan rok provjerite u izvornom natječaju.
 
-\*\* Javni poziv GDCK Delnice (projekt „Pružimo ruke II – Zaželi”, sufinancira EU iz Europskog socijalnog fonda plus) traži prijave u roku od 8 dana od objave na stranicama HZZ-a, a u pozivu je kao datum naveden 3. studenoga 2026. Radno iskustvo nije potrebno, plaća je u visini minimalne, uz naknadu za prijevoz. Prijave se predaju poštom ili osobno u zatvorenoj omotnici na adresu Crvenog križa Delnice, Školska 25; obrazac i popis dokumentacije nalaze se u pozivu.
+\*\* Javni poziv GDCK Delnice (projekt „Pružimo ruke II – Zaželi”, sufinancira EU iz Europskog socijalnog fonda plus) u pozivu o roku doslovno navodi: prijave se podnose „u roku od 8 (osam) dana od objave Javnog poziva na internetskoj stranici Hrvatskog zavoda za zapošljavanje, 03. studenog 2026. godine.” Radno iskustvo nije potrebno, plaća je u visini minimalne, uz naknadu za prijevoz. Prijave se predaju poštom ili osobno u zatvorenoj omotnici na adresu Crvenog križa Delnice, Školska 25; obrazac i popis dokumentacije nalaze se u pozivu.
 
 Oglasi s rokom 28. listopada istječu već sutra, pa se s prijavom ne isplati čekati.
 

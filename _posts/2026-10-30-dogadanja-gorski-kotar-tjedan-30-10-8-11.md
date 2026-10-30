@@ -78,6 +78,7 @@ Novi tjedni pregled: sva događanja u Gorskom kotaru koja smo najavili, na jedno
 
 ## Kasnije u studenom
 
+- **9. 11.** – [Predstava „Gdje je Zrinjski”]({{ '/gdje-je-zrinjski-predstava-ravna-gora/' | relative_url }}), Dom kulture Ravna Gora, 18 h, ulaz slobodan
 - **11. 11.** – [Martinjski sajam u Vrbovskom]({{ '/martinjski-sajam-vrbovsko-2026/' | relative_url }}), Gradska tržnica
 - **20. 11.** – [„Postolar i vrag”, Kotar teatar]({{ '/postolar-i-vrag-kotar-teatar-delnice/' | relative_url }}), Radnički dom Delnice, 20 h
 - **27. 11.** – [Advent na jezeru Lepenica]({{ '/advent-na-jezeru-lepenica/' | relative_url }}) (do 31. 12.)
