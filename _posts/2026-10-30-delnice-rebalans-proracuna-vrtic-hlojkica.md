@@ -30,6 +30,6 @@ Iz obrazloženja se vidi i kako je to izgledalo u praksi: osim planiranih pet od
 
 Savjetovanje je počelo **28. listopada**, a primjedbe se šalju na propisanom obrascu **do 2. studenoga 2026.** na **[djulio@delnice.hr](mailto:djulio@delnice.hr)**. Rok je kratak, pa tko ima što reći – neka požuri.
 
-**Pročitajte i:** [Delnice: vrtić Hlojkica besplatan za djecu s teškoćama u razvoju?]({% post_url 2026-10-27-hlojkica-besplatan-vrtic-djeca-s-teskocama %})
+**Pročitajte i:** [Delnice: vrtić Hlojkica besplatan za djecu s teškoćama u razvoju?]({{ site.baseurl }}{% post_url 2026-10-27-hlojkica-besplatan-vrtic-djeca-s-teskocama %})
 
 *Izvori: [Grad Delnice – savjetovanje o III. izmjenama i dopunama proračuna za 2026.](https://delnice.hr/savjetovanje-sa-zainteresiranom-javnoscu-iii-izmjene-i-dopune-proracuna-za-2026/); [Obrazloženje prijedloga (.docx)](https://www.delnice.hr/DOKUMENTI_ODLUKE/2026/OBRAZLOZENJE%20III.%20IZMJENE%20I%20DOPUNE%20PRORACUNA%20ZA%202026.docx); [Obrazac sudjelovanja (.docx)](https://www.delnice.hr/DOKUMENTI_ODLUKE/2026/OBRAZAC%20SUDJELOVANJA_proracun.docx)*
