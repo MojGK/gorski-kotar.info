@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: "Delnice: prijedlog rebalansa zbog vrtića Hlojkica – stepenice prema kolodvoru sele u 2027., igralište otpada"
 date: 2026-10-30 07:15:00 +0100
 location: Delnice

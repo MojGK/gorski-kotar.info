@@ -1,5 +1,6 @@
 ---
 layout: post
+istaknuto: true
 title: "Goranin u subotu gostuje kod Rikarda Benčića u Rijeci – navijači, dođite bodriti!"
 date: 2026-10-30 07:45:00 +0100
 location: Delnice

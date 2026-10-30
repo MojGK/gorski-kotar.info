@@ -5,7 +5,6 @@ date: 2026-10-29 14:05:00 +0100
 location: Gorski kotar
 type: Aktualno
 categories: [Gorski kotar, Aktualno]
-istaknuto: true
 excerpt: "Turistička zajednica Gorskog kotara u Kranju je dobila Destination Experience Award za održivi turizam. Gorski kotar prva je destinacija u Hrvatskoj i jedna od tri u svijetu s tom nagradom."
 image: /assets/images/risnjak-schlosserov-dom.jpg
 image_alt: "Veliki Risnjak i Schlosserov dom u Nacionalnom parku Risnjak"
