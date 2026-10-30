@@ -1,0 +1,18 @@
+{%- if site.data.partneri and site.data.partneri.size > 0 -%}
+<section class="partneri" aria-labelledby="partneri-naslov">
+  <div class="container">
+    <h2 id="partneri-naslov" class="partneri-naslov">Zahvaljujemo partnerima koji su podržali pokretanje portala</h2>
+    {%- if include.uvod %}<p class="partneri-uvod">{{ include.uvod }}</p>{% endif %}
+    <ul class="partneri-lista">
+      {%- for p in site.data.partneri %}
+      <li class="partner">
+        {%- if p.link %}<a href="{{ p.link }}" target="_blank" rel="noopener" title="{{ p.naziv | escape }}">{% endif -%}
+        <img src="{{ p.logo | relative_url }}" alt="{{ p.naziv | escape }}" loading="lazy">
+        {%- if p.link %}</a>{% endif -%}
+        {%- if p.opis %}<span class="partner-opis">{{ p.opis }}</span>{% endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+</section>
+{%- endif -%}

@@ -92,6 +92,8 @@
     {% endif %}
   </main>
 
+  {% if page.url == "/" %}{% include partneri.html %}{% endif %}
+
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
@@ -104,6 +106,7 @@
       <nav class="footer-nav" aria-label="Podnožje">
         {%- for item in site.nav %}<a href="{{ item.url | relative_url }}">{{ item.title }}</a>{% endfor %}
         <a href="{{ '/pretraga/' | relative_url }}">Pretraga</a>
+        <a href="{{ '/partneri/' | relative_url }}">Partneri</a>
       </nav>
       <p class="footer-copy">&copy; {{ 'now' | date: '%Y' }} {{ site.title }} · {{ site.tagline | default: site.description }}</p>
     </div>

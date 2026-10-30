@@ -1389,3 +1389,13 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .povezani-clanci .mb-mala + .mb-mala { border-top: 0; }
 }
 .post-tiktok { margin: 8px 0 18px; }
+
+/* Partneri – zahvala, odvojeno od oglasa */
+.partneri { border-top: 1px solid #e3e6e3; background: #fafbfa; padding: 2rem 0 2.25rem; margin-top: 2rem; }
+.partneri-naslov { font-size: .95rem; font-weight: 600; letter-spacing: .02em; text-align: center; color: #5b625b; margin: 0 0 1.1rem; }
+.partneri-uvod { text-align: center; color: #5b625b; max-width: 40rem; margin: 0 auto 1.25rem; }
+.partneri-lista { list-style: none; margin: 0 auto; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; max-width: 60rem; }
+.partner { flex: 0 1 calc(25% - .75rem); min-width: 0; background: #fff; border: 1px solid #e3e6e3; border-radius: 10px; padding: .6rem; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.partner img { display: block; width: 100%; height: auto; max-height: 140px; object-fit: contain; border-radius: 6px; }
+.partner-opis { font-size: .8rem; color: #6b726b; margin-top: .4rem; text-align: center; }
+@media (max-width: 640px) { .partner { flex-basis: calc(50% - .5rem); } }
