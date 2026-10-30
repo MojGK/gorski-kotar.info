@@ -1371,9 +1371,21 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .tt-btn:hover { background: #e0193f; }
 .post-content .tiktok-podrska { margin-top: 26px; }
 
-/* POVEZANI ČLANCI (_includes/povezani-clanci.html) – iznad komentara */
-.povezani-clanci { margin: 28px 0 8px; padding-top: 18px; border-top: 2px solid var(--border, #e3e7e3); }
-.povezani-clanci .section-title { margin-top: 0; }
-.povezani-clanci .posts-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; margin-bottom: 8px; }
-@media (min-width: 768px) { .povezani-clanci .posts-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+/* POVEZANI ČLANCI (_includes/povezani-clanci.html) – kompaktni redovi kao male stavke kategorijskih blokova naslovnice (.mb-mala), stilovi preslikani i ograničeni na .povezani-clanci da vrijede i na desktopu */
+.povezani-clanci { margin: 24px 0 8px; padding-top: 14px; border-top: 2px solid #e6ede8; }
+.povezani-clanci .pc-naslov { margin: 0 0 4px; font-size: 1.05rem; font-weight: 900; letter-spacing: 0.04em; text-transform: uppercase; color: var(--primary); }
+.povezani-clanci .mb-lista { list-style: none; margin: 4px 0 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); }
+.povezani-clanci .mb-mala { margin: 0; min-width: 0; }
+.povezani-clanci .mb-mala + .mb-mala { border-top: 1px solid #e6ede8; }
+.povezani-clanci .mb-mala a { display: flex; gap: 10px; align-items: center; padding: 8px 2px; color: inherit; text-decoration: none; }
+.povezani-clanci .mb-mala a:hover .mb-mala-title { color: var(--primary); }
+.povezani-clanci .mb-thumb { flex: 0 0 auto; width: 64px; height: 48px; border-radius: 6px; overflow: hidden; background: var(--green-soft); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
+.povezani-clanci .mb-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.povezani-clanci .mb-mala-body { min-width: 0; flex: 1; }
+.povezani-clanci .mb-mala-title { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; font-weight: 700; font-size: 0.9rem; line-height: 1.3; color: var(--text); }
+.povezani-clanci .mb-meta { display: block; font-size: 0.72rem; color: var(--muted); font-weight: 600; margin-top: 2px; }
+@media (min-width: 768px) {
+  .povezani-clanci .mb-lista { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 18px; }
+  .povezani-clanci .mb-mala + .mb-mala { border-top: 0; }
+}
 .post-tiktok { margin: 8px 0 18px; }

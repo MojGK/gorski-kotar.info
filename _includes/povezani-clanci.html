@@ -34,26 +34,16 @@ Preskaču se: trenutni članak, budući članci, te oni s hidden / draft / uklon
 {%- endfor -%}
 {%- if pc_picked.size > 0 %}
 <section class="povezani-clanci" aria-labelledby="povezani-naslov">
-  <h2 class="section-title" id="povezani-naslov">Povezani članci</h2>
-  <div class="posts-grid">
+  <h2 class="pc-naslov" id="povezani-naslov">Povezani članci</h2>
+  <ul class="mb-lista">
   {%- for post in pc_picked %}
-    {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
-    {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first %}
-    <article class="post-card">
-      <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
-        {% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
-        <span class="card-badges">{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if pc_ser != "" and post.categories contains pc_ser %}<span class="card-badge series">{{ pc_ser }}</span>{% endif %}</span>
-      </a>
-      <div class="content">
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <div class="card-meta">
-          {%- if c_loc %}<a class="card-loc" href="{{ '/kategorije/' | relative_url }}#{{ c_loc.slug }}">📍 {{ c_loc.name }}</a>{% endif -%}
-          <span class="card-date">{% include datum.html date=post.date show_time=false %}</span>
-        </div>
-      </div>
-    </article>
+    {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first %}
+    <li class="mb-mala"><a href="{{ post.url | relative_url }}">
+      <span class="mb-thumb{% unless post.image %} no-img{% endunless %}">{% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}🌲{% endif %}</span>
+      <span class="mb-mala-body"><span class="mb-mala-title">{{ post.title }}</span><span class="mb-meta">{% include datum.html date=post.date show_time=false short=true %}{% if c_loc %} · 📍 {{ c_loc.name }}{% endif %}</span></span>
+    </a></li>
   {%- endfor %}
-  </div>
+  </ul>
 </section>
 {%- endif -%}
 {%- endif -%}
