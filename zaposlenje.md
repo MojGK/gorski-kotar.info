@@ -18,7 +18,7 @@ Najnoviji tjedni pregled je istaknut na vrhu. Predložak za nove preglede: _draf
   {%- assign zl = zap_posts.first %}
   <article class="zap-latest">
     <a href="{{ zl.url | relative_url }}" class="zap-latest-link">
-      <span class="zap-latest-img"><img src="{{ zl.image | default: '/assets/images/zaposlenje-naslovna.jpg' | relative_url }}" alt="{{ zl.image_alt | default: zl.title | escape }}"></span>
+      <span class="zap-latest-img"><img src="{{ zl.image | default: '/assets/images/zaposlenje-naslovna.jpg' | relative_url }}"{% if zl.image_position %} style="object-position: {{ zl.image_position }}"{% endif %} alt="{{ zl.image_alt | default: zl.title | escape }}"></span>
       <span class="zap-latest-body">
         <span class="card-badges"><span class="card-badge udarno">Aktualno</span><span class="card-badge t-zaposlenje">Zaposlenje</span></span>
         <span class="zap-latest-title">{{ zl.title }}</span>

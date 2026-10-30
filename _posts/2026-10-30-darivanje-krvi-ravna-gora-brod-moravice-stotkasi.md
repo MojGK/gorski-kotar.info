@@ -7,6 +7,7 @@ type: Društvo
 categories: [Ravna Gora, Brod Moravice, Društvo]
 excerpt: "Na akciji GDCK Delnice u Ravnoj Gori i Brod Moravicama prikupljeno je 48 doza krvi. Sreto Cvijanović i Slaven Crnković krv su dali stoti put, a iduća akcija je od 16. do 20. studenoga."
 image: /assets/images/darivanje-krvi-slaven-crnkovic-gloria.jpg
+image_position: "center 15%"
 image_alt: "Slaven Crnković i kći Gloria s natpisom 100. doza krvi"
 image_credit: "Foto: Novi list"
 ---

@@ -24,7 +24,7 @@ Svi članci vrste Događanja (i prošli) i dalje su u kategoriji Događanja.
     {%- if p_end < d_now -%}{%- continue -%}{%- endif -%}
     {%- assign d_count = d_count | plus: 1 %}
     <article class="post-card event-card" data-event-end="{{ p_end }}" data-hide-when-past>
-      {% if post.image %}<a href="{{ post.url | relative_url }}" class="card-thumb"><img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
+      {% if post.image %}<a href="{{ post.url | relative_url }}" class="card-thumb"><img src="{{ post.image | relative_url }}"{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy"></a>{% endif %}
       <div class="content">
         {% include dogadaj-info.html post=post %}
         {% include oznake.html post=post %}

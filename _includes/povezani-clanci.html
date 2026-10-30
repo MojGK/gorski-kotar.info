@@ -39,7 +39,7 @@ Preskaču se: trenutni članak, budući članci, te oni s hidden / draft / uklon
   {%- for post in pc_picked %}
     {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first %}
     <li class="mb-mala"><a href="{{ post.url | relative_url }}">
-      <span class="mb-thumb{% unless post.image %} no-img{% endunless %}">{% if post.image %}<img src="{{ post.image | relative_url }}" alt="" loading="lazy">{% else %}🌲{% endif %}</span>
+      <span class="mb-thumb{% unless post.image %} no-img{% endunless %}">{% if post.image %}<img src="{{ post.image | relative_url }}"{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="" loading="lazy">{% else %}🌲{% endif %}</span>
       <span class="mb-mala-body"><span class="mb-mala-title">{{ post.title }}</span><span class="mb-meta">{% include datum.html date=post.date show_time=false short=true %}{% if c_loc %} · 📍 {{ c_loc.name }}{% endif %}</span></span>
     </a></li>
   {%- endfor %}
