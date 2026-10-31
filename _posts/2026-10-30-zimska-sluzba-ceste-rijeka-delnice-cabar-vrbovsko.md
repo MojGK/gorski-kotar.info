@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Zimska služba u gorju kreće 1. studenoga – baze u Delnicama, Čabru i Vrbovskom"
+istaknuto: true
 date: 2026-10-30 20:10:00 +0100
 location: Gorski kotar
 type: Promet
