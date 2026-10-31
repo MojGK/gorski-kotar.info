@@ -15,6 +15,8 @@ Subota navečer u Ravnoj Gori? Caffe bar **Volta** ima jasnu poruku: **„Dođit
 
 Naš suradnik javlja s lica mjesta da je atmosfera večeras opuštena, a **ulaz je slobodan**. U Volti kažu i da je kod njih piće najjeftinije u kraju. To ćete, naravno, najbolje provjeriti sami.
 
+Jedan od gostiju to je opisao na svoj način: „U Volti su mala piva velika kao velika.”
+
 A misli su već i na kraju godine. Ekipa iz Volte najavljuje da će **doček Nove godine** kod njih biti najbolja fešta u Gorskom kotaru. Program, glazba i ostali detalji dočeka još nisu poznati, pa ćemo ih objaviti čim ih doznamo.
 
 Dotad – vidimo se u Volti!
