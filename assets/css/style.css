@@ -1399,3 +1399,4 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .partner img { display: block; width: 100%; height: auto; max-height: 140px; object-fit: contain; border-radius: 6px; }
 .partner-opis { font-size: .8rem; color: #6b726b; margin-top: .4rem; text-align: center; }
 @media (max-width: 640px) { .partner { flex-basis: calc(50% - .5rem); } }
+.post-image.post-image--full { max-height: none; object-fit: contain; max-width: 640px; display: block; margin-left: auto; margin-right: auto; }

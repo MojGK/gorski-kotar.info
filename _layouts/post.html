@@ -29,7 +29,7 @@ layout: default
 
   {% if page.image %}
   <figure class="post-figure">
-    <img src="{{ page.image | relative_url }}"{% if page.image_position %} style="object-position: {{ page.image_position }}"{% endif %} alt="{{ page.image_alt | default: page.title | escape }}" class="post-image">
+    <img src="{{ page.image | relative_url }}"{% if page.image_position %} style="object-position: {{ page.image_position }}"{% endif %} alt="{{ page.image_alt | default: page.title | escape }}" class="post-image{% if page.image_full %} post-image--full{% endif %}">
     {% if page.image_credit %}<figcaption>{{ page.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</figcaption>{% endif %}
   </figure>
   {% endif %}

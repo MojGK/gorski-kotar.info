@@ -6,9 +6,11 @@ location: Ravna Gora
 type: Sport
 categories: [Ravna Gora, Sport]
 excerpt: "KK Goranka danas u 15 sati gostuje kod Zadra na kuglani Mocire u 6. kolu Hrvatske kuglačke superlige. Ravnogorci su nakon pet kola posljednji s jednim bodom, a Zadar je drugi."
-image: /assets/images/kuglana-staze-posusje.jpg
-image_alt: "Kuglači na stazama kuglane, ilustracija"
-image_credit: "Ilustracija (kuglana u Posušju): Aradic-es / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Kuglana-posu%C5%A1je08873.JPG), javno vlasništvo"
+image: /assets/images/zadar-goranka-plakat-6-kolo.jpg
+image_position: "center 40%"
+image_full: true
+image_alt: "Plakat KK Goranka za utakmicu 6. kola HKSL Zadar – Goranka"
+image_credit: "Plakat: KK Goranka Ravna Gora"
 ---
 Navijači kuglanja, danas je dan za Goranku! Ravnogorski kuglači u **subotu, 31. listopada, u 15 sati** gostuju kod **KK Zadar** na **kuglani Mocire**, u **6. kolu Hrvatske kuglačke superlige**.
 
