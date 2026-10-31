@@ -15,10 +15,10 @@ klasa= dodaje CSS klasu. Ako oglas ima foto, na mobitelu se prikazuje kao traka 
 <aside class="ad-banner{% if bn.foto %} ad-banner-s-fotom{% endif %}{% if include.klasa %} {{ include.klasa }}{% endif %}" aria-label="Oglas: {{ bn.name }}">
   <span class="oglas-tag">Oglas</span>
   {%- if bn.foto %}
-  <a class="ad-banner-foto" href="{{ bn.url }}" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="{{ bn.foto | relative_url }}" alt="" width="800" height="533" loading="lazy"></a>
+  <a class="ad-banner-foto"{% if bn.url %} href="{{ bn.url }}" target="_blank" rel="sponsored noopener"{% endif %} tabindex="-1" aria-hidden="true"><img src="{{ bn.foto | relative_url }}" alt="" width="800" height="533" loading="lazy"></a>
   {%- endif %}
   {%- if bn.logo %}
-  <a class="ad-banner-logo{% if bn.logo_sirok %} sirok{% endif %}" href="{{ bn.url }}" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true"><img src="{{ bn.logo | relative_url }}" alt=""{% if bn.logo_sirok %} width="480" height="236"{% else %} width="72" height="82"{% endif %} loading="lazy"></a>
+  <a class="ad-banner-logo{% if bn.logo_sirok %} sirok{% endif %}"{% if bn.url %} href="{{ bn.url }}" target="_blank" rel="sponsored noopener"{% endif %} tabindex="-1" aria-hidden="true"><img src="{{ bn.logo | relative_url }}" alt=""{% if bn.logo_sirok %} width="480" height="236"{% else %} width="72" height="82"{% endif %} loading="lazy"></a>
   {%- endif %}
   <div class="ad-banner-text">
     <p class="ad-banner-name">{{ bn.name }}{% if bn.place %} <span>· {{ bn.place }}</span>{% endif %}</p>
@@ -30,7 +30,7 @@ klasa= dodaje CSS klasu. Ako oglas ima foto, na mobitelu se prikazuje kao traka 
     </p>
     {%- endif %}
   </div>
-  <a class="oglas-btn ad-banner-btn" href="{{ bn.url }}" target="_blank" rel="sponsored noopener">{{ bn.button | default: "Posjetite stranicu" }} →</a>
+  {%- if bn.url %}<a class="oglas-btn ad-banner-btn" href="{{ bn.url }}" target="_blank" rel="sponsored noopener">{{ bn.button | default: "Posjetite stranicu" }} →</a>{% endif -%}
 </aside>
 {%- else %}
 <aside class="ad-banner ad-banner-empty" aria-label="Oglasni prostor">

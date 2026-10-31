@@ -1,7 +1,18 @@
 # Oglasi u bočnoj traci (sidebar).
 # active: false privremeno skriva oglas. Podaci su preuzeti sa stranice oglašivača.
-goring:
+# RG Liker d.o.o. (zamjena za Goring, 31. 10. 2026.). Podaci s Fininfa; službena web stranica nije pronađena,
+# pa oglas nema poveznicu ni gumb (url izostavljen). Logo izradio portal.
+rgliker:
   active: true
+  name: "RG Liker d.o.o."
+  place: "Ravna Gora"
+  logo: /assets/images/oglasi/rg-liker-logo.svg
+  logo_alt: "Logo RG Liker – vučna služba i mehaničarska radnja, Ravna Gora"
+  description: "Vučna služba · Mehaničarska radnja"
+
+# Goring privremeno isključen (active: false) – vratiti postavljanjem active: true.
+goring:
+  active: false
   name: "Goring d.o.o."
   place: "Ravna Gora"
   logo: /assets/images/oglasi/goring-logo.svg
