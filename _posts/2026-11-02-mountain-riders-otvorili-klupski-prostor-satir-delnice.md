@@ -25,7 +25,14 @@ Klub najavljuje rock slušaonice, koncerte s bendovima s delničkog područja i 
 
 Novi list piše i da je klub ove jeseni održao tradicionalnu jednodnevnu vožnju „Motociklom kroz Gorski kotar”. Ruta je išla iz Delnica preko Lokava, Fužina, Mrkoplja, Starog Laza i Ravne Gore do Kamačnika, pa preko Brod Moravica do Broda na Kupi i natrag. Vožnja je prenošena na društvenim mrežama, kao promocija Gorskog kotara i biker turizma.
 
+## Dopuna: 400 eura za MR uređaj
+
+Gorske novosti pišu da otvorenje nije bilo samo slavlje. Klub je podržao humanitarnu akciju „Projekt 120 – Bradata vožnja extreme”: članovi Mountain Ridersa uručili su donaciju od **400 eura**, a pridružili su se i dobrovoljni prilozi posjetitelja. Sav novac ide Županijskoj ligi protiv raka za kupnju uređaja za magnetsku rezonancu. Kao predstavnik Željana Rakele iz Splita, u Delnice je motorom doputovao Marin Žižić. O otvorenju prostora i jesenskoj vožnji 2. studenoga objave je dao i Grad Delnice.
+
 ## Izvori
 
 - [Novi list – U Delnicama otvoreni prostori Moto kluba Mountain Riders (1. 11. 2026.)](https://www.novilist.hr/rijeka-regija/gorski-kotar/u-delnicama-otvoreni-prostori-moto-kluba-mountain-riders/)
 - [Novi list – Mountain Ridersi motociklom kroz Gorski kotar](https://www.novilist.hr/rijeka-regija/gorski-kotar/mountain-ridersi-motociklom-kroz-gorski-kotar/)
+- [Gorske novosti – MK Mountain Riders otvorio novi klupski dom: Humana gesta u bivšoj diskoteci (2. 11. 2026.)](https://gorskenovosti.net/2026/11/02/mk-mountain-riders-otvorio-novi-klupski-dom-humana-gesta-u-bivsoj-diskoteci/)
+- [Grad Delnice – MK Mountain Riders: Delnički bajkeri preuredili prostor bivše diskoteke Satir (2. 11. 2026.)](https://delnice.hr/mk-mountain-riders-delnicki-bajkeri-preuredili-prostor-bivse-diskoteke-satir/)
+- [Grad Delnice – Delnički „Planinski jahači” realizirali manifestaciju „Motociklom kroz Gorski kotar” (2. 11. 2026.)](https://delnice.hr/delnicki-planinski-jahaci-realizitali-svoju-vec-znanu-manifestaciju-motociklom-kroz-gorski-kotar/)
