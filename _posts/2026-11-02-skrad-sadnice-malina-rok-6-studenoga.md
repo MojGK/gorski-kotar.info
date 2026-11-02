@@ -2,6 +2,7 @@
 layout: post
 title: "Sadnice malina u Skradu: prijave do petka, 6. studenoga, u 12 sati"
 date: 2026-11-02 14:13:00 +0100
+istaknuto: true
 location: Skrad
 type: Općinske vijesti
 categories: [Skrad, Općinske vijesti]

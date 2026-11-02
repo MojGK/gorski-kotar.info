@@ -1,6 +1,5 @@
 ---
 layout: post
-featured: true
 title: "Vatrogasna vježba u Prezidu: gorjele kuće sa salonitnim krovovima, Dražović pita tko je dao naredbu"
 date: 2026-10-30 13:10:00 +0100
 location: Čabar
