@@ -17,6 +17,14 @@ dogadjaji:
   grad: Lokve
   opis: Program od 17 sati, šetnja kreće u 18:00.
   link: /noc-spilja-lokve-2026/
+- naziv: Godišnji koncert KUD-a Delnice
+  datum: 2026-11-07
+  vrijeme: "19–21 h"
+  mjesto: Radnički dom, Školska ulica, Delnice
+  grad: Delnice
+  organizator: Folklorna skupina KUD-a Delnice
+  opis: 25 godina Folklorne skupine i 20 godina benda Promili, gost Vokalna skupina DiM. Ulaz je besplatan.
+  link: https://www.dogadanja.com/koncert/godisnji-koncert-kud-a-delnice-radnicki-dom-delnice-2026-11-07/
 - naziv: Pčelarski sajam u Skradu
   datum: 2026-11-07
   datum_do: 2026-11-08
@@ -46,6 +54,14 @@ dogadjaji:
   grad: Vrbovsko
   opis: Zimska odjeća, zimnica, igračke, pečenka i kuhano vino.
   link: /martinjski-sajam-vrbovsko-2026/
+- naziv: Discotheque Amadeus
+  datum: 2026-11-14
+  vrijeme: "21–01 h"
+  mjesto: DKC „Žaba”, Lokve
+  grad: Lokve
+  organizator: Udruga mladih Revival
+  opis: Disco večer u spomen na nekadašnji Amadeus, uz Max Dee Jaya, DJ Nikolu i DJ Jana. Ulaz je besplatan.
+  link: https://www.dogadanja.com/nocni-zivot/discotheque-amadeus-drustveno-kulturni-centar-zaba-lokve-2026-11-14/
 - naziv: „Postolar i vrag” u Noći kazališta
   datum: 2026-11-20
   vrijeme: "20:00"
@@ -67,5 +83,55 @@ dogadjaji:
   vrijeme: "10:00"
   mjesto: Sportska dvorana Delnice
   grad: Delnice
-  opis: Drugi humanitarni turnir; prijave ekipa su otvorene, broj mjesta je ograničen.
+  organizator: Klub mladih Crvenog križa Delnice i GDCK Delnice
+  opis: Drugi humanitarni turnir za pomoć djeci i mladima s teškoćama u razvoju; prijave ekipa do 24. 11. ili do popune mjesta.
   link: /delnice-humanitarni-turnir-odbojka-svi-za-djecu/
+- naziv: Adventska šetnja Japlenškim vrhom
+  datum: 2026-12-05
+  vrijeme: "10–12 h"
+  mjesto: Vidikovac kod Pansiona Lovački dom, Delnice
+  grad: Delnice
+  organizator: Lynx and Fox
+  opis: Lagana vođena šetnja parkom šumom do jelena lopatara i Sela Bake Mraz, u sklopu Delničke adventske bajke; prijave online.
+  link: https://www.lynxandfox.com/post/5-12-japlenski-vrh
+- naziv: Adventska šetnja Japlenškim vrhom
+  datum: 2026-12-12
+  vrijeme: "10–12 h"
+  mjesto: Vidikovac kod Pansiona Lovački dom, Delnice
+  grad: Delnice
+  organizator: Lynx and Fox
+  opis: Drugi adventski termin iste vođene šetnje; prijave online.
+  link: https://www.lynxandfox.com/post/12-12-japlenski-vrh
+- naziv: Adventska šetnja Japlenškim vrhom
+  datum: 2026-12-19
+  vrijeme: "10–12 h"
+  mjesto: Vidikovac kod Pansiona Lovački dom, Delnice
+  grad: Delnice
+  organizator: Lynx and Fox
+  opis: Treći termin prema dogadanja.com (organizator najavljuje „tri adventska vikenda”); provjerite prije dolaska.
+  link: https://www.dogadanja.com/outdoor/adventska-setnja-japlenskim-vrhom-lovacki-dom-delnice-2026-12-05/
+- naziv: Šetnja na Preradovićev vrh
+  datum: 2026-12-31
+  vrijeme: "9–11:15 h"
+  mjesto: Poluotok Čoka (Vrelska 1A), Fužine
+  grad: Fužine
+  organizator: Lynx and Fox
+  opis: Vođena šetnja od oko 4 km sa zdravicom staroj godini i pogledom na Bajer, a zatim doček u podne u Fužinama; prijave online.
+  link: https://www.lynxandfox.com/post/31-12-preradovic-fuzine
+- naziv: Novogodišnja šetnja Poučnom stazom Plodovi gorja
+  datum: 2027-01-01
+  vrijeme: "12–13:30 h"
+  mjesto: Ravna Gora
+  grad: Ravna Gora
+  organizator: Lynx and Fox
+  opis: Novogodišnja zdravica uz glazbu u 12 h, zatim vođena šetnja od 3 do 4 km stazom Plodovi gorja; prijave online.
+  link: https://www.lynxandfox.com/post/1-1-2026-plodovi-gorja
+- naziv: Foresterra Festival 2027
+  datum: 2027-08-19
+  datum_do: 2027-08-22
+  vrijeme: od 15 h prvog do 19 h zadnjeg dana
+  mjesto: Kaubojsko selo Roswell, Fužine
+  grad: Fužine
+  organizator: Forestation & Egzoterra kolektiv
+  opis: Četverodnevni glazbeni festival s dvije pozornice, radionicama i kampom na lokaciji.
+  link: https://www.dogadanja.com/festival/foresterra-festival-2027-kaubojsko-selo-roswell-fuzine-2027-08-19/

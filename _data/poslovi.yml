@@ -3,15 +3,6 @@
 # Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
 azurirano: 2026-11-02
 oglasi:
-- poslodavac: Hrvatski zavod za mirovinsko osiguranje (HZMO)
-  pozicija: Viši referent / viša referentica u ispostavi u Delnicama
-  broj: 1
-  mjesto: Delnice
-  rok: 2026-11-02
-  opis: Rok ističe danas, 2. 11.!
-  izvori:
-  - naziv: HZZ
-    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167681369
 - poslodavac: HCK – Gradsko društvo Crvenog križa Delnice
   pozicija: Radnik / radnica za potporu starijim osobama i osobama s invaliditetom (program Zaželi)
   broj: 1
@@ -169,4 +160,36 @@ oglasi:
   izvori:
   - naziv: HZZ
     url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167902016
+  grad: Čabar
+- poslodavac: Ordinacija opće medicine u Delnicama
+  pozicija: Doktor / doktorica medicine (zamjena)
+  broj: 1
+  vrsta: "određeno (zamjena), puno radno vrijeme"
+  mjesto: Delnice
+  rok: 2026-12-01
+  opis: Mogu se javiti i umirovljenici; troškovi prijevoza ili smještaja pokrivaju se u cijelosti.
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167919663
+- poslodavac: AX Inženjering d.o.o. (projektiranje)
+  pozicija: Tehnički crtač / tehnička crtačica
+  broj: 1
+  vrsta: "određeno, novo radno mjesto, puno radno vrijeme"
+  mjesto: Gerovo (Čabar)
+  rok: 2026-11-30
+  opis: Planovi armature i oplate u BIM okruženju; SSS (4 god.), engleski, vozačka B; prijevoz plaćen u cijelosti.
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167925048
+  grad: Čabar
+- poslodavac: AX Inženjering d.o.o. (projektiranje)
+  pozicija: Projektant / projektantica građevinskih konstrukcija
+  broj: 1
+  vrsta: "određeno, novo radno mjesto, puno radno vrijeme"
+  mjesto: Gerovo (Čabar)
+  rok: 2026-11-30
+  opis: Projektiranje konstrukcija u svim fazama, planovi armature i oplate (BIM); VSS, engleski, vozačka B; prijevoz plaćen u cijelosti.
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167925507
   grad: Čabar
