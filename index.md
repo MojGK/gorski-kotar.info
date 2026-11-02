@@ -4,6 +4,8 @@ title: Početna
 sidebar: true
 ---
 
+{% include zimska-traka.html %}
+
 {%- comment -%} Zaposlenje je zasebna rubrika: ne ide u hero, Izdvojeno ni u mrežu bez filtera (ima svoj blok ispod) {%- endcomment -%}
 {%- assign vijesti = site.posts | where_exp: "p", "p.type != 'Zaposlenje'" -%}
 {%- assign featured = vijesti | where: "featured", true | first -%}

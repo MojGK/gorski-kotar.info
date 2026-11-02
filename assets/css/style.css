@@ -1422,3 +1422,12 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .starije-vijesti { margin: 14px 0 26px; text-align: center; }
 .starije-vijesti a { display: inline-block; padding: 9px 20px; border-radius: 999px; border: 2px solid var(--green); color: var(--green); font-weight: 800; text-decoration: none; }
 .starije-vijesti a:hover { background: var(--green); color: #fff; }
+/* Zimska traka (naslovnica, studeni–ožujak) */
+.zimska-traka { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 16px; margin: 0 0 14px; padding: 8px 14px; border-radius: 10px; background: #e8f1fb; border: 1px solid #c5dbf2; font-size: .92rem; line-height: 1.35; }
+.zimska-traka a { color: #0d3c6e; text-decoration: none; }
+.zimska-traka a:hover { text-decoration: underline; }
+.zimska-traka .zt-izvor { color: #4a6a8a; font-size: .85em; }
+@media (max-width: 600px) {
+  .zimska-traka { padding: 6px 10px; font-size: .84rem; gap: 4px 10px; margin-bottom: 10px; }
+  .zimska-traka .zt-dugo, .zimska-traka .zt-izvor { display: none; }
+}
