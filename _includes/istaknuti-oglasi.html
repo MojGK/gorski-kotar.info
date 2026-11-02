@@ -8,6 +8,7 @@ Izdvojeni oglasi za posao iz front mattera članka vrste Zaposlenje:
       link: https://...
       opis: "neobavezno, jedna kratka rečenica"
 Poziv: {% include istaknuti-oglasi.html post=post naslov="Izdvojeni oglasi" limit=2 %}
+Ili iz živog popisa (_data/poslovi.yml): {% include istaknuti-oglasi.html oglasi=popis limit=2 %} – link je `link`, inače prvi `izvori`.
 Oglasi kojima je rok prošao skrivaju se u pregledniku (JS u site.js / ovdje).
 {%- endcomment -%}
 {%- assign io_post = include.post -%}
@@ -15,11 +16,12 @@ Oglasi kojima je rok prošao skrivaju se u pregledniku (JS u site.js / ovdje).
 <div class="job-highlights" data-job-list>
   {% if include.naslov %}<p class="job-hl-title"><span aria-hidden="true">💼</span> {{ include.naslov }}</p>{% endif %}
   <ul class="job-hl-list">
-  {%- for o in io_post.istaknuti_oglasi limit: io_limit %}
+  {%- assign io_lista = include.oglasi | default: io_post.istaknuti_oglasi -%}
+  {%- for o in io_lista limit: io_limit %}
     {%- assign o_rok = o.rok | append: "" -%}
     {%- assign o_is_date = false -%}{%- if o_rok.size == 10 and o_rok contains "-" -%}{%- assign o_is_date = true -%}{%- endif %}
     <li class="job-hl"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %}>
-      <a class="job-hl-link" href="{{ o.link }}" target="_blank" rel="noopener">
+      <a class="job-hl-link" href="{{ o.link | default: o.izvori.first.url }}" target="_blank" rel="noopener">
         <span class="job-hl-pos">{{ o.pozicija }}</span>
         <span class="job-hl-emp">{{ o.poslodavac }}</span>
         <span class="job-hl-meta"><span>📍 {{ o.mjesto }}</span><span class="job-hl-rok">⏳ Rok: {% if o_is_date %}{{ o.rok | date: "%-d. %-m. %Y." }}{% else %}{{ o.rok }}{% endif %}</span></span>

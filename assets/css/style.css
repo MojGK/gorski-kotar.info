@@ -1412,3 +1412,10 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .partner-opis { font-size: .8rem; color: #6b726b; margin-top: .4rem; text-align: center; }
 @media (max-width: 640px) { .partner { flex-basis: calc(50% - .5rem); } }
 .post-image.post-image--full { max-height: none; object-fit: contain; max-width: 640px; display: block; margin-left: auto; margin-right: auto; }
+
+/* Živi popisi Zaposlenje / Događaji (_data/poslovi.yml, _data/dogadjanja.yml) */
+.zivi-azurirano { margin: -4px 0 12px; font-size: 0.85rem; color: var(--muted); }
+.zivi-wrap { font-size: 1rem; }
+.zivi-filter { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; background: none; box-shadow: none; }
+.zivi-filter .filter-btn { font-size: 0.82rem; padding: 4px 11px; }
+.zivi-napomena { font-size: 0.9rem; color: var(--muted); }

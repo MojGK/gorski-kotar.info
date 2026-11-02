@@ -14,14 +14,23 @@ Popis oglasa za posao kao kartice (članci vrste Zaposlenje). Podaci iz front ma
           url: https://burzarada.hzz.hr/...
 Poziv u tekstu članka: {% include oglasi-lista.html %}  (ili oglasi=page.drugi_popis)
 Oglasi s prošlim rokom u pregledniku se označe kao „Rok istekao” (ne brišu se).
+Živi popis (stranica /zaposlenje/): {% include oglasi-lista.html oglasi=site.data.poslovi.oglasi zivo=true %}
+  – istekli se izbacuju pri izradi i skrivaju u pregledniku, poredano po roku, uz filter po mjestu.
 {%- endcomment -%}
 {%- assign ol_oglasi = include.oglasi | default: page.oglasi -%}
+{%- if include.zivo -%}{%- include zivi-popis.html lista=ol_oglasi polje="rok" -%}{%- assign ol_oglasi = zp_lista -%}{%- endif -%}
+{%- if include.zivo and zp_gradovi.size > 1 %}
+<div class="filters zivi-filter" data-zivi-filter role="group" aria-label="Filtriraj po mjestu">
+  <button type="button" class="filter-btn active" data-grad="">Sva mjesta</button>
+  {%- for g in zp_gradovi %}<button type="button" class="filter-btn" data-grad="{{ g | escape }}">{{ g }}</button>{% endfor %}
+</div>
+{%- endif -%}
 {%- if ol_oglasi and ol_oglasi.size > 0 %}
-<ul class="oglasi-lista" data-oglasi-lista>
+<ul class="oglasi-lista{% if include.zivo %} zivi-popis{% endif %}" data-oglasi-lista>
 {%- for o in ol_oglasi %}
   {%- assign o_rok = o.rok | append: "" -%}
   {%- assign o_is_date = false -%}{%- if o_rok.size == 10 and o_rok contains "-" -%}{%- assign o_is_date = true -%}{%- endif %}
-  <li class="oglas-k"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %}>
+  <li class="oglas-k"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %} data-grad="{{ o.grad | default: o.mjesto | escape }}">
     <p class="ok-posl">{{ o.poslodavac }}</p>
     <p class="ok-poz">{{ o.pozicija }}</p>
     <ul class="ok-det">
@@ -49,6 +58,7 @@ Oglasi s prošlim rokom u pregledniku se označe kao „Rok istekao” (ne briš
   var d = new Date(), t = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
   box.querySelectorAll('[data-rok]').forEach(function (li) {
     if (li.getAttribute('data-rok') < t) {
+      if (box.classList.contains('zivi-popis')) { li.remove(); return; }
       li.classList.add('isteklo');
       var r = li.querySelector('.ok-rok .ok-val');
       if (r) r.insertAdjacentHTML('beforeend', ' <span class="ok-ist">Rok istekao</span>');
@@ -56,4 +66,7 @@ Oglasi s prošlim rokom u pregledniku se označe kao „Rok istekao” (ne briš
   });
 })();
 </script>
+{%- endif %}
+{%- if include.zivo %}
+<p class="no-results" data-zivi-prazno{% if ol_oglasi.size > 0 %} hidden{% endif %}>{{ include.prazno | default: "Trenutno nema aktualnih oglasa." }}</p>
 {%- endif %}

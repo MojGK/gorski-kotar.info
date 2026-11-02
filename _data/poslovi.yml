@@ -1,0 +1,172 @@
+# ZAPOSLENJE – živi popis oglasa (stranica /zaposlenje/ i blok na naslovnici).
+# Upute: _data/README-zaposlenje-dogadjanja.md
+# Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
+azurirano: 2026-11-02
+oglasi:
+- poslodavac: Hrvatski zavod za mirovinsko osiguranje (HZMO)
+  pozicija: Viši referent / viša referentica u ispostavi u Delnicama
+  broj: 1
+  mjesto: Delnice
+  rok: 2026-11-02
+  opis: Rok ističe danas, 2. 11.!
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167681369
+- poslodavac: HCK – Gradsko društvo Crvenog križa Delnice
+  pozicija: Radnik / radnica za potporu starijim osobama i osobama s invaliditetom (program Zaželi)
+  broj: 1
+  vrsta: određeno
+  mjesto: Delnice
+  rok: 2026-11-03
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167809998
+  - naziv: Grad Delnice
+    url: https://delnice.hr/javni-poziv-za-zaposljavanje-u-sklopu-projekta-pruzimo-ruke-ii-zazeli-prevencija-institucionalizacije-sf-3-4-11-01-0056-delnice/
+- poslodavac: HCK – Gradsko društvo Crvenog križa Delnice
+  pozicija: Radnik / radnica za potporu starijim osobama i osobama s invaliditetom (program Zaželi)
+  broj: 1
+  vrsta: određeno
+  mjesto: Mrkopalj
+  rok: 2026-11-03
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167810400
+- poslodavac: Sunger Trade d.o.o.
+  pozicija: Pomoćni radnik / radnica u pilani
+  broj: 1
+  vrsta: neodređeno
+  mjesto: Lokve
+  rok: 2026-11-04
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=166212936
+- poslodavac: Vox Terrae j.d.o.o. (pogrebne usluge)
+  pozicija: Komunalni radnik / radnica
+  broj: 1
+  vrsta: određeno
+  mjesto: Brod Moravice
+  rok: 2026-11-05
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167634616
+- poslodavac: Osnovna škola Brod Moravice
+  pozicija: Odgojitelj / odgojiteljica predškolske djece
+  broj: 1
+  vrsta: neodređeno
+  mjesto: Brod Moravice
+  rok: 2026-11-05
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167799972
+- poslodavac: Konzum plus d.o.o.
+  pozicija: Mesar / mesarica
+  mjesto: Delnice (među više lokacija)
+  rok: 2026-11-07
+  izvori:
+  - naziv: MojPosao
+    url: https://mojposao.hr/posao/1cecd907-d203-11f1-8b88-0280a8fb46bd/mesar-m-z
+  grad: Delnice
+- poslodavac: Konzum plus d.o.o.
+  pozicija: Prodavač – blagajnik / prodavačica – blagajnica
+  mjesto: Čabar (među više lokacija)
+  rok: 2026-11-07
+  izvori:
+  - naziv: MojPosao
+    url: https://mojposao.hr/posao/04028226-d203-11f1-8b88-0280a8fb46bd/prodavac-blagajnik-m-z
+  grad: Čabar
+- poslodavac: Obiteljski dom za stare i nemoćne osobe
+  pozicija: Njegovatelj / njegovateljica starih i nemoćnih
+  broj: 1
+  vrsta: zamjena
+  mjesto: Fužine
+  rok: 2026-11-07
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=166196721
+- poslodavac: HP – Hrvatska pošta d.d.
+  pozicija: Poštar / poštarica za opću dostavu
+  broj: 1
+  vrsta: neodređeno
+  mjesto: Čabar
+  rok: 2026-11-08
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=166428311
+  - naziv: MojPosao
+    url: https://mojposao.hr/posao/cd4e0c7d-e243-4e9c-a568-61b14910ac67/postar-m-z
+  opis: Isti oglas je na MojPosao s rokom 11. 11.; prijavite se do ranijeg roka, 8. 11.
+- poslodavac: KD Vodovod i kanalizacija d.o.o. (Rijeka), Podružnica Čabar
+  pozicija: Direktor / direktorica Podružnice Čabar
+  broj: 1
+  vrsta: mandat 4 godine
+  mjesto: Čabar
+  rok: 2026-11-09
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167885514
+  izdvojeno: true
+- poslodavac: FOS d.o.o.
+  pozicija: Konobar / konobarica u restoranu Bitoraj
+  broj: 2
+  vrsta: neodređeno
+  mjesto: Fužine
+  rok: 2026-11-13
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167406579
+- poslodavac: Karlisa, kozmetički obrt
+  pozicija: Kozmetičar / kozmetičarka – pediker / pedikerka
+  broj: 1
+  vrsta: neodređeno
+  mjesto: Delnice
+  rok: 2026-11-15
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167852684
+- poslodavac: Lokve d.o.o. (drvni proizvodi)
+  pozicija: Radnik / radnica u proizvodnji
+  broj: 2
+  vrsta: određeno
+  mjesto: Lokve
+  rok: 2026-11-15
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167533661
+  izdvojeno: true
+- poslodavac: Lokve d.o.o. (drvni proizvodi)
+  pozicija: Radnik / radnica na brenti
+  broj: 1
+  vrsta: određeno
+  mjesto: Lokve
+  rok: 2026-11-15
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167533776
+- poslodavac: Lokve d.o.o. (drvni proizvodi)
+  pozicija: Radnik / radnica u pilani
+  broj: 1
+  vrsta: određeno
+  mjesto: Lokve
+  rok: 2026-11-15
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167534005
+- poslodavac: Tifon d.o.o.
+  pozicija: Gastro prodavač / prodavačica
+  mjesto: Ravna Gora (među više lokacija)
+  rok: 2026-11-27
+  izvori:
+  - naziv: MojPosao
+    url: https://mojposao.hr/posao/1ba54ce7-d212-11f1-8b88-0280a8fb46bd/gastro-prodavac-prodavac-m-z
+  grad: Ravna Gora
+- poslodavac: Lož Metalpres d.o.o.
+  pozicija: Referent / referentica prodaje za domaće i inozemno tržište
+  broj: 1
+  vrsta: neodređeno
+  mjesto: Plešce (Čabar)
+  rok: 2026-11-30
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167902016
+  grad: Čabar

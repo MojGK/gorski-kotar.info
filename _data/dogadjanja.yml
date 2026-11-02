@@ -1,0 +1,71 @@
+# DOGAĐANJA – živi popis događaja (stranice /dogadaji/ i /kalendar/ te blok na naslovnici).
+# Upute: _data/README-zaposlenje-dogadjanja.md
+# Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
+# u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
+azurirano: 2026-11-02
+dogadjaji:
+- naziv: Izložba ratnih fotografija Goranskih risova
+  datum: 2026-11-04
+  mjesto: Delnice (točno mjesto bit će naknadno objavljeno)
+  grad: Delnice
+  opis: Uz izložbu i predavanje generala Balena.
+  link: /goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/
+- naziv: Noć špilja u Lokvama
+  datum: 2026-11-07
+  vrijeme: "17:00"
+  mjesto: DKC „Žaba”, Lokve
+  grad: Lokve
+  opis: Program od 17 sati, šetnja kreće u 18:00.
+  link: /noc-spilja-lokve-2026/
+- naziv: Pčelarski sajam u Skradu
+  datum: 2026-11-07
+  datum_do: 2026-11-08
+  vrijeme: sub od 15:00, ned do 17:00
+  mjesto: Dom kulture Skrad, Josipa Blaževića Blaža 8
+  grad: Skrad
+  organizator: Općina Skrad i Udruga „Medun”
+  opis: Med i pčelarski proizvodi, ulaz je slobodan.
+  link: /pcelarski-sajam-skrad/
+- naziv: Zimska liga Kvarnera – 1. kolo
+  datum: 2026-11-08
+  vrijeme: "10:00"
+  mjesto: Jezero Bajer, Fužine
+  grad: Fužine
+  opis: Ribolovno natjecanje, uz utrke Male lige za djecu.
+  link: /zimska-liga-kvarnera-fuzine-1-kolo/
+- naziv: „Gdje je Zrinjski” – predstava u Ravnoj Gori
+  datum: 2026-11-09
+  vrijeme: "18:00"
+  mjesto: Dom kulture Ravna Gora
+  grad: Ravna Gora
+  opis: Autorska predstava Karla Hubaka i Nataše Rajković, ulaz je slobodan.
+  link: /gdje-je-zrinjski-predstava-ravna-gora/
+- naziv: Martinjski sajam u Vrbovskom
+  datum: 2026-11-11
+  mjesto: Gradska tržnica, Vrbovsko
+  grad: Vrbovsko
+  opis: Zimska odjeća, zimnica, igračke, pečenka i kuhano vino.
+  link: /martinjski-sajam-vrbovsko-2026/
+- naziv: „Postolar i vrag” u Noći kazališta
+  datum: 2026-11-20
+  vrijeme: "20:00"
+  mjesto: Radnički dom, Školska ulica, Delnice
+  grad: Delnice
+  organizator: Kotar Teatar
+  opis: Gostuje zagrebačka družina Doza drame.
+  link: /postolar-i-vrag-kotar-teatar-delnice/
+- naziv: Advent na jezeru Lepenica
+  datum: 2026-11-27
+  datum_do: 2026-12-31
+  vrijeme: od 18:30
+  mjesto: Jezero Lepenica, Fužine
+  grad: Fužine
+  opis: Kino na brodu, Djed Mraz i doček Nove godine; za većinu programa rezervacija je obavezna.
+  link: /advent-na-jezeru-lepenica/
+- naziv: „Svi za djecu” – humanitarni turnir u odbojci
+  datum: 2026-11-28
+  vrijeme: "10:00"
+  mjesto: Sportska dvorana Delnice
+  grad: Delnice
+  opis: Drugi humanitarni turnir; prijave ekipa su otvorene, broj mjesta je ograničen.
+  link: /delnice-humanitarni-turnir-odbojka-svi-za-djecu/
