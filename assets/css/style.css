@@ -177,6 +177,7 @@ h2 { font-size: 1.5rem; margin: 0 0 20px; color: var(--green-dark); }
 .post-content table.ljestvica th, .post-content table.ljestvica td { padding: 6px 8px; }
 .post-content table.ljestvica th:first-child, .post-content table.ljestvica td:first-child { white-space: normal; overflow-wrap: anywhere; text-align: left; }
 .post-content table.ljestvica th:not(:first-child), .post-content table.ljestvica td:not(:first-child) { width: 3.2em; text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.post-content table.ljestvica th:last-child, .post-content table.ljestvica td:last-child { font-weight: 700; }
 .ljestvica-legenda { margin: -16px 0 24px; font-size: 0.8rem; color: var(--muted); }
 @media (max-width: 480px) {
   .post-content table { font-size: 0.85rem; }
