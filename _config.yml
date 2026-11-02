@@ -60,3 +60,22 @@ oglasi_kontakt: ""
 # Brojač posjeta GoatCounter (_includes/goatcounter.html). Upiši kod računa, npr. goatcounter: mojgk
 # (→ https://mojgk.goatcounter.com/count). Prazno = brojač isključen.
 goatcounter: mojgk
+
+# SEO, RSS i karta stranice (dodaci s popisa koje GitHub Pages podržava)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+lang: hr_HR
+logo: /assets/images/delnice-panorama-2024.jpg
+twitter:
+  card: summary_large_image
+feed:
+  path: feed.xml
+# Zadana slika za pregled pri dijeljenju (FB/WhatsApp) na stranicama koje nisu članci
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      image: /assets/images/delnice-panorama-2024.jpg
