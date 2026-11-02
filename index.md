@@ -73,7 +73,8 @@ sidebar: true
 <p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
-  {% for post in site.posts %}
+  {%- comment -%} Naslovnica: samo 30 najnovijih (brzina); starije su na /arhiva/ i stranicama kategorija. {%- endcomment -%}
+  {% for post in site.posts limit: 30 %}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
   {%- assign c_key = "|" | append: post.url | append: "|" -%}
@@ -81,7 +82,7 @@ sidebar: true
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
-      {% if post.image %}<img src="{{ post.image | relative_url }}"{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
+      {% if post.image %}<img {% include thumb.html img=post.image %}{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
       <span class="card-badges">{% include prijelomna-oznaka.html post=post %}{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
     </a>
     <div class="content">
@@ -95,6 +96,7 @@ sidebar: true
   </article>
   {% endfor %}
 </div>
+<p class="starije-vijesti"><a id="starije-link" href="{{ '/arhiva/' | relative_url }}" data-baza="{{ '/' | relative_url }}">Starije vijesti <span aria-hidden="true">→</span></a></p>
 <p class="no-results" id="nema-clanaka" hidden>Još nema članaka za odabrani filter. <button type="button" class="link-btn" data-reset>Prikaži sve</button></p>
 
 <script>
@@ -143,6 +145,13 @@ sidebar: true
     });
     resets.forEach(function (r) { if (r.classList.contains('filter-btn')) r.classList.toggle('active', !filtering); });
     empty.hidden = shown > 0;
+    // naslovnica ima samo 30 najnovijih: uz filter „Starije” vodi na stranicu kategorije
+    var st = document.getElementById('starije-link');
+    if (st) {
+      var b0 = st.getAttribute('data-baza'), f0 = state.type || state.location || state.series;
+      st.href = !f0 ? b0 + 'arhiva/' : (f0 === 'zaposlenje' ? b0 + 'zaposlenje/' : b0 + 'kategorije/' + f0 + '/');
+      st.firstChild.textContent = f0 ? 'Starije: ' + names[f0] + ' ' : 'Starije vijesti ';
+    }
     if (updateUrl && window.history && history.replaceState) {
       var p = [];
       if (state.location) p.push(state.location);
