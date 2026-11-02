@@ -30,9 +30,20 @@ Uz snijeg je puhalo i jako. DHMZ je zbog jakog i olujnog vjetra izdao narančast
 
 Motritelj DHMZ-a Franjo Crnković rekao je Gorskim novostima da je snijega oko Svih svetih bilo u većini godina. Za početak tjedna najavljuje se vjetrovito i prohladno vrijeme s povremenim oborinama. Zimske gume, strugač i malo strpljenja na cesti dobro će doći.
 
+## Dopuna, 2. 11. navečer: Begovo Razdolje pod 20 cm snijega
+
+Prema prilogu Nove TV koji je prenio Index, najviše snijega palo je u **Begovom Razdolju**. To je naše najviše naseljeno mjesto (1078 m) u Općini Mrkopalj, a ondje ga je bilo **oko 20 centimetara**. Za usporedbu, na Zavižanu na Velebitu ujutro je izmjereno 12 cm.
+
+Dvadesetak stalnih stanovnika nešto kasnije nego inače uzelo je lopate i očistilo prilaze kućama. Jedan 82-godišnji mještanin za Novu TV je rekao da mu to „dođe kao rekreacija”.
+
+Snijeg se ipak neće dugo zadržati. Danju je bilo oko 3 °C pa se snijeg pretvarao u kišu, a prema sadašnjim prognozama neće ostati do vikenda.
+
+*Dopunu prenosimo iz jednog izvora (Nova TV putem Indexa).*
+
 ## Izvori
 
 - [HRT Radio Rijeka – Snijeg zabijelio dijelove Gorskog kotara (1. 11. 2026.)](https://radio.hrt.hr/radio-rijeka/vijesti/snijeg-zabijelio-dijelove-gorskog-kotara-12987314)
 - [Gorske novosti – Prvi snijeg zabijelio Gorski kotar (2. 11. 2026.)](https://gorskenovosti.net/2026/11/02/prvi-snijeg-zabijelio-gorski-kotar-pahulje-iznenadile-vozace-upaljen-narancasti-alarm/)
 - [Rijeka Danas – snijeg i sudar kod Starog Laza (1. 11. 2026., prema Indexu)](https://www.rijekadanas.com/snijeg-gorski-kotar-mrkopalj-stari-laz-sudar/)
 - [HAK – Stanje na cestama](https://www.hak.hr/info/stanje-na-cestama/) (provjereno 2. 11. 2026. u 13:30)
+- [Index.hr – U najvišem hrvatskom mjestu palo 20 centimetara snijega (2. 11. 2026., 21:41, prema prilogu Nove TV)](https://www.index.hr/vijesti/clanak/u-najvisem-hrvatskom-mjestu-palo-20-centimetara-snijega/2852563.aspx)
