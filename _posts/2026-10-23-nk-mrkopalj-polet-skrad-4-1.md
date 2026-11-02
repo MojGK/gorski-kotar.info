@@ -33,14 +33,17 @@ Klub je nakon utakmice zahvalio navijačima na podršci. Lijepo je vidjeti da se
 
 ## Ljestvica nakon 7. kola
 
-| Poz. | Klub | Ut | Pob | Ner | Por | G+ | G- | GR | Bod |
-|------|------|----|-----|-----|-----|----|----|----|-----|
-| 1 | NK Gomirje | 7 | 5 | 0 | 2 | 15 | 14 | +1 | **15** |
-| 2 | NK Goranka | 7 | 4 | 1 | 2 | 18 | 8 | +10 | **13** |
-| 3 | **NK Mrkopalj** | 6 | 4 | 0 | 2 | 24 | 11 | +13 | **12** |
-| 4 | NK Željezničar (M) | 7 | 3 | 1 | 3 | 16 | 11 | +5 | 10 |
-| 5 | NK Polet (Sk) | 7 | 3 | 0 | 4 | 18 | 17 | +1 | 9 |
-| 6 | NK Snježnik | 6 | 0 | 0 | 6 | 7 | 37 | -30 | 0 |
+| Klub | U | GR | B |
+|:---|:-:|:-:|:-:|
+| 1. NK Gomirje | 7 | +1 | 15 |
+| 2. NK Goranka | 7 | +10 | 13 |
+| **3. NK Mrkopalj** | **6** | **+13** | **12** |
+| 4. NK Željezničar (M) | 7 | +5 | 10 |
+| 5. NK Polet (Sk) | 7 | +1 | 9 |
+| 6. NK Snježnik | 6 | -30 | 0 |
+{: .ljestvica}
+
+<p class="ljestvica-legenda">U = odigrane utakmice, GR = gol-razlika, B = bodovi</p>
 
 Mrkopalj ima utakmicu manje: susret 1. kola protiv Snježnika je odgođen. Sljedeće kolo igra se u nedjelju, 25. listopada, a Mrkopalj tada gostuje kod Goranke u Ravnoj Gori.
 

@@ -172,6 +172,17 @@ h2 { font-size: 1.5rem; margin: 0 0 20px; color: var(--green-dark); }
 .post-content th, .post-content td:first-child { white-space: nowrap; }
 .post-content thead th { background: var(--green); color: #fff; font-weight: 600; }
 .post-content tbody tr:nth-child(even) { background: #f3f5f4; }
+/* Ljestvice (sport): 4 stupca, stanu na mobitel */
+.post-content table.ljestvica { display: table; width: 100%; table-layout: auto; }
+.post-content table.ljestvica th, .post-content table.ljestvica td { padding: 6px 8px; }
+.post-content table.ljestvica th:first-child, .post-content table.ljestvica td:first-child { white-space: normal; overflow-wrap: anywhere; text-align: left; }
+.post-content table.ljestvica th:not(:first-child), .post-content table.ljestvica td:not(:first-child) { width: 3.2em; text-align: center; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.ljestvica-legenda { margin: -16px 0 24px; font-size: 0.8rem; color: var(--muted); }
+@media (max-width: 480px) {
+  .post-content table { font-size: 0.85rem; }
+  .post-content th, .post-content td { padding: 6px 6px; }
+  .post-content table.ljestvica th:not(:first-child), .post-content table.ljestvica td:not(:first-child) { width: 2.6em; padding: 6px 3px; }
+}
 .source { margin-top: 28px; font-size: 0.9rem; color: var(--muted); }
 
 /* Comments */

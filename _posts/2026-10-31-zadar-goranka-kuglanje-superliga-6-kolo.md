@@ -18,18 +18,21 @@ Gostovanje nije lako. Zadar je nakon pet kola drugi, a Goranka još traži prvu 
 
 ### Tablica nakon 5. kola
 
-| | Klub | Ut. | Pob. | Ner. | Por. | Poeni | Bod. |
-|---|---|---|---|---|---|---|---|
-| 1. | Zaprešić | 5 | 5 | 0 | 0 | 33:7 | 10 |
-| 2. | Zadar | 5 | 4 | 0 | 1 | 27:13 | 8 |
-| 3. | Nove nade | 5 | 4 | 0 | 1 | 27:13 | 8 |
-| 4. | Mertojak | 5 | 3 | 0 | 2 | 25:15 | 6 |
-| 5. | Osijek | 5 | 2 | 1 | 2 | 21:19 | 5 |
-| 6. | Bjelovar | 5 | 2 | 1 | 2 | 18:22 | 5 |
-| 7. | Poštar | 5 | 1 | 1 | 3 | 18:22 | 3 |
-| 8. | Frozy Zabok | 5 | 1 | 0 | 4 | 10:30 | 2 |
-| 9. | Velebit | 5 | 0 | 2 | 3 | 9:31 | 2 |
-| **10.** | **Goranka** | **5** | **0** | **1** | **4** | **12:28** | **1** |
+| Klub | U | RP | B |
+|:---|:-:|:-:|:-:|
+| 1. Zaprešić | 5 | +26 | 10 |
+| 2. Zadar | 5 | +14 | 8 |
+| 3. Nove nade | 5 | +14 | 8 |
+| 4. Mertojak | 5 | +10 | 6 |
+| 5. Osijek | 5 | +2 | 5 |
+| 6. Bjelovar | 5 | -4 | 5 |
+| 7. Poštar | 5 | -4 | 3 |
+| 8. Frozy Zabok | 5 | -20 | 2 |
+| 9. Velebit | 5 | -22 | 2 |
+| **10. Goranka** | **5** | **-16** | **1** |
+{: .ljestvica}
+
+<p class="ljestvica-legenda">U = odigrane utakmice, RP = razlika poena, B = bodovi</p>
 
 *Prema službenom biltenu 5. kola Hrvatskog kuglačkog saveza.*
 

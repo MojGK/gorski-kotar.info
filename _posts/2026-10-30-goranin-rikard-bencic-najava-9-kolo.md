@@ -26,22 +26,25 @@ Kod kuće Goranin ove sezone ne gubi: **četiri pobjede i remi, uz samo jedan pr
 
 ## Tablica nakon 8. kola
 
-| # | Klub | Ut | P | N | I | Golovi | Bod |
-|---|------|---:|---:|---:|---:|:---:|---:|
-| 1 | Mune | 8 | 6 | 1 | 1 | 27:13 | 19 |
-| 2 | Lošinj | 8 | 5 | 2 | 1 | 19:13 | 17 |
-| 3 | Turbina | 8 | 4 | 2 | 2 | 18:12 | 14 |
-| 4 | **Goranin** | 7 | 4 | 1 | 2 | 12:5 | 13 |
-| 5 | Lovran | 8 | 4 | 0 | 4 | 17:15 | 12 |
-| 6 | Rab | 6 | 3 | 2 | 1 | 14:8 | 11 |
-| 7 | Stari grad Rijeka | 8 | 3 | 2 | 3 | 13:13 | 11 |
-| 8 | Vrbovsko | 8 | 3 | 1 | 4 | 18:15 | 10 |
-| 9 | Omladinac Vrata | 7 | 2 | 4 | 1 | 12:9 | 10 |
-| 10 | Risnjak | 8 | 2 | 2 | 4 | 12:24 | 8 |
-| 11 | Vihor (B) | 8 | 2 | 1 | 5 | 12:24 | 7 |
-| 12 | Zamet | 8 | 2 | 0 | 6 | 13:19 | 6 |
-| 13 | Draga | 7 | 2 | 0 | 5 | 10:18 | 6 |
-| 14 | Rikard Benčić | 7 | 1 | 2 | 4 | 5:14 | 5 |
+| Klub | U | GR | B |
+|:---|:-:|:-:|:-:|
+| 1. Mune | 8 | +14 | 19 |
+| 2. Lošinj | 8 | +6 | 17 |
+| 3. Turbina | 8 | +6 | 14 |
+| **4. Goranin** | **7** | **+7** | **13** |
+| 5. Lovran | 8 | +2 | 12 |
+| 6. Rab | 6 | +6 | 11 |
+| 7. Stari grad Rijeka | 8 | 0 | 11 |
+| 8. Vrbovsko | 8 | +3 | 10 |
+| 9. Omladinac Vrata | 7 | +3 | 10 |
+| 10. Risnjak | 8 | -12 | 8 |
+| 11. Vihor (B) | 8 | -12 | 7 |
+| 12. Zamet | 8 | -6 | 6 |
+| 13. Draga | 7 | -8 | 6 |
+| 14. Rikard Benčić | 7 | -9 | 5 |
+{: .ljestvica}
+
+<p class="ljestvica-legenda">U = odigrane utakmice, GR = gol-razlika, B = bodovi</p>
 
 *Napomena: neki klubovi imaju utakmicu manje – u 8. kolu odgođeni su susreti Rab – Draga i Omladinac Vrata – Rikard Benčić, a Goranin i Rab imaju i ranije neodigrane utakmice.*
 

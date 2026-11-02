@@ -21,14 +21,17 @@ HNS Semafor sada vodi i pobjedu Gomirja nad Snježnikom 3:0 iz 8. kola, i to kao
 
 ## Ljestvica nakon 8 kola
 
-| Poz | Klub | Ut | P | N | I | Golovi | GR | Bod |
-|---|---|---|---|---|---|---|---|---|
-| 1 | NK Gomirje | 8 | 6 | 0 | 2 | 18:14 | +4 | 18 |
-| 2 | NK Goranka (Ravna Gora) | 8 | 5 | 1 | 2 | 21:10 | +11 | 16 |
-| 3 | NK Mrkopalj | 8 | 5 | 0 | 3 | 34:14 | +20 | 15 |
-| 4 | NK Željezničar (Moravice) | 8 | 3 | 2 | 3 | 17:12 | +5 | 11 |
-| 5 | NK Polet (Skrad) | 8 | 3 | 1 | 4 | 19:18 | +1 | 10 |
-| 6 | NK Snježnik (Gerovo) | 8 | 0 | 0 | 8 | 7:48 | −41 | 0 |
+| Klub | U | GR | B |
+|:---|:-:|:-:|:-:|
+| 1. NK Gomirje | 8 | +4 | 18 |
+| 2. NK Goranka (Ravna Gora) | 8 | +11 | 16 |
+| 3. NK Mrkopalj | 8 | +20 | 15 |
+| 4. NK Željezničar (Moravice) | 8 | +5 | 11 |
+| 5. NK Polet (Skrad) | 8 | +1 | 10 |
+| 6. NK Snježnik (Gerovo) | 8 | -41 | 0 |
+{: .ljestvica}
+
+<p class="ljestvica-legenda">U = odigrane utakmice, GR = gol-razlika, B = bodovi</p>
 
 ## Najbolji strijelci
 
