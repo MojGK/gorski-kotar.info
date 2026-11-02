@@ -68,8 +68,6 @@ plugins:
   - jekyll-sitemap
 lang: hr_HR
 logo: /assets/images/delnice-panorama-2024.jpg
-twitter:
-  card: summary_large_image
 feed:
   path: feed.xml
 # Zadana slika za pregled pri dijeljenju (FB/WhatsApp) na stranicama koje nisu članci
