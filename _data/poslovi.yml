@@ -1,7 +1,7 @@
 # ZAPOSLENJE – živi popis oglasa (stranica /zaposlenje/ i blok na naslovnici).
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
-azurirano: 2026-11-02
+azurirano: 2026-11-03
 oglasi:
 - poslodavac: HCK – Gradsko društvo Crvenog križa Delnice
   pozicija: Radnik / radnica za potporu starijim osobama i osobama s invaliditetom (program Zaželi)
@@ -97,6 +97,26 @@ oglasi:
   - naziv: HZZ
     url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167885514
   izdvojeno: true
+- poslodavac: Grad Čabar (Jedinstveni upravni odjel)
+  pozicija: Stručni suradnik / suradnica za komunalno gospodarstvo i zaštitu okoliša
+  broj: 1
+  vrsta: "određeno (zamjena do povratka odsutnog službenika), puno radno vrijeme"
+  mjesto: Čabar
+  rok: 2026-11-11
+  opis: Prvostupnik građevinske ili tehničke struke, najmanje 3 godine iskustva, položen državni ispit (ili obveza polaganja); prijevoz plaćen u cijelosti.
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167974495
+- poslodavac: Ordinacija opće medicine dr. Viktor Simunović, Delnice
+  pozicija: Doktor / doktorica medicine (opća / obiteljska medicina)
+  broj: 1
+  vrsta: određeno
+  mjesto: Delnice
+  rok: 2026-11-12
+  opis: Zaseban oglas iste ordinacije koja preko HZZ-a traži i zamjenu s rokom 1. 12. (vidi niže). Traži se završen medicinski fakultet i važeća licenca HLK.
+  izvori:
+  - naziv: Posao.hr
+    url: https://www.posao.hr/oglasi/doktor-medicine-m-z-opca-obiteljska/1254736/
 - poslodavac: FOS d.o.o.
   pozicija: Konobar / konobarica u restoranu Bitoraj
   broj: 2
@@ -143,6 +163,17 @@ oglasi:
   izvori:
   - naziv: HZZ
     url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167534005
+- poslodavac: GEC d.o.o. (folije i vrećice)
+  pozicija: Rukovatelj / rukovateljica strojevima za izradu plastičnih proizvoda
+  broj: 3
+  vrsta: "određeno, rad u 2 smjene"
+  mjesto: Plešce (Čabar)
+  rok: 2026-11-17
+  opis: Rad na strojevima za izradu vrećica i folija, pakiranje i pomoćni poslovi u proizvodnji (teži fizički rad); završena osnovna škola, 1 godina iskustva; osiguran zajednički smještaj.
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167952550
+  grad: Čabar
 - poslodavac: Tifon d.o.o.
   pozicija: Gastro prodavač / prodavačica
   mjesto: Ravna Gora (među više lokacija)
@@ -151,6 +182,16 @@ oglasi:
   - naziv: MojPosao
     url: https://mojposao.hr/posao/1ba54ce7-d212-11f1-8b88-0280a8fb46bd/gastro-prodavac-prodavac-m-z
   grad: Ravna Gora
+- poslodavac: Gavranović d.o.o.
+  pozicija: Prodavač / prodavačica
+  broj: 1
+  vrsta: "određeno (povećan opseg posla), puno radno vrijeme"
+  mjesto: Vrbovsko
+  rok: 2026-11-30
+  opis: Blagajna, salamoreznica, slaganje robe i kontrola rokova; SSS, iskustvo poželjno, ali nije uvjet. Životopis na posao@gavranovic.hr.
+  izvori:
+  - naziv: HZZ
+    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167977302
 - poslodavac: Lož Metalpres d.o.o.
   pozicija: Referent / referentica prodaje za domaće i inozemno tržište
   broj: 1
@@ -161,13 +202,13 @@ oglasi:
   - naziv: HZZ
     url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167902016
   grad: Čabar
-- poslodavac: Ordinacija opće medicine u Delnicama
+- poslodavac: Ordinacija opće medicine dr. Viktor Simunović, Delnice
   pozicija: Doktor / doktorica medicine (zamjena)
   broj: 1
   vrsta: "određeno (zamjena), puno radno vrijeme"
   mjesto: Delnice
   rok: 2026-12-01
-  opis: Mogu se javiti i umirovljenici; troškovi prijevoza ili smještaja pokrivaju se u cijelosti.
+  opis: Mogu se javiti i umirovljenici; troškovi prijevoza ili smještaja pokrivaju se u cijelosti. Ista ordinacija ima i zaseban oglas za doktora medicine s rokom 12. 11. (vidi gore).
   izvori:
   - naziv: HZZ
     url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167919663
