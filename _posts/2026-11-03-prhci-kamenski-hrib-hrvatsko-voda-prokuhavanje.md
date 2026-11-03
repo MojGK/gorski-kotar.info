@@ -17,7 +17,7 @@ Nastavni zavod za javno zdravstvo Primorsko-goranske županije uzorkovao je **28
 > **Preporuke Zavoda**
 > - Vodu namijenjenu piću **prokuhajte najmanje 3 minute**.
 > - Prokuhanu vodu **čuvajte na hladnom, u istoj posudi** u kojoj je prokuhana.
-> - Dok preporuka vrijedi, za piće je najsigurnija pakirana voda ili voda iz drugog provjereno ispravnog izvora.
+Naš savjet: dok preporuka vrijedi, za piće je najjednostavnije koristiti pakiranu vodu.
 
 Preporuka vrijedi do nove obavijesti nadležnih službi o tome da je voda ponovno ispravna. Kad stigne, prenijet ćemo je.
 
