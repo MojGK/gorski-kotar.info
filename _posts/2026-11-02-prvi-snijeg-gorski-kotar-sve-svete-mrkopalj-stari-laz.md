@@ -2,7 +2,6 @@
 layout: post
 title: "Prvi snijeg na Sve svete: bijeli vrhovi, skliska cesta kod Mrkoplja i sudar kod Starog Laza"
 date: 2026-11-02 13:52:00 +0100
-featured: true
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
