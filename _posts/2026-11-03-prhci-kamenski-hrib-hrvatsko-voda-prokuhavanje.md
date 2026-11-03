@@ -12,6 +12,8 @@ image_credit: "Ilustracija: Shixart1985 / [Wikimedia Commons](https://commons.wi
 ---
 Obavijest za mještane **Prhaca, Kamenskog Hriba i Hrvatskog** te za sve koji ondje borave. Hrvatsko je naselje Grada Delnica.
 
+**Dopuna 3. 11. u 17:30:** da bude jasnije o kojim je mjestima riječ: **Prhci i Kamenski Hrib** naselja su **Grada Čabra** (kako navodi i Novi list), a **Hrvatsko** je naselje **Grada Delnica**. Uzorci su uzeti u četiri naselja (Prhci, Gornji Žagari, Kamenski Hrib i Hrvatsko), a nesukladni su oni iz Prhaca, Kamenskog Hriba i Hrvatskog. Za **Gornje Žagare** nesukladnost nije prijavljena. Preporuka o **prokuhavanju vode najmanje 3 minute i dalje vrijedi**. Grad Čabar na svojoj stranici do 17:30 nije objavio zasebnu obavijest.
+
 Nastavni zavod za javno zdravstvo Primorsko-goranske županije uzorkovao je **28. listopada 2026.** vodu iz lokalnih vodovoda u Prhcima, Gornjim Žagarima, Kamenskom Hribu i Hrvatskom. Uzorkovanje je dio redovitog monitoringa Ministarstva zdravstva. Prema obavijesti Zavoda od 3. studenoga, uzorci iz **Prhaca, Kamenskog Hriba i Hrvatskog** **nisu sukladni Pravilniku** zbog **mikrobiološkog onečišćenja**. Gornji Žagari nisu na popisu nesukladnih uzoraka. Za Hrvatsko je obavijest objavio i Grad Delnice, zajedno s izvještajem o ispitivanju.
 
 > **Preporuke Zavoda**
@@ -28,3 +30,4 @@ Preporuka vrijedi do nove obavijesti nadležnih službi o tome da je voda ponovn
 **Izvori:**
 - Nastavni zavod za javno zdravstvo PGŽ, 3. 11. 2026. – [Nesukladni uzorci vode za ljudsku potrošnju na području Gorskog kotara – Prhci, Kamenski Hrib i Hrvatsko](https://zzjzpgz.hr/novosti/nesukladni-uzorci-vode-za-ljudsku-potrosnju-na-podrucju-gorskog-kotara-prhci-kamenski-hrib-i-hrvatsko/)
 - Grad Delnice, 3. 11. 2026. – [Uzorkovanje vode za ljudsku potrošnju na području naselja Hrvatsko](https://delnice.hr/uzorkovanje-vode-za-ljudsku-potrosnju-na-podrucju-naselja-hrvatsko/)
+- Novi list, 3. 11. 2026. – [U nekim mjestima na području Grada Čabra voda nije za ljudsku upotrebu](https://www.novilist.hr/rijeka-regija/gorski-kotar/u-nekim-mjestima-na-podrucju-grada-cabra-voda-nije-za-ljudsku-upotrebu/)
