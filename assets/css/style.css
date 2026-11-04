@@ -186,22 +186,6 @@ h2 { font-size: 1.5rem; margin: 0 0 20px; color: var(--green-dark); }
 }
 .source { margin-top: 28px; font-size: 0.9rem; color: var(--muted); }
 
-/* Comments */
-.comments {
-  margin-top: 48px;
-  padding-top: 28px;
-  border-top: 1px solid var(--border);
-}
-.comments h2 { font-size: 1.4rem; margin-bottom: 16px; }
-.comments-placeholder {
-  background: #f8f8f8;
-  border: 1px dashed #ddd;
-  border-radius: 10px;
-  padding: 28px 20px;
-  text-align: center;
-  color: var(--muted);
-}
-
 @media (max-width: 768px) {
   .post-header h1 { font-size: 1.55rem; }
   .post-content { font-size: 1rem; }
@@ -715,8 +699,6 @@ main.container { padding-top: 4px; padding-bottom: 24px; }
 .post-content blockquote { margin: 20px 0; padding: 10px 16px; border-left: 4px solid var(--accent); background: var(--green-soft); border-radius: 0 10px 10px 0; color: #2c3a31; }
 .post-content thead th { background: var(--primary); }
 .post-content tbody tr:nth-child(even) { background: #f1f6f2; }
-.comments { border-top: 0; background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow-sm); padding: 20px 16px; margin-top: 32px; }
-.comments h2 { color: var(--primary); }
 .anketa { border: 0; border-left: 4px solid var(--accent); box-shadow: var(--shadow-sm); }
 .anketa-bar span { background: var(--accent); }
 
@@ -770,7 +752,6 @@ main.container { padding-top: 4px; padding-bottom: 24px; }
   .lead h1 { font-size: 2rem; }
   .lead-body > p { font-size: 1.05rem; }
   .post-header h1 { font-size: 2.3rem; }
-  .comments { padding: 24px 28px; }
   .footer-inner { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: space-between; }
   .footer-copy { flex: 1 1 100%; }
   .filters, .filter-group { flex-wrap: wrap; overflow-x: visible; }
@@ -857,26 +838,6 @@ a:hover { color: var(--primary); }
 .sidebar-box .wx-credit { margin-top: 8px; font-size: 0.72rem; }
 .wx-credit a { color: var(--muted); }
 
-/* ---------- Komentari ---------- */
-.komentari-note { font-size: 0.9rem; color: #4d5a52; margin: 0 0 12px; }
-#HCB_comment_box { font-family: var(--font) !important; }
-#HCB_comment_box h3 { font-size: 1rem; color: var(--primary); margin: 0 0 8px; }
-#HCB_comment_box input[type=text], #HCB_comment_box input[type=email], #HCB_comment_box textarea {
-  display: block; width: 100% !important; max-width: 100%; font: inherit !important; font-size: 0.95rem !important;
-  padding: 10px 12px !important; margin: 0 0 10px !important; border: 1px solid #cfdcd3 !important; border-radius: 10px !important; background: #fff !important; box-sizing: border-box;
-}
-#HCB_comment_box textarea { min-height: 110px; }
-#HCB_comment_box input:focus, #HCB_comment_box textarea:focus { outline: none; border-color: var(--accent) !important; box-shadow: 0 0 0 3px var(--accent-soft); }
-#HCB_comment_box .submit, #HCB_comment_box input[type=submit], #HCB_comment_box button {
-  font: inherit !important; font-weight: 700 !important; background: var(--accent) !important; color: #fff !important; border: 0 !important;
-  border-radius: 999px !important; padding: 9px 20px !important; cursor: pointer; width: auto !important;
-}
-#HCB_comment_box .comment { border-top: 1px solid #e6eee8; padding: 10px 0; }
-#HCB_comment_box .hcb-comment-tb { font-size: 0.82rem; }
-#HCB_comment_box a { color: var(--accent); }
-.giscus-rezerva { margin-top: 18px; border-top: 1px solid #e6eee8; padding-top: 12px; }
-.giscus-rezerva summary { cursor: pointer; font-size: 0.88rem; font-weight: 600; color: var(--muted); }
-.giscus-rezerva[open] summary { margin-bottom: 10px; }
 
 @media (min-width: 600px) {
   .lead.hero .lead-link { min-height: 460px; }
@@ -894,21 +855,12 @@ a:hover { color: var(--primary); }
 .lead.hero[hidden], .ad-banner[hidden], .post-card[hidden] { display: none !important; }
 body.filtering .ad-banner { display: none; }
 .lead.hero .lead-excerpt { color: #eef7ef; }
-#HCB_comment_box #hcb_file_label, #HCB_comment_box #hcb_file { display: none !important; }
-#HCB_comment_box .home-desc { font-size: 0.72rem; color: #8a958d; margin-top: 10px; }
-#HCB_comment_box .home-desc a { color: #8a958d !important; }
-#HCB_comment_box .comment { margin-bottom: 0 !important; }
-#HCB_comment_box .hcb-comment-body { font-size: 0.95rem !important; }
-#HCB_comment_box .date { font-size: 0.78rem !important; }
-#HCB_comment_box .hcb-comment-tb button { color: var(--accent) !important; background: none !important; padding: 0 !important; font-size: 0.82rem !important; border-radius: 0 !important; }
-#HCB_comment_box #no_comments { color: var(--muted); font-size: 0.92rem; }
 @media (max-width: 599px) {
   .ad-banner { flex-wrap: wrap; }
   .ad-banner-logo img { width: 44px; }
   .ad-banner-text { flex: 1 1 0; }
   .ad-banner-btn { flex: 1 1 100%; text-align: center; }
 }
-#HCB_comment_box #hcb_msg:empty { display: none; }
 
 /* =====================================================================
    MOBILNA NASLOVNICA + IZDVOJENO + OPĆINSKE VIJESTI (2026-10-27)
