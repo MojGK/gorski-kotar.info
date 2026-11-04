@@ -13,7 +13,7 @@ image_credit: "Foto: Roberta F., Wikimedia Commons, CC BY-SA 3.0 (ilustrativna f
 
 Tko danas putuje između Rijeke i Zagreba, neka računa na stariju cestu. Prema HAK-u (stanje u 13:17), **promet na autocesti A6 prekinut je u oba smjera između čvorova Kikovica i Oštrovica**. Uzrok je prometna nesreća na **64. kilometru, u zoni radova**. **Obilazak je starom cestom kroz Gorski kotar, odnosno državnom cestom DC3.**
 
-Novi list javlja, pozivajući se na PU primorsko-goransku, da su u nesreći sudjelovale životinje i da je na terenu veterinarska inspekcija. Prekid traje od jutra: Novi list ga je prvi put objavio u 7:18.
+Novi list javlja, pozivajući se na PU primorsko-goransku, da su u nesreći sudjelovale životinje i da je na terenu veterinarska inspekcija. Prekid traje barem od prijepodneva: Novi list ga je javio već u 11:10.
 
 Na A6 je danas bilo još jedne nesreće. Novi list je u 11:10 javio o nesreći kod tunela Podvugleš, između Vrbovskog i Ravne Gore, u smjeru Rijeke. Ondje se promet odvijao jednim trakom uz ograničenje od 60 km/h.
 
