@@ -13,7 +13,7 @@ image_credit: "Foto: Roberta F., Wikimedia Commons, CC BY-SA 3.0 (ilustrativna f
 
 > **Ažurirano 4. 11. u 19:25:** prema HAK-u promet između Kikovice i Oštrovice više nije prekinut. Točno vrijeme otvaranja HAK ne navodi. Do 13. 11. između tunela Pod Vugleš i Javorova Kosa vozi se jednim trakom u svakom smjeru uz ograničenje od 60 km/h.
 
-Tko danas putuje između Rijeke i Zagreba, neka računa na stariju cestu. Prema HAK-u (stanje u 13:17), **promet na autocesti A6 prekinut je u oba smjera između čvorova Kikovica i Oštrovica**. Uzrok je prometna nesreća na **64. kilometru, u zoni radova**. **Obilazak je starom cestom kroz Gorski kotar, odnosno državnom cestom DC3.**
+Prema HAK-u (stanje u 13:17), **promet na autocesti A6 bio je prekinut u oba smjera između čvorova Kikovica i Oštrovica**. Uzrok je prometna nesreća na **64. kilometru, u zoni radova**. **Obilazak je starom cestom kroz Gorski kotar, odnosno državnom cestom DC3.**
 
 Novi list javlja, pozivajući se na PU primorsko-goransku, da su u nesreći sudjelovale životinje i da je na terenu veterinarska inspekcija. Prekid traje barem od prijepodneva: Novi list ga je javio već u 11:10.
 
