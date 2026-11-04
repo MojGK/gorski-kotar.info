@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-03
+azurirano: 2026-11-04
 dogadjaji:
 - naziv: Izložba ratnih fotografija Goranskih risova
   datum: 2026-11-04
@@ -78,13 +78,15 @@ dogadjaji:
   organizator: Udruga mladih Revival
   opis: Disco večer u spomen na nekadašnji Amadeus, uz Max Dee Jaya, DJ Nikolu i DJ Jana. Ulaz je besplatan.
   link: https://www.dogadanja.com/nocni-zivot/discotheque-amadeus-drustveno-kulturni-centar-zaba-lokve-2026-11-14/
-- naziv: 12. međunarodni susret haiku pjesnika
+- naziv: "12. međunarodni susret haiku pjesnika i promocija zbornika „Čabarski kraj“"
   datum: 2026-11-14
+  datum_do: 2026-11-14
   vrijeme: "13:30"
-  mjesto: OŠ Petar Zrinski Čabar
+  mjesto: OŠ Petar Zrinski, Narodnog oslobođenja 5, Čabar
   grad: Čabar
-  opis: Uz susret se predstavlja zbornik haiku radova „Čabarski kraj”.
-  link: https://www.cabar.hr/kalendar_dogadjanja.php
+  organizator: Udruga „Goranski koraci“ (prema objavi Gradske knjižnice Janet Majnarich Delnice)
+  opis: "Haiku pjesnici dolaze u Čabar, a u 13:30 u školi slijede promocija zbornika i dodjela priznanja. Prema objavi knjižnice na Facebooku, okupljanje je u 10:00 u Gradskoj knjižnici Janet Majnarich Delnice i u 11:30 ispred OŠ Petar Zrinski. Prije promocije razgledavaju se Zavičajna zbirka, galerija „Svečnjak“, središte Čabra i izvor Čabranke."
+  link: https://www.cabar.hr/files/susret_haiku_pjesnika_2026.webp
 - naziv: „Postolar i vrag” u Noći kazališta
   datum: 2026-11-20
   vrijeme: "20:00"
