@@ -2,7 +2,6 @@
 layout: post
 title: "Talijanska Florian grupa najavljuje preuzimanje bivšeg Cedra u Vrbovskom"
 date: 2026-11-03 17:00:00 +0100
-featured: true
 location: Vrbovsko
 type: Aktualno
 categories: [Vrbovsko, Aktualno]
