@@ -3,8 +3,8 @@ layout: post
 title: "A6 prekinuta između Kikovice i Oštrovice, obilazak starom cestom kroz Gorski kotar"
 date: 2026-11-04 13:10:00 +0100
 location: Gorski kotar
-type: Aktualno
-categories: [Gorski kotar, Aktualno]
+type: Promet
+categories: [Gorski kotar, Promet]
 excerpt: "Zbog nesreće na 64. kilometru, u zoni radova, promet na A6 prekinut je u oba smjera između Kikovice i Oštrovice. Obilazak je DC3 kroz Gorski kotar."
 image: /assets/images/a6-javorova-kosa.jpg
 image_alt: "Autocesta A6 u Gorskom kotaru, ulaz u tunel (ilustrativna fotografija)"
