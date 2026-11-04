@@ -15,7 +15,7 @@ Prema objavi Općine Lokve na Facebooku (3. studenoga), Općina je održala radn
 
 **Javna tribina: utorak, 24. studenoga 2026., u 18 sati, DKC Žaba, Lokve.**
 
-Da je ugovor sklopljen, vidi se i iz obavijesti o dodjeli ugovora u službenom glasilu EU-a (TED), u kojoj je naveden dio k. o. Lokve. Načelnik Nevio Mihelčić rekao je u travnju za Novi list da je riječ o usklađivanju katastra i zemljišnih knjiga. Izmjera ne obuhvaća Mrzlu Vodicu.
+Da je ugovor sklopljen, vidi se i iz obavijesti o dodjeli ugovora u službenom glasilu EU-a (TED), u kojoj je naveden dio k. o. Lokve. Prema toj obavijesti ugovor vrijedi 449.280 €, a izmjera bi trebala završiti oko 5. svibnja 2029. Stigle su tri ponude. U obavijesti ne piše je li iznos s PDV-om ili bez njega. Načelnik Nevio Mihelčić rekao je u travnju za Novi list da je riječ o usklađivanju katastra i zemljišnih knjiga. Izmjera ne obuhvaća Mrzlu Vodicu.
 
 ## Što je katastarska izmjera
 
@@ -27,6 +27,7 @@ Za vlasnike je to prilika da im se nekretnine srede bez vlastitog geodeta. Uobi�
 
 **Izvori:**
 - Općina Lokve, objava na Facebooku, 3. 11. 2026.
-- [TED / Adjudera – Katastarska izmjera dijela k. o. Lokve, Geoprojekt d.d.](https://adjudera.com/en/award/747791-2026-res-0068)
+- [TED – obavijest 747791-2026](https://ted.europa.eu/en/notice/-/detail/747791-2026)
+- [Adjudera (pregled TED obavijesti) – Geoprojekt d.d., Lokve](https://adjudera.com/en/award/747791-2026-res-0068)
 - [Novi list – Na području Općine Lokve uskoro katastarska izmjera](https://www.novilist.hr/rijeka-regija/gorski-kotar/na-podrucju-opcine-lokve-uskoro-katastarska-izmjera/)
 - [DGU – Višegodišnji program katastarskih izmjera, za građane](https://www.visegodisnjiprogram.dgu.hr/za-gradane/)
