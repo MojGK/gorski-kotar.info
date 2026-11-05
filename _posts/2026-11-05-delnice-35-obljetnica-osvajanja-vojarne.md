@@ -4,11 +4,13 @@ title: "Delnice obilježile 35. obljetnicu osvajanja vojarne i vojnih skladišta
 date: 2026-11-05 15:55:00 +0100
 location: Delnice
 type: Aktualno
+featured: true
 categories: [Delnice, Aktualno]
 excerpt: "Misa, počast na groblju i Trgu 138. brigade te predavanje brigadnog generala Miljenka Balena u Gradskoj knjižnici Janet Majnarich obilježili su 35 godina od osvajanja delničkog JNA kompleksa 5. studenoga 1991."
-image: /assets/images/delnice-panorama-2024.jpg
-image_alt: "Pogled na Delnice s vidikovca ispod Japlenškog vrha (ilustrativna fotografija)"
-image_credit: "Fotografija: Lan Glad / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice_2024.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (ilustrativna)"
+image: /assets/images/delnice-1991-vojarna-arhiva.jpg
+image_alt: "Pripadnici policije i HV-a u Delnicama, studeni 1991. (arhivska fotografija)"
+image_credit: "Foto: privatna arhiva"
+image_position: center 30%
 ---
 
 U Delnicama je u srijedu, **5. studenoga 2026.**, svečano obilježena **35. obljetnica osvajanja vojarne i vojnih objekata**. Prije točno 35 godina, 5. studenoga 1991., snage hrvatske policije i pripadnici **138. brigade HV „Goranski risovi“**, uz Antiterorističku jedinicu Lučko, osvojili su delnički JNA vojni kompleks, skladišta **Velebit (V1, V2 i V3)** i tadašnju kasarnu. Zaplijenjena je velika količina oružja i streljiva koja je, prema Radio Gorskom kotaru, bitno utjecala na daljnji tijek Domovinskog rata.
