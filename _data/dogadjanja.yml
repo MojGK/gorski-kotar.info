@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-04
+azurirano: 2026-11-05
 dogadjaji:
 - naziv: Izložba ratnih fotografija Goranskih risova
   datum: 2026-11-04
@@ -107,7 +107,7 @@ dogadjaji:
 - naziv: Javna tribina o katastarskoj izmjeri građevinskih područja Općine Lokve
   datum: 2026-11-24
   vrijeme: "18:00"
-  mjesto: DKC „Žaba”, Lokve
+  mjesto: Dvorana Općine Lokve, Šetalište Golubinjak 6, Lokve
   grad: Lokve
   organizator: Općina Lokve
   opis: Mještani mogu čuti kako će teći katastarska izmjera koju za Državnu geodetsku upravu provodi Geoprojekt d.d. iz Opatije.

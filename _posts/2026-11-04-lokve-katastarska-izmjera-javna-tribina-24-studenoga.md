@@ -5,15 +5,17 @@ date: 2026-11-04 11:30:00 +0100
 location: Lokve
 type: Aktualno
 categories: [Lokve, Aktualno]
-excerpt: "Općina Lokve održala je radni sastanak s izvođačem katastarske izmjere, a mještane poziva na javnu tribinu 24. studenoga u DKC-u Žaba."
+excerpt: "Općina Lokve održala je radni sastanak s izvođačem katastarske izmjere, a mještane poziva na javni skup 24. studenoga u dvorani Općine."
 image: /assets/images/lokve-homer-panorama.jpg
 image_alt: "Pogled na Lokve i okolne šume"
 image_credit: "Foto: Szeder László / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HR-PG-Lokve07.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
 
+**Ažurirano 5. 11.:** prema službenom pozivu Općine Lokve, javni skup održava se u dvorani Općine Lokve (Šetalište Golubinjak 6), a ne u DKC-u Žaba, kako sam ranije naveo. Ondje je i terenski ured izvoditelja, tvrtke Geoprojekt d.d. iz Opatije.
+
 Prema objavi Općine Lokve na Facebooku (3. studenoga), Općina je održala radni sastanak s tvrtkom Geoprojekt d.d. iz Opatije o katastarskoj izmjeri građevinskih područja. Ugovor o izmjeri sklopili su Državna geodetska uprava i Geoprojekt. Općina je u objavi najavila i javnu tribinu za mještane.
 
-**Javna tribina: utorak, 24. studenoga 2026., u 18 sati, DKC Žaba, Lokve.**
+**Javni skup: utorak, 24. studenoga 2026., u 18 sati, dvorana Općine Lokve, Šetalište Golubinjak 6.**
 
 Da je ugovor sklopljen, vidi se i iz obavijesti o dodjeli ugovora u službenom glasilu EU-a (TED), u kojoj je naveden dio k. o. Lokve. Prema toj obavijesti ugovor vrijedi 449.280 €, a izmjera bi trebala završiti oko 5. svibnja 2029. Stigle su tri ponude. U obavijesti ne piše je li iznos s PDV-om ili bez njega. Načelnik Nevio Mihelčić rekao je u travnju za Novi list da je riječ o usklađivanju katastra i zemljišnih knjiga. Izmjera ne obuhvaća Mrzlu Vodicu.
 
@@ -26,6 +28,7 @@ Za vlasnike je to prilika da im se nekretnine srede bez vlastitog geodeta. Uobi�
 ---
 
 **Izvori:**
+- [Općina Lokve – Poziv na javni skup: katastarska izmjera (4. 11. 2026.)](https://lokve.hr/vijesti/poziv-na-javni-skup-katastarska-izmjera-gradevinskog-podrucja-na-podrucju-opcine-lokve-za-dijelove-k-o-lokve)
 - Općina Lokve, objava na Facebooku, 3. 11. 2026.
 - [TED – obavijest 747791-2026](https://ted.europa.eu/en/notice/-/detail/747791-2026)
 - [Adjudera (pregled TED obavijesti) – Geoprojekt d.d., Lokve](https://adjudera.com/en/award/747791-2026-res-0068)
