@@ -13,6 +13,9 @@ image_alt: "Ulica u Delnicama"
 image_credit: "Fotografija (ulica u Delnicama): Modzzak / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice,_Croatia.JPG), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 ---
 
+> **Ažurirano 5. 11.:** program uz 35. obljetnicu osvajanja vojarne održan je 5. studenoga u Delnicama (misa, počast, predavanje generala Balena). Više u [izvještaju]({{ site.baseurl }}{% post_url 2026-11-05-delnice-35-obljetnica-osvajanja-vojarne %}).
+
+
 Obilježavanje 35. obljetnice 138. brigade HV-a „Goranski risovi“ ne završava [današnjom proslavom]({{ site.baseurl }}{% post_url 2026-10-27-goranski-risovi-35-godina-proslava-delnice %}). Poseban dio programa posvećen je **prvoj borbenoj zadaći brigade** – zauzimanju vojarne i vojnih objekata u Delnicama **5. studenoga 1991.**
 
 ## Što je na programu
