@@ -11,6 +11,8 @@ image_alt: "Panorama Delnica"
 image_credit: "Foto: Lan Glad, Wikimedia Commons, CC BY-SA 4.0"
 ---
 
+**Ažurirano 5. 11.:** MOST tvrdi da je Vijeće zaustavilo kamenolom; službeni zaključak još nije objavljen – [oviše]({{ '/most-kamenolom-ciganska-drazica-tvrdnja/' | relative_url }}).
+
 Grad Delnice sazvao je **12. sjednicu Gradskog vijeća** za **utorak, 3. studenoga 2026., u 17 sati** u Velikoj vijećnici. Dnevni red je dug, a za mnoge će najzanimljivija biti zadnja točka – peticija protiv kamenoloma.
 
 ## Peticija protiv kamenoloma „Ciganska dražica”
