@@ -4,6 +4,7 @@ title: "Gradsko vijeće Delnica prihvatilo peticiju protiv kamenoloma Ciganska d
 date: 2026-11-05 10:30:00 +0100
 location: Delnice
 type: Aktualno
+featured: true
 categories: [Delnice, Aktualno]
 excerpt: "U Službenim novinama br. 7 od 3. studenoga objavljen je zaključak: Vijeće prihvaća protivljenje iz peticije i poziva gradonačelnika da pokrene izmjene prostornog plana. MOST i dalje tvrdi da kamenolom „neće proći”."
 image: /assets/images/delnice-panorama-2024.jpg

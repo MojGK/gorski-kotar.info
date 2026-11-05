@@ -4,7 +4,6 @@ title: "Delnice: Davor Hilak novi predsjednik Gradskog vijeća, rebalansom dodan
 date: 2026-11-04 13:45:00 +0100
 location: Delnice
 type: Aktualno
-featured: true
 categories: [Delnice, Aktualno]
 excerpt: "Hilak je izabran sa sedam glasova prema šest za Donu Kontić. Treći rebalans proračuna usvojen je jednoglasno: smanjen je za 75.000 eura, a vrtiću Hlojkica dodano je 185.300 eura za plaće."
 image: /assets/images/delnice-panorama-2024.jpg
