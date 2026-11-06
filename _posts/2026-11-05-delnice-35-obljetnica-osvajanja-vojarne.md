@@ -4,7 +4,6 @@ title: "Delnice obilježile 35. obljetnicu osvajanja vojarne i vojnih skladišta
 date: 2026-11-05 15:55:00 +0100
 location: Delnice
 type: Aktualno
-featured: true
 categories: [Delnice, Aktualno]
 excerpt: "Uz misu, počast i predavanje generala Balena, podsjećamo i što se 5. studenoga 1991. dogodilo u Delnicama: osvajanje vojarne Drgomalj i skladišta Velebit 1–3."
 image: /assets/images/delnice-1991-vojarna-arhiva.jpg
