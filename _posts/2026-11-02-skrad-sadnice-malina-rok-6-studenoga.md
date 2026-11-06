@@ -11,6 +11,8 @@ image_alt: "Zrele crvene maline izbliza"
 image_credit: "Foto: Ivar Leidus, Wikimedia Commons, CC BY-SA 4.0"
 ---
 
+**Ažurirano 6. 11.:** Rok za prijave istekao je 6. 11. u 12 h.
+
 O skradskim malinama [već smo pisali]({{ '/skrad-sadnice-malina-za-opg-ove/' | relative_url }}), a sada je izašao i službeni javni poziv. Rok je kratak, pa ga je dobro zapamtiti: **prijave se primaju do petka, 6. studenoga 2026., u 12 sati**, bez obzira na način dostave.
 
 ## Što se dijeli i tko se može javiti
