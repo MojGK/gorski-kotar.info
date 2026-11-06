@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-05
+azurirano: 2026-11-06
 dogadjaji:
 - naziv: Izložba ratnih fotografija Goranskih risova
   datum: 2026-11-04
@@ -50,6 +50,14 @@ dogadjaji:
   organizator: Folklorna skupina KUD-a Delnice
   opis: 25 godina Folklorne skupine i 20 godina benda Promili, gost Vokalna skupina DiM. Ulaz je besplatan.
   link: https://www.dogadanja.com/koncert/godisnji-koncert-kud-a-delnice-radnicki-dom-delnice-2026-11-07/
+- naziv: "Projekcije filma „260 dana”"
+  datum: 2026-11-07
+  vrijeme: "17:00 i 20:00"
+  mjesto: "Dom kulture Vrbovsko, Željeznička 2"
+  grad: Vrbovsko
+  organizator: "Matica hrvatska – ogranak Vrbovsko"
+  opis: "Hrvatsko-američka ratna drama prema romanu Marijana Gubine; režija Jakov Sedlar."
+  link: /vrbovsko-projekcije-filma-260-dana/
 - naziv: Pčelarski sajam u Skradu
   datum: 2026-11-07
   datum_do: 2026-11-08
