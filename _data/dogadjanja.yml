@@ -44,12 +44,13 @@ dogadjaji:
   link: /noc-spilja-lokve-2026/
 - naziv: Godišnji koncert KUD-a Delnice
   datum: 2026-11-07
-  vrijeme: "19–21 h"
+  datum_do: 2026-11-07
+  vrijeme: "19:00"
   mjesto: Radnički dom, Školska ulica, Delnice
   grad: Delnice
-  organizator: Folklorna skupina KUD-a Delnice
-  opis: 25 godina Folklorne skupine i 20 godina benda Promili, gost Vokalna skupina DiM. Ulaz je besplatan.
-  link: https://www.dogadanja.com/koncert/godisnji-koncert-kud-a-delnice-radnicki-dom-delnice-2026-11-07/
+  organizator: KUD Delnice
+  opis: 25 godina Folklorne sekcije i 20 godina Show banda Promili; nastupa i Vokalna skupina DiM. Ulaz je slobodan, pokrovitelj Grad Delnice.
+  link: /kud-delnice-godisnji-koncert-7-studenoga/
 - naziv: "Projekcije filma „260 dana”"
   datum: 2026-11-07
   vrijeme: "17:00 i 20:00"
