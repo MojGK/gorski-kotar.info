@@ -7,7 +7,7 @@ type: Aktualno
 categories: [Gorski kotar, Aktualno]
 excerpt: "Otvoren je četvrti natječaj intervencije 76.01 SP ZPP-a: potpora iznosi 70 % prihvatljive premije osiguranja usjeva ili stoke, najviše 75.000 € godišnje po korisniku. Zahtjevi se podnose preko AGRONET-a do 31. 12. 2026. u 12 sati."
 image: /assets/images/konj-gorski-kotar-pasnjak.jpg
-image_alt: "Konj na pašnjaku u Gorskom kotaru (ilustrativna fotografija)"
+image_alt: "Konj na snijegom prekrivenoj livadi u Gorskom kotaru (ilustrativna fotografija)"
 image_credit: "Ilustrativna fotografija (Gorski kotar): Andrej / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Horse_in_Gorski_kotar_(27667183869).jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)"
 ---
 
