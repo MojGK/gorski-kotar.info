@@ -4,7 +4,6 @@ title: "Najava: dvije projekcije filma „260 dana” u Vrbovskom 7. studenoga"
 date: 2026-11-06 07:00:00 +0100
 location: Vrbovsko
 type: Događanja
-istaknuto: true
 categories: [Vrbovsko, Događanja]
 event_date: 2026-11-07 17:00:00 +0100
 event_end: 2026-11-07 22:00:00 +0100

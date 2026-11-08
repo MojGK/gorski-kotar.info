@@ -4,6 +4,7 @@ title: "U nedjelju uz Bajer kreće 23. Zimska liga Kvarnera „Igor Malešević�
 date: 2026-11-06 22:00:00 +0100
 location: Fužine
 type: Sport
+istaknuto: true
 categories: [Fužine, Sport]
 excerpt: "U nedjelju, 8. studenoga, u 10 sati uz jezero Bajer u Fužinama počinje prvo kolo 23. Zimske lige Kvarnera „Igor Malešević“. Organizator je Triatlon klub Rival; uz glavnu utrku ide i Mala liga za djecu."
 event_date: 2026-11-08 10:00:00 +0100
