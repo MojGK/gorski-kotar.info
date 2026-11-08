@@ -4,6 +4,7 @@ title: "Osiguranje poljoprivredne proizvodnje: država sufinancira 70 % premije,
 date: 2026-11-07 08:50:00 +0100
 location: Gorski kotar
 type: Aktualno
+istaknuto: true
 categories: [Gorski kotar, Aktualno]
 excerpt: "Otvoren je četvrti natječaj intervencije 76.01 SP ZPP-a: potpora iznosi 70 % prihvatljive premije osiguranja usjeva ili stoke, najviše 75.000 € godišnje po korisniku. Zahtjevi se podnose preko AGRONET-a do 31. 12. 2026. u 12 sati."
 image: /assets/images/konj-gorski-kotar-pasnjak.jpg
