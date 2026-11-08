@@ -1,15 +1,17 @@
 ---
 layout: post
-title: "Kuglanje: Goranka u subotu dočekuje splitski Mertojak"
+title: "Najava: kuglačka utakmica Goranka – Mertojak 7. studenoga"
 date: 2026-11-04 12:30:00 +0100
 location: Ravna Gora
 type: Sport
 categories: [Ravna Gora, Sport]
-excerpt: "U 7. kolu Hrvatske kuglačke superlige KK Goranka u subotu, 7. studenoga, u 15 sati u SPC-u Goranka igra protiv KK Mertojak iz Splita."
+excerpt: "Najava: u 7. kolu Hrvatske kuglačke superlige KK Goranka 7. studenoga u 15 sati u SPC-u Goranka prema rasporedu igra protiv KK Mertojak iz Splita."
 image: /assets/images/kuglanje-goranka-mertojak-16x9.jpg
 image_alt: "Plakat KK Goranka za utakmicu 7. kola HKSL Goranka – Mertojak"
 image_credit: "Foto: KK Goranka-Ravna Gora"
 ---
+
+**Dopuna 8. 11.:** termin iz najave je prošao; izvješće još nemamo.
 
 KK Goranka iz Ravne Gore u **subotu, 7. studenoga, u 15 sati** na svojoj kuglani u **SPC-u Goranka** igra protiv **KK Mertojak** iz Splita. Utakmica je u **7. kolu Hrvatske kuglačke superlige**, a termin je potvrđen i u službenom rasporedu Hrvatskog kuglačkog saveza.
 

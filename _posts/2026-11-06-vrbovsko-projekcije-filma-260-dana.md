@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vrbovsko: u subotu dvije projekcije filma „260 dana”"
+title: "Najava: dvije projekcije filma „260 dana” u Vrbovskom 7. studenoga"
 date: 2026-11-06 07:00:00 +0100
 location: Vrbovsko
 type: Događanja
@@ -9,11 +9,13 @@ categories: [Vrbovsko, Događanja]
 event_date: 2026-11-07 17:00:00 +0100
 event_end: 2026-11-07 22:00:00 +0100
 event_place: "Dom kulture Vrbovsko, Željeznička 2"
-excerpt: "Matica hrvatska – ogranak Vrbovsko u subotu 7. studenoga u Domu kulture prikazuje hrvatsko-američku ratnu dramu „260 dana” u 17 i u 20 sati."
+excerpt: "Najava: Matica hrvatska – ogranak Vrbovsko najavila je za 7. studenoga u Domu kulture hrvatsko-američku ratnu dramu „260 dana” u 17 i u 20 sati."
 image: /assets/images/kino-projektor-ilustracija.jpg
 image_alt: "Filmski projektor u kino-dvorani (ilustrativna fotografija)"
 image_credit: "Fotografija: Juho Nurmi / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Film_projector_in_Bio_Bristol_in_Helsinki,_Finland,_2010.jpg), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (ilustrativna)"
 ---
+
+**Dopuna 8. 11.:** termin iz najave je prošao; izvješće još nemamo.
 
 **📅 Subota, 7. studenoga 2026. · 🕔 17 i 20 sati · 📍 Dom kulture Vrbovsko, Željeznička 2**
 
