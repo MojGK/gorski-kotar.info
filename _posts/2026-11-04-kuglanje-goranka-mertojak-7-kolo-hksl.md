@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kuglanje: Goranka i Mertojak remizirali 4:4"
+title: "Drama u Ravnoj Gori: Goranka uzela veliki bod protiv favoriziranog Mertojaka"
 date: 2026-11-04 12:30:00 +0100
 location: Ravna Gora
 type: Sport
