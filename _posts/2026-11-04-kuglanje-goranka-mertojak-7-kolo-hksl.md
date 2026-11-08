@@ -16,6 +16,9 @@ image_credit: "Foto: KK Goranka-Ravna Gora"
 
 U 8. kolu Goranka ponovno igra doma, protiv Poštara iz Splita.
 
+**Dopuna 8. 11. navečer: tijek prema službenom zapisniku HKS-a.** Setovi su završili **12:12**. Nakon prva dva para Goranka je imala 1:1. Nakon druga dva vodila je **3:1**, s 45 čunjeva viška (2475:2430). Najbolji kod domaćih bio je R. Skok sa **677** čunjeva (4:0 u setovima). Bodove su donijeli i M. Trdan (632:618) i Z. Burić (594:587), a četvrti, odlučujući za remi, D. Podobnik (635:620). Mertojak je preokret napravio u završnom paru, gdje je I. Totić srušio **689** čunjeva, najviše na utakmici.
+
+
 ### Tablica nakon 7. kola
 
 | Klub | U | RP | B |
@@ -76,7 +79,7 @@ Domaća podrška u Ravnoj Gori dobro će doći. Vidimo se na kuglani!
 ---
 
 **Izvori:**
-- Hrvatski kuglački savez – [rezultati 7. kola i tablica](https://portal.kuglanje.hr/kuglacke-lige/404/pregled_kola/7)
+- Hrvatski kuglački savez – [rezultati 7. kola, zapisnik po parovima i tablica](https://portal.kuglanje.hr/kuglacke-lige/404/pregled_kola/7)
 - Zadarski list, 8. 11. 2026. – [ostali rezultati 7. kola i raspored 8. kola](https://zadarskilist.novilist.hr/sport/ostali-sportovi/rutinska-pobjeda-zadar-siguran-kod-postara-za-drugo-mjesto-na-ljestvici/)
 - KK Goranka-Ravna Gora – [objava na Facebooku](https://www.facebook.com/61590221895241/posts/122147446443340729)
 - Hrvatski kuglački savez – [7. kolo i tablica Superlige](https://www.kuglanje.hr/kuglacke-lige/404/pregled_kola/7), [raspored sezone 2026./2027. (PDF)](https://portal.kuglanje.hr/kuglacke-lige/404/raspored_utakmica/404.pdf)
