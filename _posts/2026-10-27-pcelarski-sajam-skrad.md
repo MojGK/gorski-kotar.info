@@ -1,19 +1,27 @@
 ---
 layout: post
-title: "Prvi pčelarski sajam u Skradu: dva dana goranskog meda"
+title: "Prvi pčelarski sajam u Skradu održan: tradicija, znanje i goranski okusi"
 date: 2026-10-27 08:02:00 +0100
 location: Skrad
 type: Događanja
 categories: [Skrad, Događanja]
-excerpt: "Općina Skrad i Udruga pčelara „Medun“ 7. i 8. studenoga u Domu kulture organiziraju 1. pčelarski sajam. Subota je za djecu, nedjelja za pčelare. Ulaz je besplatan."
+excerpt: "Prvi pčelarski sajam u Skradu održan je 7. i 8. studenoga u Domu kulture, javlja Radio Gorski kotar. Subota je bila za djecu, nedjelja za pčelare; među gostima su bili predsjednik Hrvatskog pčelarskog saveza i predsjednik Apimondie."
 event_date: 2026-11-07 15:00:00 +0100
 event_end: 2026-11-08 17:00:00 +0100
 event_place: "Dom kulture Skrad, Josipa Blaževića Blaža 8"
 image: /assets/images/pcelarski-sajam-skrad-ai.jpg
-image_alt: "Ilustracija: stol sa staklenkama meda, saćem, svijećama od voska, košnicom i pčelarskim šeširom"
+image_alt: "Ilustracija (nije fotografija s događaja): stol sa staklenkama meda, saćem, svijećama od voska, košnicom i pčelarskim šeširom"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
 
+
+**Dopuna 9. 11.: održano.** Prema [Radiju Gorski kotar](https://rgk.hr/pcelarski-sajam-u-skradu-spojio-je-tradiciju-znanje-i-goranske-okuse/), 1. Pčelarski sajam uspješno je održan proteklog vikenda u Domu kulture u Skradu.
+
+Subota je bila za najmlađe: predavanje skradskog pčelara **Hrvoja Zatezala** „Pčele – naši prijatelji” i likovna radionica Udruge Društvo naša djeca Skrad. U nedjelju je stručni dio otvorio predsjednik Hrvatskog pčelarskog saveza **Dražen Kocet** (potpore i fiskalizacija), a međunarodni karakter dao je predsjednik svjetske organizacije Apimondia **dr. Peter Kozmus** (klimatske promjene i bioraznolikost). Nakon otvorenja slijedili su štandovi s medom i lokalnim proizvodima te program uz Grupu Promili. Načelnik Općine Skrad podržao je sajam kao poticaj lokalnom gospodarstvu i turizmu.
+
+---
+
+*Najava od 27. 10.:*
 Skrad dobiva novi sajam, i to slatki. **Općina Skrad** i **Udruga pčelara „Medun“ Delnice** organiziraju **1. pčelarski sajam** u Domu kulture, u subotu i nedjelju, **7. i 8. studenoga**. Ulaz i sudjelovanje u programu su besplatni.
 
 Goranski pčelari predstavit će med, proizvode od meda i druge pčelinje proizvode. Bit će postavljen i „pčelinjak bez pčela“ s košnicama i opremom, pa se izbliza može vidjeti koliko posla stoji iza jedne staklenke meda.
