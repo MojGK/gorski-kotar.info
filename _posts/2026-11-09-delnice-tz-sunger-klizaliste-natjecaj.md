@@ -5,7 +5,7 @@ date: 2026-11-09 13:00:00 +0100
 location: Delnice
 type: Aktualno
 categories: [Delnice, Aktualno]
-excerpt: "Gradonačelnik Igor Pleše protivi se najavi zimskog selidbe Turističke zajednice Gorskog kotara iz Delnica u Goransku kuću u Sungeru. Do kraja prosinca Grad namjerava na natječaj Ministarstva turizma prijaviti natkrivanje multifunkcionalne dvorane-klizališta u Parku kralja Tomislava."
+excerpt: "Gradonačelnik Igor Pleše protivi se najavi zimske selidbe Turističke zajednice Gorskog kotara iz Delnica u Goransku kuću u Sungeru. Do kraja prosinca Grad namjerava na natječaj Ministarstva turizma prijaviti natkrivanje multifunkcionalne dvorane-klizališta u Parku kralja Tomislava."
 image: /assets/images/delnice-panorama-2024.jpg
 image_alt: "Pogled na Delnice (ilustrativna fotografija)"
 image_credit: "Fotografija (ilustrativno): Lan Glad / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Delnice_2024.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
