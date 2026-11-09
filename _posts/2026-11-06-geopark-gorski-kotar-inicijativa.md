@@ -4,7 +4,6 @@ title: "Pokrenuta inicijativa za geopark Gorski kotar"
 date: 2026-11-06 16:45:00 +0100
 location: Gorski kotar
 type: Aktualno
-istaknuto: true
 categories: [Gorski kotar, Aktualno]
 excerpt: "Na koordinaciji goranskih načelnika i gradonačelnika raspravljalo se o inicijativi za geopark Gorski kotar; prema Radio Gorskom kotaru pokrenuo ju je direktor TZ Gorski kotar Petar Hrg."
 image: /assets/images/risnjak-schlosserov-dom.jpg

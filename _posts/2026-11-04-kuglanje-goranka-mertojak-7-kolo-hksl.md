@@ -4,7 +4,6 @@ title: "Drama u Ravnoj Gori: Goranka uzela veliki bod protiv favoriziranog Merto
 date: 2026-11-04 12:30:00 +0100
 location: Ravna Gora
 type: Sport
-featured: true
 categories: [Ravna Gora, Sport]
 excerpt: "U 7. kolu Hrvatske kuglačke superlige KK Goranka i KK Mertojak 7. studenoga u Ravnoj Gori odigrali su 4:4 (3677:3739 čunjeva), prema službenim rezultatima HKS-a. Goranka je sada deveta."
 image: /assets/images/kuglanje-goranka-mertojak-16x9.jpg

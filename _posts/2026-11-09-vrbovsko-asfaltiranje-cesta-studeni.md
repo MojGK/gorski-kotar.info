@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Vrbovsko: asfaltiranje cesta od 170.000 eura kreće u studenom, gradonačelnik kašnjenje pripisuje Vijeću"
+istaknuto: true
 date: 2026-11-09 10:46:00 +0100
 location: Vrbovsko
 type: Aktualno
