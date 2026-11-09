@@ -17,7 +17,7 @@ Gradonačelnik Delnica **Igor Pleše** za Novi list govori o građevinskim radov
 
 Prema procjenama Primorsko-goranske županije koje prenosi Pleše, **energetska obnova cijele zgrade Doma zdravlja Delnice** trebala bi biti gotova **do kraja ove godine**. Radove na **domu za starije u potkrovlju** očekuje **najvjerojatnije iduće ljeto**. O tome smo [pisali i jutros]({{ '/pgz-domovi-starije-delnice-gerovo/' | relative_url }}), u pregledu županijskih planova za nove kapacitete.
 
-Nakon obnove, kaže, Dom zdravlja želi opremom i mogućnošću rada specijalista, a ne mobilnim ambulantskim modelom.
+Nakon obnove, kaže Pleše, bolje je ulagati u kvalitetnu opremu i dolazak specijalista nego u projekt mobilnih ambulanti.
 
 ## Obilaznica Kuželj
 
