@@ -14,7 +14,7 @@ image_credit: "Foto: Primorsko-goranska županija ([pgz.hr](https://www.pgz.hr/o
 
 Dvjesto četrdeset godina – toliko dugo u Ravnoj Gori postoji škola. Obljetnica je proslavljena svečanošću u Domu kulture, a najglasniji pljesak, kako i treba, dobili su učenici.
 
-Školski zbor Brezice i scenska družina Gliva premijerno su izveli mjuzikl „I bi svijetlosti“, posvećen dr. Branimiru Markoviću, ravnogorskom fizičaru po kojem škola nosi ime. Lijepo mi je da su upravo djeca ispričala priču o čovjeku čije ime nose.
+Školski zbor Brezice i scenska družina Gliva premijerno su izveli mjuzikl „I bi svjetlost“, posvećen dr. Branimiru Markoviću, ravnogorskom fizičaru po kojem škola nosi ime. Lijepo mi je da su upravo djeca ispričala priču o čovjeku čije ime nose.
 
 **Dopuna 9. 11. (Novi list):** Prema [Novom listu](https://www.novilist.hr/rijeka-regija/gorski-kotar/skola-koja-pamti-i-traje-obiljezeno-240-godina-skolstva-u-ravnoj-gori/) (Blažica Sveticki), svečanost **240 godina školstva** održana je **16. listopada 2026.** u Domu kulture u Ravnoj Gori. Škola djeluje od **1786.** (odluka cara Josipa II.).
 
