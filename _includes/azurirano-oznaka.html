@@ -1,0 +1,2 @@
+{%- comment -%} Mala oznaka „Ažurirano D. M. u HH:MM” kad članak ima `azurirano`. Poziv: {% include azurirano-oznaka.html post=p %} {%- endcomment -%}
+{%- if include.post.azurirano -%}<span class="azurirano-oznaka"><time datetime="{{ include.post.azurirano | date_to_xmlschema }}">Ažurirano {{ include.post.azurirano | date: "%-d. %-m. u %H:%M" }}</time></span>{%- endif -%}

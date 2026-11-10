@@ -12,7 +12,8 @@ description: "Opće vijesti iz Gorskog kotara: aktualno, promet, priroda i ostal
 <h1>Vijesti</h1>
 <p class="intro">Opće vijesti iz Gorskog kotara – aktualno, promet, priroda i ostalo. Općinske vijesti, zanimljivosti, događanja, sport, crna kronika, kultura, društvo i povijest imaju svoje rubrike na <a href="{{ '/kategorije/' | relative_url }}">stranici kategorija</a>.</p>
 {%- assign vj_posts = "" | split: "" -%}
-{%- for post in site.posts -%}
+{%- include sortirani-postovi.html -%}
+{%- for post in sortirani -%}
   {%- if post.type == "Zaposlenje" -%}{%- continue -%}{%- endif -%}
   {%- assign vj_k = "," | append: post.type | append: "," -%}
   {%- if vj_pokrivene contains vj_k -%}{%- continue -%}{%- endif -%}

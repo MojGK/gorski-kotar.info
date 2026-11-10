@@ -2,6 +2,7 @@
 layout: post
 title: "Most Brod na Kupi – Petrina: Klobučar kaže da obnova nije stigla, Pleše da Grad nema ingerenciju"
 date: 2026-11-10 16:10:00 +0100
+azurirano: 2026-11-10 19:25:00 +0100
 location: Delnice
 type: Aktualno
 categories: [Delnice, Aktualno]

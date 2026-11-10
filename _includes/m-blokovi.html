@@ -5,11 +5,12 @@ Poziv: {% include m-blokovi.html lead=lead %}
 {%- endcomment -%}
 {%- assign mb_pokrivene = "," -%}
 {%- for b in site.data.kategorije.naslovnica_blokovi -%}{%- for v in b.vrste -%}{%- assign mb_pokrivene = mb_pokrivene | append: v | append: "," -%}{%- endfor -%}{%- endfor -%}
+{%- include sortirani-postovi.html -%}
 <div class="m-blokovi m-only" id="m-blokovi" data-hide-filter>
 {%- for b in site.data.kategorije.naslovnica_blokovi -%}
   {%- assign mb_n = 0 -%}
   {%- capture mb_html -%}
-  {%- for p in site.posts -%}
+  {%- for p in sortirani -%}
     {%- if p.type == "Zaposlenje" or p.url == include.lead.url -%}{%- continue -%}{%- endif -%}
     {%- assign mb_k = "," | append: p.type | append: "," -%}
     {%- if b.ostale -%}
@@ -26,7 +27,7 @@ Poziv: {% include m-blokovi.html lead=lead %}
         <span class="card-badges">{% include prijelomna-oznaka.html post=p %}{% if mb_type %}<span class="card-badge t-{{ mb_type.slug }}">{{ mb_type.name }}</span>{% endif %}</span></span>
       <span class="mb-veliki-body">
         <span class="mb-veliki-title">{{ p.title }}</span>
-        <span class="mb-meta">{% if mb_loc %}📍 {{ mb_loc.name }} · {% endif %}{% include datum.html date=p.date show_time=p.show_time short=true %}</span>
+        <span class="mb-meta">{% if mb_loc %}📍 {{ mb_loc.name }} · {% endif %}{% include datum.html date=p.date show_time=p.show_time short=true %}{% include azurirano-oznaka.html post=p %}</span>
       </span>
     </a>
     {%- else -%}
@@ -34,7 +35,7 @@ Poziv: {% include m-blokovi.html lead=lead %}
     <ul class="mb-lista">{% endif %}
       <li class="mb-mala"><a href="{{ p.url | relative_url }}">
         <span class="mb-thumb{% unless p.image %} no-img{% endunless %}">{% if p.image %}<img {% include thumb.html img=p.image %}{% if p.image_position %} style="object-position: {{ p.image_position }}"{% endif %} alt="" loading="lazy">{% else %}🌲{% endif %}</span>
-        <span class="mb-mala-body"><span class="mb-mala-title">{% include prijelomna-oznaka.html post=p %}{{ p.title }}</span><span class="mb-meta">{% include datum.html date=p.date show_time=p.show_time short=true %}{% if mb_loc %} · {{ mb_loc.name }}{% endif %}</span></span>
+        <span class="mb-mala-body"><span class="mb-mala-title">{% include prijelomna-oznaka.html post=p %}{{ p.title }}</span><span class="mb-meta">{% include datum.html date=p.date show_time=p.show_time short=true %}{% if mb_loc %} · {{ mb_loc.name }}{% endif %}{% include azurirano-oznaka.html post=p %}</span></span>
       </a></li>
     {%- endif -%}
     {%- if mb_n >= 4 -%}{%- break -%}{%- endif -%}

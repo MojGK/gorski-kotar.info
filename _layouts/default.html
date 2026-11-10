@@ -4,7 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  {% seo title=false %}
+  {%- comment -%} jekyll-seo-tag piše article:modified_time i dateModified = date; za dopunjene članke (azurirano) zamjenjujemo ih vremenom dopune. {%- endcomment -%}
+  {%- capture seo_html %}{% seo title=false %}{% endcapture -%}
+  {%- if page.azurirano -%}
+    {%- assign seo_d = page.date | date_to_xmlschema -%}
+    {%- assign seo_a = page.azurirano | date_to_xmlschema -%}
+    {%- assign seo_old1 = 'article:modified_time" content="' | append: seo_d | append: '"' -%}
+    {%- assign seo_new1 = 'article:modified_time" content="' | append: seo_a | append: '"' -%}
+    {%- assign seo_old2 = '"dateModified":"' | append: seo_d | append: '"' -%}
+    {%- assign seo_new2 = '"dateModified":"' | append: seo_a | append: '"' -%}
+    {%- assign seo_html = seo_html | replace: seo_old1, seo_new1 | replace: seo_old2, seo_new2 -%}
+  {%- endif %}
+  {{ seo_html }}
   {% feed_meta %}
   <meta name="theme-color" content="#1a4d2e">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

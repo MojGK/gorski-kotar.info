@@ -1,0 +1,24 @@
+{%- comment -%}
+Svi članci poredani po EFEKTIVNOM vremenu: `azurirano` (vrijeme dopune) ako postoji, inače `date`.
+Dopunjeni članak tako izlazi na vrh „najnovijih”, a datum objave i URL ostaju isti.
+Poziv: {% include sortirani-postovi.html %} → varijabla `sortirani` (niz postova, najnoviji prvi; uključuje i Zaposlenje).
+Računa se jednom po stranici (zastavica sp_gotovo). Arhiva, feed, sitemap i Izdvojeno ostaju po datumu objave.
+Ključ: "<epoch 10 znamenki>|<200000 - indeks>" – jednaka vremena zadržavaju poredak site.posts.
+{%- endcomment -%}
+{%- unless sp_gotovo -%}
+{%- assign sp_keys = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- assign sp_t = p.azurirano | default: p.date | date: "%s" -%}
+  {%- assign sp_i = 200000 | minus: forloop.index0 -%}
+  {%- assign sp_k = sp_t | append: "|" | append: sp_i -%}
+  {%- assign sp_keys = sp_keys | push: sp_k -%}
+{%- endfor -%}
+{%- assign sp_keys = sp_keys | sort | reverse -%}
+{%- assign sortirani = "" | split: "" -%}
+{%- for k in sp_keys -%}
+  {%- assign sp_idx = k | split: "|" | last | plus: 0 -%}
+  {%- assign sp_idx = 200000 | minus: sp_idx -%}
+  {%- assign sortirani = sortirani | push: site.posts[sp_idx] -%}
+{%- endfor -%}
+{%- assign sp_gotovo = true -%}
+{%- endunless -%}

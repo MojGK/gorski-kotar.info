@@ -23,7 +23,7 @@ Svaka stavka ima data-tags=",mjesto,vrsta,serijal," za filtar-čipove (data-kl-f
         <span class="kl-title">{{ p.title }}</span>
         {%- assign kl_ex = p.excerpt | strip_html | strip -%}
         {% if kl_ex != "" %}<span class="kl-ex">{{ kl_ex | truncate: 170 }}</span>{% endif %}
-        <span class="kl-meta">{% include datum-hr.html date=p.date show_time=p.show_time %}</span>
+        <span class="kl-meta">{% include datum-hr.html date=p.date show_time=p.show_time %}{% include azurirano-oznaka.html post=p %}</span>
       </span>
     </a>
   </li>

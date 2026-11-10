@@ -2,6 +2,7 @@
 layout: post
 title: "Godišnji koncert KUD-a Delnice ispunio Radnički dom: 25 godina Folklorne skupine i 20 godina Show banda Promili"
 date: 2026-11-06 17:17:00 +0100
+azurirano: 2026-11-10 17:11:00 +0100
 location: Delnice
 type: Kultura
 categories: [Delnice, Kultura]

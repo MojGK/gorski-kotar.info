@@ -28,11 +28,12 @@
   <div class="sidebar-box latest">
     <h3>Najnovije</h3>
     <ol class="latest-list">
-      {%- assign sb_vijesti = site.posts | where_exp: "p", "p.type != 'Zaposlenje'" -%}
+      {%- include sortirani-postovi.html -%}
+      {%- assign sb_vijesti = sortirani | where_exp: "p", "p.type != 'Zaposlenje'" -%}
       {%- for p in sb_vijesti limit: 8 %}
       <li{% if p.url == page.url %} class="current"{% endif %}>
         <span class="latest-time">{% include datum.html date=p.date show_time=p.show_time short=true %}</span>
-        <a href="{{ p.url | relative_url }}">{% if p.prijelomna %}<span class="sb-prijelomno"{% if p.prijelomna_do %} data-prijelomna-do="{{ p.prijelomna_do | date: '%s' }}"{% endif %}>⚠ PRIJELOMNO</span> {% endif %}{{ p.title }}</a>
+        <a href="{{ p.url | relative_url }}">{% if p.prijelomna %}<span class="sb-prijelomno"{% if p.prijelomna_do %} data-prijelomna-do="{{ p.prijelomna_do | date: '%s' }}"{% endif %}>⚠ PRIJELOMNO</span> {% endif %}{{ p.title }}</a>{% include azurirano-oznaka.html post=p %}
       </li>
       {%- endfor %}
     </ol>

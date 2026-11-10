@@ -10,7 +10,8 @@ Prvih 10 članaka + gumb „VIŠE” (zajednički include clanci-lista.html), fi
 {%- assign kt_ime = page.kategorija -%}
 {%- assign kt_k = site.data.kategorije[page.grupa] | where: "name", kt_ime | first -%}
 {%- assign kt_posts = "" | split: "" -%}
-{%- for p in site.posts -%}
+{%- include sortirani-postovi.html -%}
+{%- for p in sortirani -%}
   {%- if p.location == kt_ime or p.type == kt_ime or p.categories contains kt_ime -%}{%- assign kt_posts = kt_posts | push: p -%}{%- endif -%}
 {%- endfor -%}
 {%- if page.grupa == "lokacije" -%}{%- assign kt_facet = site.data.kategorije.vrste -%}{%- assign kt_ikona = "📍 " -%}{%- assign kt_grupa = "Mjesto" -%}{%- assign kt_fnaslov = "Filtriraj po vrsti" -%}

@@ -74,7 +74,9 @@ sidebar: true
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
   {%- comment -%} Naslovnica: samo 30 najnovijih (brzina); starije su na /arhiva/ i stranicama kategorija. {%- endcomment -%}
-  {% for post in site.posts limit: 30 %}
+  {%- comment -%} Redoslijed po efektivnom vremenu (azurirano ili date), vidi _includes/sortirani-postovi.html {%- endcomment -%}
+  {%- include sortirani-postovi.html -%}
+  {% for post in sortirani limit: 30 %}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
   {%- assign c_key = "|" | append: post.url | append: "|" -%}
@@ -89,7 +91,7 @@ sidebar: true
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <div class="card-meta">
         {%- if c_loc %}<a class="card-loc" href="{{ '/kategorije/' | relative_url }}#{{ c_loc.slug }}">📍 {{ c_loc.name }}</a>{% endif -%}
-        <span class="card-date">{% include datum.html date=post.date show_time=post.show_time %}</span>
+        <span class="card-date">{% include datum.html date=post.date show_time=post.show_time %}</span>{% include azurirano-oznaka.html post=post %}
       </div>
       <p>{{ post.excerpt | strip_html | strip | truncate: 120 }}</p>
     </div>
