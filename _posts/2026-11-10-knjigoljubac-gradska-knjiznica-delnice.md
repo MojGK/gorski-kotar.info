@@ -13,7 +13,7 @@ image_credit: "Fotografija (ilustrativno): Asturio Cantabrio / [Wikimedia Common
 
 Prema [Novom listu](https://www.novilist.hr/rijeka-regija/u-delnickoj-gradskoj-knjiznici-janet-majnarich-odrzan-kviz-za-ucenike-knjigoljubac/) (Marinko Krmpotić, 9. 11. 2026.), u okviru **Mjeseca hrvatske knjige** u Gradskoj knjižnici **„Janet Majnarich“** u Delnicama održan je kviz **„Knjigoljubac“**, namijenjen poticanju čitanja među učenicima goranskih škola.
 
-Sudjelovala su, prenosi Novi list, **23 učenika** šestih, sedmih i osmih razreda iz osnovnih škola **Brod Moravice, Skrad, Ravna Gora, Mrkopalj, Lokve i Delnice**. Imena učenika izvor ne navodi, niti ih ovdje ne navodimo.
+Sudjelovala su, prenosi Novi list, **23 učenika** šestih, sedmih i osmih razreda iz osnovnih škola **Brod Moravice, Skrad, Ravna Gora, Mrkopalj, Lokve i Delnice**. Imena učenika izvor ne navodi, niti ih ovdje navodimo.
 
 Učenici su tijekom ljetnih praznika i dosadašnjeg dijela jeseni čitali knjige **„Po zidovima crtam drveće“** Ivane Šojat, **„Smiješak“** Raina Telgemeier (u izvoru navedeno kao Raine), **„Žuti šal“** Silvije Šesto i **„Gdje je Beata?“** Jasminke Tihi-Stepanić. Riječ je, prema Novom listu, o temama kao što su vršnjačko nasilje, prijateljstvo, ovisnost i problemi u obitelji. Nakon čitanja održani su kviz i vođeni razgovori o knjigama.
 
