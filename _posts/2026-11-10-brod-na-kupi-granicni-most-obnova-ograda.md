@@ -20,7 +20,7 @@ Novi list prenosi i dodatne pojedinosti iz Klobučarove izjave. Prema njemu, **2
 
 **Očitovanje Hrvatskih cesta nije objavljeno.**
 
-Predsjednik Mjesnog odbora Brod na Kupi **Davorin Klobučar** sazvao je konferenciju za medije kako bi upozorio na, kako je rekao, neodržavanje državnog graničnog mosta koji Brodu na Kupi spaja s Petrinom u Sloveniji. O tome danas javlja [Radio Gorski kotar](https://rgk.hr/predsjednik-mo-brod-na-kupi-davorin-klobucar-o-drzavnom-granicnom-mostu-u-brodu-na-kupi-obecana-obnova-izostala-ofarbana-samo-jedna-strana-mosta/). Sve tvrdnje o stanju mosta, izostaloj obnovi i farbanju ograde dolaze iz tog izvještaja, odnosno od Klobučara. **Očitovanje nadležnih državnih institucija nije objavljeno.**
+Predsjednik Mjesnog odbora Brod na Kupi **Davorin Klobučar** sazvao je konferenciju za medije kako bi upozorio na, kako je rekao, neodržavanje državnog graničnog mosta koji Brod na Kupi spaja s Petrinom u Sloveniji. O tome danas javlja [Radio Gorski kotar](https://rgk.hr/predsjednik-mo-brod-na-kupi-davorin-klobucar-o-drzavnom-granicnom-mostu-u-brodu-na-kupi-obecana-obnova-izostala-ofarbana-samo-jedna-strana-mosta/). Sve tvrdnje o stanju mosta, izostaloj obnovi i farbanju ograde dolaze iz tog izvještaja, odnosno od Klobučara. **Očitovanje nadležnih državnih institucija nije objavljeno.**
 
 ## Što je rekao Klobučar
 
