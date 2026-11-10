@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "DHMZ: u četvrtak narančasto upozorenje zbog obilne kiše i olujnog vjetra, u petak u gorju moguć snijeg"
+istaknuto: true
 date: 2026-11-10 13:00:00 +0100
 location: Gorski kotar
 type: Promet
