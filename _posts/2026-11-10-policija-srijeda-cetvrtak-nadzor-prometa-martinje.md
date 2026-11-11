@@ -2,7 +2,6 @@
 layout: post
 title: "Policija u srijedu i četvrtak pojačano nadzire vozače zbog Martinja, s naglaskom na alkohol"
 date: 2026-11-10 09:30:00 +0100
-istaknuto: true
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
