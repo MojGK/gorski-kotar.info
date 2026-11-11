@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "PGŽ planira nove domove za starije: Delnice, Gerovo i još lokacije, cilj oko 500 mjesta"
-featured: true
 date: 2026-11-09 07:00:00 +0100
 location: Gorski kotar
 type: Aktualno
