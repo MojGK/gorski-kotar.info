@@ -1,7 +1,7 @@
 # ZAPOSLENJE – živi popis oglasa (stranica /zaposlenje/ i blok na naslovnici).
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
-azurirano: 2026-11-09
+azurirano: 2026-11-11
 oglasi:
 - poslodavac: Konzum plus d.o.o.
   pozicija: Mesar / mesarica
@@ -133,6 +133,16 @@ oglasi:
   izvori:
   - naziv: HZZ
     url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167952550
+- poslodavac: "Općina Lokve (Jedinstveni upravni odjel)"
+  pozicija: "Viši stručni suradnik / viša stručna suradnica za financije, projekte i javnu nabavu"
+  broj: 1
+  vrsta: "neodređeno, uz probni rad od 3 mjeseca"
+  mjesto: Lokve
+  rok: 2026-11-19
+  opis: "Diplomski studij ekonomske struke, najmanje godinu dana iskustva na odgovarajućim poslovima i položen državni ispit II. razine (mogu se javiti i kandidati bez ispita, uz obvezu polaganja u zakonskom roku). Kandidati prolaze pisano testiranje i intervju. Rok: 8 dana od objave u Narodnim novinama (11. 11.), dakle do 19. 11. 2026."
+  izvori:
+  - naziv: Općina Lokve
+    url: https://lokve.hr/vijesti/javni-natjecaj-za-prijam-u-sluzbu-u-jedinstveni-upravni-odjel-opcine-lokve-na-radno-mjesto-visi-strucni-suradnik-za-financije-projekte-i-javnu-nabavu
 - poslodavac: Tifon d.o.o.
   pozicija: Gastro prodavač / prodavačica
   mjesto: "Ravna Gora (među više lokacija)"
