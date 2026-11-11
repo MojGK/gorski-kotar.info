@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-06
+azurirano: 2026-11-11
 dogadjaji:
 - naziv: Izložba ratnih fotografija Goranskih risova
   datum: 2026-11-04
@@ -98,6 +98,22 @@ dogadjaji:
   organizator: Udruga mladih Revival
   opis: Disco večer u spomen na nekadašnji Amadeus, uz Max Dee Jaya, DJ Nikolu i DJ Jana. Ulaz je besplatan.
   link: https://www.dogadanja.com/nocni-zivot/discotheque-amadeus-drustveno-kulturni-centar-zaba-lokve-2026-11-14/
+- naziv: Javni skup o katastarskoj izmjeri u Vrbovskom
+  datum: 2026-11-16
+  vrijeme: "17:00"
+  mjesto: "Knjižnica „Ivan Goran Kovačić”, Vrbovsko"
+  grad: Vrbovsko
+  organizator: Grad Vrbovsko
+  opis: "Za vlasnike nekretnina s područja obuhvaćenih izmjerom dijelova k. o. Vrbovsko i k. o. Gomirsko Vrbovsko. Predstavit će se postupak izmjere, tijek aktivnosti na terenu te prava i obveze vlasnika. Izvođač je Geodetski zavod Rijeka d.o.o."
+  link: /vrbovsko-katastarska-izmjera-470-000-eura/
+- naziv: "Javno izlaganje o izmjenama UPU-a naselja Vrbovsko (UPU 1)"
+  datum: 2026-11-19
+  vrijeme: "11:00"
+  mjesto: Gradska vijećnica, Vrbovsko
+  grad: Vrbovsko
+  organizator: Grad Vrbovsko
+  opis: "Javno izlaganje u sklopu 1. ponovne javne rasprave. Javni uvid traje od 16. do 24. studenoga, od 7 do 15 sati u Gradu Vrbovsko."
+  link: /vrbovsko-katastarska-izmjera-470-000-eura/
 - naziv: "„Postolar i vrag” u Noći kazališta"
   datum: 2026-11-20
   vrijeme: "20:00"
