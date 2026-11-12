@@ -2,85 +2,16 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-11
+azurirano: 2026-11-12
 dogadjaji:
-- naziv: Izložba ratnih fotografija Goranskih risova
-  datum: 2026-11-04
-  mjesto: Delnice (točno mjesto bit će naknadno objavljeno)
-  grad: Delnice
-  opis: Uz izložbu i predavanje generala Balena.
-  link: /goranski-risovi-izlozba-ratnih-fotografija-4-studenoga/
-- naziv: "Digitalni marketing u praksi: Digitalni obrt – više klijenata putem društvenih mreža"
-  datum: 2026-11-04
-  vrijeme: "17:00"
-  mjesto: Udruženje obrtnika Delnice
-  grad: Delnice
-  organizator: Udruženje obrtnika Delnice
-  opis: "Radionica za obrtnike: Facebook, Instagram i TikTok za promociju obrta, što objavljivati i kako snimiti jednostavan video. Vodi Jelena Holenko Pirc (Lynx and Fox). Prijava na jednu ili obje radionice putem obrasca na stranici Udruženja."
-  link: https://obrtnici-gorskikotar.hr/digitalni-marketing-u-praksi-radionice-za-konkretne-rezultate-uo-delnice-2/
-- naziv: "Kuglanje, HKSL 7. kolo: KK Goranka Ravna Gora – KK Mertojak Split"
-  datum: 2026-11-07
-  vrijeme: "15:00"
-  mjesto: SPC Goranka, Ravna Gora
-  grad: Ravna Gora
-  organizator: KK Goranka-Ravna Gora
-  opis: Utakmica Hrvatske kuglačke superlige. Goranka na svojoj kuglani dočekuje četvrtoplasirani Mertojak.
-  slika: /assets/images/kuglanje-goranka-mertojak-16x9.jpg
-  link: /kuglanje-goranka-mertojak-7-kolo-hksl/
-- naziv: Noć špilja u Lokvama
-  datum: 2026-11-07
-  vrijeme: "17:00"
-  mjesto: "DKC „Žaba”, Lokve"
-  grad: Lokve
-  opis: "Program od 17 sati, šetnja kreće u 18:00."
-  link: /noc-spilja-lokve-2026/
-- naziv: Godišnji koncert KUD-a Delnice
-  datum: 2026-11-07
-  datum_do: 2026-11-07
-  vrijeme: "19:00"
-  mjesto: Radnički dom, Školska ulica, Delnice
-  grad: Delnice
-  organizator: KUD Delnice
-  opis: 25 godina Folklorne sekcije i 20 godina Show banda Promili; nastupa i Vokalna skupina DiM. Ulaz je slobodan, pokrovitelj Grad Delnice.
-  link: /kud-delnice-godisnji-koncert-7-studenoga/
-- naziv: "Projekcije filma „260 dana”"
-  datum: 2026-11-07
-  vrijeme: "17:00 i 20:00"
-  mjesto: "Dom kulture Vrbovsko, Željeznička 2"
-  grad: Vrbovsko
-  organizator: "Matica hrvatska – ogranak Vrbovsko"
-  opis: "Hrvatsko-američka ratna drama prema romanu Marijana Gubine; režija Jakov Sedlar."
-  link: /vrbovsko-projekcije-filma-260-dana/
-- naziv: Pčelarski sajam u Skradu
-  datum: 2026-11-07
-  datum_do: 2026-11-08
-  vrijeme: "sub od 15:00, ned do 17:00"
-  mjesto: Dom kulture Skrad, Josipa Blaževića Blaža 8
-  grad: Skrad
-  organizator: "Općina Skrad i Udruga „Medun”"
-  opis: Med i pčelarski proizvodi, ulaz je slobodan.
-  link: /pcelarski-sajam-skrad/
-- naziv: "„Gdje je Zrinjski” – predstava u Ravnoj Gori"
-  datum: 2026-11-09
+- naziv: Učilica za prvašiće
+  datum: 2026-11-13
   vrijeme: "18:00"
-  mjesto: Dom kulture Ravna Gora
-  grad: Ravna Gora
-  opis: Autorska predstava Karla Hubaka i Nataše Rajković, ulaz je slobodan.
-  link: /gdje-je-zrinjski-predstava-ravna-gora/
-- naziv: Martinjski sajam u Vrbovskom
-  datum: 2026-11-11
-  mjesto: Gradska tržnica, Vrbovsko
-  grad: Vrbovsko
-  opis: Zimska odjeća, zimnica, igračke, pečenka i kuhano vino.
-  link: /martinjski-sajam-vrbovsko-2026/
-- naziv: "Digitalni marketing u praksi: AI u praksi – ChatGPT kao poslovni asistent"
-  datum: 2026-11-11
-  vrijeme: "17:00"
-  mjesto: Udruženje obrtnika Delnice
+  mjesto: Gradska knjižnica Janet Majnarich, Delnice
   grad: Delnice
-  organizator: Udruženje obrtnika Delnice
-  opis: "Radionica za obrtnike: ChatGPT za e-mailove, ponude, objave i svakodnevnu administraciju, uz praktične primjere. Vodi Jelena Holenko Pirc (Lynx and Fox). Prijava na jednu ili obje radionice putem obrasca na stranici Udruženja."
-  link: https://obrtnici-gorskikotar.hr/digitalni-marketing-u-praksi-radionice-za-konkretne-rezultate-uo-delnice-2/
+  organizator: Gradska knjižnica Janet Majnarich Delnice
+  opis: "Program knjižnice za prvašiće, osmišljen kao pomoć u učenju. Knjižnica ga najavljuje kao termin petkom u 18 sati."
+  link: https://knjiznica-delnice.com/programi/
 - naziv: "12. međunarodni susret haiku pjesnika i promocija zbornika „Čabarski kraj“"
   datum: 2026-11-14
   datum_do: 2026-11-14
@@ -98,6 +29,20 @@ dogadjaji:
   organizator: Udruga mladih Revival
   opis: Disco večer u spomen na nekadašnji Amadeus, uz Max Dee Jaya, DJ Nikolu i DJ Jana. Ulaz je besplatan.
   link: https://www.dogadanja.com/nocni-zivot/discotheque-amadeus-drustveno-kulturni-centar-zaba-lokve-2026-11-14/
+- naziv: "Akcija pošumljavanja „Posadi jelu spasi pčelu”"
+  datum: 2026-11-15
+  vrijeme: "10:00"
+  mjesto: Park Gorica, Fužine
+  grad: Fužine
+  opis: Akcija sadnje i pošumljavanja.
+  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
+- naziv: "Kino Lič – film „260 dana”"
+  datum: 2026-11-15
+  vrijeme: "19:00"
+  mjesto: "Kino Lič, Vicićeva 31, Lič"
+  grad: Fužine
+  opis: Projekcija filma.
+  link: https://ravna-gora.com/gk-pregled/
 - naziv: Javni skup o katastarskoj izmjeri u Vrbovskom
   datum: 2026-11-16
   vrijeme: "17:00"
@@ -114,6 +59,14 @@ dogadjaji:
   organizator: Grad Vrbovsko
   opis: "Javno izlaganje u sklopu 1. ponovne javne rasprave. Javni uvid traje od 16. do 24. studenoga, od 7 do 15 sati u Gradu Vrbovsko."
   link: /vrbovsko-katastarska-izmjera-470-000-eura/
+- naziv: "XXIV. Dani dr. Franje Račkoga – znanstveni skup „Život i djelo dr. Franje Račkog”"
+  datum: 2026-11-20
+  vrijeme: "11:00"
+  mjesto: "Vijećnica Općine Fužine, Dr. Franje Račkog 19"
+  grad: Fužine
+  organizator: "Zavod za povijesne i društvene znanosti HAZU u Rijeci, Udruga „Dr. Franjo Rački” Fužine i OŠ Ivanke Trohar Fužine"
+  opis: "Znanstveno-stručni skup o životu i djelu Franje Račkog, s posebnim osvrtom na dijalekte i govor Gorskog kotara."
+  link: https://www.info.hazu.hr/events/xxiv-dani-dr-franje-rackoga/
 - naziv: "„Postolar i vrag” u Noći kazališta"
   datum: 2026-11-20
   vrijeme: "20:00"
@@ -122,6 +75,20 @@ dogadjaji:
   organizator: Kotar Teatar
   opis: Gostuje zagrebačka družina Doza drame.
   link: /postolar-i-vrag-kotar-teatar-delnice/
+- naziv: "Vinska večer u Konobi „Volta”"
+  datum: 2026-11-21
+  vrijeme: "18:00"
+  mjesto: "Konoba „Volta”, Fužine"
+  grad: Fužine
+  opis: Večer vrhunskih okusa i vina.
+  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
+- naziv: "Dječji filmski maraton – „Mačak u šeširu” i daljnje projekcije"
+  datum: 2026-11-22
+  vrijeme: "18:00"
+  mjesto: Mrkopalj
+  grad: Mrkopalj
+  opis: "Prva projekcija 22. 11. filmom „Mačak u šeširu”; nastavak 6. 12., 20. 12. i 3. 1. 2027. u 18:00. Točan prostor projekcije nije naveden."
+  link: https://ravna-gora.com/gk-pregled/
 - naziv: Javna tribina o katastarskoj izmjeri građevinskih područja Općine Lokve
   datum: 2026-11-24
   vrijeme: "18:00"
@@ -130,6 +97,13 @@ dogadjaji:
   organizator: Općina Lokve
   opis: Mještani mogu čuti kako će teći katastarska izmjera koju za Državnu geodetsku upravu provodi Geoprojekt d.d. iz Opatije.
   link: /lokve-katastarska-izmjera-javna-tribina-24-studenoga/
+- naziv: Prvi adventski vikend u Fužinama (Adventsko selo)
+  datum: 2026-11-27
+  datum_do: 2026-11-29
+  mjesto: Adventsko selo u centru Fužina i jezero Lepenica
+  grad: Fužine
+  opis: "Otvorenje adventa: radionice, vožnje vlakićem i paljenje prve adventske svijeće. Točan raspored po satima nije objavljen."
+  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
 - naziv: Božićni disco na brodu za djecu
   datum: 2026-11-27
   vrijeme: "18:30–20:00"
@@ -146,6 +120,13 @@ dogadjaji:
   grad: Fužine
   opis: Kino na brodu, Djed Mraz i doček Nove godine; za većinu programa rezervacija je obavezna.
   link: /advent-na-jezeru-lepenica/
+- naziv: "Izlet „Adventska čarolija u Fužinama”"
+  datum: 2026-11-28
+  vrijeme: "14:30"
+  mjesto: "Adventsko selo, igralište pod branom, Fužine"
+  grad: Fužine
+  opis: Obiteljski adventski izlet.
+  link: https://www.dogadanja.com/fuzine/
 - naziv: "„Svi za djecu” – humanitarni turnir u odbojci"
   datum: 2026-11-28
   vrijeme: "10:00"
@@ -163,6 +144,22 @@ dogadjaji:
   organizator: Grad Delnice
   opis: Otvorenje adventskog programa uz Baku Mraz, glazbu i fire show; prema dogadanja.com nastavlja se i 29. 11.
   link: https://www.dogadanja.com/advent-nova-godina/otvorenje-14-delnicke-adventske-bajke-trg-138-brigade-hv-delnice-2026-11-28/
+- naziv: Adventski koncert u špilji Vrelo – MPZ Vrelo
+  datum: 2026-11-29
+  vrijeme: "17:30 (obilazak špilje), 18:30 nastup zbora"
+  mjesto: Špilja Vrelo, Fužine
+  grad: Fužine
+  organizator: Tourist info Fužine
+  opis: "Vođeni obilazak špilje, piće dobrodošlice i domaći kolačići, zatim 35–40 min nastupa Mješovitog pjevačkog zbora Vrelo. Broj mjesta ograničen, ulaznice u turističkom uredu Fužine."
+  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
+- naziv: Božićni vlak Tin-Express u Delnice
+  datum: 2026-11-29
+  datum_do: 2026-12-20
+  mjesto: "Delnice (vlak iz Rijeke od 29. 11. do 20. 12.; iz Zagreba 12. 12.)"
+  grad: Delnice
+  organizator: HŽ Putnički prijevoz
+  opis: "Dio Delničke adventske bajke. HŽ Putnički prijevoz potvrdio je vožnju Zagreb–Delnice–Zagreb 12. prosinca. Najavljeni su i vlakovi iz Rijeke od 29. studenoga do 20. prosinca; točan raspored tih vožnji na službenim stranicama HŽPP-a još nije objavljen. Karte za vožnju iz Zagreba prodaju se na blagajnama Zagreb Glavnog kolodvora i u vlaku."
+  link: https://www.hzpp.hr/hr/ponude/tin-express-krece-na-putovanje-28-studenoga
 - naziv: Doggy Day Out
   datum: 2026-12-04
   vrijeme: "17:00–20:00"
@@ -219,6 +216,14 @@ dogadjaji:
   organizator: Lynx and Fox
   opis: Novogodišnja zdravica uz glazbu u 12 h, zatim vođena šetnja od 3 do 4 km stazom Plodovi gorja; prijave online.
   link: https://www.lynxandfox.com/post/1-1-2026-plodovi-gorja
+- naziv: "Zimska liga Kvarnera – pretposljednje kolo (Mrkopalj)"
+  datum: 2027-02-13
+  vrijeme: "10:00"
+  mjesto: Mrkopalj
+  grad: Mrkopalj
+  organizator: Triatlon klub Rival
+  opis: "Pretposljednje, 7. kolo 23. Zimske lige Kvarnera „Igora Maleševića”; uz glavnu utrku održava se i Mala liga za djecu."
+  link: https://rival.hr/zimska-liga-kvarnera
 - naziv: Foresterra Festival 2027
   datum: 2027-08-19
   datum_do: 2027-08-22
