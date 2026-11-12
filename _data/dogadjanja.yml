@@ -4,6 +4,15 @@
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
 azurirano: 2026-11-12
 dogadjaji:
+- naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
+  datum: 2026-11-13
+  datum_do: 2026-11-29
+  vrijeme: "prema radnom vremenu objekata"
+  mjesto: ugostiteljski objekti diljem Gorskog kotara
+  grad: Gorski kotar
+  organizator: Okusi hrvatske tradicije i TZ Gorskog kotara
+  opis: "Tradicijski meniji po prigodnim cijenama u 11 goranskih restorana. Za menije i rezervacije obratite se odabranom objektu."
+  link: /dani-okusa-gorskog-kotara/
 - naziv: Učilica za prvašiće
   datum: 2026-11-13
   vrijeme: "18:00"
