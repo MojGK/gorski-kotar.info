@@ -1,5 +1,6 @@
 ---
 layout: post
+istaknuto: true
 title: "U petak u višem gorju poslijepodne i navečer susnježica i snijeg, HAC: zimska služba spremna"
 date: 2026-11-12 19:05:00 +0100
 location: Gorski kotar
