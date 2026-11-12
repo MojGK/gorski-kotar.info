@@ -16,7 +16,7 @@ Antonio Milošević iz Gerova, poznatiji kao **Tuna Fasader**, u ponedjeljak, **
 
 Uz Miloševića će, prema toj najavi, sudjelovati i **Igor Pokrajac**. Obojica će, kako navodi Fiuman, s okupljenima govoriti o vlastitom iskustvu s ovisnošću, o poteškoćama s kojima su se suočavali i o onome što im je pomoglo na putu oporavka. Raspravu će moderirati **Dominik Omerović**. Cilj je, prema organizatorima, otvoriti razgovor o ovisnosti, važnosti prevencije i boljoj podršci osobama koje se s tim problemom suočavaju. Panel je, prema istoj najavi, otvoren za sve zainteresirane građane.
 
-Milošević je o borbi s ovisnošću i oporavku već otvoreno govorio u Ril Tok Podcastu, o čemu smo [pisali 28. listopada]({{ '/tuna-fasader-prvi-podcast/' | relative_url }}). O Gerovčaninu pisali smo i u članku [„TUNA FASADER – U POSLU AMATER”]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}).
+Milošević je o borbi s ovisnošću i oporavku već otvoreno govorio u Ril Tok Podcastu, o čemu smo [pisali 28. listopada]({{ '/tuna-fasader-prvi-podcast/' | relative_url }}). O Gerovčaninu pisali smo i u članku [„TUNA FASADER – Gerovčanin koji nasmijava Hrvatsku i ostaje svoj”]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}).
 
 > **Ako vam je potrebna pomoć**
 >

@@ -50,7 +50,7 @@ Na kraju je rekao da mu je cilj uspjeh s mreža pretvoriti u nešto trajno, mož
 
 Cijelu epizodu možete pogledati na [YouTubeu](https://www.youtube.com/watch?v=ElPKLQgJmig).
 
-**Pročitajte i:** [TUNA FASADER – U POSLU AMATER]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}) – portret Antonija Miloševića iz Gerova: kako je fasader s riječkih gradilišta postao TikTok lice godine i zašto se ne smatra influencerom.
+**Pročitajte i:** [TUNA FASADER – Gerovčanin koji nasmijava Hrvatsku i ostaje svoj]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}) – portret Antonija Miloševića iz Gerova: fasader koji nasmijava Hrvatsku, Gerovo zove domom i ne želi se nazivati influencerom.
 
 > **Ako vam je potrebna pomoć**
 >
@@ -62,4 +62,4 @@ Cijelu epizodu možete pogledati na [YouTubeu](https://www.youtube.com/watch?v=E
 
 **Izvori:**
 - Ril Tok Podcast #197 – TUNA FASADER, YouTube kanal Ril Tok Podcast, objavljeno 31. 5. 2026. – [YouTube](https://www.youtube.com/watch?v=ElPKLQgJmig)
-- Naš raniji članak [„TUNA FASADER – U POSLU AMATER”]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}) (28. 10. 2026.)
+- Naš raniji članak [„TUNA FASADER – Gerovčanin koji nasmijava Hrvatsku i ostaje svoj”]({{ '/tuna-fasader-u-poslu-amater/' | relative_url }}) (28. 10. 2026.)
