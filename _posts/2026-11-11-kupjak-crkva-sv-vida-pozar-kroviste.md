@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Izgorjelo krovište crkve sv. Vida u Kupjaku, nitko nije ozlijeđen"
+title: "Policija: tehnički uzrok požara crkve u Kupjaku isključen, istraga se nastavlja"
 prijelomna: true
 featured: true
 date: 2026-11-11 06:28:00 +0100
-azurirano: 2026-11-11 13:43:24 +0100
+azurirano: 2026-11-12 10:21:00 +0100
 location: Ravna Gora
 type: Crna kronika
 categories: [Ravna Gora, Crna kronika]
-excerpt: "U utorak predvečer u crkvi sv. Vida u Kupjaku izbio je požar u kojem je izgorjelo krovište. Nitko nije ozlijeđen. Zapovjednik Vatrogasne zajednice Općine Ravna Gora Dražen Krepenc rekao je za Radio Gorski kotar da je spašena većina vrijednih predmeta. Kupjak je naselje Općine Ravna Gora, a crkva pripada Župi Skrad."
+excerpt: "Prema priopćenju Policijske uprave primorsko-goranske od 11. studenoga, očevidom policije u suradnji s protupožarnim inspektorom isključen je tehnički uzrok požara koji je 10. studenoga oko 18 sati izbio u crkvi sv. Vida u Kupjaku. Oštećeni su krovna konstrukcija i stražnji dio krova, koji se djelomično urušio. Nitko nije ozlijeđen. Kriminalističko istraživanje se nastavlja; policija mogući uzrok nije navela."
 image: /assets/images/crkva-sv-vida-kupjak-2007.jpg
 image_alt: "Crkva sv. Vida u Kupjaku, fotografija od 1. rujna 2007., prije požara"
 image_credit: "Fotografija (crkva sv. Vida u Kupjaku, 1. 9. 2007. – prije požara): Martinarg / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crkva_svetog_Vida_u_Kupjaku.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
@@ -16,7 +16,7 @@ image_position: center 35%
 image_full: true
 ---
 
-U utorak predvečer, **10. studenoga**, u crkvi sv. Vida u **Kupjaku** izbio je požar u kojem je izgorjelo krovište. Nitko nije ozlijeđen. Kupjak je naselje **Općine Ravna Gora**, a crkva pripada **Župi Skrad**.
+Policija je očevidom isključila tehnički uzrok požara koji je u utorak, **10. studenoga**, oko 18 sati izbio u crkvi sv. Vida u **Kupjaku**. Priopćenje [Policijske uprave primorsko-goranske](https://primorsko-goranska-policija.gov.hr/vijesti/kupjak-pozarom-osteceno-kroviste-crkve/36120) objavljeno je 11. studenoga. Uz krovnu konstrukciju oštećen je i stražnji dio krova, koji se djelomično urušio. Nitko nije ozlijeđen. Kriminalističko istraživanje se nastavlja kako bi se utvrdile sve okolnosti nastanka požara; policija mogući uzrok nije navela. Kupjak je naselje **Općine Ravna Gora**, a crkva pripada **Župi Skrad**.
 
 Fotografija uz ovaj članak prikazuje crkvu **prije požara**, u rujnu 2007.
 
@@ -46,9 +46,13 @@ Košmrlj je rekao da su vatrogasci uspjeli sačuvati **zvonik** te iz crkve izni
 
 Izgorjelo je krovište crkve, a nastala je velika materijalna šteta, javila je Hina prema Košmrlju. Brojčana procjena štete u trenutku pisanja nije objavljena. Burin, pozivajući se na preliminarne informacije, piše da je uz krovište stradao i **dio unutrašnjosti**. Hina unutrašnjost izrijekom ne navodi kao izgorjelu, nego kaže da je dio predmeta iz crkve spašen. DVD Ravna Gora u izvješću koje prenosi Novi list navodi da je požarom bio zahvaćen cijeli tavanski prostor te da je, uglavnom, sve što se nalazilo unutar crkve spašeno i spremljeno na sigurno mjesto.
 
-Uzrok požara, prema Košmrlju i Hini, tek treba utvrditi. Burin dodaje da bi ga trebala utvrditi policija nakon što vatrogasci završe posao. Novi list u tekstu od 11. studenoga u 10:20, prenoseći izvješće DVD-a Ravna Gora, piše da će o tome zašto i kako je crkva izgorjela utvrditi istraga koja je u tijeku. Na stranici vijesti [PU primorsko-goranske](https://primorsko-goranska-policija.gov.hr/vijesti/8) prijepodne 11. studenoga i dalje nije bilo priopćenja o ovom požaru. Prema dosadašnjim informacijama koje prenosi Radio Gorski kotar, kao uzrok se smatraju električne instalacije; službeni uzrok bit će poznat nakon očevida.
+Uzrok požara, prema Košmrlju i Hini, tek je trebalo utvrditi. Burin je dodao da bi ga trebala utvrditi policija nakon što vatrogasci završe posao. Novi list u tekstu od 11. studenoga u 10:20, prenoseći izvješće DVD-a Ravna Gora, napisao je da će o tome zašto i kako je crkva izgorjela utvrditi istraga koja je u tijeku.
 
-Nitko nije ozlijeđen. To potvrđuju Hina, Burin, Župa Skrad, izvješće DVD-a Ravna Gora i Krepenc za Radio Gorski kotar.
+Policijska uprava primorsko-goranska u priopćenju od 11. studenoga navodi da je očevidom policijskih službenika, u suradnji s protupožarnim inspektorom, **isključen tehnički uzrok** požara. Policija mogući uzrok nije navela. Kriminalističko istraživanje se nastavlja kako bi se utvrdile sve relevantne činjenice i okolnosti nastanka požara. Ranije su neslužbene informacije i dio medija, među njima Radio Gorski kotar, spominjali tehnički uzrok odnosno električne instalacije; taj je uzrok policija očevidom isključila.
+
+U istom priopćenju policija navodi da je, uz krovnu konstrukciju, oštećen i stražnji dio krova koji se djelomično urušio, te da će se materijalna šteta utvrditi naknadno. Požar su, prema policiji, ugasili pripadnici JVP-a Delnice, DVD-a Ravna Gora, DVD-a Stara Sušica i DVD-a Kupjak. DVD Skrad, kojeg u svojim izvješćima spominju Krepenc, DVD Ravna Gora i Župa Skrad, u policijskom priopćenju nije naveden.
+
+Nitko nije ozlijeđen. To potvrđuju policija, Hina, Burin, Župa Skrad, izvješće DVD-a Ravna Gora i Krepenc za Radio Gorski kotar.
 
 ## Reakcije
 
@@ -68,7 +72,7 @@ U javnoj pretrazi [Registra kulturnih dobara RH](https://registar.kulturnadobra.
 
 ## Što dalje
 
-Župa je pozvala na molitvu za duhovnu i materijalnu obnovu i poručila da će, uz Božju pomoć i zajedništvo, obnoviti ono što je stradalo. Konkretan plan obnove, rokovi ili poziv na novčanu pomoć s brojem računa u objavljenim izvorima nisu navedeni. Službeni uzrok požara i konačan opseg štete ostaju na utvrđivanju nadležnih službi, nakon očevida.
+Župa je pozvala na molitvu za duhovnu i materijalnu obnovu i poručila da će, uz Božju pomoć i zajedništvo, obnoviti ono što je stradalo. Konkretan plan obnove, rokovi ili poziv na novčanu pomoć s brojem računa u objavljenim izvorima nisu navedeni. Policija je očevidom isključila tehnički uzrok, a kriminalističko istraživanje se nastavlja. Konačan opseg štete ostat će na utvrđivanju nadležnih službi.
 
 ---
 
@@ -79,5 +83,8 @@ U javnoj pretrazi [Registra kulturnih dobara RH](https://registar.kulturnadobra.
 - *Burin, „Večeras gorjela crkva u Kupjaku…“, 10. 11. 2026. u 22:42 ([burin.hr](https://burin.hr/veceras-gorjela-crkva-u-kupjaku-steta-velika-izgorjelo-kroviste-i-unutrasnjost-u-gasenju-angaziran-veci-broj-vatrogasaca-iz-goranskih-postrojbi/))*
 - *Novi list, Marinko Krmpotić, „Vatrogasci otkrili detalje o požaru crkve u Kupjaku: ‘Učinili smo sve kako bi šteta bila što manja’“, 11. 11. 2026. u 10:20 ([novilist.hr](https://www.novilist.hr/rijeka-regija/gorski-kotar/vatrogasci-otkrili-detalje-o-pozaru-crkve-u-kupjaku-ucinili-smo-sve-kako-bi-steta-bila-sto-manja/))*
 - *Radio Gorski kotar, „U požaru izgorjelo krovište na crkvi sv. Vida u Kupjaku“, 11. 11. 2026. ([rgk.hr](https://rgk.hr/u-pozaru-izgorjelo-kroviste-na-crkvi-sv-vida-u-kupjaku/))*
+- *Policijska uprava primorsko-goranska, „Kupjak: Požarom oštećeno krovište crkve“, 11. 11. 2026. ([primorsko-goranska-policija.gov.hr](https://primorsko-goranska-policija.gov.hr/vijesti/kupjak-pozarom-osteceno-kroviste-crkve/36120))*
 - *Općina Ravna Gora, „O Ravnoj Gori“ ([ravnagora.hr](https://www.ravnagora.hr/o-ravnoj-gori/))*
 - *skrad.com, Župa ([skrad.com/zupa](https://skrad.com/zupa/))*
+
+*Ispravak/dopuna 12. 11.: prema priopćenju Policijske uprave primorsko-goranske tehnički uzrok je isključen; ranije smo prema neslužbenim informacijama naveli tehnički uzrok.*
