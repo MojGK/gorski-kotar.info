@@ -5,7 +5,7 @@ prijelomna: true
 prijelomna_tekst: "Kolona 4 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km, stajanje kod Lučica; zastoj na DC3 kod Gornjeg Jelenja"
 title: "SNIJEG U GORSKOM KOTARU: Kolona 4 km na A6, zastoj i na DC3"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 19:59:00 +0100
+azurirano: 2026-11-13 20:07:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -15,6 +15,11 @@ image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (20.07 h):** Prizore s ceste podijelio je i bloger **Krule** (Facebook stranica „Bloger Krule”). U javnoj objavi vidi se gusti snijeg i kolona vozila uz kamion na zasniježenoj prometnici, uz ironičan komentar „Pa ti aj na ljetnim gumama...”. Objava je do 20 sati skupila više od 4.100 reakcija i 260 komentara. Zato ponavljamo [HAK](https://www.hak.hr/info/stanje-na-cestama/)-ovo upozorenje da vozila bez zimske opreme ne kreću na put.
+
+![Gusti snijeg i kolona vozila uz kamion na zasniježenoj prometnici, 13. 11. 2026.]({{ '/assets/images/snijeg-ljetne-gume-krule-2026-11-13.jpg' | relative_url }})
+*Foto: Bloger Krule / Facebook*
 
 **Dopuna (19.59 h):** Kolona na A6 i dalje stoji. Na snimci našeg portala s terena iz petka navečer vidi se kolona vozila na zasniježenoj A6 kod odmorišta Ravna Gora (Tifon), a uz rub kolnika su nasipi snijega.
 
@@ -136,3 +141,4 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *Informacija i snimka s terena, uredništvo portala, 13. 11. 2026. navečer, A6 kod odmorišta Ravna Gora (Tifon)*
 - *HAK, stanje na cestama, 13. 11. 2026. u 19:55 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 19:50 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
+- *Bloger Krule, javna Facebook objava, 13. 11. 2026. (do 20 sati više od 4.100 reakcija i 260 komentara)*
