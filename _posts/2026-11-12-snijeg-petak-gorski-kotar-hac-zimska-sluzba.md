@@ -5,7 +5,7 @@ prijelomna: true
 prijelomna_tekst: "Kolona 4 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km, stajanje kod Lučica; zastoj na DC3 kod Gornjeg Jelenja"
 title: "SNIJEG U GORSKOM KOTARU: Kolona 4 km na A6, zastoj i na DC3"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 19:13:00 +0100
+azurirano: 2026-11-13 19:26:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -15,6 +15,8 @@ image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (19.26 h):** [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 19:24 potvrdio da je kolona na autocesti **A6** između čvorova **Vrata** i **Ravna Gora**, u smjeru Zagreba, i dalje duga **4 kilometra**, zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. Nesreća na 40. kilometru između Delnica i Ravne Gore i dalje je na snazi: promet se vodi jednom trakom uz ograničenje brzine od 60 km/h, a vozila se povremeno zaustavljaju kod tunela **Lučice**. [Hrvatske autoceste](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama) su u 19:22 javile i povremene prekide prometa u tunelu **Rožman Brdo**, u smjeru Rijeke, zbog zaustavljanja kolone u tunelu. Zimski uvjeti i zabrana prometa za vozila bez propisane zimske opreme te za teretna motorna vozila s priključnim vozilom, prema HAK-u, vrijede i na **DC32** Prezid–Delnice, **DC305** Parg–Čabar, **DC203** Brod na Kupi–Delnice, **ŽC5191** Sopač–Mrkopalj–Tuk i **ŽC5034** Vrbovsko–Ravna Gora–Kupjak.
 
 **Dopuna (19.13 h):** Kolone i zapela vozila na A6 kod Delnica. [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 19:08 javio da je na autocesti **A6** između čvorova **Vrata** i **Ravna Gora**, u smjeru Zagreba, kolona vozila duga **4 kilometra**, zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. [Hrvatske autoceste](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama) su isti zastoj zabilježile u 18:20 i navele da se kolona povećava.
 
@@ -116,3 +118,5 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *HAK, stanje na cestama, 13. 11. 2026. u 19:08 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 18:20 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
 - *Informacija s terena, uredništvo portala, 13. 11. 2026. oko 19:10*
+- *HAK, stanje na cestama, 13. 11. 2026. u 19:24 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 19:22 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
