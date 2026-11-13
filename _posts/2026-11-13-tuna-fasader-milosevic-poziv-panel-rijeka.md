@@ -1,16 +1,30 @@
 ---
 tiktok: true            # TikTok kartica ispod Povezanih članaka
 layout: post
-title: "Tuna Fasader i Igor Pokrajac u ponedjeljak u Rijeci o izlasku iz ovisnosti"
+title: "Tuna Fasader u ponedjeljak u Rijeci javno o vlastitoj ovisnosti: „Nada uvijek postoji”"
 date: 2026-11-13 17:40:00 +0100
+azurirano: 2026-11-13 18:31:00 +0100
 location: Čabar
 type: Zanimljivosti
 categories: [Čabar, Zanimljivosti]
-excerpt: "Antonio Milošević iz Gerova, poznatiji kao Tuna Fasader, u ponedjeljak, 16. studenoga, u 18:30 sudjeluje na panel-raspravi „Borba protiv ovisnosti” na riječkom Korzu 6. Uz njega će govoriti Igor Pokrajac, a raspravu će moderirati Dominik Omerović. Panel je otvoren za sve građane."
-image: /assets/images/tuna-fasader-podcast.jpg
-image_alt: "Antonio Milošević – Tuna Fasader u bijeloj radnoj trenirci, nasmiješen, sjedi u kafiću"
-image_credit: "Foto: gorskikotarinfo"
+excerpt: "Antonio Milošević iz Gerova, poznatiji kao Tuna Fasader, u novoj je objavi na Facebooku sam otvoreno najavio da će u ponedjeljak, 16. studenoga, u 18:30 na panelu u Rijeci govoriti o vlastitoj ovisnosti. „Koliko god situacija izgledala teško, nada uvijek postoji!”, poručio je. Panel u povodu Mjeseca borbe protiv ovisnosti organiziraju Forum mladih SDP-a i SDP Rijeka, a uz njega će govoriti Igor Pokrajac."
+image: /assets/images/tuna-fasader-milosevic-2026-11-13.jpg
+image_alt: "Antonio Milošević – Tuna Fasader u sivom prsluku, govori u kameru"
+image_credit: "Foto: Antonio Milošević / Facebook"
+image_position: center 25%
 ---
+
+**Dopuna (18.31 h):** Antonio Milošević, poznatiji kao Tuna Fasader, u novoj je objavi na Facebooku 13. studenoga, uz video, sam otvoreno najavio da će na panelu u ponedjeljak u Rijeci govoriti o vlastitoj ovisnosti.
+
+> „Kad ostvarimo neki uspjeh, o tome ćemo se bez problema pohvaliti na društvenim mrežama. Ali hoćemo li jednako otvoreno govoriti i o vlastitim problemima, poput ovisnosti?”
+
+> „Neki koji me prate to već znaju, ali pretpostavljam da većina ne zna da sam i sam bio ovisan o drogi. Upravo ću na ovom panelu govoriti o tom dijelu svojeg života i putu kojim više nikada ne bih želio krenuti.”
+
+> „Zato vas sve pozivam, neovisno o političkom svjetonazoru, da nam se pridružite i da zajedno razgovaramo o problemu s kojim se, nažalost, suočavaju i brojni mladi ljudi.”
+
+> „Nadam se da ću svojim iskustvom uspjeti pomoći barem jednoj osobi koja se možda trenutačno nalazi u sličnoj situaciji ili nekome tko tek razmišlja o tome da prvi put posegne za drogom. Koliko god situacija izgledala teško, nada uvijek postoji!”
+
+Panel u povodu Mjeseca borbe protiv ovisnosti organiziraju Forum mladih SDP-a i SDP Rijeka. Održava se u ponedjeljak, **16. studenoga**, u **18:30**, na adresi **Korzo 6**, na prvom katu u Rijeci. Uz Miloševića sudjeluje **Igor Pokrajac**.
 
 Gerovčanin **Antonio Milošević**, poznatiji kao **Tuna Fasader**, u ponedjeljak, **16. studenoga**, sudjeluje na panel-raspravi „Borba protiv ovisnosti” u Rijeci. Početak je u **18:30** sati, na adresi **Korzo 6**, na prvom katu. Panel povodom Mjeseca borbe protiv ovisnosti organiziraju Forum mladih SDP-a Rijeka i SDP Rijeka, a [prema najavi Fiumana](https://www.fiuman.hr/tuna-fasader-i-igor-pokrajac-na-panelu-sdp-a-u-rijeci-ce-govoriti-o-iskustvima-s-ovisnoscu/) otvoren je za sve građane.
 
@@ -32,4 +46,4 @@ Više o panelu pisali smo u [najavi od 12. studenoga]({{ '/tuna-fasader-panel-ov
 
 ---
 
-*Izvori: Fiuman.hr, 12. 11. 2026. ([fiuman.hr](https://www.fiuman.hr/tuna-fasader-i-igor-pokrajac-na-panelu-sdp-a-u-rijeci-ce-govoriti-o-iskustvima-s-ovisnoscu/)); Facebook objava Antonija Miloševića, 12. 11. 2026.*
+*Izvori: Facebook objava Antonija Miloševića, 13. 11. 2026.; Fiuman.hr, 12. 11. 2026. ([fiuman.hr](https://www.fiuman.hr/tuna-fasader-i-igor-pokrajac-na-panelu-sdp-a-u-rijeci-ce-govoriti-o-iskustvima-s-ovisnoscu/)); Facebook objava Antonija Miloševića, 12. 11. 2026.*
