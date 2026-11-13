@@ -1,17 +1,25 @@
 ---
 layout: post
 istaknuto: true
-title: "Narančasti meteoalarm za petak: olujna bura od 15 sati, u višem gorju susnježica i snijeg"
+title: "Snijeg u Gorskom kotaru: A6 Kikovica–Delnice samo za osobna vozila, narančasto upozorenje za buru i u subotu"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 07:15:00 +0100
+azurirano: 2026-11-13 16:35:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
-excerpt: "DHMZ za cijelu Primorsko-goransku županiju, a ne posebno za Gorski kotar, u petak, 13. studenoga, od 15 sati do kraja dana drži narančasto upozorenje zbog jake i olujne bure. Tijekom cijelog dana na snazi je i žuto upozorenje zbog lokalno obilne kiše, uz mogućnost bujičnih i urbanih poplava. U službenoj prognozi DHMZ u višem gorju poslijepodne i navečer najavljuje susnježicu i snijeg; riječ je o prognozi, a ne o već zabilježenim padalinama. Hrvatske autoceste poručuju da je zimska služba na goranskim dionicama aktivna od 15. listopada, a od nedjelje, 15. studenoga, na zimskim dionicama vrijedi obveza zimske opreme."
-image: /assets/images/snijeg-petak-gorski-kotar-hac-zimska-sluzba-ai.jpg
-image_alt: "AI ilustracija: ralica i posipač soli na mokroj autocesti kroz goransku šumu u sumrak, uz padanje mokrog snijega"
-image_credit: "AI ilustracija"
+excerpt: "U petak popodne u Gorskom kotaru počeo je padati obilan snijeg. HAK je u 16:34 javio da u gorju povremeno pada snijeg, da su kolnici mokri i skliski te da su mogući odroni i voda na kolniku. Dionica A6 između Kikovice i Delnica zbog vjetra otvorena je samo za osobna vozila, a ostale skupine vozila obilaze starom cestom (DC3). DHMZ za Primorsko-goransku županiju drži narančasto upozorenje zbog jake i olujne bure do kraja petka i u prvim satima subote, 14. studenoga, do 3 sata. Od nedjelje, 15. studenoga, na zimskim dionicama vrijedi obveza zimske opreme."
+image: /assets/images/gk-snijeg-primorac-2026-11-13.jpg
+image_alt: "Gust snijeg pada nad šumom i zabijeljenom livadom u Gorskom kotaru"
+image_credit: "Foto: Dragan Primorac / Facebook"
 ---
+
+**Dopuna (16.35 h):** U petak popodne u Gorskom kotaru počeo je padati obilan snijeg. [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 16:34 javio da u Gorskom kotaru povremeno pada snijeg, da su kolnici mokri ili vlažni i skliski te da su mogući odroni i voda na kolniku zbog povremenih jakih pljuskova. Zbog vjetra je dionica autoceste **A6** između čvorova **Kikovica** i **Delnice** otvorena samo za osobna vozila; ostale skupine vozila, prema HAK-u, obilaze starom cestom kroz Gorski kotar (**DC3**). Na dionici Kikovica–Bosiljevo 2 HAK navodi i zimske uvjete. [24sata](https://www.24sata.hr/news/krenulo-je-ovako-sad-izgleda-a6-u-gorskom-kotaru-moglo-bi-pasti-i-do-30-cm-novog-snijega-1168361) u 15:26, pozivajući se na HAK-ove kamere, javlja da je gust snijeg počeo padati kod Ravne Gore i na delničkom području.
+
+Snimku gustog snijega nad šumom i zabijeljenom livadom na Facebooku je objavio bivši ministar **Dragan Primorac**, uz opis „Gorski Kotar i prvi snijeg ove godine”.
+
+[DHMZ](https://meteo.hr/naslovnica-upozorenja-zupanije.php) za **Primorsko-goransku županiju** i dalje drži **narančasto** upozorenje zbog **jake i olujne bure**, koje u petak, 13. studenoga, vrijedi do kraja dana. Narančasto upozorenje nastavlja se i u prvim satima subote, **14. studenoga**, od ponoći do 3 sata, a zatim do kraja subote ostaje **žuto** zbog jake bure s olujnim udarima. Tijekom petka na snazi je i žuto upozorenje zbog lokalno obilne kiše.
+
+Podsjećamo da od **nedjelje, 15. studenoga**, na zimskim dionicama javnih cesta vrijedi obveza zimske opreme.
 
 **Dopuna 13. 11.:** Državni hidrometeorološki zavod (DHMZ) za **petak, 13. studenoga**, za **cijelu Primorsko-goransku županiju** drži na snazi **narančasto** upozorenje zbog **jake i olujne bure**, koje vrijedi **od 15 sati do kraja dana**. Narančasti stupanj odnosi se na buru u županiji u cjelini, a ne posebno na Gorski kotar. Tijekom cijelog dana na snazi je i **žuto** upozorenje zbog **lokalno obilne kiše**, uz mogućnost bujičnih i urbanih poplava.
 
@@ -55,3 +63,7 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *Rijeka danas, „Narančasti meteoalarm za riječku regiju: Stiže olujna bura, u Gorskom kotaru moguć snijeg”, 12. 11. 2026. ([rijekadanas.com](https://www.rijekadanas.com/rijeka-kvarner-narancasti-meteoalarm-bura-snijeg-gorski-kotar-13-studenoga-2026/))*
 - *Novi list, „Večeras zahlađenje i okretanje na buru, bit će i snijega u Gorskom kotaru”, 13. 11. 2026. ([novilist.hr](https://www.novilist.hr/novosti/veceras-zahladenje-i-okretanje-na-buru-bit-ce-i-snijega-u-gorskom-kotaru/))*
 - *Fiuman, „U Gorskom kotaru očekuje se snijeg, HAC poručuje: Spremni smo za zimske uvjete”, 12. 11. 2026. ([fiuman.hr](https://www.fiuman.hr/u-gorskom-kotaru-ocekuje-se-snijeg-hac-porucuje-spremni-smo-za-zimske-uvjete/))*
+- *HAK, stanje na cestama, 13. 11. 2026. u 16:34 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *24sata, „Ovako sad izgleda A6 u Gorskom kotaru”, 13. 11. 2026. u 15:26 ([24sata.hr](https://www.24sata.hr/news/krenulo-je-ovako-sad-izgleda-a6-u-gorskom-kotaru-moglo-bi-pasti-i-do-30-cm-novog-snijega-1168361))*
+- *DHMZ, upozorenja po županijama za petak, 13. 11. 2026., i subotu, 14. 11. 2026., Primorsko-goranska županija ([meteo.hr](https://meteo.hr/naslovnica-upozorenja-zupanije.php))*
+- *Facebook objava Dragana Primorca, 13. 11. 2026.*

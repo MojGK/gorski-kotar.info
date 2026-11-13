@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-12
+azurirano: 2026-11-13
 dogadjaji:
 - naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
   datum: 2026-11-13
@@ -60,6 +60,14 @@ dogadjaji:
   organizator: Grad Vrbovsko
   opis: "Za vlasnike nekretnina s područja obuhvaćenih izmjerom dijelova k. o. Vrbovsko i k. o. Gomirsko Vrbovsko. Predstavit će se postupak izmjere, tijek aktivnosti na terenu te prava i obveze vlasnika. Izvođač je Geodetski zavod Rijeka d.o.o."
   link: /vrbovsko-katastarska-izmjera-470-000-eura/
+- naziv: "Panel-rasprava „Borba protiv ovisnosti” (sudjeluje Gerovčanin Antonio Milošević – Tuna Fasader)"
+  datum: 2026-11-16
+  vrijeme: "18:30"
+  mjesto: Korzo 6, 1. kat, Rijeka
+  grad: Rijeka
+  organizator: Forum mladih SDP-a Rijeka i SDP Rijeka
+  opis: "Tuna Fasader i Igor Pokrajac govore o vlastitom iskustvu s ovisnošću i oporavku, moderira Dominik Omerović. Otvoreno za sve građane."
+  link: /tuna-fasader-panel-ovisnost-rijeka/
 - naziv: "Javno izlaganje o izmjenama UPU-a naselja Vrbovsko (UPU 1)"
   datum: 2026-11-19
   vrijeme: "11:00"
