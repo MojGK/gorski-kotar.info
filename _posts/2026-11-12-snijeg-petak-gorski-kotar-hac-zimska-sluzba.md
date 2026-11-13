@@ -2,10 +2,10 @@
 layout: post
 featured: true
 prijelomna: true
-prijelomna_tekst: "Kolona 2 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km; zastoj na DC3 kod Delnica"
-title: "SNIJEG U GORSKOM KOTARU: Kolona 2 km na A6, zastoj i na DC3"
+prijelomna_tekst: "HAK više ne javlja kolonu na A6 između Vrata i Ravne Gore; nesreća na 40. km, promet jednim trakom; zimski uvjeti na DC3 i DC32"
+title: "SNIJEG U GORSKOM KOTARU: HAK više ne javlja kolonu na A6, nesreća na 40. km"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 20:53:00 +0100
+azurirano: 2026-11-13 21:18:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -15,6 +15,13 @@ image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (21.18 h):** Meteorološka stranica **VinodolMet** objavila je na Facebooku „totalni kaos kroz Gorski kotar”. Prema njihovoj objavi, na vrhuncu gužve oko 19.30 h kolona na A6 kod Delnica prema Zagrebu bila je duga oko 5 kilometara i stajala je. Ta ocjena od oko 5 kilometara odnosi se, prema toj objavi, na raniji vrhunac, a ne na trenutačno stanje, i nije službena HAK-ova brojka. Na objavljenim snimkama HAK-ovih kamera iz 19.27 h vide se pune trake prema Zagrebu kod Delnica, Vrbovskog i Rožman Brda.
+
+![HAK-ove web kamere na A6 u 19:27: pune trake prema Zagrebu kod Delnica, Vrbovskog i Rožman Brda, 13. 11. 2026.]({{ '/assets/images/a6-hak-kamere-1927-vinodolmet-2026-11-13.jpg' | relative_url }})
+*Foto: HAK / web kamere (via VinodolMet)*
+
+[HAK](https://www.hak.hr/info/stanje-na-cestama/) u 21:16 više ne navodi kolonu na autocesti **A6** između čvorova **Vrata** i **Ravna Gora**, u smjeru Zagreba, koju je u 20:52 još procjenjivao na 2 kilometra. U izvanrednim prometnim događajima ostaje nesreća na 40. kilometru između Delnica i Ravne Gore: promet se i dalje vodi jednom trakom uz ograničenje brzine od 60 km/h. Zimski uvjeti i dalje vrijede na A6 između čvorova Kikovica i Bosiljevo 2. Dionica Kikovica–Delnice zbog vjetra i dalje je otvorena samo za osobna vozila. Na **DC3** Zdihovo–Stubica–Delnice–Kikovica/Soboli i na **DC32** Prezid–Delnice, prema HAK-u, i dalje vrijede zimski uvjeti i zabrana prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom. Trenutačno nema slobodnog cestovnog pravca za kamione s prikolicama, tegljače s poluprikolicama i vozila bez propisane zimske opreme iz smjera unutrašnjosti prema Hrvatskom primorju ili Istri, i obrnuto. U tijeku je čišćenje i posipavanje cesta u Lici i Gorskom kotaru.
 
 **Dopuna (20.53 h):** Na raskrižju državnih cesta **DC3** i **DC32** kod Delnica (smjer Crni Lug) kolnik je oko 20.50 h pod ugaženim snijegom s dubokim tragovima kotača. Vozila se sporo kreću i čekaju u koloni, uz cestu su visoki nasipi snijega, a snijeg i dalje pada. DC3 i DC32 državne su ceste koje održavaju Hrvatske ceste, a ne Grad Delnice; o stanju gradskih cesta pišemo u [članku o prohodnim delničkim cestama]({{ '/delnice-spremne-obilan-snijeg-ceste-prohodne/' | relative_url }}).
 
@@ -159,3 +166,5 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *HAK, web kamere A6 (Čardak, Javorova Kosa, Vršek), 13. 11. 2026. u 20:24, te stanje na cestama u 20:26 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *Snimka s terena, uredništvo portala, 13. 11. 2026. oko 20.50 h, raskrižje DC3 i DC32 kod Delnica (smjer Crni Lug)*
 - *HAK, stanje na cestama, 13. 11. 2026. u 20:52 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *VinodolMet, Facebook objava „totalni kaos kroz Gorski kotar”, 13. 11. 2026., s HAK-ovim web kamerama A6 (Delnice, Vrbovsko, Rožman Brdo) iz 19:27*
+- *HAK, stanje na cestama, 13. 11. 2026. u 21:16 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
