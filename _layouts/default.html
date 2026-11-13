@@ -43,6 +43,9 @@
   <meta property="article:modified_time" content="{{ page.azurirano | date_to_xmlschema }}" />{% endunless %}{% endif %}
   {% feed_meta %}
   <meta name="theme-color" content="#1a4d2e">
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 {%- comment -%} Aktivna stavka navigacije (ista logika za gornju i donju navigaciju) {%- endcomment -%}
@@ -65,7 +68,7 @@
   <header class="site-header" id="site-header">
     <div class="container header-inner">
       <a href="{{ '/' | relative_url }}" class="logo" aria-label="{{ site.title }} – naslovnica">
-        <span class="logo-icon" aria-hidden="true">🌲</span>
+        <img class="logo-icon logo-img" src="{{ '/assets/images/logo-gorski-kotar-info.svg' | relative_url }}" alt="" width="36" height="36">
         <span class="logo-text">
           <span class="site-title">{{ site.title }}</span>
           <span class="tagline">{{ site.tagline | default: site.description }}</span>
@@ -132,7 +135,7 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <span class="logo-icon" aria-hidden="true">🌲</span>
+        <img class="logo-icon logo-img" src="{{ '/assets/images/logo-gorski-kotar-info.svg' | relative_url }}" alt="" width="36" height="36">
         <div>
           <strong>{{ site.title }}</strong>
           <p>{{ site.tagline | default: site.description }}</p>

@@ -58,7 +58,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 lang: hr_HR
-logo: /assets/images/delnice-panorama-2024.jpg
+logo: /assets/images/logo-gorski-kotar-info-512.png
 feed:
   path: feed.xml
 # Zadana slika za pregled pri dijeljenju (FB/WhatsApp) na stranicama koje nisu članci

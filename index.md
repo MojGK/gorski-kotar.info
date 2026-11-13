@@ -2,6 +2,7 @@
 layout: default
 title: Gorski Kotar Info – vijesti iz Gorskog kotara
 description: "Vijesti iz Gorskog kotara: Delnice, Čabar, Vrbovsko, Fužine, Lokve, Mrkopalj, Ravna Gora, Skrad i Brod Moravice. Događanja, sport, promet, priroda i povijest."
+image: /assets/images/og-gorski-kotar-info.png
 sidebar: true
 ---
 

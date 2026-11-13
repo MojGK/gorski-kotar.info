@@ -1389,3 +1389,7 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .card-meta .azurirano-oznaka { margin-left: 0; }
 .latest-list .azurirano-oznaka { display: table; margin: 2px 0 0; }
 .post-header .meta .azurirano-oznaka { font-size: 0.75rem; margin-left: 8px; }
+
+/* Znak portala (SVG) u zaglavlju i podnožju umjesto emojija */
+.logo-img, .logo-img[class] { display: block; width: 36px; height: 36px; flex-shrink: 0; border-radius: 9px; font-size: 0; box-shadow: 0 0 0 1px rgba(255,255,255,0.18); filter: none; }
+@media (max-width: 899px) { .logo-img, .logo-img[class] { width: 32px; height: 32px; border-radius: 8px; } }
