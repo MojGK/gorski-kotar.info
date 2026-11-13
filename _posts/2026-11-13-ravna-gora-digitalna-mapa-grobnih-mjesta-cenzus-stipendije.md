@@ -17,7 +17,7 @@ Općinsko vijeće Ravne Gore na **13. sjednici** jednoglasno je, kako [javlja Ra
 
 Među usvojenim točkama, prenosi Radio Gorski kotar, bio je i prijedlog **Odluke o grobljima**, koji je na dnevni red došao zbog obveze usklađivanja s novim Zakonom o grobljima. Novom se odlukom, prema istom izvoru, među ostalim **skraćuje rok** za rješavanje pitanja zapuštenih grobnih mjesta te uvode veća transparentnost i digitalizacija.
 
-Kako javlja Radio Gorski kotar, na mrežnoj stranici Općine Ravna Gora **najavljena je mapa grobnih mjesta**, kojjoj će mještani moći pristupiti i u svakom trenutku provjeriti tko je korisnik određenog grobnog mjesta i tko je ondje pokopan. Riječ je o najavi: Radio Gorski kotar ne navodi da je mapa već dostupna, niti je na stranici Općine za sada objavljena.
+Kako javlja Radio Gorski kotar, na mrežnoj stranici Općine Ravna Gora **najavljena je mapa grobnih mjesta**, kojoj će mještani moći pristupiti i u svakom trenutku provjeriti tko je korisnik određenog grobnog mjesta i tko je ondje pokopan. Riječ je o najavi: Radio Gorski kotar ne navodi da je mapa već dostupna, niti je na stranici Općine za sada objavljena.
 
 ## Viši cenzus za socijalnu skrb
 
