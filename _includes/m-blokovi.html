@@ -34,7 +34,7 @@ Poziv: {% include m-blokovi.html lead=lead %}
     {%- if mb_n == 2 %}
     <ul class="mb-lista">{% endif %}
       <li class="mb-mala"><a href="{{ p.url | relative_url }}">
-        <span class="mb-thumb{% unless p.image %} no-img{% endunless %}">{% if p.image %}<img {% include thumb.html img=p.image %}{% if p.image_position %} style="object-position: {{ p.image_position }}"{% endif %} alt="" loading="lazy">{% else %}🌲{% endif %}</span>
+        <span class="mb-thumb{% unless p.image %} no-img{% endunless %}">{% if p.image %}<img {% include thumb.html img=p.image %}{% if p.image_position %} style="object-position: {{ p.image_position }}"{% endif %} alt="{{ p.image_alt | default: p.title | escape }}" loading="lazy">{% else %}🌲{% endif %}</span>
         <span class="mb-mala-body"><span class="mb-mala-title">{% include prijelomna-oznaka.html post=p %}{{ p.title }}</span><span class="mb-meta">{% include datum.html date=p.date show_time=p.show_time short=true %}{% if mb_loc %} · {{ mb_loc.name }}{% endif %}{% include azurirano-oznaka.html post=p %}</span></span>
       </a></li>
     {%- endif -%}

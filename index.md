@@ -86,7 +86,7 @@ sidebar: true
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
-      {% if post.image %}<img {% include thumb.html img=post.image %}{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
+      {% if post.image %}<img {% include thumb.html img=post.image %}{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
       <span class="card-badges">{% include prijelomna-oznaka.html post=post %}{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
     </a>
     <div class="content">
