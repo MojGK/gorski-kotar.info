@@ -2,10 +2,10 @@
 layout: post
 featured: true
 prijelomna: true
-prijelomna_tekst: "Kolona 4 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km, stajanje kod Lučica; zastoj na DC3 kod Gornjeg Jelenja"
-title: "SNIJEG U GORSKOM KOTARU: Kolona 4 km na A6, zastoj i na DC3"
+prijelomna_tekst: "Kolona 2 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km; zastoj na DC3 kod Delnica"
+title: "SNIJEG U GORSKOM KOTARU: Kolona 2 km na A6, zastoj i na DC3"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 20:28:00 +0100
+azurirano: 2026-11-13 20:53:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -15,6 +15,13 @@ image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (20.53 h):** Na raskrižju državnih cesta **DC3** i **DC32** kod Delnica (smjer Crni Lug) kolnik je oko 20.50 h pod ugaženim snijegom s dubokim tragovima kotača. Vozila se sporo kreću i čekaju u koloni, uz cestu su visoki nasipi snijega, a snijeg i dalje pada. DC3 i DC32 državne su ceste koje održavaju Hrvatske ceste, a ne Grad Delnice; o stanju gradskih cesta pišemo u [članku o prohodnim delničkim cestama]({{ '/delnice-spremne-obilan-snijeg-ceste-prohodne/' | relative_url }}).
+
+![Raskrižje DC3 i DC32 kod Delnica u smjeru Crnog Luga, kolnik pod ugaženim snijegom i kolona vozila, 13. 11. 2026. oko 20.50 h.]({{ '/assets/images/d3-d32-crni-lug-delnice-2026-11-13.jpg' | relative_url }})
+*Foto: gorskikotarinfo*
+
+[HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 20:52 javio da je kolona na autocesti **A6** između čvorova **Vrata** i **Ravna Gora**, u smjeru Zagreba, skraćena na **2 kilometra**, zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. Nesreća na 40. kilometru između Delnica i Ravne Gore i dalje je na snazi: promet se vodi jednom trakom uz ograničenje brzine od 60 km/h. Dionica Kikovica–Delnice zbog vjetra i dalje je otvorena samo za osobna vozila. Na staroj cesti kroz Gorski kotar, **DC3** Zdihovo–Stubica–Delnice–Kikovica/Soboli, te na **DC32** Prezid–Delnice, prema HAK-u, i dalje vrijede zimski uvjeti i zabrana prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom. Zastoj na raskrižju DC3 i DC32 kod Delnica HAK izrijekom nije naveo. Trenutačno nema slobodnog cestovnog pravca za kamione s prikolicama, tegljače s poluprikolicama i vozila bez propisane zimske opreme iz smjera unutrašnjosti prema Hrvatskom primorju ili Istri, i obrnuto.
 
 **Dopuna (20.28 h):** Stanje na A6 u 20:24 prema HAK-ovim web kamerama: kod tunela **Čardak**, **Javorova Kosa** i **Vršek** kolnik je mokar i djelomično pod snijegom, a snijeg leži uz rub ceste i na zelenim površinama. Kod Čardaka se kroz tunel vidi niz vozila koja se kreću; kod Javorove Kose i Vršeka promet je u tom trenutku slabiji. Temperatura je od 2 °C (Javorova Kosa) do 4 °C (Vršek), a kod Javorove Kose pada snijeg ili susnježica uz smanjenu vidljivost.
 
@@ -150,3 +157,5 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 19:50 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
 - *Bloger Krule, javna Facebook objava, 13. 11. 2026. (do 20 sati više od 4.100 reakcija i 260 komentara)*
 - *HAK, web kamere A6 (Čardak, Javorova Kosa, Vršek), 13. 11. 2026. u 20:24, te stanje na cestama u 20:26 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Snimka s terena, uredništvo portala, 13. 11. 2026. oko 20.50 h, raskrižje DC3 i DC32 kod Delnica (smjer Crni Lug)*
+- *HAK, stanje na cestama, 13. 11. 2026. u 20:52 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
