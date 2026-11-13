@@ -23,18 +23,19 @@
         {%- assign sd_short = sd_full | truncate: 155, "" | split: " " | pop | join: " " | append: "…" -%}
       {%- else -%}{%- assign sd_short = sd_full -%}{%- endif -%}
       {%- assign sd_short = sd_short | escape -%}
+      {%- comment -%} Radi s jekyll-seo-tag 2.8 (GitHub Pages: zasebni description i og:description) i 2.9 (spojeni twitter/og tag): zamijeni sadržaj svih tagova s punim opisom, pa dodaj twitter:description ako ga nema. {%- endcomment -%}
       {%- assign sd_a = '<meta name="description" content="' -%}
-      {%- assign sd_b = '<meta name="twitter:description" property="og:description" content="' -%}
-      {%- if seo_html contains sd_a and seo_html contains sd_b -%}
-        {%- assign sd_parts = seo_html | split: sd_a -%}
-        {%- assign sd_head = sd_parts | first -%}
-        {%- assign sd_rest = seo_html | remove_first: sd_head | remove_first: sd_a -%}
-        {%- assign sd_tail = sd_rest | split: sd_b | last -%}
-        {%- assign sd_old = sd_tail | split: '" />' | first -%}
-        {%- assign sd_after = sd_tail | remove_first: sd_old | remove_first: '" />' -%}
-        {%- capture seo_html -%}{{ sd_head }}<meta name="description" content="{{ sd_short }}" />
-<meta property="og:description" content="{{ sd_short }}" />
-<meta name="twitter:description" content="{{ sd_short }}" />{{ sd_after }}{%- endcapture -%}
+      {%- if seo_html contains sd_a -%}
+        {%- assign sd_old = seo_html | split: sd_a | last | split: '" />' | first -%}
+        {%- assign sd_from = 'content="' | append: sd_old | append: '"' -%}
+        {%- assign sd_to = 'content="' | append: sd_short | append: '"' -%}
+        {%- assign seo_html = seo_html | replace: sd_from, sd_to -%}
+        {%- unless seo_html contains 'name="twitter:description"' -%}
+          {%- assign sd_desc_tag = sd_a | append: sd_short | append: '" />' -%}
+          {%- capture sd_tw -%}{{ sd_desc_tag }}
+<meta name="twitter:description" {{ sd_to }} />{%- endcapture -%}
+          {%- assign seo_html = seo_html | replace_first: sd_desc_tag, sd_tw -%}
+        {%- endunless -%}
       {%- endif -%}
     {%- endif -%}
   {%- endif %}
