@@ -10,6 +10,7 @@ image: /assets/images/dvd-lic-lepenica-bajer-izlijevanje-2026-11-13.jpg
 image_alt: "Noćna snimka nabujale vode ispod brane u Liču, 13. studenoga 2026."
 image_credit: "Foto: DVD Lič / Facebook"
 image_position: center 65%
+featured: true
 ---
 
 Općina Fužine iza sebe ima tešku noć. Iz **DVD-a Lič** jutros su na Facebooku napisali: „Iza nas je vrlo burna i neprospavana noć za cijelu našu općinu. Zvuk sirena u noći nikome nije ugodan te izaziva nelagodu, strah i neizvjesnost.” Kako navode, noć je bila obilježena ogromnim količinama vode, izlijevanjem jezera **Lepenice** i jezera **Bajer** preko brana te neprekidnim praćenjem situacije i brigom za sigurnost ljudi i imovine. Objavu preuzimamo iz snimki zaslona dostavljenih portalu; izravna poveznica nije dostupna.
