@@ -5,7 +5,7 @@ prijelomna: true
 prijelomna_tekst: "HAK više ne javlja kolonu na A6 između Vrata i Ravne Gore; nesreća na 40. km, promet jednim trakom; zimski uvjeti na DC3 i DC32"
 title: "SNIJEG U GORSKOM KOTARU: HAK više ne javlja kolonu na A6, nesreća na 40. km"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 21:18:00 +0100
+azurirano: 2026-11-13 21:19:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -15,6 +15,11 @@ image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (21.19 h):** Snježnu večer u Gorskom kotaru podijelila je i saborska zastupnica HDZ-a **Majda Burić**, Ravnogorka. U javnom videu na Facebooku vidi se zasniježena cesta kroz šumu i gusti snijeg, uz kratki komentar „Došla je divota”. Dok su vozači na A6 večeras stajali u kolonama, ovaj prizor pokazuje i drugu stranu goranske zime.
+
+![Zasniježena cesta kroz šumu u gustom noćnom snijegu, kadar s javnog Facebook videa Majde Burić, 13. 11. 2026.]({{ '/assets/images/snijeg-buric-2026-11-13.jpg' | relative_url }})
+*Foto: Majda Burić / Facebook*
 
 **Dopuna (21.18 h):** Meteorološka stranica **VinodolMet** objavila je na Facebooku „totalni kaos kroz Gorski kotar”. Prema njihovoj objavi, na vrhuncu gužve oko 19.30 h kolona na A6 kod Delnica prema Zagrebu bila je duga oko 5 kilometara i stajala je. Ta ocjena od oko 5 kilometara odnosi se, prema toj objavi, na raniji vrhunac, a ne na trenutačno stanje, i nije službena HAK-ova brojka. Na objavljenim snimkama HAK-ovih kamera iz 19.27 h vide se pune trake prema Zagrebu kod Delnica, Vrbovskog i Rožman Brda.
 
@@ -168,3 +173,5 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *HAK, stanje na cestama, 13. 11. 2026. u 20:52 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *VinodolMet, Facebook objava „totalni kaos kroz Gorski kotar”, 13. 11. 2026., s HAK-ovim web kamerama A6 (Delnice, Vrbovsko, Rožman Brdo) iz 19:27*
 - *HAK, stanje na cestama, 13. 11. 2026. u 21:16 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Majda Burić, javna Facebook objava „Došla je divota”, 13. 11. 2026.*
+- *tportal, „Od poezije do saborskih fajtova: Tko je Majda Burić, HDZ-ovka zbog koje je reagirao i Plenković?”, 30. 10. 2026. ([tportal.hr](https://www.tportal.hr/vijesti/clanak/od-poezije-do-saborskih-fajtova-tko-je-majda-buric-hdz-ovka-zbog-koje-je-reagirao-i-plenkovic-foto-20261030))*
