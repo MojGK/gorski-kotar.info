@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <title>{% if page.url == "/" %}{{ page.title | default: site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   {%- comment -%} jekyll-seo-tag piše dateModified (i ovisno o verziji article:modified_time) = date; za dopunjene članke (azurirano) zamjenjujemo ih vremenom dopune. {%- endcomment -%}
   {%- capture seo_html %}{% seo title=false %}{% endcapture -%}
   {%- if page.azurirano -%}
@@ -14,6 +14,29 @@
     {%- assign seo_old2 = '"dateModified":"' | append: seo_d | append: '"' -%}
     {%- assign seo_new2 = '"dateModified":"' | append: seo_a | append: '"' -%}
     {%- assign seo_html = seo_html | replace: seo_old1, seo_new1 | replace: seo_old2, seo_new2 -%}
+  {%- endif %}
+  {%- comment -%} Kratki opis za članke (meta description, og:description, twitter:description): sažetak bez HTML-a, do ~155 znakova, rez na granici riječi. jekyll-seo-tag inače ispisuje cijeli sažetak (300–600 znakova). {%- endcomment -%}
+  {%- if page.layout == "post" -%}
+    {%- assign sd_full = page.description | default: page.excerpt | strip_html | normalize_whitespace | strip -%}
+    {%- if sd_full != "" -%}
+      {%- if sd_full.size > 155 -%}
+        {%- assign sd_short = sd_full | truncate: 155, "" | split: " " | pop | join: " " | append: "…" -%}
+      {%- else -%}{%- assign sd_short = sd_full -%}{%- endif -%}
+      {%- assign sd_short = sd_short | escape -%}
+      {%- assign sd_a = '<meta name="description" content="' -%}
+      {%- assign sd_b = '<meta name="twitter:description" property="og:description" content="' -%}
+      {%- if seo_html contains sd_a and seo_html contains sd_b -%}
+        {%- assign sd_parts = seo_html | split: sd_a -%}
+        {%- assign sd_head = sd_parts | first -%}
+        {%- assign sd_rest = seo_html | remove_first: sd_head | remove_first: sd_a -%}
+        {%- assign sd_tail = sd_rest | split: sd_b | last -%}
+        {%- assign sd_old = sd_tail | split: '" />' | first -%}
+        {%- assign sd_after = sd_tail | remove_first: sd_old | remove_first: '" />' -%}
+        {%- capture seo_html -%}{{ sd_head }}<meta name="description" content="{{ sd_short }}" />
+<meta property="og:description" content="{{ sd_short }}" />
+<meta name="twitter:description" content="{{ sd_short }}" />{{ sd_after }}{%- endcapture -%}
+      {%- endif -%}
+    {%- endif -%}
   {%- endif %}
   {{ seo_html }}
   {%- if page.azurirano %}{% unless seo_html contains 'article:modified_time' %}
