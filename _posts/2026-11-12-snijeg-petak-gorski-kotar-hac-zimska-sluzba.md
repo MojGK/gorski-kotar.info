@@ -34,7 +34,7 @@ HAK u istom izvješću javlja da trenutačno nema slobodnog cestovnog pravca za 
 ![Dva kadra s autoceste A6 kod Delnica: osobni automobil zapao u snijegu i kolona s kamionom i autobusom u noćnoj mećavi, 13. 11. 2026.]({{ '/assets/images/a6-zeceve-drage-index-2026-11-13.jpg' | relative_url }})
 *Foto: čitatelj Indexa / Index.hr*
 
-Prema informaciji s terena koju je uredništvo portala zabilježilo oko 19:10, u **Delnicama** pada snijeg, ali su gradske ceste prohodne. Zimska služba u Delnicama bila je spremna i ceste se redovito čiste. Najveći problemi ostaju na tranzitnim prometnicama **A6** i **DC3**, a ne na gradskim ulicama.
+Prema informaciji s terena koju je uredništvo portala zabilježilo oko 19:10, u **Delnicama** pada snijeg, ali su gradske ceste prohodne. Zimska služba u Delnicama bila je spremna i ceste se redovito čiste. Najveći problemi ostaju na tranzitnim prometnicama **A6** i **DC3**, a ne na gradskim ulicama. Više o stanju u gradu pišemo u [članku o prohodnim delničkim cestama]({{ '/delnice-spremne-obilan-snijeg-ceste-prohodne/' | relative_url }}).
 
 ![Očišćena cesta u Delnicama u sumrak, 13. 11. 2026.]({{ '/assets/images/delnice-ceste-prohodne-2026-11-13.jpg' | relative_url }})
 *Foto: gorskikotarinfo*
