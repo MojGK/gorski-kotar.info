@@ -2,19 +2,35 @@
 layout: post
 featured: true
 prijelomna: true
-prijelomna_tekst: "Zastoji: A6 kod 40. km (jedna traka, stajanje kod tunela Lučice) i DC3 kod Gornjeg Jelenja prema Gorskom kotaru"
-title: "SNIJEG U GORSKOM KOTARU: Zastoji na A6 i DC3"
+prijelomna_tekst: "Kolona 4 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km, stajanje kod Lučica; zastoj na DC3 kod Gornjeg Jelenja"
+title: "SNIJEG U GORSKOM KOTARU: Kolona 4 km na A6, zastoj i na DC3"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 18:29:00 +0100
+azurirano: 2026-11-13 19:13:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
-excerpt: "Prema informaciji s terena koju je dobilo uredništvo portala, i na DC3 kod Gornjeg Jelenja, u smjeru Gorskog kotara, stvorio se zastoj. Radio Rijeka objavio je snimku kolone na zasniježenoj cesti. HAK u 18:22 zastoj na DC3 još nije objavio, nego javlja zimske uvjete i zabranu za vozila bez zimske opreme i teretna vozila s prikolicom. Na A6 između Delnica i Ravne Gore, u smjeru Zagreba, HAK i HAC i dalje navode prometnu nesreću na 40. kilometru: promet jednom trakom uz 60 km/h, a vozila se povremeno zaustavljaju kod tunela Lučice. Zbog vjetra dionica Kikovica–Delnice ostaje otvorena samo za osobna vozila."
+excerpt: "HAK je u 19:08 javio da je na A6 između čvorova Vrata i Ravna Gora, u smjeru Zagreba, kolona vozila duga 4 kilometra zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. HAC je isti zastoj u 18:20 zabilježio uz napomenu da se kolona povećava. Nesreća na 40. kilometru između Delnica i Ravne Gore i dalje je na snazi: promet jednom trakom, a vozila se povremeno zaustavljaju kod tunela Lučice. Čitatelji Indexa javljaju zapela vozila kod Delnica i zastoj na vijaduktu Zečeve Drage. Na DC3 kod Gornjeg Jelenja, prema informaciji s terena, i dalje ima zastoja. HAK vozačima poručuje da na put ne kreću bez propisane zimske opreme."
 image: /assets/images/a6-delnice-ravna-gora-snijeg-zastoj-2026-11-13.jpg
 image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome noćnom snijegu, 13. 11. 2026."
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (19.13 h):** Kolone i zapela vozila na A6 kod Delnica. [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 19:08 javio da je na autocesti **A6** između čvorova **Vrata** i **Ravna Gora**, u smjeru Zagreba, kolona vozila duga **4 kilometra**, zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. [Hrvatske autoceste](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama) su isti zastoj zabilježile u 18:20 i navele da se kolona povećava.
+
+Na istoj autocesti, između čvorova **Delnice** i **Ravna Gora**, HAK i dalje navodi prometnu nesreću na 40. kilometru. Promet se vodi jednom prometnom trakom uz ograničenje brzine od 60 km/h, a vozila se povremeno zaustavljaju kod tunela **Lučice**. HAC u obavijesti od 17:06 i dalje javlja da će se tunel Lučice iz sigurnosnih razloga povremeno kratkotrajno zatvarati za sav promet.
+
+[Index.hr](https://www.index.hr/vijesti/clanak/video-vozila-zapela-u-snijegu-na-a6-na-sve-strane-kamioni-bez-zimske-opreme/2856798.aspx) je u 19:05 prenio poruku čitatelja prema kojoj vozila na vijaduktu **Zečeve Drage** već sat vremena stoje u koloni bez pomaka. Čitatelj tvrdi da su „na sve strane” kamioni bez zimske opreme, zbog čega ralice ne mogu prolaziti i čistiti cestu, te da su velike gužve kod Delnica. Prema njegovim riječima, i stara cesta kroz Gorski kotar blokirana je zbog autobusa i automobila koji onemogućuju prolazak ralica. „Zimska služba stalno čisti, ali ne može obavljati svoj posao zbog neodgovornih vozača. Pohvale svim vozačima ralica, gdje god bili”, poručio je čitatelj Indexa. Drugi čitatelj poslao je snimke s A6 kod Delnica na kojima se vide vozila zapela u snijegu. Te tvrdnje službeni izvori nisu pojedinačno potvrdili; HAK u 19:08 zastoj na vijaduktu Zečeve Drage i zastoj na DC3 nije izrijekom naveo.
+
+HAK u istom izvješću javlja da trenutačno nema slobodnog cestovnog pravca za kamione s prikolicama, tegljače s poluprikolicama i vozila bez propisane zimske opreme iz smjera unutrašnjosti prema Hrvatskom primorju ili Istri, i obrnuto. Zbog vjetra dionica A6 Kikovica–Delnice otvorena je samo za osobna vozila. Zimski uvjeti vladaju na A6 između Kikovice i Bosiljeva 2 te na staroj cesti **DC3** Zdihovo–Stubica–Delnice–Kikovica/Soboli, uz zabranu prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom. U tijeku je čišćenje i posipavanje cesta u Gorskom kotaru i Lici. HAK vozačima savjetuje da prilagode brzinu i način vožnje uvjetima na cestama, održavaju sigurnosni razmak, da ne pretječu vozila zimske službe na autocestama te da na put ne kreću bez propisane zimske opreme.
+
+![Dva kadra s autoceste A6 kod Delnica: osobni automobil zapao u snijegu i kolona s kamionom i autobusom u noćnoj mećavi, 13. 11. 2026.]({{ '/assets/images/a6-zeceve-drage-index-2026-11-13.jpg' | relative_url }})
+*Foto: čitatelj Indexa / Index.hr*
+
+Prema informaciji s terena koju je uredništvo portala zabilježilo oko 19:10, u **Delnicama** pada snijeg, ali su gradske ceste prohodne. Zimska služba u Delnicama bila je spremna i ceste se redovito čiste. Najveći problemi ostaju na tranzitnim prometnicama **A6** i **DC3**, a ne na gradskim ulicama.
+
+![Očišćena cesta u Delnicama u sumrak, 13. 11. 2026.]({{ '/assets/images/delnice-ceste-prohodne-2026-11-13.jpg' | relative_url }})
+*Foto: gorskikotarinfo*
 
 **Dopuna (18.25 h):** Prema informaciji s terena koju je dobilo uredništvo portala, i na **DC3** kod **Gornjeg Jelenja**, u smjeru Gorskog kotara, stvorio se zastoj. **Radio Rijeka** objavio je snimku kolone na zasniježenoj cesti. [HAK](https://www.hak.hr/info/stanje-na-cestama/) u 18:22 zastoj na DC3 još nije objavio, nego javlja da su na staroj cesti kroz Gorski kotar, **DC3** Zdihovo–Stubica–Delnice–Kikovica/Soboli, na snazi zimski uvjeti te zabrana prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom.
 
@@ -96,3 +112,7 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *HAK, stanje na cestama, 13. 11. 2026. u 17:46 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *Radio Rijeka, TikTok snimka DC3 kod Gornjeg Jelenja, 13. 11. 2026.*
 - *HAK, stanje na cestama, 13. 11. 2026. u 18:22 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Index.hr, „VIDEO Auti zapeli u snijegu na A6. ‘Na sve strane kamioni bez zimske opreme’”, 13. 11. 2026. u 19:05 ([index.hr](https://www.index.hr/vijesti/clanak/video-vozila-zapela-u-snijegu-na-a6-na-sve-strane-kamioni-bez-zimske-opreme/2856798.aspx))*
+- *HAK, stanje na cestama, 13. 11. 2026. u 19:08 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 18:20 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
+- *Informacija s terena, uredništvo portala, 13. 11. 2026. oko 19:10*
