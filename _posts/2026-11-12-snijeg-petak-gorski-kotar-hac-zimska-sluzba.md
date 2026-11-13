@@ -5,7 +5,7 @@ prijelomna: true
 prijelomna_tekst: "Kolona 4 km na A6 između Vrata i Ravne Gore prema Zagrebu; nesreća na 40. km, stajanje kod Lučica; zastoj na DC3 kod Gornjeg Jelenja"
 title: "SNIJEG U GORSKOM KOTARU: Kolona 4 km na A6, zastoj i na DC3"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 19:32:00 +0100
+azurirano: 2026-11-13 19:59:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -15,6 +15,13 @@ image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (19.59 h):** Kolona na A6 i dalje stoji. Na snimci našeg portala s terena iz petka navečer vidi se kolona vozila na zasniježenoj A6 kod odmorišta Ravna Gora (Tifon), a uz rub kolnika su nasipi snijega.
+
+![Kolona vozila na zasniježenoj autocesti A6 kod odmorišta Ravna Gora (Tifon) u petak navečer, 13. 11. 2026.]({{ '/assets/images/a6-tifon-ravna-gora-kolona-2026-11-13.jpg' | relative_url }})
+*Foto: gorskikotarinfo*
+
+[HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 19:55 javio da je kolona između čvorova **Vrata** i **Ravna Gora**, u smjeru Zagreba, i dalje duga **4 kilometra**, zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. Nesreća na 40. kilometru između Delnica i Ravne Gore i dalje je na snazi: promet se vodi jednom trakom uz ograničenje brzine od 60 km/h. Iz sigurnosnih razloga vozila se povremeno zaustavljaju ispred tunela **Lučice** u smjeru Zagreba, a ispred tunela **Rožman Brdo** u smjeru Rijeke. [Hrvatske autoceste](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama) su u 19:50 potvrdile kolonu od 4 kilometra na istoj dionici, zbog vozila bez odgovarajuće zimske opreme, uz napomenu da se kolona povećava.
 
 **Dopuna (19.32 h):** **Željka Markić** objavila je na svom javnom Facebook profilu snimku pod naslovom „Snježna oluja u Gorskom kotaru”, na kojoj se vide autobusi i osobni automobili kako stoje na zasniježenoj cesti u gustom snijegu. Snimka je, prema toj objavi, skupila više od 250 reakcija. Lokaciju objava ne navodi.
 
@@ -126,3 +133,6 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *HAK, stanje na cestama, 13. 11. 2026. u 19:24 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 19:22 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
 - *Željka Markić, javna Facebook objava „Snježna oluja u Gorskom kotaru”, 13. 11. 2026.*
+- *Informacija i snimka s terena, uredništvo portala, 13. 11. 2026. navečer, A6 kod odmorišta Ravna Gora (Tifon)*
+- *HAK, stanje na cestama, 13. 11. 2026. u 19:55 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 19:50 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
