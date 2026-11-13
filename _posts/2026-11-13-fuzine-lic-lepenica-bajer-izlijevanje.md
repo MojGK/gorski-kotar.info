@@ -11,7 +11,7 @@ image: /assets/images/dvd-lic-lepenica-bajer-izlijevanje-2026-11-13.jpg
 image_alt: "Noćna snimka nabujale vode ispod brane u Liču, 13. studenoga 2026."
 image_credit: "Foto: DVD Lič / Facebook"
 image_position: center 65%
-featured: true
+istaknuto: true
 ---
 
 **Dopuna (16.21 h):** Prema podacima vatrogasnih službi koje prenose [Gorske novosti](https://gorskenovosti.net/2026/11/13/izlila-se-jezera-lepenica-i-bajer-vatrogasci-cijelu-noc-spasavali-kuce/) (13. 11. u 15:25), vatrogasci su na području Primorsko-goranske županije u protekla 24 sata imali **69 intervencija**, od kojih je **57** bilo izravno povezano s nevremenom. Riječ je o brojci za **cijeli PGŽ**, a ne samo za Gorski kotar. Najzahtjevnije je, prema istom izvoru i [Hini](https://www.hina.hr/vijest/12579376) (13. 11. u 12:46), bilo u **Fužinama**, zbog izlijevanja jezera Lepenice i Bajera, te u **Klani**, gdje se iz korita izlio potok **Ričina**.

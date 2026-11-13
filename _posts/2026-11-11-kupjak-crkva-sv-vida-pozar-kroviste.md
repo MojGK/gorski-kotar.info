@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Policija: tehnički uzrok požara crkve u Kupjaku isključen, istraga se nastavlja"
-prijelomna: true
 date: 2026-11-11 06:28:00 +0100
 azurirano: 2026-11-12 10:21:00 +0100
 location: Ravna Gora

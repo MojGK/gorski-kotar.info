@@ -1,17 +1,25 @@
 ---
 layout: post
-istaknuto: true
-title: "Snijeg u Gorskom kotaru: A6 Kikovica–Delnice samo za osobna vozila, narančasto upozorenje za buru i u subotu"
+featured: true
+prijelomna: true
+title: "SNIJEG U GORSKOM KOTARU: Zastoj na A6 između Delnica i Ravne Gore"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 16:54:00 +0100
+azurirano: 2026-11-13 17:50:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
-excerpt: "U petak popodne u Gorskom kotaru počeo je padati obilan snijeg. HAK je u 16:34 javio da u gorju povremeno pada snijeg, da su kolnici mokri i skliski te da su mogući odroni i voda na kolniku. Dionica A6 između Kikovice i Delnica zbog vjetra otvorena je samo za osobna vozila, a ostale skupine vozila obilaze starom cestom (DC3). DHMZ za Primorsko-goransku županiju drži narančasto upozorenje zbog jake i olujne bure do kraja petka i u prvim satima subote, 14. studenoga, do 3 sata. Od nedjelje, 15. studenoga, na zimskim dionicama vrijedi obveza zimske opreme."
-image: /assets/images/gk-snijeg-primorac-2026-11-13.jpg
-image_alt: "Gust snijeg pada nad šumom i zabijeljenom livadom u Gorskom kotaru"
-image_credit: "Foto: Dragan Primorac / Facebook"
+excerpt: "Na A6 između Delnica i Ravne Gore, u smjeru Zagreba, HAC je u 16:47 javio prometnu nesreću na 40. kilometru. Promet se vodi jednom trakom uz ograničenje od 60 km/h, a HAK je u 17:46 potvrdio da se vozila povremeno zaustavljaju kod tunela Lučice. Na fotografiji koju smo snimili na toj dionici vidi se kolona vozila u gustome snijegu. Na A6 između Kikovice i Bosiljeva 2 na snazi su zimski uvjeti i zabrana za vozila bez zimske opreme te teretna vozila s prikolicom. Zbog vjetra dionica Kikovica–Delnice ostaje otvorena samo za osobna vozila."
+image: /assets/images/a6-delnice-ravna-gora-snijeg-zastoj-2026-11-13.jpg
+image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome noćnom snijegu, 13. 11. 2026."
+image_credit: "Foto: privatna arhiva"
+image_position: center 70%
 ---
+
+**Dopuna (17.50 h):** Na autocesti **A6** između čvorova **Delnice** i **Ravna Gora**, u smjeru Zagreba, [Hrvatske autoceste](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama) su u 16:47 javile prometnu nesreću na 40. kilometru. Promet se vodi jednom trakom, uz ograničenje brzine od 60 km/h. U 17:06 HAC je dodao da se začelje kolone vozila približava tunelu **Lučice** te da će se tunel iz sigurnosnih razloga povremeno kratkotrajno zatvarati za sav promet. [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 17:46 potvrdio nesreću i javio da se vozila povremeno zaustavljaju kod tunela Lučice. Duljinu kolone službeni izvori nisu naveli.
+
+Na fotografiji koju smo snimili na toj dionici vidi se kolona vozila u gustome snijegu.
+
+HAK u istom izvješću javlja da su na snazi zimski uvjeti na A6 između Kikovice i Bosiljeva 2 te na staroj cesti **DC3**, uz zabranu prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom. Zbog vjetra dionica Kikovica–Delnice i dalje je otvorena samo za osobna vozila. Prema HAK-u, trenutačno nema slobodnog cestovnog pravca za kamione s prikolicama i tegljače s poluprikolicama te vozila bez zimske opreme iz smjera unutrašnjosti prema Hrvatskom primorju ili Istri, i obrnuto.
 
 **Dopuna (16.54 h):** U petak, 13. 11., zabijeljene su i **Delnice**. Snimku zasnježene stambene ulice s krovovima i automobilima pod snijegom objavio je **Dean Nikolić** u Facebook grupi „Gorski kotar… u fotografiji”.
 
@@ -21,6 +29,9 @@ image_credit: "Foto: Dragan Primorac / Facebook"
 **Dopuna (16.35 h):** U petak popodne u Gorskom kotaru počeo je padati obilan snijeg. [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 16:34 javio da u Gorskom kotaru povremeno pada snijeg, da su kolnici mokri ili vlažni i skliski te da su mogući odroni i voda na kolniku zbog povremenih jakih pljuskova. Zbog vjetra je dionica autoceste **A6** između čvorova **Kikovica** i **Delnice** otvorena samo za osobna vozila; ostale skupine vozila, prema HAK-u, obilaze starom cestom kroz Gorski kotar (**DC3**). Na dionici Kikovica–Bosiljevo 2 HAK navodi i zimske uvjete. [24sata](https://www.24sata.hr/news/krenulo-je-ovako-sad-izgleda-a6-u-gorskom-kotaru-moglo-bi-pasti-i-do-30-cm-novog-snijega-1168361) u 15:26, pozivajući se na HAK-ove kamere, javlja da je gust snijeg počeo padati kod Ravne Gore i na delničkom području.
 
 Snimku gustog snijega nad šumom i zabijeljenom livadom na Facebooku je objavio bivši ministar **Dragan Primorac**, uz opis „Gorski Kotar i prvi snijeg ove godine”.
+
+![Gust snijeg pada nad šumom i zabijeljenom livadom u Gorskom kotaru]({{ '/assets/images/gk-snijeg-primorac-2026-11-13.jpg' | relative_url }})
+*Gorski kotar, prvi snijeg ove godine. Foto: Dragan Primorac / Facebook*
 
 [DHMZ](https://meteo.hr/naslovnica-upozorenja-zupanije.php) za **Primorsko-goransku županiju** i dalje drži **narančasto** upozorenje zbog **jake i olujne bure**, koje u petak, 13. studenoga, vrijedi do kraja dana. Narančasto upozorenje nastavlja se i u prvim satima subote, **14. studenoga**, od ponoći do 3 sata, a zatim do kraja subote ostaje **žuto** zbog jake bure s olujnim udarima. Tijekom petka na snazi je i žuto upozorenje zbog lokalno obilne kiše.
 
@@ -73,3 +84,5 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *DHMZ, upozorenja po županijama za petak, 13. 11. 2026., i subotu, 14. 11. 2026., Primorsko-goranska županija ([meteo.hr](https://meteo.hr/naslovnica-upozorenja-zupanije.php))*
 - *Facebook objava Dragana Primorca, 13. 11. 2026.*
 - *Facebook objava Deana Nikolića u grupi „Gorski kotar… u fotografiji”, 13. 11. 2026.*
+- *Hrvatske autoceste, stanje na autocestama, 13. 11. 2026. u 16:47 i 17:06 ([hac.hr](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama))*
+- *HAK, stanje na cestama, 13. 11. 2026. u 17:46 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
