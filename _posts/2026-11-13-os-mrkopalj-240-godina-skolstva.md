@@ -2,18 +2,21 @@
 layout: post
 title: "„Mala smo škola, ali moremo sve”: OŠ Mrkopalj obilježila 240 godina školstva"
 date: 2026-11-13 10:35:00 +0100
+azurirano: 2026-11-13 12:50:00 +0100
 location: Mrkopalj
 type: Kultura
 categories: [Mrkopalj, Kultura]
 excerpt: "Osnovna škola Mrkopalj 12. studenoga svečanom je akademijom obilježila 240 godina školstva. Kako piše Novi list, svih 37 učenika otpjevalo je novu školsku himnu „Vesela himna”. U programu su predstavljeni dokumentarac, školski list, rječnik zavičajnog govora i slikovnica; materijali će ući u vremensku kapsulu za 250. obljetnicu."
-image: /assets/images/os-mrkopalj-240-godina-skolstva-ai.jpg
-image_alt: "AI ilustracija: dvokatna školska zgrada u goranskom mjestu u jeseni, dvorište bez osoba"
-image_credit: "AI ilustracija"
+image: /assets/images/os-mrkopalj-240-svecanost-pgz.jpg
+image_alt: "Publika na svečanosti 240 godina školstva u Domu kulture u Mrkoplju"
+image_credit: "Foto: Primorsko-goranska županija / Facebook"
 ---
 
 Osnovna škola Mrkopalj **12. studenoga** svečanom je akademijom obilježila **240 godina školstva** u Mrkoplju, [piše Novi list](https://www.novilist.hr/rijeka-regija/gorski-kotar/mrkopaljski-osnovci-obiljezili-240-godina-skolstva-mala-smo-skola-ali-moremo-sve/). Prema tom izvoru, svih **37 učenika** otpjevalo je novu školsku himnu **„Vesela himna”**, zaključivši izvedbu stihom **„mala smo škola, ali moremo sve”**.
 
 Ravnateljica **Božana Blašković** zahvalila je, kako prenosi Novi list, svima koji su u proteklih 240 godina utkali dio svojih života u mrkopaljsko školstvo. „Mijenjala su se vremena, države, obrazovni sustavi i načini rada, ali škola je uvijek opstala jer su onima koji su u njoj radili odgoj i obrazovanje bili na prvom mjestu,” rekla je ravnateljica i posebno pozdravila umirovljene nastavnice i nastavnike.
+
+Svečanost je, kako je na Facebooku objavila **Primorsko-goranska županija**, održana u **Domu kulture u Mrkoplju**, uz učenike, učitelje i brojne generacije bivših učenika. Uz učenike OŠ Mrkopalj, glazbeno-scenskim programom svečanost su uljepšali i **Sungerski tamburaši**, a posebno mjesto pripalo je nekadašnjim učiteljima i djelatnicama škole. U ime Županije prisustvovao je zamjenik župana **Toni Štimac**, koji je istaknuo važnost škole za očuvanje života i zajedništva u Gorskom kotaru. Štimac je, prema objavi Županije, najavio pripremu **energetske obnove** OŠ Mrkopalj i još tri goranske osnovne škole. Riječ je o najavi, a o kojim je školama riječ, objava ne navodi.
 
 ## Od prve škole do današnje zgrade
 
@@ -33,8 +36,8 @@ Ravnateljica Blašković dodijelila je, prema Novom listu, priznanja **Općini M
 
 Sve navedeno, piše Novi list, bit će spremljeno u **vremensku kapsulu** koja će se otvoriti za **250. obljetnicu**.
 
-Portal je u listopadu pisao i o [240 godina školstva u Ravnoj Gori](/ravna-gora-240-godina-skolstva/).
+Portal je u listopadu pisao i o [240 godina školstva u Ravnoj Gori]({{ '/ravna-gora-240-godina-skolstva/' | relative_url }}).
 
 ---
 
-*Izvori: [Novi list, 13. 11. 2026. – Mrkopaljski osnovci obilježili 240 godina školstva](https://www.novilist.hr/rijeka-regija/gorski-kotar/mrkopaljski-osnovci-obiljezili-240-godina-skolstva-mala-smo-skola-ali-moremo-sve/); [Osnovna škola Mrkopalj – O osnovnoj školi](https://os-mrkopalj.skole.hr/ravnatelj-ica/)*
+*Izvori: [Novi list, 13. 11. 2026. – Mrkopaljski osnovci obilježili 240 godina školstva](https://www.novilist.hr/rijeka-regija/gorski-kotar/mrkopaljski-osnovci-obiljezili-240-godina-skolstva-mala-smo-skola-ali-moremo-sve/); [Osnovna škola Mrkopalj – O osnovnoj školi](https://os-mrkopalj.skole.hr/ravnatelj-ica/); Primorsko-goranska županija, Facebook, 13. 11. 2026. (snimke zaslona dostavljene portalu)*
