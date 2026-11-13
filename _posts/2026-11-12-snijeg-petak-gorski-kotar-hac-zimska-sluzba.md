@@ -3,7 +3,7 @@ layout: post
 istaknuto: true
 title: "Snijeg u Gorskom kotaru: A6 Kikovica–Delnice samo za osobna vozila, narančasto upozorenje za buru i u subotu"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 16:35:00 +0100
+azurirano: 2026-11-13 16:54:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
@@ -12,6 +12,11 @@ image: /assets/images/gk-snijeg-primorac-2026-11-13.jpg
 image_alt: "Gust snijeg pada nad šumom i zabijeljenom livadom u Gorskom kotaru"
 image_credit: "Foto: Dragan Primorac / Facebook"
 ---
+
+**Dopuna (16.54 h):** U petak, 13. 11., zabijeljene su i **Delnice**. Snimku zasnježene stambene ulice s krovovima i automobilima pod snijegom objavio je **Dean Nikolić** u Facebook grupi „Gorski kotar… u fotografiji”.
+
+![Zasnežena stambena ulica u Delnicama s kućama, rasvjetom i parkiranim automobilima, 13. 11. 2026.]({{ '/assets/images/delnice-snijeg-nikolic-2026-11-13.jpg' | relative_url }})
+*Delnice pod snijegom, 13. 11. 2026. Foto: Dean Nikolić / Facebook (Gorski kotar… u fotografiji)*
 
 **Dopuna (16.35 h):** U petak popodne u Gorskom kotaru počeo je padati obilan snijeg. [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 16:34 javio da u Gorskom kotaru povremeno pada snijeg, da su kolnici mokri ili vlažni i skliski te da su mogući odroni i voda na kolniku zbog povremenih jakih pljuskova. Zbog vjetra je dionica autoceste **A6** između čvorova **Kikovica** i **Delnice** otvorena samo za osobna vozila; ostale skupine vozila, prema HAK-u, obilaze starom cestom kroz Gorski kotar (**DC3**). Na dionici Kikovica–Bosiljevo 2 HAK navodi i zimske uvjete. [24sata](https://www.24sata.hr/news/krenulo-je-ovako-sad-izgleda-a6-u-gorskom-kotaru-moglo-bi-pasti-i-do-30-cm-novog-snijega-1168361) u 15:26, pozivajući se na HAK-ove kamere, javlja da je gust snijeg počeo padati kod Ravne Gore i na delničkom području.
 
@@ -67,3 +72,4 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *24sata, „Ovako sad izgleda A6 u Gorskom kotaru”, 13. 11. 2026. u 15:26 ([24sata.hr](https://www.24sata.hr/news/krenulo-je-ovako-sad-izgleda-a6-u-gorskom-kotaru-moglo-bi-pasti-i-do-30-cm-novog-snijega-1168361))*
 - *DHMZ, upozorenja po županijama za petak, 13. 11. 2026., i subotu, 14. 11. 2026., Primorsko-goranska županija ([meteo.hr](https://meteo.hr/naslovnica-upozorenja-zupanije.php))*
 - *Facebook objava Dragana Primorca, 13. 11. 2026.*
+- *Facebook objava Deana Nikolića u grupi „Gorski kotar… u fotografiji”, 13. 11. 2026.*
