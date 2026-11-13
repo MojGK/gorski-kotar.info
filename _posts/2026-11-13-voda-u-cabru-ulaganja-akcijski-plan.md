@@ -21,7 +21,7 @@ Gorske novosti pišu i da je akcijski plan predstavljen **početkom listopada** 
 
 Što se tiče **50 tisuća eura** odobrenih rebalansom, Gorske novosti pišu da je **ugovor već potpisan**, a da se **isplata očekuje do kraja ovoga mjeseca**. Riječ je o najavi, a ne o već izvršenoj isplati. Ulaganje od milijun eura u kratkom roku također je, prema oba izvora, plan, a ne završeni zahvat.
 
-Portal je 3. studenoga pisao o [neispravnim uzorcima vode u Prhcima, Kamenskom Hribu i Hrvatskom](/prhci-kamenski-hrib-hrvatsko-voda-prokuhavanje/). Prhci i Kamenski Hrib naselja su Grada Čabra.
+Portal je 3. studenoga pisao o [neispravnim uzorcima vode u Prhcima, Kamenskom Hribu i Hrvatskom]({{ '/prhci-kamenski-hrib-hrvatsko-voda-prokuhavanje/' | relative_url }}). Prhci i Kamenski Hrib naselja su Grada Čabra.
 
 ---
 

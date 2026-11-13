@@ -23,7 +23,7 @@ Naš savjet: dok preporuka vrijedi, za piće je najjednostavnije koristiti pakir
 
 Preporuka vrijedi do nove obavijesti nadležnih službi o tome da je voda ponovno ispravna. Kad stigne, prenijet ćemo je.
 
-**Radočaj Brodski:** preporuka Zavoda od 29. listopada za Radočaj Brodski ([naš članak](/radocaj-brodski-voda-prokuhavanje/), [obavijest NZZJZ-a](https://zzjzpgz.hr/novosti/nesukladni-uzorci-vode-za-ljudsku-potrosnju-na-podrucju-gorskog-kotara-radocaj-brodski/)) koliko znamo još nije povučena.
+**Radočaj Brodski:** preporuka Zavoda od 29. listopada za Radočaj Brodski ([naš članak]({{ '/radocaj-brodski-voda-prokuhavanje/' | relative_url }}), [obavijest NZZJZ-a](https://zzjzpgz.hr/novosti/nesukladni-uzorci-vode-za-ljudsku-potrosnju-na-podrucju-gorskog-kotara-radocaj-brodski/)) koliko znamo još nije povučena.
 
 ---
 
