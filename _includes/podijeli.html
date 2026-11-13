@@ -1,0 +1,23 @@
+{%- comment -%}
+Gumbi „Podijeli” na dnu članka (iznad povezanih članaka). Obične poveznice (Facebook sharer, WhatsApp wa.me) i
+gumb za navigator.share koji se prikazuje samo kad ga preglednik podržava. Bez skripti trećih strana i bez praćenja.
+{%- endcomment -%}
+{%- assign sh_url = page.url | absolute_url -%}
+{%- assign sh_url_enc = sh_url | url_encode -%}
+{%- assign sh_wa = page.title | append: " " | append: sh_url | url_encode | replace: "+", "%20" -%}
+<section class="podijeli" aria-label="Podijeli članak">
+  <span class="podijeli-naslov">Podijeli:</span>
+  <a class="podijeli-btn podijeli-fb" href="https://www.facebook.com/sharer/sharer.php?u={{ sh_url_enc }}" target="_blank" rel="noopener noreferrer">Facebook</a>
+  <a class="podijeli-btn podijeli-wa" href="https://wa.me/?text={{ sh_wa }}" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  <button type="button" class="podijeli-btn podijeli-native" data-title="{{ page.title | escape }}" data-url="{{ sh_url }}" hidden>Podijeli…</button>
+</section>
+<script>
+(function () {
+  var b = document.querySelector('.podijeli-native');
+  if (!b || !navigator.share) return;
+  b.hidden = false;
+  b.addEventListener('click', function () {
+    navigator.share({ title: b.getAttribute('data-title'), url: b.getAttribute('data-url') }).catch(function () {});
+  });
+})();
+</script>

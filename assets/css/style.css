@@ -1393,3 +1393,12 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 /* Znak portala (SVG) u zaglavlju i podnožju umjesto emojija */
 .logo-img, .logo-img[class] { display: block; width: 36px; height: 36px; flex-shrink: 0; border-radius: 9px; font-size: 0; box-shadow: 0 0 0 1px rgba(255,255,255,0.18); filter: none; }
 @media (max-width: 899px) { .logo-img, .logo-img[class] { width: 32px; height: 32px; border-radius: 8px; } }
+
+/* GUMBI „PODIJELI” (_includes/podijeli.html) – bez skripti trećih strana */
+.podijeli { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 20px 0 4px; }
+.podijeli-naslov { font-size: 0.85rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--primary); margin-right: 4px; }
+.podijeli-btn { display: inline-flex; align-items: center; min-height: 40px; padding: 8px 16px; border: 0; border-radius: 999px; font: inherit; font-size: 0.92rem; font-weight: 700; line-height: 1; color: #fff; text-decoration: none; cursor: pointer; background: var(--primary); }
+.podijeli-btn:hover, .podijeli-btn:focus-visible { filter: brightness(1.1); color: #fff; }
+.podijeli-fb { background: #1877f2; }
+.podijeli-wa { background: #1f9e55; }
+.podijeli-native[hidden] { display: none; }
