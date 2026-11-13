@@ -2,7 +2,7 @@
 layout: post
 title: "Policija: tehnički uzrok požara crkve u Kupjaku isključen, istraga se nastavlja"
 date: 2026-11-11 06:28:00 +0100
-azurirano: 2026-11-12 10:21:00 +0100
+azurirano: 2026-11-13 19:56:00 +0100
 location: Ravna Gora
 type: Crna kronika
 categories: [Ravna Gora, Crna kronika]
@@ -13,6 +13,8 @@ image_credit: "Fotografija (crkva sv. Vida u Kupjaku, 1. 9. 2007. – prije pož
 image_position: center 35%
 image_full: true
 ---
+
+**Ažurirano u 19.56 h:** Riječka nadbiskupija javlja, kako prenosi [Novi list](https://www.novilist.hr/rijeka-regija/gorski-kotar/pocinje-obnova-crkve-u-kupjaku-ostecene-u-pozaru/) (13. 11. u 18:30), da već počinje sanacija i obnova crkve sv. Vida u Kupjaku. Prioritet je krov, koji je najviše oštećen te ga je potrebno potpuno ukloniti i zamijeniti novim. U crkvi su, na mjestu gdje je moguće počeo požar, stradali oltar sv. Josipa i kip, koji je znatno oštećen vatrom; glavni oltar, svetohranište i drugi kipovi spašeni su nakon intervencije vatrogasaca. Nadbiskup **Mate Uzinić** u četvrtak, 12. studenoga, posjetio je crkvu, a s njim su bili vikar za pastoral **Mario Gerić** i voditelj Ureda za gradnje i nadbiskupijska dobra **Piotr Modrzejewski**. Župnik **Tomislav Zečević** pozvao je na misu za duhovnu i fizičku obnovu u subotu, **14. studenoga**, u **9 sati** u župnoj crkvi u Skradu. O uzrocima požara, prema nadbiskupiji, još nije donesena konačna prosudba. Policija je ranije očevidom isključila tehnički uzrok, a kriminalističko istraživanje se nastavlja.
 
 Policija je očevidom isključila tehnički uzrok požara koji je u utorak, **10. studenoga**, oko 18 sati izbio u crkvi sv. Vida u **Kupjaku**. Priopćenje [Policijske uprave primorsko-goranske](https://primorsko-goranska-policija.gov.hr/vijesti/kupjak-pozarom-osteceno-kroviste-crkve/36120) objavljeno je 11. studenoga. Uz krovnu konstrukciju oštećen je i stražnji dio krova, koji se djelomično urušio. Nitko nije ozlijeđen. Kriminalističko istraživanje se nastavlja kako bi se utvrdile sve okolnosti nastanka požara; policija mogući uzrok nije navela. Kupjak je naselje **Općine Ravna Gora**, a crkva pripada **Župi Skrad**.
 
@@ -58,7 +60,7 @@ Svećenik **Sanjin Francetić** objavio je, prema Novom listu, poruku u ime žup
 
 „U svoj ovoj nesreći posebno zahvaljujemo dragome Bogu što su sačuvani ljudski životi. Pozivamo sve župljane i ljude dobre volje da se ujedine u molitvi za duhovnu i materijalnu obnovu naše crkve i župne zajednice. Budući vatra još nije u potpunosti ugašena, pozivamo mještane Kupjaka da vatrogascima koji će dežurati noću ponude hranu i piće ukoliko su u mogućnosti. Uz Božju pomoć i zajedništvo, obnovit ćemo ono što je stradalo”, stoji u poruci koju prenose Novi list i Burin.
 
-Izjave općinskog načelnika Ravne Gore, načelnika Skrada ili Riječke nadbiskupije do ovog ažuriranja nismo pronašli.
+Izjave općinskog načelnika Ravne Gore i načelnika Skrada nismo pronašli. Riječka nadbiskupija oglasila se u priopćenju koje 13. studenoga prenosi Novi list; pojedinosti su u ažuriranju na početku članka.
 
 ## Crkva sv. Vida u Kupjaku
 
@@ -70,7 +72,7 @@ U javnoj pretrazi [Registra kulturnih dobara RH](https://registar.kulturnadobra.
 
 ## Što dalje
 
-Župa je pozvala na molitvu za duhovnu i materijalnu obnovu i poručila da će, uz Božju pomoć i zajedništvo, obnoviti ono što je stradalo. Konkretan plan obnove, rokovi ili poziv na novčanu pomoć s brojem računa u objavljenim izvorima nisu navedeni. Policija je očevidom isključila tehnički uzrok, a kriminalističko istraživanje se nastavlja. Konačan opseg štete ostat će na utvrđivanju nadležnih službi.
+Župa je već ranije pozvala na molitvu za duhovnu i materijalnu obnovu. Riječka nadbiskupija sada javlja da sanacija i obnova počinju, uz prioritet potpune zamjene krova, a župnik Tomislav Zečević poziva na misu s tom nakanom u subotu, 14. studenoga, u 9 sati u župnoj crkvi u Skradu. Policija je očevidom isključila tehnički uzrok; konačna prosudba o uzroku, prema nadbiskupiji, još nije donesena, a kriminalističko istraživanje se nastavlja. Konačan opseg štete ostat će na utvrđivanju nadležnih službi.
 
 ---
 
@@ -84,5 +86,7 @@ U javnoj pretrazi [Registra kulturnih dobara RH](https://registar.kulturnadobra.
 - *Policijska uprava primorsko-goranska, „Kupjak: Požarom oštećeno krovište crkve“, 11. 11. 2026. ([primorsko-goranska-policija.gov.hr](https://primorsko-goranska-policija.gov.hr/vijesti/kupjak-pozarom-osteceno-kroviste-crkve/36120))*
 - *Općina Ravna Gora, „O Ravnoj Gori“ ([ravnagora.hr](https://www.ravnagora.hr/o-ravnoj-gori/))*
 - *skrad.com, Župa ([skrad.com/zupa](https://skrad.com/zupa/))*
+
+- *Novi list, Jakov Kršovnik, „Počinje obnova crkve u Kupjaku, oštećene u požaru“, 13. 11. 2026. u 18:30, prema Riječkoj nadbiskupiji ([novilist.hr](https://www.novilist.hr/rijeka-regija/gorski-kotar/pocinje-obnova-crkve-u-kupjaku-ostecene-u-pozaru/))*
 
 *Ispravak/dopuna 12. 11.: prema priopćenju Policijske uprave primorsko-goranske tehnički uzrok je isključen; ranije smo prema neslužbenim informacijama naveli tehnički uzrok.*
