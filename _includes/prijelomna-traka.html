@@ -1,14 +1,20 @@
 {%- comment -%}
 Crvena traka "PRIJELOMNA VIJEST" na vrhu naslovnice (ispod zaglavlja, iznad hero članka).
-Prikazuje najnoviji članak s `prijelomna: true`. Neobavezno `prijelomna_do: GGGG-MM-DD HH:MM:SS +0100`
+Prikazuje najnoviji članak s `prijelomna: true`. Neobavezno `prijelomna_tekst` ide na traku
+umjesto naslova; ako polje nije zadano, ostaje naslov. Neobavezno `prijelomna_do: GGGG-MM-DD HH:MM:SS +0100`
 – nakon tog trenutka traka i oznake se u pregledniku sakriju (zastavicu svejedno treba ukloniti).
 {%- endcomment -%}
 {%- assign pv = site.posts | where: "prijelomna", true | first -%}
 {%- if pv -%}
+{%- if pv.prijelomna_tekst and pv.prijelomna_tekst != "" -%}
+{%- assign pt_tekst = pv.prijelomna_tekst -%}
+{%- else -%}
+{%- assign pt_tekst = pv.title -%}
+{%- endif -%}
 <div class="prijelomna-traka" id="prijelomna-traka" role="region" aria-label="Prijelomna vijest"{% if pv.prijelomna_do %} data-prijelomna-do="{{ pv.prijelomna_do | date: '%s' }}"{% endif %}>
   <a class="container pt-inner" href="{{ pv.url | relative_url }}">
     <span class="pt-label"><span aria-hidden="true">⚠</span> PRIJELOMNA VIJEST</span>
-    <span class="pt-title">{{ pv.title }}</span>
+    <span class="pt-title">{{ pt_tekst }}</span>
     <span class="pt-cta" aria-hidden="true">→</span>
   </a>
 </div>

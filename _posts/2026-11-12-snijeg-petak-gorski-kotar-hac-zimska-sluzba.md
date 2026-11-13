@@ -2,20 +2,21 @@
 layout: post
 featured: true
 prijelomna: true
-title: "SNIJEG U GORSKOM KOTARU: Zastoj na A6 između Delnica i Ravne Gore"
+prijelomna_tekst: "Zastoji: A6 kod 40. km (jedna traka, stajanje kod tunela Lučice) i DC3 kod Gornjeg Jelenja prema Gorskom kotaru"
+title: "SNIJEG U GORSKOM KOTARU: Zastoji na A6 i DC3"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 18:25:00 +0100
+azurirano: 2026-11-13 18:29:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
-excerpt: "Radio Rijeka objavio je navečer snimku kolone vozila na zasniježenoj DC3 kod Gornjeg Jelenja, u smjeru Gorskog kotara. HAK u 18:22 ne navodi točnu dionicu ni duljinu zastoja na DC3, a javlja zimske uvjete i zabranu za vozila bez zimske opreme te teretna vozila s prikolicom na DC3 Zdihovo–Stubica–Delnice–Kikovica/Soboli. Na A6 između Delnica i Ravne Gore, u smjeru Zagreba, HAK i HAC i dalje navode prometnu nesreću na 40. kilometru: promet jednom trakom uz 60 km/h, a vozila se povremeno zaustavljaju kod tunela Lučice. Zbog vjetra dionica Kikovica–Delnice ostaje otvorena samo za osobna vozila."
+excerpt: "Prema informaciji s terena koju je dobilo uredništvo portala, i na DC3 kod Gornjeg Jelenja, u smjeru Gorskog kotara, stvorio se zastoj. Radio Rijeka objavio je snimku kolone na zasniježenoj cesti. HAK u 18:22 zastoj na DC3 još nije objavio, nego javlja zimske uvjete i zabranu za vozila bez zimske opreme i teretna vozila s prikolicom. Na A6 između Delnica i Ravne Gore, u smjeru Zagreba, HAK i HAC i dalje navode prometnu nesreću na 40. kilometru: promet jednom trakom uz 60 km/h, a vozila se povremeno zaustavljaju kod tunela Lučice. Zbog vjetra dionica Kikovica–Delnice ostaje otvorena samo za osobna vozila."
 image: /assets/images/a6-delnice-ravna-gora-snijeg-zastoj-2026-11-13.jpg
 image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome noćnom snijegu, 13. 11. 2026."
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
 
-**Dopuna (18.25 h):** **Radio Rijeka** objavio je navečer snimku zasniježene državne ceste **DC3** kod **Gornjeg Jelenja**, u smjeru Gorskog kotara, uz kolonu vozila. [HAK](https://www.hak.hr/info/stanje-na-cestama/) u izvješću ažuriranom u 18:22 ne navodi točnu dionicu ni duljinu zastoja na DC3. HAK javlja da su na staroj cesti kroz Gorski kotar, **DC3** Zdihovo–Stubica–Delnice–Kikovica/Soboli, na snazi zimski uvjeti te zabrana prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom.
+**Dopuna (18.25 h):** Prema informaciji s terena koju je dobilo uredništvo portala, i na **DC3** kod **Gornjeg Jelenja**, u smjeru Gorskog kotara, stvorio se zastoj. **Radio Rijeka** objavio je snimku kolone na zasniježenoj cesti. [HAK](https://www.hak.hr/info/stanje-na-cestama/) u 18:22 zastoj na DC3 još nije objavio, nego javlja da su na staroj cesti kroz Gorski kotar, **DC3** Zdihovo–Stubica–Delnice–Kikovica/Soboli, na snazi zimski uvjeti te zabrana prometa za vozila bez propisane zimske opreme i za teretna motorna vozila s priključnim vozilom.
 
 Na autocesti **A6** između čvorova **Delnice** i **Ravna Gora**, u smjeru Zagreba, HAK u istom izvješću i dalje navodi prometnu nesreću na 40. kilometru. Promet se vodi jednom prometnom trakom uz ograničenje brzine od 60 km/h, a vozila se povremeno zaustavljaju kod tunela **Lučice**. [Hrvatske autoceste](https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama) u 16:47 i 17:06 javile su isti događaj te da će se tunel Lučice iz sigurnosnih razloga povremeno kratkotrajno zatvarati za sav promet. Zbog vjetra dionica Kikovica–Delnice i dalje je otvorena samo za osobna vozila.
 
