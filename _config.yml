@@ -68,3 +68,7 @@ defaults:
       type: pages
     values:
       image: /assets/images/delnice-panorama-2024.jpg
+
+# CSS: assets/css/style.scss (običan CSS) Jekyll izdaje kao minificirani /assets/css/style.css
+sass:
+  style: compressed
