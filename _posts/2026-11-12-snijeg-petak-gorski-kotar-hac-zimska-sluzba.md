@@ -1,20 +1,20 @@
 ---
 layout: post
 featured: true
-prijelomna: true
-prijelomna_tekst: "HAK više ne javlja kolonu na A6 između Vrata i Ravne Gore; nesreća na 40. km, promet jednim trakom; zimski uvjeti na DC3 i DC32"
-title: "SNIJEG U GORSKOM KOTARU: HAK više ne javlja kolonu na A6, nesreća na 40. km"
+title: "A6 ponovno otvorena za sav promet nakon slabljenja bure"
 date: 2026-11-12 19:05:00 +0100
-azurirano: 2026-11-13 21:19:00 +0100
+azurirano: 2026-11-14 07:18:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
-excerpt: "HAK je u 19:08 javio da je na A6 između čvorova Vrata i Ravna Gora, u smjeru Zagreba, kolona vozila duga 4 kilometra zbog prepriječenih vozila i vozila bez odgovarajuće zimske opreme. HAC je isti zastoj u 18:20 zabilježio uz napomenu da se kolona povećava. Nesreća na 40. kilometru između Delnica i Ravne Gore i dalje je na snazi: promet jednom trakom, a vozila se povremeno zaustavljaju kod tunela Lučice. Čitatelji Indexa javljaju zapela vozila kod Delnica i zastoj na vijaduktu Zečeve Drage. Na DC3 kod Gornjeg Jelenja, prema informaciji s terena, i dalje ima zastoja. HAK vozačima poručuje da na put ne kreću bez propisane zimske opreme."
+excerpt: "HAK je u 07:16 javio da je autocesta A6 Rijeka–Zagreb, nakon slabljenja bure, otvorena za sav promet. U jutarnjem izvješću više se ne navodi sinoćnja nesreća na 40. kilometru niti zabrane za vozila bez zimske opreme na goranskim cestama. HAK upozorava da su kolnici mokri i skliski u većem dijelu zemlje te da je zbog niskih temperatura u unutrašnjosti moguća poledica."
 image: /assets/images/a6-delnice-ravna-gora-snijeg-zastoj-2026-11-13.jpg
 image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome noćnom snijegu, 13. 11. 2026."
 image_credit: "Foto: privatna arhiva"
 image_position: center 70%
 ---
+
+**Dopuna (07.18 h):** [HAK](https://www.hak.hr/info/stanje-na-cestama/) je u 07:16 javio da je autocesta **A6** Rijeka–Zagreb, nakon slabljenja bure, otvorena za sav promet. Sinoć je, kako je [Novi list](https://www.novilist.hr/novosti/hrvatska/zimski-uvjeti-na-a6-i-cestama-kroz-gorski-kotar-u-tijeku-ciscenje-i-posipavanje-kolnika/) u 22:50 prenio prema HAK-u, dionica Kikovica–Delnice bila otvorena samo za osobna vozila, a na 40. kilometru vozilo se jednim trakom zbog nesreće. U jutarnjem izvješću HAK-a više se ne navodi ta nesreća, niti zabrane za vozila bez zimske opreme na goranskim cestama (među njima **DC3**, **DC32**, **DC305**, **DC203** i **ŽC5191**). HAK upozorava da su kolnici mokri i skliski u većem dijelu zemlje te da je zbog niskih temperatura u unutrašnjosti moguća poledica. Zimske uvjete u ovom izvješću navodi na pojedinim cestama u Lici.
 
 **Dopuna (21.19 h):** Snježnu večer u Gorskom kotaru podijelila je i saborska zastupnica HDZ-a **Majda Burić**, Ravnogorka. U javnom videu na Facebooku vidi se zasniježena cesta kroz šumu i gusti snijeg, uz kratki komentar „Došla je divota”. Dok su vozači na A6 večeras stajali u kolonama, ovaj prizor pokazuje i drugu stranu goranske zime.
 
@@ -175,3 +175,5 @@ Stanje na cestama može se pratiti na [HAK-u](https://www.hak.hr/info/stanje-na-
 - *HAK, stanje na cestama, 13. 11. 2026. u 21:16 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
 - *Majda Burić, javna Facebook objava „Došla je divota”, 13. 11. 2026.*
 - *tportal, „Od poezije do saborskih fajtova: Tko je Majda Burić, HDZ-ovka zbog koje je reagirao i Plenković?”, 30. 10. 2026. ([tportal.hr](https://www.tportal.hr/vijesti/clanak/od-poezije-do-saborskih-fajtova-tko-je-majda-buric-hdz-ovka-zbog-koje-je-reagirao-i-plenkovic-foto-20261030))*
+- *HAK, stanje na cestama, 14. 11. 2026. u 07:16 ([hak.hr](https://www.hak.hr/info/stanje-na-cestama/))*
+- *Novi list, „Zimski uvjeti na A6 i cestama kroz Gorski kotar. U tijeku čišćenje i posipavanje kolnika”, 13. 11. 2026. u 22:50, prema HAK-u ([novilist.hr](https://www.novilist.hr/novosti/hrvatska/zimski-uvjeti-na-a6-i-cestama-kroz-gorski-kotar-u-tijeku-ciscenje-i-posipavanje-kolnika/))*
