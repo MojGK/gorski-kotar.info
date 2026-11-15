@@ -1,6 +1,5 @@
 ---
 layout: post
-featured: true
 title: "A6 ponovno otvorena za sav promet nakon slabljenja bure"
 date: 2026-11-12 19:05:00 +0100
 azurirano: 2026-11-14 07:18:00 +0100
