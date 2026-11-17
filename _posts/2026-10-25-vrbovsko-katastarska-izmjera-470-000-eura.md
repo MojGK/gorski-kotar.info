@@ -1,16 +1,25 @@
 ---
 layout: post
-title: "Vrbovsko: javni skup o katastarskoj izmjeri 16. studenoga"
+title: "U Vrbovskom održan javni skup o katastarskoj izmjeri, radovi su predviđeni na 15 mjeseci"
 date: 2026-10-25 08:02:51 +0100
-azurirano: 2026-11-11 10:44:00 +0100
+azurirano: 2026-11-17 12:55:00 +0100
 location: Vrbovsko
 type: Općinske vijesti
 categories: [Vrbovsko, Općinske vijesti]
-excerpt: "Grad Vrbovsko poziva vlasnike nekretnina na javni skup o katastarskoj izmjeri u ponedjeljak, 16. studenoga, u 17 sati u knjižnici „Ivan Goran Kovačić”. Izvođač je Geodetski zavod Rijeka. Od 16. do 24. studenoga otvoren je i javni uvid u prijedlog izmjena UPU-a naselja Vrbovsko."
+excerpt: "U ponedjeljak, 16. studenoga, u knjižnici u Vrbovskom održan je javni skup o početku katastarske izmjere. Projekt je vrijedan 589.490 eura s PDV-om i trajat će 15 mjeseci. Izvođač je Geodetski zavod Rijeka."
 image: /assets/images/vrbovsko-katastar-ai.jpg
 image_alt: "Ilustracija: geodetski instrumenti na livadi iznad malog planinskog grada"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)"
 ---
+
+**Dopuna 17. 11.:** Gradonačelnik Vrbovskog Dražen Mufić u ponedjeljak, 16. studenoga 2026., u Knjižnici Ivana Gorana Kovačića predstavio je građanima početak katastarske izmjere na dijelu k. o. Vrbovsko i dijelu k. o. Gomirsko Vrbovsko. Cilj je, prema izvještaju [Radija Gorski kotar](https://rgk.hr/u-okviru-provedbe-godisnjeg-programa-katastarskih-izmjera-gradevinskih-podrucja-u-2026-godini-zapocela-je-izmjera-grada-vrbovskog-za-dio-k-o-vrbovsko-i-dio-k-o-gomirsko-vrbovsko/) od 17. studenoga, koji je isti dan preuzet i na [stranicama Grada](https://vrbovsko.hr/79-aktualno), izrada novog katastarskog operata i obnova zemljišne knjige.
+
+Projekt je vrijedan **589.490,00 eura s PDV-om**, što odgovara već objavljenom iznosu od **471.592,00 eura bez PDV-a**, i provodit će se **15 mjeseci**. Trajanje od 15 mjeseci u dosadašnjem tekstu nije bilo navedeno. Izvođač je, kao i u najavi, **Geodetski zavod Rijeka d.o.o.**
+
+Skupu su, prema RGK-u, nazočili predstavnici katastra, Državne geodetske uprave, nadležnog suda, zavoda za prostorno uređenje te izvođača geodetskih radova. Mufić je apelirao na vlasnike da se aktivno uključe jer na terenu mogu besplatno, na jednom mjestu, razriješiti nedoumice.
+
+Ispred Geodetskog zavoda Rijeka obratio se Goran Lipovšćak i objasnio kako će teći prikupljanje podataka i što se očekuje od vlasnika čestica. O ulozi katastra govorila je pročelnica područnog ureda za katastar Irena Benasić, a pravni dio – verifikaciju zemljišnih knjiga nakon terenske izmjere – pojasnila je voditeljica zemljišnoknjižnog odjela Darija Šporer. Svi su nazočni poručili, prema istom izvoru, da su uređene zemljišne knjige i točni prostorni podaci temelj za razvoj, lakšu realizaciju infrastrukturnih projekata i privlačenje ulaganja u Vrbovsko.
+
 
 **Dopuna 11. 11.:** Grad Vrbovsko objavio je poziv na javni skup o katastarskoj izmjeri te 1. ponovnu javnu raspravu o izmjenama Urbanističkog plana uređenja naselja Vrbovsko (UPU 1). Obje su objave na stranicama Grada datirane 10. studenoga.
 
@@ -49,3 +58,5 @@ Vlasnike će se, kako je i ranije najavljeno, pozivati da označe međe i dođu 
 - *Novi list, 18. 10. 2026. ([novilist.hr](https://www.novilist.hr/rijeka-regija/gorski-kotar/vrbovskom-odobreno-470-000e-za-katastarsku-izmjeru/)), članak preuzet i na službenim stranicama Grada Vrbovsko ([vrbovsko.hr](https://www.vrbovsko.hr/79-aktualno/5388-clanak-novog-lista-vrbovskom-470-000-eura-za-poslove-katastarske-izmjene))*
 - *Vlada RH / Državna geodetska uprava, Godišnji program katastarskih izmjera građevinskih područja za 2026. godinu, popis jedinica, red. br. 69 ([PDF](https://www.visegodisnjiprogram.dgu.hr/wp-content/uploads/2026/08/Godisnji-program-katastarskih-izmjera-gradevinskih-podrucja-za-2026_.pdf))*
 - *Gorske novosti, 22. 9. 2026. ([gorskenovosti.net](https://gorskenovosti.net/2026/09/22/vrbovsko-rjesava-veliki-problem-sredstva-za-zemljisne-knjige/))*
+- *Radio Gorski kotar, 17. 11. 2026. ([rgk.hr](https://rgk.hr/u-okviru-provedbe-godisnjeg-programa-katastarskih-izmjera-gradevinskih-podrucja-u-2026-godini-zapocela-je-izmjera-grada-vrbovskog-za-dio-k-o-vrbovsko-i-dio-k-o-gomirsko-vrbovsko/)); isti je izvještaj 17. 11. preuzet na stranicama Grada Vrbovsko ([vrbovsko.hr](https://vrbovsko.hr/79-aktualno))*
+- *Grad Vrbovsko, „Održan sastanak o provedbi katastarske izmjere na području Grada Vrbovskog“, 5. 11. 2026. (iznos 471.592,00 € bez PDV-a / 589.490,00 € s PDV-om) ([vrbovsko.hr](https://vrbovsko.hr/79-aktualno/5414-odrzan-sastanak-o-provedbi-katastarske-izmjere-na-podrucju-grada-vrbovskog))*
