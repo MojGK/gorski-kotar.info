@@ -2,7 +2,6 @@
 layout: post
 title: "Pregled tjedna: obilni snijeg i zastoji na A6 i još 4 vijesti (9.–15. studenoga)"
 date: 2026-11-15 21:35:00 +0100
-featured: true
 location: Gorski kotar
 type: Pregled tjedna
 categories: [Gorski kotar, Pregled tjedna]

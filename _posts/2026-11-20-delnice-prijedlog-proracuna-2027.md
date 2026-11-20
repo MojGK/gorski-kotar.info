@@ -9,6 +9,7 @@ excerpt: "Gradonačelnik Igor Pleše predstavio je prijedlog Proračuna Grada De
 image: /assets/images/delnice-proracun-2027-ai.jpg
 image_alt: "Ilustracija: dokumenti, olovka i mape na stolu u vijećnici, bez prepoznatljivih osoba"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI)."
+featured: true
 ---
 
 Gradonačelnik Delnica Igor Pleše na konferenciji za medije predstavio je, prema [Radiu Gorski kotar](https://rgk.hr/delnicki-gradonacelnik-igor-plese-predstavio-prijedlog-proracuna-grada-delnica-za-2027-godinu/) od 19. studenoga 2026., **prijedlog** Proračuna Grada Delnica za 2027. godinu. Kazao je, prenosi RGK, da želi objasniti što taj proračun znači za građane, što se želi napraviti sljedeće godine i u kojem će se smjeru razvijati grad. Točan dan konferencije izvještaj ne navodi.
