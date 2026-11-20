@@ -2,10 +2,11 @@
 layout: post
 title: "Dani okusa: goranski ugostitelji od petka nude tradicijske menije"
 date: 2026-11-12 12:35:00 +0100
+azurirano: 2026-11-20 18:58:00 +0100
 location: Gorski kotar
 type: Događanja
 categories: [Gorski kotar, Događanja]
-excerpt: "Od 13. do 29. studenoga u restoranima diljem Hrvatske, pa i u Gorskom kotaru, održavaju se Dani okusa hrvatske tradicije. Prema popisu na okusi.hr sudjeluje 11 goranskih ugostitelja, koji nude tradicijske menije po prigodnim cijenama."
+excerpt: "Od 13. do 29. studenoga u restoranima diljem Hrvatske, pa i u Gorskom kotaru, održavaju se Dani okusa hrvatske tradicije. Prema popisu na okusi.hr sudjeluje 12 goranskih ugostitelja, koji nude tradicijske menije po prigodnim cijenama."
 event_date: 2026-11-13 00:00:00 +0100
 event_end: 2026-11-29 23:59:00 +0100
 event_place: "Ugostiteljski objekti diljem Gorskog kotara"
@@ -18,11 +19,12 @@ Od **13. do 29. studenoga** diljem Hrvatske održavaju se **Dani okusa hrvatske 
 
 Kako navodi Turistička zajednica Gorskog kotara, to je prilika za upoznavanje goranske gastronomije, tradicionalnih jela i lokalnih namirnica, bilo uz izlet u Gorski kotar ili uz dobru domaću hranu.
 
-Prema [popisu partnera na okusi.hr](https://www.okusi.hr/okusi-gorskog-kotara/partneri.html) sudjeluje 11 goranskih objekata:
+Prema [popisu partnera na okusi.hr](https://www.okusi.hr/okusi-gorskog-kotara/partneri.html) sudjeluje 12 goranskih objekata:
 
 - **Ugostiteljski obrt Mali raj**, Zdihovo
 - **Konoba Volta**, Fužine
 - **Hotel Risnjak**, Delnice
+- **Bistro Lučice**, Delnice
 - **Planinarski centar Petehovac**, Delnice
 - **Bistro Kamačnik**, Vrbovsko
 - **Buffet Iskra**, Lokve
@@ -34,6 +36,9 @@ Prema [popisu partnera na okusi.hr](https://www.okusi.hr/okusi-gorskog-kotara/pa
 
 Mjesta uz nazive preuzeta su s istog popisa. Za menije i rezervacije, kako preporučuje Turistička zajednica Gorskog kotara, gosti se trebaju obratiti izravno odabranom objektu. Datumi 13.–29. studenoga potvrđeni su i na [središnjoj stranici okusi.hr](https://www.okusi.hr), koja manifestaciju najavljuje za „ovu godinu”. Na službenom plakatu stoji i znak Ministarstva turizma i sporta.
 
+
+**Dopuna 20. 11.:** Na svečanosti 19. studenoga u restoranu Bitoraj u Fužinama standard „Okusi tradicije Gorskog kotara” primilo je, prema [Radiu Gorski kotar](https://rgk.hr/12-ugostiteljskih-objekata-s-podrucja-gorskog-kotara-primilo-standard-okusi-hrvatske-tradicije-okusi-tradicije-gorskog-kotara/) i [Novom listu](https://www.novilist.hr/rijeka-regija/dvanaest-goranskih-ugostiteljskih-objekata-dobilo-standard-okusi-tradicije-gorskog-kotara/), dvanaest ugostiteljskih objekata. Na popisu je i Bistro Lučice iz Delnica, koji u ranijoj najavi na portalu nije bio naveden. Više o dodjeli u [posebnom članku]({{ '/okusi-tradicije-gorski-kotar-12/' | relative_url }}).
+
 ---
 
 *Izvori:*
@@ -41,3 +46,4 @@ Mjesta uz nazive preuzeta su s istog popisa. Za menije i rezervacije, kako prepo
 - *Okusi hrvatske tradicije, popis partnera Okusi Gorskog kotara ([okusi.hr](https://www.okusi.hr/okusi-gorskog-kotara/partneri.html))*
 - *Okusi hrvatske tradicije ([okusi.hr](https://www.okusi.hr))*
 - *Turistička zajednica Gorskog kotara, objava na Facebook stranici Visit Gorski kotar, 12. 11. 2026.*
+- *Radio Gorski kotar, 19. 11. 2026., i Novi list, Marinko Krmpotić, 19. 11. 2026. (dodjela standarda u Fužinama)*
