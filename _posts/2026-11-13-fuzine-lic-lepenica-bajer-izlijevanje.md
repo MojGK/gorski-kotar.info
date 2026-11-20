@@ -11,7 +11,6 @@ image: /assets/images/dvd-lic-lepenica-bajer-izlijevanje-2026-11-13.jpg
 image_alt: "Noćna snimka nabujale vode ispod brane u Liču, 13. studenoga 2026."
 image_credit: "Foto: DVD Lič / Facebook"
 image_position: center 65%
-istaknuto: true
 ---
 
 **Ažurirano u 19.26 h:** Načelnica Općine Fužine **Ana Merle** izjavila je za [Novi list](https://www.novilist.hr/rijeka-regija/gorski-kotar/izlilo-se-jezero-bajer-setnice-vise-gotovo-da-i-ne-postoje-kupska-dolina-strepi-od-svake-jace-kise/) (13. 11. u 18:19) da je Općina u četvrtak, **12. studenoga**, oko **22.30** od **HEP-a** dobila obavijest o mogućim velikim količinama oborina. Nakon toga podignut je stožer Civilne zaštite, angažirana su sva vatrogasna društva i postavljane su vreće s pijeskom na najkritičnijim lokacijama. Najteže je, prema njezinim riječima, bilo oko **3 sata** ujutro, kad se jezero **Bajer** počelo prelijevati kroz otvore brane i puniti **Ličanku**. Najkritičnije je bilo u **Liču**, na lokacijama **Pirovište** i **Podkobiljak**.
