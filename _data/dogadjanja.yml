@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-13
+azurirano: 2026-11-20
 dogadjaji:
 - naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
   datum: 2026-11-13
@@ -13,77 +13,6 @@ dogadjaji:
   organizator: Okusi hrvatske tradicije i TZ Gorskog kotara
   opis: "Tradicijski meniji po prigodnim cijenama u 11 goranskih restorana. Za menije i rezervacije obratite se odabranom objektu."
   link: /dani-okusa-gorskog-kotara/
-- naziv: Učilica za prvašiće
-  datum: 2026-11-13
-  vrijeme: "18:00"
-  mjesto: Gradska knjižnica Janet Majnarich, Delnice
-  grad: Delnice
-  organizator: Gradska knjižnica Janet Majnarich Delnice
-  opis: "Program knjižnice za prvašiće, osmišljen kao pomoć u učenju. Knjižnica ga najavljuje kao termin petkom u 18 sati."
-  link: https://knjiznica-delnice.com/programi/
-- naziv: Misa za obnovu crkve sv. Vida u Kupjaku
-  datum: 2026-11-14
-  vrijeme: "09:00"
-  mjesto: župna crkva, Skrad
-  grad: Skrad
-  organizator: Župa Skrad
-  opis: "Misa za duhovnu i fizičku obnovu crkve sv. Vida u Kupjaku, u župnoj crkvi u Skradu."
-  link: /kupjak-crkva-sv-vida-pozar-kroviste/
-- naziv: "12. međunarodni susret haiku pjesnika i promocija zbornika „Čabarski kraj“"
-  datum: 2026-11-14
-  datum_do: 2026-11-14
-  vrijeme: "13:30"
-  mjesto: OŠ Petar Zrinski, Narodnog oslobođenja 5, Čabar
-  grad: Čabar
-  organizator: "Udruga „Goranski koraci“ (prema objavi Gradske knjižnice Janet Majnarich Delnice)"
-  opis: "Haiku pjesnici dolaze u Čabar, a u 13:30 u školi slijede promocija zbornika i dodjela priznanja. Prema objavi knjižnice na Facebooku, okupljanje je u 10:00 u Gradskoj knjižnici Janet Majnarich Delnice i u 11:30 ispred OŠ Petar Zrinski. Prije promocije razgledavaju se Zavičajna zbirka, galerija „Svečnjak“, središte Čabra i izvor Čabranke."
-  link: https://www.cabar.hr/files/susret_haiku_pjesnika_2026.webp
-- naziv: Discotheque Amadeus
-  datum: 2026-11-14
-  vrijeme: "21–01 h"
-  mjesto: "DKC „Žaba”, Lokve"
-  grad: Lokve
-  organizator: Udruga mladih Revival
-  opis: Disco večer u spomen na nekadašnji Amadeus, uz Max Dee Jaya, DJ Nikolu i DJ Jana. Ulaz je besplatan.
-  link: https://www.dogadanja.com/nocni-zivot/discotheque-amadeus-drustveno-kulturni-centar-zaba-lokve-2026-11-14/
-- naziv: "Akcija pošumljavanja „Posadi jelu spasi pčelu”"
-  datum: 2026-11-15
-  vrijeme: "10:00"
-  mjesto: Park Gorica, Fužine
-  grad: Fužine
-  opis: Akcija sadnje i pošumljavanja.
-  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
-- naziv: "Kino Lič – film „260 dana”"
-  datum: 2026-11-15
-  vrijeme: "19:00"
-  mjesto: "Kino Lič, Vicićeva 31, Lič"
-  grad: Fužine
-  opis: Projekcija filma.
-  link: https://ravna-gora.com/gk-pregled/
-- naziv: Javni skup o katastarskoj izmjeri u Vrbovskom
-  datum: 2026-11-16
-  vrijeme: "17:00"
-  mjesto: "Knjižnica „Ivan Goran Kovačić”, Vrbovsko"
-  grad: Vrbovsko
-  organizator: Grad Vrbovsko
-  opis: "Za vlasnike nekretnina s područja obuhvaćenih izmjerom dijelova k. o. Vrbovsko i k. o. Gomirsko Vrbovsko. Predstavit će se postupak izmjere, tijek aktivnosti na terenu te prava i obveze vlasnika. Izvođač je Geodetski zavod Rijeka d.o.o."
-  link: /vrbovsko-katastarska-izmjera-470-000-eura/
-- naziv: "Panel-rasprava „Borba protiv ovisnosti” (sudjeluje Gerovčanin Antonio Milošević – Tuna Fasader)"
-  datum: 2026-11-16
-  vrijeme: "18:30"
-  mjesto: Korzo 6, 1. kat, Rijeka
-  grad: Rijeka
-  organizator: Forum mladih SDP-a Rijeka i SDP Rijeka
-  opis: "Tuna Fasader i Igor Pokrajac govore o vlastitom iskustvu s ovisnošću i oporavku, moderira Dominik Omerović. Otvoreno za sve građane."
-  link: /tuna-fasader-panel-ovisnost-rijeka/
-- naziv: "Javno izlaganje o izmjenama UPU-a naselja Vrbovsko (UPU 1)"
-  datum: 2026-11-19
-  vrijeme: "11:00"
-  mjesto: Gradska vijećnica, Vrbovsko
-  grad: Vrbovsko
-  organizator: Grad Vrbovsko
-  opis: "Javno izlaganje u sklopu 1. ponovne javne rasprave. Javni uvid traje od 16. do 24. studenoga, od 7 do 15 sati u Gradu Vrbovsko."
-  link: /vrbovsko-katastarska-izmjera-470-000-eura/
 - naziv: "XXIV. Dani dr. Franje Račkoga – znanstveni skup „Život i djelo dr. Franje Račkog”"
   datum: 2026-11-20
   vrijeme: "11:00"

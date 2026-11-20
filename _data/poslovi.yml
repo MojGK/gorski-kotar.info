@@ -1,50 +1,8 @@
 # ZAPOSLENJE – živi popis oglasa (stranica /zaposlenje/ i blok na naslovnici).
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
-azurirano: 2026-11-16
+azurirano: 2026-11-20
 oglasi:
-- poslodavac: "GEC d.o.o. (folije i vrećice)"
-  pozicija: Rukovatelj / rukovateljica strojevima za izradu plastičnih proizvoda
-  broj: 3
-  vrsta: "određeno, rad u 2 smjene"
-  mjesto: "Plešce (Čabar)"
-  grad: Čabar
-  rok: 2026-11-17
-  opis: "Rad na strojevima za izradu vrećica i folija, pakiranje i pomoćni poslovi u proizvodnji (teži fizički rad); završena osnovna škola, 1 godina iskustva; osiguran zajednički smještaj."
-  izvori:
-  - naziv: HZZ
-    url: https://burzarada.hzz.hr/RadnoMjesto_Ispis.aspx?WebSifra=167952550
-- poslodavac: "Općina Lokve (Jedinstveni upravni odjel)"
-  pozicija: "Viši stručni suradnik / viša stručna suradnica za financije, projekte i javnu nabavu"
-  broj: 1
-  vrsta: "neodređeno, uz probni rad od 3 mjeseca"
-  mjesto: Lokve
-  rok: 2026-11-19
-  opis: "Diplomski studij ekonomske struke, najmanje godinu dana iskustva na odgovarajućim poslovima i položen državni ispit II. razine (mogu se javiti i kandidati bez ispita, uz obvezu polaganja u zakonskom roku). Kandidati prolaze pisano testiranje i intervju. Rok: 8 dana od objave u Narodnim novinama (11. 11.), dakle do 19. 11. 2026."
-  izvori:
-  - naziv: Općina Lokve
-    url: https://lokve.hr/vijesti/javni-natjecaj-za-prijam-u-sluzbu-u-jedinstveni-upravni-odjel-opcine-lokve-na-radno-mjesto-visi-strucni-suradnik-za-financije-projekte-i-javnu-nabavu
-- poslodavac: Lož Metalpres d.o.o.
-  pozicija: Radnik / radnica na montaži
-  mjesto: "Plešce (Čabar)"
-  grad: Čabar
-  rok: 2026-11-19
-  izvori:
-  - naziv: Adorio
-    url: https://www.adorio.hr/oglas-za-posao/7756384
-- poslodavac: "Komunalno-trgovačko društvo Fužine d.o.o. (KTD Fužine)"
-  pozicija: Referent / referentica za turističke usluge
-  broj: 1
-  vrsta: "određeno (zamjena), puno radno vrijeme"
-  mjesto: Fužine
-  rok: 2026-11-19
-  opis: "Rok za prijave je 19. 11. 2026. do 10.00 h. Srednja stručna sprema turističke ili ekonomske struke; mjesto rada Ured za turizam u Fužinama."
-  izvori:
-  - naziv: KTD Fužine
-    url: https://ktd-fuzine.hr/natjecaji/
-  - naziv: PDF natječaja
-    url: https://ktd-fuzine.hr/wp-content/uploads/2026/11/Natjecaj-za-radno-mjesto-referenta-za-turisticke-usluge.pdf
-  izdvojeno: true
 - poslodavac: Javna vatrogasna postrojba Delnice
   pozicija: Zapovjednik / zapovjednica javne vatrogasne postrojbe
   mjesto: Delnice
