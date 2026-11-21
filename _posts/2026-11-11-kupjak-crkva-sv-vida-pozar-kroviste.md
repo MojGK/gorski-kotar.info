@@ -2,17 +2,19 @@
 layout: post
 title: "Policija: tehnički uzrok požara crkve u Kupjaku isključen, istraga se nastavlja"
 date: 2026-11-11 06:28:00 +0100
-azurirano: 2026-11-13 19:56:00 +0100
+azurirano: 2026-11-21 10:38:00 +0100
 location: Ravna Gora
 type: Crna kronika
 categories: [Ravna Gora, Crna kronika]
-excerpt: "Prema priopćenju Policijske uprave primorsko-goranske od 11. studenoga, očevidom policije u suradnji s protupožarnim inspektorom isključen je tehnički uzrok požara koji je 10. studenoga oko 18 sati izbio u crkvi sv. Vida u Kupjaku. Oštećeni su krovna konstrukcija i stražnji dio krova, koji se djelomično urušio. Nitko nije ozlijeđen. Kriminalističko istraživanje se nastavlja; policija mogući uzrok nije navela."
+excerpt: "Gorske novosti, pozivajući se na Župu Skrad, javljaju da je početkom tjedna od 16. studenoga počela sanacija crkve sv. Vida u Kupjaku: zaštićen je inventar, osigurana je privremena struja i postavljene su skele. Skidanje izgorjelog krovišta tek predstoji i ovisit će o vremenu. Policija je ranije očevidom isključila tehnički uzrok požara od 10. studenoga; istraga se nastavlja."
 image: /assets/images/crkva-sv-vida-kupjak-2007.jpg
 image_alt: "Crkva sv. Vida u Kupjaku, fotografija od 1. rujna 2007., prije požara"
 image_credit: "Fotografija (crkva sv. Vida u Kupjaku, 1. 9. 2007. – prije požara): Martinarg / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crkva_svetog_Vida_u_Kupjaku.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)"
 image_position: center 35%
 image_full: true
 ---
+
+**Ažurirano 21. 11.:** [Gorske novosti](https://gorskenovosti.net/2026/11/20/zapocela-sanacija-ostecene-crkve-u-kupjaku-postavljene-skele-i-osigurana-struja/) (20. 11. u 14:17), pozivajući se na Župu Skrad, javljaju da je sanacija štete od požara na crkvi sv. Vida u Kupjaku počela početkom tjedna od 16. studenoga. Radnici su najprije zaštitili inventar: zaštitili su vitraje te skinuli lustere i lampe. Potom je montiran ormarić, a crkva je dobila privremeni priključak struje, što je bio uvjet za nastavak radova. U unutrašnjosti su postavljene skele s kojih će se skidati oštećene drvene grede i limeni pokrov. Kad će se krovište ukloniti, prema tom izvješću, ovisit će o vremenskim prilikama; skidanje dakle tek predstoji. Iz Župe Skrad poručuju, kako prenose Gorske novosti, da se radovi nastavljaju. Drugi izvor za ove pojedinosti nismo pronašli.
 
 **Ažurirano u 19.56 h:** Riječka nadbiskupija javlja, kako prenosi [Novi list](https://www.novilist.hr/rijeka-regija/gorski-kotar/pocinje-obnova-crkve-u-kupjaku-ostecene-u-pozaru/) (13. 11. u 18:30), da već počinje sanacija i obnova crkve sv. Vida u Kupjaku. Prioritet je krov, koji je najviše oštećen te ga je potrebno potpuno ukloniti i zamijeniti novim. U crkvi su, na mjestu gdje je moguće počeo požar, stradali oltar sv. Josipa i kip, koji je znatno oštećen vatrom; glavni oltar, svetohranište i drugi kipovi spašeni su nakon intervencije vatrogasaca. Nadbiskup **Mate Uzinić** u četvrtak, 12. studenoga, posjetio je crkvu, a s njim su bili vikar za pastoral **Mario Gerić** i voditelj Ureda za gradnje i nadbiskupijska dobra **Piotr Modrzejewski**. Župnik **Tomislav Zečević** pozvao je na misu za duhovnu i fizičku obnovu u subotu, **14. studenoga**, u **9 sati** u župnoj crkvi u Skradu. O uzrocima požara, prema nadbiskupiji, još nije donesena konačna prosudba. Policija je ranije očevidom isključila tehnički uzrok, a kriminalističko istraživanje se nastavlja.
 
@@ -88,5 +90,6 @@ U javnoj pretrazi [Registra kulturnih dobara RH](https://registar.kulturnadobra.
 - *skrad.com, Župa ([skrad.com/zupa](https://skrad.com/zupa/))*
 
 - *Novi list, Jakov Kršovnik, „Počinje obnova crkve u Kupjaku, oštećene u požaru“, 13. 11. 2026. u 18:30, prema Riječkoj nadbiskupiji ([novilist.hr](https://www.novilist.hr/rijeka-regija/gorski-kotar/pocinje-obnova-crkve-u-kupjaku-ostecene-u-pozaru/))*
+- *Gorske novosti, „Započela sanacija oštećene crkve u Kupjaku: Postavljene skele i osigurana struja“, 20. 11. 2026. u 14:17, prema Župi Skrad ([gorskenovosti.net](https://gorskenovosti.net/2026/11/20/zapocela-sanacija-ostecene-crkve-u-kupjaku-postavljene-skele-i-osigurana-struja/))*
 
 *Ispravak/dopuna 12. 11.: prema priopćenju Policijske uprave primorsko-goranske tehnički uzrok je isključen; ranije smo prema neslužbenim informacijama naveli tehnički uzrok.*
