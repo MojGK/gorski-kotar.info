@@ -9,7 +9,6 @@ excerpt: "U sklopu Adventa u Ravnoj Gori kipar Tomislav Skender u SPC-u Goranka 
 image: /assets/images/skender-skulpture-od-drva-ai.jpg
 image_alt: "Ilustracija: drveni reljefi sakralnih motiva i visoka skulptura od granja u dvorani, bez prepoznatljivih osoba"
 image_credit: "Ilustracija: generirano umjetnom inteligencijom (AI). Nije fotografija izloženih radova."
-istaknuto: true
 event_date: 2026-11-28 17:00:00 +0100
 event_end: 2026-12-04 23:59:00 +0100
 event_place: "SPC Goranka, Ravna Gora"

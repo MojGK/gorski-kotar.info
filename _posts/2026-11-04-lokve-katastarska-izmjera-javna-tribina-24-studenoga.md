@@ -2,6 +2,7 @@
 layout: post
 title: "Lokve: počinje katastarska izmjera, javna tribina za mještane 24. studenoga"
 date: 2026-11-04 11:30:00 +0100
+istaknuto: true
 azurirano: 2026-11-20 20:12:00 +0100
 location: Lokve
 type: Aktualno
