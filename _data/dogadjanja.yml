@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-20
+azurirano: 2026-11-21
 dogadjaji:
 - naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
   datum: 2026-11-13
@@ -56,7 +56,7 @@ dogadjaji:
   mjesto: Jezero Lepenica, Fužine
   grad: Fužine
   organizator: LagoXperience
-  opis: Plesna zabava za djecu na brodu. Broj mjesta ograničen, potrebna rezervacija.
+  opis: "Plesna zabava za djecu na brodu, 18:30–20:00. Cijena je 15 eura po djetetu. Broj mjesta je ograničen, a prijave su obvezne putem Instagrama Cukar animacije."
   link: https://www.dogadanja.com/advent-nova-godina/bozicni-disco-na-brodu-jezero-lepenica-fuzine-2026-11-27/
 - naziv: Advent na jezeru Lepenica
   datum: 2026-11-27
@@ -64,7 +64,7 @@ dogadjaji:
   vrijeme: "od 18:30"
   mjesto: Jezero Lepenica, Fužine
   grad: Fužine
-  opis: Kino na brodu, Djed Mraz i doček Nove godine; za većinu programa rezervacija je obavezna.
+  opis: "Kino na brodu, Djed Mraz i doček Nove godine. Dječje božićne radionice LagoXperiencea i Cukar animacije: 28. 11., 5. 12. i 12. 12. od 10 do 12 h; 6. 12. od 10 do 12 h (Sveti Nikola); 19. 12. Djed Mraz i radionice (sat nije naveden); 24. 12. u 15 h pisanje pisma Djedu Mrazu i u 16 h ispraćaj. Cijena radionice 25 eura po djetetu, odnosno 40 eura za dvoje djece iz iste obitelji. Broj mjesta je ograničen, prijave su obvezne putem Instagrama Cukar animacije. Dječji disco: 27. 11. od 18:30 do 20 h i 31. 12. od 9 do 11 h, 15 eura po djetetu."
   link: /advent-na-jezeru-lepenica/
 - naziv: "Izlet „Adventska čarolija u Fužinama”"
   datum: 2026-11-28
@@ -73,6 +73,14 @@ dogadjaji:
   grad: Fužine
   opis: Obiteljski adventski izlet.
   link: https://www.dogadanja.com/fuzine/
+- naziv: 20 godina Art kluba Gorski kotar
+  datum: 2026-11-28
+  vrijeme: "20:00"
+  mjesto: Dom kulture Fužine
+  grad: Fužine
+  organizator: Art klub Gorski kotar
+  opis: "Obilježavanje 20 godina djelovanja. Nastupaju Puhački orkestar Fužine, A.R.T. Band i Midnight Band. Ulaz je besplatan."
+  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
 - naziv: "„Svi za djecu” – humanitarni turnir u odbojci"
   datum: 2026-11-28
   vrijeme: "10:00"
@@ -147,6 +155,14 @@ dogadjaji:
   organizator: Lynx and Fox
   opis: Drugi adventski termin iste vođene šetnje; prijave online.
   link: https://www.lynxandfox.com/post/12-12-japlenski-vrh
+- naziv: "„Božićna čarolija u vatrogasnom domu” – DVD Gerovo"
+  datum: 2026-12-13
+  vrijeme: "16:00"
+  mjesto: Vatrogasni dom Gerovo, Eugena Kvaternika 45, Gerovo
+  grad: Čabar
+  organizator: DVD Gerovo
+  opis: "Predblagdansko druženje za djecu od 6 do 16 godina: izrada božićnih kuglica s vatrogasnim motivima, kićenje bora, pokazna vježba vatrogasne intervencije prilagođena djeci i predstavljanje vatrogasne mladeži."
+  link: https://ravna-gora.com/bozicna-carolija-za-djecu-vatrogasni-dom-gerovo-2026/
 - naziv: Adventska šetnja Japlenškim vrhom
   datum: 2026-12-19
   vrijeme: "10–12 h"
