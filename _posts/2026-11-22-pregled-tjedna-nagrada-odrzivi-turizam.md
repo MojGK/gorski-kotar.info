@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: "Pregled tjedna: Gorski kotar najbolja kontinentalna destinacija održivog turizma i još 4 vijesti (16.–22. studenoga)"
 date: 2026-11-22 18:00:00 +0100
 location: Gorski kotar
