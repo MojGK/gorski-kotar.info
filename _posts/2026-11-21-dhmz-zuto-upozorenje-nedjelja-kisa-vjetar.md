@@ -1,5 +1,6 @@
 ---
 layout: post
+featured: true
 title: "DHMZ za nedjelju izdao žuto upozorenje na kišu, vjetar i grmljavinu"
 date: 2026-11-21 19:05:00 +0100
 location: Gorski kotar
