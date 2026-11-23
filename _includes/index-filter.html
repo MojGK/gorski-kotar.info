@@ -3,6 +3,7 @@ Index-stil filter ispod zaglavlja: prekida훾i Kategorije / Naselja i jedan red �
 poredanih po broju 훾lanaka (kat-broj, bez Zaposlenja). Na naslovnici JS filtrira mre탑u;
 na ostalim stranicama 훾ipovi vode na /kategorije/<slug>/.
 {%- endcomment -%}
+{%- include sortirani-postovi.html -%}
 {%- assign ix_home = false -%}{%- if page.url == "/" -%}{%- assign ix_home = true -%}{%- endif -%}
 {%- assign ix_kat_keys = "" | split: "" -%}
 {%- for k in site.data.kategorije.vrste -%}
@@ -41,26 +42,30 @@ na ostalim stranicama 훾ipovi vode na /kategorije/<slug>/.
       <button type="button" class="ix-switch" role="tab" id="ix-tab-nas" aria-controls="ix-row-nas" aria-selected="{% if ix_tab == 'nas' %}true{% else %}false{% endif %}">Naselja</button>
     </div>
     <nav class="ix-row{% if ix_tab != 'kat' %} is-hidden{% endif %}" id="ix-row-kat" role="tabpanel" aria-labelledby="ix-tab-kat"{% if ix_tab != "kat" %} hidden{% endif %}>
-      <a class="ix-chip{% if ix_tab == 'kat' and ix_sel == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}" data-reset="1" data-group="kat"{% if ix_tab == 'kat' and ix_sel == '' %} aria-current="page"{% endif %}>Najnovije</a>
+      <div class="ix-row-inner">
+      <a class="ix-chip{% if ix_tab == 'kat' and ix_sel == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}" data-reset="1" data-group="kat"{% if ix_tab == 'kat' and ix_sel == '' %} aria-current="page"{% endif %}>{% include ix-chip-thumb.html icon="najnovije" %}<span class="ix-chip-text">Najnovije</span></a>
       {%- for key in ix_kat_keys -%}
         {%- assign ix_p = key | split: "#" -%}
         {%- assign ix_i = ix_p[1] | minus: 1000 -%}
         {%- assign ix_n = ix_p[2] -%}
         {%- assign k = site.data.kategorije.vrste[ix_i] -%}
         {%- assign ix_href = "/kategorije/" | append: k.slug | append: "/" -%}
-      <a class="ix-chip{% if ix_sel == ix_href %} is-active{% endif %}" href="{{ ix_href | relative_url }}" data-slug="{{ k.slug }}" data-label="{{ k.name | escape }}" data-group="kat" data-count="{{ ix_n }}"{% if ix_sel == ix_href %} aria-current="page"{% endif %}>{{ k.name }} <span class="ix-count">{{ ix_n }}</span></a>
+      <a class="ix-chip{% if ix_sel == ix_href %} is-active{% endif %}" href="{{ ix_href | relative_url }}" data-slug="{{ k.slug }}" data-label="{{ k.name | escape }}" data-group="kat" data-count="{{ ix_n }}"{% if ix_sel == ix_href %} aria-current="page"{% endif %}>{% include ix-chip-thumb.html name=k.name %}<span class="ix-chip-text">{{ k.name }} <span class="ix-count">{{ ix_n }}</span></span></a>
       {%- endfor %}
+      </div>
     </nav>
     <nav class="ix-row{% if ix_tab != 'nas' %} is-hidden{% endif %}" id="ix-row-nas" role="tabpanel" aria-labelledby="ix-tab-nas"{% if ix_tab != "nas" %} hidden{% endif %}>
-      <a class="ix-chip{% if ix_tab == 'nas' and ix_sel == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}" data-reset="1" data-group="nas"{% if ix_tab == 'nas' and ix_sel == '' %} aria-current="page"{% endif %}>Sve</a>
+      <div class="ix-row-inner">
+      <a class="ix-chip{% if ix_tab == 'nas' and ix_sel == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}" data-reset="1" data-group="nas"{% if ix_tab == 'nas' and ix_sel == '' %} aria-current="page"{% endif %}>{% include ix-chip-thumb.html icon="sve" %}<span class="ix-chip-text">Sve</span></a>
       {%- for key in ix_nas_keys -%}
         {%- assign ix_p = key | split: "#" -%}
         {%- assign ix_i = ix_p[1] | minus: 1000 -%}
         {%- assign ix_n = ix_p[2] -%}
         {%- assign k = site.data.kategorije.lokacije[ix_i] -%}
         {%- assign ix_href = "/kategorije/" | append: k.slug | append: "/" -%}
-      <a class="ix-chip{% if ix_sel == ix_href %} is-active{% endif %}" href="{{ ix_href | relative_url }}" data-slug="{{ k.slug }}" data-label="{{ k.name | escape }}" data-group="nas" data-count="{{ ix_n }}"{% if ix_sel == ix_href %} aria-current="page"{% endif %}>{{ k.name }} <span class="ix-count">{{ ix_n }}</span></a>
+      <a class="ix-chip{% if ix_sel == ix_href %} is-active{% endif %}" href="{{ ix_href | relative_url }}" data-slug="{{ k.slug }}" data-label="{{ k.name | escape }}" data-group="nas" data-count="{{ ix_n }}"{% if ix_sel == ix_href %} aria-current="page"{% endif %}>{% include ix-chip-thumb.html name=k.name %}<span class="ix-chip-text">{{ k.name }} <span class="ix-count">{{ ix_n }}</span></span></a>
       {%- endfor %}
+      </div>
     </nav>
   </div>
 </section>
@@ -110,16 +115,23 @@ na ostalim stranicama 훾ipovi vode na /kategorije/<slug>/.
       var cards = grid.querySelectorAll('.post-card');
       var n = 0;
       var shown = 0;
+      var idx = 0;
       cards.forEach(function (c) {
         var cats = (c.getAttribute('data-cats') || '').split(/\s+/);
         var ok = !slug || cats.indexOf(slug) !== -1;
         c.classList.toggle('ix-hide', !ok);
         c.classList.toggle('ix-match', !!(ok && slug));
-        c.classList.remove('ix-big', 'ix-row');
-        if (ok && slug) {
-          c.classList.add(shown < 3 ? 'ix-big' : 'ix-row');
-          shown++;
+        if (slug) {
+          if (ok) {
+            c.classList.toggle('is-narrow', shown < 5);
+            shown++;
+          } else {
+            c.classList.remove('is-narrow');
+          }
+        } else {
+          c.classList.toggle('is-narrow', idx < 5);
         }
+        idx++;
         if (ok) n++;
       });
       document.body.classList.toggle('ix-filtering', !!slug);

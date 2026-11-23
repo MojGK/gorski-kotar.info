@@ -1095,24 +1095,26 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .m-svi-btn { width: 100%; padding: 12px 16px; border-radius: 12px; border: 1px solid #cfe5d7; background: #fff; color: var(--primary); font-weight: 800; font-size: 0.95rem; box-shadow: var(--shadow-sm); cursor: pointer; }
   #naslov-clanaka { scroll-margin-top: 120px; }
 
-  /* jedan stupac: prve 3 kartice velike, ostale kompaktni redovi */
-  #clanci.posts-grid { grid-template-columns: 1fr !important; gap: 10px; }
-  #clanci .post-card:nth-child(-n+3) { flex-direction: column; }
-  #clanci .post-card:nth-child(-n+3):hover { transform: none; }
-  #clanci .post-card:nth-child(-n+3) .card-thumb { flex: none; width: auto; height: auto; }
-  #clanci .post-card:nth-child(-n+3) .card-thumb img,
-  #clanci .post-card:nth-child(-n+3) .card-thumb.no-img { width: 100%; height: auto; min-height: 0; aspect-ratio: 16 / 9; }
-  #clanci .post-card:nth-child(-n+3) .content p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  #clanci .post-card:nth-child(n+4) { flex-direction: row; align-items: stretch; }
-  #clanci .post-card:nth-child(n+4):hover { transform: none; }
-  #clanci .post-card:nth-child(n+4) .card-thumb { flex: 0 0 88px; width: 88px; height: 88px; align-self: center; }
-  #clanci .post-card:nth-child(n+4) .card-thumb img,
-  #clanci .post-card:nth-child(n+4) .card-thumb.no-img { width: 88px; height: 88px; min-height: 88px; aspect-ratio: 1; object-fit: cover; }
-  #clanci .post-card:nth-child(n+4) .card-badges { display: none; }
-  #clanci .post-card:nth-child(n+4) .content { padding: 6px 10px; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
-  #clanci .post-card:nth-child(n+4) .content p { display: none !important; }
-  #clanci .post-card:nth-child(n+4) h3 { font-size: 0.92rem; line-height: 1.3; margin: 0 0 4px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  #clanci .post-card:nth-child(n+4) .card-meta { margin: 0; }
+  /* jedan stupac: svi rezultati uski redovi (prvih 5 i ostali) */
+  #clanci.posts-grid { grid-template-columns: 1fr !important; gap: 8px; }
+  #clanci .post-card,
+  #clanci .post-card.is-narrow {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  #clanci .post-card:hover { transform: none; }
+  #clanci .post-card .card-thumb {
+    flex: 0 0 88px; width: 88px; height: 88px; align-self: center;
+  }
+  #clanci .post-card .card-thumb img,
+  #clanci .post-card .card-thumb.no-img {
+    width: 88px; height: 88px; min-height: 88px; aspect-ratio: 1; object-fit: cover;
+  }
+  #clanci .post-card .card-badges { display: none; }
+  #clanci .post-card .content { padding: 6px 10px; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+  #clanci .post-card .content p { display: none !important; }
+  #clanci .post-card h3 { font-size: 0.92rem; line-height: 1.3; margin: 0 0 4px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  #clanci .post-card .card-meta { margin: 0; }
 
   /* zajednička zaglavlja blokova */
   .m-najnovije, .m-blok { margin: 0 0 20px; scroll-margin-top: 120px; }
@@ -1612,9 +1614,28 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 }
 
 
-/* Desktop naslovnica: mreža Najnovijeg ostaje na 12 kartica (m-fold samo na mobitelu) */
+/* Desktop naslovnica: prvih 5 uskih redova, ostalo mreža; 12 vidljivih (m-fold skriven) */
 @media (min-width: 900px) {
   #clanci .post-card.m-fold { display: none !important; }
+  #clanci .post-card.is-narrow {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: stretch;
+    max-width: none;
+  }
+  #clanci .post-card.is-narrow:hover { transform: none; border-top-color: transparent; }
+  #clanci .post-card.is-narrow .card-thumb {
+    flex: 0 0 88px; width: 88px; height: 88px; align-self: center;
+  }
+  #clanci .post-card.is-narrow .card-thumb img,
+  #clanci .post-card.is-narrow .card-thumb.no-img {
+    width: 88px; height: 88px; min-height: 88px; aspect-ratio: 1; object-fit: cover;
+  }
+  #clanci .post-card.is-narrow .card-badges { display: none; }
+  #clanci .post-card.is-narrow .content { padding: 8px 14px; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
+  #clanci .post-card.is-narrow .content p { display: none !important; }
+  #clanci .post-card.is-narrow h3 { font-size: 1rem; line-height: 1.3; margin: 0 0 4px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  #clanci .post-card.is-narrow .card-meta { margin: 0; }
 }
 
 /* Vijesti po mjestima – vodoravni red (mobitel) / mreža (desktop) */
@@ -1902,7 +1923,7 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 }
 
 /* Index-stil filter ispod zaglavlja: dva prekidača + jedan red čipova */
-:root { --ix-h: 86px; }
+:root { --ix-h: 104px; }
 .ix-filter {
   position: sticky;
   top: var(--header-h);
@@ -1918,9 +1939,13 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 }
 .ix-filter--inpage + #naslov-clanaka { margin-top: 12px; }
 .ix-filter-inner { padding-top: 8px; padding-bottom: 8px; }
+.ix-filter--inpage .ix-filter-inner,
+.ix-filter--inpage .ix-switches { display: flex; flex-direction: column; align-items: center; }
+.ix-filter--inpage .ix-switches { flex-direction: row; justify-content: center; width: 100%; }
 .ix-switches {
   display: flex;
   align-items: flex-end;
+  justify-content: center;
   gap: 2px;
   margin: 0 0 8px;
 }
@@ -1947,9 +1972,8 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   border-bottom-color: var(--accent, #6b4a16);
 }
 .ix-row {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 8px;
+  display: block;
+  width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
@@ -1960,13 +1984,21 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .ix-row::-webkit-scrollbar { display: none; }
 .ix-row.is-hidden,
 .ix-row[hidden] { display: none; }
+.ix-row-inner {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 8px;
+  width: max-content;
+  max-width: none;
+  margin-inline: auto;
+}
 .ix-chip {
   flex: 0 0 auto;
   display: inline-flex;
-  align-items: baseline;
-  gap: 6px;
+  align-items: center;
+  gap: 8px;
   white-space: nowrap;
-  padding: 6px 12px;
+  padding: 4px 12px 4px 4px;
   border-radius: 999px;
   border: 1px solid #d5e2d9;
   background: #fff;
@@ -1976,6 +2008,36 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   font-weight: 700;
   line-height: 1.2;
 }
+.ix-thumb {
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: var(--green-soft, #eef6f0);
+  color: var(--primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.78rem;
+  font-weight: 800;
+  line-height: 1;
+}
+.ix-thumb img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+}
+.ix-thumb-ico { background: var(--green-soft, #eef6f0); }
+.ix-chip.is-active .ix-thumb,
+.ix-chip[aria-current="page"] .ix-thumb {
+  background: rgba(255,255,255,0.18);
+  color: #fff;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.35);
+}
+.ix-chip-text { display: inline-flex; align-items: baseline; gap: 6px; }
 .ix-chip:hover, .ix-chip:focus-visible {
   border-color: var(--primary);
   color: var(--primary);
@@ -2006,26 +2068,13 @@ body.ix-filtering #clanci .post-card.ix-match { display: flex !important; }
   body.ix-filtering #clanci .post-card.ix-match.m-fold { display: flex !important; }
 }
 @media (max-width: 899px) {
-  :root { --ix-h: 80px; }
+  :root { --ix-h: 96px; }
   .ix-filter { top: 56px; scroll-margin-top: 56px; }
   .ix-filter-inner { padding-top: 6px; padding-bottom: 6px; }
   .ix-switch { padding: 2px 10px 5px; font-size: 0.72rem; }
-  .ix-chip { font-size: 0.82rem; padding: 5px 11px; }
-  #naslov-clanaka { scroll-margin-top: 150px; }
-  /* pri filtru: prve 3 pogodbe velike, ostale kompaktni redovi (ne prema DOM-u) */
-  body.ix-filtering #clanci .post-card.ix-match.ix-big { flex-direction: column; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-big .card-thumb { flex: none; width: auto; height: auto; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-big .card-thumb img,
-  body.ix-filtering #clanci .post-card.ix-match.ix-big .card-thumb.no-img { width: 100%; height: auto; min-height: 0; aspect-ratio: 16 / 9; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-big .content p { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row { flex-direction: row; align-items: stretch; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row .card-thumb { flex: 0 0 88px; width: 88px; height: 88px; align-self: center; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row .card-thumb img,
-  body.ix-filtering #clanci .post-card.ix-match.ix-row .card-thumb.no-img { width: 88px; height: 88px; min-height: 88px; aspect-ratio: 1; object-fit: cover; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row .card-badges { display: none; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row .content { padding: 6px 10px; min-width: 0; display: flex; flex-direction: column; justify-content: center; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row .content p { display: none !important; }
-  body.ix-filtering #clanci .post-card.ix-match.ix-row h3 { font-size: 0.92rem; line-height: 1.3; margin: 0 0 4px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .ix-chip { font-size: 0.82rem; padding: 3px 11px 3px 3px; }
+  .ix-thumb, .ix-thumb img { width: 28px; height: 28px; flex-basis: 28px; }
+  #naslov-clanaka { scroll-margin-top: 160px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .ix-chip, .ix-switch { transition: none; }

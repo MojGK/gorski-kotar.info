@@ -52,9 +52,11 @@ sidebar: true
   {%- if shown_m > 30 -%}{%- break -%}{%- endif -%}
   {%- assign c_fold = false -%}
   {%- if shown_m > 12 -%}{%- assign c_fold = true -%}{%- endif -%}
+  {%- assign c_narrow = false -%}
+  {%- if shown_m <= 5 -%}{%- assign c_narrow = true -%}{%- endif -%}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
-  <article class="post-card{% if c_fold %} m-fold{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
+  <article class="post-card{% if c_fold %} m-fold{% endif %}{% if c_narrow %} is-narrow{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
