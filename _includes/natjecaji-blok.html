@@ -1,0 +1,36 @@
+{%- comment -%}
+Blok NATJEČAJI na naslovnici, isti obrazac kao zaposlenje-blok:
+do 2 otvorene stavke iz _data/natjecaji.yml, poredane po roku. Istekle se ne prikazuju.
+{%- endcomment -%}
+{%- include zivi-popis.html lista=site.data.natjecaji.natjecaji polje="rok" -%}
+{%- assign nb_lista = zp_lista -%}
+<section class="zaposlenje-blok" id="natjecaji-blok" aria-labelledby="natjecaji-blok-naslov">
+  <div class="zb-head">
+    <h2 id="natjecaji-blok-naslov"><span aria-hidden="true">📋</span> Natječaji</h2>
+    <a class="zb-all" href="{{ '/natjecaji/' | relative_url }}">Sve →</a>
+  </div>
+  {%- if nb_lista.size > 0 %}
+  <div class="job-highlights">
+    <ul class="job-hl-list">
+    {%- for o in nb_lista limit: 2 %}
+      {%- assign o_rok = o.rok | append: "" -%}
+      {%- assign o_is_date = false -%}{%- if o_rok.size == 10 and o_rok contains "-" -%}{%- assign o_is_date = true -%}{%- endif %}
+      <li class="job-hl"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %}>
+        <a class="job-hl-link" href="{{ o.clanak | default: '/natjecaji/' | relative_url }}">
+          <span class="job-hl-pos">{{ o.naziv }}</span>
+          <span class="job-hl-emp">{{ o.raspisivac }}</span>
+          <span class="job-hl-meta">{% if o.grad %}<span>📍 {{ o.grad }}</span>{% endif %}<span class="job-hl-rok">⏳ Rok: {% if o_is_date %}{{ o.rok | date: "%-d. %-m. %Y." }}{% else %}{{ o.rok }}{% endif %}{% if o.rok_napomena %} ({{ o.rok_napomena }}){% endif %}</span></span>
+          <span class="job-hl-cta">Naš članak <span aria-hidden="true">→</span></span>
+        </a>
+      </li>
+    {%- endfor %}
+    </ul>
+  </div>
+  <a class="zb-post" href="{{ '/natjecaji/' | relative_url }}">
+    <span class="zb-post-label">{{ nb_lista.size }} otvorenih natječaja i potpora{% if site.data.natjecaji.azurirano %} · ažurirano {{ site.data.natjecaji.azurirano | date: "%-d. %-m." }}{% endif %}</span>
+    <span class="zb-post-title">Pogledaj sve natječaje, stipendije i potpore s rokovima</span>
+  </a>
+  {%- else %}
+    <p class="zb-empty">Trenutno nema otvorenih natječaja. <a href="{{ '/natjecaji/' | relative_url }}">Arhiva →</a></p>
+  {%- endif %}
+</section>

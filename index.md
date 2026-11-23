@@ -43,6 +43,10 @@ sidebar: true
 
 {% include zaposlenje-blok.html %}
 
+{% include natjecaji-blok.html %}
+
+{% include promet-blok.html %}
+
 {% include tiktok-podrska.html %}
 
 <div class="filters" id="filteri">
@@ -113,6 +117,7 @@ sidebar: true
   var lead = document.getElementById('lead');
   var izd = document.getElementById('izdvojeno');
   var zapBlok = document.getElementById('zaposlenje-blok');
+  var servisBlokovi = document.querySelectorAll('#zaposlenje-blok, #natjecaji-blok, #promet-blok');
   var title = document.getElementById('naslov-clanaka');
   var names = {};
   var groupOf = {};
@@ -138,7 +143,7 @@ sidebar: true
     });
     lead.hidden = filtering;
     if (izd) izd.hidden = filtering;
-    if (zapBlok) zapBlok.hidden = filtering;
+    servisBlokovi.forEach(function (el) { el.hidden = filtering; });
     document.querySelectorAll('[data-hide-filter]').forEach(function (el) { el.hidden = filtering; });
     document.body.classList.toggle('filtering', filtering);
     title.textContent = filtering

@@ -1,0 +1,37 @@
+{%- comment -%}
+Blok PROMET na naslovnici, isti obrazac kao zaposlenje-blok:
+do 2 najnovija članka s type/kategorijom/oznakom Promet.
+{%- endcomment -%}
+{%- assign pb_posts = "" | split: "" -%}
+{%- for p in site.posts -%}
+  {%- if p.type == "Promet" or p.categories contains "Promet" or p.tags contains "promet" -%}
+    {%- assign pb_posts = pb_posts | push: p -%}
+  {%- endif -%}
+{%- endfor -%}
+<section class="zaposlenje-blok" id="promet-blok" aria-labelledby="promet-blok-naslov">
+  <div class="zb-head">
+    <h2 id="promet-blok-naslov"><span aria-hidden="true">🚗</span> Promet</h2>
+    <a class="zb-all" href="{{ '/promet/' | relative_url }}">Sve →</a>
+  </div>
+  {%- if pb_posts.size > 0 %}
+  <div class="job-highlights">
+    <ul class="job-hl-list">
+    {%- for p in pb_posts limit: 2 %}
+      <li class="job-hl">
+        <a class="job-hl-link" href="{{ p.url | relative_url }}">
+          <span class="job-hl-pos">{{ p.title }}</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">{% include datum.html date=p.date show_time=false %}</span>{% if p.location %}<span>📍 {{ p.location }}</span>{% endif %}</span>
+          <span class="job-hl-cta">Pročitaj članak <span aria-hidden="true">→</span></span>
+        </a>
+      </li>
+    {%- endfor %}
+    </ul>
+  </div>
+  <a class="zb-post" href="{{ '/promet/' | relative_url }}">
+    <span class="zb-post-label">{{ pb_posts.size }} vijesti o prometu i cestama</span>
+    <span class="zb-post-title">Stanje na cestama, zimska služba i službene poveznice</span>
+  </a>
+  {%- else %}
+    <p class="zb-empty">Trenutno nema vijesti u ovoj rubrici. <a href="{{ '/promet/' | relative_url }}">Promet i ceste →</a></p>
+  {%- endif %}
+</section>

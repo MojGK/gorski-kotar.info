@@ -1,0 +1,12 @@
+# Službene poveznice na stranici /promet/ i u bloku na naslovnici.
+# Upute: _data/README-zaposlenje-dogadjanja.md
+azurirano: 2026-11-23
+poveznice:
+  - naziv: "HAK – stanje na cestama"
+    url: "https://www.hak.hr/info/stanje-na-cestama/"
+  - naziv: "HAC – stanje na autocestama"
+    url: "https://www.hac.hr/hr/servisne-informacije/stanje-na-autocestama"
+  - naziv: "DHMZ – upozorenja po županijama"
+    url: "https://meteo.hr/naslovnica-upozorenja-zupanije.php"
+  - naziv: "Autotrans / Arriva – vozni redovi"
+    url: "https://www.autotrans.hr/"

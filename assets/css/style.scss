@@ -1172,22 +1172,56 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .post-content .oglasi-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 }
 
-/* NATJEČAJI – iste kartice kao zaposlenje, zelena varijanta */
-.post-content .natjecaji-lista .oglas-k { border-color: #c5e0cc; border-left-color: var(--green, #2e7d32); box-shadow: 0 2px 8px rgba(20,61,36,0.08); }
-.post-content .natjecaji-lista .ok-posl { color: var(--green-dark, #143d24); }
-.post-content .natjecaji-lista .ok-det { border-top-color: #c5e0cc; }
-.post-content .natjecaji-lista .ok-btn { background: var(--green, #2e7d32); }
-.post-content .natjecaji-lista .ok-btn:hover { background: #143d24; color: #fff; }
-.post-content .natjecaji-lista .ok-alt { color: var(--green-dark, #143d24); }
-.t-natjecaji { --tc: #1b5e20; }
-
+/* Natječaji: kartice koriste isti stil kao Zaposlenje (.oglasi-lista / .oglas-k). */
+.t-natjecaji { --tc: #8a5a00; }
 .natjecaji-page h1, .promet-page h1 { display: flex; align-items: center; gap: 10px; }
 
-.sluzbeni-okvir { margin: 0 0 22px; padding: 14px 16px; border-radius: 14px; background: #f3f8f4; border: 1px solid #c5e0cc; border-left: 6px solid var(--green, #2e7d32); }
-.sluzbeni-okvir h2 { margin: 0 0 8px; font-size: 1.05rem; color: var(--green-dark, #143d24); }
+/* Službeni okvir na /promet/ – isti „data box” kao job-highlights */
+.sluzbeni-okvir { margin: 0 0 22px; }
 .sluzbeni-okvir ul { margin: 0; padding-left: 1.2rem; }
 .sluzbeni-okvir li { margin: 0.3rem 0; }
 .sluzbeni-okvir a { font-weight: 700; }
+
+/* Smeđa traka servisnih rubrika ispod cat-bara / mobilnih čipova */
+.servis-bar {
+  background: #5c3d1e;
+  background: linear-gradient(90deg, #4e3418 0%, #6b4a16 45%, #5c3d1e 100%);
+  border-top: 1px solid rgba(255, 236, 200, 0.14);
+}
+.servis-bar-inner {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  -webkit-overflow-scrolling: touch;
+}
+.servis-bar-inner::-webkit-scrollbar { display: none; }
+.servis-link {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  white-space: nowrap;
+  color: #f6edd8;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 800;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 236, 200, 0.22);
+}
+.servis-link:hover { background: rgba(255, 236, 200, 0.22); color: #fff8e8; }
+.servis-link.current, .servis-link[aria-current="page"] {
+  background: #e0c56a;
+  border-color: #e0c56a;
+  color: #2a1c08;
+}
+@media (min-width: 900px) {
+  .site-sidebar { top: calc(var(--header-h) + 94px); }
+}
 
 /* Uži glavni izbornik dok ima 8 stavki (Natječaji i Promet), da se Povijest ne preklope s pretragom */
 @media (min-width: 900px) {

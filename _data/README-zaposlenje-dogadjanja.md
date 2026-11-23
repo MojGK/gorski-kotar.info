@@ -5,6 +5,7 @@ Stranice **/zaposlenje/** i **/dogadaji/**, blokovi na naslovnici i **/kalendar/
 - `_data/poslovi.yml` – oglasi za posao
 - `_data/dogadjanja.yml` – najave događaja
 - `_data/natjecaji.yml` – otvoreni natječaji, stipendije i potpore
+- `_data/promet.yml` – službene poveznice za /promet/
 
 Za novi oglas ili događaj **ne pišeš članak**: dodaš stavku u datoteku, promijeniš `azurirano:` na današnji datum i objaviš (commit + push).
 Stranica se uz to sama ponovno izgradi svaki dan u 05:00 (GitHub Actions „Dnevna izrada stranice”), pa istekli oglasi i prošli događaji nestanu i bez objave.
@@ -88,3 +89,8 @@ Stranica nije živi YAML-popis, nego popis članaka s `type: Promet`, kategorijo
 
 - Novi članak o cestama, zimskoj službi, zatvorenim dionicama ili autobusnim linijama označi s `type: Promet` i/ili `tags: [promet]`. Ako članak mora ostati u drugoj vrsti (npr. Aktualno), dodaj samo `tags: [promet]` i po potrebi Promet u `categories`, bez promjene datuma i URL-a.
 - Oznaka vrste Promet u članku vodi na `/promet/`, a ne na stranicu kategorije.
+
+
+Na naslovnici stoje blokovi u istom obliku kao Zaposlenje (naslov, do dvije stavke, poveznica **Sve →**): Događanja, Zaposlenje, Natječaji i Promet. Istekli natječaji se ne prikazuju; u bloku Promet idu dva najnovija članka.
+
+Ispod trake s mjestima i vrstama članaka je smeđa traka servisnih rubrika (Kalendar događanja, Natječaji, Zaposlenje, Promet), na desktopu i na mobitelu.
