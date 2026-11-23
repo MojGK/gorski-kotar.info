@@ -264,16 +264,20 @@ def main():
     now = datetime.now(ZAGREB)
     index = index_posts(ROOT / "_posts")
     candidates = []
+    accessible_sources = 0
     for src in json.loads((ROOT / "_automation/sources.json").read_text()):
         try:
             found = list(items(fetch(src["url"], src["hosts"]), src, now))
         except (OSError, ValueError, ET.ParseError) as exc:
             print(f"{src['name']}: pogreška izvora ({type(exc).__name__})")
-            if src["auto"]:
+            if src["auto"] and args.publish:
                 raise SystemExit(1) from None
             continue
+        accessible_sources += 1
         print(f"{src['name']}: {len(found)} aktualnih lokalnih stavki")
         candidates.extend(found)
+    if accessible_sources == 0:
+        raise SystemExit("Nijedan RSS izvor nije dostupan.")
     # Prefer institutional sources when multiple feeds cover the same item.
     candidates.sort(key=lambda item: (item.official, item.date), reverse=True)
     generated = []
