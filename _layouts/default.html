@@ -72,7 +72,7 @@
   {%- elsif page.event_date -%}{%- assign nav_sec = "dogadaji" -%}
   {%- else -%}{%- assign nav_sec = "vijesti" -%}{%- endif -%}
 {%- endif -%}
-<body class="has-bottom-nav">
+<body class="has-bottom-nav{% unless page.url == '/' %} has-ix-top{% endunless %}">
   <a class="skip-link" href="#sadrzaj">Preskoči na sadržaj</a>
   <header class="site-header" id="site-header">
     <div class="container header-inner">
@@ -101,7 +101,7 @@
     </div>
   </header>
   {% if page.url == "/" %}{% include prijelomna-traka.html %}{% endif %}
-  {% include index-filter.html %}
+  {% unless page.url == "/" %}{% include index-filter.html %}{% endunless %}
 
   <main class="container" id="sadrzaj">
     {% if page.layout == 'post' or page.sidebar %}

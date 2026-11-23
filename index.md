@@ -38,6 +38,7 @@ sidebar: true
 {% capture izdvojeno_html %}{% include izdvojeno.html lead=lead %}{% endcapture %}
 
 {%- comment -%} Najnovije: 12 kartica vidljivo; u DOM-u do 30 najnovijih (za Index-filter). Glavna vijest, Izdvojeno i Zaposlenje ne idu u mrežu. {%- endcomment %}
+{% include index-filter.html %}
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
   {%- comment -%} Redoslijed po efektivnom vremenu (azurirano ili date), vidi _includes/sortirani-postovi.html {%- endcomment -%}

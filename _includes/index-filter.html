@@ -34,8 +34,8 @@ na ostalim stranicama čipovi vode na /kategorije/<slug>/.
 {%- elsif page.url == "/povijest/" -%}
   {%- assign ix_tab = "kat" -%}{%- assign ix_sel = "/kategorije/povijest/" -%}
 {%- endif -%}
-<section class="ix-filter" id="ix-filter" data-home="{% if ix_home %}1{% else %}0{% endif %}" aria-label="Filter vijesti">
-  <div class="ix-filter-inner container">
+<section class="ix-filter{% if ix_home %} ix-filter--inpage{% else %} ix-filter--top{% endif %}" id="ix-filter" data-home="{% if ix_home %}1{% else %}0{% endif %}" aria-label="Filter vijesti">
+  <div class="ix-filter-inner{% unless ix_home %} container{% endunless %}">
     <div class="ix-switches" role="tablist" aria-label="Vrsta filtra">
       <button type="button" class="ix-switch" role="tab" id="ix-tab-kat" aria-controls="ix-row-kat" aria-selected="{% if ix_tab == 'kat' %}true{% else %}false{% endif %}">Kategorije</button>
       <button type="button" class="ix-switch" role="tab" id="ix-tab-nas" aria-controls="ix-row-nas" aria-selected="{% if ix_tab == 'nas' %}true{% else %}false{% endif %}">Naselja</button>
@@ -137,9 +137,8 @@ na ostalim stranicama čipovi vode na /kategorije/<slug>/.
       setActive(chip);
       if (!isHome) return;
       applyFilter(chip.hasAttribute('data-reset') ? null : chip);
-      if (!skipScroll && chip && !chip.hasAttribute('data-reset')) {
-        var t = document.getElementById('naslov-clanaka');
-        if (t) t.scrollIntoView({ block: 'start' });
+      if (!skipScroll) {
+        bar.scrollIntoView({ block: 'start' });
       }
     }
 

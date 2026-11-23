@@ -1910,7 +1910,13 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   background: #fff;
   border-bottom: 1px solid #e4ece7;
   box-shadow: 0 1px 0 rgba(20, 72, 42, 0.03);
+  scroll-margin-top: var(--header-h);
 }
+.ix-filter--inpage {
+  margin: 4px 0 0;
+  border-top: 1px solid #e4ece7;
+}
+.ix-filter--inpage + #naslov-clanaka { margin-top: 12px; }
 .ix-filter-inner { padding-top: 8px; padding-bottom: 8px; }
 .ix-switches {
   display: flex;
@@ -1996,12 +2002,12 @@ body.ix-filtering #m-svi { display: none !important; }
 body.ix-filtering #clanci .post-card.ix-hide { display: none !important; }
 body.ix-filtering #clanci .post-card.ix-match { display: flex !important; }
 @media (min-width: 900px) {
-  .site-sidebar { top: calc(var(--header-h) + var(--ix-h) + 12px); }
+  body.has-ix-top .site-sidebar { top: calc(var(--header-h) + var(--ix-h) + 12px); }
   body.ix-filtering #clanci .post-card.ix-match.m-fold { display: flex !important; }
 }
 @media (max-width: 899px) {
   :root { --ix-h: 80px; }
-  .ix-filter { top: 56px; }
+  .ix-filter { top: 56px; scroll-margin-top: 56px; }
   .ix-filter-inner { padding-top: 6px; padding-bottom: 6px; }
   .ix-switch { padding: 2px 10px 5px; font-size: 0.72rem; }
   .ix-chip { font-size: 0.82rem; padding: 5px 11px; }
