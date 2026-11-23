@@ -1,0 +1,73 @@
+name: Automatske vijesti
+on:
+  push:
+    branches: ['codex/automatizacija-vijesti']
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Objavi na portalu (za test ostavi isključeno)
+        type: boolean
+        default: false
+  schedule:
+    - cron: '19 7,15 * * *'
+
+permissions:
+  contents: read
+concurrency:
+  group: automatske-vijesti
+  cancel-in-progress: false
+
+jobs:
+  preview:
+    if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && !inputs.publish)
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Testovi
+        run: python3 -B -m unittest discover -s _automation -v
+      - name: Probno prikupljanje i pisanje
+        env:
+          OPENAI_API_KEY: ${{ github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && secrets.OPENAI_API_KEY || '' }}
+        run: |
+          set -o pipefail
+          mkdir -p /tmp/news-preview
+          python3 -B -m _automation.publish --preview-dir /tmp/news-preview | tee /tmp/news-preview/izvjestaj.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: probne-vijesti
+          path: /tmp/news-preview/
+          retention-days: 7
+
+  publish:
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      vars.GK_AUTO_PUBLISH == 'true' &&
+      (github.event_name == 'schedule' || inputs.publish)
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      pages: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Testovi
+        run: python3 -B -m unittest discover -s _automation -v
+      - name: Prikupi i pripremi objave
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 -B -m _automation.publish --publish
+      - name: Spremi članke i zatraži izradu stranice
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -- _posts/
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Objavi automatski pripremljene vijesti"
+          git push origin HEAD:main
+          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --jq '.status'
