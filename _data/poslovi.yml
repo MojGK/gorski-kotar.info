@@ -1,16 +1,8 @@
 # ZAPOSLENJE – živi popis oglasa (stranica /zaposlenje/ i blok na naslovnici).
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
-azurirano: 2026-11-20
+azurirano: 2026-11-23
 oglasi:
-- poslodavac: Javna vatrogasna postrojba Delnice
-  pozicija: Zapovjednik / zapovjednica javne vatrogasne postrojbe
-  mjesto: Delnice
-  rok: 2026-11-20
-  izvori:
-  - naziv: Adorio
-    url: https://www.adorio.hr/oglas-za-posao/7758858
-  izdvojeno: true
 - poslodavac: "Dječji vrtić Hlojkica, Delnice"
   pozicija: Odgojitelj / odgojiteljica predškolske djece
   mjesto: Delnice
@@ -32,6 +24,7 @@ oglasi:
   izvori:
   - naziv: Adorio
     url: https://www.adorio.hr/oglas-za-posao/7757891
+  izdvojeno: true
 - poslodavac: Tifon d.o.o.
   pozicija: Gastro prodavač / prodavačica
   mjesto: "Ravna Gora (među više lokacija)"
@@ -40,6 +33,17 @@ oglasi:
   izvori:
   - naziv: MojPosao
     url: https://mojposao.hr/posao/1ba54ce7-d212-11f1-8b88-0280a8fb46bd/gastro-prodavac-prodavac-m-z
+- poslodavac: GORAN graditeljstvo d.o.o.
+  pozicija: Tehničar / tehničarka-operater / operatorica za proizvodnju betona
+  broj: 1
+  vrsta: "određeno (povećan opseg posla), puno radno vrijeme"
+  mjesto: Delnice
+  rok: 2026-11-30
+  opis: "Upravljanje proizvodnjom betona i održavanje betonare; poslodavac nudi zajednički smještaj i naknadu za prijevoz u cijelosti."
+  izvori:
+  - naziv: Posao.hr
+    url: https://www.posao.hr/oglasi/tehnicar-tehnicarka-operater-operatorica-za-proizvodnju-betona/1258430/
+  izdvojeno: true
 - poslodavac: "AX Inženjering d.o.o. (projektiranje)"
   pozicija: Projektant / projektantica građevinskih konstrukcija
   broj: 1
