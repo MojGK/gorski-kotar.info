@@ -111,16 +111,6 @@
           {%- endfor %}
         </div>
       </nav>
-      <nav class="filter-row filter-row-kategorije" aria-label="Kategorije">
-        <div class="container filter-row-inner">
-          {%- for k in site.data.kategorije.vrste %}
-          <a class="filter-chip" href="{{ '/' | relative_url }}?kategorija={{ k.slug }}">{{ k.name }}</a>
-          {%- endfor %}
-          {%- for k in site.data.kategorije.serijali %}
-          <a class="filter-chip filter-chip-series" href="{{ '/' | relative_url }}?kategorija={{ k.slug }}">{{ k.name }}</a>
-          {%- endfor %}
-        </div>
-      </nav>
       <nav class="filter-row filter-row-mjesta" aria-label="Mjesta">
         <div class="container filter-row-inner">
           {%- for k in site.data.kategorije.lokacije %}

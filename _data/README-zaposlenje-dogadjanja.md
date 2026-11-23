@@ -93,4 +93,4 @@ Stranica nije živi YAML-popis, nego popis članaka s `type: Promet`, kategorijo
 
 Na naslovnici stoje blokovi u istom obliku kao Zaposlenje (naslov, do dvije stavke, poveznica **Sve →**): Događanja, Zaposlenje, Natječaji i Promet. Istekli natječaji se ne prikazuju; u bloku Promet idu dva najnovija članka.
 
-Ispod zaglavlja idu četiri trake (na desktopu i na mobitelu, svaka se na uskom zaslonu pomiče vodoravno): vijesti (blokovi naslovnice), kategorije (vrste članaka), mjesta, pa smeđe čipice Kalendar događanja, Zaposlenje, Natječaji i stipendije. Promet ostaje u izborniku, na /promet/ i kao blok na naslovnici, ali ne u smeđoj traci.
+Ispod zaglavlja idu tri trake (na desktopu i na mobitelu, svaka se na uskom zaslonu pomiče vodoravno): vijesti (blokovi naslovnice), mjesta, pa smeđe čipice Kalendar događanja, Zaposlenje, Natječaji i stipendije. Stranica /kategorije/ i stavka Kategorije u izborniku ostaju. Promet ostaje u izborniku, na /promet/ i kao blok na naslovnici, ali ne u smeđoj traci.
