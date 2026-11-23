@@ -117,7 +117,7 @@
       <nav class="filter-row filter-row-mjesta" aria-label="Mjesta">
         <div class="container filter-row-inner">
           {%- for k in site.data.kategorije.lokacije %}
-          <a class="filter-chip filter-chip-loc" href="{{ '/' | relative_url }}?kategorija={{ k.slug }}">{{ k.name }}</a>
+          <a class="filter-chip filter-chip-loc" href="{{ '/kategorije/' | append: k.slug | append: '/' | relative_url }}">{{ k.name }}</a>
           {%- endfor %}
         </div>
       </nav>

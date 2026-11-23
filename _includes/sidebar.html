@@ -1,4 +1,4 @@
-<aside class="site-sidebar">
+<aside class="site-sidebar{% if page.url == '/' %} sb-naslovnica{% endif %}">
   {%- unless page.url == "/radar/" %}{% include vrijeme-delnice.html %}{% endunless %}
   {%- if page.url == "/" -%}
   {%- assign sb_now = site.time | date: "%s" | plus: 0 -%}

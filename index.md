@@ -34,41 +34,12 @@ sidebar: true
 
 {% include servisi-gradani.html %}
 
-{%- comment -%} Izdvojeno, traka kategorija, Događanja, zatim filteri i mreža članaka. Na mobitelu mreža pokazuje prvih 8 kartica, ostale gumb „Prikaži sve članke”. {%- endcomment %}
+{%- comment -%} Izdvojeno, Događanja, zatim mreža članaka. Na mobitelu prvih 12 kartica, ostale gumb „Prikaži sve članke”. Glavna vijest, Izdvojeno i Zaposlenje ne idu u mrežu. {%- endcomment %}
 {% include izdvojeno.html lead=lead %}
-
-{% include kategorije-traka.html %}
 
 {% include dogadjanja-blok.html %}
 
 {% include tiktok-podrska.html %}
-
-<div class="filters" id="filteri">
-  <button type="button" class="filter-btn active" data-reset>Sve</button>
-  <span class="filter-group">
-    <span class="filter-label">Mjesto</span>
-    {%- for k in site.data.kategorije.lokacije %}
-    {%- include kat-broj.html name=k.name bez_vrste="Zaposlenje" %}{% assign n = kat_n %}
-    <button type="button" class="filter-btn{% if n == 0 %} empty{% endif %}" data-group="location" data-filter="{{ k.slug }}">{{ k.name }} <span class="count">{{ n }}</span></button>
-    {%- endfor %}
-  </span>
-  <span class="filter-group">
-    <span class="filter-label">Vrsta</span>
-    {%- for k in site.data.kategorije.vrste %}
-    {%- include kat-broj.html name=k.name %}{% assign n = kat_n %}
-    <button type="button" class="filter-btn{% if n == 0 %} empty{% endif %}" data-group="type" data-filter="{{ k.slug }}">{{ k.name }} <span class="count">{{ n }}</span></button>
-    {%- endfor %}
-  </span>
-  {%- if site.data.kategorije.serijali %}
-  <span class="filter-group">
-    <span class="filter-label">Serijal</span>
-    {%- for k in site.data.kategorije.serijali %}
-    {%- include kat-broj.html name=k.name %}{% assign n = kat_n %}
-    <button type="button" class="filter-btn series{% if n == 0 %} empty{% endif %}" data-group="series" data-filter="{{ k.slug }}">{{ k.name }} <span class="count">{{ n }}</span></button>
-    {%- endfor %}
-  </span>
-  {%- endif %}
-</div>
 
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
@@ -76,18 +47,17 @@ sidebar: true
   {%- comment -%} Redoslijed po efektivnom vremenu (azurirano ili date), vidi _includes/sortirani-postovi.html {%- endcomment -%}
   {%- include sortirani-postovi.html -%}
   {%- assign shown_m = 0 -%}
-  {% for post in sortirani limit: 30 %}
+  {% for post in sortirani %}
+  {%- if post.url == lead.url or post.type == "Zaposlenje" -%}{%- continue -%}{%- endif -%}
+  {%- assign c_key = "|" | append: post.url | append: "|" -%}
+  {%- if izd_urls contains c_key -%}{%- continue -%}{%- endif -%}
+  {%- assign shown_m = shown_m | plus: 1 -%}
+  {%- if shown_m > 30 -%}{%- break -%}{%- endif -%}
+  {%- assign c_fold = false -%}
+  {%- if shown_m > 12 -%}{%- assign c_fold = true -%}{%- endif -%}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
-  {%- assign c_key = "|" | append: post.url | append: "|" -%}
-  {%- assign c_fold = false -%}
-  {%- if post.url != lead.url and post.type != "Zaposlenje" -%}
-    {%- unless izd_urls contains c_key -%}
-      {%- assign shown_m = shown_m | plus: 1 -%}
-      {%- if shown_m > 8 -%}{%- assign c_fold = true -%}{%- endif -%}
-    {%- endunless -%}
-  {%- endif -%}
-  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}{% if izd_urls contains c_key %} is-izd{% endif %}{% if post.type == "Zaposlenje" %} is-job{% endif %}{% if c_fold %} m-fold{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
+  <article class="post-card{% if c_fold %} m-fold{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
@@ -106,101 +76,36 @@ sidebar: true
   {% endfor %}
 </div>
 <p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
-<p class="starije-vijesti"><a id="starije-link" href="{{ '/arhiva/' | relative_url }}" data-baza="{{ '/' | relative_url }}">Starije vijesti <span aria-hidden="true">→</span></a></p>
-<p class="no-results" id="nema-clanaka" hidden>Još nema članaka za odabrani filter. <button type="button" class="link-btn" data-reset>Prikaži sve</button></p>
+<p class="starije-vijesti"><a href="{{ '/arhiva/' | relative_url }}">Starije vijesti <span aria-hidden="true">→</span></a></p>
 
 <script>
 (function () {
-  var state = { location: null, type: null, series: null };
-  var buttons = document.querySelectorAll('.filter-btn[data-filter]');
-  var resets = document.querySelectorAll('[data-reset]');
-  var cards = document.querySelectorAll('#clanci .post-card');
-  var empty = document.getElementById('nema-clanaka');
-  var lead = document.getElementById('lead');
-  var izd = document.getElementById('izdvojeno');
-  var title = document.getElementById('naslov-clanaka');
-  var names = {};
-  var groupOf = {};
-  buttons.forEach(function (b) {
-    groupOf[b.dataset.filter] = b.dataset.group;
-    names[b.dataset.filter] = b.firstChild.textContent.trim();
-  });
-
-  function apply(updateUrl) {
-    var filtering = !!(state.location || state.type || state.series);
-    function has(c, slug) { return (' ' + (c.dataset.cats || '') + ' ').indexOf(' ' + slug + ' ') !== -1; }
-    var shown = 0;
-    cards.forEach(function (c) {
-      var ok = (!state.location || has(c, state.location)) &&
-               (!state.type || has(c, state.type)) &&
-               (!state.series || has(c, state.series));
-      // bez filtera vodeći članak je već gore, pa ga ne ponavljamo u mreži
-      if (!filtering && (c.classList.contains('is-lead') || c.classList.contains('is-izd'))) ok = false;
-      // oglasi za posao (Zaposlenje) prikazuju se u mreži samo uz filter Zaposlenje
-      if (c.classList.contains('is-job') && state.type !== 'zaposlenje') ok = false;
-      c.hidden = !ok;
-      if (ok) shown++;
-    });
-    lead.hidden = filtering;
-    if (izd) izd.hidden = filtering;
-    document.querySelectorAll('[data-hide-filter]').forEach(function (el) { el.hidden = filtering; });
-    document.body.classList.toggle('filtering', filtering);
-    title.textContent = filtering
-      ? [state.location, state.type, state.series].filter(Boolean).map(function (s) { return names[s]; }).join(' · ')
-      : 'Najnoviji članci';
-    buttons.forEach(function (b) {
-      b.classList.toggle('active', state[b.dataset.group] === b.dataset.filter);
-    });
-    resets.forEach(function (r) { if (r.classList.contains('filter-btn')) r.classList.toggle('active', !filtering); });
-    empty.hidden = shown > 0;
-    // naslovnica ima samo 30 najnovijih: uz filter „Starije” vodi na stranicu kategorije
-    var st = document.getElementById('starije-link');
-    if (st) {
-      var b0 = st.getAttribute('data-baza'), f0 = state.type || state.location || state.series;
-      st.href = !f0 ? b0 + 'arhiva/' : (f0 === 'zaposlenje' ? b0 + 'zaposlenje/' : b0 + 'kategorije/' + f0 + '/');
-      st.firstChild.textContent = f0 ? 'Starije: ' + names[f0] + ' ' : 'Starije vijesti ';
-    }
-    if (updateUrl && window.history && history.replaceState) {
-      var p = [];
-      if (state.location) p.push(state.location);
-      if (state.type) p.push(state.type);
-      if (state.series) p.push(state.series);
-      history.replaceState(null, '', location.pathname + (p.length ? '?kategorija=' + p.join(',') : ''));
-    }
+  var base = (window.SITE_BASE || '').replace(/\/$/, '');
+  var slugs = {
+    {%- for k in site.data.kategorije.lokacije %}{{ k.slug | jsonify }}: 1,{% endfor %}
+    {%- for k in site.data.kategorije.vrste %}{{ k.slug | jsonify }}: 1,{% endfor %}
+    {%- if site.data.kategorije.serijali %}{%- for k in site.data.kategorije.serijali %}{{ k.slug | jsonify }}: 1,{% endfor %}{%- endif %}
+  };
+  function hash() {
+    try { return decodeURIComponent(location.hash.replace(/^#/, '')); } catch (e) { return location.hash.replace(/^#/, ''); }
   }
-
-  buttons.forEach(function (b) {
-    b.addEventListener('click', function () {
-      var g = b.dataset.group, f = b.dataset.filter;
-      state[g] = state[g] === f ? null : f;
-      apply(true);
-    });
-  });
-  resets.forEach(function (r) {
-    r.addEventListener('click', function () { state.location = null; state.type = null; state.series = null; apply(true); });
-  });
-
-  function fromUrl(e) {
+  function goKat(slug) {
+    if (!slug || !slugs[slug]) return false;
+    location.replace(base + '/kategorije/' + slug + '/');
+    return true;
+  }
+  (function fromUrl() {
     var q = new URLSearchParams(location.search).get('kategorija') || '';
-    var h = decodeURIComponent(location.hash.replace(/^#/, ''));
-    var vals = (q ? q.split(',') : []).concat(h ? [h] : []);
-    var blok = /^blok-|^m-najnovije$/.test(h);
-    if (e && h && groupOf[h]) { state.location = null; state.type = null; state.series = null; }
-    if (blok) {
-      // poveznica na mobilni kategorijski blok: bez filtera, pa skok na blok
-      state.location = null; state.type = null; state.series = null; vals = [];
-      if (q && window.history && history.replaceState) history.replaceState(null, '', location.pathname + location.hash);
+    var h = hash();
+    if (/^blok-/.test(h) || h === 'm-najnovije') {
+      var t = document.getElementById('naslov-clanaka');
+      if (t) t.scrollIntoView();
+      return;
     }
-    var found = false;
-    vals.forEach(function (v) {
-      v = v.trim().toLowerCase();
-      if (groupOf[v]) { state[groupOf[v]] = v; found = true; }
-    });
-    apply(false);
-    if (found) document.getElementById('filteri').scrollIntoView();
-    else if (h === 'm-najnovije' && document.getElementById('naslov-clanaka')) document.getElementById('naslov-clanaka').scrollIntoView();
-    else if (blok && document.getElementById(h)) document.getElementById(h).scrollIntoView();
-  }
+    var first = (q.split(',')[0] || '').trim().toLowerCase();
+    if (goKat(first)) return;
+    if (h && goKat(h.trim().toLowerCase())) return;
+  })();
   var sviBtn = document.getElementById('m-svi-btn');
   if (sviBtn) sviBtn.addEventListener('click', function () {
     var on = !document.body.classList.contains('m-show-all');
@@ -208,7 +113,5 @@ sidebar: true
     sviBtn.setAttribute('aria-expanded', on ? 'true' : 'false');
     sviBtn.textContent = on ? 'Sakrij popis članaka ↑' : 'Prikaži sve članke ↓';
   });
-  window.addEventListener('hashchange', fromUrl);
-  fromUrl();
 })();
 </script>
