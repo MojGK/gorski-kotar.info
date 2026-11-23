@@ -1611,3 +1611,134 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   main.container { padding-bottom: 32px; }
   .section-title { margin: 26px 0 14px; }
 }
+
+
+/* Desktop naslovnica: mreža Najnovijeg ostaje na 12 kartica (m-fold samo na mobitelu) */
+@media (min-width: 900px) {
+  #clanci .post-card.m-fold { display: none !important; }
+}
+
+/* Vijesti po mjestima – vodoravni red (mobitel) / mreža (desktop) */
+.mjesta-red { margin: 8px 0 24px; }
+.mjesta-red .section-title { margin-bottom: 12px; }
+.mjesta-track {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+  padding: 2px 2px 10px;
+  -webkit-overflow-scrolling: touch;
+}
+.mjesto-card {
+  flex: 0 0 148px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2px;
+  min-height: 118px;
+  padding: 14px 12px 12px;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(160deg, #1a4d2e 0%, #22603a 70%, #1e5634 100%);
+  box-shadow: 0 4px 12px rgba(16, 40, 24, 0.18);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+.mjesto-card:hover, .mjesto-card:focus-visible {
+  color: #fff;
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(16, 40, 24, 0.24);
+  background: linear-gradient(160deg, #22603a 0%, #2e7d32 100%);
+}
+.mjesto-icon {
+  width: 28px; height: 28px; margin-bottom: auto;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(255,255,255,0.12); border-radius: 8px;
+}
+.mjesto-icon svg { width: 18px; height: 18px; fill: #e8f3ec; stroke: #e8f3ec; stroke-width: 1.2; stroke-linejoin: round; }
+.mjesto-ime { font-weight: 800; font-size: 0.98rem; line-height: 1.2; color: #fff; }
+.mjesto-broj { font-size: 0.75rem; font-weight: 600; color: #dcefe0; }
+@media (min-width: 900px) {
+  .mjesta-track {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    overflow: visible;
+    padding: 0;
+    gap: 12px;
+  }
+  .mjesto-card { flex: none; min-height: 132px; padding: 16px 14px 14px; }
+  .mjesto-ime { font-size: 1.05rem; }
+}
+
+/* Aktualno: natječaji i poslovi – kompaktne kartice s rokom */
+.aktualno-servisi { margin: 4px 0 24px; }
+.aktualno-servisi .section-title { margin-bottom: 12px; }
+.ak-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
+.ak-col-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin: 0 0 8px; }
+.ak-col-head h3 { margin: 0; font-size: 1rem; font-weight: 800; color: var(--primary); }
+.ak-sve { flex: 0 0 auto; font-size: 0.85rem; font-weight: 800; color: var(--accent); text-decoration: none; }
+.ak-sve:hover { text-decoration: underline; color: var(--primary); }
+.ak-cards { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.ak-card {
+  background: #fff;
+  border: 1px solid #e4d3b0;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(26, 77, 46, 0.06);
+}
+.ak-card-link {
+  display: flex; flex-direction: column; gap: 3px;
+  padding: 11px 13px; text-decoration: none; color: inherit;
+}
+.ak-card-link:hover { text-decoration: none; color: inherit; }
+.ak-card-link:hover .ak-title { color: var(--primary); }
+.ak-title { font-weight: 800; font-size: 0.95rem; line-height: 1.3; color: #17211b; }
+.ak-sub { font-size: 0.82rem; font-weight: 600; color: #3d5446; }
+.ak-meta { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: 0.78rem; font-weight: 600; color: #5a4a2a; margin-top: 2px; }
+.ak-rok { color: #6b4a16; }
+.ak-iznos, .ak-mjesto { color: #3d5446; }
+.ak-uskoro { border-color: #e0b36a; box-shadow: 0 0 0 1px rgba(201, 138, 0, 0.15); }
+.ak-uskoro .ak-rok { color: #8a3b00; font-weight: 800; }
+.ak-rok-danas { color: #8a1f00; }
+.ak-empty { margin: 0; font-size: 0.9rem; color: var(--muted); }
+@media (min-width: 900px) {
+  .ak-grid { grid-template-columns: 1fr 1fr; gap: 22px; }
+  .ak-title { font-size: 1rem; }
+}
+
+/* Promet / radar – kompaktna traka, sakriva se ako nema aktualnih stavki */
+.promet-traka {
+  margin: 4px 0 24px;
+  padding: 12px 14px 10px;
+  border-radius: 14px;
+  background: linear-gradient(160deg, #e6f4ea 0%, #f3faf5 70%, #fff 100%);
+  border: 1px solid #a9d5b5;
+  border-left: 5px solid var(--primary);
+}
+.pr-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.promet-traka .section-title { margin: 0; }
+.pr-sve { flex: 0 0 auto; font-size: 0.85rem; font-weight: 800; color: var(--accent); text-decoration: none; }
+.pr-sve:hover { text-decoration: underline; color: var(--primary); }
+.pr-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.pr-item { min-width: 0; }
+.pr-link {
+  display: flex; flex-direction: column; gap: 2px;
+  padding: 8px 10px; background: #fff; border-radius: 10px;
+  border: 1px solid #cfe5d7; text-decoration: none; color: inherit;
+}
+.pr-link:hover { text-decoration: none; border-color: var(--accent); }
+.pr-kicker { font-size: 0.7rem; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; color: var(--primary); }
+.pr-title { font-weight: 750; font-size: 0.92rem; line-height: 1.3; color: #17211b; }
+.pr-meta { font-size: 0.76rem; font-weight: 600; color: #3d5446; }
+@media (min-width: 700px) {
+  .pr-list { grid-template-columns: 1fr 1fr; }
+}
+
+/* Događanja na naslovnici: kartice usklađene s Aktualno */
+.dogadjanja-blok .job-hl-list { gap: 8px; }
+@media (min-width: 700px) {
+  .dogadjanja-blok .job-hl-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}

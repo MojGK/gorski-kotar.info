@@ -1,0 +1,51 @@
+{%- comment -%}
+Kompaktna traka Promet / Goranski radar na naslovnici.
+Prioritet: aktualna isključenja i obavijesti iz radar.yml (datum >= danas, site.time),
+inače do 2 najnovija članka vrste Promet iz zadnjih 7 dana. Ako nema ničeg aktualnog, traka se ne iscrtava.
+{%- endcomment -%}
+{%- include zivi-popis.html lista=site.data.radar.iskljucenja polje="datum" -%}
+{%- assign pr_isk = zp_lista -%}
+{%- include zivi-popis.html lista=site.data.radar.obavijesti polje="datum" -%}
+{%- assign pr_oba = zp_lista -%}
+{%- assign pr_stavke = pr_isk | concat: pr_oba -%}
+{%- assign pr_limit = 2 | minus: pr_stavke.size -%}
+{%- if pr_limit > 0 -%}
+  {%- assign pr_od = site.time | date: "%s" | plus: 0 | minus: 604800 -%}
+  {%- for p in site.posts -%}
+    {%- if pr_limit <= 0 -%}{%- break -%}{%- endif -%}
+    {%- unless p.type == "Promet" or p.categories contains "Promet" or p.tags contains "promet" -%}{%- continue -%}{%- endunless -%}
+    {%- assign pr_pd = p.date | date: "%s" | plus: 0 -%}
+    {%- if pr_pd < pr_od -%}{%- continue -%}{%- endif -%}
+    {%- assign pr_stavke = pr_stavke | push: p -%}
+    {%- assign pr_limit = pr_limit | minus: 1 -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- if pr_stavke.size > 0 %}
+<section class="promet-traka" id="promet-traka" aria-labelledby="promet-traka-naslov">
+  <div class="pr-head">
+    <h2 class="section-title" id="promet-traka-naslov">Promet i radar</h2>
+    <a class="pr-sve" href="{{ '/radar/' | relative_url }}">Goranski radar <span aria-hidden="true">→</span></a>
+  </div>
+  <ul class="pr-list">
+    {%- for s in pr_stavke limit: 2 %}
+      {%- if s.mjesto -%}
+    <li class="pr-item">
+      <a class="pr-link" href="{{ '/radar/' | relative_url }}">
+        <span class="pr-kicker">{% if s.vrsta %}{{ s.vrsta | capitalize }}{% else %}Obavijest{% endif %}</span>
+        <span class="pr-title">{{ s.mjesto }}{% if s.opis %}: {{ s.opis }}{% endif %}</span>
+        <span class="pr-meta">{{ s.datum | date: "%-d. %-m." }}{% if s.vrijeme %} · {{ s.vrijeme }}{% endif %}</span>
+      </a>
+    </li>
+      {%- else -%}
+    <li class="pr-item">
+      <a class="pr-link" href="{{ s.url | relative_url }}">
+        <span class="pr-kicker">Promet</span>
+        <span class="pr-title">{{ s.title }}</span>
+        <span class="pr-meta">{% include datum.html date=s.date show_time=false %}</span>
+      </a>
+    </li>
+      {%- endif -%}
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif -%}

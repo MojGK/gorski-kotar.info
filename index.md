@@ -34,16 +34,12 @@ sidebar: true
 
 {% include servisi-gradani.html %}
 
-{%- comment -%} Izdvojeno, Događanja, zatim mreža članaka. Na mobitelu prvih 12 kartica, ostale gumb „Prikaži sve članke”. Glavna vijest, Izdvojeno i Zaposlenje ne idu u mrežu. {%- endcomment %}
-{% include izdvojeno.html lead=lead %}
+{%- comment -%} Izdvojeno se izračuna prije mreže (izd_urls za de-duplikaciju), a iscrtava se ispod Najnovijeg. {%- endcomment -%}
+{% capture izdvojeno_html %}{% include izdvojeno.html lead=lead %}{% endcapture %}
 
-{% include dogadjanja-blok.html %}
-
-{% include tiktok-podrska.html %}
-
+{%- comment -%} Najnovije: 12 kartica na desktopu; na mobitelu istih 12 plus još do 12 uz „Prikaži sve članke”. Glavna vijest, Izdvojeno i Zaposlenje ne idu u mrežu. {%- endcomment %}
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
-  {%- comment -%} Naslovnica: samo 30 najnovijih (brzina); starije su na /arhiva/ i stranicama kategorija. {%- endcomment -%}
   {%- comment -%} Redoslijed po efektivnom vremenu (azurirano ili date), vidi _includes/sortirani-postovi.html {%- endcomment -%}
   {%- include sortirani-postovi.html -%}
   {%- assign shown_m = 0 -%}
@@ -52,7 +48,7 @@ sidebar: true
   {%- assign c_key = "|" | append: post.url | append: "|" -%}
   {%- if izd_urls contains c_key -%}{%- continue -%}{%- endif -%}
   {%- assign shown_m = shown_m | plus: 1 -%}
-  {%- if shown_m > 30 -%}{%- break -%}{%- endif -%}
+  {%- if shown_m > 24 -%}{%- break -%}{%- endif -%}
   {%- assign c_fold = false -%}
   {%- if shown_m > 12 -%}{%- assign c_fold = true -%}{%- endif -%}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
@@ -77,6 +73,18 @@ sidebar: true
 </div>
 <p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
 <p class="starije-vijesti"><a href="{{ '/arhiva/' | relative_url }}">Starije vijesti <span aria-hidden="true">→</span></a></p>
+
+{{ izdvojeno_html }}
+
+{% include mjesta-red.html %}
+
+{% include aktualno-servisi.html %}
+
+{% include dogadjanja-blok.html %}
+
+{% include promet-traka.html %}
+
+{% include tiktok-podrska.html %}
 
 <script>
 (function () {

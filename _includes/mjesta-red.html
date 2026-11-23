@@ -1,0 +1,32 @@
+{%- comment -%}
+Red kartica mjesta na naslovnici. Izvor: site.data.kategorije.lokacije, samo mjesta
+koja imaju stranicu kategorije. Broj članaka: kat-broj, bez Zaposlenja.
+{%- endcomment -%}
+<section class="mjesta-red" id="vijesti-po-mjestima" aria-labelledby="mjesta-red-naslov">
+  <h2 class="section-title" id="mjesta-red-naslov">Vijesti po mjestima</h2>
+  <div class="mjesta-track">
+    {%- for k in site.data.kategorije.lokacije -%}
+      {%- assign mj_page = site.pages | where: "layout", "kategorija" | where: "kategorija", k.name | first -%}
+      {%- if mj_page -%}
+        {%- include kat-broj.html name=k.name bez_vrste="Zaposlenje" -%}
+        {%- assign mj_rijec = "članaka" -%}
+        {%- if kat_n == 1 -%}
+          {%- assign mj_rijec = "članak" -%}
+        {%- else -%}
+          {%- assign mj_m10 = kat_n | modulo: 10 -%}
+          {%- assign mj_m100 = kat_n | modulo: 100 -%}
+          {%- if mj_m10 >= 2 and mj_m10 <= 4 and mj_m100 != 12 and mj_m100 != 13 and mj_m100 != 14 -%}
+            {%- assign mj_rijec = "članka" -%}
+          {%- endif -%}
+        {%- endif %}
+    <a class="mjesto-card" href="{{ '/kategorije/' | append: k.slug | append: '/' | relative_url }}">
+      <span class="mjesto-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" focusable="false"><path d="M3.5 18.5h17L14.6 9.2l-2.8 3.7-2.6-4.1z"/><path d="M5 18.5c2.2-1.4 4.4-2.1 7-2.1s4.8.7 7 2.1" fill="none"/></svg>
+      </span>
+      <span class="mjesto-ime">{{ k.name }}</span>
+      <span class="mjesto-broj">{{ kat_n }} {{ mj_rijec }}</span>
+    </a>
+      {%- endif -%}
+    {%- endfor %}
+  </div>
+</section>

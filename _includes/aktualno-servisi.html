@@ -1,0 +1,86 @@
+{%- comment -%}
+Naslovnica: kompaktne kartice 2–3 najaktualnija natječaja (_data/natjecaji.yml)
+i oglasa za posao (_data/poslovi.yml). Istekli (rok strogo prije site.time) se ne prikazuju.
+Rok unutar 7 dana dobiva oznaku „uskoro”.
+{%- endcomment -%}
+{%- include zivi-popis.html lista=site.data.natjecaji.natjecaji polje="rok" -%}
+{%- assign ak_nat = zp_lista -%}
+{%- include zivi-popis.html lista=site.data.poslovi.oglasi polje="rok" -%}
+{%- assign ak_pos = zp_lista -%}
+{%- assign ak_now = site.time | date: "%s" | plus: 0 -%}
+{%- if ak_nat.size > 0 or ak_pos.size > 0 %}
+<section class="aktualno-servisi" id="aktualno-servisi" aria-labelledby="aktualno-servisi-naslov">
+  <h2 class="section-title" id="aktualno-servisi-naslov">Aktualno: natječaji i poslovi</h2>
+  <div class="ak-grid">
+    <div class="ak-col">
+      <div class="ak-col-head">
+        <h3>Natječaji i stipendije</h3>
+        <a class="ak-sve" href="{{ '/natjecaji/' | relative_url }}">Sve <span aria-hidden="true">→</span></a>
+      </div>
+      {%- if ak_nat.size > 0 %}
+      <ul class="ak-cards">
+        {%- for o in ak_nat limit: 3 %}
+          {%- assign o_rok = o.rok | append: "" -%}
+          {%- assign o_is_date = false -%}{%- if o_rok.size == 10 and o_rok contains "-" -%}{%- assign o_is_date = true -%}{%- endif -%}
+          {%- assign o_uskoro = false -%}
+          {%- assign o_danas = false -%}
+          {%- if o_is_date -%}
+            {%- assign o_left = o.rok | date: "%s" | plus: 0 | minus: ak_now | divided_by: 86400 -%}
+            {%- if o_left < 1 -%}{%- assign o_danas = true -%}{%- assign o_uskoro = true -%}
+            {%- elsif o_left <= 7 -%}{%- assign o_uskoro = true -%}{%- endif -%}
+          {%- endif %}
+        <li class="ak-card{% if o_uskoro %} ak-uskoro{% endif %}">
+          <a class="ak-card-link" href="{{ o.clanak | default: '/natjecaji/' | relative_url }}">
+            <span class="ak-title">{{ o.naziv }}</span>
+            {%- if o.raspisivac %}<span class="ak-sub">{{ o.raspisivac }}</span>{% endif %}
+            <span class="ak-meta">
+              <span class="ak-rok{% if o_danas %} ak-rok-danas{% endif %}">{% if o_danas %}Rok danas{% elsif o_is_date %}Rok: {{ o.rok | date: "%-d. %-m. %Y." }}{% else %}Rok: {{ o.rok }}{% endif %}{% if o.rok_napomena %} ({{ o.rok_napomena }}){% endif %}{% if o_uskoro and o_danas == false %} · uskoro{% endif %}</span>
+              {%- if o.iznos %}<span class="ak-iznos">{{ o.iznos }}</span>{% endif %}
+              {%- if o.grad %}<span class="ak-mjesto">{{ o.grad }}</span>{% endif %}
+            </span>
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- else %}
+      <p class="ak-empty">Trenutno nema otvorenih natječaja. <a href="{{ '/natjecaji/' | relative_url }}">Arhiva →</a></p>
+      {%- endif %}
+    </div>
+    <div class="ak-col">
+      <div class="ak-col-head">
+        <h3>Zaposlenje</h3>
+        <a class="ak-sve" href="{{ '/zaposlenje/' | relative_url }}">Sve <span aria-hidden="true">→</span></a>
+      </div>
+      {%- if ak_pos.size > 0 %}
+      <ul class="ak-cards">
+        {%- for o in ak_pos limit: 3 %}
+          {%- assign o_rok = o.rok | append: "" -%}
+          {%- assign o_is_date = false -%}{%- if o_rok.size == 10 and o_rok contains "-" -%}{%- assign o_is_date = true -%}{%- endif -%}
+          {%- assign o_uskoro = false -%}
+          {%- assign o_danas = false -%}
+          {%- if o_is_date -%}
+            {%- assign o_left = o.rok | date: "%s" | plus: 0 | minus: ak_now | divided_by: 86400 -%}
+            {%- if o_left < 1 -%}{%- assign o_danas = true -%}{%- assign o_uskoro = true -%}
+            {%- elsif o_left <= 7 -%}{%- assign o_uskoro = true -%}{%- endif -%}
+          {%- endif -%}
+          {%- assign o_href = o.link | default: o.izvori.first.url | default: "/zaposlenje/" -%}
+          {%- assign o_ext = false -%}{%- if o_href contains "://" -%}{%- assign o_ext = true -%}{%- endif %}
+        <li class="ak-card{% if o_uskoro %} ak-uskoro{% endif %}">
+          <a class="ak-card-link" href="{% if o_ext %}{{ o_href }}{% else %}{{ o_href | relative_url }}{% endif %}"{% if o_ext %} target="_blank" rel="noopener"{% endif %}>
+            <span class="ak-title">{{ o.pozicija }}</span>
+            {%- if o.poslodavac %}<span class="ak-sub">{{ o.poslodavac }}</span>{% endif %}
+            <span class="ak-meta">
+              <span class="ak-rok{% if o_danas %} ak-rok-danas{% endif %}">{% if o_danas %}Rok danas{% elsif o_is_date %}Rok: {{ o.rok | date: "%-d. %-m. %Y." }}{% else %}Rok: {{ o.rok }}{% endif %}{% if o_uskoro and o_danas == false %} · uskoro{% endif %}</span>
+              {%- if o.mjesto %}<span class="ak-mjesto">{{ o.mjesto }}</span>{% endif %}
+            </span>
+          </a>
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- else %}
+      <p class="ak-empty">Trenutno nema aktualnih oglasa. <a href="{{ '/zaposlenje/' | relative_url }}">Arhiva →</a></p>
+      {%- endif %}
+    </div>
+  </div>
+</section>
+{%- endif -%}
