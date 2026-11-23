@@ -1,6 +1,5 @@
 ---
 layout: post
-featured: true
 title: "DHMZ: noćas u najvišem gorju kiša prelazi u susnježicu i snijeg, u četvrtak ponovno raste vjerojatnost"
 date: 2026-11-22 20:25:00 +0100
 location: Gorski kotar

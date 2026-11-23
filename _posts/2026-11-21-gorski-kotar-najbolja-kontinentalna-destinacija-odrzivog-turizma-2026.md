@@ -19,7 +19,7 @@ U ime Primorsko-goranske županije svečanosti su, prema priopćenju županije k
 
 Godišnje hrvatske turističke nagrade zajednički dodjeljuju Ministarstvo turizma i sporta, Hrvatska turistička zajednica i Hrvatska gospodarska komora. Šampion hrvatskog turizma za 2026. godinu je Zadar.
 
-Gorski kotar je u listopadu već dobio i međunarodnu nagradu [Destination Experience Award](/gorski-kotar-destination-experience-award/) za održivi turizam.
+Gorski kotar je u listopadu već dobio i međunarodnu nagradu [Destination Experience Award]({{ '/gorski-kotar-destination-experience-award/' | relative_url }}) za održivi turizam.
 
 ---
 
