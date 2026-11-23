@@ -8,7 +8,7 @@
 <div class="tags">
   {%- if o_loc %}<a class="tag tag-location" href="{{ '/kategorije/' | append: o_loc.slug | append: '/' | relative_url }}">📍 {{ o_loc.name }}</a>{% endif -%}
   {%- if o_type %}<a class="tag tag-type t-{{ o_type.slug }}" href="{% if o_type.slug == 'zaposlenje' %}{{ '/zaposlenje/' | relative_url }}{% elsif o_type.slug == 'promet' %}{{ '/radar/' | relative_url }}{% else %}{{ '/kategorije/' | append: o_type.slug | append: '/' | relative_url }}{% endif %}">{{ o_type.name }}</a>{% endif -%}
-  {%- if o_ser %}<a class="tag tag-series" href="{{ '/kategorije/' | append: o_ser.slug | append: '/' | relative_url }}">{{ o_ser.name }}</a>{% endif -%}
+  {%- assign o_ser_lab = o_ser.label | default: o_ser.name -%}{%- if o_ser and o_ser_lab != o_type.name %}<a class="tag tag-series" href="{{ '/kategorije/' | append: o_ser.slug | append: '/' | relative_url }}">{{ o_ser_lab }}</a>{% endif -%}
   {%- if o_post.tags contains "natjecaji" %}<a class="tag tag-type t-natjecaji" href="{{ '/natjecaji/' | relative_url }}">Natječaji i potpore</a>{% endif -%}
   {%- if o_post.tags contains "promet" and o_type.slug != "promet" %}<a class="tag tag-type t-promet" href="{{ '/radar/' | relative_url }}">Promet</a>{% endif -%}
 </div>

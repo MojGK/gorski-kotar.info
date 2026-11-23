@@ -50,9 +50,10 @@ layout: default
 
   {% include serija.html post=page %}
 
-  {% if page.source %}
-    <p class="source"><em>Izvor: {{ page.source }}</em></p>
-  {% endif %}
+  {%- assign iz_src = page.izvor | default: page.source -%}
+  {%- if iz_src -%}
+  <p class="post-izvor" id="izvor">{%- if iz_src.first -%}Izvor: {% for x in iz_src %}{% unless forloop.first %}, {% endunless %}{% if x.naziv %}{% if x.url %}<a href="{{ x.url }}" target="_blank" rel="noopener">{{ x.naziv }}</a>{% else %}{{ x.naziv }}{% endif %}{% else %}{{ x | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}{% endfor %}{%- else -%}Izvor: {{ iz_src | markdownify | remove: '<p>' | remove: '</p>' | strip }}{%- endif -%}</p>
+  {%- endif %}
 </article>
 
 {% include podijeli.html %}

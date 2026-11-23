@@ -1,6 +1,6 @@
 ---
 layout: kategorija
-title: "POVIJEST GK"
+title: "Povijest"
 kategorija: "POVIJEST GK"
 grupa: serijali
 permalink: /kategorije/povijest-gk/

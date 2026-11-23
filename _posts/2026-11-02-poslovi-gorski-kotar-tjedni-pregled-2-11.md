@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ZAPOSLENJE: KD Vodovod i kanalizacija traži direktora Podružnice Čabar i još 17 oglasa u Gorskom kotaru"
+title: "Zaposlenje: KD Vodovod i kanalizacija traži direktora Podružnice Čabar i još 17 oglasa u Gorskom kotaru"
 date: 2026-11-02 08:45:00 +0100
 location: Gorski kotar
 type: Zaposlenje

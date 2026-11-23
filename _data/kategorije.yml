@@ -68,6 +68,7 @@ vrste:
 serijali:
   - name: POVIJEST GK
     slug: povijest-gk
+    label: Povijest
     opis: Serijal o povijesti Gorskog kotara – mjesta, ljudi i priče iz prošlosti.
 
 # Rubrika "Izdvojeno" na naslovnici: 1 udarna vijest + po jedna vijest iz svake grupe mjesta

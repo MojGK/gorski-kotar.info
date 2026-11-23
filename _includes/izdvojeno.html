@@ -60,7 +60,7 @@ Grupe mjesta su u _data/kategorije.yml (izdvojeno_grupe).
         <span class="izd-overlay">
           <span class="card-badges">{% include prijelomna-oznaka.html post=p %}<span class="card-badge udarno">⚡ Udarno</span>{% if i_type %}<span class="card-badge t-{{ i_type.slug }}">{{ i_type.name }}</span>{% endif %}</span>
           <span class="izd-title">{{ p.title }}</span>
-          <span class="izd-meta">{% if i_loc %}<span>📍 {{ i_loc.name }}</span>{% endif %}<span>{% include datum.html date=p.date show_time=p.show_time %}</span></span>
+          <span class="izd-meta">{% if i_loc %}<span>📍 {{ i_loc.name }}</span>{% endif %}<span>{% include datum.html date=p.date show_time=p.show_time short=true %}</span></span>
         </span>
       </a>
     </article>

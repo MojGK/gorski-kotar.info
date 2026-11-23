@@ -1,20 +1,26 @@
 {%- comment -%}
 Datum (i vrijeme) objave. Poziv: {% include datum.html date=post.date show_time=post.show_time short=true %}
 Vrijeme se ne prikazuje ako je show_time: false ili ako je vrijeme točno 00:00:00 (članak bez stvarnog vremena objave).
+short=true: na karticama; JS u site.js pretvara u „danas u 14:05” / „jučer u 20:25” / „21. 11.” (starija godina s godinom). Bez JS-a ostaje poslužiteljski datum.
 {%- endcomment -%}
 {%- assign d_hms = include.date | date: "%H:%M:%S" -%}
 {%- assign d_time = true -%}
 {%- if include.show_time == false or d_hms == "00:00:00" -%}{%- assign d_time = false -%}{%- endif -%}
+{%- assign d_year = include.date | date: "%Y" -%}
+{%- assign d_nowy = site.time | date: "%Y" -%}
 {%- if include.short -%}
+  {%- if d_year == d_nowy -%}
+    {%- if d_time -%}{%- assign d_fb = include.date | date: "%-d. %-m. u %H:%M" -%}
+    {%- else -%}{%- assign d_fb = include.date | date: "%-d. %-m." -%}{%- endif -%}
+  {%- else -%}
+    {%- if d_time -%}{%- assign d_fb = include.date | date: "%-d. %-m. %Y. u %H:%M" -%}
+    {%- else -%}{%- assign d_fb = include.date | date: "%-d. %-m. %Y." -%}{%- endif -%}
+  {%- endif -%}
+<time datetime="{{ include.date | date_to_xmlschema }}" data-rel{% if d_time %} data-rel-time="1"{% endif %} data-short>{{ d_fb }}</time>
+{%- else -%}
 {%- if d_time -%}
-<time datetime="{{ include.date | date_to_xmlschema }}" data-short>{{ include.date | date: "%d. %m. u %H:%M" }}</time>
+<time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%-d. %-m. %Y. u %H:%M" }}</time>
 {%- else -%}
-<time datetime="{{ include.date | date: "%Y-%m-%d" }}">{{ include.date | date: "%d. %m." }}</time>
-{%- endif -%}
-{%- else -%}
-{%- if d_time -%}
-<time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: "%d. %m. %Y. u %H:%M" }}</time>
-{%- else -%}
-<time datetime="{{ include.date | date: "%Y-%m-%d" }}">{{ include.date | date: "%d. %m. %Y." }}</time>
+<time datetime="{{ include.date | date: "%Y-%m-%d" }}">{{ include.date | date: "%-d. %-m. %Y." }}</time>
 {%- endif -%}
 {%- endif -%}

@@ -27,7 +27,7 @@ sidebar: true
     </div>
   </a>
   <div class="lead-body">
-    <div class="lead-meta">{% include oznake.html post=lead %}<span class="meta">{% include datum.html date=lead.date show_time=lead.show_time %}</span></div>
+    <div class="lead-meta">{% include oznake.html post=lead %}<span class="meta">{% include datum.html date=lead.date show_time=lead.show_time short=true %}</span></div>
     {% if lead.image_credit %}<p class="lead-credit">{{ lead.image_credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
   </div>
 </section>
@@ -61,13 +61,13 @@ sidebar: true
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
       {% if post.image %}<img {% include thumb.html img=post.image %}{% if post.image_position %} style="object-position: {{ post.image_position }}"{% endif %} alt="{{ post.image_alt | default: post.title | escape }}" loading="lazy">{% else %}<span class="card-ph">🌲</span>{% endif %}
-      <span class="card-badges">{% include prijelomna-oznaka.html post=post %}{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{% if c_ser %}<span class="card-badge series">{{ c_ser.name }}</span>{% endif %}</span>
+      <span class="card-badges">{% include prijelomna-oznaka.html post=post %}{% if c_type %}<span class="card-badge t-{{ c_type.slug }}">{{ c_type.name }}</span>{% endif %}{%- assign c_ser_lab = c_ser.label | default: c_ser.name -%}{% if c_ser and c_ser_lab != c_type.name %}<span class="card-badge series">{{ c_ser_lab }}</span>{% endif %}</span>
     </a>
     <div class="content">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <div class="card-meta">
         {%- if c_loc %}<a class="card-loc" href="{{ '/kategorije/' | relative_url }}#{{ c_loc.slug }}">📍 {{ c_loc.name }}</a>{% endif -%}
-        <span class="card-date">{% include datum.html date=post.date show_time=post.show_time %}</span>{% include azurirano-oznaka.html post=post %}
+        <span class="card-date">{% include datum.html date=post.date show_time=post.show_time short=true %}</span>{% include azurirano-oznaka.html post=post %}
       </div>
       <p>{{ post.excerpt | strip_html | strip | truncate: 120 }}</p>
     </div>

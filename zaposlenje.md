@@ -22,7 +22,7 @@ Istekli oglasi se ne prikazuju (pri izradi stranice, a u pregledniku i JS-om). S
   <h2 class="section-title">Arhiva tjednih pregleda</h2>
   <ul class="zap-older">
     {%- for post in zap_posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false %}</span></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false short=true %}</span></li>
     {%- endfor %}
   </ul>
   {% endif %}

@@ -20,7 +20,7 @@ do 2 najnovija članka s type/kategorijom/oznakom Promet.
       <li class="job-hl">
         <a class="job-hl-link" href="{{ p.url | relative_url }}">
           <span class="job-hl-pos">{{ p.title }}</span>
-          <span class="job-hl-meta"><span class="job-hl-rok">{% include datum.html date=p.date show_time=false %}</span>{% if p.location %}<span>📍 {{ p.location }}</span>{% endif %}</span>
+          <span class="job-hl-meta"><span class="job-hl-rok">{% include datum.html date=p.date show_time=false short=true %}</span>{% if p.location %}<span>📍 {{ p.location }}</span>{% endif %}</span>
           <span class="job-hl-cta">Pročitaj članak <span aria-hidden="true">→</span></span>
         </a>
       </li>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ZAPOSLENJE: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 28 oglasa u Gorskom kotaru"
+title: "Zaposlenje: Hrvatski zavod za mirovinsko osiguranje traži višeg referenta u Delnicama i još 28 oglasa u Gorskom kotaru"
 date: 2026-10-27 12:45:00 +0100
 location: Gorski kotar
 type: Zaposlenje

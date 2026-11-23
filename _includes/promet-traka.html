@@ -41,7 +41,7 @@ inače do 2 najnovija članka vrste Promet iz zadnjih 7 dana. Ako nema ničeg ak
       <a class="pr-link" href="{{ s.url | relative_url }}">
         <span class="pr-kicker">Promet</span>
         <span class="pr-title">{{ s.title }}</span>
-        <span class="pr-meta">{% include datum.html date=s.date show_time=false %}</span>
+        <span class="pr-meta">{% include datum.html date=s.date show_time=false short=true %}</span>
       </a>
     </li>
       {%- endif -%}

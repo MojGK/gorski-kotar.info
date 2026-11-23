@@ -28,7 +28,7 @@ poveznice /kategorije/#<slug> preko assets/js/kategorije.js otvaraju stranicu te
       {%- assign kh_zadnji = nil -%}
       {%- for p in sortirani -%}{%- if p.location == k.name or p.type == k.name or p.categories contains k.name -%}{%- assign kh_zadnji = p -%}{%- break -%}{%- endif -%}{%- endfor %}
       <a class="kat-tile{% if kat_n == 0 %} is-empty{% endif %}" id="{{ k.slug }}" href="{{ kh_url | relative_url }}">
-        <span class="kt-top"><span class="kt-name">{% if g == "vrste" %}<span class="kt-dot t-{{ k.slug }}" aria-hidden="true"></span>{% endif %}{{ k.name }}</span><span class="kt-count">{{ kat_n }} <small>{% include broj-clanaka.html n=kat_n %}</small></span></span>
+        <span class="kt-top"><span class="kt-name">{% if g == "vrste" %}<span class="kt-dot t-{{ k.slug }}" aria-hidden="true"></span>{% endif %}{{ k.label | default: k.name }}</span><span class="kt-count">{{ kat_n }} <small>{% include broj-clanaka.html n=kat_n %}</small></span></span>
         {%- if kh_zadnji %}<span class="kt-latest">{{ kh_zadnji.title | truncate: 80 }}</span>{% else %}<span class="kt-latest">Još nema članaka.</span>{% endif %}
         <span class="kt-arrow" aria-hidden="true">›</span>
       </a>

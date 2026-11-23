@@ -10,7 +10,7 @@ sidebar: true
   <h1>Povijest</h1>
   <p class="kat-broj"><strong>{{ pov_posts.size }}</strong> {% include broj-clanaka.html n=pov_posts.size %} · najnoviji prvi</p>
   <p class="intro">Priče iz prošlosti Gorskog kotara – mjesta, ljudi i događaji.
-  Svi nastavci serijala <a href="{{ '/kategorije/povijest-gk/' | relative_url }}">POVIJEST GK</a>.</p>
+  Svi nastavci serijala <a href="{{ '/kategorije/povijest-gk/' | relative_url }}">Povijest</a>.</p>
   {% if pov_posts.size > 0 %}
 {% include clanci-lista.html posts=pov_posts id="kl" %}
   {% else %}

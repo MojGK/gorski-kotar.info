@@ -31,7 +31,7 @@ excerpt: Kratki opis...
 image: /assets/images/naziv-slike.jpg
 image_alt: "Opis slike"
 image_credit: "Fotografija: Autor / [Izvor](https://...), licenca"
-source: "[Naziv izvora](https://...)"
+izvor: "[Naziv izvora](https://...)"
 ---
 
 Tekst članka...
@@ -48,7 +48,25 @@ ukratko:
   - Treća natuknica.
 ```
 
-### Najave događaja (stranica Događaji)
+
+### Izvor
+
+Na dnu svakog članka stoji sitni, prigušeni redak **Izvor: …** (12–13 px). Preferirano polje u front matteru je `izvor` (starije `source` i dalje radi). Može biti jedan niz ili YAML popis naziva, odnosno stavki `naziv` + `url`:
+
+```markdown
+izvor: "[Radio Gorski kotar](https://rgk.hr/...)"
+```
+
+```markdown
+izvor:
+  - naziv: Radio Gorski kotar
+    url: https://rgk.hr/...
+  - Policija
+```
+
+Navodi se konkretan medij ili institucija (HRT, Radio Gorski kotar, Gorske novosti, Policija…), ne samo „prema navodima”. Ako polja nema, a na kraju teksta stoji odlomak ili naslov **Izvori:** / **Izvor:**, taj se blok automatski prikazuje istim sitnim slogom. Ne prepisuj masovno stare članke; novo polje dodaj u nove tekstove i postupno u postojeće.
+
+### Najave događanja (stranica `/dogadaji/`)
 
 Najava događaja koji tek slijedi dobiva i polja s datumom događaja:
 
@@ -67,7 +85,7 @@ excerpt: ...
 ---
 ```
 
-- Stranica `/dogadaji/` (izbornik **Događaji**) prikazuje samo najave koje još nisu prošle, najbliža prva. Događaj je prošao kad prođe `event_end`, a ako njega nema, 3 sata nakon `event_date`. Provjera se radi pri izradi stranice i u pregledniku, pa prošli događaji nestaju i bez novog pusha. Na samoj najavi tada piše „Ovaj događaj je prošao.“
+- Stranica `/dogadaji/` (izbornik **Događanja**, URL ostaje `/dogadaji/`) prikazuje samo najave koje još nisu prošle, najbliža prva. Događaj je prošao kad prođe `event_end`, a ako njega nema, 3 sata nakon `event_date`. Provjera se radi pri izradi stranice i u pregledniku, pa prošli događaji nestaju i bez novog pusha. Na samoj najavi tada piše „Ovaj događaj je prošao.“
 - Izvještaji s već održanih događaja **nemaju** `event_date`.
 - Kategorija Događanja (filteri, bočna traka, `/kategorije/`) i dalje prikazuje sve članke te vrste, i prošle i buduće.
 - Stranica `/povijest/` (izbornik **Povijest**) prikazuje sve članke vrste Povijest i serijala POVIJEST GK, najnoviji prvi.
@@ -92,6 +110,35 @@ excerpt: ...
 - Stariji članci bez poznatog vremena imaju samo datum (`date: YYYY-MM-DD`) i `show_time: false` – za njih se prikazuje samo „18. 10. 2026.“ (u traci „18. 10.“). Isto vrijedi za svaki datum s vremenom 00:00:00.
 - Vrijeme ne smije biti u budućnosti – Jekyll inače preskače članak dok to vrijeme ne prođe.
 - Glavni članak na naslovnici je najnoviji; za ručni odabir dodaj `featured: true` (samo jednom članku).
+
+
+### Uredničke smjernice
+
+Primjenjuj od sada na nove članke i postupno na postojeće gdje je lako. Nemoj masovno prepisivati stare tekstove.
+
+**Naslov**
+
+- 40–70 znakova, na mobitelu najviše 2 retka.
+- Najvažnije na početak; ostatak u uvod.
+- Mjesto ne ponavljati u naslovu (već stoji u oznaci).
+- Bez VELIKIH SLOVA (osim uobičajenih kratica: DHMZ, HAK, PGŽ…) i bez uskličnika.
+
+**Crna kronika**
+
+- U naslovu ne navoditi državljanstvo.
+- Uvijek „zbog sumnje”.
+- Izvor je policija (u retku Izvor i, po potrebi, u tekstu).
+
+**Kategorije**
+
+- Svaki članak ima jedno mjesto (`location`) i jednu rubriku (`type`).
+- Jedinstveni nazivi: **Događanja** (ne Događaji) i **Povijest** (ne Povijest GK / POVIJEST GK u prikazu; u `categories` serijal i dalje može biti `POVIJEST GK` zbog podudaranja).
+- Rubrike **Aktualno** i mjesto **Gorski kotar** su preširoke — nove članke raspoređuj u preciznije rubrike i mjesta. Stare ne prebacuj masovno.
+
+**Datumi na karticama**
+
+- Jedinstveni zapis: „danas u 14:05”, „jučer u 20:25”, inače „21. 11.”, a za stariju godinu „21. 11. 2025.” (JS u `assets/js/site.js`, poslužiteljski pričuvni datum u `_includes/datum.html`).
+- Na stranici članka ostaje puni datum, npr. „23. 11. 2026. u 14:05”.
 
 ### Kategorije
 

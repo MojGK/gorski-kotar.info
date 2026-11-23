@@ -23,7 +23,7 @@ Povezani članci biraju se oznakom (tag) natjecaji.
   <h2 class="section-title">Povezani članci</h2>
   <ul class="zap-older">
     {%- for post in nj_posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false %}</span></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false short=true %}</span></li>
     {%- endfor %}
   </ul>
   {% endif %}

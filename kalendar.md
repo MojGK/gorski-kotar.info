@@ -28,7 +28,7 @@ jer GitHub Pages gradi stranicu samo pri pushu. Gumb „Prošla događanja“ ih
 <div class="events-page kalendar-page">
   <h1>Kalendar događanja</h1>
   <p class="intro">Svi najavljeni događaji u Gorskom kotaru po datumu. Popis s karticama i filterom po mjestu je na stranici
-  <a href="{{ '/dogadaji/' | relative_url }}">Događaji</a>.</p>
+  <a href="{{ '/dogadaji/' | relative_url }}">Događanja</a>.</p>
   <p><button type="button" class="filter-btn" id="kal-prosli" aria-pressed="false">Prikaži prošla događanja</button></p>
   <div class="kalendar" id="kalendar">
   {%- assign k_cur = "" -%}

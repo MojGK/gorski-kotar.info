@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DELNICE SPREMNE ZA OBILAN SNIJEG: gradske ceste prohodne, bez zastoja"
+title: "Delnice spremne za obilan snijeg: gradske ceste prohodne, bez zastoja"
 date: 2026-11-13 19:18:00 +0100
 location: Delnice
 type: Promet

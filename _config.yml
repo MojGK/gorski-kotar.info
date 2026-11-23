@@ -12,7 +12,7 @@ timezone: Europe/Zagreb
 nav:
   - title: Početna
     url: /
-  - title: Događaji
+  - title: Događanja
     url: /dogadaji/
   - title: Kalendar
     url: /kalendar/

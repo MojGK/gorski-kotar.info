@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Goranka razbila Poštar 8:0! Prva pobjeda sezone i skok na 8. mjesto"
+title: "Goranka razbila Poštar 8:0 – prva pobjeda sezone i skok na 8. mjesto"
 date: 2026-11-16 09:32:00 +0100
 location: Ravna Gora
 type: Sport

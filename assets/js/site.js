@@ -3,22 +3,71 @@
   var BASE = window.SITE_BASE || '';
   var TZ = 'Europe/Zagreb';
 
-  /* ---------- Vrijeme: "11:40" za današnje, inače "23. 10. u 11:40" ---------- */
+  /* ---------- Datumi na karticama: „danas u 14:05”, „jučer u 20:25”, inače „21. 11.” ---------- */
   function ymd(d) {
     try {
       return new Intl.DateTimeFormat('en-CA', { timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
-    } catch (e) { return d.toDateString(); }
+    } catch (e) {
+      var y = d.getFullYear(), m = d.getMonth() + 1, day = d.getDate();
+      return y + '-' + ('0' + m).slice(-2) + '-' + ('0' + day).slice(-2);
+    }
   }
   function hm(d) {
     try {
-      return new Intl.DateTimeFormat('hr-HR', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hour12: false }).format(d);
+      var parts = new Intl.DateTimeFormat('en-GB', { timeZone: TZ, hour: '2-digit', minute: '2-digit', hour12: false }).formatToParts(d);
+      var h = '00', m = '00';
+      parts.forEach(function (p) { if (p.type === 'hour') h = p.value; if (p.type === 'minute') m = p.value; });
+      return h + ':' + m;
     } catch (e) { return ''; }
   }
+  function yesterdayYmd(todayStr) {
+    var p = todayStr.split('-');
+    var dt = new Date(Date.UTC(+p[0], +p[1] - 1, +p[2]));
+    dt.setUTCDate(dt.getUTCDate() - 1);
+    return dt.toISOString().slice(0, 10);
+  }
   var today = ymd(new Date());
-  document.querySelectorAll('time[data-short]').forEach(function (t) {
-    var d = new Date(t.getAttribute('datetime'));
-    if (!isNaN(d) && ymd(d) === today) { t.textContent = hm(d); t.classList.add('today'); }
+  var yest = yesterdayYmd(today);
+  var thisYear = today.slice(0, 4);
+  document.querySelectorAll('time[data-rel], time[data-short]').forEach(function (el) {
+    var iso = el.getAttribute('datetime');
+    if (!iso) return;
+    var d = new Date(iso);
+    if (isNaN(d)) return;
+    var day = ymd(d);
+    var year = day.slice(0, 4);
+    var hasTime = el.getAttribute('data-rel-time') === '1';
+    var timeBit = hasTime ? (' u ' + hm(d)) : '';
+    var label;
+    if (day === today) {
+      label = 'danas' + timeBit;
+      el.classList.add('today');
+    } else if (day === yest) {
+      label = 'jučer' + timeBit;
+    } else {
+      label = (+day.slice(8, 10)) + '. ' + (+day.slice(5, 7)) + '.';
+      if (year !== thisYear) label += ' ' + year + '.';
+    }
+    el.textContent = label;
   });
+
+  /* ---------- Izvori na dnu članka: sitni prigušeni redak ---------- */
+  (function () {
+    var root = document.querySelector('.post-content');
+    if (!root) return;
+    var nodes = root.querySelectorAll('p, h2, h3');
+    for (var i = nodes.length - 1; i >= 0; i--) {
+      var txt = (nodes[i].textContent || '').replace(/^\s+/, '');
+      if (/^Izvori?\b/i.test(txt)) {
+        nodes[i].classList.add('post-izvor');
+        if (/^H[23]$/.test(nodes[i].tagName)) {
+          var n = nodes[i].nextElementSibling;
+          while (n) { n.classList.add('post-izvor'); n = n.nextElementSibling; }
+        }
+        break;
+      }
+    }
+  })();
 
   /* ---------- Pretraga ---------- */
   function norm(s) {

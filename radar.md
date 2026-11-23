@@ -70,7 +70,7 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
   <p class="radar-napomena">Popis naših objava, ne službeni popis upozorenja koja su trenutačno na snazi.</p>
   <ul class="zap-older">
     {%- for post in dhmz_upoz limit: 6 %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false %}</span></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false short=true %}</span></li>
     {%- endfor %}
   </ul>
   {% endif %}
@@ -90,7 +90,7 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
   <h3 class="radar-podnaslov">Najnovije vijesti o prometu</h3>
   <ul class="zap-older">
     {%- for post in pr_posts %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false %}</span></li>
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="meta">{% include datum.html date=post.date show_time=false short=true %}</span></li>
     {%- endfor %}
   </ul>
   {% else %}
@@ -113,7 +113,7 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
     {%- for i in rd_isk %}
     <li>
       <strong>{{ i.mjesto }}</strong>{% if i.opis %} — {{ i.opis }}{% endif %}
-      <span class="meta">{% include datum.html date=i.datum show_time=false %}{% if i.vrijeme %} · {{ i.vrijeme }}{% endif %}{% if i.vrsta %} · {{ i.vrsta }} radovi{% endif %}</span>
+      <span class="meta">{% include datum.html date=i.datum show_time=false short=true %}{% if i.vrijeme %} · {{ i.vrijeme }}{% endif %}{% if i.vrsta %} · {{ i.vrsta }} radovi{% endif %}</span>
       {% if i.izvor %}<span class="radar-izvor">Izvor: {{ i.izvor }}</span>{% endif %}
     </li>
     {%- endfor %}
@@ -131,7 +131,7 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
     <li>
       <strong>{{ i.naslov | default: i.vrsta }}</strong>{% if i.mjesto %} — {{ i.mjesto }}{% endif %}
       {% if i.opis %}<span class="radar-opis">{{ i.opis }}</span>{% endif %}
-      <span class="meta">{% if i.datum %}{% include datum.html date=i.datum show_time=false %}{% endif %}{% if i.datum_do %} – {{ i.datum_do | date: "%-d. %-m. %Y." }}{% endif %}</span>
+      <span class="meta">{% if i.datum %}{% include datum.html date=i.datum show_time=false short=true %}{% endif %}{% if i.datum_do %} – {{ i.datum_do | date: "%-d. %-m. %Y." }}{% endif %}</span>
       {% if i.izvor %}<span class="radar-izvor">Izvor: {% if i.izvor_url %}<a href="{{ i.izvor_url }}" target="_blank" rel="noopener">{{ i.izvor }}</a>{% else %}{{ i.izvor }}{% endif %}</span>{% endif %}
     </li>
     {%- endfor %}

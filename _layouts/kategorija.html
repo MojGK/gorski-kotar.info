@@ -19,7 +19,7 @@ Prvih 10 članaka + gumb „VIŠE” (zajednički include clanci-lista.html), fi
 <div class="kat-page" data-grupa="{{ page.grupa }}">
   <nav class="kat-crumbs" aria-label="Putanja"><a href="{{ '/kategorije/' | relative_url }}">Kategorije</a> <span aria-hidden="true">›</span> <span>{{ kt_grupa }}</span></nav>
   <header class="kat-head">
-    <h1>{{ kt_ikona }}{{ kt_ime }}</h1>
+    <h1>{{ kt_ikona }}{{ kt_k.label | default: kt_ime }}</h1>
     <p class="kat-broj"><strong data-kat-broj>{{ kt_posts.size }}</strong> <span data-kat-rijec>{% include broj-clanaka.html n=kt_posts.size %}</span>{% if kt_posts.size > 0 %} · najnoviji prvi{% endif %}</p>
     {%- if kt_k.opis %}<p class="kat-opis">{{ kt_k.opis }}</p>{% endif %}
   </header>

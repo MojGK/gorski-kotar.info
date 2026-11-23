@@ -8,7 +8,7 @@ Prošli se izbacuju pri izradi stranice, a u pregledniku ih skriva JS (GitHub Pa
 <section class="zaposlenje-blok dogadjanja-blok" id="dogadjanja-blok" aria-labelledby="dogadjanja-blok-naslov">
   <div class="zb-head">
     <h2 id="dogadjanja-blok-naslov"><span aria-hidden="true">📅</span> Događanja</h2>
-    <a class="zb-all" href="{{ '/dogadaji/' | relative_url }}">Svi događaji →</a>
+    <a class="zb-all" href="{{ '/dogadaji/' | relative_url }}">Sva događanja →</a>
   </div>
   {%- if db_lista.size > 0 %}
   <div class="job-highlights" data-dog-blok>
@@ -33,7 +33,7 @@ Prošli se izbacuju pri izradi stranice, a u pregledniku ih skriva JS (GitHub Pa
   <script>
   (function () {
     var box = document.querySelector('[data-dog-blok]'); if (!box) return;
-    var d = new Date(), t = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2), n = 0;
+    var t = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date()), n = 0;
     box.querySelectorAll('[data-do]').forEach(function (li) { var ok = li.getAttribute('data-do') >= t && n < 3; li.hidden = !ok; if (ok) n++; });
     if (!n) box.hidden = true;
   })();

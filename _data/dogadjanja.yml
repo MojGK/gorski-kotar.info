@@ -2,7 +2,7 @@
 # Upute: _data/README-zaposlenje-dogadjanja.md
 # Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
 # u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
-azurirano: 2026-11-21
+azurirano: 2026-11-23
 dogadjaji:
 - naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
   datum: 2026-11-13
@@ -22,11 +22,12 @@ dogadjaji:
   opis: Gostuje zagrebačka družina Doza drame.
   link: /postolar-i-vrag-kotar-teatar-delnice/
 - naziv: "Dječji filmski maraton – „Mačak u šeširu” i daljnje projekcije"
-  datum: 2026-11-22
+  datum: 2026-12-06
+  datum_do: 2027-01-03
   vrijeme: "18:00"
   mjesto: Mrkopalj
   grad: Mrkopalj
-  opis: "Prva projekcija 22. 11. filmom „Mačak u šeširu”; nastavak 6. 12., 20. 12. i 3. 1. 2027. u 18:00. Točan prostor projekcije nije naveden."
+  opis: "Sljedeće projekcije 6. 12., 20. 12. i 3. 1. 2027. u 18:00 (prva, 22. 11., filmom „Mačak u šeširu” već je održana). Točan prostor projekcije nije naveden."
   link: https://ravna-gora.com/gk-pregled/
 - naziv: Javna tribina o katastarskoj izmjeri građevinskih područja Općine Lokve
   datum: 2026-11-24

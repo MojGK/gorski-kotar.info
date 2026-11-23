@@ -21,7 +21,7 @@
     <ol class="latest-list">
       {{ sb_items }}
     </ol>
-    <p class="sidebar-more"><a href="{{ '/dogadaji/' | relative_url }}">Svi događaji →</a></p>
+    <p class="sidebar-more"><a href="{{ '/dogadaji/' | relative_url }}">Sva događanja →</a></p>
   </div>
   {%- endif -%}
   {%- endif %}
@@ -63,7 +63,7 @@
     <ul class="cat-list">
       {%- for k in site.data.kategorije.serijali %}
       {%- include kat-broj.html name=k.name %}
-      <li><a href="{{ '/kategorije/' | relative_url }}#{{ k.slug }}">{{ k.name }}</a> <span class="count">{{ kat_n }}</span></li>
+      <li><a href="{{ '/kategorije/' | relative_url }}#{{ k.slug }}">{{ k.label | default: k.name }}</a> <span class="count">{{ kat_n }}</span></li>
       {%- endfor %}
     </ul>
   </div>
