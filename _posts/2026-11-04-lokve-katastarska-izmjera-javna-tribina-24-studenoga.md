@@ -3,15 +3,17 @@ layout: post
 title: "Lokve: počinje katastarska izmjera, javna tribina za mještane 24. studenoga"
 date: 2026-11-04 11:30:00 +0100
 istaknuto: true
-azurirano: 2026-11-20 20:12:00 +0100
+azurirano: 2026-11-23 09:10:00 +0100
 location: Lokve
 type: Aktualno
 categories: [Lokve, Aktualno]
-excerpt: "Općina Lokve održala je radni sastanak s izvođačem katastarske izmjere, a mještane poziva na javni skup 24. studenoga u dvorani Općine."
+excerpt: "Općina Lokve objavila je upitnik za vlasnike, posjednike i upravitelje nekretnina u sklopu katastarske izmjere. Upitnik se vraća Geoprojektu ili Općini; rok za predaju nije naveden. Javni skup ostaje 24. studenoga u 18 sati u dvorani Općine."
 image: /assets/images/lokve-homer-panorama.jpg
 image_alt: "Pogled na Lokve i okolne šume"
 image_credit: "Foto: Szeder László / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HR-PG-Lokve07.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 ---
+
+**Dopuna 23. 11.:** Općina Lokve objavila je upitnik za vlasnike, posjednike i upravitelje nekretnina, za potrebe obnove katastarskog operata i zemljišne knjige u sklopu višegodišnjeg programa katastarskih izmjera. Upitnik treba ispuniti i vratiti djelatnicima Geoprojekta d.d. Opatija u ured izvođača radova, u prostorije Općine Lokve (u kutije predviđene za upitnike) ili e-poštom na izmjera.lokve@geoprojekt.com. U službenoj obavijesti i na samom obrascu **nije naveden rok** za vraćanje. Na obrascu je navedeno da se upitnik može ispuniti i na mreži. Javni skup za vlasnike ostaje u utorak, **24. studenoga, u 18 sati** u dvorani Općine Lokve.
 
 **Dopuna 20. 11.:** Na području Općine Lokve, prema [Radiu Gorski kotar](https://rgk.hr/zapocinje-katastarska-izmjera-gradevinskog-podrucja-za-dijelove-katastarske-opcine-lokve/) od 20. studenoga 2026., započinje katastarska izmjera građevinskog područja za dijelove katastarske općine Lokve. RGK piše da su tim povodom danas u Lokvama boravili predstavnici nadležnih institucija i da su s općinskim vodstvom razmotreni završni operativni koraci uoči početka terenskih radova. Izvođač je, kao i dosad, tvrtka Geoprojekt d.d. Opatija, pod nadzorom Državne geodetske uprave.
 
@@ -42,4 +44,6 @@ Za vlasnike je to prilika da im se nekretnine srede bez vlastitog geodeta. Uobi�
 - [Adjudera (pregled TED obavijesti) – Geoprojekt d.d., Lokve](https://adjudera.com/en/award/747791-2026-res-0068)
 - [Novi list – Na području Općine Lokve uskoro katastarska izmjera](https://www.novilist.hr/rijeka-regija/gorski-kotar/na-podrucju-opcine-lokve-uskoro-katastarska-izmjera/)
 - [DGU – Višegodišnji program katastarskih izmjera, za građane](https://www.visegodisnjiprogram.dgu.hr/za-gradane/)
+- [Općina Lokve – Upitnik za vlasnike, posjednike i upravitelje na nekretninama (23. 11. 2026.)](https://lokve.hr/vijesti/upitnik-za-vlasnike-posjednike-i-upravitelje-na-nekretninama-a-za-potrebe-obnove-katastarskog-operata-i-zemljisne-knjige-u-sklopu-provedbe-visegodisnjeg-programa-katastarskih-izmjera)
+- [Općina Lokve – obrazac upitnika (PDF)](https://lokve.hr/wp-content/uploads/2026/11/Upitnik_izmjera_Lokve.pdf)
 - [Radio Gorski kotar, 20. 11. 2026. – radni posjet i najava početka izmjere](https://rgk.hr/zapocinje-katastarska-izmjera-gradevinskog-podrucja-za-dijelove-katastarske-opcine-lokve/)
