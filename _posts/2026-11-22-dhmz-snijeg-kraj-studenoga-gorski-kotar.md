@@ -8,6 +8,10 @@ type: Promet
 categories: [Gorski kotar, Promet]
 tags: [promet]
 excerpt: "Državni hidrometeorološki zavod najavljuje da će krajem nedjelje i u noći na ponedjeljak, uz zahladnjenje, kiša u najvišem gorju prelaziti u susnježicu i snijeg. Službeni izgledi vremena za četvrtak ponovno navode rast vjerojatnosti za susnježicu i snijeg u gorju, bez navedenih količina."
+ukratko:
+  - "DHMZ je za nedjelju navečer i noć na ponedjeljak, 23. studenoga, u najvišem gorju najavio prelazak kiše u susnježicu i snijeg."
+  - "Za ponedjeljak je za Primorsko-goransku županiju izdano samo žuto upozorenje zbog vjetra, od ponoći do podneva; upozorenje zbog snijega nije izdano."
+  - "U izgledima vremena u četvrtak, 26. studenoga, ponajprije u gorju ponovno raste vjerojatnost za susnježicu i snijeg; količine snijega nisu navedene."
 image: /assets/images/snijeg-petak-gorski-kotar-hac-zimska-sluzba-ai.jpg
 image_alt: "AI ilustracija: žuto vozilo zimske službe na mokroj goranskoj cesti kroz smrekovu šumu, u sumrak i uz padanje snijega"
 image_credit: "AI ilustracija"

@@ -37,6 +37,17 @@ source: "[Naziv izvora](https://...)"
 Tekst članka...
 ```
 
+### Ukratko
+
+Za dulje članke u front matter može ići neobavezno polje `ukratko:` — YAML popis od 2 do 4 kratke natuknice. Koristi ga samo kad članak ima dovoljno činjenica za sažetak (npr. natječaj, javni poziv, duža vijest). Natuknice moraju biti isključivo činjenice koje već stoje u tekstu, bez novih tvrdnji i bez ocjena. Ispod naslova i datuma tada se prikaže okvir **Ukratko** s tim točkama. Ako polja nema, ništa se ne iscrtava. Kratke vijesti to polje ne trebaju.
+
+```markdown
+ukratko:
+  - Prva natuknica.
+  - Druga natuknica.
+  - Treća natuknica.
+```
+
 ### Najave događaja (stranica Događaji)
 
 Najava događaja koji tek slijedi dobiva i polja s datumom događaja:

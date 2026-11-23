@@ -20,6 +20,16 @@ layout: default
       {% include datum.html date=page.date show_time=page.show_time %} · {{ site.author.name | default: "Gorski Kotar Info" }}{% include azurirano-oznaka.html post=page %}
     </div>
     {% if page.event_date %}{% include dogadaj-info.html post=page note=true %}{% endif %}
+    {% if page.ukratko and page.ukratko.size > 0 %}
+    <aside class="ukratko" aria-labelledby="ukratko-naslov">
+      <h2 id="ukratko-naslov">Ukratko</h2>
+      <ul>
+        {% for stavka in page.ukratko %}
+        <li>{{ stavka | escape }}</li>
+        {% endfor %}
+      </ul>
+    </aside>
+    {% endif %}
     {%- assign lede = page.excerpt | strip_html | strip -%}
     {%- assign first_para = content | split: '</p>' | first | strip_html | strip -%}
     {% if lede != "" and lede != first_para %}<p class="lede">{{ lede }}</p>{% endif %}

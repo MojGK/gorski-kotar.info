@@ -8,6 +8,10 @@ location: Lokve
 type: Aktualno
 categories: [Lokve, Aktualno]
 excerpt: "Općina Lokve objavila je upitnik za vlasnike, posjednike i upravitelje nekretnina u sklopu katastarske izmjere. Upitnik se vraća Geoprojektu ili Općini; rok za predaju nije naveden. Javni skup ostaje 24. studenoga u 18 sati u dvorani Općine."
+ukratko:
+  - "Javni skup za vlasnike održava se u utorak, 24. studenoga 2026., u 18 sati u dvorani Općine Lokve, Šetalište Golubinjak 6."
+  - "Upitnik za vlasnike, posjednike i upravitelje nekretnina vraća se Geoprojektu, u prostorije Općine ili e-poštom; rok za predaju nije naveden."
+  - "Izvođač je Geoprojekt d.d. Opatija, pod nadzorom Državne geodetske uprave; izmjera ne obuhvaća Mrzlu Vodicu."
 image: /assets/images/lokve-homer-panorama.jpg
 image_alt: "Pogled na Lokve i okolne šume"
 image_credit: "Foto: Szeder László / [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:HR-PG-Lokve07.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"

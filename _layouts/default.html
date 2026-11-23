@@ -102,9 +102,14 @@
         <button type="submit" aria-label="Traži">🔍</button>
         <div id="search-results" class="search-results" role="listbox" hidden></div>
       </form>
-      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="glavni-izbornik" aria-label="Otvori izbornik">
-        <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
-      </button>
+      <div class="header-actions">
+        <a class="header-search-btn" href="{{ '/pretraga/' | relative_url }}" aria-label="Traži"{% if nav_sec == "trazi" %} aria-current="page"{% endif %}>
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+        </a>
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="glavni-izbornik" aria-label="Otvori izbornik">
+          <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
     </div>
     <div class="filter-rows">
       <nav class="filter-row filter-row-vijesti" aria-label="Vijesti">
