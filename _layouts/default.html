@@ -83,19 +83,7 @@
           <span class="tagline">{{ site.tagline | default: site.description }}</span>
         </span>
       </a>
-      <nav class="main-nav" id="glavni-izbornik" aria-label="Glavna navigacija">
-        {%- for item in site.nav %}
-          {%- assign nav_cur = false -%}
-          {%- if page.url == item.url -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/dogadaji/" and nav_sec == "dogadaji" -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/povijest/" and nav_sec == "povijest" -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/kategorije/" and nav_sec == "kategorije" -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/zaposlenje/" and nav_sec == "zaposlenje" -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/natjecaji/" and nav_sec == "natjecaji" -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/radar/" and nav_sec == "radar" -%}{%- assign nav_cur = true -%}{%- endif %}
-        <a href="{{ item.url | relative_url }}"{% if nav_cur %} class="current"{% if page.url == item.url %} aria-current="page"{% endif %}{% endif %}>{{ item.title }}</a>
-        {%- endfor %}
-      </nav>
+      {% include glavni-izbornik.html %}
       <form class="search" id="header-search" action="{{ '/pretraga/' | relative_url }}" method="get" role="search" autocomplete="off">
         <label for="search-input" class="visually-hidden">Pretraži članke</label>
         <input id="search-input" type="search" name="q" placeholder="Pretraži članke…" aria-autocomplete="list" aria-controls="search-results">
@@ -110,22 +98,6 @@
           <span class="menu-bars" aria-hidden="true"><span></span><span></span><span></span></span>
         </button>
       </div>
-    </div>
-    <div class="filter-rows">
-      <nav class="filter-row filter-row-vijesti" aria-label="Vijesti">
-        <div class="container filter-row-inner">
-          {%- for b in site.data.kategorije.naslovnica_blokovi %}
-          <a class="filter-chip" href="{{ '/' | relative_url }}#blok-{{ b.id }}">{{ b.naslov }}</a>
-          {%- endfor %}
-        </div>
-      </nav>
-      <nav class="filter-row filter-row-mjesta" aria-label="Mjesta">
-        <div class="container filter-row-inner">
-          {%- for k in site.data.kategorije.lokacije %}
-          <a class="filter-chip filter-chip-loc" href="{{ '/kategorije/' | append: k.slug | append: '/' | relative_url }}">{{ k.name }}</a>
-          {%- endfor %}
-        </div>
-      </nav>
     </div>
   </header>
   {% if page.url == "/" %}{% include prijelomna-traka.html %}{% endif %}
@@ -188,19 +160,92 @@
     var header = document.getElementById('site-header');
     var btn = document.getElementById('menu-toggle');
     if (!header || !btn) return;
-    function setOpen(open) {
+    var drops = header.querySelectorAll('.nav-drop');
+    var leaveTimer = null;
+
+    function setMenuOpen(open) {
       header.classList.toggle('menu-open', open);
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
       btn.setAttribute('aria-label', open ? 'Zatvori izbornik' : 'Otvori izbornik');
+      if (!open) closeDrops();
     }
-    btn.addEventListener('click', function () { setOpen(!header.classList.contains('menu-open')); });
+    function closeDrops(except) {
+      drops.forEach(function (d) {
+        if (d === except) return;
+        d.classList.remove('is-open');
+        var b = d.querySelector('.nav-drop-btn');
+        if (b) b.setAttribute('aria-expanded', 'false');
+      });
+    }
+    function setDrop(drop, open) {
+      if (open) closeDrops(drop);
+      drop.classList.toggle('is-open', open);
+      var b = drop.querySelector('.nav-drop-btn');
+      if (b) b.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+
+    btn.addEventListener('click', function () { setMenuOpen(!header.classList.contains('menu-open')); });
+
+    drops.forEach(function (drop) {
+      var b = drop.querySelector('.nav-drop-btn');
+      if (!b) return;
+      b.addEventListener('click', function (e) {
+        e.stopPropagation();
+        setDrop(drop, !drop.classList.contains('is-open'));
+      });
+      b.addEventListener('keydown', function (e) {
+        if (e.key !== 'ArrowDown' && e.key !== 'Enter') return;
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          setDrop(drop, true);
+          var first = drop.querySelector('.nav-panel a');
+          if (first) first.focus();
+        }
+      });
+      drop.addEventListener('mouseenter', function () {
+        if (window.innerWidth < 900) return;
+        clearTimeout(leaveTimer);
+        setDrop(drop, true);
+      });
+      drop.addEventListener('mouseleave', function () {
+        if (window.innerWidth < 900) return;
+        leaveTimer = setTimeout(function () { setDrop(drop, false); }, 140);
+      });
+      drop.addEventListener('focusin', function () {
+        if (window.innerWidth < 900) return;
+        clearTimeout(leaveTimer);
+        setDrop(drop, true);
+      });
+      drop.addEventListener('focusout', function () {
+        if (window.innerWidth < 900) return;
+        leaveTimer = setTimeout(function () {
+          if (!drop.contains(document.activeElement)) setDrop(drop, false);
+        }, 60);
+      });
+    });
+
+    document.addEventListener('click', function (e) {
+      if (!e.target.closest || !e.target.closest('.nav-drop')) closeDrops();
+    });
     document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape' && header.classList.contains('menu-open')) { setOpen(false); btn.focus(); }
+      if (e.key !== 'Escape') return;
+      var openDrop = header.querySelector('.nav-drop.is-open');
+      if (openDrop) {
+        setDrop(openDrop, false);
+        var b = openDrop.querySelector('.nav-drop-btn');
+        if (b) b.focus();
+        e.preventDefault();
+        return;
+      }
+      if (header.classList.contains('menu-open')) { setMenuOpen(false); btn.focus(); }
     });
-    header.querySelectorAll('.main-nav a, .cat-link').forEach(function (a) {
-      a.addEventListener('click', function () { setOpen(false); });
+    header.querySelectorAll('.main-nav a').forEach(function (a) {
+      a.addEventListener('click', function () { setMenuOpen(false); });
     });
-    window.addEventListener('resize', function () { if (window.innerWidth >= 900) setOpen(false); });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= 900) setMenuOpen(false);
+      else closeDrops();
+    });
   })();
   </script>
   <script>window.SITE_BASE = {{ site.baseurl | jsonify }};</script>

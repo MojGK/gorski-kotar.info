@@ -1,0 +1,53 @@
+{%- comment -%}
+Glavna navigacija: Vijesti + 3 padajuća izbornika (Mjesta, Kategorije, Servisi) + Arhiva.
+Podaci: _data/izbornik.yml. Na desktopu padajući paneli, na mobitelu harmonika u hamburgeru.
+{%- endcomment -%}
+{%- assign drop_mjesta_cur = false -%}
+{%- assign drop_kat_cur = false -%}
+{%- assign drop_serv_cur = false -%}
+{%- for it in site.data.izbornik.mjesta -%}{%- if page.url == it.url -%}{%- assign drop_mjesta_cur = true -%}{%- endif -%}{%- endfor -%}
+{%- for it in site.data.izbornik.kategorije -%}{%- if page.url == it.url -%}{%- assign drop_kat_cur = true -%}{%- endif -%}{%- endfor -%}
+{%- for it in site.data.izbornik.servisi -%}{%- if page.url == it.url -%}{%- assign drop_serv_cur = true -%}{%- endif -%}{%- endfor -%}
+{%- if page.url == "/kategorije/" -%}{%- assign drop_kat_cur = true -%}
+{%- elsif page.layout == "kategorija" and page.grupa != "lokacije" and drop_mjesta_cur == false -%}{%- assign drop_kat_cur = true -%}
+{%- endif -%}
+{%- if page.layout == "kategorija" and page.grupa == "lokacije" -%}{%- assign drop_mjesta_cur = true -%}{%- endif -%}
+<nav class="main-nav" id="glavni-izbornik" aria-label="Glavna navigacija">
+  <a class="nav-link{% if page.url == '/' %} current{% endif %}" href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Vijesti</a>
+
+  <div class="nav-drop"{% if drop_mjesta_cur %} data-current="true"{% endif %}>
+    <button type="button" class="nav-drop-btn{% if drop_mjesta_cur %} current{% endif %}" id="nav-btn-mjesta" aria-expanded="false" aria-controls="nav-panel-mjesta">Mjesta</button>
+    <div class="nav-panel nav-panel-2col" id="nav-panel-mjesta" role="region" aria-labelledby="nav-btn-mjesta">
+      <ul>
+        {%- for it in site.data.izbornik.mjesta %}
+        <li><a href="{{ it.url | relative_url }}"{% if page.url == it.url %} aria-current="page"{% endif %}>{{ it.label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <div class="nav-drop"{% if drop_kat_cur %} data-current="true"{% endif %}>
+    <button type="button" class="nav-drop-btn{% if drop_kat_cur %} current{% endif %}" id="nav-btn-kategorije" aria-expanded="false" aria-controls="nav-panel-kategorije">Kategorije</button>
+    <div class="nav-panel nav-panel-2col" id="nav-panel-kategorije" role="region" aria-labelledby="nav-btn-kategorije">
+      <ul>
+        {%- for it in site.data.izbornik.kategorije %}
+        <li><a href="{{ it.url | relative_url }}"{% if page.url == it.url %} aria-current="page"{% endif %}>{{ it.label }}</a></li>
+        {%- endfor %}
+      </ul>
+      <p class="nav-panel-more"><a href="{{ '/kategorije/' | relative_url }}">Sve kategorije <span aria-hidden="true">→</span></a></p>
+    </div>
+  </div>
+
+  <div class="nav-drop"{% if drop_serv_cur %} data-current="true"{% endif %}>
+    <button type="button" class="nav-drop-btn{% if drop_serv_cur %} current{% endif %}" id="nav-btn-servisi" aria-expanded="false" aria-controls="nav-panel-servisi">Servisi</button>
+    <div class="nav-panel" id="nav-panel-servisi" role="region" aria-labelledby="nav-btn-servisi">
+      <ul>
+        {%- for it in site.data.izbornik.servisi %}
+        <li><a href="{{ it.url | relative_url }}"{% if page.url == it.url %} aria-current="page"{% endif %}>{{ it.label }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+
+  <a class="nav-link nav-extra{% if page.url == '/arhiva/' %} current{% endif %}" href="{{ '/arhiva/' | relative_url }}"{% if page.url == '/arhiva/' %} aria-current="page"{% endif %}>Arhiva</a>
+</nav>

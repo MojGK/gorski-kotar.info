@@ -1,0 +1,57 @@
+# Padajući izbornici u zaglavlju (Mjesta, Kategorije, Servisi).
+# Samo prikaz u izborniku; type/slug u člancima i _data/kategorije.yml se ne mijenjaju.
+mjesta:
+  - label: Delnice
+    url: /kategorije/delnice/
+  - label: Fužine
+    url: /kategorije/fuzine/
+  - label: Lokve
+    url: /kategorije/lokve/
+  - label: Mrkopalj
+    url: /kategorije/mrkopalj/
+  - label: Čabar
+    url: /kategorije/cabar/
+  - label: Skrad
+    url: /kategorije/skrad/
+  - label: Ravna Gora
+    url: /kategorije/ravna-gora/
+  - label: Vrbovsko
+    url: /kategorije/vrbovsko/
+  - label: Brod Moravice
+    url: /kategorije/brod-moravice/
+  - label: Cijeli Gorski kotar
+    url: /kategorije/gorski-kotar/
+
+kategorije:
+  - label: Aktualno
+    url: /kategorije/aktualno/
+  - label: Općine i gradovi
+    url: /kategorije/opcinske-vijesti/
+  - label: Događanja
+    url: /kategorije/dogadanja/
+  - label: Sport
+    url: /kategorije/sport/
+  - label: Kultura
+    url: /kategorije/kultura/
+  - label: Društvo
+    url: /kategorije/drustvo/
+  - label: Crna kronika
+    url: /kategorije/crna-kronika/
+  - label: Zanimljivosti
+    url: /kategorije/zanimljivosti/
+  - label: Povijest
+    url: /povijest/
+  - label: Promet
+    url: /kategorije/promet/
+
+servisi:
+  - label: Događanja / Kalendar
+    url: /kalendar/
+  - label: Zaposlenje
+    url: /zaposlenje/
+  - label: Natječaji i stipendije
+    url: /natjecaji/
+  - label: Goranski radar
+    url: /radar/
+  - label: Pretraga
+    url: /pretraga/

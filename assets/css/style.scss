@@ -751,7 +751,7 @@ main.container { padding-top: 4px; padding-bottom: 24px; }
   .site-header .search { display: flex; order: 0; flex: 0 1 300px; margin: 0; }
   .cat-bar, .site-header .cat-bar { display: block; }
   .with-sidebar { grid-template-columns: minmax(0, 1fr) 290px; gap: 28px; }
-  .site-sidebar { position: sticky; top: calc(var(--header-h) + 52px); margin-top: 16px; }
+  .site-sidebar { position: sticky; top: calc(var(--header-h) + 12px); margin-top: 16px; }
   .lead { display: grid; grid-template-columns: 1.35fr 1fr; }
   .lead-link img { aspect-ratio: auto; height: 100%; min-height: 380px; }
   .lead-body { display: flex; flex-direction: column; justify-content: center; padding: 26px 28px; }
@@ -1320,14 +1320,13 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .filter-chip-series { color: #ffe0a3; }
 
 @media (min-width: 900px) {
-  .site-sidebar { top: calc(var(--header-h) + 84px); }
+  .site-sidebar { top: calc(var(--header-h) + 12px); }
 }
 
 /* Uži glavni izbornik dok ima 8 stavki (Natječaji i Promet), da se Povijest ne preklope s pretragom */
 @media (min-width: 900px) {
   .header-inner { min-width: 0; }
-  .main-nav, .site-header .main-nav { overflow-x: auto; flex-wrap: nowrap; flex: 1 1 0; min-width: 0; scrollbar-width: thin; }
-  .main-nav a { padding: 8px 7px; font-size: 0.8rem; white-space: nowrap; flex: 0 0 auto; }
+  .main-nav, .site-header .main-nav { overflow: visible; flex-wrap: nowrap; flex: 1 1 auto; min-width: 0; }
   .site-header .search { flex: 0 0 180px; max-width: 180px; }
 }
 @media (min-width: 1200px) {
@@ -1741,4 +1740,163 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .dogadjanja-blok .job-hl-list { gap: 8px; }
 @media (min-width: 700px) {
   .dogadjanja-blok .job-hl-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+
+/* ============================================================
+   Padajući izbornici u zaglavlju (Mjesta, Kategorije, Servisi)
+   Umjesto starih filter-redova. Desktop: hover/klik; mobitel: harmonika.
+   ============================================================ */
+.filter-rows { display: none !important; }
+
+.main-nav .nav-link,
+.main-nav .nav-drop-btn {
+  display: block;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  font: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: 0;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+.main-nav .nav-link:hover,
+.main-nav .nav-drop-btn:hover,
+.main-nav .nav-link:focus-visible,
+.main-nav .nav-drop-btn:focus-visible {
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+}
+.main-nav .nav-link.current,
+.main-nav .nav-drop-btn.current {
+  background: var(--accent);
+  color: #fff;
+}
+.main-nav .nav-drop-btn:focus-visible,
+.main-nav .nav-link:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.nav-drop-btn::after {
+  content: "";
+  display: inline-block;
+  width: 0; height: 0;
+  margin-left: 7px;
+  vertical-align: middle;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  transform: translateY(1px);
+  transition: transform 0.15s;
+}
+.nav-drop.is-open .nav-drop-btn::after { transform: translateY(-1px) rotate(180deg); }
+
+.nav-drop { position: relative; width: 100%; }
+.nav-panel { display: none; }
+.nav-drop.is-open .nav-panel { display: block; }
+.nav-panel ul { list-style: none; margin: 0; padding: 0; }
+.nav-panel a {
+  display: block;
+  padding: 9px 12px;
+  border-radius: 8px;
+  color: #dcefe0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: none;
+  letter-spacing: 0;
+  white-space: normal;
+}
+.site-header .nav-panel a:hover,
+.site-header .nav-panel a:focus-visible {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  text-decoration: none;
+}
+.site-header .nav-panel a[aria-current="page"] { background: var(--accent); color: #fff; }
+.nav-panel-more { margin: 6px 8px 4px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.12); }
+.nav-panel-more a { font-weight: 800; color: #ffe0a3; }
+
+/* Mobitel: harmonika unutar hamburgera, bez filter-redova */
+@media (max-width: 899px) {
+  .nav-panel {
+    margin: 0 0 6px;
+    padding: 4px 6px 6px;
+    background: rgba(0,0,0,0.18);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+  }
+  .nav-panel-2col ul { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; }
+  .nav-extra { margin-top: 4px; }
+}
+
+/* Desktop: paneli ispod gumba, bijela podloga, smeđi akcenti */
+@media (min-width: 900px) {
+  .main-nav, .site-header .main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    overflow: visible;
+  }
+  .main-nav .nav-link,
+  .main-nav .nav-drop-btn {
+    width: auto;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
+  .nav-drop { width: auto; }
+  .nav-drop.is-open .nav-drop-btn,
+  .nav-drop:hover .nav-drop-btn { background: rgba(255,255,255,0.12); }
+  .nav-drop.current .nav-drop-btn,
+  .nav-drop-btn.current { background: var(--accent); }
+  .nav-panel {
+    position: absolute;
+    top: calc(100% - 2px);
+    left: 0;
+    z-index: 200;
+    min-width: 280px;
+    padding: 10px;
+    background: #fff;
+    color: var(--text);
+    border: 1px solid #e4d3b0;
+    border-top: 3px solid #6b4a16;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 10px 28px rgba(16, 40, 24, 0.18);
+  }
+  .nav-panel-2col { min-width: 420px; }
+  .nav-panel-2col ul { display: grid; grid-template-columns: 1fr 1fr; gap: 2px 8px; }
+  .site-header .nav-panel a {
+    color: #17211b;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+  .site-header .nav-panel a:hover,
+  .site-header .nav-panel a:focus-visible {
+    background: #f3eee4;
+    color: #6b4a16;
+  }
+  .site-header .nav-panel a[aria-current="page"] {
+    background: var(--green-soft);
+    color: var(--primary);
+  }
+  .nav-panel-more { border-top-color: #e4d3b0; margin: 8px 4px 0; }
+  .nav-panel-more a { color: #6b4a16; }
+  .nav-panel-more a:hover { color: var(--primary); background: transparent; }
+  .nav-drop:hover .nav-panel,
+  .nav-drop.is-open .nav-panel { display: block; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nav-drop-btn::after { transition: none; }
 }
