@@ -37,7 +37,7 @@ sidebar: true
 {%- comment -%} Izdvojeno se izračuna prije mreže (izd_urls za de-duplikaciju), a iscrtava se ispod Najnovijeg. {%- endcomment -%}
 {% capture izdvojeno_html %}{% include izdvojeno.html lead=lead %}{% endcapture %}
 
-{%- comment -%} Najnovije: 12 kartica na desktopu; na mobitelu istih 12 plus još do 12 uz „Prikaži sve članke”. Glavna vijest, Izdvojeno i Zaposlenje ne idu u mrežu. {%- endcomment %}
+{%- comment -%} Najnovije: 12 kartica vidljivo; u DOM-u do 30 najnovijih (za Index-filter). Glavna vijest, Izdvojeno i Zaposlenje ne idu u mrežu. {%- endcomment %}
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
   {%- comment -%} Redoslijed po efektivnom vremenu (azurirano ili date), vidi _includes/sortirani-postovi.html {%- endcomment -%}
@@ -48,7 +48,7 @@ sidebar: true
   {%- assign c_key = "|" | append: post.url | append: "|" -%}
   {%- if izd_urls contains c_key -%}{%- continue -%}{%- endif -%}
   {%- assign shown_m = shown_m | plus: 1 -%}
-  {%- if shown_m > 24 -%}{%- break -%}{%- endif -%}
+  {%- if shown_m > 30 -%}{%- break -%}{%- endif -%}
   {%- assign c_fold = false -%}
   {%- if shown_m > 12 -%}{%- assign c_fold = true -%}{%- endif -%}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
@@ -72,6 +72,8 @@ sidebar: true
   {% endfor %}
 </div>
 <p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
+<p class="ix-prazno" id="ix-prazno" hidden>Nema novijih članaka u ovom filtru.</p>
+<p class="ix-starije" id="ix-starije" hidden><a href="#"></a></p>
 <p class="starije-vijesti"><a href="{{ '/arhiva/' | relative_url }}">Starije vijesti <span aria-hidden="true">→</span></a></p>
 
 {{ izdvojeno_html }}

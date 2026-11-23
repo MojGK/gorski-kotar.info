@@ -1,0 +1,159 @@
+{%- comment -%}
+Index-stil filter ispod zaglavlja: prekidači Kategorije / Naselja i jedan red čipova,
+poredanih po broju članaka (kat-broj, bez Zaposlenja). Na naslovnici JS filtrira mrežu;
+na ostalim stranicama čipovi vode na /kategorije/<slug>/.
+{%- endcomment -%}
+{%- assign ix_home = false -%}{%- if page.url == "/" -%}{%- assign ix_home = true -%}{%- endif -%}
+{%- assign ix_kat_keys = "" | split: "" -%}
+{%- for k in site.data.kategorije.vrste -%}
+  {%- if k.slug == "zaposlenje" -%}{%- continue -%}{%- endif -%}
+  {%- include kat-broj.html name=k.name bez_vrste="Zaposlenje" -%}
+  {%- if kat_n == 0 -%}{%- continue -%}{%- endif -%}
+  {%- assign ix_pad = 100000 | minus: kat_n | append: "" -%}
+  {%- assign ix_i = forloop.index0 | plus: 1000 -%}
+  {%- assign ix_key = ix_pad | append: "#" | append: ix_i | append: "#" | append: kat_n -%}
+  {%- assign ix_kat_keys = ix_kat_keys | push: ix_key -%}
+{%- endfor -%}
+{%- assign ix_kat_keys = ix_kat_keys | sort -%}
+{%- assign ix_nas_keys = "" | split: "" -%}
+{%- for k in site.data.kategorije.lokacije -%}
+  {%- include kat-broj.html name=k.name bez_vrste="Zaposlenje" -%}
+  {%- if kat_n == 0 -%}{%- continue -%}{%- endif -%}
+  {%- assign ix_pad = 100000 | minus: kat_n | append: "" -%}
+  {%- assign ix_i = forloop.index0 | plus: 1000 -%}
+  {%- assign ix_key = ix_pad | append: "#" | append: ix_i | append: "#" | append: kat_n -%}
+  {%- assign ix_nas_keys = ix_nas_keys | push: ix_key -%}
+{%- endfor -%}
+{%- assign ix_nas_keys = ix_nas_keys | sort -%}
+{%- assign ix_tab = "kat" -%}
+{%- assign ix_sel = "" -%}
+{%- if page.layout == "kategorija" and page.grupa == "lokacije" -%}
+  {%- assign ix_tab = "nas" -%}{%- assign ix_sel = page.permalink | default: page.url -%}
+{%- elsif page.layout == "kategorija" -%}
+  {%- assign ix_tab = "kat" -%}{%- assign ix_sel = page.permalink | default: page.url -%}
+{%- elsif page.url == "/povijest/" -%}
+  {%- assign ix_tab = "kat" -%}{%- assign ix_sel = "/kategorije/povijest/" -%}
+{%- endif -%}
+<section class="ix-filter" id="ix-filter" data-home="{% if ix_home %}1{% else %}0{% endif %}" aria-label="Filter vijesti">
+  <div class="ix-filter-inner container">
+    <div class="ix-switches" role="tablist" aria-label="Vrsta filtra">
+      <button type="button" class="ix-switch" role="tab" id="ix-tab-kat" aria-controls="ix-row-kat" aria-selected="{% if ix_tab == 'kat' %}true{% else %}false{% endif %}">Kategorije</button>
+      <button type="button" class="ix-switch" role="tab" id="ix-tab-nas" aria-controls="ix-row-nas" aria-selected="{% if ix_tab == 'nas' %}true{% else %}false{% endif %}">Naselja</button>
+    </div>
+    <nav class="ix-row{% if ix_tab != 'kat' %} is-hidden{% endif %}" id="ix-row-kat" role="tabpanel" aria-labelledby="ix-tab-kat"{% if ix_tab != "kat" %} hidden{% endif %}>
+      <a class="ix-chip{% if ix_tab == 'kat' and ix_sel == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}" data-reset="1" data-group="kat"{% if ix_tab == 'kat' and ix_sel == '' %} aria-current="page"{% endif %}>Najnovije</a>
+      {%- for key in ix_kat_keys -%}
+        {%- assign ix_p = key | split: "#" -%}
+        {%- assign ix_i = ix_p[1] | minus: 1000 -%}
+        {%- assign ix_n = ix_p[2] -%}
+        {%- assign k = site.data.kategorije.vrste[ix_i] -%}
+        {%- assign ix_href = "/kategorije/" | append: k.slug | append: "/" -%}
+      <a class="ix-chip{% if ix_sel == ix_href %} is-active{% endif %}" href="{{ ix_href | relative_url }}" data-slug="{{ k.slug }}" data-label="{{ k.name | escape }}" data-group="kat" data-count="{{ ix_n }}"{% if ix_sel == ix_href %} aria-current="page"{% endif %}>{{ k.name }} <span class="ix-count">{{ ix_n }}</span></a>
+      {%- endfor %}
+    </nav>
+    <nav class="ix-row{% if ix_tab != 'nas' %} is-hidden{% endif %}" id="ix-row-nas" role="tabpanel" aria-labelledby="ix-tab-nas"{% if ix_tab != "nas" %} hidden{% endif %}>
+      <a class="ix-chip{% if ix_tab == 'nas' and ix_sel == '' %} is-active{% endif %}" href="{{ '/' | relative_url }}" data-reset="1" data-group="nas"{% if ix_tab == 'nas' and ix_sel == '' %} aria-current="page"{% endif %}>Sve</a>
+      {%- for key in ix_nas_keys -%}
+        {%- assign ix_p = key | split: "#" -%}
+        {%- assign ix_i = ix_p[1] | minus: 1000 -%}
+        {%- assign ix_n = ix_p[2] -%}
+        {%- assign k = site.data.kategorije.lokacije[ix_i] -%}
+        {%- assign ix_href = "/kategorije/" | append: k.slug | append: "/" -%}
+      <a class="ix-chip{% if ix_sel == ix_href %} is-active{% endif %}" href="{{ ix_href | relative_url }}" data-slug="{{ k.slug }}" data-label="{{ k.name | escape }}" data-group="nas" data-count="{{ ix_n }}"{% if ix_sel == ix_href %} aria-current="page"{% endif %}>{{ k.name }} <span class="ix-count">{{ ix_n }}</span></a>
+      {%- endfor %}
+    </nav>
+  </div>
+</section>
+<script>
+(function () {
+  function init() {
+    var bar = document.getElementById('ix-filter');
+    if (!bar) return;
+    var isHome = bar.getAttribute('data-home') === '1';
+    var tabKat = document.getElementById('ix-tab-kat');
+    var tabNas = document.getElementById('ix-tab-nas');
+    var rowKat = document.getElementById('ix-row-kat');
+    var rowNas = document.getElementById('ix-row-nas');
+    var grid = document.getElementById('clanci');
+    var older = document.getElementById('ix-starije');
+    var empty = document.getElementById('ix-prazno');
+
+    function showTab(which, reset) {
+      var kat = which === 'kat';
+      tabKat.setAttribute('aria-selected', kat ? 'true' : 'false');
+      tabNas.setAttribute('aria-selected', kat ? 'false' : 'true');
+      rowKat.hidden = !kat;
+      rowNas.hidden = kat;
+      rowKat.classList.toggle('is-hidden', !kat);
+      rowNas.classList.toggle('is-hidden', kat);
+      if (reset && isHome) {
+        var row = kat ? rowKat : rowNas;
+        var def = row.querySelector('.ix-chip[data-reset]');
+        if (def) selectChip(def, true);
+      }
+    }
+    function setActive(chip) {
+      var row = chip.closest('.ix-row');
+      if (!row) return;
+      row.querySelectorAll('.ix-chip').forEach(function (c) {
+        var on = c === chip;
+        c.classList.toggle('is-active', on);
+        if (on) c.setAttribute('aria-current', 'page');
+        else c.removeAttribute('aria-current');
+      });
+    }
+    function applyFilter(chip) {
+      if (!grid) return;
+      var slug = chip && chip.getAttribute('data-slug');
+      var label = (chip && (chip.getAttribute('data-label') || '').trim()) || '';
+      var href = chip && chip.getAttribute('href');
+      var cards = grid.querySelectorAll('.post-card');
+      var n = 0;
+      var shown = 0;
+      cards.forEach(function (c) {
+        var cats = (c.getAttribute('data-cats') || '').split(/\s+/);
+        var ok = !slug || cats.indexOf(slug) !== -1;
+        c.classList.toggle('ix-hide', !ok);
+        c.classList.toggle('ix-match', !!(ok && slug));
+        c.classList.remove('ix-big', 'ix-row');
+        if (ok && slug) {
+          c.classList.add(shown < 3 ? 'ix-big' : 'ix-row');
+          shown++;
+        }
+        if (ok) n++;
+      });
+      document.body.classList.toggle('ix-filtering', !!slug);
+      if (older) {
+        older.hidden = !slug;
+        var a = older.querySelector('a');
+        if (a && slug) {
+          a.href = href;
+          a.innerHTML = 'Starije: ' + label + ' <span aria-hidden="true">→</span>';
+        }
+      }
+      if (empty) empty.hidden = !slug || n > 0;
+    }
+    function selectChip(chip, skipScroll) {
+      setActive(chip);
+      if (!isHome) return;
+      applyFilter(chip.hasAttribute('data-reset') ? null : chip);
+      if (!skipScroll && chip && !chip.hasAttribute('data-reset')) {
+        var t = document.getElementById('naslov-clanaka');
+        if (t) t.scrollIntoView({ block: 'start' });
+      }
+    }
+
+    tabKat.addEventListener('click', function () { showTab('kat', true); });
+    tabNas.addEventListener('click', function () { showTab('nas', true); });
+    bar.querySelectorAll('.ix-chip').forEach(function (chip) {
+      chip.addEventListener('click', function (e) {
+        if (!isHome) return;
+        e.preventDefault();
+        selectChip(chip);
+      });
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>

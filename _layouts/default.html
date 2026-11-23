@@ -101,6 +101,7 @@
     </div>
   </header>
   {% if page.url == "/" %}{% include prijelomna-traka.html %}{% endif %}
+  {% include index-filter.html %}
 
   <main class="container" id="sadrzaj">
     {% if page.layout == 'post' or page.sidebar %}
