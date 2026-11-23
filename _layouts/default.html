@@ -39,6 +39,9 @@
       {%- endif -%}
     {%- endif -%}
   {%- endif %}
+  {%- if page.layout == "post" -%}
+    {%- assign seo_html = seo_html | replace: '"@type":"BlogPosting"', '"@type":"NewsArticle"' | replace: '"@type": "BlogPosting"', '"@type": "NewsArticle"' -%}
+  {%- endif %}
   {{ seo_html }}
   {%- if page.azurirano %}{% unless seo_html contains 'article:modified_time' %}
   <meta property="article:modified_time" content="{{ page.azurirano | date_to_xmlschema }}" />{% endunless %}{% endif %}

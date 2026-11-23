@@ -34,12 +34,10 @@ sidebar: true
 
 {% include servisi-gradani.html %}
 
-{%- comment -%} Mobilno (< 900 px): Najnovije, banner, Izdvojeno, kategorijski blokovi, Zaposlenje, filteri; mreža članaka tek uz filter ili "Svi članci". Na desktopu m-only blokovi su skriveni. {%- endcomment %}
-{% include m-najnovije.html lead=lead %}
-
+{%- comment -%} Izdvojeno, traka kategorija, Događanja, zatim filteri i mreža članaka. Na mobitelu mreža pokazuje prvih 8 kartica, ostale gumb „Prikaži sve članke”. {%- endcomment %}
 {% include izdvojeno.html lead=lead %}
 
-{% include m-blokovi.html lead=lead %}
+{% include kategorije-traka.html %}
 
 {% include dogadjanja-blok.html %}
 
@@ -72,17 +70,24 @@ sidebar: true
   {%- endif %}
 </div>
 
-<p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
 <h2 class="section-title" id="naslov-clanaka">Najnoviji članci</h2>
 <div class="posts-grid" id="clanci">
   {%- comment -%} Naslovnica: samo 30 najnovijih (brzina); starije su na /arhiva/ i stranicama kategorija. {%- endcomment -%}
   {%- comment -%} Redoslijed po efektivnom vremenu (azurirano ili date), vidi _includes/sortirani-postovi.html {%- endcomment -%}
   {%- include sortirani-postovi.html -%}
+  {%- assign shown_m = 0 -%}
   {% for post in sortirani limit: 30 %}
   {%- assign c_loc = site.data.kategorije.lokacije | where: "name", post.location | first -%}
   {%- assign c_type = site.data.kategorije.vrste | where: "name", post.type | first -%}
   {%- assign c_key = "|" | append: post.url | append: "|" -%}
-  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}{% if izd_urls contains c_key %} is-izd{% endif %}{% if post.type == "Zaposlenje" %} is-job{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
+  {%- assign c_fold = false -%}
+  {%- if post.url != lead.url and post.type != "Zaposlenje" -%}
+    {%- unless izd_urls contains c_key -%}
+      {%- assign shown_m = shown_m | plus: 1 -%}
+      {%- if shown_m > 8 -%}{%- assign c_fold = true -%}{%- endif -%}
+    {%- endunless -%}
+  {%- endif -%}
+  <article class="post-card{% if post.url == lead.url %} is-lead{% endif %}{% if izd_urls contains c_key %} is-izd{% endif %}{% if post.type == "Zaposlenje" %} is-job{% endif %}{% if c_fold %} m-fold{% endif %}" data-location="{{ c_loc.slug }}" data-type="{{ c_type.slug }}" data-cats="{% include kat-slugovi.html post=post %}">
     {%- assign c_ser = nil -%}
     {%- for c_s in site.data.kategorije.serijali -%}{%- if post.categories contains c_s.name -%}{%- assign c_ser = c_s -%}{%- endif -%}{%- endfor %}
     <a href="{{ post.url | relative_url }}" class="card-thumb{% unless post.image %} no-img{% endunless %}" tabindex="-1" aria-hidden="true">
@@ -100,6 +105,7 @@ sidebar: true
   </article>
   {% endfor %}
 </div>
+<p class="m-svi m-only" id="m-svi"><button type="button" class="m-svi-btn" id="m-svi-btn" aria-controls="clanci" aria-expanded="false">Prikaži sve članke ↓</button></p>
 <p class="starije-vijesti"><a id="starije-link" href="{{ '/arhiva/' | relative_url }}" data-baza="{{ '/' | relative_url }}">Starije vijesti <span aria-hidden="true">→</span></a></p>
 <p class="no-results" id="nema-clanaka" hidden>Još nema članaka za odabrani filter. <button type="button" class="link-btn" data-reset>Prikaži sve</button></p>
 
@@ -192,6 +198,7 @@ sidebar: true
     });
     apply(false);
     if (found) document.getElementById('filteri').scrollIntoView();
+    else if (h === 'm-najnovije' && document.getElementById('naslov-clanaka')) document.getElementById('naslov-clanaka').scrollIntoView();
     else if (blok && document.getElementById(h)) document.getElementById(h).scrollIntoView();
   }
   var sviBtn = document.getElementById('m-svi-btn');
@@ -200,7 +207,6 @@ sidebar: true
     document.body.classList.toggle('m-show-all', on);
     sviBtn.setAttribute('aria-expanded', on ? 'true' : 'false');
     sviBtn.textContent = on ? 'Sakrij popis članaka ↑' : 'Prikaži sve članke ↓';
-    if (on) document.getElementById('naslov-clanaka').scrollIntoView();
   });
   window.addEventListener('hashchange', fromUrl);
   fromUrl();
