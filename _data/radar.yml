@@ -1,6 +1,7 @@
 # Goranski radar (/radar/) — službene poveznice, najavljena isključenja i servisne obavijesti.
 # Upute: _data/README-zaposlenje-dogadjanja.md
-# Isključenja i obavijesti s datumom strogo prije dana izrade (site.time) same se skrivaju.
+# Isključenja i obavijesti s datumom strogo prije dana izrade (site.time) i u pregledniku (zagrebački datum) se skrivaju; sam taj dan ostaje uključen.
+# Poredano uzlazno po datumu (onaj koji najprije ističe prvi).
 # Ne tvrdi se da je ijedan izvor „uživo”; čitatelja šaljemo na službene stranice.
 azurirano: 2026-11-23
 provjereno: 2026-11-23

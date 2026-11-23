@@ -1,6 +1,6 @@
 {%- comment -%}
 Kompaktna traka Promet / Goranski radar na naslovnici.
-Prioritet: aktualna isključenja i obavijesti iz radar.yml (datum >= danas, site.time),
+Prioritet: aktualna isključenja i obavijesti iz radar.yml (datum uključujući danas, site.time; JS skriva istekla po zagrebačkom datumu),
 inače do 2 najnovija članka vrste Promet iz zadnjih 7 dana. Ako nema ničeg aktualnog, traka se ne iscrtava.
 {%- endcomment -%}
 {%- include zivi-popis.html lista=site.data.radar.iskljucenja polje="datum" -%}
@@ -29,7 +29,7 @@ inače do 2 najnovija članka vrste Promet iz zadnjih 7 dana. Ako nema ničeg ak
   <ul class="pr-list">
     {%- for s in pr_stavke limit: 2 %}
       {%- if s.mjesto -%}
-    <li class="pr-item">
+    <li class="pr-item" data-do="{{ s.datum_do | default: s.datum | date: '%Y-%m-%d' }}">
       <a class="pr-link" href="{{ '/radar/' | relative_url }}">
         <span class="pr-kicker">{% if s.vrsta %}{{ s.vrsta | capitalize }}{% else %}Obavijest{% endif %}</span>
         <span class="pr-title">{{ s.mjesto }}{% if s.opis %}: {{ s.opis }}{% endif %}</span>
@@ -48,4 +48,15 @@ inače do 2 najnovija članka vrste Promet iz zadnjih 7 dana. Ako nema ničeg ak
     {%- endfor %}
   </ul>
 </section>
+<script>
+(function () {
+  var box = document.getElementById('promet-traka'); if (!box) return;
+  var t = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+  box.querySelectorAll('[data-do]').forEach(function (li) {
+    if (li.getAttribute('data-do') < t) li.remove();
+  });
+  var list = box.querySelector('.pr-list');
+  if (list && !list.querySelector('.pr-item')) box.hidden = true;
+})();
+</script>
 {%- endif -%}

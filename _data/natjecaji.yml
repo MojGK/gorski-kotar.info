@@ -1,6 +1,7 @@
 # Otvoreni natječaji, stipendije i potpore za Gorski kotar.
 # Upute: _data/README-zaposlenje-dogadjanja.md
-# Stavka nestaje s /natjecaji/ dan nakon roka (site.time, polje rok).
+# Stavka nestaje s /natjecaji/ dan nakon roka (site.time i JS, zagrebački datum; dan roka ostaje uključen).
+# Poredano po roku (onaj koji najprije ističe prvi); stavke bez datuma idu na kraj.
 azurirano: 2026-11-23
 natjecaji:
 

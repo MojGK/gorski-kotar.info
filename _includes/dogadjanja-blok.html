@@ -1,5 +1,5 @@
 {%- comment -%}
-Zaseban blok DOGAĐANJA na naslovnici: do 3 nadolazeća događaja iz _data/dogadjanja.yml, najbliži prvi.
+Zaseban blok DOGAĐANJA na naslovnici: do 3 nadolazeća događaja iz _data/dogadjanja.yml (još nisu počeli po početku, već traju po završetku).
 Prošli se izbacuju pri izradi stranice, a u pregledniku ih skriva JS (GitHub Pages gradi stranicu pri pushu i jednom dnevno).
 {%- endcomment -%}
 {%- include zivi-popis.html lista=site.data.dogadjanja.dogadjaji polje="datum" -%}
@@ -17,7 +17,7 @@ Prošli se izbacuju pri izradi stranice, a u pregledniku ih skriva JS (GitHub Pa
       {%- assign d_kraj = d.datum_do | default: d.datum | date: "%Y-%m-%d" -%}
       {%- assign d_wi = d.datum | date: "%w" | plus: 0 -%}
       {%- assign d_link = d.link | default: "/dogadaji/" -%}
-      <li class="job-hl" data-do="{{ d_kraj }}"{% if forloop.index > 3 %} hidden{% endif %}>
+      <li class="job-hl" data-do="{{ d_kraj }}" data-start="{{ d.datum | date: '%Y-%m-%d' }}"{% if forloop.index > 3 %} hidden{% endif %}>
         <a class="job-hl-link" href="{% if d_link contains '://' %}{{ d_link }}{% else %}{{ d_link | relative_url }}{% endif %}"{% if d_link contains '://' %} target="_blank" rel="noopener"{% endif %}>
           <span class="job-hl-pos">{{ d.naziv }}</span>
           <span class="job-hl-meta"><span class="job-hl-rok">📅 {{ db_dani[d_wi] }} {{ d.datum | date: "%-d. %-m." }}{% if d.datum_do %} – {{ d.datum_do | date: "%-d. %-m." }}{% endif %}</span>{% if d.vrijeme %}<span>🕒 {{ d.vrijeme }}</span>{% endif %}<span>📍 {{ d.grad | default: d.mjesto }}</span></span>
@@ -34,7 +34,23 @@ Prošli se izbacuju pri izradi stranice, a u pregledniku ih skriva JS (GitHub Pa
   (function () {
     var box = document.querySelector('[data-dog-blok]'); if (!box) return;
     var t = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date()), n = 0;
-    box.querySelectorAll('[data-do]').forEach(function (li) { var ok = li.getAttribute('data-do') >= t && n < 3; li.hidden = !ok; if (ok) n++; });
+    var ul = box.querySelector('ul') || box;
+    var items = Array.prototype.slice.call(ul.querySelectorAll('[data-do]'));
+    items.sort(function (a, b) {
+      function key(el) {
+        var start = el.getAttribute('data-start') || el.getAttribute('data-do') || '9999-99-99';
+        var end = el.getAttribute('data-do') || start;
+        return (start <= t ? end : start);
+      }
+      var ka = key(a), kb = key(b);
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    });
+    items.forEach(function (li) {
+      var ok = li.getAttribute('data-do') >= t && n < 3;
+      li.hidden = !ok;
+      if (ok) n++;
+      ul.appendChild(li);
+    });
     if (!n) box.hidden = true;
   })();
   </script>

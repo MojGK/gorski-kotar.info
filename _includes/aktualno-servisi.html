@@ -1,6 +1,6 @@
 {%- comment -%}
 Naslovnica: kompaktne kartice 2–3 najaktualnija natječaja (_data/natjecaji.yml)
-i oglasa za posao (_data/poslovi.yml). Istekli (rok strogo prije site.time) se ne prikazuju.
+i oglasa za posao (_data/poslovi.yml). Istekli (rok strogo prije dana izrade, site.time; dan roka ostaje uključen) se ne prikazuju; JS u pregledniku radi isto po zagrebačkom datumu. Poredano po roku (onaj koji najprije ističe prvi).
 Rok unutar 7 dana dobiva oznaku „uskoro”.
 {%- endcomment -%}
 {%- include zivi-popis.html lista=site.data.natjecaji.natjecaji polje="rok" -%}
@@ -29,7 +29,7 @@ Rok unutar 7 dana dobiva oznaku „uskoro”.
             {%- if o_left < 1 -%}{%- assign o_danas = true -%}{%- assign o_uskoro = true -%}
             {%- elsif o_left <= 7 -%}{%- assign o_uskoro = true -%}{%- endif -%}
           {%- endif %}
-        <li class="ak-card{% if o_uskoro %} ak-uskoro{% endif %}">
+        <li class="ak-card{% if o_uskoro %} ak-uskoro{% endif %}"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %}>
           <a class="ak-card-link" href="{{ o.clanak | default: '/natjecaji/' | relative_url }}">
             <span class="ak-title">{{ o.naziv }}</span>
             {%- if o.raspisivac %}<span class="ak-sub">{{ o.raspisivac }}</span>{% endif %}
@@ -65,7 +65,7 @@ Rok unutar 7 dana dobiva oznaku „uskoro”.
           {%- endif -%}
           {%- assign o_href = o.link | default: o.izvori.first.url | default: "/zaposlenje/" -%}
           {%- assign o_ext = false -%}{%- if o_href contains "://" -%}{%- assign o_ext = true -%}{%- endif %}
-        <li class="ak-card{% if o_uskoro %} ak-uskoro{% endif %}">
+        <li class="ak-card{% if o_uskoro %} ak-uskoro{% endif %}"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %}>
           <a class="ak-card-link" href="{% if o_ext %}{{ o_href }}{% else %}{{ o_href | relative_url }}{% endif %}"{% if o_ext %} target="_blank" rel="noopener"{% endif %}>
             <span class="ak-title">{{ o.pozicija }}</span>
             {%- if o.poslodavac %}<span class="ak-sub">{{ o.poslodavac }}</span>{% endif %}
@@ -83,4 +83,34 @@ Rok unutar 7 dana dobiva oznaku „uskoro”.
     </div>
   </div>
 </section>
+<script>
+(function () {
+  var box = document.getElementById('aktualno-servisi'); if (!box) return;
+  var t = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+  box.querySelectorAll('[data-rok]').forEach(function (li) {
+    if (li.getAttribute('data-rok') < t) li.remove();
+  });
+  box.querySelectorAll('.ak-cards').forEach(function (ul) {
+    var items = Array.prototype.slice.call(ul.children);
+    items.sort(function (a, b) {
+      var ka = a.getAttribute('data-rok') || '9999-99-99';
+      var kb = b.getAttribute('data-rok') || '9999-99-99';
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    });
+    items.forEach(function (it) { ul.appendChild(it); });
+  });
+  var any = 0;
+  box.querySelectorAll('.ak-col').forEach(function (col) {
+    var ul = col.querySelector('.ak-cards');
+    if (ul && !ul.children.length) {
+      ul.remove();
+      var p = document.createElement('p');
+      p.className = 'ak-empty';
+      p.textContent = 'Trenutno nema aktualnih stavki.';
+      col.appendChild(p);
+    } else if (ul && ul.children.length) any++;
+  });
+  if (!any) box.hidden = true;
+})();
+</script>
 {%- endif -%}

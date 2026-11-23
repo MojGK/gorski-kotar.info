@@ -23,22 +23,10 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
     {%- assign dhmz_upoz = dhmz_upoz | push: p -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign rd_danas = site.time | date: "%Y%m%d" -%}
-{%- assign rd_isk = "" | split: "" -%}
-{%- for i in rd.iskljucenja -%}
-  {%- assign rd_d = i.datum | date: "%Y%m%d" -%}
-  {%- if rd_d >= rd_danas -%}{%- assign rd_isk = rd_isk | push: i -%}{%- endif -%}
-{%- endfor -%}
-{%- assign rd_oba = "" | split: "" -%}
-{%- for i in rd.obavijesti -%}
-  {%- assign rd_do = i.datum_do | default: i.datum -%}
-  {%- if rd_do -%}
-    {%- assign rd_d2 = rd_do | date: "%Y%m%d" -%}
-    {%- if rd_d2 >= rd_danas -%}{%- assign rd_oba = rd_oba | push: i -%}{%- endif -%}
-  {%- else -%}
-    {%- assign rd_oba = rd_oba | push: i -%}
-  {%- endif -%}
-{%- endfor -%}
+{%- include zivi-popis.html lista=rd.iskljucenja polje="datum" -%}
+{%- assign rd_isk = zp_lista -%}
+{%- include zivi-popis.html lista=rd.obavijesti polje="datum" -%}
+{%- assign rd_oba = zp_lista -%}
 {%- assign rd_azur = rd.azurirano | default: rd.provjereno -%}
 {%- if pr_posts.size > 0 -%}
   {%- assign pr_zadnji = pr_posts.first.azurirano | default: pr_posts.first.date -%}
@@ -109,9 +97,9 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
     </div>
   </div>
   {% if rd_isk.size > 0 %}
-  <ul class="radar-iskljucenja">
+  <ul class="radar-iskljucenja" data-radar-lista data-prazno="Trenutno nema najavljenih isključenja.">
     {%- for i in rd_isk %}
-    <li>
+    <li data-do="{{ i.datum_do | default: i.datum | date: '%Y-%m-%d' }}">
       <strong>{{ i.mjesto }}</strong>{% if i.opis %} — {{ i.opis }}{% endif %}
       <span class="meta">{% include datum.html date=i.datum show_time=false short=true %}{% if i.vrijeme %} · {{ i.vrijeme }}{% endif %}{% if i.vrsta %} · {{ i.vrsta }} radovi{% endif %}</span>
       {% if i.izvor %}<span class="radar-izvor">Izvor: {{ i.izvor }}</span>{% endif %}
@@ -126,9 +114,9 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
   <h2 class="section-title" id="obavijesti">Servisne obavijesti</h2>
   <p class="radar-napomena">Vodovod, zimska služba, odvoz otpada i slične obavijesti jedinica lokalne samouprave.</p>
   {% if rd_oba.size > 0 %}
-  <ul class="radar-iskljucenja">
+  <ul class="radar-iskljucenja" data-radar-lista data-prazno="Trenutno nema najavljenih servisnih obavijesti.">
     {%- for i in rd_oba %}
-    <li>
+    <li data-do="{{ i.datum_do | default: i.datum | date: '%Y-%m-%d' }}">
       <strong>{{ i.naslov | default: i.vrsta }}</strong>{% if i.mjesto %} — {{ i.mjesto }}{% endif %}
       {% if i.opis %}<span class="radar-opis">{{ i.opis }}</span>{% endif %}
       <span class="meta">{% if i.datum %}{% include datum.html date=i.datum show_time=false short=true %}{% endif %}{% if i.datum_do %} – {{ i.datum_do | date: "%-d. %-m. %Y." }}{% endif %}</span>
@@ -137,6 +125,30 @@ struja (HEP ODS) i servisne obavijesti iz _data/radar.yml. Ništa se ne tvrdi ka
     {%- endfor %}
   </ul>
   {% else %}
-  <p class="zb-empty">Trenutno nema najavljenih isključenja.{% if rd.provjereno %} Zadnja provjera: {{ rd.provjereno | date: "%-d. %-m. %Y." }}{% endif %}</p>
+  <p class="zb-empty">Trenutno nema najavljenih servisnih obavijesti.{% if rd.provjereno %} Zadnja provjera: {{ rd.provjereno | date: "%-d. %-m. %Y." }}{% endif %}</p>
   {% endif %}
 </div>
+<script>
+(function () {
+  var t = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+  document.querySelectorAll('[data-radar-lista]').forEach(function (ul) {
+    ul.querySelectorAll('[data-do]').forEach(function (li) {
+      var end = li.getAttribute('data-do');
+      if (end && end < t) li.remove();
+    });
+    var items = Array.prototype.slice.call(ul.children).filter(function (n) { return n.nodeType === 1; });
+    items.sort(function (a, b) {
+      var ka = a.getAttribute('data-do') || '9999-99-99';
+      var kb = b.getAttribute('data-do') || '9999-99-99';
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    });
+    items.forEach(function (it) { ul.appendChild(it); });
+    if (!ul.children.length) {
+      var p = document.createElement('p');
+      p.className = 'zb-empty';
+      p.textContent = ul.getAttribute('data-prazno') || 'Trenutno nema najavljenih stavki.';
+      ul.parentNode.replaceChild(p, ul);
+    }
+  });
+})();
+</script>

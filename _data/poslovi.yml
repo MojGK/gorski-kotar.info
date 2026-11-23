@@ -1,6 +1,7 @@
 # ZAPOSLENJE – živi popis oglasa (stranica /zaposlenje/ i blok na naslovnici).
 # Upute: _data/README-zaposlenje-dogadjanja.md
-# Oglasi s prošlim rokom automatski se skrivaju (pri svakoj izradi stranice i u pregledniku).
+# Oglasi s rokom strogo prije dana izrade (site.time) i u pregledniku (zagrebački datum) se skrivaju; dan roka ostaje uključen.
+# Poredano po roku (onaj koji najprije ističe prvi); stavke bez datuma idu na kraj.
 azurirano: 2026-11-23
 oglasi:
 - poslodavac: "Dječji vrtić Hlojkica, Delnice"

@@ -1,34 +1,10 @@
 # DOGAĐANJA – živi popis događaja (stranice /dogadaji/ i /kalendar/ te blok na naslovnici).
 # Upute: _data/README-zaposlenje-dogadjanja.md
-# Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici;
-# u kalendaru ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
+# Prošli događaji (nakon datum_do, inače nakon datuma) automatski se skrivaju na /dogadaji/ i naslovnici
+# (dan završetka ostaje uključen). Redoslijed: još nisu počeli po datumu početka, već traju po završetku.
+# U kalendaru prošli ostaju pod „Prikaži prošla događanja” dok ih ne obrišete.
 azurirano: 2026-11-23
 dogadjaji:
-- naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
-  datum: 2026-11-13
-  datum_do: 2026-11-29
-  vrijeme: "prema radnom vremenu objekata"
-  mjesto: ugostiteljski objekti diljem Gorskog kotara
-  grad: Gorski kotar
-  organizator: Okusi hrvatske tradicije i TZ Gorskog kotara
-  opis: "Tradicijski meniji po prigodnim cijenama u 12 goranskih restorana. Za menije i rezervacije obratite se odabranom objektu."
-  link: /dani-okusa-gorskog-kotara/
-- naziv: "„Postolar i vrag” u Noći kazališta"
-  datum: 2026-11-20
-  vrijeme: "20:00"
-  mjesto: Radnički dom, Školska ulica, Delnice
-  grad: Delnice
-  organizator: Kotar Teatar
-  opis: Gostuje zagrebačka družina Doza drame.
-  link: /postolar-i-vrag-kotar-teatar-delnice/
-- naziv: "Dječji filmski maraton – „Mačak u šeširu” i daljnje projekcije"
-  datum: 2026-12-06
-  datum_do: 2027-01-03
-  vrijeme: "18:00"
-  mjesto: Mrkopalj
-  grad: Mrkopalj
-  opis: "Sljedeće projekcije 6. 12., 20. 12. i 3. 1. 2027. u 18:00 (prva, 22. 11., filmom „Mačak u šeširu” već je održana). Točan prostor projekcije nije naveden."
-  link: https://ravna-gora.com/gk-pregled/
 - naziv: Javna tribina o katastarskoj izmjeri građevinskih područja Općine Lokve
   datum: 2026-11-24
   vrijeme: "18:00"
@@ -37,21 +13,6 @@ dogadjaji:
   organizator: Općina Lokve
   opis: Mještani mogu čuti kako će teći katastarska izmjera koju za Državnu geodetsku upravu provodi Geoprojekt d.d. iz Opatije.
   link: /lokve-katastarska-izmjera-javna-tribina-24-studenoga/
-- naziv: Prvi adventski vikend u Fužinama (Adventsko selo)
-  datum: 2026-11-27
-  datum_do: 2026-11-29
-  mjesto: Adventsko selo u centru Fužina i jezero Lepenica
-  grad: Fužine
-  opis: "Otvorenje adventa: radionice, vožnje vlakićem i paljenje prve adventske svijeće. Točan raspored po satima nije objavljen."
-  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
-- naziv: Božićni disco na brodu za djecu
-  datum: 2026-11-27
-  vrijeme: "18:30–20:00"
-  mjesto: Jezero Lepenica, Fužine
-  grad: Fužine
-  organizator: LagoXperience
-  opis: "Plesna zabava za djecu na brodu, 18:30–20:00. Cijena je 15 eura po djetetu. Broj mjesta je ograničen, a prijave su obvezne putem Instagrama Cukar animacije."
-  link: https://www.dogadanja.com/advent-nova-godina/bozicni-disco-na-brodu-jezero-lepenica-fuzine-2026-11-27/
 - naziv: Advent na jezeru Lepenica
   datum: 2026-11-27
   datum_do: 2026-12-31
@@ -60,13 +21,21 @@ dogadjaji:
   grad: Fužine
   opis: "Kino na brodu, Djed Mraz i doček Nove godine. Dječje božićne radionice LagoXperiencea i Cukar animacije: 28. 11., 5. 12. i 12. 12. od 10 do 12 h; 6. 12. od 10 do 12 h (Sveti Nikola); 19. 12. Djed Mraz i radionice (sat nije naveden); 24. 12. u 15 h pisanje pisma Djedu Mrazu i u 16 h ispraćaj. Cijena radionice 25 eura po djetetu, odnosno 40 eura za dvoje djece iz iste obitelji. Broj mjesta je ograničen, prijave su obvezne putem Instagrama Cukar animacije. Dječji disco: 27. 11. od 18:30 do 20 h i 31. 12. od 9 do 11 h, 15 eura po djetetu."
   link: /advent-na-jezeru-lepenica/
-- naziv: "Izlet „Adventska čarolija u Fužinama”"
-  datum: 2026-11-28
-  vrijeme: "14:30"
-  mjesto: "Adventsko selo, igralište pod branom, Fužine"
+- naziv: Božićni disco na brodu za djecu
+  datum: 2026-11-27
+  vrijeme: "18:30–20:00"
+  mjesto: Jezero Lepenica, Fužine
   grad: Fužine
-  opis: Obiteljski adventski izlet.
-  link: https://www.dogadanja.com/fuzine/
+  organizator: LagoXperience
+  opis: "Plesna zabava za djecu na brodu, 18:30–20:00. Cijena je 15 eura po djetetu. Broj mjesta je ograničen, a prijave su obvezne putem Instagrama Cukar animacije."
+  link: https://www.dogadanja.com/advent-nova-godina/bozicni-disco-na-brodu-jezero-lepenica-fuzine-2026-11-27/
+- naziv: Prvi adventski vikend u Fužinama (Adventsko selo)
+  datum: 2026-11-27
+  datum_do: 2026-11-29
+  mjesto: Adventsko selo u centru Fužina i jezero Lepenica
+  grad: Fužine
+  opis: "Otvorenje adventa: radionice, vožnje vlakićem i paljenje prve adventske svijeće. Točan raspored po satima nije objavljen."
+  link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
 - naziv: 20 godina Art kluba Gorski kotar
   datum: 2026-11-28
   vrijeme: "20:00"
@@ -75,14 +44,30 @@ dogadjaji:
   organizator: Art klub Gorski kotar
   opis: "Obilježavanje 20 godina djelovanja. Nastupaju Puhački orkestar Fužine, A.R.T. Band i Midnight Band. Ulaz je besplatan."
   link: https://www.tz-fuzine.hr/hr/kalendar_dogadanja_2026/1075/5
-- naziv: "„Svi za djecu” – humanitarni turnir u odbojci"
+- naziv: Advent u Ravnoj Gori
   datum: 2026-11-28
-  vrijeme: "10:00"
-  mjesto: Sportska dvorana Delnice
-  grad: Delnice
-  organizator: Klub mladih Crvenog križa Delnice i GDCK Delnice
-  opis: Drugi humanitarni turnir za pomoć djeci i mladima s teškoćama u razvoju; prijave ekipa do 24. 11. ili do popune mjesta.
-  link: /delnice-humanitarni-turnir-odbojka-svi-za-djecu/
+  datum_do: 2027-01-03
+  mjesto: Ravna Gora (trg kod SPC-a Goranka, Dom kulture)
+  grad: Ravna Gora
+  organizator: TIC Ravna Gora
+  opis: "28. 11. u 19 sati predstava „Susjedi”. 29. 11. u 17 sati paljenje prve adventske svijeće na trgu kod SPC-a Goranka. 6. 12. u 17 sati paljenje druge adventske svijeće. Program se nastavlja do 3. 1. 2027."
+  link: https://www.dogadanja.com/advent-nova-godina/advent-u-ravnoj-gori-2026-ravna-gora-2026-11-28/
+- naziv: "Izlet „Adventska čarolija u Fužinama”"
+  datum: 2026-11-28
+  vrijeme: "14:30"
+  mjesto: "Adventsko selo, igralište pod branom, Fužine"
+  grad: Fužine
+  opis: Obiteljski adventski izlet.
+  link: https://www.dogadanja.com/fuzine/
+- naziv: "Izložba Tomislava Skendera „Skulpture od drva”"
+  datum: 2026-11-28
+  datum_do: 2026-12-04
+  vrijeme: "otvorenje 28. 11. u 17:00"
+  mjesto: SPC Goranka, Ravna Gora
+  grad: Ravna Gora
+  organizator: Plodovi gorja Gorskog kotara i TIC Ravna Gora (TZ Gorskog kotara)
+  opis: "Samostalna izložba drvenih skulptura i reljefa. Na otvorenju nastupa mlada flautistica. Izložba je otvorena do 4. 12. Radno vrijeme: nedjelja 29. 11. od 10 do 20 sati, ponedjeljkom do petka od 10 do 14 i od 17 do 19 sati. Pokrovitelj: Općina Ravna Gora."
+  link: /skender-skulpture-od-drva-ravna-gora/
 - naziv: Otvorenje 14. Delničke adventske bajke
   datum: 2026-11-28
   datum_do: 2026-11-29
@@ -92,6 +77,31 @@ dogadjaji:
   organizator: Grad Delnice
   opis: Otvorenje adventskog programa uz Baku Mraz, glazbu i fire show; prema dogadanja.com nastavlja se i 29. 11.
   link: https://www.dogadanja.com/advent-nova-godina/otvorenje-14-delnicke-adventske-bajke-trg-138-brigade-hv-delnice-2026-11-28/
+- naziv: Predstava „Susjedi” Teatra Kerekesh
+  datum: 2026-11-28
+  vrijeme: "19:00"
+  mjesto: Dom kulture Ravna Gora
+  grad: Ravna Gora
+  organizator: TIC Ravna Gora (gostovanje Teatra Kerekesh)
+  opis: "Komedija Teatra Kerekesh u sklopu Adventa u Ravnoj Gori."
+  link: https://www.dogadanja.com/advent-nova-godina/advent-u-ravnoj-gori-2026-ravna-gora-2026-11-28/
+- naziv: "„Svi za djecu” – humanitarni turnir u odbojci"
+  datum: 2026-11-28
+  vrijeme: "10:00"
+  mjesto: Sportska dvorana Delnice
+  grad: Delnice
+  organizator: Klub mladih Crvenog križa Delnice i GDCK Delnice
+  opis: Drugi humanitarni turnir za pomoć djeci i mladima s teškoćama u razvoju; prijave ekipa do 24. 11. ili do popune mjesta.
+  link: /delnice-humanitarni-turnir-odbojka-svi-za-djecu/
+- naziv: Dani okusa Gorskog kotara (Dani okusa hrvatske tradicije)
+  datum: 2026-11-13
+  datum_do: 2026-11-29
+  vrijeme: "prema radnom vremenu objekata"
+  mjesto: ugostiteljski objekti diljem Gorskog kotara
+  grad: Gorski kotar
+  organizator: Okusi hrvatske tradicije i TZ Gorskog kotara
+  opis: "Tradicijski meniji po prigodnim cijenama u 12 goranskih restorana. Za menije i rezervacije obratite se odabranom objektu."
+  link: /dani-okusa-gorskog-kotara/
 - naziv: Adventski koncert u špilji Vrelo – MPZ Vrelo
   datum: 2026-11-29
   vrijeme: "17:30 (obilazak špilje), 18:30 nastup zbora"
@@ -124,6 +134,14 @@ dogadjaji:
   organizator: Lynx and Fox
   opis: Lagana vođena šetnja parkom šumom do jelena lopatara i Sela Bake Mraz, u sklopu Delničke adventske bajke; prijave online.
   link: https://www.lynxandfox.com/post/5-12-japlenski-vrh
+- naziv: "Dječji filmski maraton – „Mačak u šeširu” i daljnje projekcije"
+  datum: 2026-12-06
+  datum_do: 2027-01-03
+  vrijeme: "18:00"
+  mjesto: Mrkopalj
+  grad: Mrkopalj
+  opis: "Sljedeće projekcije 6. 12., 20. 12. i 3. 1. 2027. u 18:00 (prva, 22. 11., filmom „Mačak u šeširu” već je održana). Točan prostor projekcije nije naveden."
+  link: https://ravna-gora.com/gk-pregled/
 - naziv: Škola klizanja Goranskog sportskog centra (12. sezona)
   datum: 2026-12-06
   datum_do: 2027-01-31
@@ -208,36 +226,3 @@ dogadjaji:
   opis: Četverodnevni glazbeni festival s dvije pozornice, radionicama i kampom na lokaciji.
   link: https://www.dogadanja.com/festival/foresterra-festival-2027-kaubojsko-selo-roswell-fuzine-2027-08-19/
 
-- naziv: Camino Gorski kotar – 6. etapa Begovo Razdolje–Mrkopalj–Lučice
-  datum: 2026-11-22
-  vrijeme: "06:45 okupljanje, 07:00 početak hoda, 10:00 misa u Mrkoplju, 12:00 nastavak prema Lučicama"
-  mjesto: Begovo Razdolje (start), Mrkopalj, Lučice
-  grad: Mrkopalj
-  organizator: HPD Bijele Stijene Mrkopalj i Udruga mladih „Malo po malo” Mrkopalj
-  opis: "Šesta etapa, oko 17,8 km. Dolazak do Begova Razdolja sudionici organiziraju sami. Prijave su prema najavi bile otvorene do 20. 11. U slučaju snijega ili nepovoljnih prilika etapa se odgađa ili otkazuje; sudjelovanje je na vlastitu odgovornost."
-  link: https://www.dogadanja.com/outdoor/camino-gorski-kotar-begovo-razdolje-2026-11-22/
-- naziv: "Izložba Tomislava Skendera „Skulpture od drva”"
-  datum: 2026-11-28
-  datum_do: 2026-12-04
-  vrijeme: "otvorenje 28. 11. u 17:00"
-  mjesto: SPC Goranka, Ravna Gora
-  grad: Ravna Gora
-  organizator: Plodovi gorja Gorskog kotara i TIC Ravna Gora (TZ Gorskog kotara)
-  opis: "Samostalna izložba drvenih skulptura i reljefa. Na otvorenju nastupa mlada flautistica. Izložba je otvorena do 4. 12. Radno vrijeme: nedjelja 29. 11. od 10 do 20 sati, ponedjeljkom do petka od 10 do 14 i od 17 do 19 sati. Pokrovitelj: Općina Ravna Gora."
-  link: /skender-skulpture-od-drva-ravna-gora/
-- naziv: Predstava „Susjedi” Teatra Kerekesh
-  datum: 2026-11-28
-  vrijeme: "19:00"
-  mjesto: Dom kulture Ravna Gora
-  grad: Ravna Gora
-  organizator: TIC Ravna Gora (gostovanje Teatra Kerekesh)
-  opis: "Komedija Teatra Kerekesh u sklopu Adventa u Ravnoj Gori."
-  link: https://www.dogadanja.com/advent-nova-godina/advent-u-ravnoj-gori-2026-ravna-gora-2026-11-28/
-- naziv: Advent u Ravnoj Gori
-  datum: 2026-11-28
-  datum_do: 2027-01-03
-  mjesto: Ravna Gora (trg kod SPC-a Goranka, Dom kulture)
-  grad: Ravna Gora
-  organizator: TIC Ravna Gora
-  opis: "28. 11. u 19 sati predstava „Susjedi”. 29. 11. u 17 sati paljenje prve adventske svijeće na trgu kod SPC-a Goranka. 6. 12. u 17 sati paljenje druge adventske svijeće. Program se nastavlja do 3. 1. 2027."
-  link: https://www.dogadanja.com/advent-nova-godina/advent-u-ravnoj-gori-2026-ravna-gora-2026-11-28/

@@ -16,8 +16,8 @@ Stranica se uz to sama ponovno izgradi svaki dan u 05:00 (GitHub Actions „Dnev
 - Datumi uvijek kao `GGGG-MM-DD` (npr. `2026-11-15`).
 - Tekst s dvotočkom, navodnicima ili `#` stavi u navodnike: `vrijeme: "17:00"`.
 - Uvlačenje razmacima (2 razmaka), nikad tabulatorom. Svaka stavka počinje s `- `.
-- Redoslijed u datoteci nije bitan – stranica sama slaže po roku/datumu.
-- Istekle stavke **ne moraš** brisati odmah (same se skrivaju), ali jednom tjedno počisti sve starije od tjedan dana da datoteka ostane pregledna.
+- Redoslijed u datoteci nije bitan – stranica sama slaže uzlazno: natječaji i poslovi po roku (onaj koji najprije ističe prvi); događaji koji još nisu počeli po datumu početka, a oni koji već traju po datumu završetka. Stavke bez datuma (npr. „do popune”) idu na kraj.
+- Istekle stavke **ne moraš** brisati odmah (same se skrivaju dan nakon roka/`datum_do`, uključujući taj dan), ali jednom tjedno počisti sve starije od tjedan dana da datoteka ostane pregledna. Skrivanje radi pri dnevnoj izradi u 05:00 (`site.time`) i u pregledniku (JS, zagrebački datum).
 - Promo pravila vrijede i ovdje: bez cijena i privatnih kontakata u opisu; izvor uvijek kao poveznica.
 
 ## Oglas za posao (`_data/poslovi.yml`, pod `oglasi:`)
@@ -38,7 +38,7 @@ Stranica se uz to sama ponovno izgradi svaki dan u 05:00 (GitHub Actions „Dnev
       url: "https://burzarada.hzz.hr/..."
 ```
 
-- Oglas nestaje dan nakon roka. Oglas s rokom "do popune" ostaje dok ga ne obrišeš – provjeri ga svaki tjedan.
+- Oglas se vidi uključujući dan roka, a nestaje od sljedećeg dana. Oglas s rokom "do popune" ostaje dok ga ne obrišeš – provjeri ga svaki tjedan.
 
 ## Događaj (`_data/dogadjanja.yml`, pod `dogadjaji:`)
 
@@ -54,7 +54,7 @@ Stranica se uz to sama ponovno izgradi svaki dan u 05:00 (GitHub Actions „Dnev
   link: /noc-spilja-lokve-2026/             # neobavezno – naš članak (/slug/) ili vanjski URL (https://...)
 ```
 
-- Događaj nestaje s /dogadaji/ i naslovnice dan nakon `datum_do` (ili `datum`). U kalendaru ostaje pod „Prikaži prošla događanja” dok ga ne obrišeš.
+- Događaj se vidi uključujući zadnji dan (`datum_do`, inače `datum`), a nestaje s /dogadaji/ i naslovnice od sljedećeg dana. U kalendaru ostaje pod „Prikaži prošla događanja” dok ga ne obrišeš.
 - Kad za veći događaj pišeš i **članak** (s `event_date`), dodaj ga i ovdje s `link: /slug-clanka/` – kalendar neće prikazati duplikat.
 
 ## Tjedni pregled (neobavezno)

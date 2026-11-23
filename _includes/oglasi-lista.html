@@ -55,7 +55,7 @@ Oglasi s prošlim rokom u pregledniku se označe kao „Rok istekao” (ne briš
 (function () {
   var s = document.currentScript, box = s && s.previousElementSibling;
   if (!box) return;
-  var d = new Date(), t = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  var t = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Zagreb', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   box.querySelectorAll('[data-rok]').forEach(function (li) {
     if (li.getAttribute('data-rok') < t) {
       if (box.classList.contains('zivi-popis')) { li.remove(); return; }

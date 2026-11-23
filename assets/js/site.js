@@ -69,6 +69,12 @@
     }
   })();
 
+  /* ---------- Istekle stavke servisa (zagrebački datum, dan roka uključen) ---------- */
+  document.querySelectorAll('.zivi-popis [data-rok], .zivi-popis [data-do], .aktualno-servisi [data-rok], .radar-iskljucenja [data-do], .promet-traka [data-do]').forEach(function (el) {
+    var end = el.getAttribute('data-do') || el.getAttribute('data-rok');
+    if (end && end < today) el.remove();
+  });
+
   /* ---------- Pretraga ---------- */
   function norm(s) {
     return (s || '').toString().toLowerCase()

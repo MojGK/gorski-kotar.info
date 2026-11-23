@@ -13,7 +13,7 @@ Popis događanja kao kartice (članci vrste Događanja, tjedni pregled). Podaci 
 Poziv u tekstu članka: {% include dogadjaji-lista.html %}  (ili dogadjaji=page.drugi_popis)
 Događaji kojima je prošao datum (datum_do) u pregledniku se označe kao „Prošlo”.
 Živi popis (stranica /dogadaji/): {% include dogadjaji-lista.html dogadjaji=site.data.dogadjanja.dogadjaji zivo=true %}
-  – prošli se izbacuju pri izradi i skrivaju u pregledniku, poredano po datumu, uz filter po mjestu.
+  – prošli se izbacuju pri izradi i skrivaju u pregledniku (dan roka/završetka ostaje uključen). Redoslijed: još nisu počeli po početku, već traju po završetku; uz filter po mjestu.
 {%- endcomment -%}
 {%- assign dl_lista = include.dogadjaji | default: page.dogadjaji -%}
 {%- if include.zivo -%}{%- include zivi-popis.html lista=dl_lista polje="datum" -%}{%- assign dl_lista = zp_lista -%}{%- endif -%}
@@ -31,7 +31,7 @@ Događaji kojima je prošao datum (datum_do) u pregledniku se označe kao „Pro
   {%- assign d_wi = d.datum | date: "%w" | plus: 0 -%}
   {%- assign d_link = d.link | append: "" -%}
   {%- assign d_vanjski = false -%}{%- if d_link contains "://" -%}{%- assign d_vanjski = true -%}{%- endif %}
-  <li class="oglas-k dog-k" data-do="{{ d_kraj }}" data-grad="{{ d.grad | default: d.mjesto | escape }}">
+  <li class="oglas-k dog-k" data-do="{{ d_kraj }}" data-start="{{ d.datum | date: '%Y-%m-%d' }}" data-grad="{{ d.grad | default: d.mjesto | escape }}">
     {%- if d.slika %}<img class="dk-slika" src="{{ d.slika | relative_url }}" alt="" loading="lazy">{% endif %}
     <p class="ok-posl">{{ dl_dani[d_wi] }}, {{ d.datum | date: "%-d. %-m." }}{% if d.datum_do %} – {{ d.datum_do | date: "%-d. %-m." }}{% endif %}</p>
     <p class="ok-poz">{{ d.naziv }}</p>
@@ -61,6 +61,19 @@ Događaji kojima je prošao datum (datum_do) u pregledniku se označe kao „Pro
       if (r) r.insertAdjacentHTML('beforeend', ' <span class="ok-ist">Prošlo</span>');
     }
   });
+  if (box.classList.contains('zivi-popis')) {
+    var items = Array.prototype.slice.call(box.children);
+    items.sort(function (a, b) {
+      function key(el) {
+        var start = el.getAttribute('data-start') || el.getAttribute('data-do') || '9999-99-99';
+        var end = el.getAttribute('data-do') || start;
+        return (start <= t ? end : start);
+      }
+      var ka = key(a), kb = key(b);
+      return ka < kb ? -1 : ka > kb ? 1 : 0;
+    });
+    items.forEach(function (it) { box.appendChild(it); });
+  }
 })();
 </script>
 {%- endif %}
