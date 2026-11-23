@@ -1,0 +1,39 @@
+# Goranski radar (/radar/) — službene poveznice, najavljena isključenja i servisne obavijesti.
+# Upute: _data/README-zaposlenje-dogadjanja.md
+# Isključenja i obavijesti s datumom strogo prije dana izrade (site.time) same se skrivaju.
+# Ne tvrdi se da je ijedan izvor „uživo”; čitatelja šaljemo na službene stranice.
+azurirano: 2026-11-23
+provjereno: 2026-11-23
+
+poveznice_vrijeme:
+  - naziv: "DHMZ – prognoza za Gorski kotar i Liku"
+    url: "https://meteo.hr/prognoze.php?param=regije_danas&section=prognoze_metp"
+  - naziv: "DHMZ – upozorenja po županijama"
+    url: "https://meteo.hr/naslovnica-upozorenja-zupanije.php"
+  - naziv: "Meteoalarm (CAP) – Hrvatska"
+    url: "https://meteoalarm.org/hr/live/country/hr"
+
+poveznice_struja:
+  - naziv: "HEP ODS – planirana isključenja (Elektroprimorje Rijeka, terenska jedinica Skrad)"
+    url: "https://www.hep.hr/ods/bez-struje/19?dp=rijeka&el=SK"
+  - naziv: "HEP ODS – bez struje (odabir područja)"
+    url: "https://www.hep.hr/ods/bez-struje/19"
+
+# Najavljena isključenja iz službene HEP ODS stranice za terensku jedinicu Skrad (pokriva Gorski kotar).
+# datum: GGGG-MM-DD; stavka se skriva dan nakon datuma.
+iskljucenja:
+  - mjesto: "Severin na Kupi"
+    opis: "Naselje Veliki Jadrč"
+    datum: 2026-11-23
+    vrijeme: "08:30 – 11:00"
+    vrsta: planirani
+    izvor: "HEP ODS, terenska jedinica Skrad"
+  - mjesto: "Lukovdol"
+    opis: "parni brojevi 2–20A i neparni 1–49"
+    datum: 2026-11-23
+    vrijeme: "11:00 – 14:00"
+    vrsta: planirani
+    izvor: "HEP ODS, terenska jedinica Skrad"
+
+# Servisne obavijesti (vodovod, zimska služba, otpad i sl.). Prazno = ispisuje se napomena.
+obavijesti: []

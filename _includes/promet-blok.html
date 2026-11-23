@@ -11,7 +11,7 @@ do 2 najnovija članka s type/kategorijom/oznakom Promet.
 <section class="zaposlenje-blok" id="promet-blok" aria-labelledby="promet-blok-naslov">
   <div class="zb-head">
     <h2 id="promet-blok-naslov"><span aria-hidden="true">🚗</span> Promet</h2>
-    <a class="zb-all" href="{{ '/promet/' | relative_url }}">Sve →</a>
+    <a class="zb-all" href="{{ '/radar/' | relative_url }}">Sve →</a>
   </div>
   {%- if pb_posts.size > 0 %}
   <div class="job-highlights">
@@ -27,11 +27,11 @@ do 2 najnovija članka s type/kategorijom/oznakom Promet.
     {%- endfor %}
     </ul>
   </div>
-  <a class="zb-post" href="{{ '/promet/' | relative_url }}">
+  <a class="zb-post" href="{{ '/radar/' | relative_url }}">
     <span class="zb-post-label">{{ pb_posts.size }} vijesti o prometu i cestama</span>
-    <span class="zb-post-title">Stanje na cestama, zimska služba i službene poveznice</span>
+    <span class="zb-post-title">Stanje na cestama, zimska služba i Goranski radar</span>
   </a>
   {%- else %}
-    <p class="zb-empty">Trenutno nema vijesti u ovoj rubrici. <a href="{{ '/promet/' | relative_url }}">Promet i ceste →</a></p>
+    <p class="zb-empty">Trenutno nema vijesti u ovoj rubrici. <a href="{{ '/radar/' | relative_url }}">Goranski radar →</a></p>
   {%- endif %}
 </section>

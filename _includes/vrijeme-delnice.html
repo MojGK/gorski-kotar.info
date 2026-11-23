@@ -2,7 +2,8 @@
 Widget vremena za Delnice. Podaci: Open-Meteo (besplatno, bez ključa i kolačića), dohvaća ih preglednik.
 Ako API ne odgovori, prikazuje se kratka poruka umjesto prognoze.
 {%- endcomment -%}
-<div class="sidebar-box weather" id="vrijeme-delnice" aria-live="polite">
+{%- assign wx_id = include.id | default: "vrijeme-delnice" -%}
+<div class="sidebar-box weather" id="{{ wx_id }}" aria-live="polite">
   <h3>Vrijeme · Delnice</h3>
   <div class="wx-body" data-wx-body>
     <p class="wx-loading">Učitavam prognozu…</p>
@@ -11,7 +12,7 @@ Ako API ne odgovori, prikazuje se kratka poruka umjesto prognoze.
 </div>
 <script>
 (function () {
-  var box = document.getElementById('vrijeme-delnice');
+  var box = document.getElementById({{ wx_id | jsonify }});
   if (!box || box.dataset.ready) return; box.dataset.ready = '1';
   var body = box.querySelector('[data-wx-body]');
   var URL_ = 'https://api.open-meteo.com/v1/forecast?latitude=45.40&longitude=14.80&current=temperature_2m,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,weather_code&timezone=Europe/Zagreb&forecast_days=3';

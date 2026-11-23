@@ -1,0 +1,20 @@
+---
+layout: null
+title: Promet i ceste
+permalink: /promet/
+---
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promet i ceste | {{ site.title }}</title>
+  <link rel="canonical" href="{{ '/radar/' | absolute_url }}">
+  <meta http-equiv="refresh" content="0;url={{ '/radar/' | relative_url }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>Stranica Promet i ceste premještena je na <a href="{{ '/radar/' | relative_url }}">Goranski radar</a>.</p>
+  <script>location.replace({{ '/radar/' | relative_url | jsonify }});</script>
+</body>
+</html>

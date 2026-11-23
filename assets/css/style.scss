@@ -1174,15 +1174,55 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 
 /* Natječaji: kartice koriste isti stil kao Zaposlenje (.oglasi-lista / .oglas-k). */
 .t-natjecaji { --tc: #8a5a00; }
-.natjecaji-page h1, .promet-page h1 { display: flex; align-items: center; gap: 10px; }
 
-/* Službeni okvir na /promet/ – isti „data box” kao job-highlights */
+/* Službeni okvir na /radar/ (i ranije /promet/) – isti „data box” kao job-highlights */
 .sluzbeni-okvir { margin: 0 0 22px; }
 .sluzbeni-okvir ul { margin: 0; padding-left: 1.2rem; }
 .sluzbeni-okvir li { margin: 0.3rem 0; }
 .sluzbeni-okvir a { font-weight: 700; }
 
-/* Četiri trake ispod zaglavlja: vijesti, kategorije, mjesta, smeđe servisne čipice.
+.natjecaji-page h1, .promet-page h1, .radar-page h1 { display: flex; align-items: center; gap: 10px; }
+.radar-podnaslov { margin: 0.4rem 0 0.4rem; font-size: 1.05rem; color: var(--primary); }
+.radar-napomena { font-size: 0.88rem; color: var(--muted); margin: 0 0 12px; }
+.radar-iskljucenja { list-style: none; margin: 0 0 12px; padding: 0; }
+.radar-iskljucenja li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+.radar-iskljucenja .meta { display: block; color: var(--muted); font-size: 0.85rem; margin-top: 2px; }
+.radar-izvor, .radar-opis { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 2px; }
+.radar-page .sidebar-box.weather { max-width: 28rem; margin: 0 0 16px; }
+
+/* Servisi za građane – kartice ispod heroja (2×2 mobitel, 4 u nizu desktop) */
+.servisi-gradani { margin: 0 0 18px; }
+.servisi-gradani h2 { margin: 0 0 10px; font-size: 1.05rem; color: var(--primary); letter-spacing: 0.01em; }
+.sg-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.sg-card {
+  display: flex; flex-direction: column; align-items: flex-start;
+  background: #fff; border: 1px solid #e4d3b0; border-radius: 14px;
+  padding: 10px 11px 9px; text-decoration: none; color: inherit;
+  box-shadow: var(--shadow-sm); min-width: 0;
+}
+.sg-card:hover, .sg-card:focus-visible {
+  border-color: #8a5a00; box-shadow: var(--shadow-md); text-decoration: none; color: inherit;
+}
+.sg-icon {
+  width: 32px; height: 32px; border-radius: 9px; margin-bottom: 7px;
+  display: flex; align-items: center; justify-content: center;
+  background: #6b4a16; color: #fff8e8; flex: 0 0 auto;
+}
+.sg-icon svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sg-title { font-weight: 800; font-size: 0.88rem; line-height: 1.2; color: #2a1c08; }
+.sg-sub { margin-top: 2px; font-size: 0.72rem; line-height: 1.25; color: var(--muted); }
+@media (min-width: 900px) {
+  .servisi-gradani { margin: 0 0 22px; }
+  .servisi-gradani h2 { font-size: 1.15rem; margin-bottom: 12px; }
+  .sg-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+  .sg-card { padding: 14px 14px 12px; border-radius: 16px; }
+  .sg-icon { width: 40px; height: 40px; border-radius: 11px; margin-bottom: 9px; }
+  .sg-icon svg { width: 22px; height: 22px; }
+  .sg-title { font-size: 1rem; }
+  .sg-sub { font-size: 0.8rem; }
+}
+
+/* Dvije trake ispod zaglavlja: vijesti i mjesta.
    Stilovi su izvan media-queryja da vrijede i na mobitelu i na desktopu. */
 .filter-rows { display: block; }
 .filter-row {
@@ -1221,48 +1261,8 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .filter-chip-loc { font-weight: 600; color: #dcefe0; background: transparent; }
 .filter-chip-series { color: #ffe0a3; }
 
-/* Smeđe čipice – visoka specifičnost (.site-header a.servis-link) da nadjačaju a { color: accent } */
-.site-header .servis-bar,
-.servis-bar {
-  display: block;
-  background: #5c3d1e;
-  background: linear-gradient(90deg, #4e3418 0%, #6b4a16 45%, #5c3d1e 100%);
-  border-top: 1px solid rgba(255, 236, 200, 0.2);
-}
-.site-header .servis-bar a.servis-link,
-a.servis-link {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  scroll-snap-align: start;
-  white-space: nowrap;
-  color: #fff8e8;
-  text-decoration: none;
-  font-size: 0.8rem;
-  font-weight: 800;
-  line-height: 1.2;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: #8a5a00;
-  border: 1px solid rgba(255, 236, 200, 0.45);
-}
-.site-header .servis-bar a.servis-link:hover,
-a.servis-link:hover {
-  background: #a36d0a;
-  color: #fff8e8;
-  text-decoration: none;
-}
-.site-header .servis-bar a.servis-link.current,
-.site-header .servis-bar a.servis-link[aria-current="page"],
-a.servis-link.current,
-a.servis-link[aria-current="page"] {
-  background: #e0c56a;
-  border-color: #e0c56a;
-  color: #2a1c08;
-}
-
 @media (min-width: 900px) {
-  .site-sidebar { top: calc(var(--header-h) + 126px); }
+  .site-sidebar { top: calc(var(--header-h) + 84px); }
 }
 
 /* Uži glavni izbornik dok ima 8 stavki (Natječaji i Promet), da se Povijest ne preklope s pretragom */

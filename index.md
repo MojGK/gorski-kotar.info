@@ -32,6 +32,8 @@ sidebar: true
   </div>
 </section>
 
+{% include servisi-gradani.html %}
+
 {%- comment -%} Mobilno (< 900 px): Najnovije, banner, Izdvojeno, kategorijski blokovi, Zaposlenje, filteri; mreža članaka tek uz filter ili "Svi članci". Na desktopu m-only blokovi su skriveni. {%- endcomment %}
 {% include m-najnovije.html lead=lead %}
 
