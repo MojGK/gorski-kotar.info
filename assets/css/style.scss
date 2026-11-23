@@ -1182,16 +1182,20 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
 .sluzbeni-okvir li { margin: 0.3rem 0; }
 .sluzbeni-okvir a { font-weight: 700; }
 
-/* Smeđa traka servisnih rubrika ispod cat-bara / mobilnih čipova */
-.servis-bar {
-  background: #5c3d1e;
-  background: linear-gradient(90deg, #4e3418 0%, #6b4a16 45%, #5c3d1e 100%);
-  border-top: 1px solid rgba(255, 236, 200, 0.14);
+/* Četiri trake ispod zaglavlja: vijesti, kategorije, mjesta, smeđe servisne čipice.
+   Stilovi su izvan media-queryja da vrijede i na mobitelu i na desktopu. */
+.filter-rows { display: block; }
+.filter-row {
+  display: block;
+  background: #143d24;
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
-.servis-bar-inner {
+.filter-row-inner {
   display: flex;
+  flex-wrap: nowrap;
   gap: 6px;
   overflow-x: auto;
+  overflow-y: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   scrollbar-width: none;
@@ -1199,28 +1203,66 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   padding-bottom: 7px;
   -webkit-overflow-scrolling: touch;
 }
-.servis-bar-inner::-webkit-scrollbar { display: none; }
-.servis-link {
+.filter-row-inner::-webkit-scrollbar { display: none; }
+.filter-chip {
   flex: 0 0 auto;
   scroll-snap-align: start;
   white-space: nowrap;
-  color: #f6edd8;
+  color: #fff;
   text-decoration: none;
-  font-size: 0.82rem;
-  font-weight: 800;
+  font-size: 0.8rem;
+  font-weight: 700;
   padding: 6px 12px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 236, 200, 0.22);
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.16);
 }
-.servis-link:hover { background: rgba(255, 236, 200, 0.22); color: #fff8e8; }
-.servis-link.current, .servis-link[aria-current="page"] {
+.filter-chip:hover, .filter-chip:active { background: var(--accent); border-color: var(--accent); color: #fff; text-decoration: none; }
+.filter-chip-loc { font-weight: 600; color: #dcefe0; background: transparent; }
+.filter-chip-series { color: #ffe0a3; }
+
+/* Smeđe čipice – visoka specifičnost (.site-header a.servis-link) da nadjačaju a { color: accent } */
+.site-header .servis-bar,
+.servis-bar {
+  display: block;
+  background: #5c3d1e;
+  background: linear-gradient(90deg, #4e3418 0%, #6b4a16 45%, #5c3d1e 100%);
+  border-top: 1px solid rgba(255, 236, 200, 0.2);
+}
+.site-header .servis-bar a.servis-link,
+a.servis-link {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  scroll-snap-align: start;
+  white-space: nowrap;
+  color: #fff8e8;
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 800;
+  line-height: 1.2;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #8a5a00;
+  border: 1px solid rgba(255, 236, 200, 0.45);
+}
+.site-header .servis-bar a.servis-link:hover,
+a.servis-link:hover {
+  background: #a36d0a;
+  color: #fff8e8;
+  text-decoration: none;
+}
+.site-header .servis-bar a.servis-link.current,
+.site-header .servis-bar a.servis-link[aria-current="page"],
+a.servis-link.current,
+a.servis-link[aria-current="page"] {
   background: #e0c56a;
   border-color: #e0c56a;
   color: #2a1c08;
 }
+
 @media (min-width: 900px) {
-  .site-sidebar { top: calc(var(--header-h) + 94px); }
+  .site-sidebar { top: calc(var(--header-h) + 168px); }
 }
 
 /* Uži glavni izbornik dok ima 8 stavki (Natječaji i Promet), da se Povijest ne preklope s pretragom */
