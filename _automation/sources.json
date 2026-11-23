@@ -1,5 +1,7 @@
 [
   {"name":"Primorsko-goranska županija","url":"https://www.pgz.hr/feed/","hosts":["www.pgz.hr","pgz.hr"],"auto":true},
+  {"name":"Općina Skrad","url":"https://skrad.hr/feed/","hosts":["skrad.hr","www.skrad.hr"],"auto":true},
+  {"name":"Općina Mrkopalj","url":"https://mrkopalj.hr/feed/","hosts":["mrkopalj.hr","www.mrkopalj.hr"],"auto":true},
   {"name":"Radio Gorski kotar","url":"https://rgk.hr/feed/","hosts":["rgk.hr","www.rgk.hr"],"auto":false},
   {"name":"Gorske novosti","url":"https://gorskenovosti.net/feed/","hosts":["gorskenovosti.net","www.gorskenovosti.net"],"auto":false}
 ]
