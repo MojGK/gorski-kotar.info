@@ -5,6 +5,7 @@ date: 2026-11-04 07:38:00 +0100
 location: Gorski kotar
 type: Aktualno
 categories: [Gorski kotar, Aktualno]
+tags: [natjecaji]
 excerpt: "HZZ-ova mjera Biram Hrvatsku do 31. 12. 2026. nudi 7.000 eura povratnicima iz inozemstva koji pokrenu vlastiti posao i 3.500 eura onima koji se iz razvijenijih krajeva presele u slabije razvijene. Rok za pojedinca je kratak, svega 30 dana."
 image: /assets/images/gorski-kotar-selo-crkva-commons.jpg
 image_alt: "Malo goransko selo s bijelom crkvom i kućama na šumovitoj padini"

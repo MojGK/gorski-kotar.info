@@ -1,9 +1,10 @@
 # Zaposlenje i Događanja – živi popisi (upute za Novinara)
 
-Stranice **/zaposlenje/** i **/dogadaji/**, blokovi na naslovnici i **/kalendar/** pune se iz dviju datoteka:
+Stranice **/zaposlenje/** i **/dogadaji/**, blokovi na naslovnici i **/kalendar/** pune se iz `_data/poslovi.yml` i `_data/dogadjanja.yml`. Stranica **/natjecaji/** puni se iz `_data/natjecaji.yml`.
 
 - `_data/poslovi.yml` – oglasi za posao
 - `_data/dogadjanja.yml` – najave događaja
+- `_data/natjecaji.yml` – otvoreni natječaji, stipendije i potpore
 
 Za novi oglas ili događaj **ne pišeš članak**: dodaš stavku u datoteku, promijeniš `azurirano:` na današnji datum i objaviš (commit + push).
 Stranica se uz to sama ponovno izgradi svaki dan u 05:00 (GitHub Actions „Dnevna izrada stranice”), pa istekli oglasi i prošli događaji nestanu i bez objave.
@@ -57,3 +58,33 @@ Stranica se uz to sama ponovno izgradi svaki dan u 05:00 (GitHub Actions „Dnev
 ## Tjedni pregled (neobavezno)
 
 Kratki tjedni članak (npr. ponedjeljkom) s 3–5 izdvojenih stavki i poveznicom na /zaposlenje/ ili /dogadaji/ i dalje je dobrodošao za Facebook, RSS i arhivu. Stari tjedni pregledi ostaju na istim adresama kao arhiva.
+
+
+## Natječaj ili potpora (`_data/natjecaji.yml`, pod `natjecaji:`)
+
+```yaml
+- naziv: "Natječaj za stipendije 2026./2027."  # obavezno
+  raspisivac: "Primorsko-goranska županija"    # obavezno
+  za_koga: "Učenici i studenti"                # obavezno
+  iznos: "250 eura mjesečno"                   # neobavezno – ako je poznat
+  rok: 2026-12-01                              # obavezno – GGGG-MM-DD
+  rok_napomena: "do 23:59"                     # neobavezno – sat ili način predaje
+  grad: "PGŽ"                                  # neobavezno – za filter po mjestu
+  opis: "Kratka napomena."                     # neobavezno
+  clanak: /slug-naseg-clanka/                  # obavezno – permalink našeg članka
+  izvor:                                       # obavezno – službena stranica
+    naziv: "PGŽ"
+    url: "https://www.pgz.hr/..."
+```
+
+- Stavka nestaje s /natjecaji/ dan nakon roka (ista logika kao oglasi: `site.time`, skriva se ako je `rok` strogo prije dana izrade). Dnevna izrada u 05:00 to odradi i bez nove objave.
+- U popis ide samo **otvoreni** natječaj ili potpora s provjerenim rokom iz članka. Savjetovanja, već dodijeljene stipendije i natječaji na koje se javlja jedinica, a ne čitatelj, ne idu ovdje.
+- Članak ostaje na postojećoj adresi; u front matter dodaj `tags: [natjecaji]` (bez promjene `date`, URL-a ili `type`), da se pojavi i pod „Povezani članci”.
+- Jednom tjedno počisti stavke starije od tjedan dana.
+
+## Promet i ceste (`/promet/`)
+
+Stranica nije živi YAML-popis, nego popis članaka s `type: Promet`, kategorijom Promet ili oznakom `tags: [promet]`. Na vrhu je statičan okvir sa službenim poveznicama (HAK, HAC, DHMZ, Autotrans/Arriva).
+
+- Novi članak o cestama, zimskoj službi, zatvorenim dionicama ili autobusnim linijama označi s `type: Promet` i/ili `tags: [promet]`. Ako članak mora ostati u drugoj vrsti (npr. Aktualno), dodaj samo `tags: [promet]` i po potrebi Promet u `categories`, bez promjene datuma i URL-a.
+- Oznaka vrste Promet u članku vodi na `/promet/`, a ne na stranicu kategorije.

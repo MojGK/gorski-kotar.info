@@ -5,6 +5,7 @@ date: 2026-11-12 16:03:00 +0100
 location: Fužine
 type: Događanja
 categories: [Fužine, Događanja]
+tags: [natjecaji]
 excerpt: "Centar za kreativno pisanje (CeKaPe) organizira šestu Zimsku školu pisanja od 19. do 24. siječnja 2027. u kućama za odmor Zelena vrata kod naselja Vrata, u općini Fužine. Radionicu poezije vodit će Maja Klarić, a radionicu proze Tanja Stupar Trifunović. Škola je, prema organizatoru, namijenjena i početnicima."
 event_date: 2027-01-19 00:00:00 +0100
 event_end: 2027-01-24 23:59:00 +0100

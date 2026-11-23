@@ -1,0 +1,134 @@
+# Otvoreni natječaji, stipendije i potpore za Gorski kotar.
+# Upute: _data/README-zaposlenje-dogadjanja.md
+# Stavka nestaje s /natjecaji/ dan nakon roka (site.time, polje rok).
+azurirano: 2026-11-23
+natjecaji:
+
+  - naziv: "Jednokratna naknada umirovljenicima (božićnica)"
+    raspisivac: "Općina Fužine"
+    za_koga: "Umirovljenici s područja Općine Fužine čiji mjesečni prihodi ne prelaze 700 eura"
+    iznos: "70–90 eura"
+    rok: 2026-11-25
+    grad: "Fužine"
+    clanak: /fuzine-bozicnice-umirovljenicima/
+    izvor:
+      naziv: "Općina Fužine"
+      url: "https://fuzine.hr/hr/obavijesti/obavijest-svim-umirovljenicima-s-podrucja-opcine-fuzine-o-nacinu-ostvarivanja,1235.html"
+
+  - naziv: "Javni poziv za potpore poduzetnicima 2026."
+    raspisivac: "Općina Fužine"
+    za_koga: "Poduzetnici s područja Općine Fužine (jedna mjera)"
+    iznos: "Mjera 2: 150–2.500 eura (do 75 %); Mjera 6: 500–3.000 eura (do 60 %)"
+    rok: 2026-11-26
+    rok_napomena: "prijave putem SOM-a"
+    grad: "Fužine"
+    clanak: /fuzine-javni-poziv-potpore-poduzetnicima-2026/
+    izvor:
+      naziv: "Općina Fužine"
+      url: "https://www.fuzine.hr/hr/obavijesti/javni-poziv-za-subvencioniranje-i-poticanje-razvoja-poduzetnistva-na-podrucju,1240.html"
+
+  - naziv: "Javni natječaj za zakup javnih površina (dva kioska i pano na Bajeru)"
+    raspisivac: "Općina Fužine"
+    za_koga: "Ponuditelji za zakup triju javnih površina u vlasništvu Općine"
+    iznos: "Početna zakupnina 87,50 eura/mj (kiosci, 18 mjeseci) ili 20 eura/mj (pano, 5 godina)"
+    rok: 2026-11-26
+    rok_napomena: "pisane ponude do 10 sati"
+    grad: "Fužine"
+    clanak: /fuzine-zakup-kiosk-igraliste-bajer/
+    izvor:
+      naziv: "Općina Fužine"
+      url: "https://www.fuzine.hr/hr/natjecaji/javni-natjecaj-za-davanje-u-zakup-javnih-povrsina-u-vlasnistvu-opcine-fuzine,1261.html"
+
+  - naziv: "Javni poziv za potpore poduzetnicima 2026."
+    raspisivac: "Grad Delnice"
+    za_koga: "Mikro i mali poduzetnici te obrtnici s područja Grada Delnica"
+    iznos: "5.000 eura (8 potpora, Mjera 1.1 – strojevi i oprema)"
+    rok: 2026-11-27
+    grad: "Delnice"
+    clanak: /delnice-javni-poziv-potpore-poduzetnicima-2026/
+    izvor:
+      naziv: "Grad Delnice"
+      url: "https://delnice.hr/javni-poziv-za-dodjelu-potpora-po-programu-poticanja-i-razvoja-poduzetnistva-na-podrucju-grada-delnica-u-2026-godini/"
+
+  - naziv: "Natječaj za stipendije učenicima i studentima 2026./2027."
+    raspisivac: "Primorsko-goranska županija"
+    za_koga: "Učenici i studenti; kategorija F odnosi se na učenike s prebivalištem i školom u Gorskom kotaru"
+    iznos: "Kategorija F: 250 eura mjesečno; ostale kategorije prema natječaju"
+    rok: 2026-12-01
+    rok_napomena: "prijave putem SOM-a do 23:59"
+    grad: "PGŽ"
+    clanak: /pgz-natjecaj-stipendije-2026-2027/
+    izvor:
+      naziv: "PGŽ"
+      url: "https://www.pgz.hr/projekt_program/natjecaj-za-dodjelu-stipendija-ucenicima-i-studentima-za-skolsku-i-akademsku-godinu-2026-2027/"
+
+  - naziv: "Treći natječaj SP ZPP 73.10 – ulaganja u proizvodnju mlijeka"
+    raspisivac: "Agencija za plaćanja u poljoprivredi, ribarstvu i ruralnom razvoju"
+    za_koga: "Mikro, mali i srednji proizvođači mlijeka"
+    iznos: "15.000–500.000 eura po projektu (od toga najviše 100.000 eura za mehanizaciju)"
+    rok: 2026-12-01
+    rok_napomena: "do 12:00"
+    grad: "Hrvatska"
+    clanak: /sp-zpp-73-10-mlijeko-treci-natjecaj/
+    izvor:
+      naziv: "ruralnirazvoj.hr"
+      url: "https://ruralnirazvoj.hr/treci-natjecaj-za-provedbu-intervencije-73-10-ulaganja-potpora-za-ulaganja-u-primarnu-poljoprivrednu-proizvodnju-za-sektor-proizvodnje-mlijeka/"
+
+  - naziv: "Drugi natječaj SP ZPP 73.10 – voćarstvo, vinogradarstvo i povrćarstvo"
+    raspisivac: "Agencija za plaćanja u poljoprivredi, ribarstvu i ruralnom razvoju"
+    za_koga: "Mikro, mala i srednja gospodarstva u voćarstvu, vinogradarstvu i povrćarstvu"
+    rok: 2026-12-01
+    rok_napomena: "do 12:00"
+    grad: "Hrvatska"
+    opis: "Riječ je o drugom, širem natječaju 73.10, koji nije isti kao treći natječaj za sektor mlijeka. Spomenut je u našem članku o natječaju za mlijeko."
+    clanak: /sp-zpp-73-10-mlijeko-treci-natjecaj/
+    izvor:
+      naziv: "ruralnirazvoj.hr"
+      url: "https://ruralnirazvoj.hr/drugi-natjecaj-za-provedbu-intervencije73-10-ulaganja-potpora-za-ulaganja-u-primarnu-poljoprivrednu-proizvodnju/"
+
+  - naziv: "Božićnice umirovljenicima 2026."
+    raspisivac: "Grad Čabar"
+    za_koga: "Umirovljenici s područja Grada Čabra"
+    iznos: "20–80 eura"
+    rok: 2026-12-13
+    rok_napomena: "zahtjevi od 17. studenoga"
+    grad: "Čabar"
+    clanak: /cabar-bozicnice-umirovljenicima-2026/
+    izvor:
+      naziv: "Grad Čabar"
+      url: "https://www.cabar.hr/cabar_novosti.php"
+
+  - naziv: "Biram Hrvatsku – potpora za povratak i preseljenje"
+    raspisivac: "Hrvatski zavod za zapošljavanje"
+    za_koga: "Osobe koje se zapošljavaju ili samozapošljavaju i sele se u potpomognuto područje, uključujući Gorski kotar"
+    iznos: "7.000 ili 3.500 eura, prema uvjetima mjere"
+    rok: 2026-12-31
+    opis: "Uz krajnji rok 31. prosinca 2026., zahtjev treba podnijeti u roku od 30 dana od početka samozapošljavanja, kako je navedeno u članku."
+    grad: "Hrvatska"
+    clanak: /biram-hrvatsku-potpora-povratak-preseljenje-gorski-kotar/
+    izvor:
+      naziv: "HZZ"
+      url: "https://mjere.hzz.hr/mjere/biram-hrvatsku-mobilnost-radne-snage-2026/"
+
+  - naziv: "Četvrti natječaj SP ZPP 76.01 – osiguranje poljoprivredne proizvodnje"
+    raspisivac: "Agencija za plaćanja u poljoprivredi, ribarstvu i ruralnom razvoju"
+    za_koga: "Poljoprivrednici koji osiguravaju proizvodnju"
+    iznos: "70 % premije, najviše 75.000 eura godišnje"
+    rok: 2026-12-31
+    rok_napomena: "zahtjevi do 12:00"
+    grad: "Hrvatska"
+    clanak: /sp-zpp-76-01-osiguranje-poljoprivredne-proizvodnje/
+    izvor:
+      naziv: "ruralnirazvoj.hr"
+      url: "https://ruralnirazvoj.hr/cetvrti-natjecaj-za-provedbu-intervencije-76-01-osiguranje-poljoprivredne-proizvodnje/"
+
+  - naziv: "Zimska škola pisanja 2027."
+    raspisivac: "Centar za kreativno pisanje (CeKaPe)"
+    za_koga: "Polaznici škole pisanja, uključujući početnike"
+    rok: 2027-01-24
+    grad: "Fužine"
+    opis: "Škola se održava od 19. do 24. siječnja 2027. u kućama Zelena vrata kod naselja Vrata (Fužine). Poseban rok za prijavu nije naveden u našem članku; prijave su na stranici organizatora. Ovdje je kao rok naveden zadnji dan škole."
+    clanak: /zimska-skola-pisanja-zelena-vrata/
+    izvor:
+      naziv: "CeKaPe"
+      url: "https://cekape.com/skola-pisanja-u-dvorcu/"

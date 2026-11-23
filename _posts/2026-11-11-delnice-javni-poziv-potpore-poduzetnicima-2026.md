@@ -5,6 +5,7 @@ date: 2026-11-11 10:03:00 +0100
 location: Delnice
 type: Aktualno
 categories: [Delnice, Aktualno]
+tags: [natjecaji]
 excerpt: "Grad Delnice 11. studenoga objavio je javni poziv za nepovratne potpore iz Programa poticanja i razvoja poduzetništva u 2026. godini. U okviru mjere 1.1. dodjeljuje se po 5.000 eura za osam poduzetnika, za nabavu i ugradnju novih strojeva i opreme. Prijave se podnose do 27. studenoga."
 image: /assets/images/delnice-obrtnik-radionica-stroj-ai.jpg
 image_alt: "AI ilustracija: obrtnik u maloj stolarskoj radionici stoji uz novi stroj"

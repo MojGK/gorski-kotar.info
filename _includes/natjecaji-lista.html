@@ -1,0 +1,54 @@
+{%- comment -%}
+Popis otvorenih natječaja i potpora kao kartice, isti obrazac kao oglasi za posao.
+Podaci iz _data/natjecaji.yml (polja: naziv, raspisivac, za_koga, iznos, rok, clanak, izvor).
+Poziv: {% include natjecaji-lista.html stavke=site.data.natjecaji.natjecaji zivo=true %}
+Živi popis: istekli se izbacuju pri izradi (site.time) i skrivaju u pregledniku, poredano po roku.
+{%- endcomment -%}
+{%- assign nj_stavke = include.stavke | default: site.data.natjecaji.natjecaji -%}
+{%- if include.zivo -%}{%- include zivi-popis.html lista=nj_stavke polje="rok" -%}{%- assign nj_stavke = zp_lista -%}{%- endif -%}
+{%- if include.zivo and zp_gradovi.size > 1 %}
+<div class="filters zivi-filter" data-zivi-filter role="group" aria-label="Filtriraj po mjestu">
+  <button type="button" class="filter-btn active" data-grad="">Sva mjesta</button>
+  {%- for g in zp_gradovi %}<button type="button" class="filter-btn" data-grad="{{ g | escape }}">{{ g }}</button>{% endfor %}
+</div>
+{%- endif -%}
+{%- if nj_stavke and nj_stavke.size > 0 %}
+<ul class="oglasi-lista natjecaji-lista{% if include.zivo %} zivi-popis{% endif %}" data-oglasi-lista>
+{%- for o in nj_stavke %}
+  {%- assign o_rok = o.rok | append: "" -%}
+  {%- assign o_is_date = false -%}{%- if o_rok.size == 10 and o_rok contains "-" -%}{%- assign o_is_date = true -%}{%- endif %}
+  <li class="oglas-k"{% if o_is_date %} data-rok="{{ o_rok }}"{% endif %} data-grad="{{ o.grad | default: o.mjesto | escape }}">
+    <p class="ok-posl">{{ o.raspisivac }}</p>
+    <p class="ok-poz">{{ o.naziv }}</p>
+    <ul class="ok-det">
+      {%- if o.za_koga %}<li><span class="ok-lbl">👤 Za koga</span> <span class="ok-val">{{ o.za_koga }}</span></li>{% endif %}
+      {%- if o.iznos %}<li><span class="ok-lbl">💶 Iznos</span> <span class="ok-val">{{ o.iznos }}</span></li>{% endif %}
+      <li class="ok-rok"><span class="ok-lbl">⏳ Rok</span> <span class="ok-val">{% if o_is_date %}{{ o.rok | date: "%-d. %-m. %Y." }}{% else %}{{ o.rok }}{% endif %}{% if o.rok_napomena %} ({{ o.rok_napomena }}){% endif %}</span></li>
+    </ul>
+    {%- if o.opis %}<p class="ok-opis">{{ o.opis }}</p>{% endif %}
+    <p class="ok-linkovi">
+      {%- if o.clanak %}<a class="ok-btn" href="{{ o.clanak | relative_url }}">Naš članak</a>{% endif %}
+      {%- if o.izvor %}<a class="ok-alt" href="{{ o.izvor.url }}" target="_blank" rel="noopener">Izvor ({{ o.izvor.naziv }}) <span aria-hidden="true">↗</span></a>{% endif %}
+    </p>
+  </li>
+{%- endfor %}
+</ul>
+<script>
+(function () {
+  var s = document.currentScript, box = s && s.previousElementSibling;
+  if (!box) return;
+  var d = new Date(), t = d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
+  box.querySelectorAll('[data-rok]').forEach(function (li) {
+    if (li.getAttribute('data-rok') < t) {
+      if (box.classList.contains('zivi-popis')) { li.remove(); return; }
+      li.classList.add('isteklo');
+      var r = li.querySelector('.ok-rok .ok-val');
+      if (r) r.insertAdjacentHTML('beforeend', ' <span class="ok-ist">Rok istekao</span>');
+    }
+  });
+})();
+</script>
+{%- endif %}
+{%- if include.zivo %}
+<p class="no-results" data-zivi-prazno{% if nj_stavke.size > 0 %} hidden{% endif %}>{{ include.prazno | default: "Trenutno nema otvorenih natječaja i potpora." }}</p>
+{%- endif %}

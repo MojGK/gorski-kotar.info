@@ -4,7 +4,8 @@ title: "Vrbovsko: asfaltiranje cesta od 170.000 eura kreće u studenom, gradona�
 date: 2026-11-09 10:46:00 +0100
 location: Vrbovsko
 type: Aktualno
-categories: [Vrbovsko, Aktualno]
+categories: [Vrbovsko, Aktualno, Promet]
+tags: [promet]
 excerpt: "Gradonačelnik Dražen Mufić kaže da asfaltiranje nerazvrstanih cesta u Vrbovskom, vrijedno 170.000 eura, kreće u studenom i kašnjenje pripisuje kasnoj sjednici Gradskog vijeća. Izvor ne donosi odgovor vijećnika. Najavljuje i radove na mostovima Kamačnik te nove projekte."
 image: /assets/images/vrbovsko-panorama.jpg
 image_alt: "Pogled na Vrbovsko (ilustrativna fotografija)"

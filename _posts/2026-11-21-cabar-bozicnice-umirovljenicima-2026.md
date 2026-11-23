@@ -5,6 +5,7 @@ date: 2026-11-21 09:47:00 +0100
 location: Čabar
 type: Općinske vijesti
 categories: [Čabar, Općinske vijesti]
+tags: [natjecaji]
 excerpt: "Gradonačelnik Čabra Antonio Dražović 16. studenoga donio je odluku o isplati božićnica umirovljenicima za 2026. godinu. U proračunu je osigurano 80.000 eura, a iznos ovisi o visini mirovine i kreće se od 20 do 80 eura. Zahtjevi se predaju od 17. studenoga do 13. prosinca."
 image: /assets/images/cabar-pogled-commons.jpg
 image_alt: "Pogled na Čabar u Gorskom kotaru (ilustrativna fotografija)"

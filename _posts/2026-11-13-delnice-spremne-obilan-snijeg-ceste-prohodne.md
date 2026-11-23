@@ -5,6 +5,7 @@ date: 2026-11-13 19:18:00 +0100
 location: Delnice
 type: Promet
 categories: [Delnice, Promet]
+tags: [promet]
 excerpt: "Prema informacijama s terena našeg portala, u Delnicama pada snijeg, ali su gradske ceste prohodne i bez zastoja. Zimska služba na nerazvrstanim cestama, prema dokumentaciji javne nabave Grada Delnica, kreće s čišćenjem nakon 5 cm snijega. Najveći problemi ostaju na A6, gdje HAK i dalje javlja kolonu od 4 kilometra."
 image: /assets/images/delnice-nocna-snijeg-2026-11-13.jpg
 image_alt: "Očišćena gradska cesta u Delnicama noću, sa snježnim nanosom uz rub kolnika, 13. 11. 2026."

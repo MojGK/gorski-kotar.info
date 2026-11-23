@@ -5,6 +5,7 @@ date: 2026-11-21 19:05:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Državni hidrometeorološki zavod za nedjelju, 22. studenoga, izdao je žuto upozorenje na kišu, vjetar i grmljavinu. Upozorenja vrijede za cijelu Primorsko-goransku županiju, ne samo za Gorski kotar."
 image: /assets/images/kisa-goranska-suma-cesta-ai.jpg
 image_alt: "AI ilustracija: mokra cesta kroz goransku šumu po jakoj kiši, uz nabujali potok"

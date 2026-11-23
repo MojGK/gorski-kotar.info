@@ -5,6 +5,7 @@ date: 2026-11-04 13:10:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Ažurirano 5. 11.: PU primorsko-goranska potvrdila zatvaranje A6 Oštrovica–Kikovica 4. 11. od 4.20 do 17.50 zbog prevrnutog kamiona s teladi; promet je otvoren, vozaču prekršajni nalog."
 image: /assets/images/a6-javorova-kosa.jpg
 image_alt: "Autocesta A6 u Gorskom kotaru, ulaz u tunel (ilustrativna fotografija)"

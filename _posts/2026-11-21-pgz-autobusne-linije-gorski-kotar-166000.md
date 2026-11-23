@@ -4,7 +4,8 @@ title: "Županija dodala još 166.000 eura za autobusne linije u Gorskom kotaru:
 date: 2026-11-21 10:13:00 +0100
 location: Gorski kotar
 type: Aktualno
-categories: [Gorski kotar, Aktualno]
+categories: [Gorski kotar, Aktualno, Promet]
+tags: [promet]
 excerpt: "Primorsko-goranska županija u drugom krugu raspodjele za 2026. dodijelila je 166.000 eura za sufinanciranje županijskih autobusnih linija na području Gorskog kotara i Vinodolske općine. Najveće iznose dobili su Čabar i Vrbovsko. Ukupna županijska potpora za ovu namjenu u 2026. iznosi 332.000 eura."
 image: /assets/images/pgz-autobus-gorski-kotar-ai.jpg
 image_alt: "Ilustracija: linijski autobus na seoskom stajalištu u Gorskom kotaru, po maglovitom jutru"

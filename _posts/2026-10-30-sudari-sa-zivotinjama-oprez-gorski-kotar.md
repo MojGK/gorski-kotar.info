@@ -5,6 +5,7 @@ date: 2026-10-30 20:12:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "U dva tjedna PU primorsko-goranska zabilježila je 31 sudar sa srnećom divljači, među ostalim kod Čabra, Delnica, Mrkoplja i Ravne Gore. Policija moli vozače za oprez, posebno ujutro."
 image: /assets/images/znak-divljac-na-cesti.jpg
 image_alt: "Prometni znak upozorenja na divljač uz šumsku cestu, ilustracija"

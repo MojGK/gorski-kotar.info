@@ -5,6 +5,7 @@ date: 2026-10-30 20:10:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Ceste-Rijeka od 1. studenoga dežuraju u zimskim bazama u planinskom području, među njima u Delnicama, Čabru i Vrbovskom. Vozače mole da na vrijeme opreme vozila."
 image: /assets/images/zimska-sluzba-unimog-ralica.jpg
 image_alt: "Žuti Unimog s ralicom i posipačem, ilustracija"

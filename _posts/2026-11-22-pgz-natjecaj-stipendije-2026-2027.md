@@ -5,6 +5,7 @@ date: 2026-11-22 20:00:00 +0100
 location: Gorski kotar
 type: Aktualno
 categories: [Gorski kotar, Aktualno]
+tags: [natjecaji]
 excerpt: "Primorsko-goranska županija raspisala je natječaj za stipendije za školsku i akademsku godinu 2026./2027., u šest kategorija. Posebna je kategorija za učenike s prebivalištem koji pohađaju srednju školu u Gorskom kotaru, u iznosu od 250 eura mjesečno. Prijave su do 1. prosinca u 23:59, putem aplikacije SOM."
 image: /assets/images/pgz-stipendije-2026.jpg
 image_alt: "Ilustracija: diploma, visoka kapa i hrpa knjiga"

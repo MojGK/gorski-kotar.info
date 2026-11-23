@@ -6,6 +6,7 @@ azurirano: 2026-11-14 07:18:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "HAK je u 07:16 javio da je autocesta A6 Rijeka–Zagreb, nakon slabljenja bure, otvorena za sav promet. U jutarnjem izvješću više se ne navodi sinoćnja nesreća na 40. kilometru niti zabrane za vozila bez zimske opreme na goranskim cestama. HAK upozorava da su kolnici mokri i skliski u većem dijelu zemlje te da je zbog niskih temperatura u unutrašnjosti moguća poledica."
 image: /assets/images/a6-delnice-ravna-gora-snijeg-zastoj-2026-11-13.jpg
 image_alt: "Kolona vozila na autocesti A6 između Delnica i Ravne Gore u gustome noćnom snijegu, 13. 11. 2026."

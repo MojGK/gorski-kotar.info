@@ -5,6 +5,7 @@ date: 2026-10-25 08:09:18 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Županijska cesta 5033 kroz Kuželj zatvorena je zbog radova do kraja 2026. Obilazi se preko Delnica. Od 1. studenoga, kad se najavljuje snijeg, stara trasa mora se otvoriti."
 image: /assets/images/kuzelj-cesta-zatvorena-ai.jpg
 image_alt: "Ilustracija: prometna barijera na cesti u šumovitoj riječnoj dolini"

@@ -4,7 +4,8 @@ title: "A6 Kikovica – Delnice ponovno otvorena za sva vozila, radovi kod Javor
 date: 2026-11-03 07:20:00 +0100
 location: Delnice
 type: Aktualno
-categories: [Delnice, Aktualno]
+categories: [Delnice, Aktualno, Promet]
+tags: [promet]
 excerpt: "Prema HAK-u, A6 između Kikovice i Delnica od utorka popodne ponovno je otvorena za sve skupine vozila. Između tunela Pod Vugleš i Javorova Kosa do 13. studenoga i dalje se vozi jednim trakom po smjeru, uz 60 km/h."
 image: /assets/images/a6-javorova-kosa.jpg
 image_alt: "Autocesta A6 u Gorskom kotaru, ulaz u tunel (ilustrativna fotografija)"

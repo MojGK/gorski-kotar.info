@@ -6,6 +6,7 @@ date: 2026-11-22 20:25:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Državni hidrometeorološki zavod najavljuje da će krajem nedjelje i u noći na ponedjeljak, uz zahladnjenje, kiša u najvišem gorju prelaziti u susnježicu i snijeg. Službeni izgledi vremena za četvrtak ponovno navode rast vjerojatnosti za susnježicu i snijeg u gorju, bez navedenih količina."
 image: /assets/images/snijeg-petak-gorski-kotar-hac-zimska-sluzba-ai.jpg
 image_alt: "AI ilustracija: žuto vozilo zimske službe na mokroj goranskoj cesti kroz smrekovu šumu, u sumrak i uz padanje snijega"

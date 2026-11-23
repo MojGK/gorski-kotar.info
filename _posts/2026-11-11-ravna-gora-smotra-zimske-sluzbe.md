@@ -5,6 +5,7 @@ date: 2026-11-11 13:00:00 +0100
 location: Ravna Gora
 type: Promet
 categories: [Ravna Gora, Promet]
+tags: [promet]
 excerpt: "U Ravnoj Gori održana je smotra vozila i opreme za zimsku službu 2026./2027. na nerazvrstanim cestama i javnim površinama. Načelnik Mišel Šćuka rekao je za Radio Gorski kotar da su on i stanovnici zadovoljni sustavom čišćenja te da je Općina spremna za zimu. Istodobno je izrazio zabrinutost za održavanje županijskih cesta na području Općine."
 image: /assets/images/ravna-gora-smotra-zimske-sluzbe-ai.jpg
 image_alt: "AI ilustracija: ralice i posipači postrojeni na trgu malog gorskog mjesta"

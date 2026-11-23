@@ -57,10 +57,15 @@
 {%- elsif page.url == "/pretraga/" -%}{%- assign nav_sec = "trazi" -%}
 {%- elsif page.url == "/povijest/" -%}{%- assign nav_sec = "povijest" -%}
 {%- elsif page.url == "/zaposlenje/" -%}{%- assign nav_sec = "zaposlenje" -%}
+{%- elsif page.url == "/natjecaji/" -%}{%- assign nav_sec = "natjecaji" -%}
+{%- elsif page.url == "/promet/" -%}{%- assign nav_sec = "promet" -%}
+{%- elsif page.layout == "kategorija" and page.kategorija == "Promet" -%}{%- assign nav_sec = "promet" -%}
 {%- elsif page.layout == "kategorija" -%}{%- assign nav_sec = "kategorije" -%}
 {%- elsif page.layout == "post" -%}
   {%- if page.type == "Povijest" or page.categories contains "POVIJEST GK" -%}{%- assign nav_sec = "povijest" -%}
   {%- elsif page.type == "Zaposlenje" -%}{%- assign nav_sec = "zaposlenje" -%}
+  {%- elsif page.tags contains "natjecaji" -%}{%- assign nav_sec = "natjecaji" -%}
+  {%- elsif page.type == "Promet" or page.categories contains "Promet" or page.tags contains "promet" -%}{%- assign nav_sec = "promet" -%}
   {%- elsif page.event_date -%}{%- assign nav_sec = "dogadaji" -%}
   {%- else -%}{%- assign nav_sec = "vijesti" -%}{%- endif -%}
 {%- endif -%}
@@ -82,7 +87,9 @@
           {%- if item.url == "/dogadaji/" and nav_sec == "dogadaji" -%}{%- assign nav_cur = true -%}{%- endif -%}
           {%- if item.url == "/povijest/" and nav_sec == "povijest" -%}{%- assign nav_cur = true -%}{%- endif -%}
           {%- if item.url == "/kategorije/" and nav_sec == "kategorije" -%}{%- assign nav_cur = true -%}{%- endif -%}
-          {%- if item.url == "/zaposlenje/" and nav_sec == "zaposlenje" -%}{%- assign nav_cur = true -%}{%- endif %}
+          {%- if item.url == "/zaposlenje/" and nav_sec == "zaposlenje" -%}{%- assign nav_cur = true -%}{%- endif -%}
+          {%- if item.url == "/natjecaji/" and nav_sec == "natjecaji" -%}{%- assign nav_cur = true -%}{%- endif -%}
+          {%- if item.url == "/promet/" and nav_sec == "promet" -%}{%- assign nav_cur = true -%}{%- endif %}
         <a href="{{ item.url | relative_url }}"{% if nav_cur %} class="current"{% if page.url == item.url %} aria-current="page"{% endif %}{% endif %}>{{ item.title }}</a>
         {%- endfor %}
       </nav>
@@ -102,6 +109,8 @@
         <a class="m-chip" href="{{ '/' | relative_url }}#blok-{{ b.id }}">{{ b.naslov }}</a>
         {%- endfor %}
         <a class="m-chip m-chip-zap" href="{{ '/zaposlenje/' | relative_url }}">💼 Zaposlenje</a>
+        <a class="m-chip" href="{{ '/natjecaji/' | relative_url }}">Natječaji</a>
+        <a class="m-chip" href="{{ '/promet/' | relative_url }}">Promet</a>
         <span class="m-chip-sep" aria-hidden="true"></span>
         {%- for k in site.data.kategorije.lokacije %}
         <a class="m-chip m-chip-loc" href="{{ '/' | relative_url }}?kategorija={{ k.slug }}">{{ k.name }}</a>

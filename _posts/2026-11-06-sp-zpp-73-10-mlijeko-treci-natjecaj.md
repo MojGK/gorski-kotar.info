@@ -5,6 +5,7 @@ date: 2026-11-06 08:50:00 +0100
 location: Gorski kotar
 type: Aktualno
 categories: [Gorski kotar, Aktualno]
+tags: [natjecaji]
 excerpt: "Agencija za plaćanja objavila je treći natječaj intervencije 73.10 za sektor mlijeka: potpora 15.000–500.000 €, intenzitet 45 % (do 60 % za mlade i žene nositeljice), ukupno 15 mil. €. Rok: 1. 12. 2026. u 12 sati."
 image: /assets/images/tele-istarsko-govedo.jpg
 image_alt: "Tele istarskog goveda na pašnjaku (ilustrativna fotografija)"

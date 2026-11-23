@@ -1172,6 +1172,35 @@ h1, h2, h3, .post-card h3 a, .izd-title { overflow-wrap: break-word; }
   .post-content .oglasi-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 }
 
+/* NATJEČAJI – iste kartice kao zaposlenje, zelena varijanta */
+.post-content .natjecaji-lista .oglas-k { border-color: #c5e0cc; border-left-color: var(--green, #2e7d32); box-shadow: 0 2px 8px rgba(20,61,36,0.08); }
+.post-content .natjecaji-lista .ok-posl { color: var(--green-dark, #143d24); }
+.post-content .natjecaji-lista .ok-det { border-top-color: #c5e0cc; }
+.post-content .natjecaji-lista .ok-btn { background: var(--green, #2e7d32); }
+.post-content .natjecaji-lista .ok-btn:hover { background: #143d24; color: #fff; }
+.post-content .natjecaji-lista .ok-alt { color: var(--green-dark, #143d24); }
+.t-natjecaji { --tc: #1b5e20; }
+
+.natjecaji-page h1, .promet-page h1 { display: flex; align-items: center; gap: 10px; }
+
+.sluzbeni-okvir { margin: 0 0 22px; padding: 14px 16px; border-radius: 14px; background: #f3f8f4; border: 1px solid #c5e0cc; border-left: 6px solid var(--green, #2e7d32); }
+.sluzbeni-okvir h2 { margin: 0 0 8px; font-size: 1.05rem; color: var(--green-dark, #143d24); }
+.sluzbeni-okvir ul { margin: 0; padding-left: 1.2rem; }
+.sluzbeni-okvir li { margin: 0.3rem 0; }
+.sluzbeni-okvir a { font-weight: 700; }
+
+/* Uži glavni izbornik dok ima 8 stavki (Natječaji i Promet), da se Povijest ne preklope s pretragom */
+@media (min-width: 900px) {
+  .header-inner { min-width: 0; }
+  .main-nav, .site-header .main-nav { overflow-x: auto; flex-wrap: nowrap; flex: 1 1 0; min-width: 0; scrollbar-width: thin; }
+  .main-nav a { padding: 8px 7px; font-size: 0.8rem; white-space: nowrap; flex: 0 0 auto; }
+  .site-header .search { flex: 0 0 180px; max-width: 180px; }
+}
+@media (min-width: 1200px) {
+  .main-nav a { padding: 8px 8px; font-size: 0.82rem; }
+  .site-header .search { flex: 0 0 200px; max-width: 200px; }
+}
+
 /* Serija članaka (front matter `serija`) – okvir ispod članka */
 .serija-box { margin: 1.75rem 0 1rem; padding: .9rem 1.1rem; background: var(--green-soft); border-left: 4px solid var(--green); border-radius: 6px; }
 .serija-box .serija-naslov { margin: 0 0 .5rem; font-size: 1rem; color: var(--green-dark); }

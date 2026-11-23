@@ -6,6 +6,7 @@ show_time: false
 location: Delnice
 type: Promet
 categories: [Delnice, Promet]
+tags: [promet]
 excerpt: Prostor ispred Radničkog doma postat će novi trg, a radovi bi trebali početi iduće godine. Otvara se i pitanje parkiranja.
 image: /assets/images/delnice-ulica.jpg
 image_alt: "Ulica u Delnicama"

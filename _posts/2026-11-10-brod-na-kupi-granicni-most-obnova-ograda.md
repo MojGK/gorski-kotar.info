@@ -5,7 +5,8 @@ date: 2026-11-10 16:10:00 +0100
 azurirano: 2026-11-10 19:25:00 +0100
 location: Delnice
 type: Aktualno
-categories: [Delnice, Aktualno]
+categories: [Delnice, Aktualno, Promet]
+tags: [promet]
 excerpt: "Uz upozorenje predsjednika MO Brod na Kupi Davorina Klobučara da obećana obnova graničnog mosta prema Petrini nije stigla, delnički gradonačelnik Igor Pleše za Novi list kaže da Grad Delnice nema ingerenciju jer je most u nadležnosti Hrvatskih cesta. Sanaciju i asfaltiranje, prema posljednjoj informaciji koju ima, očekuje iduće godine u proljeće sa slovenske strane. Očitovanje Hrvatskih cesta nije objavljeno."
 image: /assets/images/brod-na-kupi-granicni-most-ograda-ai.jpg
 image_alt: "AI ilustracija: cestovni most preko rijeke u jesenskoj goranskoj dolini, s metalnom ogradom duž kolnika"

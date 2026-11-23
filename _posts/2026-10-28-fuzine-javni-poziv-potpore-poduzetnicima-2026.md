@@ -5,6 +5,7 @@ date: 2026-10-28 15:09:00 +0100
 location: Fužine
 type: Aktualno
 categories: [Fužine, Aktualno]
+tags: [natjecaji]
 excerpt: "Općina Fužine zove mikrogospodarstva na javni poziv za 2026.: strojevi i oprema te kušaonica, izletište, odmorište ili kamp. Prijave online do 26. studenoga."
 image: /assets/images/jezero-bajer.jpg
 image_alt: "Jezero Bajer u Fužinama"

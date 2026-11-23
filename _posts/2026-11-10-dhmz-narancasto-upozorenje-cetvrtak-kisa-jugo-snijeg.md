@@ -5,6 +5,7 @@ date: 2026-11-10 13:00:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Državni hidrometeorološki zavod za Primorsko-goransku županiju danas i u srijedu ima žuto upozorenje zbog lokalno obilne kiše, uglavnom u gorju, a u četvrtak narančasto zbog mjestimice obilne kiše i olujnog vjetra. Upozorenja vrijede za cijelu županiju. U petak bi, prema medijskim prognozama, kiša u Gorskoj Hrvatskoj mogla prijeći u susnježicu i snijeg."
 image: /assets/images/kisa-goranska-suma-cesta-ai.jpg
 image_alt: "AI ilustracija: mokra cesta kroz goransku šumu po jakoj kiši, uz nabujali potok"

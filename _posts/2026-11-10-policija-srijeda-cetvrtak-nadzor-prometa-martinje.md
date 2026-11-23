@@ -5,6 +5,7 @@ date: 2026-11-10 09:30:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "Policijska uprava primorsko-goranska, preuzimajući priopćenje MUP-a, najavila je pojačani nadzor prometa u srijedu i četvrtak, 11. i 12. studenoga, zbog Martinja, s naglaskom na vožnju pod utjecajem alkohola. Priopćenje ne imenuje konkretne točke u Gorskom kotaru; nadzor vrijedi za cijelo područje uprave."
 image: /assets/images/pojacani-nadzor-prometa-martinje-ai.jpg
 image_alt: "AI ilustracija: noćni kontrolni punkt prometne policije uz goransku cestu, službenik s alkotestom pokraj zaustavljenog automobila"

@@ -5,6 +5,7 @@ date: 2026-11-02 13:52:00 +0100
 location: Gorski kotar
 type: Promet
 categories: [Gorski kotar, Promet]
+tags: [promet]
 excerpt: "U nedjelju je snijeg zabijelio najviše goranske predjele. Na cesti Mrkopalj – Ravna Gora vozila su proklizavala, a kod Starog Laza sudarila su se dva automobila. A6 između Kikovice i Delnica zbog vjetra je otvorena samo za osobna vozila."
 image: /assets/images/a6-javorova-kosa.jpg
 image_alt: "Autocesta A6 u Gorskom kotaru zimi, ulaz u tunel (ilustrativna fotografija)"

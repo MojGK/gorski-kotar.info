@@ -5,6 +5,7 @@ date: 2026-11-13 20:15:00 +0100
 location: Fužine
 type: Aktualno
 categories: [Fužine, Aktualno]
+tags: [natjecaji]
 excerpt: "Općina Fužine raspisala je javni natječaj za zakup triju javnih površina: dvije lokacije s kioscima uz igralište pod branom, po 87,50 eura mjesečno na 18 mjeseci, i jedno mjesto za reklamni pano na pristaništu jezera Bajer, 20 eura mjesečno na pet godina. Pisane ponude predaju se do 26. studenoga u 10 sati."
 image: /assets/images/fuzine-zakup-kiosk-igraliste-bajer-ai.jpg
 image_alt: "AI ilustracija: drveni kiosk uz prazno dječje igralište podno brane jezera Bajer, s košarama domaćih jabuka, bez osoba i natpisa"
